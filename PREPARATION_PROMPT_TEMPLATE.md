@@ -291,8 +291,10 @@ The preparation run must compile all findings into `~/storage/downloads/Sync/PRE
 - New precache assets in `sw.js` and sync verification in `sync-www.js`.
 
 ## 10. TWO-PARTY VERIFICATION PROTOCOL PREVIEW
-- Automated checks to be executed by agent (`node --check`, `npm run build:web`).
-- Physical mobile verification steps to be executed by user on Android (`http://localhost:8080`).
+- **Stage 1 (Preparation Checks):** Enumeration of safe, non-mutating inspection checks actually performed during preparation (read-only source and documentation inspection, git status/log/branch/remote inspection, and side-effect-free `node --check <file>` on existing files only when safe). Reiterate that builds (`npm run build:web`), package installations, server startups, and other mutating or execution actions remain strictly prohibited during preparation.
+- **Stage 2 (Execution & Verification Checks - Post-Approval Only):** Preview of implementation verification tasks to be performed ONLY after the owner has explicitly approved the finalized Execution Prompt and Stage 2 has begun:
+  - *Automated Agent Checks:* Relevant build and validation checks dictated by the milestone specification (e.g., `npm run build:web`, syntax validation of modified files; checks are milestone-specific and determined by the applicable execution prompt rather than run blindly).
+  - *Physical Mobile Verification:* Manual user testing steps on physical Android device (`http://localhost:8080`) performed strictly post-implementation to verify live behavior, layout, and functionality.
 
 ## 11. MATTERS TO RESOLVE WITH CHATGPT & FINAL INTEGRITY STATEMENT
 - Bulleted agenda for the user's discussion with ChatGPT.
