@@ -1,7 +1,8 @@
 # Top_Models: Complete Architecture and State Specification
 
 **Document Version:** 1.0.0  
-**Target File:** `~/storage/downloads/codebase_1.md`  
+**Target File:** `~/storage/downloads/Sync/codebase_1.md`
+**Document Role:** Authoritative record of verified current-state architecture, completed milestone baselines, and technical handovers.
 **Audience:** Incoming AI Pair Programmer / Autonomous Agent  
 **Context:** Technical handover document for the `Top_Models` project. Complete standalone reference; reading this document eliminates the need to inspect raw source code for project orientation.
 
@@ -35,8 +36,8 @@
 - **NormalizedModel:** The standard 15-property JavaScript object produced by `createNormalizedModel()` in `adapters/_normalize.js`, serving as the universal schema for all downstream ranking, filtering, and UI rendering.
 - **CORS Proxy:** A Python server (`proxy.py`) listening exclusively on `127.0.0.1:8081` that relays browser fetch requests to upstream provider APIs while injecting permissive CORS headers (`Access-Control-Allow-Origin: *`, `Authorization` passthrough).
 - **IS_BROWSER Check:** Runtime check (`typeof window !== 'undefined' && typeof window.document !== 'undefined'`) used in adapters to determine whether to route requests through the local CORS proxy (browser) or execute direct HTTPS requests (CLI/Node.js).
-- **KG_filter (key Group Filter):** Conceptual declarative filter rules for future milestone 0C-6D, defining criteria for filtering normalized models (e.g., chat vs non-chat, free vs paid, modalities).
-- **KG_column (key Group Column):** Conceptual schema for future milestone 0C-6E, allowing dynamic columns derived from model data keys rather than hardcoded 6 static columns.
+- **KG_filter (Key Group Filter):** Declarative filter rules defining criteria for filtering normalized models. In-memory filter evaluation, popover UI, and extended rows were implemented in completed Milestone 0C-6D (chat, free tier, reasoning); advanced declarative capability and modality filters (`has_tools`, `has_files`, input modalities) are scheduled for future Milestone 0C-6G.
+- **KG_column (Key Group Column):** Conceptual schema for future milestone 0C-6E, allowing dynamic columns derived from model data keys rather than hardcoded 6 static columns.
 - **Tri-State Field:** A field with three valid states: `true`, `false`, and `null`. Specifically applied to `free`: `true` = model-level free confirmed; `false` = model-level paid/metered confirmed; `null` = no pricing signal available; free access assumed at account level.
 - **Cache-Bust Version:** Query string attached to module imports in `index.html` (e.g., `./core.js?v=0F`) forcing browsers to bypass HTTP caches when core scripts are modified.
 - **SW (Service Worker):** Client-side worker script (`sw.js`) managing PWA offline asset caching via the Cache API using a versioned container (`CACHE_NAME`).
@@ -439,7 +440,7 @@ Development on `Top_Models` operates under a strict **two-party verification pro
 
 ### Upcoming Milestones
 - **0C-6E (Dynamic Column UI — `KG_column`):** Replace fixed 6-column `thead` with dynamic, schema-driven column selection; column visibility toggle popover/drawer; user-selected sort hierarchies across any numeric/comparable schema property; persistent layout per provider (`columnState_<providerId>`).
-- **0C-6F (Multi-Provider Home Page & Global View):** Aggregate multi-cloud discovery root view across all enabled providers. Core UI Parity Invariant: Top controls (Refresh, Estimate Refusal Rates, Export) and bottom controls (Filter, Zoom) maintain exact physical positions as individual provider pages; global cascade (multi-provider refresh, nested JSON export, global filter via `filterState_global`).
+- **0C-6F (Multi-Provider Home Page & Global View):** Aggregate multi-cloud discovery root view across all enabled providers. Core UI Parity Invariant: Top controls (Refresh, Estimate Refusal Rates, Export) and bottom controls (Desktop View, Filter, Columns) maintain exact physical positions as individual provider pages; global cascade (multi-provider refresh, nested JSON export, global filter via `filterState_global`).
 - **0C-6G (Advanced Capability & Modality Filters):** Declarative tri-state toggles (`has_tools`, `has_files`) and input modality toggles (`text`, `image`, `audio`) in `_filter.js` without HTML churn.
 - **0C-2 (Multi-Source Benchmark Enrichment):** Comprehensive multi-source benchmark ingestion spanning Artificial Analysis, LiveBench (Free, coding/reasoning), HuggingFace Open LLM Leaderboard (Free), BenchLM (Free tier), BenchGecko (Free tier), and LMArena (Web only); cross-provider slug normalization.
 - **0C-7 (Cross-Provider Refusal Rates):** Extend `refreshRefusalRates` estimation logic to normalize model slugs across all providers, populating refusal rates across all non-OpenRouter models.
@@ -448,7 +449,7 @@ Development on `Top_Models` operates under a strict **two-party verification pro
 - **0D-1 (2-Layer Normalization Architecture — Heavy Lift):** Layer 1 lossless dynamic ingestion capturing upstream vendor properties, endpoints, quotas, and all 6 multi-source benchmark evaluation fields; Layer 2 interactive semantic mapping projecting Layer 1 attributes into dynamic matrix columns (`KG_column`) and filter criteria (`KG_filter`).
 - **0D-2 (Model Routing & Recommendation Engine):** Autonomous client-side model router evaluating user task constraints (free tier, context window, latency, benchmark thresholds, rate limits, modalities) with Pareto-optimal scoring and API snippet generation.
 - **0E-1 (CLI Parity & Metadata Export Modernization):** Upgrade `cli.js` to universal 13-provider pipeline support with CLI filtering (`--free-only`, `--chat-only`); modernize `Export Data` payload with provenance, timestamps, active filters, and schema version.
-- **0E-2 (Production Edge CORS Proxy Deployment):** Deploy lightweight Cloudflare Worker / Vercel Edge function to resolve Mixed Content blocking on live HTTPS origins (GitHub Pages).
+- **0E-2 (Production Edge CORS Proxy Deployment):** Deploy lightweight Cloudflare Worker to resolve Mixed Content blocking on live HTTPS origins (GitHub Pages).
 - **0E-3 (Production Release — GitHub Pages & Native APK):** Final push to `origin/main`, live GitHub Pages PWA deployment, signed Capacitor Android APK build, and v1.0.0 release tagging.
 
 ---
@@ -559,10 +560,10 @@ Zero external npm production dependencies for the web or CLI runtime. The dashbo
 
 1. **Option A' (Dedicated Folder Per Provider) vs. Declarative JSON Config:**  
    While declarative JSON configs work for standard OpenAI clones, providers routinely introduce structural deviations: Gemini uses `x-goog-api-key` and `v1beta/models`; Cohere uses `name` instead of `id` and requires `v2/models`; OpenRouter requires 3-tier parallel telemetry and benchmark merging; LLM7 uses custom `usage_based_only` booleans. Dedicated ES modules (`adapters/<provider>/index.js`) encapsulate vendor quirks with zero leaky abstractions.
-2. **KG_filter vs. KG_column Conceptual Split (0C-6D & 0C-6E):**  
+2. **KG_filter vs. KG_column Conceptual Split (0C-6D/0C-6G & 0C-6E):**
    Filtering and column rendering address orthogonal concerns:
-   - `KG_filter` controls **which rows exist** in the candidate matrix (e.g. Chat vs Vision vs Paid).
-   - `KG_column` controls **which vertical attributes are visualized** (e.g. Context vs Coding vs Latency). Decoupling them prevents filter states from mutating column schemas.
+   - `KG_filter` controls **which rows exist** in the candidate matrix (e.g. Chat vs Vision vs Paid). The baseline in-memory filtering engine, popover UI, and extended row delegation were implemented in completed Milestone 0C-6D, with advanced capability and modality filters scheduled for Milestone 0C-6G.
+   - `KG_column` controls **which vertical attributes are visualized** (e.g. Context vs Coding vs Latency), scheduled for future Milestone 0C-6E. Decoupling them prevents filter states from mutating column schemas.
 3. **Why `free` is a Filter Field, Not a Table Column:**  
    `free` is an eligibility prerequisite, not a comparable performance metric. Users do not sort models by "how free" they are; they want to restrict the matrix to zero-cost models or inspect paid models. Modeling `free` as a tri-state filter attribute rather than a ranked column keeps the matrix focused on technical capability.
 4. **Why `normalize()` Precedes `filter()`:**  

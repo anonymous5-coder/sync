@@ -1,6 +1,7 @@
 # Top_Models: Master Architecture Plan, Roadmap & Milestone Execution Specs
 
 **Target File:** `~/storage/downloads/Sync/MASTER_PLAN.md`  
+**Document Role:** Canonical authority for forward-looking milestone requirements, roadmap sequencing, cache version ledgers, and execution specifications.
 **Status:** CANONICAL FORWARD EXECUTION ROADMAP & UNIFIED MILESTONE SPECS  
 **Author:** AI Architecture & Execution Pair (Argon / DeepSeek / Antigravity)  
 **Date:** October 2026  
@@ -172,7 +173,7 @@ Every milestone modifying JavaScript modules, HTML structure, or precached stati
 | **0C-6F** | Multi-Provider Home Page & Global View | `core.js?v=0K` | `matrix-cache-v13` | None (Updates to existing modules) | Mirrored via `adapters/` | `node --check core.js && npm run build:web` |
 | **0C-6G** | Advanced Capability & Modality Filters | `core.js?v=0L` | `matrix-cache-v14` | None (Updates to `_filter.js` & adapters) | Mirrored via `adapters/` | `node --check core.js && npm run build:web` |
 | **0C-2** | Multi-Source Benchmark Enrichment | `core.js?v=0M` | `matrix-cache-v15` | `./adapters/_slug.js`, `./benchmarks/benchmarks_data.json` | Add `benchmarks/` copy step to `sync-www.js` | `node --check core.js && npm run build:web` |
-| **0C-7** | Cross-Provider Refusal Rates | `core.js?v=0N` | `matrix-cache-v16` | `./refusal_rates.json` | Add `refusal_rates.json` copy step to `sync-www.js` | `node --check core.js && npm run build:web` |
+| **0C-7** | Cross-Provider Refusal Rates | `core.js?v=0N` | `matrix-cache-v16` | `./refusal_rates.json` | Verify `refusal_rates.json` copy step in `sync-www.js` (already conditionally included; add only if absent) | `node --check core.js && npm run build:web` |
 | **0C-8** | Group B Provider Adapters (Custom APIs) | `core.js?v=0O` | `matrix-cache-v17` | `./adapters/cloudflare/index.js`, `./adapters/ollama/index.js`, `./adapters/ovh/index.js`, `./adapters/watsonx/index.js` | Mirrored via `adapters/` | `node --check core.js && npm run build:web` |
 | **0C-9** | Telemetry & Rate Limit Ingestion | `core.js?v=0P` | `matrix-cache-v18` | `./rate_limits.json` | Add `rate_limits.json` copy step to `sync-www.js` | `node --check core.js && npm run build:web` |
 | **0D-1** | 2-Layer Normalization Architecture | `core.js?v=0Q` | `matrix-cache-v19` | `./adapters/_layer1.js`, `./adapters/_layer2.js` | Mirrored via `adapters/` | `node --check core.js && npm run build:web` |
@@ -839,7 +840,7 @@ When the user taps `Estimate Refusal Rates` from a non-OpenRouter provider view 
 ### 3. Execution Directives & Safeguards (Prompt Rules)
 1. **DO NOT lock refusal rates to OpenRouter UI.** Remove the `style.display = (p.id === 'openrouter') ? '' : 'none'` guard from `index.html`.
 2. **Respect Column 5 Sorting Contract:** Refusal rate ranking must remain ascending (0% at top, nulls at bottom via `+999999`).
-3. **Sync `refusal_rates.json`:** Both `sw.js` and `sync-www.js` must track `refusal_rates.json`.
+3. **Sync `refusal_rates.json`:** Both `sw.js` and `sync-www.js` must track `refusal_rates.json` (verify existing conditional copy in `sync-www.js`; add only if absent).
 4. **Precache & Cache Busting:**
    - Update `index.html` import to `./core.js?v=0N`.
    - Update `sw.js` `CACHE_NAME` to `matrix-cache-v16`.

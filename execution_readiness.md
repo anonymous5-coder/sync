@@ -1,15 +1,20 @@
 # TOP_MODELS — EXECUTION READINESS & USER DECISION AUDIT
 
 **Target Document:** `~/storage/downloads/Sync/execution_readiness.md`  
-**Date:** October 2026  
+**Document Role:** Historical audit snapshot (October 2026) and architecture decision brief requiring per-milestone revalidation.
+**Audit Snapshot Date:** October 2026
 **Auditor:** AI Architectural Auditor & Planning Pair  
 **Baseline Git Commit:** `942bb06` (`Milestone 0C-6D: Implement in-memory filter UI, model-bound extended rows, and event delegation`)  
 **Active Baseline Identifiers:** `core.js?v=0I`, `matrix-cache-v11`  
+**Audited Plan Revision:** `MASTER_PLAN.md` (Commit `f40b9c1`, 1613 lines)
 **Audited Artifacts:**
 - Master Plan: `~/storage/downloads/Sync/MASTER_PLAN.md` (Commit `f40b9c1`, 1613 lines)
 - Canonical Architecture: `~/storage/downloads/Sync/codebase_1.md` (599 lines)
 - Live Application Codebase: `~/Top_Models/` (12 root and adapter modules)
 - Historical Planning Context: `~/storage/downloads/conversations.md` (430 lines)
+
+> [!NOTE]
+> **Audit Snapshot Nature & Revalidation Requirement:** This document represents an audit snapshot capturing the exact repository and specification state as of October 2026 (baseline `942bb06`). Its findings, defect analyses, and proposed options do not automatically remain current as code evolves. Each milestone's Stage 1 Preparation Prompt must independently revalidate these findings against current source and the canonical `MASTER_PLAN.md`.
 
 ---
 
@@ -18,12 +23,12 @@
 ### Primary Verdict: **CONDITIONALLY READY**
 
 #### Strategic Rationale:
-1. **Architectural Coherence & Structural Soundness:** `MASTER_PLAN.md` establishes a complete, logically sequenced 12-milestone Directed Acyclic Graph (DAG) spanning Phase 0C through Phase 0E. The high-level architectural abstractions—declarative dynamic columns (`KG_column`), global multi-provider aggregation, two-layer normalization, client-side Pareto routing, and edge proxy deployment—are robust, well-reasoned, and aligned with project constraints (Android Termux, BYOK, zero external server dependencies, strict quota management).
+1. **Architectural Coherence & Structural Soundness:** `MASTER_PLAN.md` establishes a complete, logically sequenced 12-milestone Directed Acyclic Graph (DAG) spanning Phase 0C through Phase 0E. The high-level architectural abstractions—declarative dynamic columns (`KG_column`), global multi-provider aggregation, two-layer normalization, client-side Pareto routing, and edge proxy deployment—are robust, well-reasoned, and aligned with project constraints (Android Termux, BYOK, zero external server dependencies in the current local baseline—transitioning to a lightweight Cloudflare Worker edge proxy in Milestone 0E-2 for production HTTPS CORS resolution—and strict quota management).
 2. **Material Plan-to-Code Discrepancies Identified:** The plan is **NOT** unconditionally ready for autonomous execution because three material specification defects exist in the earliest execution milestones (Specs 2.1, 2.2, and 2.3). If an agent executed these specifications literally without pre-resolved corrections:
    - In Milestone 0C-6E (Spec 2.1), model expansion would fail with `undefined` property lookups due to numerical index vs. string key mismatches.
    - In Milestone 0C-6F (Spec 2.2), Global View navigation in the side drawer would be silently rejected by `PROVIDER_REGISTRY` guards, and the refusal rate button would be hidden by legacy DOM display rules.
    - In Milestone 0C-6G (Spec 2.3), capability filters (`has_tools`, `has_files`, `raw_modalities`) would appear in the popover but be completely inert because `applyModelFilters()` in `_filter.js` hardcodes evaluation strictly for `free` and `is_chat`.
-3. **Execution Path to "Fully Ready":** These three defects are localized, well-understood implementation bridges. Once the project owner reviews and approves the four discrete architecture decisions detailed in Section 7, and the P0/P1 corrections are applied to the milestone implementation prompts, sequential execution of Milestone 0C-6E can commence immediately with zero architectural risk.
+3. **Execution Path to "Fully Ready":** These three defects are localized, well-understood implementation bridges. However, resolving architecture decisions in ChatGPT is not, by itself, authorization to implement. The authorized 24-prompt workflow requires: (1) Stage 1 read-only preparation and evidence collection; (2) generation of a milestone preparation report for review in ChatGPT; (3) discussion and resolution of owner decisions; (4) refinement of the milestone Execution Prompt incorporating approved choices; (5) explicit owner approval of the finalized Execution Prompt; and (6) only then, authorized Stage 2 implementation of Milestone 0C-6E.
 
 ---
 
@@ -33,30 +38,36 @@ Every specification in `MASTER_PLAN.md` Part 2 was audited against the live sour
 
 ```
 ================================================================================
-STATUS DEFINITIONS:
+STATUS & VERDICT DEFINITIONS:
   - IMPLEMENTED AND VERIFIED: Code exists, functions correctly, and matches spec.
   - IMPLEMENTED WITH ISSUES: Code exists but exhibits bugs, debt, or divergence.
   - PLANNED BUT NOT IMPLEMENTED: Fully specified forward feature awaiting execution.
+      * Prerequisites Satisfied: Predecessor milestones already exist in baseline.
+      * Planned Sequence: Positioned in sequential roadmap order.
   - BLOCKED BY A DEPENDENCY: Cannot be executed until predecessor milestone completes.
+      * Distinguishes unmet prerequisites from those already satisfied in baseline.
   - NOT VERIFIED — EVIDENCE INSUFFICIENT: Insufficient evidence to evaluate.
+  - Plan Quality Verdict "CONSISTENT": Evaluates internal specification coherence
+      and DAG compatibility within MASTER_PLAN.md. It does NOT indicate that code
+      exists, that prerequisites are met, or that implementation is authorized.
 ================================================================================
 ```
 
 | Spec ID | Target Milestone Name | Logical Phase | Readiness Status | Plan Quality Verdict | Primary Source Contracts & Evidence |
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | **0C-6D** | *Filter UI & Delegation (Baseline)* | Phase 0C | **IMPLEMENTED AND VERIFIED** | **COMPLETE** | `adapters/_filter.js:1–50`, `index.html:431–449, 985–993`, Commit `942bb06`. |
-| **2.1** | **0C-6E: Dynamic Column UI** | Phase 0C | **PLANNED BUT NOT IMPLEMENTED** | **ISSUES FOUND** | `adapters/_columns.js` missing; `index.html:462, 862, 899` index mismatch. |
-| **2.2** | **0C-6F: Multi-Provider Home Page** | Phase 0C | **BLOCKED BY A DEPENDENCY** | **ISSUES FOUND** | Depends on 0C-6E; `_registry.js:14–154` lacks `'all'`; `index.html:772, 1027`. |
-| **2.3** | **0C-6G: Capability Filters & Debt** | Phase 0C | **BLOCKED BY A DEPENDENCY** | **ISSUES FOUND (Defect)** | Depends on 0C-6D/6F; `_filter.js:33–50` hardcoded loop; Group A adapter debts. |
-| **2.4** | **0C-2: Multi-Source Benchmarks** | Phase 0C | **BLOCKED BY A DEPENDENCY** | **CONSISTENT** | Depends on 0C-6F; `_slug.js` missing; `benchmarks/` missing; `model_stats.json:1–17`. |
-| **2.5** | **0C-7: Cross-Provider Refusal Rates** | Phase 0C | **BLOCKED BY A DEPENDENCY** | **CONSISTENT** | Depends on 0C-2; `core.js:22–86` locked to OpenRouter; `refusal_rates.json:1–13`. |
-| **2.6** | **0C-8: Group B Provider Adapters** | Phase 0C | **PLANNED BUT NOT IMPLEMENTED** | **CONSISTENT** | Depends on 0C-1/6B; `_registry.js:114–153` (`implemented: false`); `proxy.py:51–57`. |
-| **2.7** | **0C-9: Telemetry & Rate Limits** | Phase 0C | **BLOCKED BY A DEPENDENCY** | **CONSISTENT** | Depends on 0C-8/6E; `rate_limits.json` missing; `proxy.py:18–23` lacks expose headers. |
-| **2.8** | **0D-1: 2-Layer Normalization** | Phase 0D | **BLOCKED BY A DEPENDENCY** | **CONSISTENT** | Depends on 0C-2/9/6E; `_layer1.js`, `_layer2.js` missing; `_normalize.js:1–38`. |
-| **2.9** | **0D-2: Model Routing Engine** | Phase 0D | **BLOCKED BY A DEPENDENCY** | **CONSISTENT** | Depends on 0D-1; `_router.js` missing; Popover mutual exclusion rules. |
-| **2.10** | **0E-1: CLI Parity & Export JSON** | Phase 0E | **BLOCKED BY A DEPENDENCY** | **CONSISTENT** | Depends on 0C-8/6D; `cli.js:1–114` OpenRouter-only; `index.html:1153–1194`. |
-| **2.11** | **0E-2: Production Edge CORS Proxy** | Phase 0E | **BLOCKED BY A DEPENDENCY** | **CONSISTENT** | Depends on 0C-8; `edge/worker.js` missing; runtime proxy resolver needed. |
-| **2.12** | **0E-3: Production Release v1.0.0** | Phase 0E | **BLOCKED BY A DEPENDENCY** | **CONSISTENT** | Depends on all prior; `package.json:1–32`; Android Capacitor sync & build. |
+| **2.1** | **0C-6E: Dynamic Column UI** | Phase 0C | **PLANNED BUT NOT IMPLEMENTED** (Prerequisite 0C-6D satisfied) | **ISSUES FOUND** | `adapters/_columns.js` missing; `index.html:462, 862, 899` index mismatch. |
+| **2.2** | **0C-6F: Multi-Provider Home Page** | Phase 0C | **BLOCKED BY A DEPENDENCY** (Waiting for 0C-6E) | **ISSUES FOUND** | Depends on 0C-6E; `_registry.js:14–154` lacks `'all'`; `index.html:772, 1027`. |
+| **2.3** | **0C-6G: Capability Filters & Debt** | Phase 0C | **BLOCKED BY A DEPENDENCY** (0C-6D satisfied; waiting for 0C-6F) | **ISSUES FOUND (Defect)** | Depends on 0C-6D, 0C-6F; `_filter.js:33–50` hardcoded loop; Group A adapter debts. |
+| **2.4** | **0C-2: Multi-Source Benchmarks** | Phase 0C | **BLOCKED BY A DEPENDENCY** (Waiting for 0C-6F) | **CONSISTENT** | Depends on 0C-6F; `_slug.js` missing; `benchmarks/` missing; `model_stats.json:1–17`. |
+| **2.5** | **0C-7: Cross-Provider Refusal Rates** | Phase 0C | **BLOCKED BY A DEPENDENCY** (Waiting for 0C-2) | **CONSISTENT** | Depends on 0C-2; `core.js:22–86` locked to OpenRouter; `refusal_rates.json:1–13`. |
+| **2.6** | **0C-8: Group B Provider Adapters** | Phase 0C | **PLANNED BUT NOT IMPLEMENTED** (Prerequisites 0C-1, 0C-6B satisfied in baseline; Seq 6) | **CONSISTENT** | Depends on 0C-1, 0C-6B; `_registry.js:114–153` (`implemented: false`); `proxy.py:51–57`. |
+| **2.7** | **0C-9: Telemetry & Rate Limits** | Phase 0C | **BLOCKED BY A DEPENDENCY** (Waiting for 0C-8, 0C-6E) | **CONSISTENT** | Depends on 0C-8, 0C-6E; `rate_limits.json` missing; `proxy.py:18–23` lacks expose headers. |
+| **2.8** | **0D-1: 2-Layer Normalization** | Phase 0D | **BLOCKED BY A DEPENDENCY** (Waiting for 0C-2, 0C-9, 0C-6E) | **CONSISTENT** | Depends on 0C-2, 0C-9, 0C-6E; `_layer1.js`, `_layer2.js` missing; `_normalize.js:1–38`. |
+| **2.9** | **0D-2: Model Routing Engine** | Phase 0D | **BLOCKED BY A DEPENDENCY** (Waiting for 0D-1) | **CONSISTENT** | Depends on 0D-1; `_router.js` missing; Popover mutual exclusion rules. |
+| **2.10** | **0E-1: CLI Parity & Export JSON** | Phase 0E | **BLOCKED BY A DEPENDENCY** (0C-6D satisfied; waiting for 0C-8) | **CONSISTENT** | Depends on 0C-8, 0C-6D; `cli.js:1–114` OpenRouter-only; `index.html:1153–1194`. |
+| **2.11** | **0E-2: Production Edge CORS Proxy** | Phase 0E | **BLOCKED BY A DEPENDENCY** (Waiting for 0C-8) | **CONSISTENT** | Depends on 0C-8; `edge/worker.js` missing; runtime proxy resolver needed. |
+| **2.12** | **0E-3: Production Release v1.0.0** | Phase 0E | **BLOCKED BY A DEPENDENCY** (Waiting for all prior milestones) | **CONSISTENT** | Depends on all prior; `package.json:1–32`; Android Capacitor sync & build. |
 
 ---
 
@@ -409,12 +420,24 @@ flowchart TD
     M0E1 & M0E2 & M0D2 --> M0E3["12. Milestone 0E-3: Production Release v1.0.0 (GitHub Pages & Native APK)"]
 ```
 
-### Execution Protocol per Milestone:
-1. **Prompt Ingestion:** User delivers the Milestone Execution Spec from `MASTER_PLAN.md` with pre-baked P0/P1 corrections.
-2. **Code Authoring:** Executor agent modifies target files, updates `index.html` cache-bust import, updates `sw.js` `CACHE_NAME`, and precaches new assets.
-3. **Automated Verification:** Executor runs `node --check` and `npm run build:web`.
-4. **Physical Browser Test:** User verifies interactive behavior on Android (`http://localhost:8080`).
-5. **Git Commit & Handover:** Executor creates dedicated milestone commit and updates `codebase_1.md`.
+### 24-Prompt Two-Stage Milestone Protocol:
+For each of the 12 sequential milestones, the project enforces a strict two-stage, two-party protocol:
+
+1. **Stage 1: Preparation & Evidence Gathering (Read-Only):**
+   - Operator instantiates a milestone Preparation Prompt from `PREPARATION_PROMPT_TEMPLATE.md`.
+   - `agy-termux` runs read-only baseline verification and analysis, generating `PREPARATION_REPORT_<MILESTONE_ID>.md`.
+2. **ChatGPT Review & Decision Resolution:**
+   - Operator uploads the preparation report to ChatGPT.
+   - Owner and ChatGPT discuss trade-offs and select preferred options for genuine owner decisions (e.g., `DEC-01` through `DEC-04`).
+3. **Execution Prompt Refinement:**
+   - ChatGPT refines the authoritative Milestone Execution Spec from `MASTER_PLAN.md` into a finalized Execution Prompt, embedding approved owner decisions and defect fixes.
+4. **MANDATORY OWNER APPROVAL GATE:**
+   - The owner explicitly reviews and approves the finalized Execution Prompt. (Discussion with ChatGPT does NOT constitute approval; recommendations are proposals only).
+5. **Stage 2: Authorized Execution & Automated Verification:**
+   - `agy-termux` implements code, updates cache-bust versions (`core.js?v=XX`), bumps `sw.js` `CACHE_NAME`, and runs automated checks (`node --check`, `npm run build:web`).
+6. **Physical Verification & Handover:**
+   - Owner tests live behavior on physical Android device (`http://localhost:8080`).
+   - `agy-termux` creates a single dedicated milestone Git commit and updates `codebase_1.md` with verified architecture state.
 
 ---
 
