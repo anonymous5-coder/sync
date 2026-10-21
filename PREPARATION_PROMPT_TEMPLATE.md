@@ -6,7 +6,7 @@
 > **Target Audience:** Project Operator, AI Planning Pair (Argon / DeepSeek), and Autonomous Executor (`agy-termux`)  
 > **Workflow Stage:** Reusable Template for Stage 1 (Preparation Stage) of the Two-Stage Milestone Lifecycle  
 > **Author:** AI Architectural Pair (Argon / DeepSeek / Antigravity)  
-> **Date:** October 2026  
+> **Date:** October 2026 (Refined)  
 
 ---
 
@@ -19,7 +19,7 @@ The `Top_Models` project implements 12 sequential milestones (`0C-6E` through `0
 +---------------------------------------------------------------------------------------------------+
 |                                  TWO-STAGE MILESTONE WORKFLOW                                     |
 +---------------------------------------------------------------------------------------------------+
-|  STAGE 1: PREPARATION & ALIGNMENT (Read-Only Analysis)                                             |
+|  STAGE 1: PREPARATION & ALIGNMENT (Read-Only Analysis & Reporting)                                |
 |  1. Operator copies this template -> creates `PREPARATION_PROMPT_<MILESTONE_ID>.md`             |
 |  2. Operator populates milestone placeholders with verified specs and baseline state              |
 |  3. Run Preparation Prompt in Termux via `agy-termux`                                             |
@@ -27,9 +27,15 @@ The `Top_Models` project implements 12 sequential milestones (`0C-6E` through `0
 |     `PREPARATION_REPORT_<MILESTONE_ID>.md`                                                        |
 |  5. Operator reviews and uploads Preparation Report to ChatGPT for discussion and resolution       |
 |                                                                                                   |
-|  STAGE 2: EXECUTION & VERIFICATION (Implementation & Verification)                                |
-|  6. ChatGPT and Operator refine the Milestone Execution Prompt with settled decisions            |
-|  7. Operator delivers the refined Execution Prompt to `agy-termux`                                |
+|  MANDATORY APPROVAL GATE:                                                                         |
+|  * Discussion with ChatGPT does NOT constitute approval.                                          |
+|  * Recommendations in the report are proposals, NOT approved requirements.                        |
+|  * The Owner must EXPLICITLY approve finalized execution instructions before Stage 2 begins.     |
+|  * If approval is absent or ambiguous, execution is STRICTLY PROHIBITED.                          |
+|                                                                                                   |
+|  STAGE 2: EXECUTION & VERIFICATION (Authorized Implementation Only)                               |
+|  6. ChatGPT and Operator refine the Milestone Execution Prompt incorporating settled decisions     |
+|  7. Operator delivers the owner-approved Execution Prompt to `agy-termux`                         |
 |  8. `agy-termux` writes code, runs automated checks (`node --check`, `npm run build:web`)         |
 |  9. Operator performs physical interactive tests on Android (`http://localhost:8080`)              |
 |  10. Executor creates dedicated git commit, updates `codebase_1.md`, and prepares next milestone   |
@@ -37,7 +43,7 @@ The `Top_Models` project implements 12 sequential milestones (`0C-6E` through `0
 ```
 
 ### 1.2 How to Instantiate This Template for a Milestone
-1. **DO NOT run this template directly.** This file is a reusable blueprint containing generic placeholders.
+1. **DO NOT run this template directly.** This file is a reusable blueprint containing generic placeholders and operational instructions.
 2. For each upcoming milestone, copy this template to a milestone-specific prompt file in `~/storage/downloads/Sync/`:
    ```bash
    cp ~/storage/downloads/Sync/PREPARATION_PROMPT_TEMPLATE.md ~/storage/downloads/Sync/PREPARATION_PROMPT_<MILESTONE_ID>.md
@@ -46,12 +52,15 @@ The `Top_Models` project implements 12 sequential milestones (`0C-6E` through `0
 3. In the copied file, fill in all `{{PLACEHOLDER}}` tags located in Section II with verified information extracted from `MASTER_PLAN.md`, `codebase_1.md`, and `execution_readiness.md`.
 4. Execute the populated prompt with `agy-termux`.
 5. The resulting report (`PREPARATION_REPORT_<MILESTONE_ID>.md`) will be uploaded to ChatGPT to resolve decisions before code execution begins.
-6. The template is reused sequentially: complete Milestone N, verify its results, and then copy this template again for Milestone N+1 using the updated codebase baseline.
+6. The template is reused sequentially: complete Milestone N, verify its results, obtain owner sign-off, and then copy this template again for Milestone N+1 using the updated codebase baseline.
 
 ---
 
 ## II. MILESTONE SPECIFIC PLACEHOLDER CONFIGURATION BLOCK
 *(Operator: Populate all fields in this block before launching the preparation run)*
+
+> [!NOTE]
+> Values shown in `# comments` below (such as `942bb06`, `core.js?v=0I`, `matrix-cache-v11`) are **illustrative examples** representing past project milestones. They are NOT authoritative defaults. For each milestone run, the operator must verify and insert actual values derived from the live repository and current planning documents.
 
 ```yaml
 # ==============================================================================
@@ -71,7 +80,7 @@ target_files_to_modify:
   - "{{FILE_2_TO_MODIFY}}"                               # e.g., "core.js"
   - "{{FILE_3_TO_MODIFY}}"                               # e.g., "sw.js"
 
-# 2. Baseline & Dependencies
+# 2. Baseline & Dependencies (Verify against live codebase before populating)
 prerequisite_milestones:
   - "{{PREV_MILESTONE_ID}}"                              # e.g., "0C-6D (Verified in Commit 942bb06)"
 expected_starting_commit: "{{BASELINE_COMMIT}}"          # e.g., "942bb06"
@@ -92,20 +101,27 @@ carried_forward_decisions:
 
 ## III. OPERATIONAL BOUNDARIES & SAFETY SAFEGUARDS (FOR AGY-TERMUX)
 
-When executing an instantiated preparation prompt, `agy-termux` MUST strictly operate under read-only audit discipline:
+When executing an instantiated preparation prompt, `agy-termux` MUST strictly operate under read-only audit discipline.
 
-### 3.1 Strictly Prohibited Actions
+> [!IMPORTANT]
+> **Scope of Restrictions:** The strict prohibitions below apply to all future Preparation Prompt runs. They ensure that preparation remains an analytical, non-mutating stage.
+
+### 3.1 Strictly Prohibited Actions During Preparation Runs
 - **NO SOURCE CODE MODIFICATIONS:** Do not modify, create, touch, or delete any file in `~/Top_Models/` (`index.html`, `core.js`, `sw.js`, `adapters/*`, `proxy.py`, `cli.js`, etc.).
 - **NO PLANNING ARTIFACT MUTATIONS:** Do not edit, rewrite, or delete `MASTER_PLAN.md`, `codebase_1.md`, `execution_readiness.md`, or this template.
-- **NO EXECUTION ACTIONS:** Do not run build scripts (`npm run build:web`), sync tools (`npx cap sync`), or test compilers (`./gradlew`). Do not execute git commits, tags, or pushes.
+- **NO MUTATING COMMANDS OR BUILDS:** Do not run build scripts (`npm run build:web`), asset synchronization (`node sync-www.js`, `npx cap sync`), native compilers (`./gradlew`), package installations (`npm install`), migrations, application startup (`python3 proxy.py`, `python3 -m http.server`), or test suites that generate artifacts.
+- **NO GIT MUTATIONS:** Do not execute `git commit`, `git push`, `git tag`, `git merge`, `git rebase`, `git reset`, `git stash`, or `git checkout --`.
 - **NO INTERACTIVE TERMINAL PROMPTS:** Do NOT prompt the project owner with interactive clarification questions in Termux or use interactive agent tool calls (`ask_question`). All open decisions must be documented exclusively in the output preparation report for review in ChatGPT.
-- **NO AUTONOMOUS APPROVALS:** Recommendations made in the preparation report are proposals only; never treat agent recommendations as owner approvals.
+- **NO AUTONOMOUS IMPLEMENTATION:** Preparation produces analysis and reporting only. Neither a preparation report, an architectural proposal, nor an agent recommendation authorizes execution. If explicit owner approval is absent or ambiguous, the agent must halt without implementing.
 
-### 3.2 Exclusively Authorized Actions
-- Perform read-only source code inspection, line-range reading, and non-mutating syntax checks (`node --check`).
-- Inspect git status, branches, logs, and remotes without mutating working trees.
+### 3.2 Exclusively Authorized Actions During Preparation Runs
+- Perform read-only source code inspection, line-range reading, and file searches.
+- Inspect git status, branches, commit logs, and remote metadata using non-mutating commands.
+- Run `node --check <file>` strictly for syntax verification of existing files, only when safe, relevant, and producing zero side effects or generated files.
 - Read authoritative planning documents in `~/storage/downloads/Sync/`.
-- Create or overwrite exactly ONE report file: `~/storage/downloads/Sync/PREPARATION_REPORT_{{MILESTONE_ID}}.md`.
+- Create or overwrite **exactly ONE authorized report file** in the planning repository:
+  `~/storage/downloads/Sync/PREPARATION_REPORT_{{MILESTONE_ID}}.md`.
+- If an inspection command has uncertain side effects or could mutate state, the agent must NOT run it.
 
 ---
 
@@ -117,7 +133,7 @@ The instantiated prompt instructs `agy-termux` to perform five sequential invest
 +---------------------------------------------------------------------------------------------------+
 |                              PREPARATION INVESTIGATION PHASES                                     |
 +---------------------------------------------------------------------------------------------------+
-|  Phase A: Baseline Audit & Codebase Reconciliation                                                |
+|  Phase A: Baseline Audit, Verification & Stop-and-Report Gate                                     |
 |  Phase B: Plain-Language Milestone Explanation & UI/UX Journey                                   |
 |  Phase C: Systematic Identification of Genuine Owner Decisions                                    |
 |  Phase D: Verification of Unambiguous Implementation Items                                        |
@@ -127,20 +143,29 @@ The instantiated prompt instructs `agy-termux` to perform five sequential invest
 
 ---
 
-### PHASE A: BASELINE AUDIT & CODEBASE RECONCILIATION
+### PHASE A: BASELINE AUDIT, VERIFICATION & STOP-AND-REPORT GATE
 
-1. **Verify Starting State:**
+1. **Verify Starting State Against Declared Baseline:**
    - Confirm current git HEAD commit in `~/Top_Models/` matches `{{expected_starting_commit}}`.
    - Verify active module import in `index.html` matches `{{current_core_import}}`.
    - Verify active cache container in `sw.js` matches `{{current_sw_cache}}`.
-   - Record any discrepancy or uncommitted working tree changes.
-2. **Audit Milestone Specification:**
+   - Verify status of prerequisite milestones (`{{prerequisite_milestones}}`).
+   - Check working tree status for unexpected uncommitted modifications.
+2. **The Baseline Mismatch Stop-and-Report Condition:**
+   - If ANY declared baseline identifier (commit hash, core import version, SW cache name, prerequisite milestone state, or target file existence) does NOT match reality:
+     1. **Do NOT silently alter the placeholder** in the prompt or project files to match reality.
+     2. **Do NOT assume the discrepancy is harmless** or proceed under unverified assumptions.
+     3. **Record both values:** Document the *Declared Expected Value* vs. the *Observed Actual Value*.
+     4. **Explain the technical consequence:** Describe why the mismatch matters and what architectural risks it introduces.
+     5. **Halt unsafe analysis:** Stop the preparation investigation wherever the discrepancy prevents reliable analysis.
+     6. **Report immediately:** Generate the authorized `PREPARATION_REPORT_{{MILESTONE_ID}}.md` recording the baseline stop condition and request owner guidance via ChatGPT. Unrelated read-only inspection may continue only if it does not obscure the primary blocker or lead to unsupported conclusions.
+3. **Audit Milestone Specification:**
    - Read the milestone execution spec `{{master_plan_spec_section}}` in `MASTER_PLAN.md`.
    - Inspect all target files (`{{target_files_to_create}}`, `{{target_files_to_modify}}`).
    - Cross-check known audit findings and carried-forward defects (`{{carried_forward_defects}}`).
-3. **Distinguish Existing vs. Planned Code:**
-   - Clearly delineate what code demonstrably exists in the working tree today vs. what is proposed.
-   - Never assume a proposed module or export exists before it is implemented.
+4. **Distinguish Existing vs. Planned Code:**
+   - Clearly separate what code demonstrably exists in the working tree today from what is planned.
+   - Never report a planned feature as implemented merely because its design is documented.
 
 ---
 
@@ -153,9 +178,9 @@ Explain the milestone in clear, accessible language suitable for review on a mob
    - For UI milestones (e.g. Columns, Global View, Capability Filters, Routing): Walk through the user's physical interaction on Android:
      - What buttons appear in the top bar or bottom action bar?
      - What happens when a button is tapped (popover open/close, focus, animations)?
-     - How does touch ergonomics behave on mobile screens (minimum tap targets >= 44px, viewport scrolling)?
+     - How does touch ergonomics behave on mobile screens? *(Note: General guidance such as 44px tap targets are design considerations; they are not mandatory requirements unless specified by authoritative project specs or approved by the owner).*
      - How do empty states, error cards, and active indicator dots visually communicate state?
-   - For Non-UI / Backend milestones (e.g. Adapters, Telemetry, CLI, Edge Proxy): Walk through the user or developer interaction:
+   - For Non-UI / Backend milestones (e.g. Adapters, Telemetry, CLI, Edge Proxy): Walk through the developer interaction:
      - CLI command invocations and flag behaviors (`--free-only`, `--chat-only`).
      - Network request/response lifecycle and CORS header pass-through.
      - Offline caching, dataset hydration, and storage quota protection.
@@ -165,11 +190,12 @@ Explain the milestone in clear, accessible language suitable for review on a mob
 
 ### PHASE C: SYSTEMATIC IDENTIFICATION OF GENUINE OWNER DECISIONS
 
-Identify all decisions that require the owner's explicit input or preference. 
+Identify all decisions that require the owner's explicit input or preference.
 
 #### Rules for Identifying Decisions:
 - **NO TRIVIAL ENGINEERING QUESTIONS:** Do NOT ask the owner how to write standard loops, syntax, CSS classes, or internal helper functions.
 - **NO REDUNDANT QUESTIONS:** Do NOT ask questions already settled unambiguously in `MASTER_PLAN.md` or `codebase_1.md`.
+- **DISTINGUISH EXAMPLES & GUIDANCE FROM REQUIREMENTS:** Do not convert illustrative examples or general best practices into invented requirements. Recommendations are proposals, not approved requirements.
 - **FOCUS ON ARCHITECTURE & USER EXPERIENCE:** Surface trade-offs regarding data representation, deduplication policies, user defaults, fallbacks when credentials are missing, and Android mobile constraints.
 
 #### Required Format for Every Genuine Decision:
@@ -215,15 +241,17 @@ The preparation run must compile all findings into `~/storage/downloads/Sync/PRE
 **Preparation Date:** [ISO Date / Current Date]  
 **Auditor:** AI Planning Pair (agy-termux)  
 **Authoritative Spec:** {{master_plan_spec_section}}  
-**Execution Status:** STAGE 1 COMPLETE — READY FOR CHATGPT OWNER REVIEW  
+**Execution Status:** STAGE 1 COMPLETE — AWAITING OWNER REVIEW & APPROVAL  
 
 ---
 
 ## 1. EXECUTIVE SUMMARY & READINESS OVERVIEW
 - Brief 2-3 paragraph summary of milestone scope and preparation findings.
-- Readiness verdict: READY FOR REVIEW | BLOCKED BY PREDECESSOR | DECISIONS PENDING.
+- Readiness verdict: READY FOR REVIEW | STOP CONDITION TRIGGERED (BASELINE MISMATCH) | DECISIONS PENDING.
 
-## 2. STARTING BASELINE & VERIFIED CODEBASE STATE
+## 2. STARTING BASELINE AUDIT & STOP-AND-REPORT VERIFICATION
+- Table comparing Declared Expected Baseline vs. Observed Actual Baseline.
+- Explicit confirmation: Baseline Verified Match OR Baseline Mismatch Stop Condition Triggered.
 - Git branch, HEAD commit, and working tree clean status.
 - Verification of active `index.html` import version and `sw.js` cache name.
 - Status of prerequisite milestones ({{prerequisite_milestones}}).
@@ -241,6 +269,7 @@ The preparation run must compile all findings into `~/storage/downloads/Sync/PRE
 ## 5. EXISTING IMPLEMENTATION VS. PLANNED CHANGES
 - Line-by-line audit of existing contracts vs. proposed additions.
 - Specific functions, variables, and DOM hooks affected in target files.
+- Separation of confirmed source facts from planned additions.
 
 ## 6. TECHNICAL DEBT, RISKS, EDGE CASES & ANDROID CONSTRAINTS
 - LocalStorage 5MB quota considerations on Android Chrome/WebView.
@@ -250,7 +279,8 @@ The preparation run must compile all findings into `~/storage/downloads/Sync/PRE
 
 ## 7. OWNER DECISIONS REQUIRED (CHOPPING BLOCK FOR CHATGPT)
 - Numbered decision blocks (DEC-{{MILESTONE_ID}}-01, etc.) following the Phase C schema.
-- (Or explicit statement if no decisions are needed).
+- Distinction between mandatory blockers and optional preferences.
+- (Or explicit statement if zero owner decisions are needed).
 
 ## 8. UNAMBIGUOUS SPECIFICATION ITEMS (READY TO EXECUTE)
 - Complete inventory of non-controversial implementation tasks that follow the spec directly.
@@ -264,9 +294,15 @@ The preparation run must compile all findings into `~/storage/downloads/Sync/PRE
 - Automated checks to be executed by agent (`node --check`, `npm run build:web`).
 - Physical mobile verification steps to be executed by user on Android (`http://localhost:8080`).
 
-## 11. MATTERS TO RESOLVE WITH CHATGPT & FINAL STATEMENT
+## 11. MATTERS TO RESOLVE WITH CHATGPT & FINAL INTEGRITY STATEMENT
 - Bulleted agenda for the user's discussion with ChatGPT.
-- Explicit statement: "No source code in ~/Top_Models/ or planning specs in MASTER_PLAN.md were modified during this preparation run."
+- **Accurate Integrity & Verification Declaration:**
+  1. Application Source Code: Explicit statement whether any file in `~/Top_Models/` was modified (must state: Unmodified).
+  2. Planning Documents: Explicit statement whether `MASTER_PLAN.md`, `codebase_1.md`, or `execution_readiness.md` were modified (must state: Unmodified).
+  3. Created Artifacts: Record that exactly one file was created: `~/storage/downloads/Sync/PREPARATION_REPORT_{{MILESTONE_ID}}.md`.
+  4. Performed Checks: Explicitly enumerate all inspection commands actually executed.
+  5. Unverified Items: List any inspection step that could not be verified and the reason.
+  6. Mandatory Gate Confirmation: "This report provides analysis and proposals only. Stage 2 implementation is strictly prohibited until the project owner explicitly approves the finalized execution instructions."
 ```
 
 ---
@@ -290,18 +326,23 @@ Once the preparation prompt runs and generates `PREPARATION_REPORT_{{MILESTONE_I
 |  3. Execution Prompt Refinement:                                                                  |
 |     - ChatGPT refines the Milestone Execution Spec from `MASTER_PLAN.md`, injecting the           |
 |       owner's settled decisions and resolving any carried-forward defect directives.             |
-|     - The resulting text becomes the final Milestone Execution Prompt.                            |
+|     - The resulting text becomes the proposed Milestone Execution Prompt.                         |
 |                                                                                                   |
-|  4. Execution Launch:                                                                             |
-|     - Owner delivers the finalized Execution Prompt to `agy-termux` in Termux.                    |
+|  4. MANDATORY OWNER APPROVAL GATE:                                                                |
+|     - The Owner reviews the refined Execution Prompt and issues explicit approval.               |
+|     - Discussion alone is NOT approval; proposals are NOT approval.                              |
+|     - If approval is absent or ambiguous, execution CANNOT begin.                                 |
+|                                                                                                   |
+|  5. Execution Launch:                                                                             |
+|     - Upon explicit owner approval, the Execution Prompt is delivered to `agy-termux`.            |
 |     - `agy-termux` implements code, bumps cache versions, and runs automated checks.              |
 |                                                                                                   |
-|  5. Verification & Closure:                                                                       |
+|  6. Verification & Closure:                                                                       |
 |     - Owner verifies interactive behavior on Android smartphone (`http://localhost:8080`).        |
 |     - `agy-termux` creates a dedicated git commit in `~/Top_Models/`.                             |
 |     - `codebase_1.md` is updated with the new factual state.                                      |
 |                                                                                                   |
-|  6. Sequential Iteration:                                                                        |
+|  7. Sequential Iteration:                                                                        |
 |     - Operator copies `PREPARATION_PROMPT_TEMPLATE.md` to create prompt for Milestone N+1.        |
 +---------------------------------------------------------------------------------------------------+
 ```
