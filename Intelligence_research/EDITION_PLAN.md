@@ -208,12 +208,12 @@ Audit every equation for symbol definitions, units/scales, domain, assumptions, 
 
 | ID | Model / equation | Required verification |
 |---|---|---|
-| M1 | General system state (mathcal S_t) | Define state spaces, stochasticity, observability and time indexing. |
+| M1 | General system state $\mathcal{S}_t$ | Define state spaces, stochasticity, observability and time indexing. |
 | M2 | Conditional entropy / mutual information | Check distributions and distinguish expected information from realized observation. |
-| M3 | (K\models p) and possible-world entailment | State consistency, soundness and premise assumptions. |
-| M4 | (I(W;Z)>0) | Specify dependence; do not infer arbitrary facts about the world. |
+| M3 | $K\models p$ and possible-world entailment | State consistency, soundness and premise assumptions. |
+| M4 | $I(W;Z)>0$ | Specify dependence; do not infer arbitrary facts about the world. |
 | M5 | Landauer bound | State logical irreversibility and thermal assumptions; no cognitive conversion. |
-| M6 | Action score (Q(a)) | Dimensional consistency, scale normalization and parameter interpretation. |
+| M6 | Action score $Q(a)$ | Dimensional consistency, scale normalization and parameter interpretation. |
 | M7 | Softmax action selection | Define action set and inverse-temperature parameter; test fit. |
 | M8 | Reinforcement-learning update | Define state, action, reward timing and algorithmic assumptions. |
 | M9 | Logistic action-probability model | Define target, features, sampling, interactions and calibration. |
@@ -231,12 +231,12 @@ Classify each mathematical item as definition, identity, theorem, fitted model, 
 
 **Mathematical audit progress checklist**
 
-- [ ] **M1** — General system state (mathcal S_t)
+- [ ] **M1** — General system state $\mathcal{S}_t$
 - [ ] **M2** — Conditional entropy / mutual information
-- [ ] **M3** — (K\models p) and possible-world entailment
-- [ ] **M4** — (I(W;Z)>0)
+- [ ] **M3** — $K\models p$ and possible-world entailment
+- [ ] **M4** — $I(W;Z)>0$
 - [ ] **M5** — Landauer bound
-- [ ] **M6** — Action score (Q(a))
+- [ ] **M6** — Action score $Q(a)$
 - [ ] **M7** — Softmax action selection
 - [ ] **M8** — Reinforcement-learning update
 - [ ] **M9** — Logistic action-probability model
