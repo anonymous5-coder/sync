@@ -634,6 +634,16 @@ The plan may be retired only after all applicable requirements in Sections 1–1
 - Record each decision here with date, section, rationale, evidence and verification.
 - Do not merge automatically.
 
+### Session continuity and handoff
+
+At the beginning of each new working session, inspect the current repository state and read the latest versions of this plan and the relevant target documents. Verify the current commit and document identities rather than relying on previous conversation summaries or handoff notes.
+
+Treat this plan and the current repository contents as the governing sources of truth. Previous conversations may provide historical context but do not override current source material or recorded decisions.
+
+Maintain continuity through the existing progress log. Record completed work, material decisions, unresolved issues, deviations and the next logical action with sufficient source references for another researcher to resume without reconstructing the entire conversation.
+
+Do not interpret a session transition, handoff, or previous authorization as permission to exceed the currently authorized scope.
+
 | Date | Area | Decision / result | Status |
 |---|---|---|---|
 | 2026-11-04 | Initial source inspection | Both source documents inspected; initial discrepancies listed in Section 2. | Complete |
@@ -641,5 +651,6 @@ The plan may be retired only after all applicable requirements in Sections 1–1
 | 2026-11-04 | Edition scope | Consolidate all planning and audit registers in this single file. | Planned |
 | 2026-11-04 | Domain completeness extension | Added domain-scoped coverage, alternatives, cross-component integration, evidence traceability and final knowledge-status gates; corrected the M18 retirement reference. | Added to governing plan; execution not started |
 | 2026-11-04 | Pre-execution plan audit | Audited section numbering, cross-references, execution dependencies, evidence-register storage, proof-language conditions and Markdown table integrity. Corrected plan structure only; no treatise or tracker execution performed. | Plan audit and corrections complete; execution not started |
+| 2026-11-04 | Session continuity safeguard | Added Section 17 guidance requiring each session to verify the live repository baseline, follow current source documents, and preserve decisions, unresolved issues and next actions in this existing log without expanding authorization. | Added to governing plan; no treatise or tracker changes; research execution not started |
 
 **Governing principle:** Preserve the ambition of the theories while making every claim answerable to definitions, logic, evidence, and possible failure.
