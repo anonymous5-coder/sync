@@ -287,7 +287,7 @@ All changes below apply to `document_master_visual.md` on `edition`.
 | D13 | §§70–74 | Check unified propositions against prior assumptions; label conditional conclusions. |
 | D14 | §§75–82 | Make experiments executable: variables, controls, outcomes, falsifiers and analysis. |
 | D15 | §§83–89 | Cross-reference limitations and failure modes to claims and experiments. |
-| D16 | §§90–95 | Replace overstrong “establishes” language where needed with “defines”, “proposes”, “derives conditionally” or “is consistent with”. |
+| D16 | §§90–95 | Preserve “establishes” and “proves” for valid formal deductive proofs and theorems (including Theorems 1–3 and Propositions 1–5) that follow necessarily from stated axioms by valid inference; do not weaken mathematically warranted conclusions. Apply softer phrasing (“proposes”, “models”, “hypothesizes”) strictly to untested empirical or clinical claims. Distinguish a theorem about a formal model from evidence that the model describes reality. Verify each proof's premises and inferential steps before retaining proof language. |
 | D17 | Throughout | Add verified citations and bibliography. |
 | D18 | Throughout | Harmonize notation, symbol reuse, equation numbering, units and cross-references. |
 
@@ -309,7 +309,7 @@ All changes below apply to `document_master_visual.md` on `edition`.
 - [ ] **D13** — §§70–74
 - [ ] **D14** — §§75–82
 - [ ] **D15** — §§83–89
-- [ ] **D16** — §§90–95
+- [ ] **D16** — §§90–95: preserve proof-strength language for valid formal deductions; qualify untested empirical and clinical claims.
 - [ ] **D17** — Throughout
 - [ ] **D18** — Throughout
 
