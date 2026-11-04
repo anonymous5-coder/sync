@@ -253,6 +253,7 @@ Classify each mathematical item as definition, identity, theorem, fitted model, 
 - [ ] **M15** — Lyapunov-style decrease
 - [ ] **M16** — Environmental leverage ratio
 - [ ] **M17** — Unified operator composition
+- [ ] **M18** — Multi-stable dynamical systems
 
 ## 6. Scientific evidence requirements
 
