@@ -540,7 +540,7 @@ The claim inventory is the basis for judging completeness. A checklist being com
 
 This section governs how the research team documents support. It supplements, and does not replace, the epistemic classifications in Section 1 or the domain-specific investigations in Sections 3–6.
 
-### 14.1 Evidence-to-claim traceability
+### 13.1 Evidence-to-claim traceability
 
 - [ ] Assign stable identifiers to all substantive entries in the claim inventory; distinguish formal-result identifiers from empirical/source-supported claim identifiers.
 - [ ] Link each claim to the exact supporting source location, dataset, derivation or experiment.
@@ -550,7 +550,7 @@ This section governs how the research team documents support. It supplements, an
 - [ ] Record contrary evidence and sources that support a narrower or different conclusion.
 - [ ] Keep source absence, inaccessible evidence and failed verification visible; do not fabricate citations or silently substitute weaker support.
 
-### 14.2 Formal proof verification
+### 13.2 Formal proof verification
 
 - [ ] Check definitions, axiom consistency where relevant, premise scope, inference rules and every proof step.
 - [ ] Search for hidden assumptions, circular reasoning, quantifier changes, domain shifts and invalid generalization.
@@ -558,7 +558,7 @@ This section governs how the research team documents support. It supplements, an
 - [ ] State whether a result is conditional on axioms, definitions, model assumptions or an interpretation.
 - [ ] Keep formal proof status separate from the empirical adequacy of the model or assumptions.
 
-### 14.3 Empirical and causal claim verification
+### 13.3 Empirical and causal claim verification
 
 - [ ] Define the observable outcome, measurement procedure, target population or individual, setting and time horizon.
 - [ ] Evaluate design quality, sampling, confounding, measurement error, missingness, statistical uncertainty and external validity as applicable.
@@ -567,7 +567,7 @@ This section governs how the research team documents support. It supplements, an
 - [ ] Report null, mixed and adverse results with the same visibility as positive results.
 - [ ] Do not generalize an individual tracker result to populations without independent evidence.
 
-### 14.4 Review and reproducibility
+### 13.4 Review and reproducibility
 
 - [ ] Ensure equations, calculations, cited passages and experimental analyses can be independently checked.
 - [ ] Keep enough method and data provenance to reproduce material results where legally and practically possible.
