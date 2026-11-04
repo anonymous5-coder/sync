@@ -40,23 +40,23 @@ Mathematical notation does not validate an empirical claim. A theorem establishe
 | `ROOT_Protocol_Tracker.md` | Personal operational tracker | Measurement, intervention and cross-document alignment |
 
 Existing strengths to preserve:
-- distinction between external observations and internal context;
-- epistemic boundary between derivable and unconstrained facts;
-- distinction between deduction, induction, abduction and prediction;
-- explicit rejection of equating distraction with thermodynamic entropy;
-- proposed experiments, limitations and falsifiability;
-- practical baseline, intervention, trigger, override and outcome logs in the tracker.
+- [ ] distinction between external observations and internal context;
+- [ ] epistemic boundary between derivable and unconstrained facts;
+- [ ] distinction between deduction, induction, abduction and prediction;
+- [ ] explicit rejection of equating distraction with thermodynamic entropy;
+- [ ] proposed experiments, limitations and falsifiability;
+- [ ] practical baseline, intervention, trigger, override and outcome logs in the tracker.
 
 Initial issues to investigate:
-- Investigation A is described as resolved at the formal level, but empirical adequacy remains untested. Wording must reflect that boundary.
-- Multiple state vectors are used: the seven-variable ROOT vector, a six-variable behavioural model, and broader system-state representations. They need a canonical dictionary and explicit mappings.
-- Fatigue, physiological state, task difficulty and uncertainty are not always consistently separated.
-- Action-value equations combine reward and several costs without fully specifying units, scales or parameter estimation.
-- The proposed intelligence functional has no validated test battery or established construct validity.
-- Linear control and Lyapunov-style formulations are abstractions for a nonlinear, partially observed human system. The tracker's (V_t) must not be described as a proven Lyapunov function.
-- The physical-resource-to-behaviour argument needs a clear boundary between established physics, computational assumptions and testable behavioural hypotheses.
-- “Null” must remain distinct from physical vacuum, mathematical zero, absence of new external input, and philosophical nothingness.
-- ROOT is the protocol name; its seven operational stages are Recognise, Obstruct, Override, Train, Correct, Optimise and Learn. Preserve this naming.
+- [ ] Investigation A is described as resolved at the formal level, but empirical adequacy remains untested. Wording must reflect that boundary.
+- [ ] Multiple state vectors are used: the seven-variable ROOT vector, a six-variable behavioural model, and broader system-state representations. They need a canonical dictionary and explicit mappings.
+- [ ] Fatigue, physiological state, task difficulty and uncertainty are not always consistently separated.
+- [ ] Action-value equations combine reward and several costs without fully specifying units, scales or parameter estimation.
+- [ ] The proposed intelligence functional has no validated test battery or established construct validity.
+- [ ] Linear control and Lyapunov-style formulations are abstractions for a nonlinear, partially observed human system. The tracker's (V_t) must not be described as a proven Lyapunov function.
+- [ ] The physical-resource-to-behaviour argument needs a clear boundary between established physics, computational assumptions and testable behavioural hypotheses.
+- [ ] “Null” must remain distinct from physical vacuum, mathematical zero, absence of new external input, and philosophical nothingness.
+- [ ] ROOT is the protocol name; its seven operational stages are Recognise, Obstruct, Override, Train, Correct, Optimise and Learn. Preserve this naming.
 
 ## 3. The eight investigations — all retained
 
@@ -64,13 +64,13 @@ Initial issues to investigate:
 **Question:** Do the current variables adequately represent the causes and predictors of the target behavioural transitions?
 
 Investigate:
-- define the target behaviour and context;
-- define cue, urge, fatigue/physiological load, task difficulty/ambiguity, goal activation, habit strength and competing-action accessibility;
-- consider emotional state, working-memory load, attention, reward expectation, sleep/circadian state and external demands;
-- distinguish latent constructs from observable indicators;
-- identify overlap, redundancy, confounding and omitted variables;
-- compare parsimonious and expanded models;
-- test incremental predictive value out of sample.
+- [ ] define the target behaviour and context;
+- [ ] define cue, urge, fatigue/physiological load, task difficulty/ambiguity, goal activation, habit strength and competing-action accessibility;
+- [ ] consider emotional state, working-memory load, attention, reward expectation, sleep/circadian state and external demands;
+- [ ] distinguish latent constructs from observable indicators;
+- [ ] identify overlap, redundancy, confounding and omitted variables;
+- [ ] compare parsimonious and expanded models;
+- [ ] test incremental predictive value out of sample.
 
 **Deliverable within the existing documents:** canonical variable dictionary, operational definitions, and mappings between full and reduced state vectors.
 
@@ -78,13 +78,13 @@ Investigate:
 **Question:** Which factors actually change action probability, distraction duration and recovery?
 
 Investigate:
-- causal diagrams for cue, state, task, action, consequence and outcome;
-- confounders, mediators, moderators and reverse causality;
-- pre-specified predictions and primary outcomes;
-- randomized or counterbalanced within-person changes where safe and feasible;
-- obstruction, task-friction reduction, override and combined interventions;
-- intervention fidelity and alternative explanations;
-- null, adverse and contradictory results.
+- [ ] causal diagrams for cue, state, task, action, consequence and outcome;
+- [ ] confounders, mediators, moderators and reverse causality;
+- [ ] pre-specified predictions and primary outcomes;
+- [ ] randomized or counterbalanced within-person changes where safe and feasible;
+- [ ] obstruction, task-friction reduction, override and combined interventions;
+- [ ] intervention fidelity and alternative explanations;
+- [ ] null, adverse and contradictory results.
 
 Do not infer causation from an uncontrolled before/after comparison alone.
 
@@ -92,24 +92,24 @@ Do not infer causation from an uncontrolled before/after comparison alone.
 **Question:** How do state, behaviour and policy evolve over seconds, days and months?
 
 Investigate:
-- fast, intermediate and slow processes;
-- discrete, continuous and hybrid models;
-- thresholds, hysteresis, adaptation, reinforcement and recovery;
-- exogenous disturbances and partially observed state;
-- whether history variables are needed or a Markov assumption is defensible;
-- static versus dynamic prediction;
-- parameter identifiability, sensitivity and out-of-sample performance.
+- [ ] fast, intermediate and slow processes;
+- [ ] discrete, continuous and hybrid models;
+- [ ] thresholds, hysteresis, adaptation, reinforcement and recovery;
+- [ ] exogenous disturbances and partially observed state;
+- [ ] whether history variables are needed or a Markov assumption is defensible;
+- [ ] static versus dynamic prediction;
+- [ ] parameter identifiability, sensitivity and out-of-sample performance.
 
 ### IV. Measurement Validity
 **Question:** Do the tracker ratings and logs measure the constructs they claim to measure?
 
 Investigate:
-- behavioural anchors for each 0–5 rating;
-- consistency, repeatability and rating drift;
-- subjective reports versus observable proxies;
-- timestamp and sampling rules;
-- missingness, uncertainty, floor/ceiling effects and measurement reactivity;
-- separation of raw measures from composites.
+- [ ] behavioural anchors for each 0–5 rating;
+- [ ] consistency, repeatability and rating drift;
+- [ ] subjective reports versus observable proxies;
+- [ ] timestamp and sampling rules;
+- [ ] missingness, uncertainty, floor/ceiling effects and measurement reactivity;
+- [ ] separation of raw measures from composites.
 
 Unvalidated ratings remain exploratory, not clinical or diagnostic measures.
 
@@ -117,12 +117,12 @@ Unvalidated ratings remain exploratory, not clinical or diagnostic measures.
 **Question:** Do improvements persist, generalize and survive reduced environmental support?
 
 Investigate:
-- acquisition, maintenance, transfer and relapse/recovery as separate outcomes;
-- performance while interventions are active;
-- reduced-support or withdrawal phases where safe;
-- rebound, substitution and compensatory behaviour;
-- sleep, fatigue, workload, burden and functional output;
-- sustainable maintenance criteria.
+- [ ] acquisition, maintenance, transfer and relapse/recovery as separate outcomes;
+- [ ] performance while interventions are active;
+- [ ] reduced-support or withdrawal phases where safe;
+- [ ] rebound, substitution and compensatory behaviour;
+- [ ] sleep, fatigue, workload, burden and functional output;
+- [ ] sustainable maintenance criteria.
 
 Do not claim permanent change without adequate follow-up.
 
@@ -130,11 +130,11 @@ Do not claim permanent change without adequate follow-up.
 **Question:** Why do interventions work differently across people or across states of one person?
 
 Investigate:
-- sleep, stress, task type, learning history, environment, goals and accessibility as potential moderators;
-- stable person-level differences versus temporary state differences;
-- personalized rules versus fixed interventions;
-- over-personalization and intervention burden;
-- boundaries requiring professional assessment rather than self-diagnosis.
+- [ ] sleep, stress, task type, learning history, environment, goals and accessibility as potential moderators;
+- [ ] stable person-level differences versus temporary state differences;
+- [ ] personalized rules versus fixed interventions;
+- [ ] over-personalization and intervention burden;
+- [ ] boundaries requiring professional assessment rather than self-diagnosis.
 
 Begin with within-person evidence. Population claims require replication across participants.
 
@@ -142,12 +142,12 @@ Begin with within-person evidence. Population claims require replication across 
 **Question:** Can the framework forecast a target action or failure before it occurs, better than a simple baseline?
 
 Investigate:
-- target event and prediction horizon;
-- naive baselines such as historical rate or recent average;
-- frozen predictors and time-ordered holdout periods;
-- calibration, discrimination and uncertainty;
-- comparison with simpler models and ablations;
-- drift when routines or environments change.
+- [ ] target event and prediction horizon;
+- [ ] naive baselines such as historical rate or recent average;
+- [ ] frozen predictors and time-ordered holdout periods;
+- [ ] calibration, discrimination and uncertainty;
+- [ ] comparison with simpler models and ablations;
+- [ ] drift when routines or environments change.
 
 Retrospective explanation is not prospective prediction.
 
@@ -155,52 +155,52 @@ Retrospective explanation is not prospective prediction.
 **Question:** What evidence would show that a component is incomplete, false or less useful than an alternative?
 
 Investigate:
-- at least one possible falsifier for every major empirical claim;
-- competing models and discriminating tests;
-- boundary conditions;
-- separation of logical propositions from empirical claims about brains and humans;
-- independent replication and adversarial review;
-- retention of negative results and unresolved disagreements.
+- [ ] at least one possible falsifier for every major empirical claim;
+- [ ] competing models and discriminating tests;
+- [ ] boundary conditions;
+- [ ] separation of logical propositions from empirical claims about brains and humans;
+- [ ] independent replication and adversarial review;
+- [ ] retention of negative results and unresolved disagreements.
 
 ## 4. Theory-specific research questions
 
 ### 4.1 Space or Null Theory
-- Is context adequately decomposed into external, internal, structural and goal-related components?
-- What exactly is absent in a “null” condition?
-- Which operations remain possible without new external input?
-- How do architecture, memory and initial conditions constrain internal processing?
-- Does the theory make any testable prediction beyond established contextual and computational principles?
-- Keep operational null distinct from vacuum and absolute nothingness.
+- [ ] Is context adequately decomposed into external, internal, structural and goal-related components?
+- [ ] What exactly is absent in a “null” condition?
+- [ ] Which operations remain possible without new external input?
+- [ ] How do architecture, memory and initial conditions constrain internal processing?
+- [ ] Does the theory make any testable prediction beyond established contextual and computational principles?
+- [ ] Keep operational null distinct from vacuum and absolute nothingness.
 
 ### 4.2 Out of Box Theory
-- Distinguish novelty relative to a system, explicit representation, logical derivability, probabilistic support and empirical discovery.
-- Check soundness assumptions and possible-world entailment.
-- Distinguish deduction from induction, abduction and prediction.
-- Examine information-theoretic and algorithmic descriptions of implicit structure and generated output.
-- Test prospective predictions using held-out or independently measured target data.
-- Identify the boundary where multiple worlds remain compatible with available information.
+- [ ] Distinguish novelty relative to a system, explicit representation, logical derivability, probabilistic support and empirical discovery.
+- [ ] Check soundness assumptions and possible-world entailment.
+- [ ] Distinguish deduction from induction, abduction and prediction.
+- [ ] Examine information-theoretic and algorithmic descriptions of implicit structure and generated output.
+- [ ] Test prospective predictions using held-out or independently measured target data.
+- [ ] Identify the boundary where multiple worlds remain compatible with available information.
 
 ### 4.3 Physical–cognitive bridge
-- Verify neural energetics and brain metabolism using authoritative neuroscience and biophysics literature.
-- State Landauer's assumptions; do not convert its bit-erasure bound into an energy-per-thought estimate.
-- Distinguish thermodynamic entropy, Shannon entropy, variational free energy, cognitive effort and distraction.
-- Treat cost-sensitive action selection as a computational model, not a direct theorem of thermodynamics.
-- Test behavioural consequences independently from physical substrate constraints.
+- [ ] Verify neural energetics and brain metabolism using authoritative neuroscience and biophysics literature.
+- [ ] State Landauer's assumptions; do not convert its bit-erasure bound into an energy-per-thought estimate.
+- [ ] Distinguish thermodynamic entropy, Shannon entropy, variational free energy, cognitive effort and distraction.
+- [ ] Treat cost-sensitive action selection as a computational model, not a direct theorem of thermodynamics.
+- [ ] Test behavioural consequences independently from physical substrate constraints.
 
 ### 4.4 Recursive Intelligence
-- Define levels: self-monitoring, self-prediction, error attribution, policy update, goal revision and controller redesign.
-- Distinguish metacognition from consciousness and subjective experience.
-- Investigate accuracy and calibration of the self-model.
-- Address metric gaming, Goodhart effects, goal misspecification and harmful self-modification.
-- Compare fixed policies, feedback policies and adaptive meta-controllers.
+- [ ] Define levels: self-monitoring, self-prediction, error attribution, policy update, goal revision and controller redesign.
+- [ ] Distinguish metacognition from consciousness and subjective experience.
+- [ ] Investigate accuracy and calibration of the self-model.
+- [ ] Address metric gaming, Goodhart effects, goal misspecification and harmful self-modification.
+- [ ] Compare fixed policies, feedback policies and adaptive meta-controllers.
 
 ### 4.5 ROOT Control Protocol
-- Specify the intended use case and limits.
-- Define each stage's input, operation, output and feedback.
-- Test which stages are necessary, redundant or context-dependent.
-- Determine whether the seven-stage cycle is sequential, iterative or concurrent.
-- Add fidelity, burden, adverse-effect and stopping criteria.
-- Define when the protocol is insufficient and outside support is appropriate.
+- [ ] Specify the intended use case and limits.
+- [ ] Define each stage's input, operation, output and feedback.
+- [ ] Test which stages are necessary, redundant or context-dependent.
+- [ ] Determine whether the seven-stage cycle is sequential, iterative or concurrent.
+- [ ] Add fidelity, burden, adverse-effect and stopping criteria.
+- [ ] Define when the protocol is insufficient and outside support is appropriate.
 
 ## 5. Mathematical and formal verification register
 
@@ -228,20 +228,41 @@ Audit every equation for symbol definitions, units/scales, domain, assumptions, 
 
 Classify each mathematical item as definition, identity, theorem, fitted model, conceptual abstraction or heuristic. Never present a heuristic as a proof.
 
+
+**Mathematical audit progress checklist**
+
+- [ ] **M1** — General system state (mathcal S_t)
+- [ ] **M2** — Conditional entropy / mutual information
+- [ ] **M3** — (K\models p) and possible-world entailment
+- [ ] **M4** — (I(W;Z)>0)
+- [ ] **M5** — Landauer bound
+- [ ] **M6** — Action score (Q(a))
+- [ ] **M7** — Softmax action selection
+- [ ] **M8** — Reinforcement-learning update
+- [ ] **M9** — Logistic action-probability model
+- [ ] **M10** — ROOT state vector
+- [ ] **M11** — Weighted intelligence functional
+- [ ] **M12** — Habit-strength dynamics
+- [ ] **M13** — Composite control score
+- [ ] **M14** — Linear state feedback
+- [ ] **M15** — Lyapunov-style decrease
+- [ ] **M16** — Environmental leverage ratio
+- [ ] **M17** — Unified operator composition
+
 ## 6. Scientific evidence requirements
 
 Research and cite claims from:
-- information theory, Bayesian epistemology and formal logic;
-- underdetermination and algorithmic information theory;
-- thermodynamics of computation and Landauer's principle;
-- neural energetics and brain metabolism;
-- cognitive control, working memory, attention and task switching;
-- reinforcement learning, model-based/model-free control and habit learning;
-- sleep, fatigue and executive function;
-- implementation intentions and behavioural interventions;
-- dynamical systems, feedback control and system identification;
-- metacognition and adaptive control;
-- measurement theory, psychometrics, causal inference and N-of-1 methods.
+- [ ] information theory, Bayesian epistemology and formal logic;
+- [ ] underdetermination and algorithmic information theory;
+- [ ] thermodynamics of computation and Landauer's principle;
+- [ ] neural energetics and brain metabolism;
+- [ ] cognitive control, working memory, attention and task switching;
+- [ ] reinforcement learning, model-based/model-free control and habit learning;
+- [ ] sleep, fatigue and executive function;
+- [ ] implementation intentions and behavioural interventions;
+- [ ] dynamical systems, feedback control and system identification;
+- [ ] metacognition and adaptive control;
+- [ ] measurement theory, psychometrics, causal inference and N-of-1 methods.
 
 Prefer systematic reviews, meta-analyses, authoritative textbooks and strong primary studies. Record source, authors, year, DOI/stable URL, evidence type, findings, limitations and the exact claim supported. Preprints must be labelled. Popular science sources are orientation, not sole evidence for technical claims.
 
@@ -270,6 +291,28 @@ All changes below apply to `document_master_visual.md` on `edition`.
 | D17 | Throughout | Add verified citations and bibliography. |
 | D18 | Throughout | Harmonize notation, symbol reuse, equation numbering, units and cross-references. |
 
+
+**Treatise edition progress checklist**
+
+- [ ] **D1** — Front matter / abstract
+- [ ] **D2** — Throughout
+- [ ] **D3** — §§3–5
+- [ ] **D4** — §§6–8
+- [ ] **D5** — §§9–15
+- [ ] **D6** — §§16–27
+- [ ] **D7** — §§28–33
+- [ ] **D8** — §§34–45
+- [ ] **D9** — §§46–50
+- [ ] **D10** — §§51–59
+- [ ] **D11** — §§60–64
+- [ ] **D12** — §§65–69
+- [ ] **D13** — §§70–74
+- [ ] **D14** — §§75–82
+- [ ] **D15** — §§83–89
+- [ ] **D16** — §§90–95
+- [ ] **D17** — Throughout
+- [ ] **D18** — Throughout
+
 ## 8. Edition register — ROOT tracker
 
 All changes below apply to `ROOT_Protocol_Tracker.md` on `edition`.
@@ -289,16 +332,32 @@ All changes below apply to `ROOT_Protocol_Tracker.md` on `edition`.
 | T11 | §14 | Define success/failure per experiment; keep raw outcomes primary. |
 | T12 | Throughout | Preserve usability, low burden and non-clinical framing. |
 
+
+**Tracker edition progress checklist**
+
+- [ ] **T1** — §§2–3
+- [ ] **T2** — State vector
+- [ ] **T3** — §§4–6
+- [ ] **T4** — §§5–8
+- [ ] **T5** — §7
+- [ ] **T6** — §§8–9
+- [ ] **T7** — §9
+- [ ] **T8** — §§9, 13
+- [ ] **T9** — §§10–11
+- [ ] **T10** — §§12–13
+- [ ] **T11** — §14
+- [ ] **T12** — Throughout
+
 ## 9. Experimental programme
 
 Turn the treatise's experiments A–F into executable protocols:
 
-- **A — Inference without new external observation:** formal tasks, withheld conclusions, controlled access, independent checking.
-- **B — Structural prediction:** derive a risky prediction, register it before observation, test independently, compare alternatives.
-- **C — Resource-sensitive action selection:** measure task difficulty, uncertainty, fatigue, cue exposure and action selection; address confounds.
-- **D — Environmental obstruction:** baseline, barrier intervention, stable task conditions, frequency/duration/output and return latency.
-- **E — Alternative-response training:** defined cue, observable if–then response, rehearsal, execution rate and return latency.
-- **F — Recursive adaptation:** compare an adaptive policy with a fixed policy; evaluate predictive and functional outcomes.
+- [ ] **A — Inference without new external observation:** formal tasks, withheld conclusions, controlled access, independent checking.
+- [ ] **B — Structural prediction:** derive a risky prediction, register it before observation, test independently, compare alternatives.
+- [ ] **C — Resource-sensitive action selection:** measure task difficulty, uncertainty, fatigue, cue exposure and action selection; address confounds.
+- [ ] **D — Environmental obstruction:** baseline, barrier intervention, stable task conditions, frequency/duration/output and return latency.
+- [ ] **E — Alternative-response training:** defined cue, observable if–then response, rehearsal, execution rate and return latency.
+- [ ] **F — Recursive adaptation:** compare an adaptive policy with a fixed policy; evaluate predictive and functional outcomes.
 
 For each: predefine primary outcome, secondary outcomes, sampling, comparison condition, intervention fidelity, confounds, analysis, uncertainty and a possible disconfirming result. Personal N-of-1 usefulness must not be presented as universal scientific validation.
 
@@ -318,21 +377,37 @@ For each: predefine primary outcome, secondary outcomes, sampling, comparison co
 ## 11. Acceptance criteria
 
 The edition is review-ready only when:
-- all four original theory names and roles are preserved;
-- every major claim has an epistemic status;
-- theorem conclusions do not exceed their premises;
-- empirical hypotheses have observable tests and possible falsifiers;
-- scientific claims have suitable traceable sources or remain explicitly unverified;
-- equations have defined symbols, assumptions, units/scales and correct interpretations;
-- thermodynamic, information-theoretic, cognitive and clinical concepts are not conflated;
-- state vectors are reconciled or explicitly mapped;
-- the tracker measures the constructs it claims to measure;
-- raw data, uncertainty, missingness and adverse effects are retained;
-- no unvalidated clinical or Lyapunov claims are made;
-- experiments distinguish individual utility from general causal evidence;
-- negative results and unresolved questions are documented;
-- both documents render correctly and remain practically usable;
-- `main` remains unchanged and all edition work is isolated on `edition`.
+- [ ] all four original theory names and roles are preserved;
+- [ ] every major claim has an epistemic status;
+- [ ] theorem conclusions do not exceed their premises;
+- [ ] empirical hypotheses have observable tests and possible falsifiers;
+- [ ] scientific claims have suitable traceable sources or remain explicitly unverified;
+- [ ] equations have defined symbols, assumptions, units/scales and correct interpretations;
+- [ ] thermodynamic, information-theoretic, cognitive and clinical concepts are not conflated;
+- [ ] state vectors are reconciled or explicitly mapped;
+- [ ] the tracker measures the constructs it claims to measure;
+- [ ] raw data, uncertainty, missingness and adverse effects are retained;
+- [ ] no unvalidated clinical or Lyapunov claims are made;
+- [ ] experiments distinguish individual utility from general causal evidence;
+- [ ] negative results and unresolved questions are documented;
+- [ ] both documents render correctly and remain practically usable;
+- [ ] `main` remains unchanged and all edition work is isolated on `edition`.
+
+
+### Plan-retirement gate
+
+- [ ] All investigation tasks and deliverables in Sections 3–4 are completed or explicitly dispositioned with a documented reason.
+- [ ] All mathematical audit items M1–M17 are verified and recorded.
+- [ ] All scientific evidence requirements in Section 6 are addressed; unsupported claims remain explicitly qualified.
+- [ ] All treatise edition items D1–D18 are completed and verified.
+- [ ] All tracker edition items T1–T12 are completed and verified.
+- [ ] Experiments A–F have executable protocols or are explicitly documented as deferred / not feasible, with reasons.
+- [ ] All execution steps in Section 10 are complete.
+- [ ] Every acceptance criterion in Section 11 is checked.
+- [ ] Cross-document verification is complete; unresolved issues and limitations are recorded.
+- [ ] Final review confirms that no required work remains and the branch / merge safeguards have been respected.
+
+**Deletion rule:** Delete this plan only after every applicable checkbox above and throughout the plan is checked, every deferred or inapplicable item has a documented disposition, and the final review confirms that the treatise and tracker are review-ready. Until then, retain this file as the active progress record.
 
 ## 12. Change-control and progress log
 
