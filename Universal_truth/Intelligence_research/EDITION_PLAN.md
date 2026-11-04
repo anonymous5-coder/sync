@@ -371,7 +371,7 @@ For each: predefine primary outcome, secondary outcomes, sampling, comparison co
 
 ## 10. Execution order
 
-1. **Baseline and inventory:** confirm branch, file identities and starting SHAs; preserve originals.
+1. **Baseline and inventory:** confirm branch, file identities and starting SHAs; preserve originals; record the exact numbered-section count and baseline version of the master treatise.
 2. **Claim and concept audit:** extract major claims, definitions, axioms, propositions, laws and equations; classify status.
 3. **Canonical glossary and state dictionary:** reconcile all vectors and overlapping constructs.
 4. **Scientific evidence review:** verify physics, neuroscience, cognition, learning, control and epistemology claims.
@@ -382,8 +382,8 @@ For each: predefine primary outcome, secondary outcomes, sampling, comparison co
 9. **Treatise edition:** revise only against documented decisions and verified evidence; incorporate the consolidated research-audit appendices.
 10. **Tracker edition:** align the operational tool with the audited definitions and measurements; keep theoretical evidence registers out of the personal tracker.
 11. **Cross-document verification:** check claims, citations, variables, notation, equations, Markdown and usability.
-12. **Completion and output review:** verify the completion criteria and required review outputs in Sections 14–15; disposition all remaining gaps.
-13. **Adversarial review:** challenge the strongest claims, weakest inferential bridges, alternative explanations and final conclusions; record objections and resolutions.
+12. **Adversarial review:** challenge the strongest claims, weakest inferential bridges, alternative explanations and final conclusions; record objections and resolutions.
+13. **Completion and output review:** verify the completion criteria and required review outputs in Sections 14–15; disposition all remaining gaps.
 14. **Review-ready state:** summarize completed, partial, deferred and unresolved points; remain on `edition`; do not merge without authorization.
 
 ## 11. Acceptance criteria
@@ -458,7 +458,7 @@ For each inventory entry, record:
 - intended domain and boundary conditions;
 - status, unresolved issues and planned verification.
 
-- [ ] Extract all substantive claims and concepts from all 95 numbered sections; record section-level coverage so no section is skipped.
+- [ ] Extract all substantive claims and concepts from every numbered section in the baseline version of the master treatise; verify and record the exact section count at baseline (currently expected to be 95) so no section is skipped.
 - [ ] Trace each theorem and proposition to its stated axioms, definitions, premises and inference steps.
 - [ ] Trace every empirical conclusion to its evidence, operationalization and relevant limitations.
 - [ ] Map every equation to the claims that use it and identify duplicated, unused or inconsistently defined symbols.
@@ -573,6 +573,7 @@ This section governs how the research team documents support. It supplements, an
 - [ ] Keep enough method and data provenance to reproduce material results where legally and practically possible.
 - [ ] Record reviewer objections and their disposition; do not treat agreement or authority as a substitute for evidence.
 - [ ] Perform a final adversarial review focused on the strongest claims, weakest bridges and most consequential assumptions.
+- [ ] Obtain an independent review from a suitably qualified reviewer where feasible; if unavailable, label the adversarial review as internal and do not describe it as independent.
 - [ ] Separate unresolved reviewer disagreement from verified error.
 
 ## 14. Completion criteria for this domain and direction
@@ -591,7 +592,7 @@ The programme is ready for final review only when the original acceptance criter
 - [ ] The tracker is aligned with the audited concepts without treating personal measurements as validated general instruments.
 - [ ] No claim of complete, final or universal knowledge is made merely because this programme's checklist is complete.
 - [ ] Deferred, out-of-scope, untestable and rejected claims are visible and have justified dispositions.
-- [ ] An adversarial review and final cross-document consistency review have been completed and recorded.
+- [ ] An adversarial review and final cross-document consistency review have been completed and recorded; any independent-review limitation is explicitly stated.
 
 ## 15. Research outputs and final review record
 
@@ -615,7 +616,7 @@ The plan may be retired only after all applicable requirements in Sections 1–1
 
 - [ ] Sections 12–15 have been completed and their required outputs reviewed.
 - [ ] All major claims have a traceable status and disposition.
-- [ ] Coverage of all 95 numbered treatise sections has been verified.
+- [ ] Coverage of every numbered section in the baseline treatise version has been verified, and the exact section count is recorded.
 - [ ] Competing explanations and distinct-contribution claims have been audited.
 - [ ] Cross-component dependencies and unresolved integration questions have been documented.
 - [ ] Final conclusions have been checked against the evidence and formal derivations.
