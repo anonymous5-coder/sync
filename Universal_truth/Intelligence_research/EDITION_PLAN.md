@@ -2,9 +2,9 @@
 
 **Repository:** `anonymous5-coder/sync`  
 **Branch:** `edition`  
-**Directory:** `Intelligence_research/`  
+**Directory:** `Universal_truth/Intelligence_research/`  
 **Status:** Governing research and editing plan  
-**Scope:** `document_master_visual.md` and `ROOT_Protocol_Tracker.md`
+**Scope:** `document_master_visual.md` and `ROOT_Protocol_Tracker.md` within the specific domain and direction defined by this programme; this plan does not require initiating unrelated research domains.
 
 ## 1. Purpose and governing principles
 
@@ -403,7 +403,7 @@ The edition is review-ready only when:
 ### Plan-retirement gate
 
 - [ ] All investigation tasks and deliverables in Sections 3–4 are completed or explicitly dispositioned with a documented reason.
-- [ ] All mathematical audit items M1–M17 are verified and recorded.
+- [ ] All mathematical audit items M1–M18 are verified and recorded.
 - [ ] All scientific evidence requirements in Section 6 are addressed; unsupported claims remain explicitly qualified.
 - [ ] All treatise edition items D1–D18 are completed and verified.
 - [ ] All tracker edition items T1–T12 are completed and verified.
@@ -414,6 +414,209 @@ The edition is review-ready only when:
 - [ ] Final review confirms that no required work remains and the branch / merge safeguards have been respected.
 
 **Deletion rule:** Delete this plan only after every applicable checkbox above and throughout the plan is checked, every deferred or inapplicable item has a documented disposition, and the final review confirms that the treatise and tracker are review-ready. Until then, retain this file as the active progress record.
+
+
+
+## 13. Domain scope and completeness audit — current research direction only
+
+This section strengthens completeness checks for the subject matter already claimed by the master treatise. It does not expand this programme into unrelated domains or make investigation of every scientific discipline a prerequisite.
+
+### 13.1 Governing scope
+
+The current programme investigates the relationships among context, information and knowledge boundaries; inference, discovery and novelty; intelligence and recursive cognition; and behavioural control and self-mastery. Its named components remain:
+
+- **Space or Null Theory**
+- **Out of Box Theory**
+- **Recursive Intelligence**
+- **ROOT Control Protocol**
+
+The four components must be assessed both individually and as parts of the treatise's proposed integrated framework. The plan must not assume that the four are already mutually consistent, empirically validated, novel, or collectively exhaustive.
+
+- [ ] State the scope of each component in operational terms: subject matter, intended explanatory role, claims, exclusions and unresolved questions.
+- [ ] Distinguish the treatise's actual claims from interpretations added by editors or reviewers.
+- [ ] Identify concepts and claims that cross component boundaries; record the dependency and the reason it is needed.
+- [ ] Identify questions that are outside the present programme; document them as out of scope rather than silently treating them as resolved.
+- [ ] Confirm that no unrelated research domain is being added merely because it may be philosophically connected.
+
+### 13.2 Claim, concept and dependency inventory
+
+Build an auditable inventory from the complete master treatise, not only its abstract, headings or equation list. Include definitions, axioms, assumptions, lemmas, theorems, propositions, explanatory claims, empirical hypotheses, examples, predictions, limitations and conclusions.
+
+For each inventory entry, record:
+- unique identifier and exact treatise section;
+- claim or concept in its original meaning;
+- epistemic classification;
+- premises and dependencies;
+- supporting derivation, evidence or source;
+- alternative explanations or interpretations;
+- intended domain and boundary conditions;
+- status, unresolved issues and planned verification.
+
+- [ ] Extract all substantive claims and concepts from all 95 numbered sections; record section-level coverage so no section is skipped.
+- [ ] Trace each theorem and proposition to its stated axioms, definitions, premises and inference steps.
+- [ ] Trace every empirical conclusion to its evidence, operationalization and relevant limitations.
+- [ ] Map every equation to the claims that use it and identify duplicated, unused or inconsistently defined symbols.
+- [ ] Map concepts reused across the four components and check that their meanings remain stable or that changes are explicitly declared.
+- [ ] Identify circular definitions, hidden premises, equivocations, category errors, confounding transitions and conclusions stronger than their premises.
+- [ ] Record concepts that are absent but necessary to make a stated argument intelligible or testable; justify any proposed addition before inserting it.
+
+**Required deliverable:** a claim-and-concept coverage matrix with explicit references to the treatise's numbered sections. It may be maintained as a structured register during the audit, but the governing result and disposition must be summarized in the treatise and/or this plan without creating unnecessary permanent planning files.
+
+### 13.3 Alternatives and distinct-contribution audit
+
+A claim is not established as original or explanatory merely because it has a new name, notation or synthesis. Compare it with relevant existing concepts and theories within the current programme's scope.
+
+- [ ] For each major claim, identify the closest established concepts, models or competing explanations.
+- [ ] Compare definitions, assumptions, explanatory targets, predictions and limitations rather than comparing names alone.
+- [ ] Determine whether the claim is equivalent to, a special case of, a synthesis of, an extension to, or genuinely distinct from the compared account.
+- [ ] Identify predictions or consequences that discriminate the proposed account from plausible alternatives.
+- [ ] If no discriminating consequence is available, mark the claim as interpretive, definitional or underdetermined as appropriate; do not claim empirical superiority.
+- [ ] Record the strongest counterargument and the evidence or reasoning that would change the assessment.
+- [ ] Preserve unattractive, negative or inconclusive comparisons; do not select only favourable analogies.
+
+**Required deliverable:** an alternatives register linked to claim identifiers, with comparison sources, discriminating tests and a justified status for any claimed distinct contribution.
+
+### 13.4 Cross-component integration and consistency
+
+Integration is a research question, not an assumption. Each component may be useful independently even if the full synthesis requires revision.
+
+- [ ] Draw an explicit dependency map among Space or Null Theory, Out of Box Theory, Recursive Intelligence and ROOT Control Protocol.
+- [ ] Label each connection as definitional, logical, mathematical, mechanistic, empirical, analogical or merely proposed.
+- [ ] Verify that a conclusion derived within one component is not imported into another without the required bridge premise.
+- [ ] Check that the components use compatible meanings for context, information, state, knowledge, inference, intelligence, feedback, control and learning—or document distinct meanings.
+- [ ] Check whether the proposed order of explanation is necessary, optional or only pedagogical.
+- [ ] Search for direct contradictions, incompatible assumptions, circular support and duplicated explanatory work.
+- [ ] Test whether each component can be evaluated independently and whether the integrated framework yields any additional, testable consequence.
+- [ ] If integration fails, preserve the valid component-level results and revise or reject only the unsupported connection.
+
+**Required deliverable:** a cross-component dependency map and an integration verdict that distinguishes established links, formal links, empirical links, conjectural links and unresolved conflicts.
+
+### 13.5 Conclusion and knowledge-status audit
+
+Use claim-specific standards. No single validation method applies to every kind of claim.
+
+For each major conclusion, record the applicable checks:
+1. **Semantic adequacy:** are the terms and scope sufficiently clear?
+2. **Logical validity:** does the conclusion follow from the premises?
+3. **Mathematical validity:** are formal derivations and model results correct under stated assumptions?
+4. **Empirical correspondence:** do observations support the claim within the measured scope?
+5. **Predictive performance:** does it make successful prospective predictions against suitable baselines, where prediction is claimed?
+6. **Causal adequacy:** is causal language justified by the design and evidence, where causation is claimed?
+7. **Reproducibility and independence:** can the result be independently checked or reproduced where applicable?
+8. **Alternative resistance:** have plausible competing explanations and counterexamples been considered?
+9. **Boundary and uncertainty:** are limits, exceptions, sensitivity and underdetermination stated?
+10. **Revisability:** is there a clear condition under which the claim would be revised, narrowed or rejected?
+
+- [ ] Apply only the relevant validation checks to each claim; do not demand empirical tests of pure definitions or treat formal validity as empirical confirmation.
+- [ ] Distinguish mathematical truth within a formal system from the truth of the system's assumptions about the world.
+- [ ] Distinguish empirical support from proof, absence of disproof from confirmation, and explanatory coherence from empirical adequacy.
+- [ ] State the confidence and evidence quality at the level justified; avoid a single global label that hides mixed claim statuses.
+- [ ] Record unresolved underdetermination and competing interpretations rather than forcing a definitive conclusion.
+- [ ] Identify which conclusions are established, formally demonstrated, empirically supported, provisionally supported, unresolved, contradicted or rejected.
+- [ ] Ensure the final treatise does not present a proposed unifying framework as a demonstrated universal law.
+
+**Required deliverable:** a conclusion-status register and a concise final epistemic statement that explains what the treatise does and does not establish.
+
+### 13.6 Coverage and disposition review
+
+The claim inventory is the basis for judging completeness. A checklist being completed is not itself proof that the research is complete.
+
+- [ ] Account for every numbered treatise section and every substantive claim in the coverage matrix.
+- [ ] Give every claim an explicit disposition: retained, revised, split, merged, downgraded, deferred, or rejected.
+- [ ] Give each deferred or out-of-scope item a reason, known dependency and condition for reopening.
+- [ ] Confirm that no important counterexample, negative result, contradictory source or limitation has been omitted.
+- [ ] Confirm that every conclusion in the abstract and final sections is supported by the body of the treatise.
+- [ ] Confirm that the title, scope statement and abstract do not claim more than the research establishes.
+- [ ] Confirm that the four named components are each adequately characterized, even if some are ultimately found incomplete or unsupported.
+- [ ] Record residual gaps explicitly; do not equate a finite audit with proof that no gap exists.
+
+## 14. Verification standards and evidence-to-claim traceability
+
+This section governs how the research team documents support. It supplements, and does not replace, the epistemic classifications in Section 1 or the domain-specific investigations in Sections 3–6.
+
+### 14.1 Evidence-to-claim traceability
+
+- [ ] Assign a stable identifier to every major factual or empirical claim.
+- [ ] Link each claim to the exact supporting source location, dataset, derivation or experiment.
+- [ ] Record source type, publication status, date, methods, sample or domain, limitations and conflicts of interest where material.
+- [ ] Distinguish primary evidence from reviews, textbooks, commentary and secondary summaries.
+- [ ] Verify that each cited source actually supports the precise wording attached to it.
+- [ ] Record contrary evidence and sources that support a narrower or different conclusion.
+- [ ] Keep source absence, inaccessible evidence and failed verification visible; do not fabricate citations or silently substitute weaker support.
+
+### 14.2 Formal proof verification
+
+- [ ] Check definitions, axiom consistency where relevant, premise scope, inference rules and every proof step.
+- [ ] Search for hidden assumptions, circular reasoning, quantifier changes, domain shifts and invalid generalization.
+- [ ] Preserve “proves” and “establishes” when the formal derivation is valid and the conclusion necessarily follows in the specified system.
+- [ ] State whether a result is conditional on axioms, definitions, model assumptions or an interpretation.
+- [ ] Keep formal proof status separate from the empirical adequacy of the model or assumptions.
+
+### 14.3 Empirical and causal claim verification
+
+- [ ] Define the observable outcome, measurement procedure, target population or individual, setting and time horizon.
+- [ ] Evaluate design quality, sampling, confounding, measurement error, missingness, statistical uncertainty and external validity as applicable.
+- [ ] Distinguish descriptive, predictive, mechanistic and causal claims.
+- [ ] Match causal language to identification assumptions and design strength.
+- [ ] Report null, mixed and adverse results with the same visibility as positive results.
+- [ ] Do not generalize an individual tracker result to populations without independent evidence.
+
+### 14.4 Review and reproducibility
+
+- [ ] Ensure equations, calculations, cited passages and experimental analyses can be independently checked.
+- [ ] Keep enough method and data provenance to reproduce material results where legally and practically possible.
+- [ ] Record reviewer objections and their disposition; do not treat agreement or authority as a substitute for evidence.
+- [ ] Perform a final adversarial review focused on the strongest claims, weakest bridges and most consequential assumptions.
+- [ ] Separate unresolved reviewer disagreement from verified error.
+
+## 15. Completion criteria for this domain and direction
+
+The programme is ready for final review only when the original acceptance criteria in Section 11 and the following additional criteria are satisfied or explicitly dispositioned.
+
+- [ ] The scope of the current domain and direction is explicit and unrelated domains have not been added as prerequisites.
+- [ ] Every numbered section of the master treatise has been audited and represented in the claim-and-concept coverage matrix.
+- [ ] Every major claim, definition, axiom, theorem, proposition, equation, empirical hypothesis and conclusion has a traceable status and disposition.
+- [ ] Formal deductions have been checked independently from the empirical assumptions used to interpret them.
+- [ ] Relevant alternatives and competing explanations have been compared for all major explanatory or novelty claims.
+- [ ] The distinct contribution of each component is stated only to the degree supported by the comparison.
+- [ ] Cross-component dependencies, bridge premises, contradictions and unresolved integration questions are documented.
+- [ ] Each empirical claim has an appropriate evidence trail, uncertainty statement and possible falsifier or an explicit reason why such a test is unavailable.
+- [ ] The treatise's final conclusions and abstract accurately reflect the evidence and unresolved limitations.
+- [ ] The tracker is aligned with the audited concepts without treating personal measurements as validated general instruments.
+- [ ] No claim of complete, final or universal knowledge is made merely because this programme's checklist is complete.
+- [ ] Deferred, out-of-scope, untestable and rejected claims are visible and have justified dispositions.
+- [ ] An adversarial review and final cross-document consistency review have been completed and recorded.
+
+## 16. Research outputs and final review record
+
+The research outputs should be integrated into the existing treatise and tracker wherever practical. This section specifies the minimum review record; it is not an instruction to create multiple new permanent planning documents.
+
+- [ ] **Scope statement:** what this treatise investigates and explicitly does not investigate.
+- [ ] **Coverage matrix:** section-by-section and claim-by-claim inventory with status and disposition.
+- [ ] **Proof audit:** premises, derivations, theorem validity and formal-system boundaries.
+- [ ] **Evidence map:** claim-to-source or claim-to-experiment traceability, including contrary evidence.
+- [ ] **Alternatives register:** competing explanations, comparison criteria and discriminating evidence.
+- [ ] **Integration map:** dependencies and links among the four named components, labelled by evidential/logical type.
+- [ ] **Uncertainty and limitations record:** underdetermination, measurement limits, boundary conditions and unresolved conflicts.
+- [ ] **Final conclusion register:** what is established, formally demonstrated, empirically supported, provisional, unresolved, contradicted or rejected.
+- [ ] **Change record:** material editorial decisions and reasons, preserving traceability to the original claims.
+
+The final review must explicitly state whether each output is complete, partial, deferred or not applicable. A missing output cannot be silently interpreted as a positive result.
+
+## 17. Plan retirement and change-control extension
+
+The plan may be retired only after all applicable requirements in Sections 1–16, including the original Sections 1–12, are completed or given a justified disposition. The checkboxes below are additional gates, not replacements for any existing checklist.
+
+- [ ] Sections 13–16 have been completed and their required outputs reviewed.
+- [ ] All major claims have a traceable status and disposition.
+- [ ] Coverage of all 95 numbered treatise sections has been verified.
+- [ ] Competing explanations and distinct-contribution claims have been audited.
+- [ ] Cross-component dependencies and unresolved integration questions have been documented.
+- [ ] Final conclusions have been checked against the evidence and formal derivations.
+- [ ] The M18 mathematical audit gate in the original Plan-retirement gate is satisfied.
+- [ ] The final review record states remaining limitations and deferred work without implying universal completeness.
+
+**Retirement rule:** completing the plan means that the defined audit and edition process has been completed or transparently dispositioned. It does not mean that every claim is true, that every uncertainty has been eliminated, or that all possible knowledge in the domain has been discovered. Preserve the treatise's unresolved questions and revision conditions after the plan is retired.
 
 ## 12. Change-control and progress log
 
@@ -428,6 +631,6 @@ The edition is review-ready only when:
 |---|---|---|---|
 | 2026-11-04 | Initial source inspection | Both source documents inspected; initial discrepancies listed in Section 2. | Complete |
 | 2026-11-04 | Research programme | Eight investigations retained and expanded in this plan. | Planned |
-| 2026-11-04 | Edition scope | Consolidate all planning and audit registers in this single file. | Planned |
+| 2026-11-04 | Edition scope | Consolidate all planning and audit registers in this single file. | Planned |\n| 2026-11-04 | Domain completeness extension | Added domain-scoped coverage, alternatives, cross-component integration, evidence traceability and final knowledge-status gates; corrected the M18 retirement reference. | Added to governing plan; execution not started |
 
 **Governing principle:** Preserve the ambition of the theories while making every claim answerable to definitions, logic, evidence, and possible failure.
