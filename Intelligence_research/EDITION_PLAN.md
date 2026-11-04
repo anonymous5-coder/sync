@@ -185,6 +185,10 @@ Investigate:
 - [ ] State Landauer's assumptions; do not convert its bit-erasure bound into an energy-per-thought estimate.
 - [ ] Distinguish thermodynamic entropy, Shannon entropy, variational free energy, cognitive effort and distraction.
 - [ ] Treat cost-sensitive action selection as a computational model, not a direct theorem of thermodynamics.
+- [ ] Formalize multi-stable dynamical systems and state-space attractor landscapes for embodied behavioural and habitual loops; define state variables, dynamics, attractors and basin boundaries.
+- [ ] Define attractor-basin depth and transition-barrier heights only where the selected model supports a defensible landscape or potential; do not assume every nonlinear system has a scalar potential.
+- [ ] Analyse state-transition stability and transition likelihood under noise, fatigue and other perturbations, including timescales, observables, uncertainty and falsifiers.
+- [ ] Distinguish dynamical-systems stability and model-specific landscape quantities from thermodynamic entropy, Shannon entropy and thermodynamic free energy unless a valid mapping is derived and supported.
 - [ ] Test behavioural consequences independently from physical substrate constraints.
 
 ### 4.4 Recursive Intelligence
