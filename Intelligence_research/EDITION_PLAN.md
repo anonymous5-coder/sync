@@ -53,7 +53,7 @@ Initial issues to investigate:
 - [ ] Fatigue, physiological state, task difficulty and uncertainty are not always consistently separated.
 - [ ] Action-value equations combine reward and several costs without fully specifying units, scales or parameter estimation.
 - [ ] The proposed intelligence functional has no validated test battery or established construct validity.
-- [ ] Linear control and Lyapunov-style formulations are abstractions for a nonlinear, partially observed human system. The tracker's (V_t) must not be described as a proven Lyapunov function.
+- [ ] Linear control and Lyapunov-style formulations are abstractions for a nonlinear, partially observed human system. The tracker's $V_t$ must not be described as a proven Lyapunov function.
 - [ ] The physical-resource-to-behaviour argument needs a clear boundary between established physics, computational assumptions and testable behavioural hypotheses.
 - [ ] “Null” must remain distinct from physical vacuum, mathematical zero, absence of new external input, and philosophical nothingness.
 - [ ] ROOT is the protocol name; its seven operational stages are Recognise, Obstruct, Override, Train, Correct, Optimise and Learn. Preserve this naming.
@@ -324,7 +324,7 @@ All changes below apply to `ROOT_Protocol_Tracker.md` on `edition`.
 | T3 | §§4–6 | Define episode start/end, cue onset, action start/end and the primary RTL timing rule. |
 | T4 | §§5–8 | Separate primary and secondary outcomes, raw data, missingness and denominator rules. |
 | T5 | §7 | Add intervention fidelity, burden, side effects and stopping/reassessment criteria. |
-| T6 | §§8–9 | Clarify leverage denominator and heuristic (V_t); never call it a validated Lyapunov function. |
+| T6 | §§8–9 | Clarify leverage denominator and heuristic $V_t$; never call it a validated Lyapunov function. |
 | T7 | §9 | Add prospective prediction, confidence, horizon and observed-outcome fields. |
 | T8 | §§9, 13 | Add maintenance and reduced-support follow-up. |
 | T9 | §§10–11 | Address contradictory evidence, substitution, adverse effects and escalation. |
