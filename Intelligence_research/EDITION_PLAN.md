@@ -229,6 +229,7 @@ Audit every equation for symbol definitions, units/scales, domain, assumptions, 
 | M15 | Lyapunov-style decrease | A formal Lyapunov function needs positive definiteness and a valid decrease proof. |
 | M16 | Environmental leverage ratio | Define outcome rate, denominator, zero/negative cases and burden scale. |
 | M17 | Unified operator composition | Specify ordering, concurrency and coupling. |
+| M18 | Multi-stable dynamics and state-space attractor landscapes | Define state space and dynamics; verify attractors and basins for the selected model; define basin depth and transition barriers without assuming a scalar potential; analyse transition stability under noise and fatigue; identify observables, sensitivity, timescales and falsifiers; distinguish model landscape quantities from thermodynamic entropy and free energy unless a justified mapping is derived. |
 
 Classify each mathematical item as definition, identity, theorem, fitted model, conceptual abstraction or heuristic. Never present a heuristic as a proof.
 
