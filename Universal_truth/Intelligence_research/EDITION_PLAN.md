@@ -417,7 +417,7 @@ The edition is review-ready only when:
 
 
 
-## 13. Domain scope and completeness audit — current research direction only
+## 12. Domain scope and completeness audit — current research direction only
 
 This section strengthens completeness checks for the subject matter already claimed by the master treatise. It does not expand this programme into unrelated domains or make investigation of every scientific discipline a prerequisite.
 
@@ -618,7 +618,7 @@ The plan may be retired only after all applicable requirements in Sections 1–1
 
 **Retirement rule:** completing the plan means that the defined audit and edition process has been completed or transparently dispositioned. It does not mean that every claim is true, that every uncertainty has been eliminated, or that all possible knowledge in the domain has been discovered. Preserve the treatise's unresolved questions and revision conditions after the plan is retired.
 
-## 12. Change-control and progress log
+## 18. Change-control and progress log
 
 - Edit only on `edition`.
 - Preserve original content in Git history; use focused commits.
