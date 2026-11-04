@@ -30,6 +30,8 @@ Every major claim in the two documents must be classified as one of:
 6. **Speculative extension** — plausible but not sufficiently established.
 7. **Personal measurement convention** — a practical tracker definition, not a validated instrument.
 
+Assign one primary epistemic classification to each claim; add secondary tags where a claim genuinely combines distinct kinds of support. Do not force a mathematical result, empirical interpretation and personal measurement convention into one undifferentiated status.
+
 Mathematical notation does not validate an empirical claim. A theorem establishes only what follows from its premises. A deduction from a model does not establish that the model accurately represents reality. Negative and contradictory results must be retained.
 
 ## 2. Current documents and initial audit observations
@@ -293,7 +295,7 @@ All changes below apply to `document_master_visual.md` on `edition`.
 | D13 | §§70–74 | Check unified propositions against prior assumptions; label conditional conclusions. |
 | D14 | §§75–82 | Make experiments executable: variables, controls, outcomes, falsifiers and analysis. |
 | D15 | §§83–89 | Cross-reference limitations and failure modes to claims and experiments. |
-| D16 | §§90–95 | Preserve “establishes” and “proves” for valid formal deductive proofs and theorems (including Theorems 1–3 and Propositions 1–5) that follow necessarily from stated axioms by valid inference; do not weaken mathematically warranted conclusions. Apply softer phrasing (“proposes”, “models”, “hypothesizes”) strictly to untested empirical or clinical claims. Distinguish a theorem about a formal model from evidence that the model describes reality. Verify each proof's premises and inferential steps before retaining proof language. |
+| D16 | §§90–95 | For Theorems 1–3 and Propositions 1–5, retain “establishes” and “proves” only where the audit verifies that the formal conclusion follows necessarily from stated axioms and definitions by valid inference; do not weaken a mathematically warranted conclusion, but do not presume a proof is valid before checking it. Apply softer phrasing (“proposes”, “models”, “hypothesizes”) strictly to untested empirical or clinical claims. Distinguish a theorem about a formal model from evidence that the model describes reality. Verify each proof's premises and inferential steps before retaining proof language. |
 | D17 | Throughout | Add verified citations and bibliography. |
 | D18 | Throughout | Harmonize notation, symbol reuse, equation numbering, units and cross-references. |
 
@@ -374,11 +376,15 @@ For each: predefine primary outcome, secondary outcomes, sampling, comparison co
 3. **Canonical glossary and state dictionary:** reconcile all vectors and overlapping constructs.
 4. **Scientific evidence review:** verify physics, neuroscience, cognition, learning, control and epistemology claims.
 5. **Mathematical audit:** check assumptions, derivations, units, models and theorem scope.
-6. **Experimental design:** make Investigations I–VIII and experiments A–F testable.
-7. **Treatise edition:** revise only against documented decisions and verified evidence.
-8. **Tracker edition:** align the operational tool with the audited definitions and measurements.
-9. **Cross-document verification:** check claims, citations, variables, notation, equations, Markdown and usability.
-10. **Review-ready state:** summarize completed, partial and unresolved points; remain on `edition`; do not merge without authorization.
+6. **Domain completeness and alternatives audit:** complete the claim-and-concept inventory, section coverage matrix, competing-explanation comparisons and distinct-contribution assessment required by Section 12.
+7. **Cross-component integration and knowledge-status audit:** complete the dependency map, bridge-premise checks, evidence-to-claim traceability, formal/empirical separation and conclusion-status assessment required by Sections 12–13.
+8. **Experimental design:** make Investigations I–VIII and experiments A–F testable; specify outcomes, comparison conditions, falsifiers and analysis.
+9. **Treatise edition:** revise only against documented decisions and verified evidence; incorporate the consolidated research-audit appendices.
+10. **Tracker edition:** align the operational tool with the audited definitions and measurements; keep theoretical evidence registers out of the personal tracker.
+11. **Cross-document verification:** check claims, citations, variables, notation, equations, Markdown and usability.
+12. **Completion and output review:** verify the completion criteria and required review outputs in Sections 14–15; disposition all remaining gaps.
+13. **Adversarial review:** challenge the strongest claims, weakest inferential bridges, alternative explanations and final conclusions; record objections and resolutions.
+14. **Review-ready state:** summarize completed, partial, deferred and unresolved points; remain on `edition`; do not merge without authorization.
 
 ## 11. Acceptance criteria
 
@@ -421,7 +427,7 @@ The edition is review-ready only when:
 
 This section strengthens completeness checks for the subject matter already claimed by the master treatise. It does not expand this programme into unrelated domains or make investigation of every scientific discipline a prerequisite.
 
-### 13.1 Governing scope
+### 12.1 Governing scope
 
 The current programme investigates the relationships among context, information and knowledge boundaries; inference, discovery and novelty; intelligence and recursive cognition; and behavioural control and self-mastery. Its named components remain:
 
@@ -438,7 +444,7 @@ The four components must be assessed both individually and as parts of the treat
 - [ ] Identify questions that are outside the present programme; document them as out of scope rather than silently treating them as resolved.
 - [ ] Confirm that no unrelated research domain is being added merely because it may be philosophically connected.
 
-### 13.2 Claim, concept and dependency inventory
+### 12.2 Claim, concept and dependency inventory
 
 Build an auditable inventory from the complete master treatise, not only its abstract, headings or equation list. Include definitions, axioms, assumptions, lemmas, theorems, propositions, explanatory claims, empirical hypotheses, examples, predictions, limitations and conclusions.
 
@@ -457,12 +463,12 @@ For each inventory entry, record:
 - [ ] Trace every empirical conclusion to its evidence, operationalization and relevant limitations.
 - [ ] Map every equation to the claims that use it and identify duplicated, unused or inconsistently defined symbols.
 - [ ] Map concepts reused across the four components and check that their meanings remain stable or that changes are explicitly declared.
-- [ ] Identify circular definitions, hidden premises, equivocations, category errors, confounding transitions and conclusions stronger than their premises.
+- [ ] Identify circular definitions, hidden premises, equivocations, category errors, unsupported inferential transitions and conclusions stronger than their premises.
 - [ ] Record concepts that are absent but necessary to make a stated argument intelligible or testable; justify any proposed addition before inserting it.
 
 **Required deliverable:** a claim-and-concept coverage matrix with explicit references to the treatise's numbered sections. It may be maintained as a structured register during the audit, but the governing result and disposition must be summarized in the treatise and/or this plan without creating unnecessary permanent planning files.
 
-### 13.3 Alternatives and distinct-contribution audit
+### 12.3 Alternatives and distinct-contribution audit
 
 A claim is not established as original or explanatory merely because it has a new name, notation or synthesis. Compare it with relevant existing concepts and theories within the current programme's scope.
 
@@ -476,7 +482,7 @@ A claim is not established as original or explanatory merely because it has a ne
 
 **Required deliverable:** an alternatives register linked to claim identifiers, with comparison sources, discriminating tests and a justified status for any claimed distinct contribution.
 
-### 13.4 Cross-component integration and consistency
+### 12.4 Cross-component integration and consistency
 
 Integration is a research question, not an assumption. Each component may be useful independently even if the full synthesis requires revision.
 
@@ -491,7 +497,7 @@ Integration is a research question, not an assumption. Each component may be use
 
 **Required deliverable:** a cross-component dependency map and an integration verdict that distinguishes established links, formal links, empirical links, conjectural links and unresolved conflicts.
 
-### 13.5 Conclusion and knowledge-status audit
+### 12.5 Conclusion and knowledge-status audit
 
 Use claim-specific standards. No single validation method applies to every kind of claim.
 
@@ -503,7 +509,7 @@ For each major conclusion, record the applicable checks:
 5. **Predictive performance:** does it make successful prospective predictions against suitable baselines, where prediction is claimed?
 6. **Causal adequacy:** is causal language justified by the design and evidence, where causation is claimed?
 7. **Reproducibility and independence:** can the result be independently checked or reproduced where applicable?
-8. **Alternative resistance:** have plausible competing explanations and counterexamples been considered?
+8. **Competing-explanation assessment:** have plausible alternative explanations and counterexamples been considered?
 9. **Boundary and uncertainty:** are limits, exceptions, sensitivity and underdetermination stated?
 10. **Revisability:** is there a clear condition under which the claim would be revised, narrowed or rejected?
 
@@ -517,7 +523,7 @@ For each major conclusion, record the applicable checks:
 
 **Required deliverable:** a conclusion-status register and a concise final epistemic statement that explains what the treatise does and does not establish.
 
-### 13.6 Coverage and disposition review
+### 12.6 Coverage and disposition review
 
 The claim inventory is the basis for judging completeness. A checklist being completed is not itself proof that the research is complete.
 
@@ -530,13 +536,13 @@ The claim inventory is the basis for judging completeness. A checklist being com
 - [ ] Confirm that the four named components are each adequately characterized, even if some are ultimately found incomplete or unsupported.
 - [ ] Record residual gaps explicitly; do not equate a finite audit with proof that no gap exists.
 
-## 14. Verification standards and evidence-to-claim traceability
+## 13. Verification standards and evidence-to-claim traceability
 
 This section governs how the research team documents support. It supplements, and does not replace, the epistemic classifications in Section 1 or the domain-specific investigations in Sections 3–6.
 
 ### 14.1 Evidence-to-claim traceability
 
-- [ ] Assign a stable identifier to every major factual or empirical claim.
+- [ ] Assign stable identifiers to all substantive entries in the claim inventory; distinguish formal-result identifiers from empirical/source-supported claim identifiers.
 - [ ] Link each claim to the exact supporting source location, dataset, derivation or experiment.
 - [ ] Record source type, publication status, date, methods, sample or domain, limitations and conflicts of interest where material.
 - [ ] Distinguish primary evidence from reviews, textbooks, commentary and secondary summaries.
@@ -569,7 +575,7 @@ This section governs how the research team documents support. It supplements, an
 - [ ] Perform a final adversarial review focused on the strongest claims, weakest bridges and most consequential assumptions.
 - [ ] Separate unresolved reviewer disagreement from verified error.
 
-## 15. Completion criteria for this domain and direction
+## 14. Completion criteria for this domain and direction
 
 The programme is ready for final review only when the original acceptance criteria in Section 11 and the following additional criteria are satisfied or explicitly dispositioned.
 
@@ -587,9 +593,9 @@ The programme is ready for final review only when the original acceptance criter
 - [ ] Deferred, out-of-scope, untestable and rejected claims are visible and have justified dispositions.
 - [ ] An adversarial review and final cross-document consistency review have been completed and recorded.
 
-## 16. Research outputs and final review record
+## 15. Research outputs and final review record
 
-The research outputs should be integrated into the existing treatise and tracker wherever practical. This section specifies the minimum review record; it is not an instruction to create multiple new permanent planning documents.
+The research outputs should be integrated into the existing treatise wherever practical. Keep the consolidated research-audit appendices in `document_master_visual.md`: claim-and-concept coverage matrix, proof audit, evidence map, alternatives register, integration map, uncertainty/limitations record and final conclusion register. Keep `ROOT_Protocol_Tracker.md` limited to operational definitions, personal measurements and intervention records; do not turn it into a theory-evidence repository. Do not create multiple permanent planning files. If the full audit register cannot reasonably fit in the treatise appendices, document the specific constraint and obtain approval before creating one consolidated supporting register.
 
 - [ ] **Scope statement:** what this treatise investigates and explicitly does not investigate.
 - [ ] **Coverage matrix:** section-by-section and claim-by-claim inventory with status and disposition.
@@ -603,11 +609,11 @@ The research outputs should be integrated into the existing treatise and tracker
 
 The final review must explicitly state whether each output is complete, partial, deferred or not applicable. A missing output cannot be silently interpreted as a positive result.
 
-## 17. Plan retirement and change-control extension
+## 16. Plan retirement and change-control extension
 
-The plan may be retired only after all applicable requirements in Sections 1–16, including the original Sections 1–12, are completed or given a justified disposition. The checkboxes below are additional gates, not replacements for any existing checklist.
+The plan may be retired only after all applicable requirements in Sections 1–15, together with applicable change-control requirements in Section 17, are completed or given a justified disposition. The checkboxes below are additional gates, not replacements for any existing checklist.
 
-- [ ] Sections 13–16 have been completed and their required outputs reviewed.
+- [ ] Sections 12–15 have been completed and their required outputs reviewed.
 - [ ] All major claims have a traceable status and disposition.
 - [ ] Coverage of all 95 numbered treatise sections has been verified.
 - [ ] Competing explanations and distinct-contribution claims have been audited.
@@ -618,7 +624,7 @@ The plan may be retired only after all applicable requirements in Sections 1–1
 
 **Retirement rule:** completing the plan means that the defined audit and edition process has been completed or transparently dispositioned. It does not mean that every claim is true, that every uncertainty has been eliminated, or that all possible knowledge in the domain has been discovered. Preserve the treatise's unresolved questions and revision conditions after the plan is retired.
 
-## 18. Change-control and progress log
+## 17. Change-control and progress log
 
 - Edit only on `edition`.
 - Preserve original content in Git history; use focused commits.
@@ -631,6 +637,8 @@ The plan may be retired only after all applicable requirements in Sections 1–1
 |---|---|---|---|
 | 2026-11-04 | Initial source inspection | Both source documents inspected; initial discrepancies listed in Section 2. | Complete |
 | 2026-11-04 | Research programme | Eight investigations retained and expanded in this plan. | Planned |
-| 2026-11-04 | Edition scope | Consolidate all planning and audit registers in this single file. | Planned |\n| 2026-11-04 | Domain completeness extension | Added domain-scoped coverage, alternatives, cross-component integration, evidence traceability and final knowledge-status gates; corrected the M18 retirement reference. | Added to governing plan; execution not started |
+| 2026-11-04 | Edition scope | Consolidate all planning and audit registers in this single file. | Planned |
+| 2026-11-04 | Domain completeness extension | Added domain-scoped coverage, alternatives, cross-component integration, evidence traceability and final knowledge-status gates; corrected the M18 retirement reference. | Added to governing plan; execution not started |
+| 2026-11-04 | Pre-execution plan audit | Audited section numbering, cross-references, execution dependencies, evidence-register storage, proof-language conditions and Markdown table integrity. Corrected plan structure only; no treatise or tracker execution performed. | Plan audit and corrections complete; execution not started |
 
 **Governing principle:** Preserve the ambition of the theories while making every claim answerable to definitions, logic, evidence, and possible failure.
