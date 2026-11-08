@@ -3704,3 +3704,65 @@ The latest treatise was fetched after commits `266b094553e4024c6c87fa30391739f92
 
 **Overall M1–M18 status:** formal identities and standard results are retained within scope; high-priority notation/proof/model defects are corrected; candidate models are explicitly qualified; and M17/M18 are deferred. This item-by-item audit is recorded, but it does not satisfy the plan's requirement for a fully specified, identified and independently verified mathematical architecture. No experiments executed or authorized.
 
+## 67. Cross-document consistency audit — front matter, current treatise and ROOT tracker
+
+### 67.1 Snapshot and scope
+
+This audit uses the live `edition` branch after the front-matter correction in treatise commit `0941ae8783b53e412c175dc354ce6f8e7367f0e5`.
+
+| Artifact | Current blob | Current lines | Audit scope |
+|---|---|---:|---|
+| `document_master_visual.md` | `1dc95ac6e04c5834a6a5bd278f786b720cb80e12` | 2,591 | Front matter, all 95 section headings, cross-referenced mathematical/ROOT sections and final status |
+| `ROOT_Protocol_Tracker.md` | `dff7d43545ce5f28d19b65e31600407ac5810062` | 699 | State dictionary, episode schema, action score, intervention cycle, ROOT stages and success criteria |
+| `CLAIM_EVIDENCE_REGISTER.md` | Current branch snapshot before this entry | — | Existing claim/source dispositions and prior audit records |
+| `EDITION_PLAN.md` | Current branch snapshot before progress update | — | Acceptance, review-readiness and plan-retirement gates |
+
+The register's earlier 2,618-line baseline `123abdbe9ad3e6c24d150e7db2f38e9562d520d5` remains a historical reference for the original batch line locations. It is not the current treatise blob. Current line numbers must be taken from the snapshot above or refreshed again after later edits.
+
+### 67.2 Front-matter consistency defect corrected
+
+The previous abstract and status line described the integration as a “central result,” called the physical–cognitive connection “derived,” and described the research programme as completed, including a specified recursive controller and mathematical ROOT architecture. Those descriptions exceeded the actual findings in §§70–95 and M1–M18.
+
+Treatise commit `0941ae8783b53e412c175dc354ce6f8e7367f0e5` changed only the front-matter status line and abstract. The revised abstract now accurately states:
+
+- The four foundations are proposed concepts/roles; their distinctness, completeness and integrated explanatory advantage are not established.
+- The formal core contains standard identities and conditional model-theoretic results, not empirical validation.
+- The physical–cognitive bridge is a candidate multilevel hypothesis; no individual-level causal chain or coefficients have been identified.
+- The ROOT vector is an ordinal operational measurement convention, not a validated latent state or clinical instrument.
+- The joint update remains schematic; typed interfaces, clocks, update semantics and incremental value remain unresolved.
+- Source access limitations and E17/E18 provenance gaps remain open.
+- Experiments A–F are templates only; none is executed, preregistered or validated.
+- The manuscript is not an independently reviewed final edition.
+
+The latest treatise was fetched after the commit. The prior overclaim phrases are absent and the revised status is present.
+
+### 67.3 Treatise–tracker interface checks
+
+| Interface | Treatise representation | Tracker representation | Audit result |
+|---|---|---|---|
+| ROOT state vector | §52: `(c,u,f,d,g,h,e)` | §2: same seven variables and order | Aligned as an operational ordinal self-rating vector; neither artifact claims validated latent-state status. |
+| Fatigue | §39/§52: perceived fatigue; objective physiology is separate | §2: perceived fatigue, not objective physiology | Aligned. |
+| Task demand | §39: six-variable `z_t`; §52: seven-variable `d_t) | §2: `d_t) combines task difficulty/ambiguity/uncertainty | Approximate crosswalk only; not an identity or validated measurement equivalence. |
+| Competing-action accessibility | §52: `e_t) | §2: `e_t) | Aligned. |
+| Episode record | §53: cue identifier, state, action, consequence, duration, RTL, intervention | §2.1: same tuple and definitions | Aligned. Cue identity is distinguished from cue-intensity rating. |
+| Action score | §19: reward + delayed value − weighted energy, control, delay and switching costs | §2.2: same terms and equation | Aligned as a conceptual score only; tracker correctly prohibits invented coefficient estimates. |
+| Return-to-task latency | §53 and §69: RTL from noticing diversion to resuming intended task | §2.3 and episode logs: same event boundary | Aligned. |
+| Stability proxy | §61: candidate Lyapunov-style model with unproved state/dynamics assumptions | §2.3/§9.3: normalized personal proxy | Consistent only as a non-certified monitoring convention; tracker explicitly says it is not a validated Lyapunov function. |
+| ROOT stages | §94: seven named stages, Recognise through Learn | §11: same seven checklist headings | Aligned. The four-letter ROOT mnemonic and seven process stages remain a taxonomy issue, not a content mismatch. |
+| Experiment duration | §69: 7+7+14-day, 28-day sequential template | §3.1: 7+7-day, 14-day baseline/intervention cycle | Deliberately distinct proposals. Neither is treated as executed or as causal evidence. |
+
+### 67.4 Remaining cross-document qualifications
+
+1. **Ordinal ratings:** The tracker preserves raw ordinal ratings and does not define a validated latent-state model. Any future numeric aggregation or regression must state its measurement assumptions and compare suitable ordinal/nonlinear alternatives.
+2. **Action score:** The tracker asks the user to identify the dominant qualitative advantage; it does not estimate the treatise's coefficients. This is appropriate until score terms are operationalized and identified.
+3. **Composite/stability metric:** The tracker's equal-weight (V_t) is a personal monitoring proxy. It is not the same as a mathematically certified (V(x)); no descent or invariance condition is established.
+4. **Fourteen- versus twenty-eight-day schedules:** Preserve the difference. The tracker pilot combines obstruction and override in one intervention period, so it cannot isolate their separate effects. The treatise's sequential phases are also not a randomized or replicated N-of-1 design.
+5. **Acronym taxonomy:** ROOT names the first four stages; Correct, Optimise and Learn are additional stages in the expanded ROOTCOL process. This naming relationship should remain explicit wherever the seven-stage sequence is presented.
+6. **Clinical boundary:** Both artifacts retain non-diagnostic language and professional-assessment safeguards. Tracker observations cannot establish a diagnosis or causal mechanism.
+
+### 67.5 Disposition
+
+The abstract/front-matter overclaim has been corrected and verified. The principal operational interfaces between the current treatise and tracker are aligned at the level of definitions and notation. This is a limited cross-document consistency pass, not a complete validation of the tracker, its measurement properties, the 95-section claim inventory, all bibliography entries, rendering, or the integrated architecture.
+
+**Remaining status:** front matter and the audited tracker interfaces are consistent with the current evidence-limited conclusions. Full 95-section claim-by-claim cross-document verification, all-source bibliographic verification, Markdown/render inspection, independent review and review-ready gates remain open. No experiment, preregistration, merge or plan retirement is authorized by this audit.
+
