@@ -1733,25 +1733,25 @@ These are label normalizations only. They do not add claims, alter the treatise 
 
 These items primarily require a fixed formal language, definitions, valid derivation, model assumptions or a suitable formal reference. Empirical sources are not a substitute for proof validity.
 
-S02-C01, S03-EQ01, S03-EQ02, S03-EQ03, S03-EQ04, S03-EQ05, S07-C01, S07-P01, S07-P02, S09-C01, S09-C02, S12-C01, S16-EQ01, S16-EQ02, S17-EQ01, S18-EQ01, S19-M02, S20-P03, S21-EQ01, S23-EQ01, S24-C01, S25-C01, S25-EQ01, S26-M01, S26-TH03, S28-EQ01, S28-EQ02, S29-EQ01, S29-P04, S30-EQ01, S30-EQ02, S31-EQ02, S32-EQ01, S32-EQ02, S36-EQ01, S36-P01, S37-EQ01, S43-EQ01, S45-EQ01, S46-EQ01, S49-EQ01, S54-EQ01, S57-EQ01, S60-M01, S61-EQ01, S61-M01, S62-C01, S62-P05, S63-C01, S64-C01, S64-EQ01, S71-EQ01, S71-EQ02, S74-C01, S74-TH05, S90-C01, S91-C01, S95-EQ01
+S02-C01, S03-EQ01, S03-EQ02, S03-EQ03, S03-EQ04, S03-EQ05, S07-C01, S07-P01, S07-P02, S09-C01, S09-C02, S12-C01, S16-EQ01, S16-EQ02, S17-EQ01, S18-EQ01, S20-P03, S21-EQ01, S23-EQ01, S24-C01, S25-C01, S25-EQ01, S26-TH03, S28-EQ01, S28-EQ02, S29-EQ01, S29-P04, S30-EQ01, S30-EQ02, S31-EQ02, S32-EQ01, S32-EQ02, S36-EQ01, S36-P01, S37-EQ01, S43-EQ01, S45-EQ01, S46-EQ01, S49-EQ01, S54-EQ01, S57-EQ01, S60-M01, S61-EQ01, S61-M01, S62-P05, S64-EQ01, S71-EQ01, S71-EQ02, S74-TH05, S90-C01, S91-C01, S95-EQ01
 
 ### 27.2 Model specification, identification or validation required
 
 These items require typed variables, state/action spaces, units, transition or update rules, identifiability/observability analysis, parameter estimation where applicable, and comparison against simpler or established models. A citation to general control or learning theory does not validate the proposed instance.
 
-S01-C01, S03-M01, S06-C01, S06-C02, S12-C02, S13-C01, S14-C01, S17-C01, S19-C01, S28-C01, S29-C01, S31-M01, S32-C01, S38-C01, S39-M01, S41-M01, S44-C01, S45-C02, S47-C01, S48-C01, S52-M01, S59-M01, S60-C01, S70-C01, S71-C01, S72-C01, S93-C01, S94-C01
+S01-C01, S03-M01, S19-M02, S26-M01, S06-C01, S06-C02, S12-C02, S13-C01, S14-C01, S17-C01, S19-C01, S28-C01, S29-C01, S31-M01, S32-C01, S38-C01, S39-M01, S41-M01, S44-C01, S45-C02, S47-C01, S48-C01, S52-M01, S59-M01, S60-C01, S62-C01, S63-C01, S70-C01, S71-C01, S72-C01, S74-C01, S93-C01, S94-C01
 
 ### 27.3 Empirical evidence or primary-source mapping required
 
 These items make or summarize claims about development, neural/behavioural mechanisms, learning, effort, prediction, intervention effects, or other phenomena. They require a source that matches the population, task, outcome and causal strength of the wording; review-level citations may orient the search but cannot substitute for primary evidence where a specific mechanism or causal effect is claimed.
 
-S02-C02, S02-C03, S13-C02, S15-F01, S16-C02, S17-C02, S18-C02, S18-C03, S20-C01, S21-C02, S22-C01, S23-C01, S23-C02, S27-H01, S27-H08, S33-C01, S34-C01, S35-C02, S40-C01, S41-C02, S42-C01, S49-C01, S50-C01, S51-C01, S52-C01, S53-C01, S57-C01, S58-C01, S59-C01, S68-C01, S73-C01
+S13-C02, S15-F01, S16-C02, S17-C02, S18-C02, S18-C03, S20-C01, S21-C02, S22-C01, S23-C01, S23-C02, S27-H01, S27-H08, S33-C01, S34-C01, S35-C02, S40-C01, S41-C02, S42-C01, S49-C01, S50-C01, S51-C01, S52-C01, S53-C01, S57-C01, S58-C01, S59-C01, S68-C01, S73-C01
 
 ### 27.4 Definition, taxonomy, methodological or normative clarification required
 
 These items are principally definitions, classifications, research questions, scope boundaries or methodological rules. They do not all require an empirical citation. They do require internal consistency, non-circular operational definitions, explicit scope, and—where a standard or normative recommendation is invoked—a traceable rationale or authoritative methodological source.
 
-S01-C02, S01-Q01, S02-D01, S05-D01, S05-D02, S05-D03, S05-D04, S05-D05, S05-D06, S05-D07, S05-D08, S08-C03, S39-C01, S75-C01, S83-L01, S84-FM01, S85-FM01, S86-FM01, S87-FM01, S88-FM01, S89-FM01
+S01-C02, S01-Q01, S02-C02, S02-C03, S02-D01, S05-D01, S05-D02, S05-D03, S05-D04, S05-D05, S05-D06, S05-D07, S05-D08, S08-C03, S39-C01, S64-C01, S75-C01, S83-L01, S84-FM01, S85-FM01, S86-FM01, S87-FM01, S88-FM01, S89-FM01
 
 ### 27.5 Mixed-status axioms and foundational premises
 
