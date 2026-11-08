@@ -98,17 +98,17 @@ where:
 
 At each decision step, the system receives an observation, selects an action, and then transitions to its next internal state:
 
-$
+$$
 O_t \sim P(O_t\mid E_t,X_t)
-$
+$$
 
-$
+$$
 a_t\sim \Pi_t(\cdot\mid X_t,M_t,O_t,G_t)
-$
+$$
 
-$
+$$
 X_{t+1}=F_A(X_t,M_t,O_t,a_t,\xi_t)
-$
+$$
 
 Here $\xi_t$ represents noise and unmodelled influences. The system may update memory and policy:
 
@@ -1260,11 +1260,11 @@ The action-selection equation already contains state-dependent terms. Sleep, str
 
 Let $\phi_t$ represent physiological context, distinct from the task-demand variable $z_t$ used in §39. Then:
 
-$
+$$
 Q(a\mid s,\phi_t)
 =
 R(a\mid s,\phi_t)-C(a\mid s,\phi_t)
-$
+$$
 
 The same action can have different effective values under different physiological conditions.
 
@@ -1692,9 +1692,9 @@ The recognition stage detects the earliest reliable signal of the unwanted seque
 
 A trigger record can be represented as:
 
-$
+$$
 \mathcal{E}_t=(\text{cueID}_t,s_t,a_t,r_t,\tau_t)
-$
+$$
 
 where:
 
@@ -1782,9 +1782,9 @@ Correction uses outcome data to identify whether the intervention worked.
 
 Let $y_t$ be the observed outcome and $y_t^*$ the desired outcome:
 
-$
+$$
 \varepsilon_t^{\mathrm{out}}=y_t^*-y_t
-$
+$$
 
 The intervention is adjusted according to the error and its likely cause.
 
