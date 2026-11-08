@@ -755,24 +755,34 @@ A habit is not inherently bad. Its value depends on whether the cue-response map
 
 ## 22. Cue learning as a dynamical system
 
-Let $c$ be a cue, $a$ an action, and $r$ the outcome or reinforcement signal.
+Let $s_t$ denote the state available before action $a_t$; it includes cue $c_t$ and any other variables used by the policy. After action $a_t$, the system receives outcome/reward $r_{t+1}$ and enters state $s_{t+1}$.
 
-A simple prediction-error learning rule is:
+One standard off-policy candidate is the Q-learning update:
 
-$$
-V_{t+1}(c,a)
+$
+Q_{\mathrm{RL},t+1}(s_t,a_t)
 =
-V_t(c,a)+\alpha
-\left[r_t+\gamma V_t(s_{t+1})-V_t(c,a)\right]
-$$
+Q_{\mathrm{RL},t}(s_t,a_t)
++
+\alpha
+\left[
+r_{t+1}
++
+\gamma \max_{a'\in\mathcal{A}(s_{t+1})}
+Q_{\mathrm{RL},t}(s_{t+1},a')
+-
+Q_{\mathrm{RL},t}(s_t,a_t)
+\right]
+$
 
 where:
 
 - $\alpha$ is a learning rate;
 - $\gamma$ is a future-value discount factor;
-- $V_t$ is the estimated value.
+- $\mathcal{A}(s_{t+1})$ is the feasible action set in the next state;
+- $Q_{\mathrm{RL},t}(s,a)$ is an action-value estimate, distinguished from the generic action score $Q(a)$ in §19.
 
-This is a simplified reinforcement-learning formulation. Biological learning involves multiple systems, timescales, and signals; the equation is an abstraction.
+The update assumes that the state representation is adequate for a Markov-style transition model and that reward timing and the feasible action set are defined. Those assumptions have not been validated for the human behavioural model in this treatise. This is a standard computational learning abstraction, not a complete biological habit-formation mechanism.
 
 If a cue repeatedly precedes an action that yields reward, relief, novelty, or reduced discomfort, the learned value of the cue-action relationship can increase.
 
@@ -1126,17 +1136,9 @@ Let:
 - $r_t$: outcome;
 - $V_t(c,a)$: learned value.
 
-A basic prediction-error update is:
+A candidate off-policy action-value update is the Q-learning rule specified in §22, with the cue included in the state representation. It uses the outcome received after the action and the estimated value of the best feasible next action. It is not interchangeable with a generic scalar prediction-error expression: the state, action, reward timing and bootstrap target must be defined consistently.
 
-$$
-\Delta V_t=\alpha\left[r_t+\gamma V_{t+1}-V_t\right]
-$$
-
-$$
-V_{t+1}=V_t+\Delta V_t
-$$
-
-Repeated cue-action-outcome sequences can increase the readiness of a policy. The cue may eventually activate the action tendency before deliberate reasoning has fully evaluated the situation.
+Repeated cue-action-outcome sequences may increase the estimated value or readiness of a policy under an appropriate learning rule. Whether this produces a human habit, and how it interacts with goal-directed control, requires a separate behavioural and neural model.
 
 A more complete model must include:
 
@@ -1317,7 +1319,7 @@ $$
 
 where $\sigma(x)=1/(1+e^{-x})$ is the logistic function.
 
-This is a proposed statistical model. The coefficients must be estimated from observations; the model does not assert that all factors act linearly or independently.
+This is a proposed statistical model, not a fitted or validated model. Its linear predictor treats the ordinal ratings as numeric inputs and therefore assumes meaningful equal spacing unless recoded; categorical, monotone or nonlinear alternatives should be compared. Repeated observations require a design and analysis that account for within-person, day/block clustering and temporal dependence. The coefficients must be estimated from observations; the model does not assert that all factors act linearly or independently.
 
 The key point is that an unwanted action is a function of a state, not a mysterious failure of character.
 
@@ -1441,9 +1443,7 @@ $$
 {\text{implementation cost}}
 $$
 
-A high-$\Lambda$ intervention produces a large behavioural benefit for relatively little effort.
-
-This metric can be estimated in a personal experiment. It should not be treated as a universal clinical score.
+A high-$\Lambda$ intervention is intended to represent a large reduction in unwanted-action probability relative to its implementation burden. To estimate it, define the baseline/comparator, eligible-opportunity denominator, observation window and burden scale in advance. If implementation cost is zero, the ratio is undefined; if the probability reduction is negative, the result indicates worsening rather than benefit. Comparisons across interventions require a common cost scale. This is an exploratory heuristic, not a validated universal or clinical score.
 
 ## 44. Research question C4: How can behavioural recovery be measured?
 
@@ -1476,7 +1476,7 @@ where:
 - $L_r$: return-to-task latency;
 - $S_c$: successful cue-response substitutions.
 
-The weights must be selected for the task. A composite score should never conceal the underlying measurements.
+The weights must be selected for the task, and the component measures require prespecified direction, time window and scaling before they can be combined. Without commensurable scales, the weighted sum is not interpretable as a coherent quantity. The composite is exploratory, not validated; a composite score should never conceal the underlying measurements.
 
 ## 45. Research question C5: How can the protocol adapt to individual differences?
 
@@ -1903,7 +1903,7 @@ $$
 
 The intervention should reduce expected $V$ over repeated cycles.
 
-This gives a rigorous way to define improvement: not "I felt perfectly motivated," but "the measured deviation from the intended behavioural state declined."
+This gives a possible way to operationalize improvement, not yet a rigorous stability certificate. The displayed $V(x)$ is a candidate monitoring functional over selected proxies; the treatise has not shown that those proxies form a complete state, that the weights make $V$ positive definite, or that the actual transition law decreases it. It must not be called a verified Lyapunov function. Improvement can be reported descriptively without claiming stability.
 
 ## 62. Behavioural improvement under feedback — testable hypothesis, not a stability theorem
 
