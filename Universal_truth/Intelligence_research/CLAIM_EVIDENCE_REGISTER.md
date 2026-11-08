@@ -991,33 +991,39 @@ Alexandre Megretski, “Model Reduction by Projection: General Properties,” MI
 
 **Pinpointing status:** abstract and review scope/results verified; exact table-level study breakdown not independently checked.
 
-### R43 — Lowe, Safati & Hall, 2017: sleep restriction and neurocognition
+### R43 — Lowe, Safati & Hall (2017): sleep restriction and neurocognition
 
-C. J. Lowe, A. Safati and P. A. Hall, “The neurocognitive consequences of sleep restriction: A meta-analytic review,” *Sleep Medicine Reviews* 36, 48–57 (2017), DOI: [10.1016/j.smrv.2017.01.002](https://doi.org/10.1016/j.smrv.2017.01.002).
+Cassandra J. Lowe, Adrian Safati and Peter A. Hall, “The neurocognitive consequences of sleep restriction: A meta-analytic review,” *Neuroscience & Biobehavioral Reviews* 80, 586–604 (2017), DOI: [10.1016/j.neubiorev.2017.07.010](https://doi.org/10.1016/j.neubiorev.2017.07.010), PMID 28757454. **Bibliographic correction:** the earlier register entry incorrectly listed *Sleep Medicine Reviews* 36, 48–57 and DOI 10.1016/j.smrv.2017.01.002; those details do not belong to this article.
 
-**Evidence type and scope:** meta-analysis of 61 studies across 71 populations examining short-term sleep restriction and neurocognitive outcomes.
+**Evidence type and scope:** meta-analytic review of experimentally manipulated sleep restriction; 61 studies, 71 populations and 1,688 participants. The publisher page and PubMed abstract were inspected; the full publisher article is access-controlled and was not independently read in this pass.
 
-**Relevant result:** pooled negative effect on cognitive processing (g = −0.383); sustained attention showed a negative effect (g = −0.409). Age, time of day, cumulative restriction, sleep latency and subjective sleepiness moderated effects.
+**Relevant results:** overall neurocognitive processing g = −.383; executive functioning g = −.324; sustained attention g = −.409; long-term memory g = −.192. The publisher preview also reports stronger effects for attentional lapses (g = −.516) and behavioural inhibition (g = −.464). The review found insufficient evidence to detect effects in the broader domains of attention, multitasking, impulsive decision-making or intelligence.
 
-**Supports:** sleep restriction can impair sustained attention on average and should be considered as a relevant state/context variable.
+**Moderators:** age group, time of day, cumulative days of restriction, sleep latency, subjective sleepiness and biological sex were significant moderators of the overall effect.
 
-**Does not support:** that sleep explains any particular individual's study difficulty, that sleep logs diagnose a disorder, or that the ROOT model's fatigue coefficient is known.
+**Supports:** experimentally imposed short-term sleep restriction impairs selected neurocognitive outcomes on average, particularly sustained attention and executive function, with effects moderated by exposure and participant/task characteristics.
 
-**Pinpointing status:** PubMed abstract and bibliographic record verified; exact forest-plot/table location not independently checked.
+**Does not support:** that every cognitive domain is impaired, that sleep timing or subjective sleep quality have been comprehensively tested by this meta-analysis, that sleep explains a particular individual's study difficulty, or that the ROOT model's fatigue coefficient is known.
 
-### R44 — “Impact of one night of sleep restriction on sleepiness and cognitive function,” 2024
+**Pinpointing status:** PubMed abstract and ScienceDirect publisher preview inspected (metadata, study count, sample, pooled effects and domain limits); full article and exact forest-plot/table details remain inaccessible in this pass.
 
-“Impact of one night of sleep restriction on sleepiness and cognitive function: A systematic review and meta-analysis,” *Sleep Medicine Reviews* (2024), DOI: [10.1016/j.smrv.2024.101940](https://doi.org/10.1016/j.smrv.2024.101940).
+### R44 — Wüst et al. (2024): one-night sleep restriction meta-analysis
 
-**Evidence type and scope:** systematic review/meta-analysis of 44 studies assessing one night with 2–6 hours of sleep opportunity.
+Larissa N. Wüst, Noëmi C. Capdevila, Lina T. Lane, Carolin F. Reichert and Ruta Lasauskaite, “Impact of one night of sleep restriction on sleepiness and cognitive function: A systematic review and meta-analysis,” *Sleep Medicine Reviews* 76, 101940 (2024), DOI: [10.1016/j.smrv.2024.101940](https://doi.org/10.1016/j.smrv.2024.101940), PMID 38759474. The article is open access under CC BY 4.0; the full published article PDF was inspected.
 
-**Relevant result:** subjective sleepiness increased (SMD = 0.986); sustained-attention reaction times worsened (SMD = 0.512) and attentional lapses increased (SMD = 0.489).
+**Evidence type and scope:** systematic review/meta-analysis of 44 studies and 1,087 healthy-adult participants. Sleep restriction provided 2–6 h sleep opportunity (mean 4.05 h) versus control (mean 8.06 h); eligible studies used undisturbed nighttime sleep, excluded simulated shift work, and for multi-night protocols supplied first-night data.
 
-**Supports:** even one restricted night can affect sleepiness and sustained-attention task performance on average.
+**Relevant results:** subjective sleepiness increased (SMD = .986; mean difference approximately +1.3 on the nine-point KSS and +1.0 on the seven-point SSS). Sustained-attention reaction time worsened (SMD = .512; mean difference 29.4 ms) and attentional lapses increased (SMD = .489; about 2.7 additional lapses per 10-minute test). No significant pooled effects were detected for choice reaction time, cognitive throughput, working memory or inhibitory control.
 
-**Does not support:** a chronic individual diagnosis or a universal prediction for every task/person.
+**Heterogeneity and bias:** subjective sleepiness I² = 58.8%; sustained-attention RT I² = 62.0% and showed funnel-plot asymmetry consistent with publication bias (t(24)=2.80, p=.01); sustained-attention lapses I² = 0%. Other null outcome categories had small study counts or substantial heterogeneity (cognitive-throughput performance I² = 86.4%), so non-significance should not be interpreted as proof of no effect.
 
-**Pinpointing status:** PubMed abstract verified; exact analysis table/figure not independently checked.
+**Dose-response and individual differences:** the meta-regressions did not detect an association between sleep duration within the restricted range and outcome differences, but the authors caution that the restricted duration range, few studies at the extremes, heterogeneity and high individual variability limit power; this is not evidence that dose-response relationships are absent. Reliable predictors of individual susceptibility remain undetermined.
+
+**Supports:** one night of restricted sleep can increase subjective sleepiness and impair sustained attention on average in healthy adults under the studied laboratory protocols.
+
+**Does not support:** chronic sleep-loss effects from this one-night analysis, impairment in every cognitive domain, a diagnosis from a sleep diary, a personal causal explanation, or a known ROOT fatigue coefficient. It does not comprehensively establish effects of circadian timing or subjective sleep quality.
+
+**Pinpoints inspected:** full article pp. 1–2 (scope and methods); p. 3 (study selection and risk-of-bias assessment); pp. 4–5, Table 1–2 (sample and study characteristics); pp. 5–6, Table 3–4 (outcomes, heterogeneity and meta-regression); pp. 8–10 (discussion, individual variability, dose-response limitations and publication-bias caveat).
 
 ### R45 — World Health Organization, 2024: ICD-11 clinical descriptions and diagnostic requirements
 
@@ -3424,4 +3430,25 @@ The commit diff was inspected and is confined to §80. A–F remain unapproved a
 The latest treatise file was fetched and the revised §80 was checked for the publication-bias-adjusted estimate, active comparator and opportunity-based outcome. R31 and R48 have full-text manuscript/chapter access; R32 remains publisher-abstract level. R48's manuscript is not the final copy of record, and final-version comparison remains open.
 
 **Disposition:** Experiment E's protocol description is more closely aligned with established implementation-intention evidence and its known limitations. This is a design correction, not preregistration, readiness approval, experiment execution or ROOT validation.
+
+## 58. Full-text sleep-evidence audit — correction to R43 and upgrade of R44
+
+### 58.1 Bibliographic correction
+
+R43's former journal, volume, pages and DOI were incorrect. The correct citation is Lowe, Safati & Hall (2017), *Neuroscience & Biobehavioral Reviews* 80, 586–604, DOI 10.1016/j.neubiorev.2017.07.010. The previous *Sleep Medicine Reviews* citation was not the cited article. The register's R43 record has been corrected; the full article remains access-controlled, so its access level is publisher preview/abstract rather than full text.
+
+### 58.2 R44 full-text findings
+
+R44 is now upgraded from abstract-only to full-text access. The full article confirms a tightly bounded one-night design in healthy adults (44 studies, 1,087 participants; 2–6 h sleep opportunity). It finds increased subjective sleepiness and impaired sustained attention, but no significant pooled effects for choice RT, cognitive throughput, working memory or inhibitory control.
+
+The full text adds important qualifications omitted by the abstract-only record: moderate heterogeneity for subjective sleepiness and sustained-attention RT; funnel-plot asymmetry consistent with publication bias for sustained-attention RT; high heterogeneity in cognitive-throughput performance; and high inter-individual variability. Failure to detect a dose-response relation within the available 2–6 h range does not establish that no dose-response exists.
+
+### 58.3 Claim consequences
+
+- **S67-C01:** retain sleep restriction as a possible moderator, not an individual causal diagnosis. The R43 effect is selected-domain evidence across experimentally manipulated short-term restriction; R44 is specifically one-night restriction in healthy adults. Neither comprehensively tests sleep timing or subjective sleep quality.
+- **S58-C01:** sleep is one domain-specific factor among many; R43/R44 do not validate a multi-domain optimization function.
+- **S78-EXP-C:** sleep and fatigue should be recorded as context variables, not manipulated by inducing sleep loss. Any causal task manipulation must be safe and separate from sleep exposure.
+- **Personal monitoring:** the two-week tracker remains descriptive. It must not diagnose sleep disorders or infer individual cognitive causation from temporal correlation.
+
+**Disposition:** R43's bibliographic error is corrected; R44 is upgraded to full-text access with outcome, heterogeneity, publication-bias and dose-response limitations recorded. Sleep evidence remains domain-specific and does not validate the ROOT model or any individual's causal explanation. No experiments executed or authorized.
 
