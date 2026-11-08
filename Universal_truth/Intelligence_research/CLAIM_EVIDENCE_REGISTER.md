@@ -993,9 +993,9 @@ World Health Organization, *Clinical Descriptions and Diagnostic Requirements fo
 
 **Pinpointing status:** WHO CDDR publication and category 6C72 identified; the manual's complete category text was not independently page-pinned in this pass. The WFSBP guideline below reproduces the essential features.
 
-### R46 — WFSBP guidelines for compulsive sexual behaviour disorder, 2023
+### R46 — WFSBP guidelines for compulsive sexual behaviour disorder, 2022
 
-“World Federation of Societies of Biological Psychiatry guidelines on the assessment and pharmacological treatment of compulsive sexual behaviour disorder,” *World Journal of Biological Psychiatry* (2023), DOI: [10.1080/19585969.2022.2134732](https://doi.org/10.1080/19585969.2022.2134732).
+Daniel Turner, Peer Briken, Joshua Grubbs, Leo Malandain, Gemma Mestre-Bach, Marc N. Potenza and Florence Thibaut, “The World Federation of Societies of Biological Psychiatry guidelines on the assessment and pharmacological treatment of compulsive sexual behaviour disorder,” *Dialogues in Clinical Neuroscience* 24(1), 10–69 (2022), DOI: [10.1080/19585969.2022.2134739](https://doi.org/10.1080/19585969.2022.2134739).
 
 **Evidence type:** clinical guideline and evidence synthesis.
 
