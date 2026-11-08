@@ -4198,3 +4198,21 @@ The controlled content changes are in treatise commit `b02d154b067c2268ef32387df
 
 **Disposition:** §§46–50 are more precise as conceptual architecture, but remain non-executable and non-distinctive pending a specified estimator, update operator, policy parameterization, meta-level operation, discriminating prediction and comparative validation. No tracker edits; no experiments executed or authorized.
 
+## 80. Controlled intelligence-functional and Investigation A status correction — §§32–33
+
+### 80.1 Intelligence functional
+
+The five-component weighted sum in §32 is now explicitly labelled a candidate measurement proposal, not a validated intelligence scale. The treatise now requires observable indicators, task sampling, scoring direction, normalization, reliability, construct/criterion validity, discriminant validity against established cognitive-ability measures, prespecified weight rationale and out-of-sample validation. It also warns that a compensatory sum can conceal a weak component and requires component profiles and uncertainty to accompany any composite.
+
+This is consistent with the psychometric concerns recorded for R27 (validity as evidence for score interpretation/use) and R59 (CHC/three-stratum comparator). No new score, weights or validation data were introduced.
+
+### 80.2 Investigation A completion language
+
+The former sentence “Investigation A is therefore resolved at the level of a formal framework” overstated the status. It is replaced with a provisional conceptual-synthesis status that explicitly preserves conditional formal claims, the unvalidated intelligence measure, the need for comparison with established alternatives and prospective testing.
+
+### 80.3 Verification
+
+Treatise commit `0dad0802a79b427653391f5b72de7f4cde3e9196` changes only the intelligence-functional limitation paragraph and the Investigation A status sentence. The commit diff was inspected and the latest file fetched; both replacement statements are present.
+
+**Disposition:** the proposed intelligence functional remains unvalidated and is not a substitute for established psychometric measures. Investigation A is no longer described as resolved. No experiments executed or authorized.
+
