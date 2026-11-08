@@ -829,9 +829,9 @@ where:
 
 The update assumes that the state representation is adequate for a Markov-style transition model and that reward timing and the feasible action set are defined. Those assumptions have not been validated for the human behavioural model in this treatise. This is a standard computational learning abstraction, not a complete biological habit-formation mechanism. The displayed one-step update assumes a Markov-style state representation, a defined finite feasible action set, $0\leq\gamma<1$ and a learning rate $0<\alpha\leq1$. No convergence guarantee is claimed; convergence would require additional conditions on stationarity, exploration and the learning-rate schedule.
 
-If a cue repeatedly precedes an action that yields reward, relief, novelty, or reduced discomfort, the learned value of the cue-action relationship can increase.
+If the cue is represented in the state, the action is included in the feasible action set, and the outcome is encoded as reward, the action-value estimate can increase when the observed TD target exceeds its current estimate. Relief or novelty is not automatically a reward: its sign and magnitude must be specified by the task's reward function. Relief counts as negative reinforcement only when it is contingent on the response and increases the future probability of that response.
 
-A later encounter with the cue can then bias action selection before deliberate evaluation is complete.
+A later encounter with the cue can bias action selection if the operative policy uses the learned action values. The update alone does not guarantee that the policy changes, that the action becomes habitual, or that the effect persists outside the specified state/action representation.
 
 **Claim-linked evidence register records:** R16, R18, R19, R26, R28, R30, R53. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
