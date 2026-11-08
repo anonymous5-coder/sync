@@ -3,26 +3,30 @@
 
 **Version:** Master Treatise 1.0  
 **Date:** 4 November 2026  
-**Status:** A formal theoretical framework with explicit axioms, mathematical propositions, derivations, empirical hypotheses, and operational protocols.
+**Status:** Research draft — a conceptual synthesis with conditional formal results, candidate models, bounded evidence assessments, and experimental protocols that have not been executed.
 
 ---
 
 ## Abstract
 
-This treatise develops a unified framework connecting four named foundations:
+This manuscript examines a proposed relationship among four named foundations:
 
-1. **Space or Null Theory** — the dependence of meaningful cognition on an informational, structural, or environmental context.
-2. **Out of Box Theory** — the capacity of an intelligence to derive, construct, or predict conclusions that were not explicitly supplied as observations.
-3. **Recursive Intelligence** — the capacity of a system to represent aspects of its own operation, evaluate its performance, and modify its future behaviour.
-4. **ROOT Control Protocol** — a practical architecture for detecting, interrupting, replacing, and progressively redesigning unwanted behavioural loops.
+1. **Space or Null Theory** — a proposed account of how context, internal structure and available information condition processing.
+2. **Out of Box Theory** — a proposed account of deriving or constructing conclusions that were not explicitly supplied as observations, subject to the information and constraints already represented.
+3. **Recursive Intelligence** — a proposed functional construct concerning self-representation, monitoring and modification of future system operation.
+4. **ROOT Control Protocol** — a proposed behavioural intervention architecture for recognising triggers, changing action accessibility, practising alternative responses and updating interventions from outcomes.
 
-The central result is that these are not four independent mechanisms. They can be represented as interacting layers of one adaptive, physically embodied information-processing system. Space or Null Theory describes the acquisition and constraint of information; Out of Box Theory describes transformations and deductions over an internal model; Recursive Intelligence describes the system's ability to model and modify its own operations; and ROOT Control Protocol provides an implementation architecture for changing behaviour through feedback.
+The manuscript does not establish that these are four distinct mechanisms, that they form a complete unified theory, or that their integration has explanatory or predictive superiority over established alternatives. It develops a conceptual dependency map and identifies the formal, empirical and operational conditions that would be needed to test the proposed relationships.
 
-The physical–cognitive connection is derived through a constrained-control model. A brain is a physical, metabolically powered, open, non-equilibrium system. Neural computation consumes energy, operates under finite time and resource budgets, and must allocate limited control capacity among competing actions. Habits can therefore be understood, in part, as cached policies that reduce the cost of repeated decision-making. A familiar distraction can win not because it is objectively more valuable, but because its learned cue-value, low initiation cost, immediacy, and low deliberation demand make it the action most likely to be selected under current conditions. This is a physical and computational explanation of a behavioural tendency—not a claim that psychological distraction is identical to thermodynamic entropy or that Landauer's bound directly determines an individual's choices.
+Its formal core includes standard information-theoretic identities and conditional model-theoretic results. In particular, a proposition entailed by a knowledge base can be derived under a proof calculus complete for the specified semantics; this is derivation from premises, not acquisition of arbitrary facts without information. A separate countermodel argument describes a boundary on what follows from premises when admissible models disagree. These results do not establish predictive performance in a physical system.
 
-Out of Box Theory is extended beyond the narrow claim that intelligence can only rearrange explicitly observed facts. An internal architecture can embody constraints inherited from physical interaction, evolution, mathematical structure, and prior learning. If those constraints entail a proposition, the system can derive it before directly observing the corresponding phenomenon. Such a prediction may be a genuine discovery about an unverified reality. The limit is equally important: internal reasoning cannot identify an arbitrary contingent fact that is independent of every constraint represented in the system. The treatise proves both the constructive possibility and the epistemic boundary.
+The physical–cognitive discussion treats embodiment, energy and finite resources as constraints on biological computation. It considers cost-sensitive action selection, reinforcement learning, habit and cognitive control as candidate links between physical implementation and behaviour. The complete causal bridge from physical resource use to subjective effort, action valuation and an individual's behaviour has not been identified or validated. The equations are therefore presented with explicit assumptions and limitations rather than as a literal description of brain computation.
 
-The final chapters complete the research programme: they define context, intelligence, inference, discovery, habit, control, and self-mastery; derive a physical-resource model of cognition; formalize cue-response learning and control arbitration; specify a recursive controller; provide a mathematical ROOT architecture; state stability conditions; propose experiments; and define measurable success criteria. The framework does not claim a guaranteed cure for every impairment or a new experimentally established law of nature. It offers a coherent set of formal propositions and falsifiable predictions from which empirical research can proceed.
+The manuscript also reviews candidate behavioural-state, learning, feedback and stability models. The ROOT state vector is an operational set of ordinal self-ratings, not a validated latent state or clinical instrument. The control-theory results apply to specified mathematical systems; no human or ROOT controller has been identified as stable, and the proposed behavioural feedback statement is a testable hypothesis rather than a stability theorem. The four foundations' joint update remains schematic, with typed interfaces, update semantics and incremental explanatory value unresolved.
+
+The evidence review distinguishes primary studies, reviews, abstract-level records and access-limited sources. It identifies relevant neighbouring theories and competing explanations, while retaining unresolved source and provenance gaps. Experiments A–F are protocol templates only: none has been executed, preregistered or empirically validated. The integrated ROOT package has no demonstrated package-level efficacy.
+
+The manuscript's current contribution is therefore a structured conceptual synthesis, a set of conditional formal results, a claim-level evidence/disposition inventory and a research programme with explicit unresolved requirements. It is not a validated unified theory, a new established law of nature, a proven behavioural controller or an independently reviewed final edition.
 
 ---
 
