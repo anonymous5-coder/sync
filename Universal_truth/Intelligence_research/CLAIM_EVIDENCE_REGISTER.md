@@ -2004,3 +2004,74 @@ A valid next study would need to be staged rather than jump directly to a weight
 This is a readiness specification, not an experiment authorization. It does not authorize any A–F protocol or a new S32 study.
 
 **Disposition.** S32 is now source-adjudicated at the level of conceptual scope, established comparators and measurement requirements. The conceptual definition can be retained as a framework choice; the five-term functional remains unvalidated and must not be called a measured intelligence score. No treatise/tracker edits; no experiments executed or authorized.
+
+
+## 31. Recursive Intelligence distinctiveness audit — §§46–50 and §93
+
+### 31.1 Exact construct in the baseline treatise
+
+The baseline defines Recursive Intelligence as representing aspects of a system's own processing and using those representations to change future operation (§46, L1515–1547; §93). Its formal sketch is:
+
+- self-state estimate: \(\widehat S_t=\mathcal M(S_t,\text{observations})\);
+- parameter update: \(\Theta_{t+1}=\Theta_t+\Delta\Theta(\widehat S_t,G_t,\text{error}_t)\);
+- changed transition: \(S_{t+1}=F_{\Theta_{t+1}}(S_t,I_t)\).
+
+The loop in §47 describes outcome measurement, self-model update and policy modification. Section 48 requires fallible self-models and prospective testing; §49 supplies a generic discounted objective and policy update; §50 introduces a revisable goal hierarchy. Section 93 summarizes the construct as using representations of one's own operation to change future operation.
+
+This is a coherent candidate description of self-monitoring plus adaptive policy modification. The question is not whether such processes exist; established literatures study them. The unresolved issue is whether the treatise specifies an additional, measurable operation that distinguishes **Recursive Intelligence** from metacognition, meta-control, adaptive control and ordinary reinforcement learning.
+
+### 31.2 Direct comparison with established neighbours
+
+| Neighbouring construct | What the registered evidence describes | Overlap with the treatise | Remaining distinction not yet demonstrated |
+|---|---|---|---|
+| Metacognition | R36 reviews confidence, uncertainty and self-evaluation; R37 (2026) reviews self-evaluation of cognitive processes and transformations of uncertainty that support control across timescales; R51 distinguishes object-level cognition from meta-level monitoring/control | Estimating one's own state, recognizing error, judging performance and using those judgments to regulate subsequent cognition | The treatise does not yet specify what its self-model represents beyond familiar performance/state estimates, or a unique operation beyond monitoring and regulation |
+| Meta-control | R35 describes monitoring controlled processing and regulating underlying control parameters in light of goals and constraints; R39 is a primary human sequential-decision experiment in which reward stakes and transition stability alter the relative benefit/demand of model-based strategies | Changing control parameters or strategy selection in response to feedback, goals, task demands and constraints | R39 does not implement the treatise's explicit self-model, but it demonstrates that dynamic strategy regulation is already an experimentally operationalized construct. The treatise needs a controlled incremental prediction beyond such meta-control |
+| Adaptive control / adaptive policy learning | R16 defines standard temporal-difference and reinforcement-learning algorithms; the earlier formal audit identifies adaptive-control and feedback systems as established neighbours | Updating parameters or policies from error, reward and observed system performance | A parameter update \(\Theta_{t+1}=U(\Theta_t,\text{feedback})\) is not distinctive recursion by itself. The update rule, controller class and target need formal definition |
+| Model-based/model-free arbitration | R15 and R39 show task- and incentive-sensitive adjustment between decision strategies | Selecting or weighting internal strategies according to expected benefit, cost and task structure | This is strategy arbitration, not necessarily a model of one's own learning/update mechanism. The treatise must show what extra state or operation it adds |
+
+**Evidence boundary.** R35/R36/R37/R51 are reviews or conceptual syntheses; R39 is a primary human experiment with a specific sequential-decision task and cross-sectional age comparison. These sources establish close neighbours and concrete operational precedents. They do not establish that Recursive Intelligence is identical to those constructs, nor do they prove that the proposed construct is impossible or redundant. They do show that the present wording is not yet sufficient to support a novelty claim.
+
+### 31.3 Formal audit of the proposed recursive equations
+
+1. **Estimator input leakage:** \(\widehat S_t=\mathcal M(S_t,\text{observations})\) appears to provide the estimator with the true state \(S_t\), even though the purpose of an estimator is to infer a potentially latent state from observations/history. Replace the true-state input with an explicitly available observation/history object unless the state is directly observable by definition.
+2. **Unspecified self-model target:** “aspects of its own processing” could mean performance, confidence, policy, memory, learning rate, controller parameters, resource use or the update mechanism itself. These are different target variables and require separate operational definitions.
+3. **No explicit second-order update:** the current \(\Delta\Theta\) changes behavioural parameters, but the treatise does not define an update to the rule that computes \(\Delta\Theta\), its learning rate, model class, error weighting or update policy. Without this, the equations express ordinary adaptive/meta-control, not a demonstrably higher-order recursion.
+4. **Generic objective:** the discounted return in §49 is standard reinforcement-learning notation. The treatise correctly says human self-regulation need not literally implement gradient descent, but the conceptual \(\widehat{\nabla J}\) still needs an estimator and policy-update semantics if it is to be tested.
+5. **Goal hierarchy:** §50 introduces a normative hierarchy of immediate, task, daily, long-term and identity/value goals. It does not define a measurable cognitive operation or show that higher-level goals are ordered by a single relation. It should not be used as evidence that a recursive mechanism exists.
+6. **Circular validation risk:** if a system's own explanation of why it failed is both the estimator input and the criterion for successful self-modeling, the test is circular. Section 48 correctly points toward independent observable outcomes and prospective controlled predictions; this safeguard must become an actual evaluation protocol.
+
+### 31.4 Candidate discriminator required before claiming a distinct construct
+
+A possible discriminator—not yet established by the treatise—is an explicit model of the system's **own update process**, not merely a model of its current performance or control state. Such a proposal would need to specify:
+
+- object-level state and policy, including the ordinary adaptive controller;
+- meta-level estimates of the controller's own update rule, uncertainty, learning rate, model class or update reliability;
+- a distinct meta-update that changes how future object-level updates are selected or evaluated;
+- a measurable consequence that cannot be reproduced by ordinary metacognitive monitoring, meta-control or adaptive control under matched information, capacity and feedback;
+- a falsifier: if the nested representation/update adds no held-out predictive or control benefit over the simpler baselines, the distinct-construct claim is not supported.
+
+This is a candidate route to discriminant validity, not a recommendation to add a “meta-meta” layer merely to preserve novelty. If no non-arbitrary, useful discriminator can be defined, the more accurate treatment may be to present Recursive Intelligence as an integrative label or design architecture built from established metacognitive/meta-control processes, rather than as a newly demonstrated cognitive mechanism.
+
+### 31.5 Required comparative evaluation (not authorized for execution)
+
+Any future validation should compare at least four capacity-matched systems on the same tasks and held-out environments:
+
+1. object-level learning/adaptive control without self-monitoring;
+2. metacognitive monitoring and confidence calibration;
+3. meta-control that adjusts strategy/control parameters using task demands and feedback;
+4. the proposed recursive architecture with its explicitly specified self-model and meta-update.
+
+Predefine outcomes such as adaptation sample efficiency, held-out transfer, post-error recovery accuracy and latency, calibration, robustness to misleading self-assessment, and resource/burden cost. Use ablations to remove the self-model and the meta-update separately. Compare against established model-based/model-free arbitration and simple fixed/adaptive policies. Complexity and information access must be controlled; otherwise an apparent gain may come from additional computation or feedback rather than recursion. The study must be preregistered and independently validated. This is a design requirement only; no experiment A–F is authorized or executed.
+
+### 31.6 Claim-level dispositions
+
+| Stable ID | Provisional disposition | Required closure |
+|---|---|---|
+| S46-M01 / S46-EQ01–EQ03 | Retain as a candidate self-model/adaptive-parameter architecture; downgrade any claim of a distinct mechanism | Correct estimator inputs; define latent/observed state, model target, update rule, constraints and measurable meta-level operation |
+| S47-M01 / S47-C01 | Retain as a feedback-loop description; do not treat the loop as proof of unique recursion | Identify what is added beyond standard feedback, adaptive control and meta-control; specify stages and typed interfaces |
+| S48-C01 / S48-C02 | Retain as a methodological safeguard | Pre-register prospective predictions and evaluate them against independent outcomes and competing explanations |
+| S49-M01 / S49-EQ01–EQ02 / S49-C01 | Retain the objective as a generic policy-learning formulation; do not attribute literal gradient descent to humans | Specify state/action/reward/harm semantics, estimator, policy class, update algorithm and comparator |
+| S50-M01 / S50-C01 | Retain as a normative goal-organization proposal, not a cognitive mechanism | Define priority/abstraction/authority relations, incomparable goals and legitimate revision constraints |
+| S93-C01 | Retain as a high-level construct hypothesis; novelty and distinctness remain unestablished | Provide the operational discriminator and demonstrate incremental explanatory/predictive/control value against metacognition, meta-control and adaptive-control baselines |
+
+**Disposition.** The existing evidence establishes substantial neighbouring constructs and at least one direct human experimental precedent for meta-control. The treatise's current equations and loop do not yet identify a unique recursive operation or demonstrate incremental utility. The construct should remain a provisional synthesis/hypothesis, not a validated new intelligence mechanism. No treatise/tracker edits; no experiments executed or authorized.
