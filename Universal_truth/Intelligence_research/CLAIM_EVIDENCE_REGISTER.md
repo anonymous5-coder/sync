@@ -4261,11 +4261,11 @@ The current treatise snapshot remains blob `4f72ad4b9a34cb6046d831014aec7207fb10
 |---|---:|---|---|
 | §32 | 1139–1189 | R27, R58, R59 | A stipulated functional definition and a candidate five-component measurement proposal; not a validated intelligence construct or score. |
 | §33 | 1190–1205 | No separate pointer block; follows the §32 synthesis | Provisional conceptual synthesis; not a resolved or empirically validated theory. |
-| §46 | 1618–1652 | R24, R35–R37, R39, R51, R54, R55 | Latent-state estimator from observation/action/outcome history and an unspecified typed parameter-update operator; not an identified algorithm. |
-| §47 | 1653–1684 | R35, R37, R39, R51, R54, R55 | Generic feedback/update loop; no distinct recursive mechanism follows from the diagram alone. |
-| §48 | 1685–1714 | R35–R37, R51, R54, R55 | Fallible self-model and prospective model-testing safeguard; not evidence of self-model accuracy. |
-| §49 | 1715–1754 | R35, R37, R51, R54, R55 | Finite-horizon expected-return objective under a specified policy/transition distribution; update expression remains a placeholder absent parameterization and gradient specification. |
-| §50 | 1755–1777 | R35, R37, R51, R54, R55 | Illustrative goal ordering; a general account needs partial-order semantics or an explicit conflict-resolution rule. |
+| §46 | 1618–1655 | R24, R35–R37, R39, R51, R54, R55 | Latent-state estimator from observation/action/outcome history and an unspecified typed parameter-update operator; not an identified algorithm. |
+| §47 | 1656–1682 | R35, R37, R39, R51, R54, R55 | Generic feedback/update loop; no distinct recursive mechanism follows from the diagram alone. |
+| §48 | 1683–1704 | R35–R37, R51, R54, R55 | Fallible self-model and prospective model-testing safeguard; not evidence of self-model accuracy. |
+| §49 | 1705–1746 | R35, R37, R51, R54, R55 | Finite-horizon expected-return objective under a specified policy/transition distribution; update expression remains a placeholder absent parameterization and gradient specification. |
+| §50 | 1747–1777 | R35, R37, R51, R54, R55 | Illustrative goal ordering; a general account needs partial-order semantics or an explicit conflict-resolution rule. |
 
 ### 82.2 Intelligence functional — current disposition of S32-EQ02 and S32-M01
 
