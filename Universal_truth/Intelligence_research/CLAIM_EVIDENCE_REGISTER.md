@@ -3773,16 +3773,16 @@ The abstract/front-matter overclaim has been corrected and verified. The princip
 
 ### 68.1 Current snapshot
 
-The treatise was fetched after commit `8b536c51719a979abfa0b3e1d817705309e801f4` and has blob `d094145ae3ce297b8603311491094167534838bd`: 2,792 lines and 95 numbered sections. This snapshot supersedes earlier line counts for current navigation; the original 2,618-line baseline remains preserved for historical batch line references.
+The treatise was fetched after commit `f2a0794d357d4436c544186b3a6f9f311da128c9` and has blob `5678eb8876f4b8e821c0bb9f483df2b8e801c6ac`: 2,796 lines and 95 numbered sections. This snapshot supersedes earlier line counts for current navigation; the original 2,618-line baseline remains preserved for historical batch line references.
 
 ### 68.2 Section-level evidence pointers added
 
-A controlled treatise edit added a “Claim-linked evidence register records” line to 67 numbered sections. Each line identifies the R-records mapped to claims in that section and directs the reader to the companion register for full bibliographic metadata, source-access status, claim-specific mappings and pinpoints.
+A controlled treatise edit added a “Claim-linked evidence register records” line to 69 numbered sections. Each line identifies the R-records mapped to claims in that section and directs the reader to the companion register for full bibliographic metadata, source-access status, claim-specific mappings and pinpoints.
 
 Verification against the current file confirms:
 
 - 95 numbered sections remain present, with no numbering gap.
-- 67 sections contain an explicit section-level evidence-register pointer.
+- 69 sections contain an explicit section-level evidence-register pointer.
 - 67 distinct R identifiers appear in those pointers.
 - Every cited R identifier resolves to a source identifier recorded in this register; no dangling R-code pointer was detected.
 - The duplicate alias R64 is not presented as an independent source.
@@ -3804,11 +3804,11 @@ This correction prevents the selected ten-item list from being mistaken for the 
 
 ### 68.4 Controlled treatise edit and verification
 
-Treatise commit `ec271995f24f16b1648e1d1bca18c3beae0a5276` added section-level R-code trails and clarified the selected bibliography. A follow-up placement correction, commit `8b536c51719a979abfa0b3e1d817705309e801f4`, moved each trail to the end of its own numbered section rather than allowing it to appear after a subsequent Part heading. The latest treatise was fetched again; the placement check found 67 correctly section-associated evidence lines and no evidence line displaced beyond a Part heading.
+Treatise commit `ec271995f24f16b1648e1d1bca18c3beae0a5276` added section-level R-code trails and clarified the selected bibliography. A follow-up placement correction, commit `8b536c51719a979abfa0b3e1d817705309e801f4`, moved each trail to the end of its own numbered section rather than allowing it to appear after a subsequent Part heading. A final addition in commit `f2a0794d357d4436c544186b3a6f9f311da128c9` added evidence pointers to §§73–74. The latest treatise was fetched again; the placement check found 69 correctly section-associated evidence lines and no evidence line displaced beyond a Part heading.
 
 ### 68.5 Disposition
 
-The manuscript now provides a usable section-level route from 67 evidence-bearing sections to the claim/source register, and the ten-item bibliography is explicitly labelled selected. The citation apparatus is more transparent but remains an intermediate audit layer, not a publication-ready citation system.
+The manuscript now provides a usable section-level route from 69 evidence-bearing sections to the claim/source register, and the ten-item bibliography is explicitly labelled selected. The citation apparatus is more transparent but remains an intermediate audit layer, not a publication-ready citation system.
 
 **Remaining work:** full claim-by-claim citation placement; audit of all 95 sections against the current stable-ID inventory and latest treatise text; complete bibliographic metadata/DOI verification; final Markdown/render check; unresolved E17/E18 provenance and access-limited source pinpoints; independent review. No experiments, preregistration, merge or plan retirement are authorized.
 
