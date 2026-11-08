@@ -389,21 +389,41 @@ Marcus E. Raichle and Debra A. Gusnard, “Appraising the brain's energy budget,
 **Supports:** the importance of the brain's baseline energy budget and the need to interpret task-related changes against substantial ongoing metabolism.  
 **Does not support:** a universal mapping from subjective effort to global metabolic expenditure.
 
-### R13 — Kondrakiewicz & Nawrocka, 2025: cognitive tasks and whole-body energy
+### R13 — Kondrakiewicz & Nawrocka (2025): brain and whole-body energetic cost of cognition
 
-Kacper Kondrakiewicz and Jagoda Nawrocka, “Brains are expensive, but cognition is often cheap,” *Neuroscience & Biobehavioral Reviews* 179, 106450 (2025), DOI: [10.1016/j.neubiorev.2025.106450](https://doi.org/10.1016/j.neubiorev.2025.106450).
+Kacper Kondrakiewicz and Jagoda Nawrocka, “Brains are expensive, but cognition is often cheap,” *Neuroscience & Biobehavioral Reviews* 179, 106450 (2025), DOI: [10.1016/j.neubiorev.2025.106450], PMID 41173349. The peer-reviewed review was published in December 2025. An openly accessible 12-page preprint version (posted 29 October 2025; DOI 10.20944/preprints202510.2202.v1) was inspected in full; the final journal abstract and metadata were independently verified, but the final publisher version was not directly compared against the preprint.
 
-**Source type:** review of brain-imaging and whole-body measurement evidence.  
-**Supports:** cognitive tasks are typically accompanied by minimal or no change in overall energy expenditure in the evidence reviewed; resting brain activity is itself metabolically expensive.  
-**Does not support:** absence of local neural signalling costs, absence of subjective effort, or a claim that every task has identical energy demands.
+**Evidence type:** secondary review of brain-imaging, whole-body energy and comparative mammalian evidence; not a new primary experiment.
 
-### R14 — Otto, Westbrook & Daunizeau, 2026: subjective cognitive effort
+**Relevant full-text scope:** the review separates the high baseline energetic cost of maintaining a mammalian brain from the incremental cost of particular cognitive tasks. It reports heterogeneous regional findings, including task-related increases in some regions accompanied by decreases in others; it emphasizes that whole-brain and whole-body estimates are difficult to measure and depend on the baseline and posture. It discusses estimates of modest whole-brain increments and reports whole-body activity values that vary widely across activities and sources.
 
-A. Ross Otto, Andrew Westbrook and Jean Daunizeau, “Why is cognitive effort experienced as costly?” *Trends in Cognitive Sciences* 30(7), 632–645 (2026), DOI: [10.1016/j.tics.2025.10.012](https://doi.org/10.1016/j.tics.2025.10.012).
+**Important source-traceability limitation:** the review's whole-body discussion cites Vaz et al. (2005), a compilation of activity energy costs, and the Adult Compendium of Physical Activities (Herrmann et al., 2024). Its “reading while sitting” comparison is not a direct randomized cognitive-task energy experiment. The chess-player study it cites (Troubat et al., 2009) measured heart rate, heart-rate variability and respiratory exchange ratio; those are not direct whole-body calorimetry or a direct estimate of total calories attributable to cognition. R69 below provides a separate primary dual-task walking experiment but does not solve the desk-work/rest comparison.
 
-**Source type:** review of information-theoretic, psychological and biological accounts.  
-**Supports:** the subjective cost of effort is an active theoretical question with competing accounts and unresolved mechanisms.  
-**Does not support:** a single established mechanism or the treatise's scalar control-cost term.
+**Supports:** a careful distinction between baseline brain maintenance and task-related energetic increments; regional redistribution; the need to distinguish whole-brain, regional and whole-body measurements; and the proposition that cognitive task activity does not necessarily entail a large measurable increase in total energy expenditure.
+
+**Does not support:** a universal “cognition is cheap” law, an exact whole-brain energy budget for every task/species, no local neural signalling cost, no subjective effort, or the treatise's action-score coefficients. The review itself notes that non-mammalian species may differ and that the metabolic mechanisms remain unresolved.
+
+**Pinpoints inspected:** preprint full text, especially §§1–4 and Conclusions (PDF pp. 1–9); whole-body activity comparison and caveats (PDF pp. 4–5); regional/whole-brain distinctions and review conclusions (PDF pp. 2–4, 8–9); bibliography entries for the whole-body compendium and chess study (PDF pp. 10–11). Final PubMed metadata/abstract verified.
+
+### R14 — Otto, Westbrook & Daunizeau (2026): theoretical accounts of subjective cognitive effort
+
+A. Ross Otto, Andrew Westbrook and Jean Daunizeau, “Why is cognitive effort experienced as costly?” *Trends in Cognitive Sciences* 30(7), 632–645 (2026), DOI: [10.1016/j.tics.2025.10.012](https://doi.org/10.1016/j.tics.2025.10.012), PMID 41266148; Epub 19 November 2025. Final journal metadata and abstract were verified through PubMed. The authors' accessible in-press PDF was inspected at full-text level; its pagination/layout is an author manuscript, so final-version page equivalence is not assumed.
+
+**Evidence type:** critical theoretical review, not a primary human experiment. It compares three accounts of why controlled processing is experienced as costly: shared-capacity/bottleneck and opportunity-cost accounts; information-theoretic accounts; and network-control/metabolic accounts.
+
+**Relevant full-text findings and limits:**
+
+- The review explicitly separates subjective effort perception from effort exertion and notes that they can dissociate; task difficulty and subjective effort are related but not identical.
+- It states that there is no consensus, principled account of the source of subjective cognitive-effort costs.
+- It presents the KL-divergence/energetic-cost connection as a theoretical reframing, but explicitly says that treating KL divergence as an approximation to energy cost is non-trivial and neglects biological implementation differences.
+- It proposes quantitative neuroscience experiments to adjudicate competing accounts and illustrates them with recurrent-neural-network simulations. The simulations are not human empirical validation.
+- It concludes that the accounts have both points of convergence and substantive disparities; further theoretical and empirical work is needed.
+
+**Supports:** separating subjective effort, task demand, physiological effort and energetic expenditure; retaining competing mechanisms; and requiring quantitative predictions that distinguish bottleneck, information-theoretic and network-control explanations.
+
+**Does not support:** a single settled effort mechanism, a universal conversion from subjective effort to neural energy, the treatise's exact six-term action score, or a validated human policy/controller model.
+
+**Pinpoints inspected:** full PDF lines 74–97 (subjective perception versus exertion and task difficulty); 116–136 (cost-benefit accounts and Motivational Intensity Theory); 320–327 (baseline and operational energy-budget discussion); 421–469 (three accounts and KL/biological implementation caveat); 470–590 (proposed experimental adjudication and RNN illustrations); 592–600 (conclusion and unresolved status).
 
 ### R15 — Kool, Gershman & Cushman, 2017: cost-benefit arbitration
 
@@ -3275,4 +3295,50 @@ The current treatise and tracker were fetched from the edition branch. All six c
 - Reward, consequence, outcome, prediction error, self-report and intervention fidelity still require typed definitions before any integrated model is estimated.
 
 **Disposition:** the symbol/sequence and operational episode-record defects identified in §52 are corrected in the treatise and tracker. The state-space model, measurement validity, Markov sufficiency and causal parameters remain open. No experiments executed or authorized.
+
+### R69 — Zukowski et al. (2017): cognitive load during walking and metabolic cost of transport
+
+Lisa A. Zukowski, Jasmine M. Martin, Gabrielle Scronce, Michael D. Lewek and Prudence Plummer, “The influence of cognitive load on metabolic cost of transport during overground walking in healthy, young adults,” *European Journal of Applied Physiology* 117(4), 679–686 (2017), DOI: [10.1007/s00421-017-3536-x](https://doi.org/10.1007/s00421-017-3536-x), PMID 28243780.
+
+**Evidence type and design:** primary human within-subject experiment in 20 healthy young adults. Five conditions were compared: self-selected walking, seated rest, seated cognitive task, dual-task walking, and walking at the gait speed matched to the dual-task condition. Oxygen consumption (V̇O2), gait speed, cost of walking, cognitive-task reaction time and accuracy were recorded; the fifth minute of each five-minute condition was analyzed.
+
+**Findings:** V̇O2 did not differ between dual-task walking and matched-speed single-task walking. Seated cognitive-task V̇O2 was lower than both walking conditions and was not significantly different from zero in the reported comparison. Cost of walking was slightly greater in the matched-speed condition than dual-task walking, but the absolute difference was small (0.008 mL O2/kg/m; 95% CI 0.002–0.014).
+
+**Supports:** in this specific healthy-young-adult walking paradigm, adding the cognitive task did not produce a detectable V̇O2 increase over walking at the same gait speed. It is a bounded primary result, not evidence for a universal absence of cognitive energetic cost.
+
+**Does not support:** a general claim that desk-based thinking consumes no additional energy, whole-brain CMRO2 invariance, subjective effort equivalence, or the treatise's action-score model. The walking/matched-speed design addresses the metabolic cost of transport under dual-task conditions; it is not a pure isolated measure of cognitive-task energy at rest.
+
+**Pinpoints verified:** PubMed abstract, full methods/design summary and outcome results; publisher metadata and DOI. Full publisher article text was not independently inspected in this pass.
+
+## 54. Updated source-to-claim verification — R13/R14 full-text review and primary-study boundary
+
+### 54.1 Source access updates
+
+R13 and R14 have been upgraded only in access traceability, not in evidential status:
+
+- **R13:** final peer-reviewed review metadata and abstract verified; accessible preprint full text inspected. The final publisher version was not directly compared. The review's whole-body claims rely in part on activity compendia and indirect posture comparisons, not a single direct whole-body cognitive-energy experiment.
+- **R14:** final peer-reviewed review metadata/abstract verified; accessible author manuscript inspected in full. It distinguishes subjective effort from effort exertion and explicitly treats the source of subjective effort costs as unresolved. Its computational examples are RNN simulations, not human experiments.
+- **R61/R63:** remain abstract-level primary studies; this pass did not obtain their complete articles/tables.
+- **R69:** adds a primary within-subject human dual-task walking study. Its measured outcome is oxygen consumption/cost of transport during walking, not isolated brain energy expenditure or desk-based cognition.
+
+### 54.2 Claim-specific implications
+
+| Stable ID | Source-to-claim update | Evidential consequence |
+|---|---|---|
+| S17-C02 | R13 review + R60–R62 and R69; R61/R63 remain abstract-level | Physical/neural energetic implementation remains established in broad scope, but incremental task costs are measurement- and task-specific. No universal energy-per-thought coefficient. |
+| S18-C02 | R13 + R60/R62/R69 | Regional metabolic redistribution is supported in specific paradigms; R13's whole-body synthesis is secondary and partly compendium/indirect. No unified brain-budget allocation rule is established. |
+| S18-C03 | R14 + R62/R63 | Subjective effort, task difficulty, physiological exertion and metabolic expenditure are distinct. R14 identifies competing accounts, not a settled mechanism. |
+| S19-M01 | R14, R15, R24, R60–R63, R69 | Cost-sensitive models are legitimate comparators, but no source validates the treatise's additive terms, commensurability or coefficients. |
+| S35-C02 | R14, R15, R24, R62/R63 | Effort/arbitration mechanisms remain plural and task-dependent; no joint weighting law follows. |
+
+### 54.3 Primary-source traceability caution
+
+R13's reference list contains primary studies and compilations that must not be treated as equivalent:
+
+- The whole-body energy compendium (Vaz et al., 2005) collates activity-cost data and explicitly notes gaps across activities, sexes, ages and physiological states.
+- The chess study (Troubat et al., 2009) measured heart rate, heart-rate variability and respiratory exchange ratio in 20 male chess players. It is not direct whole-body calorimetry and cannot by itself establish that chess or mental activity has no incremental calorie cost.
+- R69 measured V̇O2 during walking with and without cognitive load; its matched-speed comparison is useful but does not isolate desk-based cognition.
+- R60/R62 provide regional cerebral measures; R61 provides a global CMRO2 abstract; R63 provides peripheral metabolic/cardiorespiratory and workload measures at abstract level. These measurements remain non-interchangeable.
+
+**Disposition:** R13/R14 now have improved full-text traceability and sharper claim boundaries; R69 adds a bounded primary human comparison. No claim is upgraded to a universal or causal law. The exact action-score model, neural allocation model and subjective-effort mechanism remain unvalidated. E17/E18 provenance remains open. No treatise/tracker edits; no experiments executed or authorized.
 
