@@ -596,7 +596,7 @@ Let:
 - $m$ be the logical or informational state;
 - $T$ be the temperature of the relevant thermal environment;
 - $W$ be work supplied to a computation;
-- $Q$ be heat transferred to the environment.
+- $Q$ be heat transferred into the system.
 
 Using the convention that $Q$ is heat added to the system and $W$ is work done on the system, the first law gives:
 
@@ -606,13 +606,13 @@ $$
 
 If $W$ instead denotes work done by the system, the equivalent form is $\Delta U=Q-W$. Physical state changes require energy exchange or redistribution; sign conventions must be used consistently.
 
-For logically irreversible erasure of one unbiased bit, Landauer's principle gives the ideal lower bound:
+For logically irreversible erasure of one unbiased bit, Landauer's principle gives the ideal lower bound on heat dissipated to the environment:
 
 $$
-Q_{\min}=k_B T\ln 2
+Q_{\mathrm{diss,min}}=k_B T\ln 2
 $$
 
-This is a lower bound under specified assumptions, not the actual energy cost of a human thought. Real biological computation is far from an idealized one-bit erasure operation.
+This is heat dumped to the environment under specified assumptions, not the heat input $Q$ in the first-law convention above and not the actual energy cost of a human thought. Real biological computation is far from an idealized one-bit erasure operation.
 
 The principle relevant to this treatise is broader: information processing is physically implemented, and its implementation has energetic and temporal costs.
 
