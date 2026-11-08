@@ -4,7 +4,7 @@
 
 **Audit baseline:** `document_master_visual.md` on branch `edition`, blob `123abdbe9ad3e6c24d150e7db2f38e9562d520d5` (2,618 lines; 95 numbered sections). Section line locations below refer to this exact baseline and must be refreshed if the source changes.
 
-**Cumulative claim-level scope at this revision:** Sections 1–40, preserved as three separately auditable batches: §§1–15, §§16–27 and §§28–40. Each batch retains its own section boundaries, source assessments, findings and historical status. This is a first-pass claim-level source/disposition record, not completion of the full 95-section audit.
+**Cumulative claim-level scope at this revision:** Sections 1–59, preserved as four separately auditable batches: §§1–15, §§16–27, §§28–40 and §§41–59. Each batch retains its own section boundaries, source assessments, findings and historical status. This is a first-pass claim-level source/disposition record, not completion of the full 95-section audit.
 
 ## 1. Adjudication conventions
 
@@ -636,3 +636,206 @@ American Educational Research Association, American Psychological Association an
 10. **Summary status:** Investigation A's “resolved” wording and Investigation B's summary must not imply empirical resolution.
 
 **Status:** §§28–40 now have a first claim-level source/disposition register. The context definition, intelligence measure, TD update, habit/arbitration models and behavioural state remain provisional.
+
+
+## 14. Claim-level register: Sections 41–59
+
+**Baseline:** document_master_visual.md, branch edition, blob 123abdbe9ad3e6c24d150e7db2f38e9562d520d5. The section locations below refer to this unchanged 2,618-line, 95-section baseline.
+
+This is the first claim-level evidence/disposition pass for §§41–59. It extends the earlier claim inventory (commit 965d637ad36d9e56f3b4cc6afbb701056d1e35c6) and does not authorize or report execution of experiments A–F. No treatise or tracker edits are made by this register entry.
+
+The table makes the five assessment dimensions independently visible: claim kind, formal validity, empirical/evidential support, disposition and unresolved dependency. “Not established” is not treated as refutation. Sources support only the specific domains, populations, tasks and outcomes stated below.
+
+| ID | Claim / exact treatise location | Claim kind | Formal validity | Empirical / evidential support | Disposition | Unresolved dependency |
+|---|---|---|---|---|---|---|
+| S41-C01 / S41-M01 / S41-C02 | Trigger-specific interventions may improve sustained attention; Qh=Rh−Ch, Qg=Rg−Cg, four intervention classes (L1341–1386) | Empirical hypothesis; decision-model heuristic; intervention taxonomy | Qg−Qh>0 is a score comparison only. It predicts greater selection only after a choice rule, feasible action set, common score horizon and commensurate terms are specified. | If–then planning has meta-analytic support (R31); cue accessibility and cue–response linkage have mechanism evidence (R32). Design-friction experiments report reduced screen time in some settings (R33–R34), but neither this evidence nor the implementation-intention evidence establishes sustained-attention improvement or ROOT-package efficacy. | Retain as a testable, context-bounded intervention hypothesis; do not state “yes” as an empirical answer. | Define sustained attention, eligible trigger/opportunity, target behaviour, intervention dose, comparator, fidelity, independent outcome and adverse/burden measures. Separate antecedent, interruption, consequence and retraining effects. |
+| S42-C01 / S42-M01 | No universal habit-acquisition time; saturating recurrence H(t+1)=H(t)+alpha(1−H(t))R(t)−beta H(t)N(t) (L1387–1420) | Empirical generalization; proposed dynamical model | The recurrence is not a validated law. A sufficient boundedness condition is H,R,N in [0,1] and 0≤alpha,beta≤1; the treatise does not state these domains/constraints. R(t) and N(t) conflate rehearsal, non-reinforcement and competing learning. | Lally et al. (R28) observed large individual variation in self-reported automaticity; a 2024 systematic review (R29) found substantial variability and high risk of bias in many included studies. A randomized context-planning study (R30) supports a causal role for consistent context in automaticity for walking, but not a universal time law. None validates this recurrence. | Retain only as a candidate bounded model; keep the no-universal-duration statement narrowly qualified. | Define time step, scale, opportunity, cue/context, R(t), N(t), missing opportunities, extinction versus competing learning, parameter estimation and transfer. Reconcile with §56 before selecting any canonical equation. |
+| S43-C01 / S43-EQ01 | Environmental leverage and Lambda=reduction in unwanted-action probability / implementation cost (L1421–1450) | Proposed metric / personal measurement convention | The ratio is definable only after numerator and denominator are operationalized. A before/after probability difference is not a causal effect without a defensible counterfactual; the ratio is not a standardized effect size. | Environmental-friction interventions provide limited, task-specific evidence (R33–R34). No source validates this ratio or its cross-intervention comparability. | Retain as a provisional within-person heuristic, not a universal leverage measure. | Define opportunity denominator, baseline risk, time horizon, counterfactual, setup and maintenance burden, side effects, zero/negative denominator cases, uncertainty and scale normalization. Report benefit and burden separately as primary quantities. |
+| S44-C01 / S44-M01 | Recovery metrics and weighted composite C=w1Ag−w2Fd−w3Dd−w4Lr+w5Sc (L1451–1483) | Measurement proposal; composite heuristic | The weighted sum is algebraically valid but not interpretable until units, direction, normalization and weights are defined. Proportions, event rates, durations and latencies are not directly commensurate. Sleep regularity is listed as a metric but is not included in the displayed composite. | Task-resumption studies support measuring latency and accuracy jointly; Brumby et al. (R38) found a speed–accuracy trade-off in interruption recovery. This is not validation of the proposed composite or a universal “lower latency is better” rule. | Retain raw outcomes as primary; defer composite interpretation. | Fix opportunity windows and denominators for Ag,Fd,Sc; define episode and recovery boundaries, missingness, units, normalization, weights and sensitivity. Pair latency with resumed-task accuracy and functional output. |
+| S45-C01 / S45-EQ01 / S45-C02 | Individualized observe–estimate–intervene–measure–update loop (L1484–1514) | Operational architecture; personalization hypothesis | The loop is a generic feedback schema, not a specified estimator or adaptive controller. It supplies no policy class, update rule, intervention-assignment method or stability condition. | Individual differences and contextual moderators appear in habit/intervention research (R29–R30), but do not validate this particular loop or prove that individualized adaptation outperforms fixed rules. | Retain as a workflow proposal; do not call it a validated adaptive protocol. | Specify observation model, state estimator, intervention policy, update cadence, exploration constraints, safety limits, outcomes, within-person validation and comparison against fixed/simple baselines. |
+| S46-M01 / S46-EQ01–EQ03 | Self-model S_hat=M(S,observations), parameter update Theta(t+1)=Theta(t)+DeltaTheta(S_hat,G,error), and transition S(t+1)=F_Theta(t+1)(S,I) (L1515–1547) | Proposed mathematical architecture / modelling assumptions | The equations are schematic. The estimator appears to receive the true S, which is generally latent; observations/history and an observation model should be specified. DeltaTheta, objective, parameter domain, error, constraints, uncertainty and transition law are undefined. | Self-evaluation and confidence are established metacognitive topics (R36–R37); monitoring and regulation of control parameters are explicitly described as meta-control (R35). These are close established neighbours, not evidence for a distinct Recursive Intelligence mechanism. | Retain as a candidate architecture, but downgrade any implication that the equations define a novel or validated mechanism. | Define what is represented about the system itself, what is merely estimated, which parameters are updated, the meta-level target and update rule, and a discriminating prediction versus metacognition, meta-control and adaptive control. |
+| S47-M01 / S47-C01 | Recursive feedback loop in which an outcome modifies future parameters/policy (L1548–1571) | Conceptual model / explanatory claim | A feedback loop that changes future parameters is standard adaptive feedback; the diagram alone does not establish a distinct recursion level or a new formal result. | Established feedback, adaptive-control and meta-control literatures already contain monitoring and parameter/policy adjustment (R35–R37). No incremental contribution is demonstrated here. | Merge conceptually with §§45–46 and §59 in later edition; preserve any genuinely distinct meta-level operation only if specified. | Identify the additional represented object or update level, define interfaces and compare against ordinary feedback/adaptive-control baselines. |
+| S48-C01 / S48-C02 | Self-models are fallible; explanations should be judged by prospective predictions under controlled change (L1572–1590) | Methodological principle; empirical validation proposal | The principle is sound as a safeguard, but “best explanation” requires explicit competing models, predictions and a valid comparison design. A retrospective narrative is not a test. | Metacognitive judgments can diverge from objective task performance because confidence depends on fallible models of the world and cognitive system (R36–R37). This supports the need for calibration, not the accuracy of any particular self-model. | Retain as a methodological safeguard; operationalize before using it as evidence of self-model validity. | Register predictions before outcomes; use independent behavioural measures, calibration, time-ordered holdouts, alternative explanations and controlled/counterbalanced changes where safe. |
+| S49-M01 / S49-EQ01–EQ02 / S49-C01 | Discounted objective J(pi) and update pi(t+1)=Update(pi(t),estimated gradient,feedback) (L1591–1625) | Reinforcement-learning objective; conceptual policy-update model | Expected discounted return is standard under a specified trajectory distribution and decision process. The update is not an algorithm: a gradient may not exist for a discrete policy or may require a parameterization; reward, cost, harm, weights, discount and horizon are unspecified. | RL and adaptive-control methods are established neighbouring frameworks. Their existence does not validate the human objective, selected weights or the claim that people literally perform gradient updates. | Retain as a schematic objective only; explicitly distinguish standard RL mathematics from a hypothesis about human cognition. | Specify MDP/POMDP assumptions, state/action spaces, reward and harm semantics, time horizon, risk constraints, parameterization, estimator and update algorithm. Test against simpler policy-learning baselines. |
+| S50-M01 / S50-C01 | Ordered goal hierarchy G0≺G1≺G2≺G3 and revisable higher-level constraints (L1626–1653) | Conceptual hierarchy / normative proposal | The relation is undefined: priority, abstraction, temporal horizon and normative authority are different orderings. A total order is not justified where goals can be incomparable or mutually constraining. | Goal conflict and strategy regulation are studied in metacognition/meta-control (R35–R37); no evidence here validates this exact four-level hierarchy. | Retain as a proposed organizing model, not a universal structure of human goals. | Define ordering semantics, conflict resolution, partial/incomparable goals, legitimate goal revision and constraints against metric/goal gaming. |
+| S51-C01 | ROOT Control Protocol as seven stages: Recognise, Obstruct, Override, Train, Correct, Optimise, Learn (L1654–1671) | Framework definition / operational proposal | A seven-stage list is a definition, not a demonstrated controller. Its initials spell ROOTCOL; if ROOT is intended to name only the first four stages, explain the status of Correct, Optimise and Learn. Sequence, iteration and concurrency are not specified. | Evidence for individual components exists (R28–R34), but there is no package-level efficacy evidence for this seven-stage protocol. | Retain as the named operational proposal; clarify acronym and architecture before edition. | Define stage inputs/outputs, order, feedback links, required/optional stages, fidelity, burden, adverse effects and stopping criteria. |
+| S52-M01 / S52-C01 | Seven-variable ROOT state s=(c,u,f,d,g,h,e) (L1672–1691) | State-vector definition / measurement model | The vector is not a specified Markov state or a validated sufficient state. Treating it as “measured state” conflates latent constructs with subjective/observable indicators. Shared time index and ordinal ratings need operational semantics. | No validation study is supplied for this vector or its sufficiency. Existing evidence on habit and metacognition does not validate the seven-variable construct. | Retain as a provisional bookkeeping vector, not a validated state representation. | Define each construct and indicator, ordinal scale anchors, sampling window, reliability, missingness, latent/observed distinction, omitted variables and relation to the broader and six-variable states. |
+| S53-M01 / S53-C01 | Trigger record E=(c,s,a,r,tau) and distinction between trigger and action (L1692–1711) | Event-schema definition / operational claim | The tuple is definitional but incomplete. Since s already includes c, cue information is duplicated unless the two fields have distinct meanings. tau is described as duration but event boundaries and duration type are not specified. | No direct evidence validates this event schema. It is a reasonable logging proposal only. | Retain provisionally; revise schema only after event-boundary and state definitions are fixed. | Define cue versus state cue indicator, event start/end, whether tau is action duration or recovery latency, consequence timing and eligible-opportunity denominator. |
+| S54-C01 / S54-EQ01–EQ02 | Obstruction lowers accessibility e'<e and is expected to lower p_h(s|e) (L1712–1739) | Causal hypothesis; inequality | The accessibility inequality is a proposed intervention condition. The probability inequality does not follow algebraically from lower accessibility; it requires a monotonic response model and assumptions about substitution, competing actions and context. | Design-friction studies show context-specific changes in screen use (R33–R34), including awareness/control-group effects. This is partial support for some friction interventions, not a universal monotonic law. | Retain as a falsifiable, context-specific causal hypothesis; remove any unconditional implication. | Measure accessibility, eligible opportunities, target action and substitutions; define comparator, exposure, carryover, side effects and task output. |
+| S55-C01 | If–then implementation intention maps a specified cue to a concrete alternative action (L1740–1755) | Intervention definition / empirical component claim | The cue–response mapping is a clear operational definition. It does not logically guarantee that the response will be executed. | Gollwitzer & Sheeran's meta-analysis of 94 tests found a medium-to-large average effect on goal attainment (R31). Webb & Sheeran's mechanism study found effects mediated by cue accessibility and cue–response association (R32). This supports implementation intentions as a component, not ROOT as a whole. | Retain with scope qualification and source-level support; avoid universal efficacy language. | Specify goal intention, cue specificity, response feasibility, rehearsal, opportunity, adherence and outcome. Pinpoint included study contexts and moderators before generalizing. |
+| S56-M01 | Alternative-response update H_alt(t+1)=H_alt(t)+alpha S(t)−beta F(t) (L1756–1781) | Proposed learning model | Without domains or projection, the update is unbounded and can leave any intended [0,1] range. A single failure can erase or reverse a small value if beta F(t)≥H_alt(t); the prose does not follow for all parameter values. | Habit-formation evidence supports repetition/context effects but does not validate this additive recurrence (R28–R30). | Retain only as a conceptual heuristic; do not use for quantitative prediction. | Define S(t), F(t), their ranges, opportunity and reward semantics, parameter bounds, clipping/projection, decay and context dependence. Reconcile with the distinct saturating recurrence in §42. |
+| S57-EQ01 / S57-C01 | Signed error e=y*−y and correction based on outcome deviation (L1782–1802) | Mathematical definition; controller proposal | The signed difference is valid if target and observation share units, scale and time window. No controller gain, update map, delay model, noise model or stability condition is supplied. The symbol e conflicts with environmental accessibility e in §52. | No source validates the proposed ROOT correction rule; standard feedback-control theory does not establish its human implementation. | Retain the error definition conditionally; defer claims of a functioning controller. | Rename one colliding symbol; define outcome vector, units, sampling, target, controller/update rule, constraints, delay and stability/overshoot checks. |
+| S58-C01 | Optimisation across sleep, activity, nutrition, workload, environment, task difficulty and recovery (L1803–1819) | Broad intervention domain / normative safeguard | This is a list of candidate moderators and intervention domains, not a causal prescription or optimization algorithm. “Optimise” has no objective function or constraints here. | Evidence is domain-specific; the habit, implementation-intention and interruption sources above do not establish a universal combined recipe. | Retain as candidate contextual factors and a non-maximization safeguard; avoid implying a single intervention formula. | Define target outcomes, individual context, safe bounds, burden, adverse effects and evidence for each proposed intervention; do not infer diagnosis from tracker data. |
+| S59-M01 / S59-C01 | ROOT feedback cycle; cycle output becomes context for the next cycle (L1820–1852) | Framework synthesis / feedback-model claim | The cycle repeats the seven-stage list in §51 and the generic recursive loop in §§45 and 47. It is not a formal dynamical system until state transitions, stage operators, update order and timescales are specified. | No package-level study or independent evidence for the integrated cycle is identified. Component evidence does not validate the composition. | Consolidate with §§45, 47 and 51 during a later evidence-led edition; retain the integrated-cycle hypothesis as provisional. | Define typed stage interfaces, concurrency/order, state and policy updates, feedback timing, error handling, missing data, versioning, fidelity and incremental benefit over simpler baselines. |
+
+### Cross-section dependencies and integration findings — §§41–59
+
+1. **Intervention and measurement layer (§§41–45):** depends on the action-score and habit constructs assessed earlier (M6, M12), and introduces leverage/composite conventions (M16, M13). These metrics do not independently establish causal intervention effects.
+2. **Habit acquisition conflict (§§42 and 56):** the saturating recurrence in §42 and additive recurrence in §56 have different state bounds and learning semantics. They cannot both be treated as the canonical update for one habit-strength variable without a defined distinction or reconciliation.
+3. **Recursive-control overlap (§§45–50):** §§45, 47 and 59 repeat feedback/update structures. §46's parameter update does not identify a meta-level representation or operation beyond ordinary adaptive control. Current material does not distinguish Recursive Intelligence from metacognition, meta-control or adaptive control.
+4. **ROOT structure (§§51–59):** §51 lists seven stages, while §§47 and 59 repeat the feedback cycle. The initials form ROOTCOL; the intended acronym boundary is unresolved.
+5. **State/event notation (§§52–57):** e denotes accessibility in §52 and signed outcome error in §57. The event tuple in §53 repeats cue information already contained in s. These are substantive interface/notation defects, not merely stylistic differences.
+6. **Recovery measurement (§44):** return-to-task latency cannot be optimized in isolation; accuracy and functional output must be considered because task-resumption research finds speed–accuracy trade-offs.
+7. **No empirical package conclusion:** sources support selected components under narrow conditions. They do not establish sustained-attention efficacy, ROOT package efficacy, a unique recursive mechanism, the proposed coefficients, or incremental predictive value of the integrated framework.
+
+### Consolidated findings for §§41–59
+
+- Trigger-specific intervention, environmental friction and implementation intentions have evidence at component level. The effects are task- and context-dependent; no source establishes the full ROOT package or a universal sustained-attention effect.
+- Habit automaticity develops with substantial individual variability. Consistent context can causally support automaticity in a specific walking intervention, but habit automaticity and behavioural maintenance are not identical outcomes.
+- The two habit equations are provisional and inconsistent. Neither should be presented as a validated acquisition law.
+- The leverage ratio and recovery composite are personal/model conventions. Raw rates, opportunities, durations, latencies, accuracy and functional output should remain visible.
+- The self-model and policy-update equations are under-specified. Current definitions overlap established metacognition, meta-control and adaptive control; uniqueness remains unestablished, not disproved.
+- ROOT is a proposed seven-stage operational architecture. Its stage interfaces, acronym, sequence, state model and quantitative correction/training rules remain unresolved.
+- No experiments were executed. Protocol A–F execution gates remain open, and this evidence review does not authorize their execution.
+
+**Status:** §§41–59 have a first claim-level assessment and source-qualification pass. Exact source-page/table/figure pinpointing is incomplete where publisher abstracts or review summaries were the accessible material; those locations are explicitly not claimed as verified. Final dispositions, full source-side verification, cross-component integration and any treatise/tracker edits remain open.
+
+## 15. Additional source register: Sections 41–59
+
+### R28 — Lally et al., 2010: habit formation in everyday life
+
+Phillippa Lally, Cornelia H. M. van Jaarsveld, Henry W. W. Potts and Jane Wardle, “How are habits formed: Modelling habit formation in the real world,” *European Journal of Social Psychology* 40(6), 998–1009 (2010), DOI: [10.1002/ejsp.674](https://doi.org/10.1002/ejsp.674).
+
+**Evidence type and design:** longitudinal real-world self-report study. Ninety-six volunteers selected an eating, drinking or activity behaviour to repeat daily in a consistent context for 12 weeks; 82 supplied sufficient data. Automaticity was measured daily using a subset of SRHI items. Individual asymptotic curves were fitted for 62 participants, with good fit for 39.
+
+**Relevant result:** among the fitted cases, time to 95% of the modelled automaticity asymptote ranged from 18 to 254 days. Missing one opportunity did not materially affect the fitted habit-formation process.
+
+**Supports:** repeated behaviour in a consistent context can be associated with increasing automaticity; individual trajectories vary substantially.
+
+**Does not support:** a universal number of days, a universal latent habit-strength equation, adult attention recovery, or the §42/§56 recurrence. Automaticity is the measured outcome; it should not be treated as interchangeable with every definition of habit.
+
+**Pinpointing status:** publisher abstract and bibliographic pages verified; exact page-level location of the detailed methods/results and any table/figure not independently verified in the accessible text. Do not invent a more precise locator.
+
+### R29 — Singh et al., 2024: systematic review and meta-analysis of habit formation
+
+Ben Singh, Andrew Murphy, Carol Maher and Ashleigh E. Smith, “Time to Form a Habit: A Systematic Review and Meta-Analysis of Health Behaviour Habit Formation and Its Determinants,” *Healthcare* 12(23), 2488 (9 December 2024), DOI: [10.3390/healthcare12232488](https://doi.org/10.3390/healthcare12232488).
+
+**Evidence type and scope:** systematic review/meta-analysis of 20 studies involving 2,601 participants and health behaviours including physical activity, diet, water consumption, flossing and sedentary-behaviour reduction. Eleven studies were rated at high risk of bias. Four studies reported time-to-formation estimates.
+
+**Relevant result:** reported habit-formation times varied widely (approximately 4–335 days); reported median estimates in the included studies were 59–66 days and means 106–154 days. Habit-strength scores improved on average, but measurement, behaviour and study quality varied.
+
+**Supports:** substantial between-person and between-behaviour variability; frequency, timing, context and individual factors matter.
+
+**Does not support:** a universal 66-day rule, the treatise's exact recurrence, or extrapolation from health habits to every cognitive/attention behaviour.
+
+**Pinpointing status:** abstract and review scope/results verified; individual-study tables and exact page/table references not independently checked in the accessible full text.
+
+### R30 — Ebert & Lin, 2024: randomized test of consistent context
+
+Jane E. J. Ebert and Xin Yao Lin, “Confirming the Causal Role of Consistent Contexts in Developing a Walking Habit: A Randomized Comparison With Varied Contexts,” *Annals of Behavioral Medicine* 58(11), 741–751 (2024), DOI: [10.1093/abm/kaae045](https://doi.org/10.1093/abm/kaae045).
+
+**Evidence type and design:** randomized planning intervention in 127 insufficiently active, working, midlife adults. Consistent-context planners were compared with varied-context planners and a no-planning control. Daily steps were measured by accelerometer and habit automaticity assessed over a four-week intervention and four-week follow-up.
+
+**Relevant result:** consistent and varied context planners increased walking during intervention; only consistent-context planners developed and maintained greater habit automaticity. Contrary to expectation, the consistent-context group did not show walking maintenance. Routine daily schedules moderated some effects.
+
+**Supports:** consistent context can causally promote automaticity in the tested walking-habit setting.
+
+**Does not support:** that automaticity guarantees behavioural maintenance, that all behaviours share the same effect, or that context consistency alone improves sustained attention.
+
+**Pinpointing status:** PubMed/publisher abstract and article pages verified; exact result-table and figure locations not independently checked in the accessible text.
+
+### R31 — Gollwitzer & Sheeran, 2006: implementation-intention meta-analysis
+
+Peter M. Gollwitzer and Paschal Sheeran, “Implementation Intentions and Goal Achievement: A Meta-analysis of Effects and Processes,” *Advances in Experimental Social Psychology* 38, 69–119 (2006), DOI: [10.1016/S0065-2601(06)38002-1](https://doi.org/10.1016/S0065-2601(06)38002-1).
+
+**Evidence type and scope:** meta-analysis of 94 independent tests of if–then plans linking specified situational cues to intended responses.
+
+**Relevant result:** reported a medium-to-large average effect on goal attainment (d = 0.65), with effects across initiation, shielding ongoing goal pursuit and disengagement from failing courses of action.
+
+**Supports:** implementation intentions can improve goal attainment on average across the included tasks and contexts.
+
+**Does not support:** guaranteed execution, universal effects, a specific ROOT protocol, or a unique Recursive Intelligence mechanism. The average does not replace examination of task, population, moderator and publication-bias limitations.
+
+**Pinpointing status:** article metadata and abstract-level result verified; exact page/table for the pooled estimate and moderator analyses not independently checked in the accessible source.
+
+### R32 — Webb & Sheeran, 2008: implementation-intention mechanism
+
+Thomas L. Webb and Paschal Sheeran, “Mechanisms of implementation intention effects: The role of goal intentions, self-efficacy, and accessibility of plan components,” *British Journal of Social Psychology* 47(3), 373–395 (2008), DOI: [10.1348/014466607X267010](https://doi.org/10.1348/014466607X267010).
+
+**Evidence type and design:** Study 1 meta-analyzed 66 tests of effects on goal intentions and self-efficacy; Study 2 examined accessibility of plan components and cue–response association.
+
+**Relevant result:** implementation intentions had negligible effects on goal intentions and self-efficacy in Study 1; Study 2 found goal-attainment effects mediated by accessibility of specified situational cues and strength of the cue–response association.
+
+**Supports:** the cue–response accessibility mechanism relevant to §55, within the studied implementation-intention paradigm.
+
+**Does not support:** that increased deliberation explains the effect, that every cue–response plan works, or that the ROOT package is validated.
+
+**Pinpointing status:** publisher abstract and study-level summary verified; exact page of Study 2's mediation analysis not independently verified in the accessible text.
+
+### R33 — Zimmermann & Sobolev, 2023: randomized field experiment on digital friction
+
+Laura Zimmermann and Michael Sobolev, “Digital Strategies for Screen Time Reduction: A Randomized Field Experiment,” *Cyberpsychology, Behavior, and Social Networking* 26(1), 42–49 (2023), DOI: [10.1089/cyber.2022.0027](https://doi.org/10.1089/cyber.2022.0027).
+
+**Evidence type and design:** preregistered field experiment (N = 112) comparing grayscale design friction, self-commitment to time limits and self-monitoring control over several weeks; screen time was objectively measured.
+
+**Relevant result:** grayscale produced an immediate significant reduction in objectively measured screen time relative to control; goal-setting produced a smaller, more gradual reduction. The study found no immediate causal effect of reduced use on subjective well-being or academic performance.
+
+**Supports:** a particular design-friction intervention can reduce objectively measured smartphone screen time in the tested setting.
+
+**Does not support:** general sustained-attention improvement, improved academic performance, lasting behaviour change, or a universal effect of obstruction.
+
+**Pinpointing status:** PubMed abstract and article pages verified; exact table/figure for group contrasts not independently checked in the accessible text.
+
+### R34 — Ochs & Sauer, 2022: smartphone obstruction field experiment
+
+Carli Ochs and Juergen Sauer, “Curtailing smartphone use: a field experiment evaluating two interventions,” *Behaviour & Information Technology* 41(16), 3598–3616 (2022), DOI: [10.1080/0144929X.2021.2007284](https://doi.org/10.1080/0144929X.2021.2007284).
+
+**Evidence type and design:** one-week field experiment with 97 student participants in app-relocation, grayscale and control conditions.
+
+**Relevant result:** objective smartphone usage declined relative to the prior week, but the change also appeared in the control group; self-reported problematic smartphone use increased. The authors discuss heightened usage awareness as a possible explanation.
+
+**Supports:** the need to distinguish objective behaviour from self-report and to account for measurement/awareness effects in obstruction studies.
+
+**Does not support:** a clean causal effect of either intervention from the reported pre/post pattern, or general reduction in distraction.
+
+**Pinpointing status:** publisher abstract and article pages verified; exact table/figure for condition contrasts not independently checked in the accessible text.
+
+### R35 — Eppinger, Goschke & Musslick, 2021: meta-control
+
+Ben Eppinger, Thomas Goschke and Sebastian Musslick, “Meta-control: From psychology to computational neuroscience,” *Cognitive, Affective, & Behavioral Neuroscience* 21, 447–452 (2021), DOI: [10.3758/s13415-021-00919-4](https://doi.org/10.3758/s13415-021-00919-4).
+
+**Evidence type:** theoretical review/editorial synthesis, not a single empirical experiment.
+
+**Relevant location:** abstract, pp. 447–448. Meta-control is described as mechanisms that monitor the progress of controlled processing and regulate underlying control parameters in service of task goals and internal/external constraints. The authors also state that meta-level control processes remain poorly understood.
+
+**Supports:** a close established conceptual neighbour to §§46–47: monitoring controlled processing and changing control parameters.
+
+**Does not support:** that all meta-control is solved, that the treatise's proposed mechanism is identical in every detail, or that Recursive Intelligence is impossible. It makes a distinctness claim require a sharper operational boundary.
+
+### R36 — Fleming, 2024: metacognition and confidence
+
+Stephen M. Fleming, “Metacognition and Confidence: A Review and Synthesis,” *Annual Review of Psychology* 75, 241–268 (2024), DOI: [10.1146/annurev-psych-022423-032425](https://doi.org/10.1146/annurev-psych-022423-032425).
+
+**Evidence type:** theoretical/research synthesis.
+
+**Relevant location:** abstract and review, pp. 241–268. The review distinguishes subpersonal uncertainty representations from personal-level beliefs about one's own performance, and describes propositional confidence in decisions/actions as depending on models of the world and the cognitive system that can be more or less accurate.
+
+**Supports:** self-evaluation and confidence are established metacognitive constructs; self-model judgments can diverge from objective performance.
+
+**Does not support:** a validated self-model for ROOT users or a distinct Recursive Intelligence mechanism.
+
+### R37 — Fleming, 2026: integrative neuroscience of metacognition
+
+Stephen M. Fleming, “Towards an integrative neuroscience of metacognition,” *Nature Reviews Neuroscience* 27, 789–806 (published 16 September 2026), DOI: [10.1038/s41583-026-01081-x](https://doi.org/10.1038/s41583-026-01081-x).
+
+**Evidence type:** current review synthesizing behavioural, computational and neural evidence across rodents, non-human primates and humans.
+
+**Relevant location:** abstract and review, pp. 789–806. It describes metacognition as self-evaluation of cognitive processes, with confidence estimates arising from transformations of uncertainty and supporting control at multiple timescales.
+
+**Supports:** a broad established metacognitive framework that overlaps §§46–48 and their proposed monitoring/update cycle.
+
+**Does not support:** the treatise's equations or a unique recursive mechanism. This is a review, not a new primary experiment.
+
+### R38 — Brumby et al., 2013: interruption recovery and speed–accuracy trade-off
+
+Duncan P. Brumby, Anna L. Cox, Jonathan Back and Sandy J. Gould, “Recovering from an interruption: investigating speed-accuracy trade-offs in task resumption behavior,” *Journal of Experimental Psychology: Applied* 19(2), 95–107 (2013), DOI: [10.1037/a0032696](https://doi.org/10.1037/a0032696).
+
+**Evidence type and design:** two experiments using a routine sequential data-entry task interrupted by a cognitively demanding secondary mental-arithmetic task.
+
+**Relevant result:** resumption lag was examined alongside error probability. A 10-second system lockout after the interrupting task reduced resumption errors, indicating that faster resumption is not always better when accuracy matters.
+
+**Supports:** task recovery should be measured with both latency and resumed-task accuracy.
+
+**Does not support:** a universal optimal return-to-task latency or the proposed ROOT composite.
+
+**Pinpointing status:** PubMed abstract and article pages verified; exact experiment/table page references not independently checked in the accessible text.
