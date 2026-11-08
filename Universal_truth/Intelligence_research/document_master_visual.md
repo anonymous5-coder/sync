@@ -348,7 +348,7 @@ This clarification strengthens rather than weakens Space or Null Theory: the the
 
 ---
 
-**Claim-linked evidence register records:** R06, R07, R08, R06. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R06, R07, R08. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 # PART IV — OUT OF BOX THEORY: EPISTEMIC LIMIT AND EXPANSION
 
@@ -446,7 +446,7 @@ Hence, no sound deduction from $K$ alone can uniquely establish $p$.
 
 This is not a weakness of intelligence. It is a limit imposed by information and logic.
 
-**Claim-linked evidence register records:** R03, R05, R03. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R03, R05. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 12. The upgraded meaning of Out of Box Theory
@@ -1498,7 +1498,6 @@ H_{t+1}=H_t+\alpha(1-H_t)R_t-\beta H_tN_t
 $$
 
 where:
-
 - $H_t$ is the strength of the new habit;
 - $\alpha$ is a learning parameter;
 - $R_t$ represents successful rehearsal;
