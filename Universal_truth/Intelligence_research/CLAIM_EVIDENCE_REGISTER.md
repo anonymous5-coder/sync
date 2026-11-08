@@ -4,7 +4,7 @@
 
 **Audit baseline:** `document_master_visual.md` on branch `edition`, blob `123abdbe9ad3e6c24d150e7db2f38e9562d520d5` (2,618 lines; 95 numbered sections). Section line locations below refer to this exact baseline and must be refreshed if the source changes.
 
-**Cumulative claim-level scope at this revision:** Sections 1–59, preserved as four separately auditable batches: §§1–15, §§16–27, §§28–40 and §§41–59. Each batch retains its own section boundaries, source assessments, findings and historical status. This is a first-pass claim-level source/disposition record, not completion of the full 95-section audit.
+**Cumulative claim-level scope at this revision:** Sections 1–74, preserved as five separately auditable batches: §§1–15, §§16–27, §§28–40, §§41–59 and §§60–74. Each batch retains its own section boundaries, source assessments, findings and historical status. This is a first-pass claim-level source/disposition record, not completion of the full 95-section audit.
 
 ## 1. Adjudication conventions
 
@@ -857,4 +857,167 @@ Florian Bolenz, Wouter Kool, Andrea M. F. Reiter and Ben Eppinger, “Metacontro
 **Does not support:** a unique Recursive Intelligence architecture, an explicit self-model of the learning/controller process, a meta-meta update, or ROOT efficacy. The cross-sectional age comparison and specific sequential task limit generalization.
 
 **Pinpointing status:** primary full-text article and figure descriptions inspected; exact quantitative estimates are in the supplementary Tables S5–S21. The source establishes a concrete comparator, not identity between the study's model and the treatise's proposal.
+
+
+
+## 16. Claim-level register: Sections 60–74
+
+**Baseline:** \`document_master_visual.md\`, branch \`edition\`, blob \`123abdbe9ad3e6c24d150e7db2f38e9562d520d5\`; §§60–74 occupy baseline lines 1853–2199. The prior claim inventory is commit \`821b4e8b8606f745f2531489936997b236a25c65c\`. This pass reuses the M14–M18 formal audit (commit \`2ad7a85cc0353f72acfdc6fc627bb2bbcbba1af0\`), the tracker audit (\`2d592cd9d7f2d66f5531a5cb72e303197414aabc\)), the prior alternatives audit (\`9098cf5acc7390d2d42410aac48706589b227b84\)) and the existing formal-result premise map. It does not repeat those audits or execute any experiment.
+
+The five dimensions remain separate: claim kind, formal validity, empirical/evidential support, disposition and unresolved dependency. “Conditional” and “not established” are not synonyms for false.
+
+| ID | Claim / exact treatise location | Claim kind | Formal validity | Empirical / evidential support | Disposition | Unresolved dependency |
+|---|---|---|---|---|---|---|
+| S60-M01 / S60-C01 | Closed-loop behavioural model \(x_{t+1}=(A-BK)x_t+w_t\); stability when eigenvalues lie inside unit circle (L1853–1885) | Linear dynamical model; mathematical condition; human-behaviour analogy | For the homogeneous discrete-time LTI system \(x_{t+1}=A_{\rm cl}x_t\), asymptotic/exponential stability is equivalent to \(A_{\rm cl}\) being Schur (all eigenvalues strictly inside unit disk). This does not establish stability of a human system. With persistent nonzero \(w_t\), convergence to zero generally does not follow; a Schur matrix instead gives bounded response to bounded disturbances under the stated linear model. | Standard control-theory result (R40). No identified human behavioural \(A,B,K\), state, sampling interval or disturbance process is supplied. | Retain as a pedagogical linear approximation; restrict the eigenvalue condition to the disturbance-free homogeneous model. Qualify disturbance-affected claims as boundedness/robustness questions. | Define state and target, sampling interval, identified transition matrices, intervention input, observability, controllability, model error, disturbance bounds/distribution and whether the claim is asymptotic, input-to-state, mean-square or practical stability. |
+| S61-M01 / S61-EQ01 | Lyapunov-style \(V(x)\) as weighted sum of squared goal deviation, unwanted habit activation and return latency; expected \(V\) should decrease (L1886–1908) | Candidate Lyapunov function; measurement convention | A weighted sum of squares is positive definite only relative to a defined zero state and strictly positive weights; it is radially unbounded only under suitable state-domain assumptions. Variables require scale normalization and commensurate operational meaning. \(\Delta V<0\) is a stability certificate only with the requisite domain, positivity, invariance and decrease conditions. “Expected decrease” is a different stochastic claim from pathwise decrease. | No validation of this \(V\), its weights or its component measurements is supplied. The prior tracker audit already classifies its stability proxy as an unvalidated personal measurement convention (R40 cross-reference; tracker audit commit above). | Retain as a candidate proxy, not a verified Lyapunov function or proof of behavioural stability. | Define \(x\), equilibrium/acceptable set, units and normalization, \(P\succ0\) or equivalent positive-definiteness conditions, domain, disturbance model, sampling and whether the criterion is deterministic, expected or probabilistic. |
+| S62-P05 / S62-C01 | Proposition 5: repeated effective feedback reduces expected frequency or duration of unwanted responses under five assumptions (L1909–1926) | Conditional proposition; causal/dynamical hypothesis | The verbal argument is not a proof. “Successful cycle changes the state in a favourable direction” does not entail negative drift, and “expected effect exceeds disturbances” is not quantified. A sufficient deterministic route would specify \(V\succ0\), a forward-invariant domain and \(\Delta V(x)\leq-W(x)\) for positive-definite \(W\). A stochastic version needs a conditional drift inequality and additional state-process/boundedness assumptions. | No experiment establishes the proposition for ROOT or human behaviour. Standard Lyapunov theory supplies conditional mathematical tools, not empirical premises for this system (R40). | Keep explicitly conditional; do not call the current argument a stability proof. The prior formal premise map remains the governing audit. | State a precise theorem with quantified assumptions, state/action process, disturbance set, update law, drift bound, domain, conclusion type and counterexamples; separately test whether empirical premises hold. |
+| S63-C01 | No universal guarantee is mathematically justified under unrestricted disturbances and biological/environmental conditions (L1927–1946) | General impossibility argument; scope limitation | The intuition can be formalized only under restrictions. For example, a scalar plant with bounded control \(|u_t|\leq U\) and an unrestricted persistent disturbance \(w_t>U\) can be driven away despite any admissible controller. The current text does not define “finite controller,” actuator bounds or disturbance class, so the blanket statement is under-specified rather than proved. | No empirical study is needed for the conditional counterexample; it is a mathematical model illustration. It does not establish a universal theorem about all human or finite controllers. | Retain the practical caution, but present impossibility as conditional on specified actuation and disturbance constraints. | Define controller class, feasible control authority, disturbance set, state constraints and performance criterion; distinguish infeasibility from uncertain efficacy or biological limits. |
+| S64-C01 / S64-EQ01 | Self-mastery does not require zero urge; goal-action probability conditional on positive urge should remain meaningfully high (L1947–1970) | Normative/operational definition; probabilistic criterion | \(P(A=a_g\mid U>0)\) is a valid conditional probability but is not sufficient without context, opportunity, action feasibility, competing goals and a threshold. The event \(U>0\) also collapses urge intensity and context. | No source validates this as a general measure of self-mastery. It is a proposed operationalization and should not pathologize normal urges. | Retain as a useful conceptual distinction between urge presence and action selection; do not treat it as a validated outcome metric. | Define eligible opportunities, appropriate goal action, urge measurement, context stratification, baseline and clinically/non-clinically meaningful thresholds; account for cases where not acting on an urge is not the appropriate goal. |
+| S65-C01 | Separate phone, gaming, television, sleep, sexual distraction and study-avoidance behaviours rather than assume one diagnosis/mechanism (L1971–1990) | Methodological safeguard; hypothesis taxonomy | The table lists candidate mechanisms and measures; it does not infer causes or diagnose. The categories may overlap and the listed single metrics do not capture all relevant contexts or impairment. | The separation is consistent with measurement and diagnostic caution, but no study validates this exact table as a complete taxonomy. EMA/self-report agreement varies substantially across behaviours and individuals (R42). | Retain as a non-diagnostic hypothesis map; explicitly mark each proposed mechanism as to-be-tested. | Define operational target behaviour and opportunity denominator per domain; distinguish direct observation, self-report and inferred motive; assess burden, context, co-occurrence and missingness. |
+| S66-C01 | Sexual attraction/urges and masturbation are not inherently pathological; CSBD requires persistent impaired control and marked distress/functional impairment, not moral disapproval alone (L1991–2006) | Clinical boundary statement; diagnostic-scope qualification | The section's non-pathologizing distinction is consistent with ICD-11 diagnostic requirements. Frequency, libido or masturbation alone do not satisfy the diagnostic construct. Diagnosis requires the full clinical criteria and differential assessment; this text is not a diagnostic instrument. | WHO's ICD-11 CDDR is the authoritative diagnostic manual (R45); WFSBP guidance reproduces the essential features and duration/impairment criteria (R46). These support the boundary, not individual diagnosis. | Retain with explicit non-diagnostic framing; avoid equating normal desire or moral conflict with disorder. | Verify final wording against the current WHO CDDR and distinguish screening, clinical diagnosis, moral incongruence and functional impairment. Keep referral language proportionate and non-stigmatizing. |
+| S67-C01 | Sleep timing/quality affects the operating conditions for attention and executive control; two-week log and referral for persistent impairment (L2007–2020) | Empirical domain claim; monitoring recommendation; clinical safeguard | Sleep as a state variable is plausible, but a personal sleep log is not a diagnostic test and temporal association does not establish that sleep caused an individual's attention difficulty. | A meta-analysis of 61 studies/71 populations found sleep restriction impaired sustained attention on average (g = −0.409), with moderators including age, time of day and cumulative restriction (R43). A later 44-study meta-analysis found one-night restriction increased sleepiness and impaired sustained attention (reaction time SMD = 0.512; lapses SMD = 0.489) (R44). Effects are task- and exposure-specific. | Retain sleep as a relevant potential moderator; keep the two-week log as descriptive monitoring, not diagnosis or causal proof. | Specify sleep exposure, duration/regularity/quality, objective versus subjective measurement, naps, circadian timing, medication/health confounds and functional impairment. Do not infer sleep disorder from a tracker. |
+| S68-C01 | Breaking an ambiguous study task into a concrete first action reduces initiation cost and uncertainty (L2021–2038) | Intervention heuristic; causal hypothesis | The cost/uncertainty interpretation is a model hypothesis, not an algebraic result. A concrete next step may reduce task ambiguity but need not improve initiation in every context; no effect size or selector is specified. | If–then planning and cue-response specification have relevant evidence (R31–R32 in the prior batch), but those sources do not directly validate this exact study-initiation prescription or the cost terms \(K,D\). | Retain as a low-risk, testable design heuristic; avoid presenting it as a demonstrated universal mechanism. | Define initiation latency, eligible study opportunities, task type/difficulty, adherence, comparator and functional output; test whether reduced ambiguity mediates any improvement. |
+| S69-C01 / S69-PROT01 | Personal protocol: 7-day baseline, 7-day environmental change, 14-day alternative-response training, then weekly review (L2039–2095) | Personal self-monitoring protocol; sequential intervention proposal | The three initial phases total 28 days. This is not by itself a randomized N-of-1 trial or a replicated single-case experiment: phase order is fixed, environmental change and response training are sequential, and no withdrawal, randomized phase start, counterbalancing or replication is specified. Phase changes are confounded with time and carryover. | Methodological reviews recommend repeated objective outcomes, pre-specified analysis and randomization/counterbalancing where feasible; reversible interventions and washout matter for N-of-1 crossover designs (R41). Single-case experiments require systematic manipulation and repeated measurement across phases; a one-phase pre/post routine is not sufficient causal demonstration (R47). | Retain as a personal planning template, not an efficacy trial or validated dose. It can document feasibility and personal utility descriptively. | Reconcile the 28-day design with the tracker's 14-day pilot; define primary functional outcome, opportunity denominators, measurement frequency, baseline trend, concurrent changes, missing data, burden/adverse effects and a feasible comparator/design. Do not experiment on clinical or safety-critical behaviours without appropriate support. |
+| S70-C01 | Four foundations assigned complementary functions in one architecture (L2096–2106) | Framework definition; integration hypothesis | The table assigns roles but does not define typed interfaces or show that the components are necessary, sufficient or mutually compatible. A taxonomy of functions is not evidence of an integrated mechanism. | Existing research supports neighbouring domains separately; no package-level or architecture-level validation demonstrates this four-part integration. The earlier alternatives and interface audits remain applicable. | Retain as a proposed organizing architecture; do not present component complementarity as empirically established. | Define each component's unique input/output, shared constructs, dependency direction, timescale, provenance and falsifiable incremental contribution over simpler combinations. |
+| S71-EQ01 / S71-EQ02 / S71-C01 | Unified state transition \(\mathcal S_{t+1}=\mathcal F(\mathcal S_t,O_t,\mathcal I_t,G_t,R_t,\mathcal R_t)\); \(\mathcal F\) decomposed as composition of four operators (L2107–2150) | Schematic state-transition model; operator composition | The equation is syntactically meaningful only after state/input spaces and operator domains/codomains are defined. Under standard right-to-left function composition, \(\mathcal F_{\rm context}\circ\mathcal F_{\rm inference}\circ\mathcal F_{\rm control}\circ\mathcal F_{\rm learning}\) applies learning first; this may not match the prose's intended sequence. If operations are concurrent/coupled, ordinary serial composition is not an adequate specification. \(R_t\) is ambiguous between reward and feedback; \(\mathcal R_t\) is resources. | No source validates this unified transition function or its decomposition. It is a modelling proposal. | Retain as an architectural placeholder; do not treat it as a defined executable model. | Define typed state/input/output spaces, operator signatures, composition convention/order or concurrent update semantics, clock/aggregation, state observability, uncertainty, missingness, resource constraints and non-circular validation. |
+| S72-C01 | Nine-stage unified Context–Inference–Control cycle (L2151–2164) | Conceptual process model | The list supplies an intuitive sequence but no formal transition relation, stage contracts, concurrency rules or conditions for termination/re-entry. It overlaps the ROOT cycle and prior context/inference definitions. | No empirical or comparative evidence validates this exact nine-stage sequence or shows it outperforms simpler pipelines. | Retain as a conceptual overview; label sequence as proposed rather than established. | Map each stage to the typed interfaces required by §71 and the four foundation roles in §70; identify duplicated stages, feedback timing and testable incremental predictions. |
+| S73-TH04 / S73-C01 | Contextual and generative intelligence are complementary if context includes external observations and internal structure (L2165–2179) | Conditional formal compatibility result; conceptual synthesis | The argument establishes compatibility only under its stipulated broad definition \(C=(O,M,A,K)\) and a sound inference relation. \(O=0\) means no new external observation during the inference interval, not absence of memory, architecture, prior data or constraints. If \(K\models p\), a sound derivation can establish \(p\) from \(K\); it does not establish that \(K\) is true of the actual world unless the premises are true. The result is conditional and close to definitional; it does not establish novelty. | This is a logical result under formal semantics, not an empirical finding. The prior entailment audit remains controlling; no empirical source can substitute for checking the proof assumptions. | Retain as a conditional compatibility proposition/theorem only with the formal scope explicit. Do not claim empirical validation or a new inference mechanism. | State the language, semantics, proof relation and soundness assumptions; distinguish formal entailment, derivability, actual-world truth and probabilistic support; explain what nontrivial claim remains beyond the definition of context. |
+| S74-TH05 / S74-C01 | Self-mastery as feedback-driven policy modification under constraints; goal-action probability rises when relative selection score rises (L2180–2199) | Conditional mathematical proposition; framework synthesis | The derivation's step 5 requires a specified choice rule. Under two-action softmax with fixed \(\beta>0\), \(P(a_g)=1/[1+\exp(-\beta(Q_g-Q_h))]\), so increasing \(\Delta Q=Q_g-Q_h\) strictly increases \(P(a_g)\). This implication is not true for every unspecified selector or with changing feasible actions/other scores. Step 6 requires an explicit learning rule with monotone reinforcement; it does not follow from repeated success alone. | No empirical evidence establishes that the proposed ROOT interventions produce the required score change or that the unified architecture describes a person's cognition. | Retain as a conditional result after adding the selector and learning premises; otherwise classify as a model proposition, not a demonstrated universal theorem. | Specify action set, score scales, choice rule, inverse temperature, feasible constraints, policy update, reinforcement conditions, timescales and empirical validation. Separate the mathematical conditional from the human-mechanism hypothesis. |
+
+### Cross-section dependencies and integration findings — §§60–74
+
+1. **Stability chain (§§60–62):** §60 supplies a linear closed-loop template; §61 proposes a candidate scalar measure; §62 attempts to infer improvement. These are three different levels: model structure, candidate certificate and theorem. The current text moves from one to the next without identifying \(A,B,K\), a valid \(V\), a forward-invariant domain or a quantified decrease/drift condition. M14–M18 remain open; this batch does not close them.
+2. **Disturbance semantics (§§60–63):** the homogeneous Schur condition establishes convergence only for the unforced model. Persistent disturbances require bounded-input/stochastic/practical-stability analysis. The universal-guarantee argument should be expressed as a conditional impossibility under bounded actuation and unrestricted disturbances, not as an unqualified theorem about every finite controller.
+3. **Behavioural construct and measurement (§§64–68):** the probability criterion, behaviour table, sleep log and task-initiation prescription are operational proposals. Their measures require opportunity denominators, context and independent functional outcomes; self-report alone is not a validated latent-state estimator.
+4. **Personal protocol (§69):** the treatise's initial phases total 28 days; the tracker recommends a 14-day cycle. The former is a sequential 7+7+14 proposal, not a replicated causal design. The two artifacts must not be silently treated as the same protocol.
+5. **Unified architecture (§§70–72):** the four foundation roles, state equation and nine-stage cycle are conceptual integration. The operator composition's right-to-left order is potentially inconsistent with the intended process narrative; typed interfaces and clocks are absent.
+6. **Formal conclusions (§§73–74):** Theorem 4 is conditional compatibility under a broad context definition; Theorem 5 is conditional on a choice rule and learning update. Neither proves a novel mechanism or validates the human-level architecture.
+7. **No package-level validation:** none of the sources in this batch establishes the complete four-foundation architecture, the proposed stability controller, the personal protocol's efficacy, or a unique self-mastery mechanism.
+
+### Consolidated findings for §§60–74
+
+- The discrete-time Schur stability criterion and Lyapunov methods are established mathematics. Their application to human behaviour remains a model proposal until the system, state, inputs, disturbances and measurements are identified.
+- The candidate \(V(x)\) is not yet a Lyapunov certificate. Proposition 5's current verbal argument does not supply the drift inequality needed for a stability conclusion.
+- A universal impossibility claim requires a specified controller class and disturbance/actuation bounds. A valid restricted counterexample is available; the current prose is broader than its formal premises.
+- The personal protocol is a 28-day sequential self-management template, not a causal N-of-1 experiment. The 14-day tracker design remains distinct.
+- The sleep and clinical sections have relevant authoritative evidence, but logs and self-observation do not diagnose or establish causation.
+- The unified four-part architecture is a proposed synthesis. The operator composition, stage contracts and cross-timescale interfaces are not yet formally defined.
+- Theorem 4 is conditional compatibility, not novelty. Theorem 5 can be made mathematically valid under an explicit monotone selector and learning rule, but the empirical premises remain untested.
+- No experiment was executed; all experimental authorization and prerequisite gates remain unchanged.
+
+**Status:** §§60–74 have a first claim-level mathematical, evidential and disposition pass. The prior formal audits were reused, not declared complete. Primary-source pinpointing is provided where checked; exact full-text locations remain unavailable or unverified for some review sources. M14–M18, the canonical glossary, complete taxonomy crosswalk, final claim dispositions, full 95-section integration and all experimental gates remain open. No treatise or tracker edits are made by this register entry.
+
+## 17. Additional source register: Sections 60–74
+
+### R40 — Megretski, 2004: discrete-time linear stability and Lyapunov certificate
+
+Alexandre Megretski, “Model Reduction by Projection: General Properties,” MIT 6.242 lecture notes, Fall 2004, version 19 September 2004.
+
+**Evidence type:** authoritative mathematical lecture notes, not an empirical study.
+
+**Relevant location:** §4.2.2, “Stability preservation,” pp. 12–13 (PDF pages 12–13; discrete-time model equation (4.6), Lyapunov inequality and Theorem 4.6). The notes state that a minimal discrete-time LTI model is stable iff its state matrix is Schur and give a positive-definite \(P\) certificate \(P-A^\top PA\succ0\). Theorem 4.6 concerns a projection-reduced model and supplies sufficient conditions for its stability.
+
+**Supports:** the standard Schur criterion and discrete-time Lyapunov-certificate framework used to qualify §§60–62.
+
+**Does not support:** existence of an identified human behavioural state-space model, the treatise's candidate \(V\), or empirical ROOT efficacy.
+
+**Pinpointing status:** PDF inspected; exact theorem and inequality locations identified as §4.2.2, Theorem 4.6, pp. 12–13. This is a teaching source for standard mathematics; a later formal audit should cite a canonical control text if a definitive bibliographic foundation is required.
+
+### R41 — “N-of-1 Randomized Intervention Trials in Health Psychology,” 2018
+
+“N-of-1 Randomized Intervention Trials in Health Psychology: A Systematic Review and Methodology Critique,” *Annals of Behavioral Medicine* 52(9), 731–742 (2018), DOI: [10.1093/abm/kax026](https://doi.org/10.1093/abm/kax026).
+
+**Evidence type and scope:** systematic review of 54 N-of-1 trial publications involving 1,193 participants. Only 36% reported enough information to calculate heterogeneity of treatment effect; 90% provided some quantitative information to compare treatments.
+
+**Relevant methodological locations:** article Methods and “Recommendations to Improve the Quality of N-of-1 Designs With Psychological and Health Behavior Outcomes,” including Table 1. The review specifies repeated measurable outcomes, reversible interventions, estimated washout, a credible comparator, a priori measurement/analysis and randomization or counterbalancing where feasible.
+
+**Supports:** requirements and limitations relevant to interpreting or redesigning the sequential personal protocol in §69.
+
+**Does not support:** that a simple baseline/intervention diary establishes causality, or that a 28-day duration is universally adequate.
+
+**Pinpointing status:** article pages 731–742 and Table 1 identified; exact individual recommendation page not independently checked in the accessible text.
+
+### R42 — Ecological Momentary Assessment validity review, 2022
+
+“Ecological Momentary Assessment: A Systematic Review of Validity Research,” *Behavior Analysis in Practice* (2022), DOI: [10.1007/s40614-022-00339-w](https://doi.org/10.1007/s40614-022-00339-w).
+
+**Evidence type and scope:** systematic review of 32 studies comparing mobile EMA reports with more objective measures of health behaviour or environmental events.
+
+**Relevant result:** correspondence varied widely across individuals, behaviours and studies; reported agreement rates ranged from 1.8% to 100%. The review concluded EMA can be accurate but found no single set of factors that consistently explained high correspondence.
+
+**Supports:** repeated self-report can be useful for ecological measurement, but accuracy is construct-, person- and context-dependent and requires validation where possible.
+
+**Does not support:** treating a subjective 0–5 rating or retrospective episode log as an objective measure of latent state.
+
+**Pinpointing status:** abstract and review scope/results verified; exact table-level study breakdown not independently checked.
+
+### R43 — Lowe, Safati & Hall, 2017: sleep restriction and neurocognition
+
+C. J. Lowe, A. Safati and P. A. Hall, “The neurocognitive consequences of sleep restriction: A meta-analytic review,” *Sleep Medicine Reviews* 36, 48–57 (2017), DOI: [10.1016/j.smrv.2017.01.002](https://doi.org/10.1016/j.smrv.2017.01.002).
+
+**Evidence type and scope:** meta-analysis of 61 studies across 71 populations examining short-term sleep restriction and neurocognitive outcomes.
+
+**Relevant result:** pooled negative effect on cognitive processing (g = −0.383); sustained attention showed a negative effect (g = −0.409). Age, time of day, cumulative restriction, sleep latency and subjective sleepiness moderated effects.
+
+**Supports:** sleep restriction can impair sustained attention on average and should be considered as a relevant state/context variable.
+
+**Does not support:** that sleep explains any particular individual's study difficulty, that sleep logs diagnose a disorder, or that the ROOT model's fatigue coefficient is known.
+
+**Pinpointing status:** PubMed abstract and bibliographic record verified; exact forest-plot/table location not independently checked.
+
+### R44 — “Impact of one night of sleep restriction on sleepiness and cognitive function,” 2024
+
+“Impact of one night of sleep restriction on sleepiness and cognitive function: A systematic review and meta-analysis,” *Sleep Medicine Reviews* (2024), DOI: [10.1016/j.smrv.2024.101940](https://doi.org/10.1016/j.smrv.2024.101940).
+
+**Evidence type and scope:** systematic review/meta-analysis of 44 studies assessing one night with 2–6 hours of sleep opportunity.
+
+**Relevant result:** subjective sleepiness increased (SMD = 0.986); sustained-attention reaction times worsened (SMD = 0.512) and attentional lapses increased (SMD = 0.489).
+
+**Supports:** even one restricted night can affect sleepiness and sustained-attention task performance on average.
+
+**Does not support:** a chronic individual diagnosis or a universal prediction for every task/person.
+
+**Pinpointing status:** PubMed abstract verified; exact analysis table/figure not independently checked.
+
+### R45 — World Health Organization, 2024: ICD-11 clinical descriptions and diagnostic requirements
+
+World Health Organization, *Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural and Neurodevelopmental Disorders* (CDDR), published 8 March 2024.
+
+**Evidence type:** authoritative diagnostic manual.
+
+**Relevant location:** ICD-11 category 6C72, Compulsive Sexual Behaviour Disorder. The criteria require a persistent pattern of failure to control intense, repetitive sexual impulses/urges resulting in repetitive sexual behaviour, manifested over an extended period (e.g. six months or more), with marked distress or significant impairment. Distress entirely related to moral judgments/disapproval is insufficient.
+
+**Supports:** §66's non-pathologizing boundary and the distinction between normal sexual interest/behaviour and a clinically significant persistent impaired-control pattern.
+
+**Does not support:** self-diagnosis from frequency, attraction or masturbation; this section is not a diagnostic assessment.
+
+**Pinpointing status:** WHO CDDR publication and category 6C72 identified; the manual's complete category text was not independently page-pinned in this pass. The WFSBP guideline below reproduces the essential features.
+
+### R46 — WFSBP guidelines for compulsive sexual behaviour disorder, 2023
+
+“World Federation of Societies of Biological Psychiatry guidelines on the assessment and pharmacological treatment of compulsive sexual behaviour disorder,” *World Journal of Biological Psychiatry* (2023), DOI: [10.1080/19585969.2022.2134732](https://doi.org/10.1080/19585969.2022.2134732).
+
+**Evidence type:** clinical guideline and evidence synthesis.
+
+**Relevant location:** Table 1, ICD-11 diagnostic criteria for CSBD. It lists persistent failure to control intense/repetitive sexual impulses or urges, one or more manifestations of impaired control, an extended duration (e.g. six months or more), and marked distress/significant impairment. It explicitly excludes distress entirely attributable to moral judgments/disapproval as sufficient.
+
+**Supports:** the diagnostic boundary summarized in §66.
+
+**Does not support:** diagnosing an individual from a tracker, self-label or frequency count.
+
+**Pinpointing status:** Table 1 inspected in the accessible full-text record; recommendations for assessment and differential diagnosis should be checked before any clinical use.
+
+### R47 — Single-case experimental design and reporting standards
+
+Tate et al., “The Single-Case Reporting Guideline In BEhavioural Interventions (SCRIBE) 2016 Statement,” *Archives of Scientific Psychology* 4 (2016), DOI: [10.1037/arc0000026](https://doi.org/10.1037/arc0000026).
+
+**Evidence type:** methodological reporting guideline.
+
+**Relevant location:** definition and scope of single-case experimental designs in the statement. It describes prospective, intensive individual study with systematic manipulation across discrete phases and repeated measurement throughout; a simple one-phase training study or pre/post report without repeated phase measurement is not a single-case experiment.
+
+**Supports:** the distinction between §69's personal tracking protocol and a controlled single-case experimental design.
+
+**Does not support:** that any particular design will be feasible, ethical or valid for every behaviour.
+
+**Pinpointing status:** statement and design definition verified; item-level checklist is available in the full SCRIBE materials and should be applied if a study protocol is later authorized.
 
