@@ -409,9 +409,15 @@ A. Ross Otto, Andrew Westbrook and Jean Daunizeau, “Why is cognitive effort ex
 
 Wouter Kool, Samuel J. Gershman and Fiery A. Cushman, “Cost-Benefit Arbitration Between Multiple Reinforcement-Learning Systems,” *Psychological Science* 28(9), 1321–1333 (2017), DOI: [10.1177/0956797617708288](https://doi.org/10.1177/0956797617708288).
 
-**Study scope:** two experiments testing model-based versus model-free control under task-specific accuracy and reward manipulations.  
-**Supports:** adaptive allocation of model-based control in the tested tasks in response to task-specific cost-benefit structure.  
-**Does not support:** a universal single arbitration mechanism, the treatise's exact additive Q(a) formula, thermodynamic-energy coefficients or a general causal account of personal distraction.
+**Study scope and access:** full article PDF inspected. Experiment 1 recruited 101 participants and analysed 98 after preregistered response-time exclusions; Experiment 2 recruited 100 participants. Both used two-step reinforcement-learning tasks, but the task structures differed in whether model-based control delivered a reward/accuracy advantage (Experiment 1: lines 97–113, 127–140, 168–225; Experiment 2: lines 748–755, 773–806).
+
+**Results and boundary:** increased stakes increased model-based control in Experiment 1, where model-based control could improve performance. In Experiment 2, where model-based control did not produce a reward advantage, the stakes manipulation did not increase model-based control (t(99) = −0.72, p = .470, d = −0.07; lines 952–960). The authors note that the two task structures differed in several respects and that incidental task differences could moderate the result (lines 1004–1014). Their conclusion is therefore a task-specific cost-benefit arbitration result, not a universal law of action selection (lines 1015–1037).
+
+**Supports:** a bounded experimental case that model-based/model-free control allocation responds to task-specific performance advantages and incentives.
+
+**Does not support:** the treatise's exact additive Q(a) formula, its coefficients, thermodynamic-energy terms, a single universal arbitration mechanism, or a causal account of any particular person's distraction.
+
+**Pinpointing status:** full PDF inspected; participant/method and results/discussion locators above are verified.
 
 ### R16 — Sutton & Barto, 2018: temporal-difference and control algorithms
 
@@ -439,9 +445,17 @@ John P. O'Doherty, Jeffrey Cockburn and Wolfgang M. Pauli, “Learning, Reward, 
 
 Stephan Nebe, André Kretzschmar, Maike C. Brandt and Philippe N. Tobler, “Characterizing Human Habits in the Lab,” *Collabra: Psychology* 10(1), 92949 (2024), Registered Report, DOI: [10.1525/collabra.92949](https://doi.org/10.1525/collabra.92949).
 
-**Study scope and findings:** the study compared six laboratory habit paradigms and self-report measures of real-life habits. Choice frequency influenced later choice/habit-related measures in two tasks, including a task without external reinforcement. However, the laboratory paradigms did not converge on a single common habit construct, and the task measures showed no criterion validity against the real-life self-report measures in this sample. The authors call for reassessment of laboratory habit measurement.
-**Supports:** the need to distinguish repetition-based learning, reinforcement-based model-free learning, outcome-devaluation insensitivity and self-reported real-life habit; it provides direct evidence against treating the tested paradigms as interchangeable.  
-**Does not support:** a universal one-dimensional habit trait, or the claim that all habits are simply cached model-free policies.
+**Study scope and access:** full open-access article PDF inspected. The full sample was N = 220; after task-specific exclusions, N = 213 for the two frequency-based tasks and N = 208 for cross-paradigm validity analyses (Results—Participants, lines 621–626). The convenience sample was relatively young and mostly university students; the authors identify limited generalizability and possible restricted variance as limitations (lines 1599–1604).
+
+**Positive result:** choice frequency during training increased later frequency-based choice/habit-related measures in the Reward Pairs and Unrewarded Habits tasks; the latter suggests that a frequency-related effect can arise without external reinforcement as operationalized in that task (abstract/introduction, lines 39–41; design and hypotheses, lines 73–90).
+
+**Contrary/limiting results:** there was no convergent validity across the six habit paradigms: correlations were near zero or negative, and the one-dimensional measurement model did not fit (lines 958–960, 1047–1053; Table 2, lines 1063–1106). The tasks also showed no criterion validity against the real-life habit questionnaires for choices, response times, stimulus ratings or computational parameters (lines 1195–1230). The authors conclude that habits appear more stimulus- and situation-specific than a single common laboratory measure suggests (lines 1550–1555, 1588–1604).
+
+**Supports:** a frequency-based learning effect in the two studied paradigms, alongside direct evidence that these six operationalizations did not behave as interchangeable indicators of one latent habit construct in this sample.
+
+**Does not support:** a universal one-dimensional habit trait, criterion-valid measurement of real-life habits by these laboratory tasks, or the claim that all habits are simply cached model-free policies. It also does not settle whether instructed responding in the unrewarded task was wholly free of internal reinforcement.
+
+**Pinpointing status:** full article inspected; sample, positive effect scope, cross-paradigm non-convergence, criterion-validity findings and limitations are located above.
 
 ### R20 — Friston, 2009: variational free-energy formulation
 
@@ -767,15 +781,15 @@ Thomas L. Webb and Paschal Sheeran, “Mechanisms of implementation intention ef
 
 Laura Zimmermann and Michael Sobolev, “Digital Strategies for Screen Time Reduction: A Randomized Field Experiment,” *Cyberpsychology, Behavior, and Social Networking* 26(1), 42–49 (2023), DOI: [10.1089/cyber.2022.0027](https://doi.org/10.1089/cyber.2022.0027).
 
-**Evidence type and design:** preregistered field experiment (N = 112) comparing grayscale design friction, self-commitment to time limits and self-monitoring control over several weeks; screen time was objectively measured.
+**Evidence type and design:** preregistered field experiment (N = 112) comparing grayscale design friction (n = 40), self-commitment to time limits (n = 33) and self-monitoring control (n = 39) over several weeks; screen time was measured from device records/screenshots (full PDF: lines 11–20, 96–103, 131–164).
 
-**Relevant result:** grayscale produced an immediate significant reduction in objectively measured screen time relative to control; goal-setting produced a smaller, more gradual reduction. The study found no immediate causal effect of reduced use on subjective well-being or academic performance.
+**Relevant result:** grayscale reduced average screen time relative to control (233.19 vs 283.20 minutes/day; t(77) = 2.39, p = .019), approximately 50 minutes/day; the goal-setting group did not differ significantly from control (lines 191–201). The study found no immediate causal effect of reduced use on subjective well-being or academic performance (abstract, lines 11–20).
 
-**Supports:** a particular design-friction intervention can reduce objectively measured smartphone screen time in the tested setting.
+**Supports:** a particular design-friction intervention can reduce objectively measured smartphone screen time in the tested student setting over the observed period.
 
-**Does not support:** general sustained-attention improvement, improved academic performance, lasting behaviour change, or a universal effect of obstruction.
+**Does not support:** general sustained-attention improvement, improved academic performance, lasting behaviour change, or a universal effect of obstruction. The trial's outcome was screen time, not a general attention or distraction measure.
 
-**Pinpointing status:** PubMed abstract and article pages verified; exact table/figure for group contrasts not independently checked in the accessible text.
+**Pinpointing status:** full PDF inspected; design, sample, measurement and group contrasts located above.
 
 ### R34 — Ochs & Sauer, 2022: smartphone obstruction field experiment
 
@@ -1799,3 +1813,64 @@ The following are candidate records to inspect—not adjudicated support. They i
 
 
 **Disposition.** The 145 unmapped IDs have been triaged by verification requirement; none is promoted to supported, contradicted or rejected by this classification. Direct source-to-claim matching and final dispositions remain open. No treatise/tracker edits; no experiments executed or authorized.
+
+
+## 28. Claim-level source adjudication — cost-sensitive choice, habit measurement and digital friction
+
+This section closes selected source-to-claim checks for the highest-risk empirical rows in §27.7. It is not a final disposition of all 19 empirical claims.
+
+### 28.1 Cost-sensitive choice and arbitration
+
+**Claims:** S20-C01, S35-C02, with related synthesis claims S27-H01 and S40-C01.
+
+- R15 is a primary two-experiment study, not a general theory validation. It supports a specific task-sensitive allocation result: participants increased model-based control when the task gave it a performance advantage and incentives made that advantage more valuable; they did not increase it merely because stakes rose in a task where model-based control did not improve reward.
+- The second experiment is important limiting evidence against an incentive-only heuristic. However, the paper itself notes that the two task structures differed in several ways, leaving some task-structure moderation unresolved.
+- This is evidence for a neighbouring model-based/model-free arbitration account. It does not establish the treatise's broader six-factor weight function, the physical/energetic meaning of its cost terms, the exact scalar Q(a) decomposition, or the proposed person's behaviour.
+- **Disposition:** component-level support for task-specific arbitration; no direct validation of the treatise's exact action score or personal causal explanation. Keep S20-C01 conditional and S35-C02 as a candidate factorization pending operational measurement and model comparison.
+
+### 28.2 Habit learning and construct validity
+
+**Claims:** S21-C02, S22-C01, S23-C01, S34-C01, S42-C01, with related S27-H01 and S40-C01.
+
+- R19 provides a substantial registered-report study (N = 220; task-specific analysis samples N = 213 and N = 208) that separates frequency-based choice repetition from several value-based habit operationalizations.
+- Its positive frequency-based findings in two paradigms support the limited possibility that repeated choice frequency can bias later choice/habit-related measures, including in a task without external reinforcement as operationalized by the authors.
+- Its negative findings are equally material: the six habit paradigms did not converge on one common latent habit construct, and none of the tested task measures showed criterion validity against real-life habit questionnaires in this sample. The study's convenience sample and long multi-session protocol constrain generalization.
+- R19 also cautions against equating model-free reinforcement learning with established habits: the authors discuss the distinction between outcome-independent habit and reward-dependent model-free learning (lines 56–62). R53 independently found limited convergence in a smaller task comparison; the two studies should not be collapsed into a single universal estimate.
+- R16 supplies formal reinforcement-learning algorithm definitions; R18 is a review of reward/decision systems. Neither by itself establishes that the treatise's §42/§56 recurrences measure one common habit-strength construct.
+- **Disposition:** bounded evidence for frequency-related and task-specific habit-like effects; contrary evidence against interchangeable habit measures and universal model-free/habit identity. The treatise's habit equations remain unvalidated and internally unreconciled.
+
+### 28.3 Relief and negative reinforcement
+
+**Claim:** S23-C02.
+
+- R17's authoritative definition requires a response-contingent removal, prevention or postponement of an aversive stimulus and a subsequent increase in the response's probability. A temporary reduction in discomfort alone is not sufficient.
+- The current treatise wording “can reinforce” is appropriately conditional, but the empirical claim requires observing the response–consequence contingency and subsequent behaviour. A diary entry showing relief after avoidance does not establish negative reinforcement.
+- **Disposition:** retain only as a candidate mechanism until contingency and later response change are measured. Do not infer reinforcement from relief alone.
+
+### 28.4 Digital friction and environmental obstruction
+
+**Claims:** S27-H08 and S41-C02, with related S41-C01, S43-C01, S54-C01 and S79-EXP-D.
+
+- R33's preregistered N = 112 field experiment found grayscale reduced objectively measured screen time by about 50 minutes/day relative to self-monitoring control; time-limit goal setting did not significantly differ from control. Reduced screen time had no immediate causal effect on subjective well-being or academic performance. The endpoint was device screen time, not sustained attention.
+- R34's N = 97 one-week experiment found objective use reductions in intervention and control groups, while self-reported problematic use increased. This highlights measurement awareness and weakens a simple causal reading of pre/post change.
+- Together these studies support the narrower proposition that specific environmental friction can sometimes reduce a measured digital-use outcome. They do not establish a general effect on unwanted actions, urge intensity, attention, habit extinction, or ROOT efficacy.
+- **Disposition:** retain as context-specific intervention hypotheses; do not generalize screen-time effects to attention or self-mastery. Any future claim test must measure both behaviour and relevant functional outcomes, with eligible-opportunity denominators and substitution monitoring.
+
+### 28.5 Updated claim-source assignments and remaining gaps
+
+| Stable ID | Source assignment after this pass | Evidential boundary |
+|---|---|---|
+| S20-C01 | R15, R24, R26 | Task-specific cost-benefit arbitration; no universal/person-specific causal claim. |
+| S21-C02 | R16, R18–R19, R53 | Habit/model-free distinction and weak cross-paradigm convergence. |
+| S22-C01 | R16, R18–R19, R28–R30, R53 | Cue/action/outcome learning; no single universal habit construct. |
+| S23-C01 | R16, R18–R19, R28–R30, R53 | Learning mechanisms differ; equations remain unvalidated. |
+| S23-C02 | R17–R18 | Negative reinforcement requires contingency and subsequent response increase. |
+| S27-H08 | R30, R33–R34 | Context/friction effects are outcome- and setting-specific. |
+| S34-C01 | R16, R18–R19, R28–R30 | Later response readiness requires precise operationalization. |
+| S35-C02 | R15, R24–R26 | Arbitration factors are candidate constructs, not established coefficients. |
+| S41-C02 | R31–R34, R48 | Component intervention evidence; no ROOT or sustained-attention validation. |
+| S42-C01 | R16, R18–R19, R28–R30, R53 | Habit recurrence/strength remains unvalidated. |
+| S27-H01 | R13–R15, R23–R26, R29 | Candidate-factor list; no established causal ranking. |
+| S40-C01 | R16–R19, R23–R26 | Composite synthesis must be split into its component claims. |
+
+**Disposition.** Selected empirical-source checks are now at full-text/abstract-verified levels for R15, R19 and R33, and the exact scope of R34 remains bounded as recorded in §23. These findings narrow several claims but do not validate the integrated architecture. The remaining empirical queue—especially neural energy allocation, task uncertainty/effort, sleep/activity optimization and task decomposition—still needs claim-specific primary evidence. No treatise or tracker edits; no experiments executed or authorized.
