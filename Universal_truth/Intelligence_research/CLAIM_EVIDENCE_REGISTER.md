@@ -1574,7 +1574,7 @@ These are label normalizations only. They do not add claims, alter the treatise 
 | Cluster | Canonical stable IDs assigned in this pass | Existing R records | Scope / limitation |
 |---|---|---|---|
 | E01 | S04-A01, S17-EQ02, S31-EQ01 | R09, R10 | Physical computation/Landauer; review sources cited historically are not all assigned R IDs. |
-| E02 | S16-C01, S18-C01, S24-C02, S31-C01, S92-C01 | R11–R14, R60–R62 | Neural energetics and information/energy; R60–R62 provide direct human task-specific evidence but do not establish behavioural coefficients. |
+| E02 | S16-C01, S18-C01, S24-C02, S31-C01, S92-C01 | R11–R14 | Neural energetics and information/energy; does not establish behavioural coefficients. |
 | E03 | S19-M01, S35-C01, S36-C01, S37-C01, S67-C01, S78-EXP-C | R13–R15, R24–R25, R43–R44, R62–R63 | Effort, cost-sensitive control and sleep; evidence is bounded and task-specific. |
 | E04 | S21-C01, S22-EQ01, S34-EQ01, S35-EQ01, S35-EQ02, S35-EQ03, S42-M01, S56-M01 | R16, R18–R19, R26, R28–R30, R53 | Habit/RL; constructs and paradigms are not interchangeable; exact recurrences remain unvalidated. |
 | E05 | S55-C01, S80-EXP-E | R31–R32, R48 | Implementation intentions; supports a component, not ROOT package efficacy. |
@@ -1583,7 +1583,7 @@ These are label normalizations only. They do not add claims, alter the treatise 
 | E09 | S44-M01, S45-C01, S53-M01, S65-C01, S67-C01, S69-C01, S69-PROT01, S76-EXP-A, S77-EXP-B, S78-EXP-C, S79-EXP-D, S80-EXP-E, S81-EXP-F, S82-M01 | R27, R38, R41–R42, R47, R50 | Measurement and single-case/experimental methods; guidance is not efficacy evidence. |
 | E10 | S07-EQ01, S10-M01, S10-EQ01, S10-TH01, S11-TH01, S13-EQ01, S14-EQ01, S14-EQ02, S30-C01, S30-C02, S73-TH04 | R01–R05, R21–R22, R52 | Information theory, logic, Bayesian epistemology and underdetermination; formal support is premise-bounded. |
 | E11 | S08-C01, S08-C02 | R06–R08 | Prenatal/developmental evidence; narrow auditory and developmental scope. |
-| E12 | S16-C01, S18-C01, S31-C01 | R11–R13, R60–R62 | Brain energetics; distinguish signalling, baseline metabolism and task-level expenditure. R60–R62 add direct but task-bounded human measurements. |
+| E12 | S16-C01, S18-C01, S31-C01 | R11–R13 | Brain energetics; distinguish signalling, baseline metabolism and task-level expenditure. |
 | E13 | S35-C01 | R23 | Wanting/liking distinction; addiction-specific sensitization must not be generalized to ordinary desire. |
 | E14 | S66-C01 | R45–R46, R57 | CSBD diagnostic boundary; not a diagnosis of any individual. |
 | E15 | S32-M01, S39-EQ01, S44-M01, S67-C01 | R27, R42–R44 | Psychometric validity, EMA and sleep; S39-EQ01 is the canonical registered ID. |
