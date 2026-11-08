@@ -3190,3 +3190,54 @@ These edits do not identify the human behavioural matrices A/B/K, validate the c
 
 **Disposition:** verified corrections to the physical–behavioural bridge, Proposition 5, the controller-impossibility scope and unified conditional results are incorporated. Further formal-model specification and source-to-claim verification remain open.
 
+## 52. Canonical glossary and state-dictionary reconciliation — current treatise and tracker
+
+### 52.1 Three levels that must not be collapsed
+
+| Level | Current representation | Intended role | Canonical interpretation |
+|---|---|---|---|
+| System-level descriptor (§3) | \(\mathcal S_t=(A,M_t,X_t,E_t,\Pi_t,G_t,\Theta_t)\) | Architecture, memory, internal state, environment, policy, goals and parameters | A macro-level system descriptor. It is not shown to be a minimal or Markov-sufficient state vector; A is architecture, while the remaining components may have distinct dynamics. |
+| Reduced behavioural state (§39) | \(s_t=(g_t,c_t,u_t,f_t,z_t,h_t)\) | Candidate predictors of competing action selection | A task-specific reduced state: active goal, cue intensity, urge, fatigue, task demand/uncertainty and habit strength. It is not equivalent to the macro descriptor. |
+| ROOT operational state (§52 and tracker §2) | \(s_t=(c_t,u_t,f_t,d_t,g_t,h_t,e_t)\) | Seven ordinal self-ratings used for personal monitoring | An operational measurement vector that adds competing-action accessibility and uses d_t for task difficulty/ambiguity. It is not a validated latent-state model or cardinal score. |
+
+The six- and seven-variable representations are related but not interchangeable. The approximate mapping is \(z_t\leftrightarrow d_t\) for task demand/difficulty/uncertainty; the ROOT vector adds \(e_t\), competing-action accessibility. The mapping is only approximate because the treatise does not yet separate task difficulty, ambiguity and uncertainty into independently measured constructs.
+
+### 52.2 Verified semantic collisions and overloaded terms
+
+| Symbol / term | Current collision or ambiguity | Controlled disposition |
+|---|---|---|
+| \(z_t\) | §37 uses it for physiological state; §39 uses it for task difficulty and uncertainty | Reserve \(z_t\) for task demand in §39; use a distinct symbol \(\phi_t\) for physiological context in §37. |
+| \(e_t\) | §52/tracker use it for competing-action accessibility; §57 uses it for outcome error | Preserve \(e_t\) for accessibility; rename §57's signed outcome error to \(\varepsilon_t^{\mathrm{out}}\). |
+| \(A,K\) | §3 uses A for architecture; epistemic sections use K for knowledge base; §60 reuses A and K as plant matrix and feedback gain | In §60 reserve \(A_{\mathrm{plant}},B_{\mathrm{plant}},K_{\mathrm{fb}}\) for the control model. |
+| \(\mathcal S_t,s_t\) | Upper/lower case denotes macro descriptor and reduced behavioural state, but the distinction is not declared | State explicitly that \(\mathcal S_t\) is the system-level descriptor and \(s_t\) is a task-specific reduced measurement/model vector. |
+| \(f_t,\phi_t\) | The seven-variable vector calls f_t “fatigue or physiological load,” combining subjective fatigue with physiological condition | Keep f_t as a subjective fatigue rating; use \(\phi_t\) only for a separately defined physiological context/measurement, if one is actually collected. Do not infer physiology from the ordinal rating. |
+| Cue \(c_t\) and trigger | c_t is cue intensity, while episode records use c_t as the trigger itself | Distinguish cue identity/context from its measured salience; the textual trigger record is not the same quantity as an intensity rating. |
+| Outcome/reward/feedback | r_t, reward R(a), feedback_t, y_t and R_t are used without a shared typed definition | Preserve separate event consequence/reward, task outcome, prediction error, self-report and intervention fidelity. Do not collapse them into one scalar. |
+| Resource and energy | E_t denotes environment, E(a) an action energy cost, and e_t accessibility | Keep typed names and units; avoid using ordinal e_t as an energy measure. |
+| Action-value and stability | Q(a), long-term value, RL value notation and V(x) stability proxy can be confused | Define each model's quantity, domain and units; keep candidate V(x) separate from policy/action value and never call the tracker proxy a Lyapunov certificate. |
+
+### 52.3 Measurement and episode semantics
+
+1. The tracker correctly labels all seven 0–5 state ratings as ordinal self-ratings. Arithmetic differences, weighted sums and linear coefficients cannot be interpreted as cardinal quantities without an explicit measurement model and sensitivity analysis.
+2. The treatise's six-variable logistic model uses z_t as a predictor. Treating ordinal ratings as equally spaced numeric predictors is an additional modelling assumption; categorical, monotone or nonlinear alternatives should be compared rather than silently assumed away.
+3. f_t is currently a subjective rating, not a direct measure of neural metabolism, sleep physiology or total biological load. Sleep duration, daytime sleepiness and any physiological measurement must remain separate fields.
+4. d_t combines task difficulty, ambiguity and uncertainty. This is acceptable as a brief exploratory rating only if labelled composite; causal or predictive work should measure the components separately where they can differ.
+5. The episode tuple \(\mathcal E_t=(c_t,s_t,a_t,r_t,\tau_t)\) risks storing cue salience and cue identity in one field and omits operational fields that the tracker actually records (return latency and intervention). Keep a distinct cue/trigger identifier and preserve raw duration, return latency, consequence and intervention fields.
+6. The broad descriptor in §3 does not establish a Markov state. Markov sufficiency, observation history, sampling interval and serial dependence remain application-specific hypotheses.
+7. §3's displayed sequence uses a_t in the state transition before the policy equation defines a_t. For the sequential interpretation, observation should be followed by action selection and then the state transition; otherwise a joint/simultaneous kernel must be stated.
+
+### 52.4 Controlled correction set
+
+The following minimal corrections are justified by the existing definitions and are approved within the current edition scope:
+
+- Reorder §3's sequential equations so that observation and policy-based action selection precede the transition that consumes a_t; include O_t in the policy conditioning if the action is observation-informed.
+- State that \(\mathcal S_t\) is a broad system descriptor, not a proven Markov-sufficient state.
+- Rename §37's physiological z_t to \(\phi_t\), leaving §39's task-demand z_t intact.
+- Rename §57's outcome error e_t to \(\varepsilon_t^{\mathrm{out}}\), preserving e_t as accessibility.
+- Rename §60's plant/gain matrices to \(A_{\mathrm{plant}},B_{\mathrm{plant}},K_{\mathrm{fb}}\).
+- Clarify in §52 that the six-variable z_t and seven-variable d_t are approximate task-demand counterparts; retain the ordinal and non-diagnostic boundaries.
+- Clarify that f_t is subjective fatigue, not objective physiological load; keep any objective sleep/physiology measures separate.
+- Preserve the tracker as a practical operational artifact; no new composite score, coefficient estimate or latent-state claim is introduced by these notation fixes.
+
+**Disposition:** the macro, reduced behavioural and ROOT operational representations are now crosswalked conceptually, but not unified into one validated state-space model. The symbol and sequencing corrections above are ready for controlled implementation; measurement validity, Markov sufficiency, causal identification and parameter estimation remain open. No tracker edits in this audit entry; no experiments executed or authorized.
+
