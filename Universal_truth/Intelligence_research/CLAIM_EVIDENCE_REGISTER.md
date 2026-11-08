@@ -1187,7 +1187,7 @@ Kyle Stanford, “Underdetermination of Scientific Theory,” *The Stanford Ency
 
 **Purpose and status.** This section consolidates the seven existing first-pass batches (§§1–95), the stable-ID inventory, source clusters E01–E18, the formal-result premise map, the alternatives audit and the provisional cross-component interface map. It is an integrated documentary adjudication, not independent peer review, completed source pinpointing, empirical validation or authorization to execute Experiments A–F. Existing batch histories and claim IDs are preserved.
 
-**Inventory check.** The unchanged treatise baseline contains 95 numbered sections. The register contains 198 distinct section-scoped stable IDs, including the six experiment IDs S76-EXP-A through S81-EXP-F and the final-synthesis IDs S90-C01 through S95-EQ01. The seven batch boundaries remain §§1–15, 16–27, 28–40, 41–59, 60–74, 75–89 and 90–95. Stable-ID coverage is an inventory result; it does not mean that all claims have final source pinpoints, validated measures, complete proofs or closed dependencies.
+**Inventory check.** The unchanged treatise baseline contains 95 numbered sections. The register contains 204 distinct section-scoped stable IDs: 198 conventional typed IDs plus six experiment IDs S76-EXP-A through S81-EXP-F. The final-synthesis IDs run from S90-C01 through S95-EQ01. The seven batch boundaries remain §§1–15, 16–27, 28–40, 41–59, 60–74, 75–89 and 90–95. Stable-ID coverage is an inventory result; it does not mean that all claims have final source pinpoints, validated measures, complete proofs or closed dependencies.
 
 ### 22.1 Integrated epistemic taxonomy crosswalk
 
