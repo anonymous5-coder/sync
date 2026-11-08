@@ -2337,6 +2337,8 @@ This is an organizing diagram for the proposed architecture, not a validated nec
 
 Therefore, the two theories describe complementary operations: context acquisition and internal consequence generation.
 
+**Claim-linked evidence register records:** R01, R02, R03, R05, R21, R22, R52. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 74. Conditional proposition — Feedback can alter goal-action selection under specified assumptions
 
 **Statement:** In a specified finite-action model with fixed inverse-temperature $\beta>0$, increasing the goal action's score while holding competing scores and the feasible action set fixed increases its softmax selection probability. This is a conditional property of the selector, not proof that ROOT causes the score change.
@@ -2352,6 +2354,8 @@ Therefore, the two theories describe complementary operations: context acquisiti
 The result supports a conditional action-selection model. It does not establish a universal self-mastery law, a distinct Recursive Intelligence mechanism, or the efficacy of a particular intervention.
 
 ---
+
+**Claim-linked evidence register records:** R24. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 # PART XIV — EXPERIMENTAL PROGRAMME AND FALSIFIABILITY
 
