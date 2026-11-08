@@ -3634,7 +3634,7 @@ No source record is upgraded. R32, R43, R61 and R63 remain explicitly access-lim
 | Batch disposition | A–G all have first-pass integrated dispositions | Disposition is not equivalent to empirical validation. |
 | Internal adversarial review | A–G and experiment templates A–F reviewed in §§45–48 | Completed internally; not independent external review. |
 | Current research documents | Treatise, tracker, plan and register fetched from edition | The register is the consolidated supporting evidence/disposition record; tracker remains operational rather than an evidence repository. |
-| Branch isolation | edition is 207 commits ahead of main and 0 behind; main SHA remains 1b99731442297f45c9fb14b29510b3a1c187541c | No merge or main-branch change. |
+| Branch isolation | edition is 242 commits ahead of main and 0 behind; main SHA remains 1b99731442297f45c9fb14b29510b3a1c187541c | No merge or main-branch change. |
 
 ### 65.2 Completion matrix
 
@@ -3643,28 +3643,28 @@ No source record is upgraded. R32, R43, R61 and R63 remain explicitly access-lim
 | Preserve the four named components | Complete at editorial level | All four names and proposed roles remain present. |
 | Claim-level inventory and first-pass disposition | Complete as an inventory/disposition pass | 204 canonical IDs are reconciled; residual semantic granularity caveats are retained. |
 | Internal adversarial challenge | Complete for the current 204-ID inventory and A–F templates | Sections 45–48 record objections and dispositions; independent review remains outstanding. |
-| High-priority formal correction | Partially complete | Theorem 1, Proposition 5, the bridge, controller counterexample and conditional softmax claims were corrected; not every mathematical audit item M1–M18 has a verified completion record. |
-| Source-to-claim traceability | Partial | Source types, claim links, limitations and contrary evidence are recorded; R32/R43/R61/R63 remain access-limited and E17/E18 provenance is unresolved. |
+| High-priority formal correction | Partially complete | Theorem 1, Proposition 5, the bridge, controller counterexample and conditional softmax claims were corrected. All M1–M18 items have an individual disposition in §66, but several remain partial or deferred; disposition is not completion of the mathematical architecture. |
+| Source-to-claim traceability | Partial | The current inventory contains R01–R70 (67 distinct works after three duplicate aliases); 69 treatise sections have claim-linked source-register pointers. Source types, access limits, contrary evidence and claim mappings remain recorded; R32/R43/R61/R63 remain access-limited and E17/E18 provenance is unresolved. Section-level pointers are not full sentence-level scholarly citations. |
 | Alternative-theory comparison | Partial | Key comparisons are documented for intelligence, metacognition, meta-control, adaptive control, implementation intentions and behavioural friction; comprehensive discriminating comparisons for every claim are not complete. |
 | Integrated architecture | Conceptually mapped; formally incomplete | §§70–72 and §95 are explicitly schematic. Typed state, update semantics, clocks, coupling and executable transition law are absent. |
 | Tracker alignment | Partial | State dictionary and episode fields were reconciled, but measurement validity, rating calibration and predictive/causal utility remain unvalidated. |
 | Experimental programme A–F | Protocol templates only | Readiness gates remain open; no experiment was executed, preregistered or approved. |
-| Final editorial status language | Corrected for §§70–72 and §§90–95 | The conclusion and final status block now describe a proposed synthesis and accurately state unresolved work. Abstract/front-matter and all other numbered sections still require a complete final cross-document/render audit. |
+| Final editorial status language | Partially corrected and cross-referenced | Abstract/front matter now states the evidence-limited research status; selected sections §§17–20, §§26, 62–63, 70–74 and 90–95 have controlled corrections; 69 numbered sections have evidence-register pointers. The complete 95-section consistency, sentence-level citation and Markdown/render audit remains open. |
 | Independent review | Not obtained | Internal adversarial review must not be represented as independent. |
 | Plan retirement / review-ready status | Open | The governing plan's acceptance, completion and retirement gates are not satisfied. |
 
 ### 65.3 Explicit blockers to review-ready status
 
-1. **Formal specification:** complete the M1–M18 disposition with exact verification evidence. Priority gaps include the typed state/controller interface, ordinal measurement model, action-score scales/parameters, learning update law, and proof/model dependencies.
+1. **Formal specification:** close the partial/deferred M1–M18 items. Each item has an individual disposition in §66, but the typed state/controller interface, ordinal measurement model, action-score scales/parameters, learning update law, operator semantics and proof/model dependencies remain incomplete.
 2. **Evidence closure:** resolve or formally retain as access-limited the remaining primary-source gaps; do not upgrade R32/R43/R61/R63 without lawful full-text inspection. E17/E18 remain unresolved and must not be reconstructed from guesses.
 3. **Distinct contribution:** finish claim-specific comparison and discriminating-prediction checks, especially for Recursive Intelligence and the integrated four-component architecture.
-4. **Cross-document completion:** audit the abstract/front matter, all 95 numbered sections, bibliography, notation, tracker usability, Markdown rendering and all references against the latest source register.
+4. **Cross-document completion:** the abstract/front matter and principal tracker interfaces have been corrected; section-level source pointers now appear in 69 sections. Still audit all 95 numbered sections sentence-by-sentence against the current claim/source register, complete author–date citation placement, bibliography metadata, notation, tracker usability and Markdown rendering.
 5. **Independent review:** obtain a suitably qualified independent reviewer if feasible; otherwise record the attempt/constraint and retain the internal-review limitation.
 6. **Experiment gates:** keep A–F closed until each protocol's specified prerequisites, ethics/safety, preregistration and verification conditions are met. No execution authorization is implied by this readiness review.
 
 ### 65.4 Overall disposition
 
-**Current state: NOT REVIEW-READY.** The research inventory, first-pass dispositions, internal adversarial review and high-priority editorial corrections are substantial completed work products. They do not establish a unified theory, a validated intelligence construct, a causal physical–cognitive mechanism, ROOT efficacy or experimental confirmation.
+**Current state: NOT REVIEW-READY.** The research inventory, first-pass dispositions, internal adversarial review, M1–M18 item-by-item dispositions, abstract correction, section-level source pointers and high-priority editorial corrections are substantial completed work products. They do not establish a unified theory, a validated intelligence construct, a causal physical–cognitive mechanism, ROOT efficacy or experimental confirmation.
 
 Continue on branch edition. Keep main unchanged. Do not merge, execute experiments, preregister, retire the governing plan or label the manuscript complete. The next work should address the typed formal model and remaining source-to-claim gaps, followed by a complete cross-document audit and independent review.
 ## 66. Mathematical audit register — M1–M18 item-by-item disposition
