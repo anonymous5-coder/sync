@@ -3835,3 +3835,30 @@ The remaining R01–R69 inventory should be checked for complete author lists, t
 
 **Disposition:** R40, R45, R50, R52, R53 and R54 now have improved bibliographic metadata or canonical routes. The complete 69-record metadata audit remains open; no source-access level is upgraded merely by adding a DOI or URL.
 
+## 70. R01–R69 identifier and canonical-locator inventory check
+
+### 70.1 Inventory result
+
+A structural audit of the current source register found:
+
+- **69/69** identifiers R01–R69 are present.
+- **69/69** records have at least one DOI or canonical URL.
+- **10** records have no DOI but do have a canonical URL or institutional publisher route (R02–R05, R16, R17, R27, R40, R45 and R52). This is not automatically a defect: reference works, books, standards and institutional publications may not have DOIs.
+- **R64** is explicitly a duplicate alias of R48 and is not an independent source. The inventory therefore contains **68 distinct source works**, not 69 independent studies.
+- No source identifier was found with neither a DOI nor a URL after the corrections in §69.
+
+### 70.2 Important identity safeguards
+
+- R19 is Nebe et al. (2024), *Characterizing Human Habits in the Lab*, DOI 10.1525/collabra.92949.
+- R53 is Sjoerds et al. (2016), *Slips of Action and Sequential Decisions: A Cross-Validation Study of Tasks Assessing Habitual and Goal-Directed Action Control*, DOI 10.3389/fnbeh.2016.00234, PMCID PMC5167743.
+- These are different studies and must not be conflated. R53's DOI and PMC route were added in §69.
+- R54 is Janssen & Lazonder (2024), *Meta-analysis of Interventions for Monitoring Accuracy in Problem Solving*, DOI 10.1007/s10648-024-09936-4.
+- R50's online-first date (8 November 2021) and issue publication year (2022) are both retained; its DOI is 10.1016/j.jclinepi.2021.11.007.
+- R64 remains a historical alias only; all substantive citations should use R48.
+
+### 70.3 What this check does not establish
+
+The 69/69 locator result is a metadata-navigation check, not a full bibliographic validation. It does not independently verify every author list, title, publication date, volume/page range, DOI resolution, source authenticity, study result, source-to-claim fit or page/table/figure pinpoint. It does not upgrade any abstract-only, publisher-preview, secondary or access-limited record to full-text verification. The selected ten-item treatise bibliography also remains a selected list, with the companion register as the full source inventory.
+
+**Disposition:** no source record is currently missing a DOI or canonical route. Complete bibliographic field-by-field verification and claim-level source adequacy remain open.
+
