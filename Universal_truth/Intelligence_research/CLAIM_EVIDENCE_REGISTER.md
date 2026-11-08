@@ -1197,8 +1197,7 @@ Theophile Bigirumurame, Germaine Uwimpuhwe and James Wason, “Sequential multip
 
 - The final synthesis is more confident than the evidence and formal audits warrant. The recurring verb “establishes” should be downgraded to “proposes,” “describes,” or “is supported in the following limited respect,” according to each claim.
 - Space or Null Theory is currently a broad context/structure principle; its distinctive contribution remains unestablished.
-- Out of Box Theory's defensible core is bounded inference from supplied premises. Theorem 1 requires a completeness correction and actual-world correspondence must be distinguished from formal entailment.
-- The physical–cognitive bridge is a plausible multi-level hypothesis, not a completed causal explanation of unwanted behaviour.
+- Out of Box Theory's defensible core is bounded inference from supplied premises. Theorem 1 requires a completeness correction and actual-world correspondence must be distinguished from formal entailment.- The physical–cognitive bridge is a plausible multi-level hypothesis, not a completed causal explanation of unwanted behaviour.
 - Recursive Intelligence overlaps established metacognition/meta-control; distinctiveness remains unresolved.
 - ROOT is an unvalidated intervention architecture. Its component strategies do not establish package-level efficacy.
 - The final unified equation is presently conceptual and inconsistent with the earlier state representation. It must not be described as a derived mathematical law.
@@ -2397,8 +2396,7 @@ A minimal sequential skeleton could then be written as:
 \]
 \[
  (\theta_{t+1},\pi_{t+1})=
- U(\theta_t,\pi_t,b_t,g_t,y_t,\rho_t).
-\]
+ U(\theta_t,\pi_t,b_t,g_t,y_t,\rho_t).\]
 
 This skeleton is intentionally incomplete: it shows the type boundaries and update ordering that must be specified, but it does not establish that the selected variables form a sufficient state, that the operators are identifiable, or that the model predicts human behaviour. A final specification must decide whether environment updates are endogenous, how goals can be revised, how outcomes are observed, and whether policy learning and self-model learning are separate operators.
 
@@ -3598,7 +3596,6 @@ The latest treatise was fetched again. Verification confirmed:
 ### 63.4 Disposition
 
 The edition-language and architecture-level dependency pass is complete for §§70–72 and §§90–95. This is a wording/consistency correction, not completion of the underlying science. The typed integrated model, source/provenance gaps, remaining claim-specific evidence closure, experiment readiness, and qualified independent review remain open. The plan's review-ready and retirement gates are not satisfied. No tracker changes, experiments, preregistration, merge or plan retirement are authorized or claimed.
-
 ## 64. Repeated source-access closure attempt — R32, R43, R61 and R63
 
 ### 64.1 Access checks performed
@@ -4395,3 +4392,93 @@ The newer R48 meta-analysis (2025) remains an important counterweight to reading
 5. Reconcile the §42 and §56 equations only after a single operational habit construct and identifiable update process are specified.
 
 **Safeguard:** no experiments were executed, approved for execution, preregistered or shown ready by this audit. No result is attributed to the user's personal behaviour. Experiments A–F remain behind their existing gates.
+
+## 84. Source-to-claim audit — personal measurement, single-case and adaptive-trial design (R41–R42, R47, R49–R50)
+
+**Scope.** This pass rechecks the methodological sources governing the personal protocol in §69, the measurement claims in §§64–68, and the proposed intervention/adaptive-controller experiments in §§75–82. It separates (i) a measurement schedule, (ii) an intensive longitudinal measurement method, (iii) a single-case experimental design, (iv) an N-of-1 randomized crossover trial, and (v) sequentially randomized adaptive-intervention designs. These labels describe different design properties and do not by themselves establish causal identification or adequate power.
+
+### 84.1 R41 — Shaffer et al. (2018), N-of-1 randomized intervention trials in health psychology
+
+Jonathan A. Shaffer, Ian M. Kronish, Louise Falzon, Ying Kuen Cheung and Karina W. Davidson, “N-of-1 Randomized Intervention Trials in Health Psychology: A Systematic Review and Methodology Critique,” *Annals of Behavioral Medicine* 52(9), 731–742 (2018), DOI 10.1093/abm/kax026, PMID 30124759, PMCID PMC6128372.
+
+**Evidence type and scope:** systematic review of 54 N-of-1 randomized-trial publications involving 1,193 participants. Only 36% reported sufficient information to calculate heterogeneity of treatment effect; 90% reported some quantitative information for determining a superior treatment. The authors found common omissions in washout/run-in periods, concurrent conditions/interventions, power analysis and methods accounting for carryover, within-person dependence and period effects.
+
+**Methodological boundary:** an N-of-1 randomized trial is not simply a study of one person. The idealized design randomizes the order of repeated intervention/control periods for a measurable, sufficiently stable or recurring target, with interventions that can be withdrawn and whose effects are reversible. Washout/carryover, repeated exposure, credible comparison, pre-specified measurement and analysis, and sufficient within-person observations matter. Randomization or counterbalancing is recommended where feasible to reduce secular-trend and time-by-treatment threats.
+
+**Locator and access:** publisher record and accessible PMC full-text content inspected, including Table 1 and the recommendations on design and statistical analysis. The source is a methodological systematic review, not a trial demonstrating the efficacy of a personal behaviour protocol.
+
+**Claim fit:** supports the existing qualification of S69-C01/S69-PROT01: the fixed 7-day baseline + 7-day environmental-change + 14-day response-training sequence is a personal planning/monitoring template, not an N-of-1 randomized trial. Its fixed order, non-randomized phase transitions, possible carryover and absence of replicated randomized periods prevent clean causal attribution. The 28-day duration is not a validated dose or a guarantee of adequate observation.
+
+### 84.2 R42 — Stinson, Liu & Dallery (2022), ecological momentary assessment validity
+
+Lesleigh Stinson, Yunchao Liu and Jesse Dallery, “Ecological Momentary Assessment: A Systematic Review of Validity Research,” *Perspectives on Behavior Science* 45(2), 469–493 (2022), DOI 10.1007/s40614-022-00339-w, PMID 35719870, PMCID PMC9163273.
+
+**Evidence type and scope:** systematic review of 32 studies comparing mobile ecological momentary assessment (mEMA) reports with more objective measures of health behaviour or environmental events, including biochemical measures and automated devices such as accelerometers.
+
+**Relevant result:** correspondence between mEMA and objective measures varied substantially across individuals, behaviours and studies; reported agreement rates ranged from 1.8% to 100%. The review concluded that mEMA can be accurate, but the reviewed evidence did not identify a unifying set of factors that consistently explained high correspondence.
+
+**Locator and access:** PubMed bibliographic record and abstract/results inspected; the PMC page could not be opened directly in this pass because of an access challenge. No table-level reanalysis or independent extraction of individual-study estimates was performed.
+
+**Claim fit:** EMA is a data-collection method, not a guarantee of measurement validity. S65-C01 and the S69 protocol must keep self-report, device-derived behaviour and inferred latent states distinct. A 0–5 urge/fatigue rating or retrospective episode log remains a subjective indicator unless its reliability and criterion correspondence are established for the relevant construct, population and context. The review does not validate the treatise's specific ratings or state vector.
+
+### 84.3 R47 — Tate et al. (2016), SCRIBE single-case reporting guideline
+
+“ The Single-Case Reporting Guideline In BEhavioural Interventions (SCRIBE) 2016 Statement,” *Archives of Scientific Psychology* 4 (2016), DOI 10.1037/arc0000026.
+
+**Evidence type:** expert-consensus reporting guideline developed through two online surveys and a two-day expert meeting; it contains a 26-item reporting checklist and a companion Explanation and Elaboration article.
+
+**Design boundary:** single-case experimental methodology involves prospective intensive study in which intervention(s) are systematically manipulated across discrete phases and the target behaviour is measured repeatedly (ideally frequently) throughout all phases. The statement distinguishes these designs from a single B-phase training study, a simple pre–post study without repeated intervention-phase measurement, and retrospective case description. It applies to withdrawal/reversal, multiple-baseline, alternating-treatment, changing-criterion, combinations/variants and adaptive single-case designs. The statement notes that demonstrating an effect on at least three occasions is a professional-guideline criterion used to strengthen control of history/maturation threats.
+
+**Critical limitation:** SCRIBE is a reporting guideline. It does not itself prescribe how to design, conduct or analyse a single-case experiment, and checklist compliance is not proof of internal validity.
+
+**Locator and access:** the statement's full indexed text, abstract, design definition and checklist description were inspected. Direct PMC opening was blocked by an access challenge in this pass; no item-by-item checklist scoring was conducted.
+
+**Claim fit:** confirms that S69's fixed sequential personal protocol is not a single-case experiment as currently written. It may be retained as self-monitoring and feasibility work, but no causal treatment effect should be attributed to it. If a future study is separately authorized and designed as a single-case experiment, the selected design, phase sequence, repeated measurement, randomization, procedural changes, replication and reporting should be specified in advance; SCRIBE can then guide reporting.
+
+### 84.4 R49 — Zhang et al. (2026), sequential randomization for adaptive interventions
+
+Shiyu Zhang, John J. Dziak, Devin C. Tomlinson and Inbal Nahum-Shani, “Experimental designs with repeated randomizations for optimizing adaptive interventions: guidelines and practical considerations,” *Annals of Behavioral Medicine* 60(1) (2026), article kaag006, DOI 10.1093/abm/kaag006, published 13 March 2026.
+
+**Evidence type:** methodological/conceptual guidance, not a randomized evaluation of ROOT or a new adaptive controller.
+
+**Relevant distinction:** SMARTs are generally suited to relatively slow adaptation of standard adaptive interventions, often with two or three decision points separated by weeks or months. Micro-randomized trials (MRTs) are designed for faster, repeated decision points in just-in-time adaptive interventions, potentially multiple times per day. The paper cautions against defining the distinction by an arbitrary universal cutoff: design selection should follow the scientific question, actual decision timescale and implementation. It asks investigators to consider whether repeated randomization is needed at all, randomization timing/restrictions, outcome timing and sample-size planning.
+
+**Locator and access:** publisher page and complete abstract inspected, including publication history and the SMART/MRT distinction. The publisher's article body was not fully accessible in this pass; detailed recommendations beyond the abstract and visible publisher text are not claimed as independently checked.
+
+**Claim fit:** sharpens the S81-EXP-F dependency. A fixed-versus-adaptive policy comparison is not automatically a SMART or MRT. Sequential randomization is warranted only if the scientific question concerns intervention choices at multiple decision points. The adaptation cadence and estimand must be fixed first; a slow weekly/monthly policy decision and a rapid momentary intervention are different problems. The choice of design does not establish that a policy is beneficial or that it instantiates distinct Recursive Intelligence.
+
+### 84.5 R50 — Bigirumurame, Uwimpuhwe & Wason (2022), reporting quality in SMART studies
+
+Theophile Bigirumurame, Germaine Uwimpuhwe and James Wason, “Sequential multiple assignment randomized trial studies should report all key components: a systematic review,” *Journal of Clinical Epidemiology* 142, 152–160 (2022; published online 8 November 2021), DOI 10.1016/j.jclinepi.2021.11.007, PMID 34763037, PMCID PMC7613855.
+
+**Evidence type and scope:** systematic review of 157 records: 12 trial reports, 24 protocols, 91 methodological papers and 30 reviews.
+
+**Relevant results:** only four of the 12 trial reports (33.3%) reported parameters needed for sample-size calculations; multiple-testing adjustment was often unreported. Most reviewed records focused on stage-specific aims, and only a small minority of the trial reports aimed to determine the best embedded adaptive interventions.
+
+**Locator and access:** PubMed/PMC indexed abstract and visible full-text discussion were inspected. The detailed study-level tables were not independently re-extracted in this pass.
+
+**Claim fit:** supports retaining explicit sample-size assumptions, primary estimands, analysis plans and multiplicity handling as prerequisites for any future SMART. It does not establish that SMART is the right design for every adaptive controller, and using the label does not guarantee design quality. This reinforces the existing S81-EXP-F and S82-M01 safeguards.
+
+### 84.6 Cross-source design and measurement reconciliation
+
+| Method / claim family | What it can support | What it does not establish |
+|---|---|---|
+| Personal monitoring schedule (S69) | Feasibility, descriptive patterns, adherence and within-person hypothesis generation, subject to measurement quality. | Causal efficacy, an optimal intervention dose, or a validated N-of-1 effect. |
+| EMA / mEMA (S65, S69) | Repeated reports of experience and context; potentially useful ecological measurement when validated for the target. | Objective truth, construct validity of untested ratings, or absence of reporting/missingness bias. |
+| Single-case experimental design (S69; R47) | A causal functional relation may be supported by systematic phase manipulation, repeated measurement and replicated effects under a defensible design. | Causality from a simple pre/post or fixed one-way phase sequence; SCRIBE checklist completion alone is not validation. |
+| N-of-1 randomized crossover (R41) | Individual comparative treatment effects where the target is measurable and recurring, interventions are reversible, carryover is manageable and repeated randomized periods are feasible. | Effects of irreversible/slow-onset interventions or causal conclusions from one baseline-to-intervention transition. |
+| SMART / MRT (S81-EXP-F; R49–R50) | Stage-specific or embedded dynamic treatment-regime questions at the relevant decision timescale, with sequential randomization and an adequate estimand/sample-size plan. | Automatic superiority of adaptive policies, proof of a meta-level self-model, or a universal need for repeated randomization. |
+
+**Disposition.** No treatise or tracker edit is warranted by this source pass. Existing claim downgrades are appropriate and should remain. R41 and R47 reinforce that the §69 protocol is a planning/monitoring template rather than an efficacy experiment. R42 reinforces the distinction between self-report and validated measurement. R49 and R50 sharpen the design-selection and reporting requirements for S81-EXP-F. No experiment is made more ready by these sources; the current protocol-specific gates remain controlling.
+
+### 84.7 Remaining dependencies
+
+1. For S69, decide whether the immediate purpose is descriptive self-monitoring, feasibility, or causal evaluation; do not combine these estimands. Preserve the 28-day treatise proposal and 14-day tracker pilot as separate until an authorized reconciliation.
+2. For any EMA measure, specify prompt schedule, recall window, construct, response anchors, device/behaviour comparator where available, missingness handling, burden and reactivity; do not infer latent-state validity from repeated sampling alone.
+3. For any single-case experiment, specify design family, phase-change rule, repeated-measure schedule, replication logic, randomization where feasible, fidelity, procedural deviations and primary analysis before execution.
+4. For any N-of-1 crossover, establish reversibility, onset/washout, carryover, stable target, credible comparator, adequate repeated periods and safety; if these assumptions fail, do not force a crossover design.
+5. For S81-EXP-F, define the adaptation decision, decision points, timescale, eligible decision opportunities, intervention options, embedded policy estimand, comparator and sample-size/multiplicity plan before choosing SMART, MRT or a non-sequential alternative.
+6. Keep measurement validation, causal identification, prospective predictive validation and adaptive-policy optimization as separate gates.
+
+**Safeguard:** no experiment was executed, approved for execution, preregistered or shown ready by this audit. Experiments A–F remain behind their existing gates. No change to the treatise or tracker is authorized or required by this source audit.
+
