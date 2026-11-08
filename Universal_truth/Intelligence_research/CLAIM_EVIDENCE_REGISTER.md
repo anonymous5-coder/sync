@@ -4098,3 +4098,67 @@ The focused commit diff was inspected and contains only this §22 prose correcti
 
 **Disposition:** the §22 interpretation is now consistent with its stated TD update and the behavioural definition of negative reinforcement. It remains a computational model abstraction, not an identified human habit-learning mechanism. No tracker edits; no experiments executed or authorized.
 
+## 78. Source-to-claim audit — metacognition, meta-control and intelligence comparators
+
+### 78.1 R37 — Fleming (2026), integrative neuroscience of metacognition
+
+The Nature Reviews Neuroscience publisher record confirms a review article published 16 September 2026, volume 27, pages 789–806, DOI 10.1038/s41583-026-01081-x. The abstract and publisher-provided full article text were inspected. It defines metacognition around self-evaluation of cognitive processes, confidence estimates, transformations of uncertainty, integration of local confidence into broader self-beliefs, and metacognitive control at multiple timescales, including rapid error correction and strategic task arbitration. It also connects metacognition with adaptive control and social communication.
+
+**Access and pinpoint status:** publisher article page, abstract, glossary and bibliographic metadata inspected; the page exposes extensive review text and references. This is a review, not a new experiment. It is a current source as of the edition date.
+
+**Claim disposition:** this is a close, broad comparator for the proposed Recursive Intelligence construct. It substantially overlaps self-evaluation, monitoring, confidence, updating and control. It does not prove Recursive Intelligence is identical to metacognition, but it raises the novelty threshold: a distinct construct must specify an additional representational level or operation and a prediction not already captured by established metacognitive models.
+
+### 78.2 R39 — Bolenz et al. (2019), human experimental meta-control
+
+The eLife version-of-record page and PubMed/PMC metadata were checked. The study is a cross-sectional human experiment with 62 younger adults and 62 older adults, using a sequential decision task designed to dissociate model-free and model-based strategies. Reward stakes and transition-structure stability varied the relative value and computational demand of model-based control. The authors studied whether participants dynamically adjusted decision strategies to situational demands. The article provides data and analysis scripts through OSF.
+
+**Access and pinpoint status:** publisher article metadata, abstract, version-of-record status, DOI and data-availability statement inspected; PubMed/PMC abstract and metadata checked. The full eLife page could not be rendered by the browser in this pass, so the article's detailed tables, coefficients and supplementary analyses were not independently rechecked here. The existing register's design and result summary is retained with this access boundary.
+
+**Claim disposition:** R39 is a primary human experimental comparator showing that dynamic adjustment between established decision strategies is already operationalized as meta-control. It does not demonstrate a distinct Recursive Intelligence architecture, an explicit self-model of the controller, a meta-meta update or ROOT efficacy.
+
+### 78.3 R54 — Janssen & Lazonder (2024), monitoring-accuracy intervention meta-analysis
+
+The open-access Springer article was inspected. It includes 35 independent studies and reports a small overall positive effect on monitoring accuracy in problem-solving tasks (g=0.25). Effects vary by intervention type; interventions focused on whole-task understanding, metacognitive knowledge and external standards improved accuracy, whereas interventions manipulating judgment timing had negative effects. The article's theoretical section explicitly describes the Nelson–Narens object-level/meta-level model and the causal relation between monitoring and subsequent control decisions.
+
+**Access and pinpoint status:** full open-access publisher article inspected, including abstract, theoretical foundation (lines 79–88), study selection (lines 139–162), outcome definition (lines 164–180) and the overall result (lines 43–48). This is a meta-analysis, not a single primary experiment.
+
+**Claim disposition:** metacognitive monitoring and control are measurable and trainable in bounded problem-solving contexts, but the pooled effect is small and moderator-dependent. It does not validate a general self-model or a domain-general recursive-intelligence mechanism.
+
+### 78.4 R55 — Guo (2022), metacognitive prompts in computer-based learning
+
+Publisher/Wiley and ERIC records were checked. The record describes a random-effects meta-analysis of metacognitive prompts in computer-based learning environments and reports effects on self-regulated-learning activities (g=0.50) and learning outcomes (g=0.40), with moderation by feedback, prompt specificity and adaptability.
+
+**Access and pinpoint status:** publisher abstract and ERIC bibliographic record inspected; full article text remains access-limited in the current record. These effect sizes are abstract-level and must not be merged with R54's monitoring-accuracy effect (g=0.25), because the outcomes and study contexts differ.
+
+**Claim disposition:** supports context-specific benefits of prompts for self-regulated learning and learning outcomes in computer-based learning. It does not establish accurate self-monitoring across domains or a distinct Recursive Intelligence mechanism.
+
+### 78.5 R59 — McGrew (2023), CHC/three-stratum intelligence comparator
+
+The existing register record was rechecked against the available bibliographic and PMC search metadata. It remains a theoretical/historical review with secondary psychometric analyses of an archived 46-test Woodcock–Johnson III dataset, not an independent new-sample validation. Its relevance is to the need for operational indicators, factor structure, model comparison and criterion validity when proposing a composite intelligence index.
+
+**Access and pinpoint status:** bibliographic metadata, abstract and selected indexed full-text material are available in the current record; a complete table/supplementary-material reanalysis was not performed in this pass. A direct publisher full-text fetch was rate-limited.
+
+**Claim disposition:** CHC/three-stratum theory is a major established psychometric comparator. It does not validate the treatise's five-component adaptive intelligence functional, its task-dependent weights or incremental predictive value.
+
+### 78.6 Required construct-discrimination gate for Recursive Intelligence
+
+The current evidence requires a sharper operational boundary than “a system monitors itself and changes its future operation.” That description overlaps:
+
+- **Metacognitive monitoring:** estimating confidence, uncertainty or performance of object-level processes.
+- **Metacognitive control:** using those estimates to change strategies, effort, planning or task behaviour.
+- **Meta-control:** dynamically regulating which established control/decision strategy is used under changing task demands.
+- **Adaptive control / reinforcement learning:** updating policy or parameters from observed outcomes and feedback.
+- **Self-regulated learning:** planning, monitoring and adjusting learning activity in an educational/task context.
+
+A defensible distinct Recursive Intelligence claim would need to specify, at minimum:
+
+1. **Represented object:** what explicit model of the system, its controller or its update process is represented beyond ordinary task-state and confidence estimates.
+2. **Meta-level operation:** what operation is performed on that representation (e.g. model revision, controller redesign, constraint revision), and how it differs from ordinary policy/parameter adaptation.
+3. **Typed update interface:** inputs, outputs, update cadence, objective, constraints, uncertainty and failure conditions.
+4. **Discriminating prediction:** an observable result that the proposed mechanism predicts but strong metacognition/meta-control/adaptive-control baselines do not.
+5. **Incremental validity:** out-of-sample predictive or intervention benefit beyond those baselines, with ablation and matched-information/burden comparisons.
+
+Without these elements, “Recursive Intelligence” should remain an umbrella synthesis or research hypothesis, not a demonstrated new mechanism.
+
+**Disposition:** the evidence base now includes a current 2026 metacognition review, a primary human meta-control experiment, a full-text metacognitive-monitoring meta-analysis, and an abstract-level prompt meta-analysis, alongside established psychometric intelligence theory. These sources strengthen the alternatives audit and narrow novelty claims; they do not disprove a future distinct construct. No treatise/tracker edits; no experiments executed or authorized.
+
