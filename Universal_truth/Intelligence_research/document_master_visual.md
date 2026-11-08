@@ -2090,7 +2090,7 @@ The objective is measured progress, not perfect compliance.
 
 The four named foundations are assigned distinct proposed roles in a candidate architecture; their interfaces and joint operation have not been validated.
 
-| Foundation | Function | Mathematical object |
+| Foundation | Proposed role | Candidate representation |
 |---|---|---|
 | Space or Null Theory | Proposed context acquisition and constraints | $O_t, C_t, M_t$ |
 | Out of Box Theory | Proposed inference/generation beyond explicit observations | $\mathcal{I}(A,M,K)$ |
@@ -2101,11 +2101,8 @@ The four named foundations are assigned distinct proposed roles in a candidate a
 
 The entire system can be represented as:
 
-$$
+$
 \boxed{
-\mathcal{S}_{t+1}
-=
-\mathcal{F}
 \left(
 \mathcal{S}_t,
 O_t,
@@ -2114,8 +2111,10 @@ G_t,
 R_t,
 \mathcal{R}_t
 \right)
+\xrightarrow{\text{candidate update}}
+\mathcal{S}_{t+1}
 }
-$$
+$
 
 where:
 
