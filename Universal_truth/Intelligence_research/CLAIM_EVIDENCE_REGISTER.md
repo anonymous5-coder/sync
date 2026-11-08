@@ -1225,7 +1225,7 @@ Damien S. Fleur, Bert Bredeweg and Wouter van den Bos, “Metacognition: ideas a
 
 ### R52 — Stanford Encyclopedia of Philosophy: scientific underdetermination
 
-Kyle Stanford, “Underdetermination of Scientific Theory,” *The Stanford Encyclopedia of Philosophy*, first published 12 August 2009; substantive revision 4 April 2023. [Current SEP entry](https://plato.stanford.edu/entries/scientific-underdetermination/).
+Kyle Stanford, “Underdetermination of Scientific Theory,” *The Stanford Encyclopedia of Philosophy*, first published 12 August 2009; substantive revision 4 April 2023. [Current SEP entry](https://plato.stanford.edu/entries/scientific-underdetermination/). **Alias of R03:** same SEP entry and URL; R03 is the canonical identifier. Retain R52 only for historical claim-map traceability; do not count it as a separate source.
 
 **Evidence type:** scholarly philosophy-of-science reference entry.
 
@@ -1390,7 +1390,7 @@ No necessary ordering, sufficiency relation, emergent capability or incremental 
 | R53 — Sjoerds et al. (2016), DOI [10.3389/fnbeh.2016.00234](https://doi.org/10.3389/fnbeh.2016.00234), PMCID [PMC5167743](https://pmc.ncbi.nlm.nih.gov/articles/PMC5167743/) | S21-C01, S34-C01, S35-C01, S42-M01, S56-M01, LAW06 | Full Frontiers article inspected: Abstract; Introduction; Participants and Methods; Results; Discussion/Conclusion. Particularly: abstract lines 297–303; N=28 sample and eligibility lines 335–355; Discussion/Conclusion lines 497–532. | Primary cross-validation study. Two task measures showed only moderate/low shared variance for goal-directed/model-based behaviour; model-free and habit-like measures did not show the expected association. The authors caution that tasks capture distinct aspects and call for further validation. | **Full section-level pinpoint verified.** Strongly qualifies any assumption that one model-free score, one habit task or a generic recurrence captures a single universal habit construct. |
 | R54 — Janssen & Lazonder (2024), DOI [10.1007/s10648-024-09936-4](https://doi.org/10.1007/s10648-024-09936-4) | S46-M01, S48-C02, S93-C01, LAW07 | Full Springer article inspected: Abstract and Introduction, especially the meta-level/object-level model discussion (article lines 43–48 and 79–83); Results report 35 studies and overall g=0.25. | Meta-analysis of monitoring-accuracy interventions in problem-solving tasks. The pooled effect is small; intervention type and setting moderate results. This is not equivalent to the broader learning-outcome effect in R55. | **Abstract/intro/results pinpoint verified.** Supports measurable metacognitive monitoring effects with bounded magnitude and domain. |
 | R55 — Guo (2022) | S46-M01, S48-C02, S49-M01, S81-EXP-F, S93-C01, LAW07 | Publisher abstract and bibliographic record, *Journal of Computer Assisted Learning* 38(3), 811–832; DOI 10.1111/jcal.12650. Abstract reports random-effects meta-analysis in computer-based learning environments and effects g=0.50 for SRL activities and g=0.40 for learning outcomes. | Meta-analysis, not a primary experiment. Supports effects of metacognitive prompts in computer-based learning environments; feedback, specificity and adaptability moderate results. These outcomes do not establish accurate self-monitoring in all contexts or a distinct Recursive Intelligence mechanism. | **Abstract-level verified.** Publisher full text was access-blocked; exact study count, page/table and detailed heterogeneity/bias analysis remain open. |
-| R56 — DeCasper & Spence (1986) | S08-C01, S08-C02 | Publisher abstract and article metadata, *Infant Behavior and Development* 9(2), 133–150; DOI 10.1016/0163-6383(86)90025-1. Abstract specifies repeated maternal recitation during the final six weeks of pregnancy and newborn operant-choice preference for the familiar passage. | Primary controlled developmental experiment. Supports a narrow prenatal auditory-exposure effect on newborn auditory preference. | **Abstract-level verified.** Full procedure, sample characteristics and exact tables/results pages remain open; do not generalize to adult-like cognition or broad prenatal knowledge. |
+| R56 — duplicate alias of R06 (DeCasper & Spence 1986; DOI 10.1016/0163-6383(86)90025-1) | S08-C01, S08-C02 | Publisher abstract and article metadata, *Infant Behavior and Development* 9(2), 133–150; DOI 10.1016/0163-6383(86)90025-1. Abstract specifies repeated maternal recitation during the final six weeks of pregnancy and newborn operant-choice preference for the familiar passage. | Primary controlled developmental experiment. Supports a narrow prenatal auditory-exposure effect on newborn auditory preference. | **Abstract-level verified.** Full procedure, sample characteristics and exact tables/results pages remain open; do not generalize to adult-like cognition or broad prenatal knowledge. |
 
 ### 23.2 Cross-source corrections and qualifications
 
@@ -3773,7 +3773,7 @@ The abstract/front-matter overclaim has been corrected and verified. The princip
 
 ### 68.1 Current snapshot
 
-The treatise was fetched after commit `f2a0794d357d4436c544186b3a6f9f311da128c9` and has blob `5678eb8876f4b8e821c0bb9f483df2b8e801c6ac`: 2,796 lines and 95 numbered sections. This snapshot supersedes earlier line counts for current navigation; the original 2,618-line baseline remains preserved for historical batch line references.
+The treatise was fetched after commit `6c247813c6b0d655e571dbb47528c926b113bb82` and has blob `4e3605b08bde48f764d6d5a2eeae01b399b5bf32`: 2,796 lines and 95 numbered sections. This snapshot supersedes earlier line counts for current navigation; the original 2,618-line baseline remains preserved for historical batch line references.
 
 ### 68.2 Section-level evidence pointers added
 
@@ -3783,7 +3783,7 @@ Verification against the current file confirms:
 
 - 95 numbered sections remain present, with no numbering gap.
 - 69 sections contain an explicit section-level evidence-register pointer.
-- 67 distinct R identifiers appear in those pointers.
+- 65 canonical R identifiers appear in those pointers; duplicate aliases R52 and R56 have been replaced with canonical R03 and R06.
 - Every cited R identifier resolves to a source identifier recorded in this register; no dangling R-code pointer was detected.
 - The duplicate alias R64 is not presented as an independent source.
 - The 28 sections without a section-level pointer are not thereby certified as evidence-free or complete; they include definitions, formal arguments, conceptual summaries, normative safeguards and synthesis sections. Their claims remain subject to the existing claim-level register and acceptance criteria.
@@ -3804,7 +3804,7 @@ This correction prevents the selected ten-item list from being mistaken for the 
 
 ### 68.4 Controlled treatise edit and verification
 
-Treatise commit `ec271995f24f16b1648e1d1bca18c3beae0a5276` added section-level R-code trails and clarified the selected bibliography. A follow-up placement correction, commit `8b536c51719a979abfa0b3e1d817705309e801f4`, moved each trail to the end of its own numbered section rather than allowing it to appear after a subsequent Part heading. A final addition in commit `f2a0794d357d4436c544186b3a6f9f311da128c9` added evidence pointers to §§73–74. The latest treatise was fetched again; the placement check found 69 correctly section-associated evidence lines and no evidence line displaced beyond a Part heading.
+Treatise commit `ec271995f24f16b1648e1d1bca18c3beae0a5276` added section-level R-code trails and clarified the selected bibliography. A follow-up placement correction, commit `8b536c51719a979abfa0b3e1d817705309e801f4`, moved each trail to the end of its own numbered section rather than allowing it to appear after a subsequent Part heading. A final addition in commit `f2a0794d357d4436c544186b3a6f9f311da128c9` added evidence pointers to §§73–74. A canonical-ID cleanup in commit `6c247813c6b0d655e571dbb47528c926b113bb82` replaced the duplicate aliases R52/R56 with R03/R06. The latest treatise was fetched again; the placement check found 69 correctly section-associated evidence lines, 65 canonical R identifiers and no evidence line displaced beyond a Part heading.
 
 ### 68.5 Disposition
 
@@ -3831,7 +3831,7 @@ The identifiers and publication routes above were checked against institutional,
 
 ### 69.3 Remaining bibliography work
 
-The remaining R01–R69 inventory should be checked for complete author lists, titles, publication years, journal/book details, volume/pages or article numbers, DOI/ISBN and canonical access route. No DOI should be invented for books, reference works or institutional materials that do not assign one. Duplicate R64 remains an alias of R48, not an independent evidence source.
+The remaining R01–R69 inventory should be checked for complete author lists, titles, publication years, journal/book details, volume/pages or article numbers, DOI/ISBN and canonical access route. No DOI should be invented for books, reference works or institutional materials that do not assign one. R52 aliases R03, R56 aliases R06, and R64 aliases R48; none is an independent evidence source.
 
 **Disposition:** R40, R45, R50, R52, R53 and R54 now have improved bibliographic metadata or canonical routes. The complete 69-record metadata audit remains open; no source-access level is upgraded merely by adding a DOI or URL.
 
@@ -3844,7 +3844,7 @@ A structural audit of the current source register found:
 - **69/69** identifiers R01–R69 are present.
 - **69/69** records have at least one DOI or canonical URL.
 - **10** records have no DOI but do have a canonical URL or institutional publisher route (R02–R05, R16, R17, R27, R40, R45 and R52). This is not automatically a defect: reference works, books, standards and institutional publications may not have DOIs.
-- **R64** is explicitly a duplicate alias of R48 and is not an independent source. The inventory therefore contains **68 distinct source works**, not 69 independent studies.
+- **R52** aliases R03 (the same SEP entry), **R56** aliases R06 (the same DeCasper & Spence 1986 article), and **R64** aliases R48 (the same implementation-intention meta-analysis). These are historical/source-map aliases, not independent works. The inventory therefore contains **66 distinct source works**, not 69 independent studies.
 - No source identifier was found with neither a DOI nor a URL after the corrections in §69.
 
 ### 70.2 Important identity safeguards
@@ -3854,7 +3854,7 @@ A structural audit of the current source register found:
 - These are different studies and must not be conflated. R53's DOI and PMC route were added in §69.
 - R54 is Janssen & Lazonder (2024), *Meta-analysis of Interventions for Monitoring Accuracy in Problem Solving*, DOI 10.1007/s10648-024-09936-4.
 - R50's online-first date (8 November 2021) and issue publication year (2022) are both retained; its DOI is 10.1016/j.jclinepi.2021.11.007.
-- R64 remains a historical alias only; all substantive citations should use R48.
+- Use canonical identifiers R03, R06 and R48 for the three duplicate pairs. R52, R56 and R64 remain only as historical aliases for claim-map traceability.
 
 ### 70.3 What this check does not establish
 
