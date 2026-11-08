@@ -3965,3 +3965,63 @@ This is a structural and semantic consistency pass over the high-impact notation
 
 **Disposition:** the current state/episode notation cluster and tracker interface are internally aligned; the R70 inventory range and §73 duplicate pointer are corrected. The treatise remains NOT REVIEW-READY. Next: continue source-to-claim pinpoint and metadata audit for the remaining empirical sections, then complete the full 95-section citation/render review. No experiments, preregistration, merge or plan retirement.
 
+## 75. Source-to-claim audit — foundational developmental and physical-energy sources R06–R12
+
+### 75.1 R06 — DeCasper & Spence (1986), prenatal auditory exposure
+
+The publisher abstract confirms daily maternal recitation during the final six weeks of pregnancy, an operant-choice test after birth, greater reinforcing value for the familiar passage, and no corresponding passage preference in the matched control group. The publisher record confirms *Infant Behavior and Development* 9(2), 133–150 and DOI 10.1016/0163-6383(86)90025-1.
+
+**Access and pinpoint status:** publisher abstract and bibliographic record inspected; full article text was not independently inspected in this pass. The abstract supports prenatal auditory learning/preferences, not adult-like reasoning, a comprehensive innate knowledge base or a general theory of newborn intelligence.
+
+**Claim disposition:** retain only the narrow prenatal-exposure proposition; do not use the result as evidence for unlearned or domain-general knowledge.
+
+### 75.2 R07 — Weiss et al. (2024), prenatal-to-infant developmental trajectories
+
+The Nature Human Behaviour publisher record confirms this is a review article, published 17 June 2024, volume 8, pages 1251–1262, DOI 10.1038/s41562-024-01896-7. Its abstract describes increasing fetal physiological autonomy and perceptual sensitivity, perinatal processes affecting later behaviour, newborn sensory/motor recalibration, and prenatal-environment effects on later infant behaviour and brain function.
+
+**Access and pinpoint status:** publisher metadata and abstract inspected; full review text was not independently inspected in this pass. It is a review, not a single primary experiment.
+
+**Claim disposition:** useful for developmental continuity and scope context; not direct evidence for a specific innate reasoning capacity or for any particular infant's inferred knowledge representation.
+
+### 75.3 R09 — Landauer (1961), logical irreversibility and heat generation
+
+The IEEE/IBM bibliographic record confirms Rolf Landauer, *IBM Journal of Research and Development* 5(3), 183–191, July 1961, DOI 10.1147/rd.53.0183. The accessible abstract states the connection between logically irreversible functions and physical irreversibility, with minimum heat generation per machine cycle, and discusses switching kinetics and thermal-fluctuation errors.
+
+**Access and pinpoint status:** publisher/IEEE abstract and bibliographic metadata inspected; full original article not independently inspected. The source record's existing theoretical interpretation is retained, but no page-level derivation is claimed.
+
+**Claim disposition:** supports the historical principle and its computation/erasure context; does not provide a per-thought energy estimate, a human neural coefficient or a behavioural action-selection term.
+
+### 75.4 R10 — Bérut et al. (2012), experimental Landauer test
+
+The Nature publisher page confirms the article's title, authors, date (7 March 2012), volume 483, pages 187–189 and DOI 10.1038/nature10872. The abstract states that a single colloidal particle in a modulated double-well potential was used as a one-bit memory and that mean dissipated heat approached/saturated the Landauer bound in the long-erasure-cycle limit. The publisher page identifies this as subscription preview content; full article access was not established.
+
+**Access and pinpoint status:** publisher abstract and figure captions inspected; full text remains subscription-gated in this pass. The accessible abstract is sufficient for the bounded experimental description, not for detailed protocol, uncertainty or numerical-result claims.
+
+**Claim disposition:** retain as experimental verification in a controlled colloidal one-bit memory system only. Do not extrapolate it to neural tissue, cognition or ROOT.
+
+### 75.5 R11 — Attwell & Laughlin (2001), grey-matter signalling energy budget
+
+The publisher/Sage record and PubMed record confirm *Journal of Cerebral Blood Flow & Metabolism* 21(10), 1133–1145, October 2001, DOI 10.1097/00004647-200110000-00001. The accessible full-text publisher page includes the model assumptions and estimates: anatomical/physiological data for excitatory signalling in rodent grey matter; predicted contributions from action potentials, postsynaptic glutamate effects, resting potentials and glutamate recycling; and explicit dependence of energy use on firing rate. The authors describe a model-based energy budget, not direct measurement of human cognitive effort.
+
+**Access and pinpoint status:** full-text publisher content was accessible through indexed page text in this pass, including sections on action-potential propagation, signalling components, scaling with firing frequency and distribution of energy use. Numerical estimates should remain explicitly attributed to the model and rodent-grey-matter assumptions.
+
+**Claim disposition:** supports the energetic significance of neural signalling and the model's estimated allocation within rodent grey matter. It does not establish a human per-thought cost, an individual's cognitive energy expenditure, a global brain allocator or the treatise's action-score coefficients.
+
+### 75.6 R12 — Raichle & Gusnard (2002), appraisal of the brain's energy budget
+
+The PubMed and PMC bibliographic records confirm *Proceedings of the National Academy of Sciences* 99(16), 10237–10239, 6 August 2002, DOI 10.1073/pnas.172399499, PMCID PMC124895. The PubMed record provides no abstract. A PMC full-text open attempt was blocked by an access check in this pass, so the article's exact argument and page-level wording were not reverified here.
+
+**Access and pinpoint status:** bibliographic metadata and PMCID confirmed; full text not inspected in this pass. Existing summary-level use must remain a high-level contextual citation, not a detailed claim about exact percentages or mechanisms.
+
+**Claim disposition:** retain only the broad background role already assigned to it pending a successful full-text inspection. Do not treat it as independent proof of a universal subjective-effort/global-metabolism relationship.
+
+### 75.7 Cross-source synthesis and provenance boundary
+
+- R06 and R07 are developmental sources with different evidence types: R06 is a bounded primary prenatal-exposure experiment; R07 is a review.
+- R09 states the theoretical computation/heat principle; R10 tests a controlled physical memory implementation. Neither source tests neural computation.
+- R11 is a model-based rodent grey-matter energy budget; its numerical fractions are model outputs under stated assumptions, not universal human constants.
+- R12 remains a bibliographic/summary-level source in this pass because full text was not inspected.
+- No source in R06–R12 identifies the treatise's action-score coefficients, establishes a universal energy cost of thought, or validates a causal physical-to-behavioural bridge.
+
+**Disposition:** source descriptions and access labels are now more explicit for R06–R12. R06, R07, R09, R10 and R12 remain abstract/metadata-level for this audit; R11 has accessible publisher full-text material. The evidence supports only the narrow developmental, thermodynamic and neural-energy claims stated above. No treatise/tracker edits; no experiments executed or authorized.
+
