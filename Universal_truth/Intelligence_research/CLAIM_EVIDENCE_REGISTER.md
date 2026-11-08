@@ -769,33 +769,39 @@ Jane E. J. Ebert and Xin Yao Lin, “Confirming the Causal Role of Consistent Co
 
 **Pinpointing status:** PubMed/publisher abstract and article pages verified; exact result-table and figure locations not independently checked in the accessible text.
 
-### R31 — Gollwitzer & Sheeran, 2006: implementation-intention meta-analysis
+### R31 — Gollwitzer & Sheeran (2006): implementation-intention meta-analysis
 
 Peter M. Gollwitzer and Paschal Sheeran, “Implementation Intentions and Goal Achievement: A Meta-analysis of Effects and Processes,” *Advances in Experimental Social Psychology* 38, 69–119 (2006), DOI: [10.1016/S0065-2601(06)38002-1](https://doi.org/10.1016/S0065-2601(06)38002-1).
 
-**Evidence type and scope:** meta-analysis of 94 independent tests of if–then plans linking specified situational cues to intended responses.
+**Evidence type and access:** full chapter PDF inspected (pp. 69–119). This is a meta-analysis/review, not a new primary experiment. The search covered studies from January 1990 to December 2003 and included published and unpublished reports.
 
-**Relevant result:** reported a medium-to-large average effect on goal attainment (d = 0.65), with effects across initiation, shielding ongoing goal pursuit and disengagement from failing courses of action.
+**Overall result:** 94 independent tests from 63 reports and 8,461 participants; inverse-variance weighted average effect on goal attainment d = .65, 95% CI [.60, .70] (pp. 92–93). The effect sizes were heterogeneous, Q(93) = 173.46, p < .001. Eighty-eight percent of tests used experimental designs; 49% of included tests were unpublished, and published versus unpublished effects were similar (d = .65 vs .67; pp. 93–94, 98).
 
-**Supports:** implementation intentions can improve goal attainment on average across the included tasks and contexts.
+**Population/domain caveat:** 79 of 94 tests were university-student samples; only eight sampled the general public, four sampled people with physical illness, and three sampled people with psychological problems (p. 93). The mean effect is not a person-specific estimate or a guarantee across contexts.
 
-**Does not support:** guaranteed execution, universal effects, a specific ROOT protocol, or a unique Recursive Intelligence mechanism. The average does not replace examination of task, population, moderator and publication-bias limitations.
+**Mechanism caveat:** the component-process synthesis is much smaller than the overall outcome meta-analysis. The “if”-component summary was based on six tests (p. 97); individual cue-accessibility and cue-detection measures often had only one or two tests. The “then”-component automaticity measures had 3–7 tests each. The authors' positive component-process conclusion should therefore not be treated as equally precise as the 94-test goal-attainment estimate (pp. 97–98).
 
-**Pinpointing status:** article metadata and abstract-level result verified; exact page/table for the pooled estimate and moderator analyses not independently checked in the accessible source.
+**Supports:** specified if–then plans can improve goal attainment on average in the studied contexts; cue accessibility and response automaticity are plausible component processes with supporting, but smaller, evidence bases.
 
-### R32 — Webb & Sheeran, 2008: implementation-intention mechanism
+**Does not support:** guaranteed execution, universal effects, an individual-level effect estimate, a complete ROOT protocol, a habit law, or a unique Recursive Intelligence mechanism.
+
+**Pinpoints inspected:** overall estimate and heterogeneity (pp. 92–93); methodological moderators and sample distribution (pp. 93–94); self-regulatory task results (pp. 95–97); component-process counts and effects (pp. 97–98); publication-status and discussion caveats (pp. 98–101).
+
+### R32 — Webb & Sheeran (2008): goal intentions, self-efficacy and plan-component accessibility
 
 Thomas L. Webb and Paschal Sheeran, “Mechanisms of implementation intention effects: The role of goal intentions, self-efficacy, and accessibility of plan components,” *British Journal of Social Psychology* 47(3), 373–395 (2008), DOI: [10.1348/014466607X267010](https://doi.org/10.1348/014466607X267010).
 
-**Evidence type and design:** Study 1 meta-analyzed 66 tests of effects on goal intentions and self-efficacy; Study 2 examined accessibility of plan components and cue–response association.
+**Evidence type and access:** primary two-study paper. The publisher page and abstract were inspected; the publisher's “read full text” route resolved back to the abstract, so the complete article was not available in this pass. Publisher issue metadata identifies volume 47, issue 3, pp. 373–395; the page records first publication online as 24 December 2010.
 
-**Relevant result:** implementation intentions had negligible effects on goal intentions and self-efficacy in Study 1; Study 2 found goal-attainment effects mediated by accessibility of specified situational cues and strength of the cue–response association.
+**Study 1:** meta-analysis of 66 tests found negligible effects of implementation intentions on goal intentions and self-efficacy.
 
-**Supports:** the cue–response accessibility mechanism relevant to §55, within the studied implementation-intention paradigm.
+**Study 2:** the publisher abstract reports that goal-attainment effects were simultaneously mediated by accessibility of specified situational cues and by the strength of the association between those cues and the intended response.
 
-**Does not support:** that increased deliberation explains the effect, that every cue–response plan works, or that the ROOT package is validated.
+**Supports:** the cue-accessibility and opportunity–response-link account within the implementation-intention paradigm; it argues against increased deliberation, goal-intention strength or self-efficacy as the sole explanation in the tested studies.
 
-**Pinpointing status:** publisher abstract and study-level summary verified; exact page of Study 2's mediation analysis not independently verified in the accessible text.
+**Does not support:** universal cue-triggered action, a context-independent habit mechanism, ROOT package efficacy or a unique Recursive Intelligence mechanism. Implementation intentions remain goal-linked plans, not automatically equivalent to goal-independent stimulus–response habits.
+
+**Pinpoints inspected:** publisher bibliographic metadata (issue/pages and online-first date, lines 23–24 and 60–62) and abstract (lines 88–91). Full Study 2 methods, sample and mediation statistics remain unverified because the full article text was not accessible.
 
 ### R33 — Zimmermann & Sobolev, 2023: randomized field experiment on digital friction
 
@@ -1847,7 +1853,7 @@ These are label normalizations only. They do not add claims, alter the treatise 
 | S53-M01 | Trigger record E=(c,s,a,r,tau) and distinction between trigger and action (L1692–1711) | E09 | R27, R38, R41–R42, R47, R50 | Cluster association + selected pinpoint; not full source closure | R53 full article; §23. |
 | S54-C01 | Obstruction lowers accessibility e'<e and is expected to lower p_h(s | E06 | R33–R34 | Cluster association + selected pinpoint; not full source closure | R54 full article sections; R55 abstract-level; §23. |
 | S54-EQ01 | Obstruction lowers accessibility e'<e and is expected to lower p_h(s | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
-| S55-C01 | If–then implementation intention maps a specified cue to a concrete alternative action (L1740–1755) | E05 | R31–R32, R48 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
+| S55-C01 | If–then implementation intention maps a specified cue to a concrete alternative action (L1740–1755) | E05 | R31 full text (pp. 92–101); R32 publisher abstract; R48 publisher abstract | Direct component-level fit for cue-linked planning; R31's mechanism synthesis is based on a small number of component tests; no ROOT package validation | R31 pp. 92–94, 97–101; R32 publisher abstract lines 88–91; R48 abstract; §§23,25,55. |
 | S56-M01 | Two different habit-strength recurrences | E04 | R16, R18–R19, R26, R28–R30, R53 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
 | S57-C01 | Signed error e=y*−y and correction based on outcome deviation (L1782–1802) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S57-EQ01 | Reuse of \(e_t\) for accessibility and signed outcome error | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
@@ -1883,7 +1889,7 @@ These are label normalizations only. They do not add claims, alter the treatise 
 | S77-EXP-B | Experiment B: predict a physical outcome before direct observation (L2226–2240) | E09 | R27, R38, R41–R42, R47, R50 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
 | S78-EXP-C | Experiment C: effort, fatigue and task uncertainty may change habitual-distraction selection (L2242–2256) | E03, E09 | R13–R15, R24–R25, R43–R44; R27, R38, R41–R42, R47, R50 | Cluster association + selected pinpoint; not full source closure | R13/R14 review text is accessible; R25 and R43–R44 remain abstract-level sleep sources; §24 and §54. |
 | S79-EXP-D | Experiment D: obstruction of cue accessibility may reduce unwanted actions (L2258–2270) | E06, E09 | R33–R34; R27, R38, R41–R42, R47, R50 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
-| S80-EXP-E | Experiment E: trigger-specific alternative-response training may improve recovery (L2272–2284) | E05, E09 | R31–R32, R48; R27, R38, R41–R42, R47, R50 | Cluster association + selected pinpoint; not full source closure | R31–R32 and R48; meta-analysis/abstract-level trail; §§23,25. |
+| S80-EXP-E | Experiment E: trigger-specific alternative-response training may improve recovery (L2272–2284) | E05, E09 | R31 full text; R32 publisher abstract; R48 publisher abstract; R27, R38, R41–R42, R47, R50 | Established intervention-family evidence, not ROOT efficacy; meta-analysis heterogeneity and small component-process evidence must remain visible | R31 pp. 92–101; R32 abstract lines 88–91; R48 publisher abstract; §§23,25,48. |
 | S81-EXP-F | Research protocols, falsifiability and normative safeguards | E07, E09 | R35–R37, R51, R54–R55; R27, R38, R41–R42, R47, R50 | Cluster association + selected pinpoint; not full source closure | R35–R37, R49–R51 and R54–R55; comparator and meta-level criterion remain open. |
 | S82-M01 | Research protocols, falsifiability and normative safeguards | E09 | R27, R38, R41–R42, R47, R50 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
 | S83-L01 | Research protocols, falsifiability and normative safeguards | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
@@ -3341,4 +3347,25 @@ R13's reference list contains primary studies and compilations that must not be 
 - R60/R62 provide regional cerebral measures; R61 provides a global CMRO2 abstract; R63 provides peripheral metabolic/cardiorespiratory and workload measures at abstract level. These measurements remain non-interchangeable.
 
 **Disposition:** R13/R14 now have improved full-text traceability and sharper claim boundaries; R69 adds a bounded primary human comparison. No claim is upgraded to a universal or causal law. The exact action-score model, neural allocation model and subjective-effort mechanism remain unvalidated. E17/E18 provenance remains open. No treatise/tracker edits; no experiments executed or authorized.
+
+## 55. Primary-source access update — implementation intentions and cue–response mechanisms
+
+### 55.1 R31 full-text verification
+
+The full R31 chapter is now available and was inspected. The overall d = .65 estimate is supported by 94 tests, 63 reports and 8,461 participants, but the effect sizes are significantly heterogeneous. Most tests used university-student samples. The review reports 49% unpublished tests and similar published/unpublished estimates; it does not justify a universal or person-specific effect.
+
+The critical refinement is that the mechanism evidence is much smaller than the outcome evidence: the if-component synthesis uses six tests, and several cue measures use only one or two. This is adequate to retain cue accessibility/automaticity as supported component hypotheses, not to treat the mechanism as fully established or equivalent to a complete habit theory.
+
+### 55.2 R32 access and claim boundary
+
+R32's publisher abstract confirms a two-study design: a 66-test meta-analysis with negligible effects on goal intentions/self-efficacy, followed by a study in which cue accessibility and cue–response association simultaneously mediated goal attainment. The publisher's full-text route was not accessible in this pass, so sample, exact mediation statistics and page pinpoints remain open. The source is therefore not upgraded to full-text access.
+
+### 55.3 Integrated source-to-claim disposition
+
+- **S55-C01:** direct support for if–then planning as a component; no guarantee of execution and no ROOT package validation.
+- **S68-C01:** R31/R32 are neighbouring evidence only. Neither directly validates the claim that a specific first study action reduces subjective initiation cost or uncertainty. The mediator remains unmeasured.
+- **S80-EXP-E:** tests a known intervention family. A positive result would support the particular plan in its context, not establish ROOT novelty or a unique habit mechanism.
+- **Habit distinction:** cue-linked implementation intentions can produce automaticity while remaining goal-dependent. They must not be equated without argument with a goal-independent stimulus–response habit.
+
+**Disposition:** R31 source access is upgraded to full text with exact page pinpoints; R32 remains publisher-abstract level. The S55 and S80 mappings are more direct but remain component-level. No ROOT efficacy or distinct Recursive Intelligence mechanism is inferred. No experiments executed or authorized.
 
