@@ -3923,3 +3923,45 @@ The historical line ranges remain useful for reconstructing earlier audit work, 
 
 **Disposition:** the highest-impact physical-resource/action-selection wording and the current line map now agree. The sources support bounded physical/neural premises and comparator models, not the candidate score's empirical validity or a universal human mechanism.
 
+## 74. Current cross-document and claim-pointer verification — notation cluster and final synthesis
+
+### 74.1 Snapshot and line-map
+
+The current edition treatise was fetched at blob `4cd8697e088d0905e7463dfbc92370ec77e61955`. It contains 2,796 lines and 95 numbered sections. The ROOT tracker was fetched at blob `dff7d43545ce5f28d19b65e31600407ac5810062`.
+
+| Section | Current lines | Cross-document / claim-level check |
+|---|---:|---|
+| §3 | 85–130 | Observation precedes policy selection; the policy is conditioned on observation; action precedes transition; reward and feedback are explicitly post-action. The macro descriptor is not claimed to be Markov-sufficient. |
+| §§17–20 | 589–767 | First-law and Landauer quantities remain distinct; brain metabolism is not described as a global allocator; subjective effort is separated from physical expenditure; local score and selector results remain conditional. |
+| §22 | 801–838 | State/action/reward timing is explicitly pre-action state, selected action, post-action reward and next state. |
+| §§26–28 | 914–1021 | Physical–cognitive chain is a multilevel hypothesis; contextual and resource claims retain their scope limits. |
+| §§34, 37, 39 | 1206–1233; 1332–1361; 1378–1413 | Learning and sleep/context mechanisms remain bounded; \(\phi_t\) is physiological context and \(z_t\) is task demand/uncertainty in the reduced model. |
+| §§52–53 | 1793–1840 | ROOT state and episode tuple are aligned with tracker definitions; cue identity is distinct from cue intensity. |
+| §57 | 1920–1943 | Outcome error is \(\varepsilon_t^{\mathrm{out}}\), distinct from accessibility \(e_t\). |
+| §60 | 1997–2032 | Plant/gain notation is typed as \(A_{\mathrm{plant}},B_{\mathrm{plant}},K_{\mathrm{fb}}\); Schur criterion remains limited to the disturbance-free homogeneous LTI model. |
+| §62 | 2059–2071 | Feedback improvement remains a testable behavioural hypothesis, not a stability theorem. |
+| §67 | 2158–2176 | Sleep evidence remains outcome- and exposure-specific; no individual causal attribution is made. |
+| §§73–74 | 2325–2361 | Compatibility result and conditional softmax proposition retain their completeness, non-vacuity, fixed-action-set and fixed-temperature qualifications. |
+| §80 | 2449–2469 | Experiment E remains a protocol template with active-comparator and execution gates, not an executed intervention. |
+| §§90–95 | 2633–2796 | Final status language preserves proposed/conditional status; §95 is explicitly a schematic dependency map, not a unified transition law. |
+
+### 74.2 Tracker interface checks
+
+The tracker still matches the treatise on the seven-variable ordinal state vector, perceived-fatigue boundary, approximate \(z_t\leftrightarrow d_t\) task-demand crosswalk, episode tuple \(\mathcal E_t=(\text{cueID}_t,s_t,a_t,r_t,\tau_t,\mathrm{RTL}_t,\iota_t)\), action-cost arbitration and return-to-task latency. The tracker explicitly treats its rating scales and proxy stability measure as operational conventions, not validated instruments or a Lyapunov certificate.
+
+The six-variable reduced behavioural model and seven-variable operational tracker remain distinct abstractions. This check does not establish measurement validity, equal intervals, Markov sufficiency, causal coefficients or a validated unified state.
+
+### 74.3 Claim-pointer and inventory checks
+
+- The current treatise contains **69** section-level claim/source pointer blocks.
+- Those pointers use **65 distinct canonical R identifiers**; the missing numbers in the pointer set correspond to historical aliases R52, R56 and R64, not absent source records.
+- The source register contains R01–R70. The treatise's §95 companion-register statement was corrected from R01–R69 to R01–R70.
+- The §73 evidence pointer's duplicated R03 was removed. Its current pointer list is R01, R02, R03, R05, R21 and R22.
+- The selected ten-item bibliography remains explicitly selected; it is not represented as a complete bibliography.
+
+### 74.4 Verification limits and remaining work
+
+This is a structural and semantic consistency pass over the high-impact notation, control, ROOT, experiment and final-status sections. It is not yet a sentence-by-sentence source adequacy audit across all 95 sections, nor a complete author/title/year/volume/page/DOI audit of R01–R70. Existing access limits for R32, R43, R61 and R63 remain. The E17/E18 provenance gaps remain unresolved. The internal adversarial review is not independent external review.
+
+**Disposition:** the current state/episode notation cluster and tracker interface are internally aligned; the R70 inventory range and §73 duplicate pointer are corrected. The treatise remains NOT REVIEW-READY. Next: continue source-to-claim pinpoint and metadata audit for the remaining empirical sections, then complete the full 95-section citation/render review. No experiments, preregistration, merge or plan retirement.
+
