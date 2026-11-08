@@ -3079,3 +3079,70 @@ The protocol templates contain useful methodological safeguards, but they are no
 
 **Review status:** internal adversarial review completed for Batches E–G and the current A–F protocol templates. No claim was upgraded; no experiment was run; no empirical validation is claimed. Independent review has not been obtained. No treatise/tracker edits.
 
+## 49. Formal proof audit — entailment, action selection, learning and stability dependencies
+
+### 49.1 Theorem 1 (§10) — soundness/completeness direction
+
+The current proof is invalid at step 2–4. Soundness states that derivability implies semantic consequence; it does not establish that every semantic consequence is derivable. The theorem's premise is semantic entailment, so the required direction is completeness.
+
+For a specified formal language and semantics with a sound and complete proof calculus:
+
+- **Soundness:** if \(K\vdash p\), then \(K\models p\).
+- **Completeness:** if \(K\models p\), then \(K\vdash p\).
+
+A nonempty model class for K is required if the result is intended to be non-vacuous; an inconsistent K classically entails every proposition. Actual-world truth additionally requires the actual world W to satisfy K (\(W\models K\)). Completeness establishes the existence of a derivation, not that an arbitrary bounded system will find it within a fixed time or resource budget. An effective proof search can enumerate proofs and eventually find one when the consequence is derivable, subject to the specified calculus and available resources.
+
+**Disposition:** material proof-direction error; correct before edition approval. Keep formal derivability, actual-world truth and empirical confirmation separate.
+
+### 49.2 Theorem 2 (§11) — countermodel underdetermination
+
+The two-world proof is valid as written, provided both worlds satisfy K and disagree on p. The existence of w1 and w2 itself supplies a nonempty model class. It follows that K entails neither p nor not-p, and by soundness no sound deduction from K alone can establish either. This is a model-theoretic result under fixed semantics, not a universal account of scientific theory choice, probabilistic inference or rational belief.
+
+**Disposition:** retain within its stated scope; do not add a satisfiability premise to completeness generally. Nonemptiness is relevant here because the countermodel witnesses are required.
+
+### 49.3 Proposition 3 (§20) — local action advantage
+
+The algebraic inequality in step 4 is sufficient for \(Q(a_h)>Q(a_f)\) if the terms are defined on a common scale and the score equation is the stated additive model. Under a finite-action softmax with fixed \(\beta>0\), this makes \(a_h\) more probable than \(a_f\). A greedy selector chooses \(a_h\) only if it is a maximizer over the full feasible action set, not merely because it beats one comparator. The result is per-state and does not by itself prove repeated selection or policy persistence.
+
+**Disposition:** retain as a conditional algebraic result; state selector and full action-set conditions. Repeated habit persistence requires a separate learning/dynamics premise.
+
+### 49.4 Theorem 3 (§26) — physical–cognitive bridge
+
+The displayed chain is not a proof: physical embodiment and finite resources do not logically entail a specific cost-sensitive selector, cached policy, cue-triggered repetition or displacement of long-term goals. The six-step theorem is a conditional model argument only after its score, feasible policy set and selector are specified. Step 6 (“repeated selection can further strengthen”) requires a learning/update law and evidence; repetition alone does not entail reinforcement.
+
+**Disposition:** retain the conditional local-score possibility; label the physical-to-behavioural links as hypotheses and do not call the complete bridge a derived theorem. Define the update rule before claiming habit strengthening.
+
+### 49.5 Proposition 5 (§62) — feedback and expected improvement
+
+The five verbal assumptions do not establish negative drift. In particular, reliable trigger detection, action availability, a directional change in action probability and reinforcement do not quantify the expected change in the target state or exclude offsetting disturbances, opportunity changes or substitution.
+
+A formal deterministic result would need a defined state, target set and decrease condition such as \(V(x_{t+1})-V(x_t)\leq -W(x)\) outside that set, with suitable positivity and invariance assumptions. A stochastic result needs a conditional expected-drift inequality and explicit disturbance/integrability conditions. Persistent bounded disturbances generally call for practical stability or an input-to-state/boundedness claim rather than convergence to the origin.
+
+**Disposition:** current argument is heuristic and not a proof of Proposition 5. Either supply a precise theorem with all assumptions and prove it, or label the behavioural statement an empirical hypothesis. No human/ROOT stability claim is currently established.
+
+### 49.6 Stability and Lyapunov formulations (§§60–61)
+
+For the homogeneous discrete-time closed-loop LTI model \(x_{t+1}=(A-BK)x_t\), all eigenvalues strictly inside the unit circle are necessary and sufficient for asymptotic stability. This does not identify A, B or K for human behaviour. With persistent disturbance w_t, asymptotic convergence to zero is not implied by Schur stability alone.
+
+A quadratic candidate \(V(x)=x^TPx\) is positive definite when P is positive definite. A weighted sum of squared proxies is not a Lyapunov certificate unless the state is defined, all nonzero directions are covered with positive weights, and decrease/invariance conditions are proved for the actual transition model. A monitoring composite based on incomplete proxies should not be called a Lyapunov function.
+
+**Disposition:** retain the standard control-theory result; no human behavioural stability, ROOT controller stability or verified personal \(V_t\) is established.
+
+### 49.7 Theorems 4–5 (§§73–74) — integration and self-mastery
+
+- **§73:** compatibility follows substantially from the stipulated broad definition of context. The proof's inference step inherits Theorem 1's completeness requirement. Classical entailment from inconsistent K is vacuous; actual-world correspondence requires \(W\models K\). The result is definitional/model-theoretic compatibility, not a novel mechanism or empirical discovery.
+- **§74:** the score-to-choice step is conditional. Under a fixed finite action set and fixed \(\beta>0\), increasing the goal action's score while holding competing scores fixed increases its softmax probability. If competitors, feasible actions or temperature also change, the monotonic conclusion needs reanalysis. Repeated success strengthens a policy only under a specified learning/update rule.
+
+**Disposition:** retain only as conditional compatibility and action-selection results; separate them from causal ROOT claims and policy-learning hypotheses.
+
+### 49.8 Prioritized formal corrections before treatise approval
+
+1. Correct Theorem 1's soundness/completeness direction and distinguish derivability from actual-world truth.
+2. Recast Proposition 5 as an unproved hypothesis unless a precise drift theorem is supplied.
+3. Qualify Theorem 3's physical-to-behavioural chain and supply or remove its learning premise.
+4. State the full feasible-action and selector assumptions for Proposition 3 and Theorem 5.
+5. Keep the LTI Schur result separate from disturbed human-system stability; do not call the proposed tracker composite a Lyapunov certificate.
+6. Recast §73 as a conditional compatibility result and qualify the final §91/§92 “establishes” language.
+
+**Audit status:** formal review completed for the high-priority theorem/proposition chain. Theorem 1 contains a verified proof-direction defect; Proposition 5 is not proved by its current assumptions; other results are retainable only within the stated conditional scopes. No treatise/tracker edits in this audit entry; no experiments executed or authorized.
+
