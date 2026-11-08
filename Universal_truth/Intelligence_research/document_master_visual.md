@@ -1300,7 +1300,7 @@ where:
 - $g_t$: active goal;
 - $c_t$: cue state;
 - $u_t$: urge or motivational activation;
-- $f_t$: fatigue or physiological state;
+- $f_t$: perceived fatigue (ordinal self-rating); any objective physiological measure is a separate variable and is not represented by $f_t$;
 - $z_t$: task difficulty and uncertainty;
 - $h_t$: learned habit strength.
 
