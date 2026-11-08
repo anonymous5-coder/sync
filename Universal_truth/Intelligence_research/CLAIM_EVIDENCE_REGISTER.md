@@ -3168,3 +3168,25 @@ No claim is made that this correction validates Out of Box Theory as an empirica
 
 **Disposition:** Theorem 1's verified proof-direction defect is corrected in the treatise. §73 is aligned at the cited inference step, but its broader compatibility result remains conditional and largely definitional. Proposition 5, Theorems 3 and 5, the stability model and the final unified equation remain open for controlled revision. No tracker edits; no experiments executed or authorized.
 
+## 51. Controlled treatise revision — conditional action selection and stability scope
+
+### 51.1 Verified edits
+
+A focused treatise commit, `682192252640ed7f120ad0596e523d77945b8631`, implements the following changes arising from §§48–49:
+
+- **§26:** the physical–cognitive bridge is now explicitly a proposed multilevel hypothesis, not a “derived bridge.” The former Theorem 3 is a conditional model result. It distinguishes softmax comparison from greedy maximization and no longer treats repeated selection as proof of learning; policy strengthening requires a separate update rule.
+- **§62:** the former Proposition 5 is now a testable behavioural hypothesis. The prose explicitly states that the listed verbal assumptions do not prove negative drift and identifies the additional state, transition, Lyapunov and stochastic-drift conditions required for a formal stability result.
+- **§63:** the broad impossibility statement is narrowed to a bounded-actuation counterexample with unrestricted disturbances in a specified additive plant. It no longer claims that every finite controller fails under bounded disturbances.
+- **§73:** the heading now identifies a compatibility result rather than implying a novel unified theorem.
+- **§74:** the former unified theorem is now a conditional softmax proposition. It states the fixed action-set, fixed-temperature and unchanged-competitor assumptions; ROOT's causal effect on scores and policy learning remain separate empirical/model requirements.
+
+### 51.2 Diff verification
+
+The commit diff was inspected. It changes only the specified blocks in §§26, 62, 63, 73 and 74. The latest treatise file was fetched and checked: the old Proposition 5 and old §74 theorem headings are absent; the replacement statements and explicit assumptions are present.
+
+### 51.3 Remaining limitations
+
+These edits do not identify the human behavioural matrices A/B/K, validate the candidate V, estimate action-score coefficients, specify a learning algorithm, establish ROOT efficacy, or validate the four-foundation architecture. The §71 operator-composition ambiguity and §95 final-equation placeholder remain open. No tracker edits and no experiments were executed or authorized.
+
+**Disposition:** verified corrections to the physical–behavioural bridge, Proposition 5, the controller-impossibility scope and unified conditional results are incorporated. Further formal-model specification and source-to-claim verification remain open.
+
