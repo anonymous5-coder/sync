@@ -2883,3 +2883,41 @@ This ledger applies the five independent fields defined in §22.1 to the first s
 
 **Batch G disposition:** 6/6 IDs reconciled to canonical fields at first-pass integrated level. No integrated architecture, distinct Recursive Intelligence mechanism or ROOT efficacy is validated. No treatise/tracker edits; no experiments executed or authorized.
 
+## 44. Cross-batch identity reconciliation — canonical 204-ID inventory
+
+### 44.1 Set-level verification
+
+The §26.3 traceability matrix and the seven canonical disposition ledgers (§§37–43) were compared by exact stable-ID string after excluding each table header.
+
+| Batch | Treatise sections | Canonical entries |
+|---|---|---:|
+| A | §§1–15 | 53 |
+| B | §§16–27 | 33 |
+| C | §§28–40 | 36 |
+| D | §§41–59 | 37 |
+| E | §§60–74 | 24 |
+| F | §§75–89 | 15 |
+| G | §§90–95 | 6 |
+| **Total** | **§§1–95** | **204** |
+
+**Verification result:** the §26.3 matrix contains 204 data rows and 204 unique IDs. The seven ledgers contain 204 data rows and 204 unique IDs. Exact set comparison found **zero missing IDs and zero extra IDs**. The seven batch counts sum to 204 and match the matrix.
+
+### 44.2 Grouped-label identity caveats
+
+The set comparison establishes correspondence to the canonical §26.3 inventory; it does not erase two source-table presentation discrepancies:
+
+1. The §27 claim-level source table uses the grouped label **S27-H01–H07**, while §26.3 and the canonical ledger use **S27-H01** for the composite factor-family row. The ledger does not infer H02–H07 as separate stable IDs. The claim wording and intended subclaim granularity should be confirmed during adversarial review.
+2. The §§46, 49 and 54 source tables group multiple equations under the first identifier in each group. The canonical matrix uses **S46-EQ01**, **S49-EQ01** and **S54-EQ01** respectively; the canonical ledgers follow those matrix IDs and preserve the grouped equation content in the claim-kind descriptions. No additional equation IDs are counted.
+
+These are identity/labeling issues, not evidence that the 204-entry set has missing or duplicate strings. They remain explicit review questions rather than being silently normalized.
+
+### 44.3 Limits of this verification
+
+- Exact ID-set equality does not prove that each claim's description, source assignment, formal status or evidence grade is correct.
+- A stable ID can still combine heterogeneous subclaims or equations; the group-level label issue above requires content-level review.
+- The 204 dispositions are first-pass integrated assessments based on the existing claim register and subsequent adjudications. They have not been independently peer-reviewed.
+- Source-pinpoint completeness and all proof/equation dependencies remain open where the batch ledgers say so.
+- No changes were made to the treatise or ROOT tracker; no experiments were executed or authorized.
+
+**Disposition:** the canonical 204-ID inventory is reconciled at the exact-string/set level. The grouped-label caveats remain open for adversarial content review. This is an internal repository consistency check, not independent review or final edition approval.
+
