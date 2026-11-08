@@ -2075,3 +2075,73 @@ Predefine outcomes such as adaptation sample efficiency, held-out transfer, post
 | S93-C01 | Retain as a high-level construct hypothesis; novelty and distinctness remain unestablished | Provide the operational discriminator and demonstrate incremental explanatory/predictive/control value against metacognition, meta-control and adaptive-control baselines |
 
 **Disposition.** The existing evidence establishes substantial neighbouring constructs and at least one direct human experimental precedent for meta-control. The treatise's current equations and loop do not yet identify a unique recursive operation or demonstrate incremental utility. The construct should remain a provisional synthesis/hypothesis, not a validated new intelligence mechanism. No treatise/tracker edits; no experiments executed or authorized.
+
+
+## 32. ROOT Control Protocol component evidence and package-efficacy audit — S41/S43/S51/S54/S55/S79/S80/S94
+
+### 32.1 Scope and outcome definition
+
+The baseline §94 defines ROOT as seven operations: Recognise the trigger; Obstruct the automatic pathway; Override with a specific alternative; Train the replacement; Correct using outcome data; Optimise biological/environmental conditions; Learn and consolidate. The stated aim is not elimination of impulses, but increasing the probability that chosen objectives govern behaviour despite competing signals.
+
+This is a **proposed multicomponent behavioural intervention architecture**. Evidence for one component does not establish the efficacy of the sequence, the full package, the proposed causal order, or superiority over a simpler intervention. The seven-stage acronym also needs clarification: the first four stages spell ROOT; the remaining stages add COL. Unless the seven-step name is intentionally ROOTCOL, the mnemonic and protocol taxonomy are not aligned.
+
+The primary outcome cannot be “fewer urges” alone. A valid evaluation should measure goal-concordant action at eligible opportunities, while separately recording urge intensity, cue exposure, obstruction fidelity, alternative response, recovery latency, task accuracy/functional output, substitution to other behaviours, burden and adverse effects. A lower target-action count caused by fewer opportunities, avoidance of the task or displacement to another behaviour is not necessarily improved self-regulation.
+
+### 32.2 Component-level evidence map
+
+| ROOT operation | Relevant registered sources | Bounded evidence | Missing evidence for the ROOT claim |
+|---|---|---|---|
+| Recognise | R42 EMA/self-report measurement; R27 testing/measurement standards | Repeated measurement can describe context and behaviour; measurement quality and construct definition matter | No evidence that the proposed trigger taxonomy is exhaustive, reliable or sufficient to identify causal triggers. Self-report alone can be reactive and error-prone |
+| Obstruct | R33 randomized grayscale field experiment; R34 one-week obstruction field experiment | R33 found a context-specific reduction in objectively measured screen time for grayscale versus control; R34 found objective use fell in intervention and control groups while self-reported problematic use increased | No general effect on all unwanted actions, urge intensity, sustained attention, habit extinction or ROOT efficacy. Substitution and opportunity denominators remain necessary |
+| Override | R31 implementation-intention meta-analysis; R32 cue-accessibility/cue-response mechanism study; R48 2024 meta-analysis of 642 tests | If–then plans and rehearsed cue–response mappings can improve goal attainment across studied tasks; R48 reports heterogeneous outcome effects and moderators | Does not show that every alternative is feasible, that a specific person's chosen alternative works, or that override is effective when the cue is not detected or the alternative is obstructed |
+| Train | R19 habit-paradigm registered report; R28 Lally et al.; R29 habit-formation review; R30 randomized context-planning trial; R53 habit-measure study | Repetition/context and automaticity can change in some settings; R30 supports a context effect on automaticity for walking | No validated ROOT replacement-training schedule or universal formation duration. Habit measures do not converge reliably; automaticity is not the same as maintenance or functional success |
+| Correct | R54 monitoring-accuracy meta-analysis; R55 metacognitive-prompt meta-analysis; R27 testing standards | Metacognitive prompts can improve reported self-regulated-learning activities and learning outcomes; objective monitoring-accuracy effects are smaller (R54 g=0.25) | Does not establish that the proposed personal correction loop accurately identifies causes, avoids metric gaming or improves long-term outcomes. Self-report and objective calibration must remain separate |
+| Optimise | R25 total sleep deprivation meta-analysis; R43 sleep-restriction meta-analysis; R44 one-night partial-restriction meta-analysis; R30 context planning | Sleep exposure affects selected cognitive outcomes, especially sustained attention; context consistency can influence a specific walking/automaticity outcome | No validated combined biological/environmental optimization package, universal priority ordering or causal claim that changing sleep/activity/context improves the target behaviour in this protocol |
+| Learn and consolidate | R19/R28–R30/R53 for habit and automaticity; R41/R47 for single-case evaluation | Some task-specific automaticity and learning effects are documented; repeated measurement and credible comparison are needed to establish individual change | No evidence that the ROOT sequence consolidates a durable replacement policy or generalizes to novel contexts; no package-level maintenance or relapse-prevention data |
+
+### 32.3 Cross-component limitations and contradictory evidence
+
+1. **Obstruction is not a universal mechanism.** R33's grayscale effect is tied to objectively measured smartphone screen time in its student sample and did not immediately improve well-being or academic performance. R34's control-group decline and increase in self-reported problematic use show that awareness/reactivity and time trends can confound simple before/after claims.
+2. **Planning evidence is not ROOT evidence.** R31/R32/R48 support implementation intentions in specified settings. They do not validate the full seven-stage protocol, nor prove that the exact order Recognise→Obstruct→Override→Train→Correct→Optimise→Learn is optimal.
+3. **Habit formation is not equivalent to maintenance.** R19/R53 raise construct-convergence and criterion-validity concerns; R29 identifies substantial variability and risk of bias; R30's context-planning intervention increased automaticity, but the consistent-context group unexpectedly did not show the expected walking maintenance. Do not use automaticity as a proxy for durable functional improvement.
+4. **Self-correction can be miscalibrated.** R54's objective monitoring-accuracy effect is smaller than broader self-regulated-learning outcome effects, while R55 concerns metacognitive prompts and learning outcomes. Reported strategy use, subjective confidence and objective monitoring accuracy are different endpoints.
+5. **Optimization effects are domain-specific.** R25/R43/R44 concern different sleep exposures and outcomes. Null pooled effects in several domains in R44 must remain visible. A generic “optimize biology” stage is too broad to support a single causal claim.
+6. **No package comparator exists in the registered evidence.** The current sources do not compare the complete ROOT sequence with usual practice, a minimal single-component intervention, a matched multicomponent intervention, or a component-ablated ROOT version.
+
+### 32.4 Package-level causal and measurement requirements
+
+A future ROOT evaluation must specify, before data collection:
+
+- **Target population and scope:** the behaviour class, setting, age/population, inclusion/exclusion criteria and whether the protocol is a self-management aid or a clinically supervised intervention. Do not generalize across unrelated behaviour classes without replication.
+- **Causal model:** stage-specific mechanisms and expected mediators; which stages are necessary, optional, concurrent or sequential; expected lag and carryover; and conditions under which a stage could backfire.
+- **Estimand:** probability of goal-concordant action per eligible opportunity, change in functional output, and durability after active support is removed. Keep urges, target-action counts, screen time, automaticity and functional performance as separate outcomes.
+- **Opportunity denominator:** count occasions when the target cue/choice was genuinely present and the goal-consistent response was feasible. Log cue exposure, obstruction status, alternative availability and missing opportunities.
+- **Comparator:** compare with usual practice and at least one credible simpler intervention. For component attribution, use factorial/dismantling or sequential randomization where feasible; do not compare a well-supported full intervention with a deliberately weak no-support control and call the difference a ROOT-specific effect.
+- **Fidelity and adherence:** operational definitions for each stage, actual exposure, user burden, deviations, contamination and co-interventions. A checklist of intended steps is not proof that the steps occurred.
+- **Functional and adverse outcomes:** task completion/accuracy, sleep and health impacts where relevant, distress/burden, substitution, rebound, avoidance, and harms from excessive obstruction or rigid goal pursuit.
+- **Analysis:** repeated-measures structure, baseline trend, autocorrelation, missingness, carryover, multiple outcomes, uncertainty intervals and pre-specified stopping rules. A pre/post difference alone is not a causal estimate.
+- **Maintenance and transfer:** follow-up after active intervention, retention, generalization to new contexts and performance under cue changes; distinguish short-term compliance from a learned durable response.
+- **Independent replication:** validate in separate samples/settings before claiming general package efficacy.
+
+### 32.5 Design hierarchy and readiness gate
+
+The 28-day treatise protocol and 14-day tracker pilot remain distinct. The treatise's 7-day baseline + 7-day environmental change + 14-day alternative-response training design is a fixed sequential intervention. It does not isolate stage effects because phase order, time trend and carryover are confounded. The tracker’s 14-day pilot is not equivalent and should not be represented as a shortened validated version.
+
+R41/R47 support the need for repeated outcomes and stronger single-case design features when causal individual-level claims are intended. R49 distinguishes SMART designs for slower adaptive decision points from MRT designs for faster repeated decisions; R50 documents frequent reporting gaps in SMART studies. The choice depends on the ROOT stage timing and the estimand, not on a generic preference for one design label.
+
+**Readiness decision:** the current ROOT protocol is **not ready for an efficacy claim or execution as a causal experiment**. It can be retained as a descriptive planning framework or a hypothesis-generating personal workflow, provided it is not marketed as validated. Any controlled evaluation remains subject to the governing plan's preregistration, comparator, measurement, safety, sample-size and authorization gates. This section does not authorize execution of experiments A–F or any new ROOT trial.
+
+### 32.6 Claim-level dispositions
+
+| Stable ID | Provisional disposition | Required closure |
+|---|---|---|
+| S41-C01 / S41-C02 | Component-level planning/friction evidence only; sustained-attention and combined-intervention claims remain unestablished | Define attention and goal-concordant behaviour outcomes; isolate intervention components and comparator |
+| S43-C01 | Retain as a provisional within-person leverage metric, not a validated effect measure | Define opportunity denominator, counterfactual, setup/maintenance burden and uncertainty |
+| S51-C01 | Retain as a named seven-stage proposal; acronym/sequence architecture is unclear | Decide ROOT versus ROOTCOL naming; define stage contracts, sequencing, iteration and required/optional stages |
+| S54-C01 / S54-EQ01–EQ02 | Retain as a local, falsifiable accessibility hypothesis | Measure accessibility, target behaviour, opportunity, substitution, task output and causal comparator |
+| S55-C01 | Retain as a component with substantial neighbouring evidence | Specify cue, goal commitment, alternative feasibility, rehearsal and fidelity; avoid attributing component evidence to ROOT |
+| S79-EXP-D | Retain as an unexecuted local obstruction hypothesis | Meet design, denominator, fidelity, comparator, substitution and safety gates |
+| S80-EXP-E | Retain as an unexecuted test of an established if–then planning family | Use active comparator and isolate planning from obstruction; do not treat positive outcome as proof of ROOT novelty |
+| S94-C01 | Retain as a proposed operational architecture; package efficacy unvalidated | Reconcile acronym and duration mismatch; specify causal model, outcome, fidelity, burden, comparator and independent validation |
+
+**Disposition.** Component evidence exists for implementation intentions, some digital-friction effects, selected habit/context processes and metacognitive prompting. The results are heterogeneous and outcome-specific. No registered evidence demonstrates that the complete ROOT package improves durable goal-concordant behaviour, sustained attention or self-mastery, or that its seven-stage sequence adds value over simpler components. No direct refutation of the package is established either; it remains untested as an integrated intervention. No treatise/tracker edits; no experiments executed or authorized.
