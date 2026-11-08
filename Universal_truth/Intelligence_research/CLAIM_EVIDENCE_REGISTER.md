@@ -3634,7 +3634,7 @@ No source record is upgraded. R32, R43, R61 and R63 remain explicitly access-lim
 | Batch disposition | A–G all have first-pass integrated dispositions | Disposition is not equivalent to empirical validation. |
 | Internal adversarial review | A–G and experiment templates A–F reviewed in §§45–48 | Completed internally; not independent external review. |
 | Current research documents | Treatise, tracker, plan and register fetched from edition | The register is the consolidated supporting evidence/disposition record; tracker remains operational rather than an evidence repository. |
-| Branch isolation | edition is 242 commits ahead of main and 0 behind; main SHA remains 1b99731442297f45c9fb14b29510b3a1c187541c | No merge or main-branch change. |
+| Branch isolation | edition remains ahead of main and 0 behind; main SHA remains 1b99731442297f45c9fb14b29510b3a1c187541c | Live ahead count changes with each edition commit; no merge or main-branch change. |
 
 ### 65.2 Completion matrix
 
