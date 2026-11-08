@@ -2436,7 +2436,7 @@ R60–R63 add direct human evidence to the earlier model/review-heavy neural-ene
 4. **Task-negative response is not simply “less effort.”** R62 reports two regional patterns, with deactivation associated with either more or less effort depending on the region. A single scalar mapping from effort to metabolic activity is not warranted.
 5. **Subjective effort is not metabolic expenditure.** R63's separate components and findings reinforce that subjective workload, performance, respiration, cardiovascular response and peripheral metabolic measures are distinct. It is not a brain-energy measurement.
 6. **Null global change is not exact invariance.** R61's non-significant 1% global CMRO2 reduction during mental arithmetic is evidence against a detectable increase in that task and measurement, not proof that the global energy budget is mathematically constant or that no local redistribution occurs.
-7. **No coefficient transfer is justified.** None of R60–R63 estimates the treatise's Q(a) terms or weights. They cannot be used to assign physiological values to subjective effort, control demand, fatigue, delay or switching costs.
+7. **No coefficient transfer is justified.** None of R60–R63 or R69 estimates the treatise's Q(a) terms or weights. They cannot be used to assign physiological values to subjective effort, control demand, fatigue, delay or switching costs.
 
 ### 34.4 Claim dispositions after direct-source pass
 
@@ -3308,7 +3308,7 @@ Lisa A. Zukowski, Jasmine M. Martin, Gabrielle Scronce, Michael D. Lewek and Pru
 
 **Does not support:** a general claim that desk-based thinking consumes no additional energy, whole-brain CMRO2 invariance, subjective effort equivalence, or the treatise's action-score model. The walking/matched-speed design addresses the metabolic cost of transport under dual-task conditions; it is not a pure isolated measure of cognitive-task energy at rest.
 
-**Pinpoints verified:** PubMed abstract, full methods/design summary and outcome results; publisher metadata and DOI. Full publisher article text was not independently inspected in this pass.
+**Pinpoints verified:** Springer publisher page lines 23–28 (article type/date/volume/pages), 36–41 (authors), and 52–64 (purpose, five-condition design, N=20, V̇O2/cost-of-walking outcomes and conclusion); DOI and PubMed record. The full article is subscription-gated; the accessible page supplies the abstract and methods/results summary, not the full paper.
 
 ## 54. Updated source-to-claim verification — R13/R14 full-text review and primary-study boundary
 
