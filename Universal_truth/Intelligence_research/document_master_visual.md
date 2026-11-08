@@ -459,9 +459,9 @@ $$
 
 may hold when the system's architecture or memory is statistically dependent on world structure.
 
-This does not mean the system contains a complete copy of reality. It means that its internal state may carry information correlated with features of the world.
+This does not mean the system contains a complete copy of reality. It means that its internal state may carry information correlated with features of the world. The statement $I(W;Z)>0$ is conditional on a specified joint distribution; it is not a universal fact about every architecture. Positive mutual information alone does not guarantee that the information is accessible, task-relevant, stable out of sample or sufficient for accurate prediction.
 
-A system can exploit that information to predict additional features.
+A system can exploit that information to predict additional features only if its model and inference procedure preserve the relevant dependence and generalize to the target conditions.
 
 ### Example: Mathematical prediction of an unobserved phenomenon
 
@@ -647,7 +647,7 @@ R(a)+L(a)
 -\kappa K(a)
 $$
 
-This equation is a model specification. Its coefficients must be estimated for a particular system; they are not universal constants of the brain.
+This equation is a candidate model specification. Its terms must be converted to commensurable utility units or explicitly normalized before they can be added; raw energetic, temporal, delay and control-cost measurements do not automatically share units. Its coefficients must be estimated for a particular system; they are not universal constants of the brain, and no such coefficients have been identified here.
 
 The action-selection mechanism can be represented by a softmax distribution:
 
@@ -657,7 +657,7 @@ P(a\mid s)=
 {\sum_{b\in\mathcal{A}(s)}\exp(\beta Q(b\mid s))}
 $$
 
-where $s$ is the current state and $\beta$ controls the sharpness of selection.
+where $s$ is the current state, $\mathcal{A}(s)$ is the feasible action set, and $\beta>0$ controls the sharpness of selection. The parameter $\beta$ has inverse-score units if $Q$ is dimensional; a dimensionless implementation requires a normalized score. The distribution assumes a nonempty feasible action set.
 
 As $\beta$ increases, higher-scoring actions dominate more strongly. As $\beta$ decreases, selection becomes more stochastic.
 
@@ -759,7 +759,7 @@ Let $s_t$ denote the state available before action $a_t$; it includes cue $c_t$ 
 
 One standard off-policy candidate is the Q-learning update:
 
-$
+$$
 Q_{\mathrm{RL},t+1}(s_t,a_t)
 =
 Q_{\mathrm{RL},t}(s_t,a_t)
@@ -773,7 +773,7 @@ Q_{\mathrm{RL},t}(s_{t+1},a')
 -
 Q_{\mathrm{RL},t}(s_t,a_t)
 \right]
-$
+$$
 
 where:
 
@@ -782,7 +782,7 @@ where:
 - $\mathcal{A}(s_{t+1})$ is the feasible action set in the next state;
 - $Q_{\mathrm{RL},t}(s,a)$ is an action-value estimate, distinguished from the generic action score $Q(a)$ in §19.
 
-The update assumes that the state representation is adequate for a Markov-style transition model and that reward timing and the feasible action set are defined. Those assumptions have not been validated for the human behavioural model in this treatise. This is a standard computational learning abstraction, not a complete biological habit-formation mechanism.
+The update assumes that the state representation is adequate for a Markov-style transition model and that reward timing and the feasible action set are defined. Those assumptions have not been validated for the human behavioural model in this treatise. This is a standard computational learning abstraction, not a complete biological habit-formation mechanism. The displayed one-step update assumes a Markov-style state representation, a defined finite feasible action set, $0\leq\gamma<1$ and a learning rate $0<\alpha\leq1$. No convergence guarantee is claimed; convergence would require additional conditions on stationarity, exploration and the learning-rate schedule.
 
 If a cue repeatedly precedes an action that yields reward, relief, novelty, or reduced discomfort, the learned value of the cue-action relationship can increase.
 
@@ -1129,12 +1129,7 @@ The five questions yield the following conclusions:
 
 A cue-response association can be learned when a cue reliably predicts an outcome or when an action following the cue produces a consequential result.
 
-Let:
-
-- $c_t$: cue;
-- $a_t$: action;
-- $r_t$: outcome;
-- $V_t(c,a)$: learned value.
+Let $s_t$ include the cue and other state variables, $a_t$ be the selected action, $r_{t+1}$ be the outcome received after that action, and $Q_{\mathrm{RL},t}(s_t,a_t)$ be the estimated action value.
 
 A candidate off-policy action-value update is the Q-learning rule specified in §22, with the cue included in the state representation. It uses the outcome received after the action and the estimated value of the best feasible next action. It is not interchangeable with a generic scalar prediction-error expression: the state, action, reward timing and bootstrap target must be defined consistently.
 
@@ -1288,7 +1283,7 @@ Behavioural control operates across several timescales:
 
 An intervention must match the timescale of the mechanism.
 
-A brief inhibition technique can interrupt an immediate response. It cannot alone redesign a long-standing environment or resolve a sleep disorder.
+A brief inhibition technique can interrupt an immediate response. It cannot alone redesign a long-standing environment or resolve a sleep disorder. No multistable attractor landscape, basin geometry or transition-barrier model is specified in this treatise; those analyses are deferred until a concrete state space and transition law exist.
 
 ## 39. The full behavioural-loop model
 
@@ -1411,7 +1406,7 @@ where:
 - $\beta$ is a weakening parameter;
 - $N_t$ represents non-reinforcement or competing learning.
 
-This is a proposed model, not a validated universal law of habit acquisition.
+This is a proposed model, not a validated universal law of habit acquisition. A bounded interpretation requires $H_t$ to remain within a defined range (for example, $[0,1]$) and parameter/input constraints that preserve that range; these constraints and parameters have not been identified here.
 
 It predicts diminishing increments as $H_t$ approaches an upper bound, provided successful rehearsal continues.
 
@@ -1776,7 +1771,7 @@ where:
 - $F_t$: failure or competing reinforcement;
 - $\alpha,\beta$: learning parameters.
 
-The equation is a conceptual learning model. It does not imply that one failure erases progress.
+The equation is a conceptual learning model. It has no specified state bounds, context-transfer rule or empirically identified parameters, and it does not imply that one failure erases progress.
 
 ## 57. C — Correct
 
@@ -2101,7 +2096,7 @@ The four named foundations are assigned distinct proposed roles in a candidate a
 
 The entire system can be represented as:
 
-$
+$$
 \boxed{
 \left(
 \mathcal{S}_t,
@@ -2114,7 +2109,7 @@ R_t,
 \xrightarrow{\text{candidate update}}
 \mathcal{S}_{t+1}
 }
-$
+$$
 
 where:
 
