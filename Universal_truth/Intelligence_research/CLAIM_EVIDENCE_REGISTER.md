@@ -334,14 +334,12 @@ Ghislaine Dehaene-Lambertz and Elizabeth S. Spelke, “The Infancy of the Human 
 | S26-M01 | Six-stage physical–cognitive bridge chain (L849–865) | Restates S16-EQ02 at a more formal level. It is not a derivation from Axioms 1–5 alone; bridge premises are required for finite control capacity, cost-sensitive allocation, cached policy formation, cue-dependent execution and conflict with reflective objectives. | Merge conceptually with the canonical bridge claim; retain one full explanation and cross-reference repetitions. |
 | S26-TH03 | A cost-sensitive controller may select a locally favoured habitual response that conflicts with a higher-order goal (L867–885) | Conditional result under the stipulated local objective and choice rule. Steps 1–5 can establish a score/selection conflict if the relevant score inequality and selector are specified. Step 6's claim that repetition strengthens the cue-policy association requires a learning update and is not proved by the preceding score inequality. “Rationally” means locally optimal relative to the specified objective, not globally wise or endorsed. | Split the algebraic/choice result from the learning-persistence hypothesis; supply the missing update rule before claiming the full theorem. |
 
-### §27 — Predictions of the physical bridge (L886–?; section ends before §28)
+### §27 — Predictions of the physical bridge (L886–900)
 
 | ID | Claim / source location | Assessment and evidence relation | Disposition |
 |---|---|---|---|
 | S27-H01–H07 | Accessibility, initiation cost, task uncertainty/effort, fatigue/stress, delayed reward and immediate relief/stimulation may shift action selection toward a competing habit (L888 onward) | These are testable hypotheses, not established universal predictors. Existing evidence supports selected mechanisms: task-specific cost-benefit arbitration (Kool et al., 2017), model-based/model-free learning as neighbouring accounts, and unresolved subjective effort mechanisms (Otto et al., 2026). This evidence does not validate the treatise's complete additive score or imply all listed factors have independent causal effects. | Retain as hypotheses; specify each predictor, outcome, time window, confound and disconfirming result. |
 | S27-H08 | Environmental change may improve behaviour before urge disappears (L?; final sentence of §27) | Plausible intervention prediction: action accessibility and opportunity structure can change while urge intensity remains. It requires separate measures of urge, eligible opportunities, action selection and functional outcome; no cited source here establishes it as a universal effect. | Retain as a falsifiable hypothesis; defer empirical status. |
-
-**Line-location note:** §27 begins at baseline line 886. Its full ending and exact final line are to be verified against the complete baseline file during the final line-map pass; the current range intentionally does not invent an end line.
 
 ## 9. Additional source register: Sections 16–27
 
@@ -421,12 +419,13 @@ John P. O'Doherty, Jeffrey Cockburn and Wolfgang M. Pauli, “Learning, Reward, 
 **Supports:** evidence for multiple reward-related behavioural strategies, model-based/model-free distinctions, interactions and arbitration mechanisms.  
 **Does not support:** treating the two systems as a universal, anatomically isolated binary or proving the treatise's specific habit model.
 
-### R19 — Gillan et al., 2020: characterizing human habits
+### R19 — Nebe et al., 2024: characterizing human habits in the laboratory
 
-“Characterizing Human Habits in the Lab,” *Collabra: Psychology* (2020), https://pmc.ncbi.nlm.nih.gov/articles/PMC7615722/.
+Stephan Nebe, André Kretzschmar, Maike C. Brandt and Philippe N. Tobler, “Characterizing Human Habits in the Lab,” *Collabra: Psychology* 10(1), 92949 (2024), Registered Report, DOI: [10.1525/collabra.92949](https://doi.org/10.1525/collabra.92949).
 
-**Supports:** methodological concerns about operationalizing human habit and the limits of equating model-free reinforcement learning with the full behavioural habit construct.  
-**Does not support:** a universal equivalence between cached values, automaticity and outcome-insensitive stimulus-response habits.
+**Study scope and findings:** the study compared six laboratory habit paradigms and self-report measures of real-life habits. Choice frequency influenced later choice/habit-related measures in two tasks, including a task without external reinforcement. However, the laboratory paradigms did not converge on a single common habit construct, and the task measures showed no criterion validity against the real-life self-report measures in this sample. The authors call for reassessment of laboratory habit measurement.
+**Supports:** the need to distinguish repetition-based learning, reinforcement-based model-free learning, outcome-devaluation insensitivity and self-reported real-life habit; it provides direct evidence against treating the tested paradigms as interchangeable.  
+**Does not support:** a universal one-dimensional habit trait, or the claim that all habits are simply cached model-free policies.
 
 ### R20 — Friston, 2009: variational free-energy formulation
 
