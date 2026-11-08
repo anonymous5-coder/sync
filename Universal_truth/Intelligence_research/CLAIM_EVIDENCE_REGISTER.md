@@ -278,7 +278,7 @@ This section preserves the dependencies recorded when the §§1–15 register wa
 | ID | Claim / source location | Assessment and evidence relation | Disposition |
 |---|---|---|---|
 | S17-C01 | Computation is physically implemented through substrate state changes (L561–565) | Established physical-computation premise at this level of abstraction. It does not determine a universal energy cost for each logical operation. | Retain; keep the claim at the physical-implementation level. |
-| S17-EQ01 | First-law accounting \(\Delta U=Q+W\) (L567–577) | Correct under the stated convention if Q is heat added to the system and W is work done on the system. Other sign conventions reverse one or both signs. The current text says “chosen sign convention” but should explicitly name it. | Retain with sign convention defined. |
+| S17-EQ01 | First-law accounting \(\Delta U=Q+W\) (L567–577) | Correct under the explicit convention that Q is heat added to the system and W is work done on the system; R70 §3.3 supports the first-law identity under the equivalent work-by-system convention. | Retain with the system boundary, sign convention and R70 pinpoint explicit. |
 | S17-EQ02 | Landauer bound \(Q_{min}=k_BT\ln2\) for erasure of one unbiased bit (L579–585) | Established conditional result for logically irreversible erasure under the relevant thermal assumptions; not a universal lower bound on every logical operation, not the actual energy of a human thought, and not an estimate of neural task cost. Landauer (1961) states the principle; Bérut et al. (2012) experimentally approached the bound in a controlled one-bit colloidal-memory system. Practical erasure commonly dissipates more. | Retain with exact operation, bit-state assumptions and thermal conditions; do not use as a neural-energy conversion factor. |
 | S17-C02 | Information processing has energetic and temporal implementation costs (L587–588) | R11, R60–R62 and R69; R13 provides a review synthesis and R14 distinguishes effort accounts | Physical/neural energy implementation is established broadly; task-related increments are task-, measure- and scale-specific. No per-thought coefficient. |
 
@@ -1778,7 +1778,7 @@ These are label normalizations only. They do not add claims, alter the treatise 
 | S16-EQ02 | Six-stage physical-to-behavioural bridge (L543–550) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S17-C01 | Physical premise and resource model | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S17-C02 | Information processing has energetic and temporal implementation costs (L587–588) | — | R11, R60–R62; R61 abstract-level | Direct primary support for neural energetic cost and selected human regional/global task responses; no per-thought cost or general coefficient. | R60 full text; R61 abstract; R62 full text; R11 model-based estimate. §34. |
-| S17-EQ01 | First-law accounting \(\Delta U=Q+W\) (L567–577) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
+| S17-EQ01 | First-law accounting \(\Delta U=Q+W\) (L567–577) | — | R70 | Standard identity; convention is Q into the system and W done on the system, equivalent to the source's Q−W_by form. | OpenStax *University Physics Volume 2*, §3.3; first-law equation and sign-convention table. |
 | S17-EQ02 | Landauer bound \(Q_{min}=k_BT\ln2\) for erasure of one unbiased bit (L579–585) | E01 | R09, R10 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
 | S18-C01 | Physical premise and resource model | E02, E12 | R11–R14; R11–R13 | Cluster association + selected pinpoint; not full source closure | R13 accessible preprint full text (final version not compared); R14 accessible author manuscript (final pagination not compared); R11/R12 model/review context; §§23,25,54. |
 | S18-C02 | The brain allocates limited metabolic resources across listed processes (L605–615) | — | R11–R14, R60–R62 | Local attention-dependent redistribution has direct human experimental support; the treatise's full process-budget decomposition and global allocation claim remain unestablished. | R60 full text; R62 full text; R61 abstract; R13/R14 review-level. §34. |
@@ -2657,7 +2657,7 @@ This ledger applies the five independent fields defined in §22.1 to the first s
 | S16-EQ02 | Multilevel causal model | Schematic chain; not a derivation | Integrated bridge unvalidated | Retain as a proposed chain; require separate evidence for each transition. |
 | S17-C01 | Physical premise/resource model | Physical implementation established; resource accounting schematic | No per-inference or per-action cost follows | Retain physical premise; separate energy, time, memory, bandwidth and error constraints. |
 | S17-C02 | Neural/physical energetic claim | Physical cost premise valid within defined substrate/operation | R60–R62 direct but task-bounded human evidence; no universal or per-thought coefficient | Retain with scale/time/task qualification; distinguish local oxCCO, regional CMRO2, global CMRO2 and subjective effort. |
-| S17-EQ01 | Thermodynamic identity | First-law accounting; sign convention must define Q and W | Not an empirical behavioural claim | Retain with explicit system boundary and work-sign convention. |
+| S17-EQ01 | Thermodynamic identity | First-law accounting; Q into system and W done on system; equivalent work-by-system convention | Not an empirical behavioural claim | Retain with explicit system boundary and work-sign convention; R70 §3.3. |
 | S17-EQ02 | Physical lower bound | Landauer bound applies to logically irreversible erasure under specified thermodynamic conditions | Established physical result within assumptions | Retain; specify unbiased bit, temperature, erasure operation and avoid applying it as energy-per-thought. |
 | S18-C01 | Physical/resource premise | Broad premise; exact brain budget remains model-dependent | Neural signalling and baseline costs have supporting literature | Retain; do not conflate with a measured task-allocation rule. |
 | S18-C02 | Neural resource-allocation model | Budget decomposition is schematic, not derived | R60 local redistribution; R61 global CMRO2; R62 regional CMRO2; full listed process budget unestablished | Narrow to distributed neural/metabolic demand; retain the proposed whole-process budget as a hypothesis. |
@@ -3773,7 +3773,7 @@ The abstract/front-matter overclaim has been corrected and verified. The princip
 
 ### 68.1 Current snapshot
 
-The treatise was fetched after commit `6c247813c6b0d655e571dbb47528c926b113bb82` and has blob `4e3605b08bde48f764d6d5a2eeae01b399b5bf32`: 2,796 lines and 95 numbered sections. This snapshot supersedes earlier line counts for current navigation; the original 2,618-line baseline remains preserved for historical batch line references.
+The treatise was fetched after commit `a022e83708e754a302b769b71277a120020d17b1` and has blob `482c3240a44ff31dc83937fbefc6e2f0fd6f508e`: 2,796 lines and 95 numbered sections. This snapshot supersedes earlier line counts for current navigation; the original 2,618-line baseline remains preserved for historical batch line references.
 
 ### 68.2 Section-level evidence pointers added
 
@@ -3783,7 +3783,7 @@ Verification against the current file confirms:
 
 - 95 numbered sections remain present, with no numbering gap.
 - 69 sections contain an explicit section-level evidence-register pointer.
-- 65 canonical R identifiers appear in those pointers; duplicate aliases R52 and R56 have been replaced with canonical R03 and R06.
+- 66 canonical R identifiers appear in those pointers; duplicate aliases R52 and R56 have been replaced with canonical R03 and R06, and R70 supplies the first-law sign-convention source.
 - Every cited R identifier resolves to a source identifier recorded in this register; no dangling R-code pointer was detected.
 - The duplicate alias R64 is not presented as an independent source.
 - The 26 sections without a section-level pointer are not thereby certified as evidence-free or complete; they include definitions, formal arguments, conceptual summaries, normative safeguards and synthesis sections. Their claims remain subject to the existing claim-level register and acceptance criteria.
@@ -3804,7 +3804,7 @@ This correction prevents the selected ten-item list from being mistaken for the 
 
 ### 68.4 Controlled treatise edit and verification
 
-Treatise commit `ec271995f24f16b1648e1d1bca18c3beae0a5276` added section-level R-code trails and clarified the selected bibliography. A follow-up placement correction, commit `8b536c51719a979abfa0b3e1d817705309e801f4`, moved each trail to the end of its own numbered section rather than allowing it to appear after a subsequent Part heading. A final addition in commit `f2a0794d357d4436c544186b3a6f9f311da128c9` added evidence pointers to §§73–74. A canonical-ID cleanup in commit `6c247813c6b0d655e571dbb47528c926b113bb82` replaced the duplicate aliases R52/R56 with R03/R06. The latest treatise was fetched again; the placement check found 69 correctly section-associated evidence lines, 65 canonical R identifiers and no evidence line displaced beyond a Part heading.
+Treatise commit `ec271995f24f16b1648e1d1bca18c3beae0a5276` added section-level R-code trails and clarified the selected bibliography. A follow-up placement correction, commit `8b536c51719a979abfa0b3e1d817705309e801f4`, moved each trail to the end of its own numbered section rather than allowing it to appear after a subsequent Part heading. A final addition in commit `f2a0794d357d4436c544186b3a6f9f311da128c9` added evidence pointers to §§73–74. A canonical-ID cleanup in commit `6c247813c6b0d655e571dbb47528c926b113bb82` replaced the duplicate aliases R52/R56 with R03/R06. Treatise commit `a022e83708e754a302b769b71277a120020d17b1` added R70 to §17. The latest treatise was fetched again; the placement check found 69 correctly section-associated evidence lines, 66 canonical R identifiers and no evidence line displaced beyond a Part heading.
 
 ### 68.5 Disposition
 
@@ -3889,4 +3889,20 @@ The current treatise §17 now distinguishes two quantities that were previously 
 The corrected prose also states the system boundary and sign convention. The treatise change is commit `a022e83708e754a302b769b71277a120020d17b1`; the updated section was fetched in the following verification pass.
 
 **Disposition:** the first-law sign convention and Landauer heat direction are now notationally distinct. The result remains a standard thermodynamic identity; no neural or behavioural energy coefficient follows.
+
+## 72. Current source inventory extension — R70 and thermodynamic sign convention
+
+The R01–R69 inventory in §70 is a historical snapshot. R70 was added in §71 to support S17-EQ01's explicit first-law sign convention.
+
+Current structural inventory:
+
+- **70/70** source identifiers R01–R70 are present.
+- **70/70** identifiers have a DOI or canonical URL.
+- **67 distinct source works** are represented after deduplicating three alias pairs: R52→R03, R56→R06 and R64→R48.
+- **11 identifiers** have no DOI but do have a canonical URL; after alias deduplication, these represent ten distinct non-DOI works.
+- R70 is an OpenStax textbook section and appropriately has a canonical URL rather than a DOI.
+
+The treatise §17 evidence pointer now includes R70. The claim-level S17-EQ01 entries have been updated to identify the exact source and the equivalent sign conventions. The displayed equation remains \(\Delta U=Q+W_{\mathrm{on}}\), with Q defined as heat into the system and W_on as work done on the system; OpenStax §3.3 uses \(\Delta U=Q-W_{\mathrm{by}}\), where work done by the system is positive.
+
+**Disposition:** S17-EQ01 now has an explicit canonical source and pinpoint. R70 supports only the standard thermodynamic identity and sign convention; it does not support neural energetics or the action-score model. The full R01–R70 author/title/year/volume/page/DOI audit remains open.
 
