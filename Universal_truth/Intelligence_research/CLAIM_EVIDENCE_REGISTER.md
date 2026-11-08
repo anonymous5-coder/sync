@@ -1733,7 +1733,7 @@ These are label normalizations only. They do not add claims, alter the treatise 
 
 These items primarily require a fixed formal language, definitions, valid derivation, model assumptions or a suitable formal reference. Empirical sources are not a substitute for proof validity.
 
-S02-C01, S03-EQ01, S03-EQ02, S03-EQ03, S03-EQ04, S03-EQ05, S07-C01, S07-P01, S07-P02, S09-C01, S09-C02, S12-C01, S16-EQ01, S16-EQ02, S17-EQ01, S18-EQ01, S20-P03, S21-EQ01, S23-EQ01, S24-C01, S25-C01, S25-EQ01, S26-TH03, S28-EQ01, S28-EQ02, S29-EQ01, S29-P04, S30-EQ01, S30-EQ02, S31-EQ02, S32-EQ01, S32-EQ02, S36-EQ01, S36-P01, S37-EQ01, S43-EQ01, S45-EQ01, S46-EQ01, S49-EQ01, S54-EQ01, S57-EQ01, S60-M01, S61-EQ01, S61-M01, S33-C01, S62-P05, S64-EQ01, S71-EQ01, S71-EQ02, S74-TH05, S90-C01, S91-C01, S95-EQ01
+S02-C01, S03-EQ01, S03-EQ02, S03-EQ03, S03-EQ04, S03-EQ05, S07-C01, S07-P01, S07-P02, S09-C01, S09-C02, S12-C01, S16-EQ01, S16-EQ02, S17-EQ01, S18-EQ01, S20-P03, S21-EQ01, S23-EQ01, S24-C01, S25-C01, S25-EQ01, S26-TH03, S28-EQ01, S28-EQ02, S29-EQ01, S29-P04, S30-EQ01, S30-EQ02, S31-EQ02, S32-EQ01, S32-EQ02, S36-EQ01, S36-P01, S37-EQ01, S43-EQ01, S45-EQ01, S46-EQ01, S49-EQ01, S54-EQ01, S57-EQ01, S60-M01, S61-EQ01, S61-M01, S33-C01, S62-P05, S64-EQ01, S71-EQ01, S71-EQ02, S73-C01, S74-TH05, S90-C01, S91-C01, S95-EQ01
 
 ### 27.2 Model specification, identification or validation required
 
@@ -1758,6 +1758,15 @@ S01-C02, S01-Q01, S02-C02, S02-C03, S02-D01, S15-F01, S05-D01, S05-D02, S05-D03,
 S04-A02, S04-A03, S04-A04, S04-A05, S04-A06, S04-A07, S04-A08
 
 The axioms must not be treated as a homogeneous formal axiom set. Their verification requirements differ: physical embodiment is a well-established physical premise; structural/contextual dependence and contextual acquisition contain broad conceptual and empirical generalizations; internal transformation and adaptive selection need formal operational definitions plus domain evidence; bounded resources need construct/measurement scope; recursive accessibility and fallible model–world correspondence require narrower definitions and appropriate cognitive/epistemic support. The existing Section 22 premise map remains controlling.
+
+
+### 27.6 Triage limits and next checks
+
+1. The categories above are **source-requirement classes**, not support ratings. An item in the empirical group is not thereby unsupported in the wider literature; it is simply not linked to a cluster in the current map.
+2. Some labels are grouped summaries or repeat a construct across sections. Before source assignment, compare the full claim text and exact treatise line range; do not cite a whole cluster to a repeated summary without checking what it adds.
+3. A model may need both formal and empirical verification. For example, a softmax equation can be mathematically valid while its use as a behavioural choice model remains empirically unvalidated.
+4. The next claim-level pass should process empirical claims first where a factual/causal assertion is made, then model-bearing claims, then formal results, and finally definitions/normative rules. This ordering prioritizes the largest risk of overstated real-world conclusions while preserving proof validity as a separate audit.
+5. The E16–E18 provenance issue remains open. No recovered source-map artifact has yet supplied an auditable definition for those clusters. No new cluster should be fabricated to make the numbering continuous.
 
 
 ### 27.7 Candidate source routing for the remaining empirical claims
@@ -1788,12 +1797,5 @@ The following are candidate records to inspect—not adjudicated support. They i
 
 **Routing conclusion.** Several “empirical” IDs are actually model summaries, taxonomies or operational schemas and have been moved to the corresponding formal/model/definition groups above. The remaining 20 rows are the narrower empirical-source queue. Candidate R records must be read against exact claim wording before a source-to-claim link is accepted.
 
-### 27.6 Triage limits and next checks
-
-1. The categories above are **source-requirement classes**, not support ratings. An item in the empirical group is not thereby unsupported in the wider literature; it is simply not linked to a cluster in the current map.
-2. Some labels are grouped summaries or repeat a construct across sections. Before source assignment, compare the full claim text and exact treatise line range; do not cite a whole cluster to a repeated summary without checking what it adds.
-3. A model may need both formal and empirical verification. For example, a softmax equation can be mathematically valid while its use as a behavioural choice model remains empirically unvalidated.
-4. The next claim-level pass should process empirical claims first where a factual/causal assertion is made, then model-bearing claims, then formal results, and finally definitions/normative rules. This ordering prioritizes the largest risk of overstated real-world conclusions while preserving proof validity as a separate audit.
-5. The E16–E18 provenance issue remains open. No recovered source-map artifact has yet supplied an auditable definition for those clusters. No new cluster should be fabricated to make the numbering continuous.
 
 **Disposition.** The 145 unmapped IDs have been triaged by verification requirement; none is promoted to supported, contradicted or rejected by this classification. Direct source-to-claim matching and final dispositions remain open. No treatise/tracker edits; no experiments executed or authorized.
