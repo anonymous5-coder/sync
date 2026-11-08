@@ -2145,3 +2145,101 @@ R41/R47 support the need for repeated outcomes and stronger single-case design f
 | S94-C01 | Retain as a proposed operational architecture; package efficacy unvalidated | Reconcile acronym and duration mismatch; specify causal model, outcome, fidelity, burden, comparator and independent validation |
 
 **Disposition.** Component evidence exists for implementation intentions, some digital-friction effects, selected habit/context processes and metacognitive prompting. The results are heterogeneous and outcome-specific. No registered evidence demonstrates that the complete ROOT package improves durable goal-concordant behaviour, sustained attention or self-mastery, or that its seven-stage sequence adds value over simpler components. No direct refutation of the package is established either; it remains untested as an integrated intervention. No treatise/tracker edits; no experiments executed or authorized.
+
+
+## 33. Typed state/controller integration audit — §§3, 46, 60–64, 71, 74 and 95
+
+### 33.1 Baseline equation reconciliation
+
+The four principal representations in the treatise are not currently one mathematically consistent state model:
+
+| Location | Representation | Intended role | Integration problem |
+|---|---|---|---|
+| §3 | \(\mathcal S_t=(A,M_t,X_t,E_t,\Pi_t,G_t,\Theta_t)\) | Primitive system tuple | Most complete inventory, but observation, action, reward/feedback, resource state and disturbance are introduced outside the tuple; update order is ambiguous |
+| §46 | \(\widehat S_t=\mathcal M(S_t,\text{observations})\); \(\Theta_{t+1}=\Theta_t+\Delta\Theta(\widehat S_t,G_t,\text{error}_t)\); \(S_{t+1}=F_{\Theta_{t+1}}(S_t,I_t)\) | Self-model and recursive parameter update | Estimator appears to receive the true state; \(C_t\) control state is introduced but not typed; no explicit update of \(\Pi_t\) or of the update rule itself |
+| §60 | \(x_{t+1}=(A-BK)x_t+w_t\) | Linear closed-loop stability illustration | \(A\) and \(K\) now denote control matrices/gain, colliding with architecture \(A\) and knowledge base \(K\) elsewhere; this state is not mapped to \(\mathcal S_t\) |
+| §71 | \(\mathcal S_{t+1}=\mathcal F(\mathcal S_t,O_t,\mathcal I_t,G_t,R_t,\mathcal R_t)\) | Unified four-operation transition | No explicit selected action, environment state, policy parameters or disturbance; \(\mathcal I_t\), \(R_t\) and \(\mathcal R_t\) lack typed domains; operator order is unresolved |
+| §74 | Two-action softmax in terms of \(Q_g,Q_h\), followed by a learning/update claim | Conditional choice-probability result | Monotonicity follows only for a specified softmax selector with fixed positive inverse temperature; the subsequent learning premise needs an explicit update rule |
+| §95 | \(S_{t+1}=F(A,M_t,O_t,G_t,\mathcal R_t,\mathcal I(A,M_t),\Pi_t,R_t)\) | Final compressed architecture | Drops explicit \(X_t,E_t,\Theta_t\) and selected action \(a_t\); substitutes \(\mathcal I(A,M_t)\) for \(\mathcal I_t\); no equivalence to §§3/71 is derived |
+
+### 33.2 Specific semantic and formal defects
+
+1. **Transition/action ordering in §3.** The prose says the system receives a signal, updates its internal state and may choose an action, but the displayed transition uses \(a_t\) before the policy equation defines how \(a_t\) is selected. Either specify action selection before state transition, or explicitly model a simultaneous/joint transition kernel. The equations should not leave this order to interpretation.
+2. **Observation model and state sufficiency.** \(O_t\sim P(O_t\mid E_t,X_t)\) is a useful observation-kernel sketch, but it does not define the observation space, measurement process, history dependence or missingness. The tuple is not shown to be Markov-sufficient. A Markov claim would require that the next-state distribution be conditionally independent of earlier history given the declared state and inputs.
+3. **Undefined feedback/reward.** \(r_t\), \(\text{feedback}_t\), \(R_t\) and “outcome” appear in different equations without a shared definition. Reward, prediction error, observed outcome, self-report and intervention fidelity are not interchangeable. A multi-outcome vector is more defensible than one overloaded scalar.
+4. **Memory/policy/parameter interfaces.** §3 updates \(M_t\) and \(\Theta_t\), but does not say whether \(\Pi_t\) is a parameterized policy or a separately updated object. §46 updates \(\Theta_t\) and then changes \(F_{\Theta}\), but does not specify whether this changes the transition model, the action policy or both.
+5. **Self-estimation leakage.** §46's \(\mathcal M(S_t,\text{observations})\) provides the estimator with \(S_t\), although the self-model is supposed to estimate potentially latent aspects of the system. Use an observable history/belief-state input, unless the state is explicitly defined as directly observable.
+6. **Unmapped control state.** §46 introduces \(C_t\) but the primitive tuple in §3 has no corresponding component or mapping. It must either be a component of \(X_t\)/\(\Pi_t\) with an explicit definition or a separately typed state variable.
+7. **Operator composition in §71.** Under standard right-to-left function composition, \(\mathcal F_{context}\circ\mathcal F_{inference}\circ\mathcal F_{control}\circ\mathcal F_{learning}\) applies learning first, then control, inference and context. That is not the apparent narrative order. If the operations are concurrent/coupled, ordinary serial composition is insufficient; define a joint update or a dependency graph. The sentence “ordered or coupled” currently merges two different mathematical structures.
+8. **Missing action and environment in §§71/95.** Actions are central to the §3 transition and §74 choice rule, but absent from the unified equations. Environmental state is explicit in §3 but only implicitly absorbed into “external context” in §95. If these are encapsulated in another argument, the encoding map must be stated.
+9. **Symbol collisions.** A is architecture in §§3/95 and a state matrix in §60; K is a knowledge base in formal sections and a feedback gain in §60; \(R_t\) is feedback/outcome in §71/95 and a rehearsal-related variable in the habit recurrence; M is memory and also appears in the self-model operator; G denotes goal structure but also generalization in the intelligence functional. These are avoidable namespace collisions, not cosmetic issues, because they obscure whether terms are the same variable.
+10. **Time-scale mismatch.** Neural/cue events, action episodes, focus blocks, daily summaries and weekly policy reviews are not one homogeneous time step. A shared subscript \(t\) cannot imply identical sampling or update cadence. The aggregation and synchronization rules must be explicit.
+11. **§60-to-human mapping absent.** The Schur stability theorem is valid for the specified homogeneous discrete-time LTI model. The treatise does not identify human state variables, control matrices, gains, sampling interval or disturbance model, nor map them to the primitive tuple. The theorem is a mathematical template, not evidence of behavioural stability.
+12. **§74-to-system mapping absent.** The conditional softmax result is a local choice rule. It does not define the transition model, parameter learning, goal revision or stability of the full system. Repeated success alone does not supply a monotone learning update.
+
+### 33.3 Candidate typed contract for controlled revision
+
+The following is a **candidate schema for reconciliation**, not a finalized model or an instruction to rewrite the treatise. It keeps exogenous environment, latent internal state, observations, action, outcomes, resources and policy updates distinct.
+
+| Type | Candidate object | Required semantics |
+|---|---|---|
+| Fixed architecture | \(\mathfrak A\) | Physical/computational organization and fixed transition constraints; not confused with a state matrix |
+| Environment | \(e_t\in\mathcal E\) | External conditions and available cues, with an explicit exogenous or coupled update rule |
+| Latent internal state | \(x_t\in\mathcal X\) | Current internal condition; state components and units defined for the target domain |
+| Memory/history | \(m_t\in\mathcal M\) | Stored representations and relevant history; specify retention, decay and update timing |
+| Goal/constraints | \(g_t\in\mathcal G\) | Goal structure, feasibility constraints and normative priority; distinguish user-chosen goals from measured outcomes |
+| Policy and parameters | \(\pi_{\theta_t}\), \(\theta_t\in\Theta\) | Feasible-action distribution and the parameters governing it; specify whether learning updates policy, model or both |
+| Observation | \(o_t\in\mathcal O\) | Measured signal generated by an observation model; provenance, noise and missingness recorded |
+| Belief/self-estimate | \(b_t\in\mathcal B\) | Estimate derived from observation/history, not silently supplied the inaccessible true state |
+| Action | \(a_t\in\mathcal A_{feasible}(b_t,e_t,g_t)\) | Selected action within an explicitly defined feasible set |
+| Outcome/feedback | \(y_t\in\mathcal Y\) | Vector of separately defined task outcome, reward/progress, prediction error, functional quality and self-report; no untyped scalar aggregation |
+| Resources | \(\rho_t\in\mathcal R\) | Distinct resource state with units, constraints and measurement method; not confused with reward/feedback |
+| Disturbance/uncertainty | \(\epsilon_t\) | Exogenous noise/model error with a specified distribution or bounded set where required |
+
+A minimal sequential skeleton could then be written as:
+
+\[
+ o_t\sim p_{\mathfrak A}(o_t\mid x_t,e_t),\qquad
+ b_t=\mathcal B(b_{t-1},o_t,a_{t-1},y_{t-1}),
+\]
+\[
+ a_t\sim\pi_{\theta_t}(\cdot\mid b_t,m_t,g_t,e_t),\qquad
+ (x_{t+1},m_{t+1},e_{t+1})\sim
+ T_{\mathfrak A,\theta_t}(x_t,m_t,e_t,a_t,\epsilon_t),
+\]
+\[
+ (\theta_{t+1},\pi_{t+1})=
+ U(\theta_t,\pi_t,b_t,g_t,y_t,\rho_t).
+\]
+
+This skeleton is intentionally incomplete: it shows the type boundaries and update ordering that must be specified, but it does not establish that the selected variables form a sufficient state, that the operators are identifiable, or that the model predicts human behaviour. A final specification must decide whether environment updates are endogenous, how goals can be revised, how outcomes are observed, and whether policy learning and self-model learning are separate operators.
+
+### 33.4 Integration tests required before calling the model unified
+
+- **Type check:** every operator declares input/output spaces, units, permissible values, missingness and error behaviour.
+- **State sufficiency:** demonstrate or explicitly disclaim Markov sufficiency; compare a reduced state with relevant history-augmented alternatives.
+- **Causal ordering:** identify whether observation precedes action, action precedes outcome, and feedback updates memory, model, policy or goals; separate simultaneous from serial operations.
+- **Clock/aggregation:** define event, episode, daily and weekly update windows and how summaries enter slower policy updates.
+- **Symbol registry:** reserve unique names for architecture, control matrices, knowledge sets, reward, rehearsal, resources, memory, model and goals.
+- **Identifiability/observability:** show which latent variables and parameters can be estimated from the proposed observations and which remain assumptions.
+- **Baseline comparison:** compare the integrated model against established component models and simpler combinations; test whether the full architecture adds held-out predictive or control value.
+- **Ablation:** remove each proposed component in turn to test whether its contribution is measurable rather than merely narratively assigned.
+- **Robustness:** evaluate uncertainty, disturbances, missing data, context shifts, distribution shift and failure handling.
+- **Independent validation:** freeze the model before held-out evaluation; do not tune state definitions or parameters on the final test outcomes.
+
+### 33.5 Claim-level dispositions
+
+| Stable ID | Provisional disposition | Required closure |
+|---|---|---|
+| S03-M01 / S03-EQ01–EQ05 | Retain as a broad schematic inventory; not a fully specified Markov/state-space model | Fix state/action/observation ordering; define spaces, units, noise, observation history, memory and parameter/policy updates |
+| S46-M01 / S46-EQ01–EQ03 | Retain as candidate self-model/update architecture, subject to §31 | Remove estimator input leakage; define \(C_t\), belief state and whether update affects model, policy or both |
+| S60-M01 / S60-C01 | Retain the Schur result as a mathematical condition for a specified homogeneous LTI system; no human stability claim | Identify the human model and map its state/input/disturbance to the typed contract before empirical application |
+| S61-M01 / S61-EQ01 | Candidate performance/stability proxy only; not a Lyapunov certificate | Define state, equilibrium, units, positive definiteness, invariant domain and drift/decrease conditions |
+| S62-P05 / S62-C01 | Conditional proposition remains unproved as written | Supply a quantified deterministic/stochastic drift condition and separately test empirical premises |
+| S63-C01 | Practical caution retained; blanket impossibility wording remains under-specified | Define controller class, actuation bounds, disturbance set and performance criterion |
+| S64-C01 / S64-EQ01 | Retain as a candidate goal-action criterion, not a validated measure | Define feasible opportunities, context, appropriate goal action, urge scale and threshold |
+| S71-C01 / S71-EQ01/EQ02 | Retain as an architectural placeholder, not a defined unified transition law | Type every argument/operator, resolve composition order or concurrency, and include action/environment/policy updates |
+| S74-TH05 / S74-C01 | Retain only as a conditional softmax monotonicity result plus an unvalidated human-control hypothesis | State fixed positive inverse temperature, feasible action set and explicit learning update; do not infer full-system stability |
+| S95-EQ01 | Downgrade to a conceptual summary until shown equivalent to the typed system model | Restore omitted state/action variables or define their encoding; reconcile notation and derive equivalence to §§3/71 |
+
+**Disposition.** The plan's earlier provisional interface contract is consistent with this audit, but remains a design contract rather than a validated model. Sections 3, 46, 71 and 95 currently describe related but non-equivalent abstractions; §§60–64 and §74 add local control results without closing the full-system interface. The candidate typed schema makes the missing obligations explicit and should guide any future controlled revision. No treatise/tracker edits; no experiments executed or authorized.
