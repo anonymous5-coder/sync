@@ -1480,6 +1480,72 @@ Kevin S. McGrew, “Carroll’s Three-Stratum (3S) Cognitive Ability Theory at 3
 **Status:** comparator source for psychometric structure and validation design; not validation of the treatise's proposed index.
 
 
+
+
+### 25.4 New source records — human neural energetics and task effort
+
+#### R60 — Bruckmaier et al. (2020): attention-dependent cellular metabolism in human visual cortex
+
+Merit Bruckmaier, Ilias Tachtsidis, Phong Phan and Nilli Lavie, “Attention and capacity limits in perception: A cellular metabolism account,” *The Journal of Neuroscience* (2020), DOI: [10.1523/JNEUROSCI.2368-19.2020](https://doi.org/10.1523/JNEUROSCI.2368-19.2020). Open full text: [UCL repository PDF](https://discovery.ucl.ac.uk/id/eprint/10107704/1/JNEUROSCI.2368-19.2020.full.pdf).
+
+**Evidence type:** primary human experimental study using broadband near-infrared spectroscopy to measure the oxidation state of cytochrome-c oxidase (oxCCO), an intracellular marker of oxidative metabolism, in visual cortex during a perceptual-load task.
+
+**Design and sample:** two experiments. Experiment 1 recruited 16 adults (11 female; age 18–34); one participant was excluded from analysis. Experiment 2 recruited 18 adults (15 female; age 20–38); one participant was excluded. Participants performed rapid visual-search tasks under low and high perceptual load, with task-irrelevant peripheral checkerboards used to index unattended processing.
+
+**Findings:** higher perceptual load increased oxCCO associated with attended processing in selected visual-cortex regions and reduced the oxCCO response associated with unattended processing. The load-by-distractor interaction was significant in BA17 and right BA18/BA19 in Experiment 1; Experiment 2 found increased attended-processing oxCCO in left BA18 and BA17, with non-significant trends elsewhere. The temporal load effects for attended and unattended processing were negatively correlated. The study therefore provides direct, task-specific evidence for attention-dependent redistribution of local cellular metabolism in human visual cortex.
+
+**Does not establish:** a whole-brain energy budget for all cognition, constant global cerebral energy supply across arbitrary tasks, a per-inference or per-thought energy cost, subjective effort as a metabolic quantity, or the treatise's proposed action-score coefficients. The authors' broader constant-supply interpretation extends beyond the directly sampled visual-cortex regions. Their temporal-correlation analysis treats participants as fixed effects and explicitly limits inference to the sample; larger-sample replication is required. The experiments are small and concern a specific perceptual-attention paradigm.
+
+**Pinpoints verified:** full text, abstract and methods/results/discussion. PDF lines 80–122 (abstract); 380–404 and 590–604 (samples); 735–910 (regional results and temporal correlations); 912–1055 (global-constancy interpretation and its relation to prior work); 1131–1143 (future research and spatial/multimodal scope).
+
+**Status:** direct primary support for local, task-specific metabolic redistribution; not support for global invariance or general cognitive-energy coefficients.
+
+#### R61 — Madsen et al. (1992): global cerebral oxygen uptake during mental arithmetic and stress
+
+Per Lav Madsen, J. F. Schmidt, Søren Holm, Hugo Jørgensen, G. Wildschiødtz, N. J. Christensen, L. Friberg, S. Vorstrup and N. A. Lassen, “Mental stress and cognitive performance do not increase overall level of cerebral O2 uptake in humans,” *Journal of Applied Physiology* 73(2), 420–426 (1992), DOI: [10.1152/jappl.1992.73.2.420](https://doi.org/10.1152/jappl.1992.73.2.420). PubMed: [PMID 1399960](https://pubmed.ncbi.nlm.nih.gov/1399960/).
+
+**Evidence type:** primary human physiological study; the abstract reports Kety–Schmidt measurements of cerebral metabolic rate of oxygen (CMRO2), cerebral blood flow and cerebral lactate output during rest, mental arithmetic and mental stress.
+
+**Findings:** global CMRO2 showed a minimal, non-significant 1% reduction during mental arithmetic rather than a detectable increase. Mental stress was associated with a statistically significant 6% reduction. Cerebral lactate output rose by 207% during arithmetic and 344% during stress, but high inter-individual variability meant only the arithmetic increase reached statistical significance.
+
+**Does not establish:** exact metabolic invariance, absence of regional or cellular redistribution, equivalence between CMRO2 and total brain energy expenditure, or a universal response across cognitive tasks. A non-significant global difference is not proof of exact equality. The lactate findings also caution against treating oxygen uptake as the sole energetic measure.
+
+**Pinpointing status:** PubMed abstract and bibliographic metadata verified; full article, sample size, full protocol and tables were not inspected in this pass. Retain as abstract-level primary evidence.
+
+**Status:** bounded evidence against a simple claim that mental arithmetic or psychological stress necessarily increases global cerebral oxygen uptake.
+
+#### R62 — Lin et al. (2011): task-negative regional metabolism and effort
+
+Pan Lin, Uri Hasson, Jorge Jovicich and Simon Robinson, “A Neuronal Basis for Task-Negative Responses in the Human Brain,” *Cerebral Cortex* 21(4), 821–830 (2011), DOI: [10.1093/cercor/bhq151](https://doi.org/10.1093/cercor/bhq151). Open full text: [Oxford Academic](https://academic.oup.com/cercor/article/21/4/821/286925).
+
+**Evidence type:** primary human calibrated-fMRI study estimating regional CMRO2 and cerebral blood flow during a demanding arithmetic task.
+
+**Design and sample:** 12 right-handed healthy adults (mean age 26.1 years; three female) completed self-paced arithmetic blocks and rest blocks across three runs.
+
+**Findings:** calibrated-fMRI coupling supported a neuronal/metabolic source for task-negative responses in multiple default-mode regions. The study identified two patterns: greater deactivation (metabolic-rate reduction) was associated with more effort in some regions and less effort in others. Thus regional metabolic changes and effort do not follow one universal monotonic relationship.
+
+**Does not establish:** a single whole-brain effort-energy function, a general physiological coefficient for subjective effort, or the treatise's multi-factor action score. CMRO2 estimates depend on calibrated-fMRI assumptions and parameter choices; the study is small and task-specific.
+
+**Pinpoints verified:** full article, abstract and methods/results. Article lines 69–73 (abstract); 96–127 (participants, task and CMRO2 estimation); the results and figures; discussion of region-specific effort/deactivation patterns.
+
+**Status:** full-text primary evidence for regional, task-specific metabolic responses and heterogeneous effort associations; not a universal effort law.
+
+#### R63 — Backs & Seljos (1994): metabolic, cardiorespiratory and subjective mental workload
+
+Richard W. Backs and Kimberle A. Seljos, “Metabolic and cardiorespiratory measures of mental effort: the effects of level of difficulty in a working memory task,” *International Journal of Psychophysiology* 16(1), 57–68 (1994), DOI: [10.1016/0167-8760(94)90042-6](https://doi.org/10.1016/0167-8760(94)90042-6). PubMed: [PMID 8206805](https://pubmed.ncbi.nlm.nih.gov/8206805/).
+
+**Evidence type:** primary human within-subject working-memory experiment; abstract-level source access in this pass.
+
+**Design and sample:** 24 participants (12 female) completed a continuous memory task with memory load (one versus three items) and temporal demand (interstimulus intervals of two, three or four seconds) manipulated. Metabolic, cardiorespiratory, performance and subjective-workload measures were collected.
+
+**Findings:** memory load affected all measured components, while temporal demand affected respiration, performance and subjective workload but not all metabolic/cardiovascular components. Principal-component analysis separated metabolic, respiratory, cardiovascular and subjective/performance dimensions. Metabolic expenditure was higher among poorer performers; the authors report that cardiac and metabolic changes were not a function of overall mental effort but were specific to memory-load demands and individual differences.
+
+**Does not establish:** brain CMRO2, neuronal energy expenditure, a general relation between subjective effort and metabolic cost, or a universal effort coefficient. Peripheral metabolic/cardiorespiratory measurements must not be substituted for cerebral energy measurements.
+
+**Pinpointing status:** bibliographic metadata and abstract verified; full text and detailed tables were not inspected.
+
+**Status:** bounded evidence that subjective workload, performance, respiration and metabolic/cardiovascular responses are separable dimensions; abstract-level only.
+
 ## 26. Exhaustive stable-ID/source traceability matrix — structural audit and crosswalk correction
 
 **Baseline and scope.** This matrix is compiled against the current edition branch baseline: treatise blob 123abdbe9ad3e6c24d150e7db2f38e9562d520d5, register blob 56859854fde83111edabd8e84b07038add291150, and governing-plan blob 261648d107549951a2632676a259dbd6b53d18d1. The branch compares as 99 commits ahead of main and 0 behind; this work does not merge or modify main. The 204-ID inventory was independently regenerated and reconciled against every stable ID in the first column of the claim tables: **204/204 stable IDs are represented**. There are 153 table rows because some rows deliberately group multiple stable IDs. This is a structural coverage check, not proof that every claim has a complete source trail.
@@ -1508,8 +1574,8 @@ These are label normalizations only. They do not add claims, alter the treatise 
 | Cluster | Canonical stable IDs assigned in this pass | Existing R records | Scope / limitation |
 |---|---|---|---|
 | E01 | S04-A01, S17-EQ02, S31-EQ01 | R09, R10 | Physical computation/Landauer; review sources cited historically are not all assigned R IDs. |
-| E02 | S16-C01, S18-C01, S24-C02, S31-C01, S92-C01 | R11–R14 | Neural energetics and information/energy; does not establish behavioural coefficients. |
-| E03 | S19-M01, S35-C01, S36-C01, S37-C01, S67-C01, S78-EXP-C | R13–R15, R24–R25, R43–R44 | Effort, cost-sensitive control and sleep; evidence is bounded and task-specific. |
+| E02 | S16-C01, S18-C01, S24-C02, S31-C01, S92-C01 | R11–R14, R60–R62 | Neural energetics and information/energy; R60–R62 provide direct human task-specific evidence but do not establish behavioural coefficients. |
+| E03 | S19-M01, S35-C01, S36-C01, S37-C01, S67-C01, S78-EXP-C | R13–R15, R24–R25, R43–R44, R62–R63 | Effort, cost-sensitive control and sleep; evidence is bounded and task-specific. |
 | E04 | S21-C01, S22-EQ01, S34-EQ01, S35-EQ01, S35-EQ02, S35-EQ03, S42-M01, S56-M01 | R16, R18–R19, R26, R28–R30, R53 | Habit/RL; constructs and paradigms are not interchangeable; exact recurrences remain unvalidated. |
 | E05 | S55-C01, S80-EXP-E | R31–R32, R48 | Implementation intentions; supports a component, not ROOT package efficacy. |
 | E06 | S41-C01, S43-C01, S54-C01, S79-EXP-D | R33–R34 | Environmental/digital friction interventions; mixed and context-bound findings. |
@@ -1517,7 +1583,7 @@ These are label normalizations only. They do not add claims, alter the treatise 
 | E09 | S44-M01, S45-C01, S53-M01, S65-C01, S67-C01, S69-C01, S69-PROT01, S76-EXP-A, S77-EXP-B, S78-EXP-C, S79-EXP-D, S80-EXP-E, S81-EXP-F, S82-M01 | R27, R38, R41–R42, R47, R50 | Measurement and single-case/experimental methods; guidance is not efficacy evidence. |
 | E10 | S07-EQ01, S10-M01, S10-EQ01, S10-TH01, S11-TH01, S13-EQ01, S14-EQ01, S14-EQ02, S30-C01, S30-C02, S73-TH04 | R01–R05, R21–R22, R52 | Information theory, logic, Bayesian epistemology and underdetermination; formal support is premise-bounded. |
 | E11 | S08-C01, S08-C02 | R06–R08 | Prenatal/developmental evidence; narrow auditory and developmental scope. |
-| E12 | S16-C01, S18-C01, S31-C01 | R11–R13 | Brain energetics; distinguish signalling, baseline metabolism and task-level expenditure. |
+| E12 | S16-C01, S18-C01, S31-C01 | R11–R13, R60–R62 | Brain energetics; distinguish signalling, baseline metabolism and task-level expenditure. R60–R62 add direct but task-bounded human measurements. |
 | E13 | S35-C01 | R23 | Wanting/liking distinction; addiction-specific sensitization must not be generalized to ordinary desire. |
 | E14 | S66-C01 | R45–R46, R57 | CSBD diagnostic boundary; not a diagnosis of any individual. |
 | E15 | S32-M01, S39-EQ01, S44-M01, S67-C01 | R27, R42–R44 | Psychometric validity, EMA and sleep; S39-EQ01 is the canonical registered ID. |
@@ -1589,15 +1655,15 @@ These are label normalizations only. They do not add claims, alter the treatise 
 | S16-EQ01 | Psychological distraction is not identical to thermodynamic entropy (L537–541) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S16-EQ02 | Six-stage physical-to-behavioural bridge (L543–550) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S17-C01 | Physical premise and resource model | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
-| S17-C02 | Information processing has energetic and temporal implementation costs (L587–588) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
+| S17-C02 | Information processing has energetic and temporal implementation costs (L587–588) | — | R11, R60–R62; R61 abstract-level | Direct primary support for neural energetic cost and selected human regional/global task responses; no per-thought cost or general coefficient. | R60 full text; R61 abstract; R62 full text; R11 model-based estimate. §34. |
 | S17-EQ01 | First-law accounting \(\Delta U=Q+W\) (L567–577) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S17-EQ02 | Landauer bound \(Q_{min}=k_BT\ln2\) for erasure of one unbiased bit (L579–585) | E01 | R09, R10 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
 | S18-C01 | Physical premise and resource model | E02, E12 | R11–R14; R11–R13 | Cluster association + selected pinpoint; not full source closure | R11–R14: R13/R14 abstract-level; §§23,25. |
-| S18-C02 | The brain allocates limited metabolic resources across listed processes (L605–615) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
-| S18-C03 | Difficult tasks may impose different control demands than familiar routines (L617–623) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
+| S18-C02 | The brain allocates limited metabolic resources across listed processes (L605–615) | — | R11–R14, R60–R62 | Local attention-dependent redistribution has direct human experimental support; the treatise's full process-budget decomposition and global allocation claim remain unestablished. | R60 full text; R62 full text; R61 abstract; R13/R14 review-level. §34. |
+| S18-C03 | Difficult tasks may impose different control demands than familiar routines (L617–623) | — | R15, R24, R62–R63 | Task-specific effort/control and physiological responses vary; no universal effort-metabolism relation. | R15 full text; R24 full text; R62 full text; R63 abstract. §§25,34. |
 | S18-EQ01 | Decomposed brain-power budget \(P_{brain}=P_{baseline}+P_{signalling}+P_{plasticity}+P_{regulation}\) (L596–603) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S19-C01 | The score is not a literal claim about a central brain computation (L664–665) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
-| S19-M01 | Multilevel causal hypothesis, score model, conditional proposition | E03 | R13–R15, R24–R25, R43–R44 | Cluster association + selected pinpoint; not full source closure | R13–R15 and R24; R24 full section/equation; §25. |
+| S19-M01 | Multilevel causal hypothesis, score model, conditional proposition | E03 | R13–R15, R24–R25, R43–R44, R62–R63 | Candidate model only; effort/control/physiology sources do not identify its coefficients or establish causal score terms. | R15/R24/R62 full text; R13/R14/R25/R43/R44/R63 abstract-level where noted; §34. |
 | S19-M02 | Softmax action-selection distribution (L651–663) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S20-C01 | A familiar competing action can outrank a long-term goal under current local conditions (L668–692) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S20-P03 | Multilevel causal hypothesis, score model, conditional proposition | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | R24 full section/equation; §25. |
@@ -1639,7 +1705,7 @@ These are label normalizations only. They do not add claims, alter the treatise 
 | S34-C01 | Cue–action–outcome learning can increase later response readiness (L1123–1158) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S34-EQ01 | Distinct learning mechanisms and candidate recurrences | E04 | R16, R18–R19, R26, R28–R30, R53 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
 | S35-C01 | Anticipatory motivation and learned policy can persist despite modest experienced pleasure (L1161–1175) | E03, E13 | R13–R15, R24–R25, R43–R44; R23 | Cluster association + selected pinpoint; not full source closure | R23–R24 full sections; §25. |
-| S35-C02 | Arbitration weight may depend on uncertainty, effort, fatigue, reliability and task demand (L1199–1208) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
+| S35-C02 | Arbitration weight may depend on uncertainty, effort, fatigue, reliability and task demand (L1199–1208) | — | R15, R24–R26, R62–R63 | Candidate factors have task-specific theoretical/experimental neighbours; the treatise's joint weighting function and coefficients remain unvalidated. | R15/R24 full text; R62 full text; R63 abstract. §§25,34. |
 | S35-EQ01 | Distinct learning mechanisms and candidate recurrences | E04 | R16, R18–R19, R26, R28–R30, R53 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
 | S35-EQ02 | Model-free value \(Q_{MF}(s,a)\) (L1185–1187) | E04 | R16, R18–R19, R26, R28–R30, R53 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
 | S35-EQ03 | Weighted arbitration \(Q_{combined}=\omega(s)Q_{MB}+[1-\omega(s)]Q_{MF}\) (L1189–1197) | E04 | R16, R18–R19, R26, R28–R30, R53 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
@@ -2243,3 +2309,46 @@ This skeleton is intentionally incomplete: it shows the type boundaries and upda
 | S95-EQ01 | Downgrade to a conceptual summary until shown equivalent to the typed system model | Restore omitted state/action variables or define their encoding; reconcile notation and derive equivalence to §§3/71 |
 
 **Disposition.** The plan's earlier provisional interface contract is consistent with this audit, but remains a design contract rather than a validated model. Sections 3, 46, 71 and 95 currently describe related but non-equivalent abstractions; §§60–64 and §74 add local control results without closing the full-system interface. The candidate typed schema makes the missing obligations explicit and should guide any future controlled revision. No treatise/tracker edits; no experiments executed or authorized.
+
+## 34. Direct primary-source coverage — human neural energetics and task effort; E16–E18 provenance boundary
+
+### 34.1 Provenance recovery result
+
+The branch history was rechecked against the actual `edition` ref, not the stale commit-search result. The GitHub commits endpoint returned 150 commits across pages 1–2 and no additional commits on page 3. No commit in that reachable history has a SHA beginning `4b6c2e6`; the historical diff itself labels that identifier as a future commit “to be assigned.” No corresponding full-SHA source-map artifact was found in the governing directory, which contains only the plan, register, treatise and tracker.
+
+The defensible result is unchanged: **E16 is partially recoverable as a historical neural-energetics/physical-to-cognitive topic**, because the earlier adjudication explicitly grouped it with E02/E12 and the listed claims. This does not recover a complete E16 definition or stable-ID map. **E17 and E18 remain unrecovered.** The repository contains no auditable definition, source inventory or claim assignment for either. No labels, sources or mappings are inferred from numbering or adjacent clusters. They remain explicit provenance gaps and are not used as canonical evidence-cluster identifiers.
+
+### 34.2 New primary-source coverage
+
+R60–R63 add direct human evidence to the earlier model/review-heavy neural-energy and effort discussion. Access level is recorded separately for each source. These records are source-to-claim assignments, not a reconstruction of E16–E18.
+
+| Stable ID | Direct sources and exact fit | What is supported | What remains unsupported |
+|---|---|---|---|
+| S17-C02 | R60, R61, R62; R11 for the neural-signalling model | Neural activity has energetic implementation costs; human cognitive/attentional tasks can produce local, task-specific metabolic changes, while selected global CMRO2 measures do not necessarily rise during mental arithmetic | A universal per-inference/per-thought energy cost, task-independent coefficient, or the treatise's allocation across cognitive operations |
+| S18-C02 | R60, R61, R62, with R11–R14 as prior context | Local metabolic redistribution across attended/unattended visual processing is experimentally observed in a specific perceptual-load paradigm; regional task-negative metabolic changes are measurable | A single centrally managed whole-brain budget, a general allocation rule across the treatise's full list of processes, or a demonstrated whole-brain invariant across arbitrary tasks |
+| S18-C03 | R62, R63, alongside R15 and R24 | Effort reports, task demand, regional cerebral metabolism and peripheral physiological/metabolic responses can vary in different ways; task-specific control allocation is a legitimate comparator | A universal monotonic relationship between difficulty, subjective effort and brain energy use; the treatise's proposed causal pathway |
+| S35-C02 | R15, R24, R62, R63 | Cost-sensitive arbitration and effort-related physiological/neural responses have established neighbouring accounts and task-specific evidence | The joint effect, direction, relative importance or coefficients of uncertainty, effort, fatigue, reliability and task demand in the treatise's arbitration weight |
+| S19-M01 | R15, R24, R60–R63 | The candidate model addresses distinct phenomena that can be measured separately and compared with established cost-sensitive control models | The additive score's construct validity, commensurability, identifiable coefficients, causal interpretation or incremental predictive value |
+
+### 34.3 Integrated evidence interpretation
+
+1. **Baseline cost is not task increment.** The brain has substantial ongoing metabolic requirements. A large baseline does not imply that every cognitive task produces a large measurable increment, and a small global increment does not imply that neural computation is energetically free.
+2. **Global, regional and cellular measures are not interchangeable.** R61 measures global oxygen uptake; R62 estimates regional CMRO2 and blood-flow coupling; R60 measures local visual-cortex oxCCO; R63 measures peripheral metabolic/cardiorespiratory and subjective workload dimensions. They cannot be collapsed into one “brain energy” variable.
+3. **Local redistribution is a defensible, narrow result.** R60 supplies direct human evidence for attention-dependent local metabolic redistribution under a specific visual perceptual-load manipulation. It does not measure the entire brain. The authors' broader constant-global-supply interpretation must therefore be described as an interpretation supported by, but not directly established by, that local experiment.
+4. **Task-negative response is not simply “less effort.”** R62 reports two regional patterns, with deactivation associated with either more or less effort depending on the region. A single scalar mapping from effort to metabolic activity is not warranted.
+5. **Subjective effort is not metabolic expenditure.** R63's separate components and findings reinforce that subjective workload, performance, respiration, cardiovascular response and peripheral metabolic measures are distinct. It is not a brain-energy measurement.
+6. **Null global change is not exact invariance.** R61's non-significant 1% global CMRO2 reduction during mental arithmetic is evidence against a detectable increase in that task and measurement, not proof that the global energy budget is mathematically constant or that no local redistribution occurs.
+7. **No coefficient transfer is justified.** None of R60–R63 estimates the treatise's Q(a) terms or weights. They cannot be used to assign physiological values to subjective effort, control demand, fatigue, delay or switching costs.
+
+### 34.4 Claim dispositions after direct-source pass
+
+- **S17-C02:** retain the broad physical/neural energetic premise with explicit substrate, operation and timescale scope. Defer per-thought/per-inference costs and all universal coefficients.
+- **S18-C02:** retain distributed neural/metabolic demand as a legitimate premise; narrow any claim of a unified global allocation mechanism. Treat the detailed process budget as a model hypothesis.
+- **S18-C03:** retain task-sensitive control demand as a hypothesis. Require separate measures for task difficulty, subjective effort, fatigue, performance and cerebral physiology.
+- **S35-C02:** retain the listed arbitration variables as candidate predictors, not established determinants. Require prospective, task-specific model comparison and independent coefficient estimation.
+- **S19-M01:** retain as a provisional decision-model proposal only. Require typed, horizon-matched terms, defensible scaling, identifiable coefficients, sensitivity analysis and out-of-sample comparison against established cost-sensitive control models.
+
+**Evidence-access ledger:** R60 and R62 were inspected at full-text level; R61 and R63 remain abstract-level. No source is described as fully verified beyond the access level actually obtained. The historical E16 partial provenance is not upgraded into a complete cluster definition. E17/E18 remain unresolved.
+
+**Disposition.** Direct primary-source coverage for the neural-energetics/effort claims is materially improved, but the treatise's integrated energy-allocation model and action-score coefficients remain unvalidated. No treatise or tracker edits; no experiments executed or authorized. This closes only the present source-coverage unit, not the 204-ID audit or final edition.
+
