@@ -96,19 +96,19 @@ where:
 - $G_t$: objective structure, including goals, constraints, needs, and priorities.
 - $\Theta_t$: parameters that can change through learning, development, or deliberate modification.
 
-The system receives a signal $O_t$, updates an internal state, and may choose an action $a_t$:
+At each decision step, the system receives an observation, selects an action, and then transitions to its next internal state:
 
-$$
+$
 O_t \sim P(O_t\mid E_t,X_t)
-$$
+$
 
-$$
+$
+a_t\sim \Pi_t(\cdot\mid X_t,M_t,O_t,G_t)
+$
+
+$
 X_{t+1}=F_A(X_t,M_t,O_t,a_t,\xi_t)
-$$
-
-$$
-a_t\sim \Pi_t(\cdot\mid X_t,M_t,G_t)
-$$
+$
 
 Here $\xi_t$ represents noise and unmodelled influences. The system may update memory and policy:
 
@@ -120,7 +120,7 @@ $$
 \Theta_{t+1}=U_\Theta(\Theta_t,\text{feedback}_t)
 $$
 
-The formulation is intentionally general. A human brain, an artificial agent, and a physical controller can all be represented at this abstract level, although their architectures and mechanisms differ substantially.
+The formulation is intentionally general. A human brain, an artificial agent, and a physical controller can all be represented at this abstract level, although their architectures and mechanisms differ substantially. $\mathcal S_t$ is a system-level descriptor, not a claim that the listed components form a minimal or Markov-sufficient state; state sufficiency and update rules must be established for each application.
 
 ## 4. Axioms
 
@@ -1258,13 +1258,13 @@ The action-selection equation already contains state-dependent terms. Sleep, str
 - the probability of detecting an error;
 - the cost of initiating a task.
 
-Let $z_t$ represent physiological state. Then:
+Let $\phi_t$ represent physiological context, distinct from the task-demand variable $z_t$ used in §39. Then:
 
-$$
-Q(a\mid s,z_t)
+$
+Q(a\mid s,\phi_t)
 =
-R(a\mid s,z_t)-C(a\mid s,z_t)
-$$
+R(a\mid s,\phi_t)-C(a\mid s,\phi_t)
+$
 
 The same action can have different effective values under different physiological conditions.
 
@@ -1684,7 +1684,7 @@ where:
 - $h_t$: habit strength;
 - $e_t$: environmental accessibility of the competing action.
 
-The system estimates $s_t$ using observation and reflection. The estimate need not be perfect; it must be good enough to select a useful intervention.
+The system estimates $s_t$ using observation and reflection. The estimate need not be perfect; it must be good enough to select a useful intervention. Here $f_t$ is an ordinal self-rating of perceived fatigue, not an objective physiological measurement. In the reduced six-variable model in §39, $z_t$ denotes task demand/difficulty and uncertainty and corresponds only approximately to $d_t$ here; the ROOT vector additionally records competing-action accessibility as $e_t$. The seven ratings remain ordinal and are not assumed to be equally spaced or directly additive.
 
 ## 53. R — Recognise
 
@@ -1692,13 +1692,13 @@ The recognition stage detects the earliest reliable signal of the unwanted seque
 
 A trigger record can be represented as:
 
-$$
-\mathcal{E}_t=(c_t,s_t,a_t,r_t,\tau_t)
-$$
+$
+\mathcal{E}_t=(\text{cueID}_t,s_t,a_t,r_t,\tau_t)
+$
 
 where:
 
-- $c_t$: trigger;
+- $\text{cueID}_t$: identifier/description of the trigger or cue context (distinct from the cue-intensity rating $c_t$ inside $s_t$);
 - $s_t$: state;
 - $a_t$: action taken;
 - $r_t$: immediate consequence;
@@ -1782,9 +1782,9 @@ Correction uses outcome data to identify whether the intervention worked.
 
 Let $y_t$ be the observed outcome and $y_t^*$ the desired outcome:
 
-$$
-e_t=y_t^*-y_t
-$$
+$
+\varepsilon_t^{\mathrm{out}}=y_t^*-y_t
+$
 
 The intervention is adjusted according to the error and its likely cause.
 
@@ -1854,29 +1854,29 @@ A stable behavioural system does not require constant high motivation. It has en
 Let $x_t$ represent deviation from the intended behavioural state. A simple discrete-time control model is:
 
 $$
-x_{t+1}=Ax_t+Bu_t+w_t
+x_{t+1}=A_{\mathrm{plant}}x_t+B_{\mathrm{plant}}u_t+w_t
 $$
 
 where:
 
-- $A$: uncontrolled system dynamics;
-- $B$: effect of the control intervention;
+- $A_{\mathrm{plant}}$: uncontrolled plant dynamics;
+- $B_{\mathrm{plant}}$: effect of the control intervention;
 - $u_t$: intervention;
 - $w_t$: disturbances.
 
 A feedback controller may choose:
 
 $$
-u_t=-Kx_t
+u_t=-K_{\mathrm{fb}}x_t
 $$
 
 giving:
 
 $$
-x_{t+1}=(A-BK)x_t+w_t
+x_{t+1}=(A_{\mathrm{plant}}-B_{\mathrm{plant}}K_{\mathrm{fb}})x_t+w_t
 $$
 
-In a linear model without disturbances, stability requires the eigenvalues of $A-BK$ to lie inside the unit circle.
+In a linear model without disturbances, stability requires the eigenvalues of $A_{\mathrm{plant}}-B_{\mathrm{plant}}K_{\mathrm{fb}}$ to lie inside the unit circle.
 
 Human behaviour is nonlinear, partially observed, and state-dependent. The linear model is an approximation useful for understanding feedback, not a literal complete brain model.
 
