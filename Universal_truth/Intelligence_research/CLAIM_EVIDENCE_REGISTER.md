@@ -2720,3 +2720,64 @@ This ledger applies the five independent fields defined in §22.1 to the first s
 
 **Batch C disposition:** 36/36 unique IDs reconciled to canonical fields at first-pass integrated level. Definitions, models and equations remain subject to their stated scope and dependencies. This is not independent review or final source closure. No treatise/tracker edits; no experiments executed or authorized.
 
+## 40. Canonical 204-ID disposition ledger — Batch D: Sections 41–59
+
+### 40.1 Batch D ledger
+
+| Stable ID | Claim kind | Formal status | Evidence status | Integrated disposition / open dependency |
+|---|---|---|---|---|
+| S41-C01 | Intervention hypothesis | Causal effect not established by component theory | If–then/friction sources support selected outcomes, not sustained attention | Retain as context-bounded hypothesis; directly measure sustained attention, opportunity and independent outcome. |
+| S41-M01 | Decision-model heuristic | Score comparison only; preference requires selector, feasible set and commensurate horizon | No validation of Qh/Qg terms or model | Retain as candidate model; specify score terms, scale, selector and falsifier. |
+| S41-C02 | Intervention taxonomy | Operational grouping, not a formal result | No package-level evidence | Retain as taxonomy; define antecedent/interruption/consequence/retraining components and fidelity. |
+| S42-C01 | Empirical generalization | No universal duration law follows from recurrence | R28/R29 show high individual variation and review bias; R30 supports context effects for walking | Retain narrowly: no single universal acquisition time; avoid broad duration claims. |
+| S42-M01 | Habit dynamics model | Recurrence not validated; boundedness requires explicit parameter/state constraints | Habit-formation studies do not validate this recurrence | Retain only as candidate bounded model; define time step, opportunity, R/N semantics and parameters. |
+| S43-C01 | Environmental leverage metric | Before/after ratio is not causal without counterfactual | R33–R34 support local friction effects, not this metric | Retain as provisional within-person heuristic; report benefit/burden separately. |
+| S43-EQ01 | Ratio equation | Definable only with operational numerator/denominator; not standardized effect size | No validation or cross-intervention comparability | Define opportunity denominator, baseline risk, horizon, burden, uncertainty and zero/negative cases. |
+| S44-C01 | Recovery measurement proposal | Metrics require event/time-window definitions | Task-resumption literature supports latency plus accuracy, not this composite | Retain raw measures as primary; define recovery boundary and functional output. |
+| S44-M01 | Weighted recovery composite | Algebraic but uninterpretable until units, direction, normalization and weights are fixed | No validation of composite; sleep regularity omitted from displayed score | Defer composite interpretation; retain raw measures and run sensitivity/validity checks. |
+| S45-C01 | Individualized feedback architecture | Generic loop; estimator, policy and update rule unspecified | R29–R30 show moderators/context effects, not superiority of this loop | Retain as workflow proposal; compare against fixed/simple baselines. |
+| S45-EQ01 | Feedback-loop equation | Schematic; no estimator/update semantics | Not validated | Specify state estimator, intervention policy, update cadence and stability/safety constraints. |
+| S45-C02 | Personalization hypothesis | No formal result; adaptive superiority is empirical | No evidence that individualized adaptation outperforms fixed rules | Retain as hypothesis; require within-person validation and comparator. |
+| S46-M01 | Self-model architecture | Schematic; estimator receives latent true S as if observed | Metacognition/meta-control are neighbours, not distinct-mechanism evidence | Retain as candidate architecture; define represented object and observation history. |
+| S46-EQ01 | Self-model equation | Observation model/history and latent-state estimator missing | No distinct Recursive Intelligence validation | Replace true-state input with observable/history-based estimator and define uncertainty. |
+| S46-EQ02 | Parameter-update equation | Update target, objective, constraints and error undefined | No empirical parameter-update evidence | Specify parameter domain, objective, update rule and meta-level target. |
+| S46-EQ03 | State-transition equation | Transition law and input/state interfaces unspecified | No validated transition model | Define typed transition, input channels, time index and comparator to ordinary adaptive control. |
+| S47-M01 | Recursive feedback model | Standard adaptive feedback form; no distinct recursion criterion | R35–R39 establish neighbouring metacognition/meta-control/adaptive control | Merge with §§45–46/59 unless a distinct meta-level object/update is specified. |
+| S47-C01 | Explanatory claim | Diagram does not prove a novel formal mechanism | No incremental contribution demonstrated | Retain only as generic feedback description; test against adaptive-control baselines. |
+| S48-C01 | Self-model fallibility principle | Methodological safeguard | Metacognitive confidence is fallible; no particular self-model accuracy established | Retain; require calibration and independent measures. |
+| S48-C02 | Prospective explanation-testing principle | Methodological, not empirical law | Supports controlled comparison as a test method, not a specific explanation | Retain; preregister predictions and use time-ordered holdouts/alternative models. |
+| S49-M01 | Policy objective/update model | Expected discounted return standard under defined process; update remains schematic | RL mathematics does not validate human policy-update mechanism | Retain as schematic objective; distinguish RL formalism from human-cognition hypothesis. |
+| S49-EQ01 | Discounted-return equation | Standard if trajectory distribution, reward, discount and horizon are specified | No empirical human validation | Define MDP/POMDP, state/action, reward/harm, risk and horizon. |
+| S49-EQ02 | Policy-update equation | Not an algorithm without parameterization/gradient/update semantics | No empirical validation | Specify estimator, parameterization, update algorithm and comparator. |
+| S49-C01 | Human policy-learning claim | Not established by the generic update equation | No evidence that people literally perform gradient updates | Retain as hypothesis only; test against simpler policy-learning baselines. |
+| S50-M01 | Goal hierarchy model | Ordering relation ambiguous; total order not justified | No validation of this hierarchy | Retain as organizing model; define priority, abstraction, horizon and partial/incomparable goals. |
+| S50-C01 | Normative goal-revision claim | Normative proposal; no universal hierarchy theorem | Goal conflict research is adjacent, not direct validation | Retain as proposal; define legitimate revision and safeguards against metric/goal gaming. |
+| S51-C01 | Protocol definition | Seven-stage list is a definition, not a controller proof | Component evidence exists; no ROOT package efficacy | Retain as operational proposal; clarify ROOT/ROOTCOL naming, stage interfaces and sequence. |
+| S52-M01 | State-vector model | Not Markov-sufficient or validated; latent and observed values conflated | No validation of vector sufficiency | Retain as bookkeeping vector; define constructs, indicators, scales, missingness and relation to other states. |
+| S52-C01 | Measurement claim | Ordinal ratings need anchors, reliability and sampling semantics | No validation study supplied | Retain provisionally; distinguish latent constructs from observable indicators. |
+| S53-M01 | Event-schema model | Tuple incomplete; cue duplicated within state; duration type unclear | No direct validation | Retain provisionally; define event boundaries, cue/state distinction and duration semantics. |
+| S53-C01 | Trigger/action distinction | Conceptually useful but not validated by current schema | No direct evidence | Retain after defining event start/end, consequence timing and eligible opportunity. |
+| S54-C01 | Environmental-obstruction hypothesis | Accessibility inequality does not entail probability inequality without monotonic model | R33–R34 support some context-specific screen-use changes | Retain as falsifiable local hypothesis; remove unconditional causal wording. |
+| S54-EQ01 | Accessibility inequality | Operational inequality if accessibility measure defined | No universal intervention effect | Define accessibility scale and intervention manipulation. |
+| S54-EQ02 | Action-probability inequality | Requires monotonic response and substitution/context assumptions; not algebraic | Partial local friction evidence only | Measure opportunities, target action, substitution and functional output under comparator. |
+| S55-C01 | Implementation-intention component | Cue–response definition is clear; execution not logically guaranteed | R31/R32 and R64/R65 support selected outcomes; not ROOT package | Retain with scope qualification; define cue specificity, response feasibility, rehearsal, opportunity and adherence. |
+| S56-M01 | Alternative-response learning model | Unbounded without parameter domains/projection; failure term may reverse small values | R28–R30 do not validate recurrence | Retain as conceptual heuristic only; define S/F, bounds, projection, decay and context. |
+| S57-EQ01 | Signed-error identity | Valid when target/observation share units, scale and time window | Not an empirical claim | Retain conditionally; rename colliding e symbol and define outcome vector. |
+| S57-C01 | Feedback-controller hypothesis | Controller gain/update/delay/noise/stability absent | No source validates ROOT correction rule | Defer functioning-controller claim; specify update, constraints and stability/overshoot tests. |
+| S58-C01 | Multi-domain optimization framework | No objective function/constraints; not a validated optimizer | R43–R44 support domain-specific sleep effects; no combined package evidence | Retain as candidate contextual factors and non-maximization safeguard; define outcomes, safe bounds, burden and evidence per domain. |
+| S59-M01 | Integrated ROOT feedback model | No formal dynamical system until interfaces, order and timescales defined | No package-level evidence | Retain as provisional architecture; define typed stage interfaces, state/policy updates and feedback timing. |
+| S59-C01 | Feedback-context claim | Proposed cycle relation, not formal consequence of stage list | No independent validation of integrated cycle | Retain as hypothesis; test incremental benefit over simpler baselines. |
+
+### 40.2 Batch D verification
+
+- **Inventory:** 41 unique stable IDs across §§41–59 after expanding grouped ranges S46-EQ01–EQ03, S49-EQ01–EQ02 and S54-EQ01–EQ02.
+- **ROOT package:** component-level support does not validate ROOT. S41-C01 has no direct sustained-attention outcome evidence; S51-C01 and S59-M01 remain operational proposals; S52/S53 are unvalidated measurement/event schemas.
+- **Habit/learning:** S42's no-universal-duration statement is supported in a bounded sense, but neither S42-M01 nor S56-M01 is a validated habit law. The two recurrences remain distinct and unreconciled.
+- **Intervention metrics:** S43/S44 are local conventions, not standardized effect sizes or validated composites. Preserve raw opportunities, rates, burden, accuracy and functional output.
+- **Recursive-control:** S45–S50 overlap established metacognition, meta-control and adaptive control. The self-model equations remain schematic; no distinct Recursive Intelligence mechanism or incremental advantage is established.
+- **Implementation intentions:** S55-C01 has component-level evidence from R31/R32 and updated R64/R65, but not universal execution or ROOT efficacy.
+- **Obstruction and feedback:** S54 probability change does not follow from lower accessibility alone; S57/S59 lack a specified controller/update/stability model.
+- **Sleep/context:** S58 is a multi-domain planning safeguard; R43/R44 support selected sleep-related outcomes only, not an integrated optimizer.
+
+**Batch D disposition:** 41/41 unique IDs reconciled to canonical fields at first-pass integrated level. This does not validate ROOT, the self-model, any controller guarantee or the integrated theory. No treatise/tracker edits; no experiments executed or authorized.
+
