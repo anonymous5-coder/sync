@@ -1733,31 +1733,60 @@ These are label normalizations only. They do not add claims, alter the treatise 
 
 These items primarily require a fixed formal language, definitions, valid derivation, model assumptions or a suitable formal reference. Empirical sources are not a substitute for proof validity.
 
-S02-C01, S03-EQ01, S03-EQ02, S03-EQ03, S03-EQ04, S03-EQ05, S07-C01, S07-P01, S07-P02, S09-C01, S09-C02, S12-C01, S16-EQ01, S16-EQ02, S17-EQ01, S18-EQ01, S20-P03, S21-EQ01, S23-EQ01, S24-C01, S25-C01, S25-EQ01, S26-TH03, S28-EQ01, S28-EQ02, S29-EQ01, S29-P04, S30-EQ01, S30-EQ02, S31-EQ02, S32-EQ01, S32-EQ02, S36-EQ01, S36-P01, S37-EQ01, S43-EQ01, S45-EQ01, S46-EQ01, S49-EQ01, S54-EQ01, S57-EQ01, S60-M01, S61-EQ01, S61-M01, S62-P05, S64-EQ01, S71-EQ01, S71-EQ02, S74-TH05, S90-C01, S91-C01, S95-EQ01
+S02-C01, S03-EQ01, S03-EQ02, S03-EQ03, S03-EQ04, S03-EQ05, S07-C01, S07-P01, S07-P02, S09-C01, S09-C02, S12-C01, S16-EQ01, S16-EQ02, S17-EQ01, S18-EQ01, S20-P03, S21-EQ01, S23-EQ01, S24-C01, S25-C01, S25-EQ01, S26-TH03, S28-EQ01, S28-EQ02, S29-EQ01, S29-P04, S30-EQ01, S30-EQ02, S31-EQ02, S32-EQ01, S32-EQ02, S36-EQ01, S36-P01, S37-EQ01, S43-EQ01, S45-EQ01, S46-EQ01, S49-EQ01, S54-EQ01, S57-EQ01, S60-M01, S61-EQ01, S61-M01, S33-C01, S62-P05, S64-EQ01, S71-EQ01, S71-EQ02, S74-TH05, S90-C01, S91-C01, S95-EQ01
 
 ### 27.2 Model specification, identification or validation required
 
 These items require typed variables, state/action spaces, units, transition or update rules, identifiability/observability analysis, parameter estimation where applicable, and comparison against simpler or established models. A citation to general control or learning theory does not validate the proposed instance.
 
-S01-C01, S03-M01, S19-M02, S26-M01, S06-C01, S06-C02, S12-C02, S13-C01, S14-C01, S17-C01, S19-C01, S28-C01, S29-C01, S31-M01, S32-C01, S38-C01, S39-M01, S41-M01, S44-C01, S45-C02, S47-C01, S48-C01, S52-M01, S59-M01, S60-C01, S62-C01, S63-C01, S70-C01, S71-C01, S72-C01, S74-C01, S93-C01, S94-C01
+S01-C01, S03-M01, S19-M02, S26-M01, S49-C01, S52-C01, S57-C01, S59-C01, S06-C01, S06-C02, S12-C02, S13-C01, S14-C01, S17-C01, S19-C01, S28-C01, S29-C01, S31-M01, S32-C01, S38-C01, S39-M01, S41-M01, S44-C01, S45-C02, S47-C01, S48-C01, S52-M01, S59-M01, S60-C01, S62-C01, S63-C01, S70-C01, S71-C01, S72-C01, S74-C01, S93-C01, S94-C01
 
 ### 27.3 Empirical evidence or primary-source mapping required
 
 These items make or summarize claims about development, neural/behavioural mechanisms, learning, effort, prediction, intervention effects, or other phenomena. They require a source that matches the population, task, outcome and causal strength of the wording; review-level citations may orient the search but cannot substitute for primary evidence where a specific mechanism or causal effect is claimed.
 
-S13-C02, S15-F01, S16-C02, S17-C02, S18-C02, S18-C03, S20-C01, S21-C02, S22-C01, S23-C01, S23-C02, S27-H01, S27-H08, S33-C01, S34-C01, S35-C02, S40-C01, S41-C02, S42-C01, S49-C01, S50-C01, S51-C01, S52-C01, S53-C01, S57-C01, S58-C01, S59-C01, S68-C01, S73-C01
+S13-C02, S16-C02, S17-C02, S18-C02, S18-C03, S20-C01, S21-C02, S22-C01, S23-C01, S23-C02, S27-H01, S27-H08, S33-C01, S34-C01, S35-C02, S40-C01, S41-C02, S42-C01, S58-C01, S68-C01
 
 ### 27.4 Definition, taxonomy, methodological or normative clarification required
 
 These items are principally definitions, classifications, research questions, scope boundaries or methodological rules. They do not all require an empirical citation. They do require internal consistency, non-circular operational definitions, explicit scope, and—where a standard or normative recommendation is invoked—a traceable rationale or authoritative methodological source.
 
-S01-C02, S01-Q01, S02-C02, S02-C03, S02-D01, S05-D01, S05-D02, S05-D03, S05-D04, S05-D05, S05-D06, S05-D07, S05-D08, S08-C03, S39-C01, S64-C01, S75-C01, S83-L01, S84-FM01, S85-FM01, S86-FM01, S87-FM01, S88-FM01, S89-FM01
+S01-C02, S01-Q01, S02-C02, S02-C03, S02-D01, S15-F01, S05-D01, S05-D02, S05-D03, S05-D04, S05-D05, S05-D06, S05-D07, S05-D08, S08-C03, S39-C01, S50-C01, S51-C01, S53-C01, S64-C01, S75-C01, S83-L01, S84-FM01, S85-FM01, S86-FM01, S87-FM01, S88-FM01, S89-FM01
 
 ### 27.5 Mixed-status axioms and foundational premises
 
 S04-A02, S04-A03, S04-A04, S04-A05, S04-A06, S04-A07, S04-A08
 
 The axioms must not be treated as a homogeneous formal axiom set. Their verification requirements differ: physical embodiment is a well-established physical premise; structural/contextual dependence and contextual acquisition contain broad conceptual and empirical generalizations; internal transformation and adaptive selection need formal operational definitions plus domain evidence; bounded resources need construct/measurement scope; recursive accessibility and fallible model–world correspondence require narrower definitions and appropriate cognitive/epistemic support. The existing Section 22 premise map remains controlling.
+
+
+### 27.7 Candidate source routing for the remaining empirical claims
+
+The following are candidate records to inspect—not adjudicated support. They identify where the existing bibliography offers a plausible starting point and where new primary evidence may still be needed.
+
+| Stable ID | Candidate existing source records | Required check / likely gap |
+|---|---|---|
+| S13-C02 | R01, R21–R22 | Clarify whether the statement concerns statistical prediction, algorithmic inference or actual-world prediction; information/complexity sources alone do not establish predictive utility. |
+| S16-C02 | R01, R09, R20 | Verify construct distinctions among thermodynamic entropy, Shannon entropy, variational free energy and psychological effort; keep formal definitions separate from empirical claims. |
+| S17-C02 | R09, R11–R14 | Separate physical computation cost, neural signalling cost, baseline metabolism and incremental task energy; primary human task-level evidence remains limited. |
+| S18-C02 | R11–R14 | Existing evidence supports energetic demand and baseline costs, not necessarily the exact process allocation or budget decomposition in the treatise. |
+| S18-C03 | R14–R15, R24–R26 | Check task-specific control demand and effort; avoid treating subjective effort, fatigue and neural energy as interchangeable. |
+| S20-C01 | R15, R24, R26 | Cost-sensitive selection is a plausible comparator; test the exact long-term-goal versus familiar-action claim and its boundary conditions. |
+| S21-C02 | R16, R18–R19, R26, R53 | Distinguish cached action values, stimulus-response habits and context-dependent persistence; primary paradigm-specific evidence needed. |
+| S22-C01 | R16, R18–R19, R28–R30, R53 | Verify cue–action–outcome learning and whether the proposed generalization is supported across task types. |
+| S23-C01 | R16, R18–R19, R28–R30, R53 | Separate model-free learning, habit automaticity and response readiness; the exact recurrence is not validated by these sources. |
+| S23-C02 | R17–R18 | Relief is not sufficient to demonstrate negative reinforcement; verify response–consequence contingency and subsequent response-probability change. |
+| S27-H01 | R13–R15, R23–R26, R29 | Treat the listed influences as candidate factors, not an established causal ranking; each requires construct-specific measurement and relevant primary evidence. |
+| S27-H08 | R30, R33–R34 | Context and friction interventions are local evidence; distinguish action reduction, urge persistence and maintenance. |
+| S34-C01 | R16, R18–R19, R28–R30 | Establish the exact learning outcome and whether cue–action–outcome pairing predicts later readiness in the specified context. |
+| S35-C02 | R15, R24–R26 | Arbitration factors are theoretical/computational candidates; verify task-dependent effects and distinguish model-based/model-free constructs. |
+| S40-C01 | R16–R19, R23–R26 | This is a synthesis row; each of its five component propositions needs its own evidence scope, not one blanket citation. |
+| S41-C02 | R31–R34, R48 | Evidence for implementation intentions and environmental interventions does not validate the combined intervention or sustained-attention claim. |
+| S42-C01 | R16, R18–R19, R28–R30, R53 | Review each recurrence and learning mechanism separately; resolve the §42/§56 equation conflict before any empirical parameterization. |
+| S58-C01 | R25, R43–R44, R30 | Sleep effects are domain- and exposure-specific; activity/context planning evidence does not validate a universal optimization package. |
+| S68-C01 | R15, R24, R31–R32, R48 | Task decomposition and implementation intentions are plausible neighbouring methods; a direct source for initiation-cost reduction in this exact formulation is still required. |
+
+**Routing conclusion.** Several “empirical” IDs are actually model summaries, taxonomies or operational schemas and have been moved to the corresponding formal/model/definition groups above. The remaining 20 rows are the narrower empirical-source queue. Candidate R records must be read against exact claim wording before a source-to-claim link is accepted.
 
 ### 27.6 Triage limits and next checks
 
