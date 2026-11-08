@@ -1463,6 +1463,23 @@ Robert J. Sternberg, “A Theory of Adaptive Intelligence and Its Relation to Ge
 
 **Status:** selected reward/effort and intelligence-measurement sources have been checked and mapped. The evidence constrains novelty and causal language but does not validate the treatise's action score or intelligence index. No treatise/tracker edits; no experiments executed or authorized.
 
+### R59 — McGrew (2023): Carroll's three-stratum theory, CHC structure and psychometric network analysis
+
+Kevin S. McGrew, “Carroll’s Three-Stratum (3S) Cognitive Ability Theory at 30 Years: Impact, 3S-CHC Theory Clarification, Structural Replication, and Cognitive–Achievement Psychometric Network Analysis Extension,” *Journal of Intelligence* 11(2), Article 32 (2023), DOI: 10.3390/jintelligence11020032. PMID: 36826930; PMCID: PMC9959556.
+
+**Evidence type:** theoretical/historical review plus secondary psychometric analyses of an archived 46-test Woodcock–Johnson III dataset, including exploratory factor analysis, bifactor confirmatory factor analysis and psychometric network analyses.
+
+**Supports:** a substantial established comparator for the structure of human cognitive abilities; the article reports analyses consistent with a dominant psychometric g factor and multiple broad cognitive abilities in the examined dataset. It also illustrates the need to specify test indicators, factor structure, model comparisons and criterion domains rather than infer validity from a conceptual list.
+
+**Does not support:** the treatise's five-component adaptive intelligence score, its task-dependent weights, its proposed operational definition, or the claim that its composite adds predictive value beyond established cognitive-ability measures. It is not an independent new-sample validation of the treatise's construct.
+
+**Important limitations:** the analyses reuse an archived 46-test dataset rather than a new independent sample; the underlying publisher data are proprietary and unavailable for independent reanalysis in the article; the author declares a financial conflict of interest involving the Woodcock–Johnson III/IV batteries. The article itself notes that some alternative factor models had broadly similar fit indices, so theoretical interpretation remains relevant.
+
+**Pinpointing status:** bibliographic metadata and abstract verified; the PMC full-text search result exposed methods, results, model-fit discussion and limitations. A complete independent table/supplementary-material reanalysis has not been performed.
+
+**Status:** comparator source for psychometric structure and validation design; not validation of the treatise's proposed index.
+
+
 ## 26. Exhaustive stable-ID/source traceability matrix — structural audit and crosswalk correction
 
 **Baseline and scope.** This matrix is compiled against the current edition branch baseline: treatise blob 123abdbe9ad3e6c24d150e7db2f38e9562d520d5, register blob 56859854fde83111edabd8e84b07038add291150, and governing-plan blob 261648d107549951a2632676a259dbd6b53d18d1. The branch compares as 99 commits ahead of main and 0 behind; this work does not merge or modify main. The 204-ID inventory was independently regenerated and reconciled against every stable ID in the first column of the claim tables: **204/204 stable IDs are represented**. There are 153 table rows because some rows deliberately group multiple stable IDs. This is a structural coverage check, not proof that every claim has a complete source trail.
@@ -1915,3 +1932,75 @@ This recovers **partial provenance for E16**, but not a complete cluster definit
 - Continue the remaining model/empirical rows, then conduct a final direct source-to-claim audit across all 204 IDs. The matrix in §26 remains a routing inventory, not a completed 204-claim adjudication.
 
 **Disposition.** This pass partially recovers E16's historical subject matter and explicitly leaves E17/E18 unresolved. It narrows seven high-risk claim IDs without upgrading their evidence status. No treatise or tracker edits; no experiments executed or authorized.
+
+
+## 30. Claim-level intelligence construct and measurement audit — S32
+
+### 30.1 Claim decomposition and type separation
+
+The baseline text at §32 (L1057–1104) contains four distinct claim types that must not be collapsed:
+
+- **S32-C01 — conceptual distinction:** intelligence requires functional properties beyond the mere execution of a fixed state transformation. This is a framework-selected definition, not a universally accepted necessary-and-sufficient definition.
+- **S32-EQ01 — computational abstraction:** computation is represented as state transformation. This is a broad modelling shorthand, not a complete account of every theory of computation.
+- **S32-EQ02 — operational definition:** intelligence is adaptive use of state transformation to model, predict or control under changing conditions. This is stipulative and overlaps adaptive intelligence, learning, adaptive control and meta-control.
+- **S32-M01 — measurement proposal:** a weighted composite of generalization (G), adaptation to changed conditions (A_d), predictive accuracy (P), transfer (T_r), and recovery/correction after error (R_c). This is a proposed index, not a validated psychometric instrument.
+
+The five dimensions are plausible capability domains, but their inclusion in one formula does not establish that they form a single latent trait, are mutually discriminable, exhaust intelligence, or should be linearly additive. The score may instead be a **formative decision index** whose components jointly define a chosen capability profile. That measurement model must be decided explicitly; reflective latent-variable assumptions and formative-composite assumptions imply different validation procedures.
+
+### 30.2 Source adjudication and established comparators
+
+- **R27 — AERA/APA/NCME Standards (2014):** the authoritative measurement standard already registered in §23. The relevant principle is that validity concerns the interpretation and use of scores, supported by evidence appropriate to the intended construct, population and decision. The standards do not confer validity on an untested formula.
+- **R58 — Sternberg (2019):** the article is a theoretical account distinguishing adaptive intelligence from psychometric general intelligence and emphasizing biological/evolutionary and cultural context. It establishes that the broad adaptive-intelligence territory has a developed theoretical neighbour; it is not a validation study for the treatise's five terms or weights. The full article is now available through the indexed open-access record, but the earlier audit only verified metadata and abstract; detailed page/section mapping remains open.
+- **R59 — McGrew (2023):** the article provides a major psychometric comparator through Carroll's three-stratum and CHC cognitive-ability work. It reports exploratory and confirmatory analyses of an archived 46-test Woodcock–Johnson III dataset and psychometric-network analyses linking cognitive and achievement composites. The paper reports a dominant g factor alongside broad abilities in the analysed dataset, while also discussing model alternatives and structural interpretation. Its data are proprietary and the author declares a financial conflict involving the WJ III/IV batteries. It is a secondary analysis/research article, not a new independent validation sample for S32-M01.
+- **R59 qualification:** the reported analyses do not prove that g is the only meaningful construct or that CHC is a final, uncontested taxonomy. They do show that a new intelligence score must compare itself with established multidimensional and hierarchical psychometric models, and must state exactly what incremental explanatory or predictive value it adds.
+
+### 30.3 Component-level operational requirements
+
+| Component | Minimum operationalization required | Main validity threat |
+|---|---|---|
+| G — generalization | Performance on prespecified held-out items, tasks or environments that differ from training examples; quantify distance from training distribution | Memorization, near-transfer mislabeled as generalization, task leakage |
+| A_d — adaptation | Performance and learning trajectory after a controlled change in task rules, environment or constraints; include adaptation cost and recovery time | Confounding adaptation with baseline ability, prior familiarity or extra practice |
+| P — predictive accuracy | Prospective predictions made before outcomes, with defined target, horizon, calibration and proper scoring rule; evaluate on held-out cases | Retrospective explanation, target leakage, accuracy without calibration or base-rate comparison |
+| T_r — transfer | Separate near and far transfer; specify source/target task distance and retention interval; compare with matched practice controls | Rebranding task similarity or repeated practice as transfer |
+| R_c — recovery/correction | Error detection, post-error correction, recovery latency, resumed-task accuracy and functional cost; measure whether the system updates its strategy appropriately | Rewarding speed while ignoring accuracy, or treating any post-error change as learning |
+
+These are candidate operational requirements, not an approved test battery. Each component needs multiple appropriately sampled tasks and repeated observations where the construct is expected to generalize beyond one task.
+
+### 30.4 Composite-score and validation defects to resolve
+
+1. **Construct model:** decide whether the five terms are reflective indicators of a common latent capability, formative components of a designed index, or separate dimensions to be reported as a profile. Do not use one model's validation logic for another.
+2. **Scale and units:** define each component's metric, direction, range, uncertainty and missing-data rule. A weighted sum is uninterpretable if the terms are not commensurately scaled or if normalization changes across populations/tasks.
+3. **Weights:** “task-dependent weights” means the score may be context-indexed rather than a stable general intelligence measure. State who/what selects weights, under which objective and constraints, and whether the weights are fixed before evaluation. Do not tune weights on the same outcomes used to claim validity.
+4. **Reliability:** estimate component-level measurement reliability and score/profile stability across tasks, raters, occasions and conditions. A single internal-consistency coefficient is not sufficient for a heterogeneous formative composite.
+5. **Validity:** provide content representation, response-process evidence, internal structure where relevant, convergent and discriminant relations, criterion relations and prospective predictive validity. Distinguish prediction of cognitive-test performance from real-world adaptive outcomes.
+6. **Incremental validity:** compare against psychometric g/CHC measures and relevant specific abilities, plus adaptive-control, learning and metacognitive baselines. The proposed score must improve held-out prediction or decisions at an acceptable cost; merely correlating with existing ability scores is not novelty.
+7. **Fairness and invariance:** examine measurement invariance, differential item/task functioning, accessibility, language/cultural context and opportunity to learn. Sternberg's R58 discussion makes cultural context particularly salient for an adaptive-intelligence interpretation.
+8. **Independence:** preregister the construct model, tasks, weights, exclusions, outcomes and analysis. Use independent samples or genuinely held-out cohorts for confirmation; avoid selecting tasks and weights after observing validation outcomes.
+9. **Utility:** specify what decision the score is intended to improve. A score may be psychometrically coherent yet have no useful incremental decision value; evaluate calibration, error costs and consequences of use.
+
+### 30.5 Claim-level dispositions
+
+| Stable ID | Claim kind | Formal/evidential status | Provisional disposition | Required closure |
+|---|---|---|---|---|
+| S32-C01 | Conceptual definition | Defensible as the framework's chosen distinction; not a universal definition and not empirically settled by wording alone | Retain as a scoped definition; do not claim definitional consensus or novelty | Compare explicitly with general intelligence, adaptive intelligence, learning and adaptive control; state necessary/sufficient criteria if intended |
+| S32-EQ01 | Mathematical/conceptual shorthand | Broad state-transformation abstraction | Retain with scope note | Specify what counts as state, transformation and computation in the intended system class |
+| S32-EQ02 | Operational definition | Stipulative; overlapping established constructs | Retain provisionally; add discriminant criteria | State the additional operation or measurable capability that distinguishes the proposed intelligence construct from ordinary adaptive control/learning |
+| S32-M01 | Proposed composite measure | No task battery, scoring manual, reliability, norms, weights, invariance or independent criterion/predictive validation is supplied | Defer as a measurement instrument; keep as a research proposal only | Define measurement model, tasks, scales, weights, reliability, fairness, comparator set, independent validation and incremental utility |
+
+**No support upgrade.** R27 supplies validation standards; R58 supplies a theoretical neighbour; R59 supplies an established psychometric comparator. None validates the proposed five-component score. The absence of such validation does not disprove the possibility that a useful adaptive-capability profile or index could be developed.
+
+### 30.6 Research design gate for any future S32 validation
+
+A valid next study would need to be staged rather than jump directly to a weighted scalar:
+
+1. Publish a construct map and item/task blueprint for each of the five dimensions, including exclusions and overlaps.
+2. Conduct content review and cognitive-interview/response-process work across the intended populations and cultural/language contexts.
+3. Pilot task reliability, difficulty range, ceiling/floor effects, learning effects, test–retest stability and cross-task generalizability.
+4. Compare alternative measurement models (correlated dimensions, hierarchical/factor models where justified, and formative composite/profile approaches); report model fit and sensitivity rather than selecting a preferred model solely by fit.
+5. Fix weights or the weight-selection algorithm before the confirmatory test; keep a separate development dataset and untouched validation cohort.
+6. Evaluate convergent, discriminant, criterion and prospective predictive validity against g/CHC and relevant domain-specific baselines, then test incremental decision utility.
+7. Test fairness/invariance and report subgroup-specific uncertainty and failure cases; do not publish a universal scalar if the evidence supports only context-specific profiles.
+
+This is a readiness specification, not an experiment authorization. It does not authorize any A–F protocol or a new S32 study.
+
+**Disposition.** S32 is now source-adjudicated at the level of conceptual scope, established comparators and measurement requirements. The conceptual definition can be retained as a framework choice; the five-term functional remains unvalidated and must not be called a measured intelligence score. No treatise/tracker edits; no experiments executed or authorized.
