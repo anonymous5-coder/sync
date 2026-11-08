@@ -114,13 +114,13 @@ Here $\xi_t$ represents noise and unmodelled influences; $r_{t+1}$ denotes the o
 
 The system may update memory and policy:
 
-$
+$$
 M_{t+1}=U_M(M_t,O_t,a_t,r_{t+1})
-$
+$$
 
-$
+$$
 \Theta_{t+1}=U_\Theta(\Theta_t,\text{feedback}_{t+1})
-$
+$$
 
 The formulation is intentionally general. A human brain, an artificial agent, and a physical controller can all be represented at this abstract level, although their architectures and mechanisms differ substantially. $\mathcal S_t$ is a system-level descriptor, not a claim that the listed components form a minimal or Markov-sufficient state; state sufficiency and update rules must be established for each application.
 
