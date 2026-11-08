@@ -1546,6 +1546,96 @@ Richard W. Backs and Kimberle A. Seljos, “Metabolic and cardiorespiratory meas
 
 **Status:** bounded evidence that subjective workload, performance, respiration and metabolic/cardiovascular responses are separable dimensions; abstract-level only.
 
+
+
+### 25.5 New source records — planning, task initiation and task structuring
+
+#### R64 — Sheeran, Listrom & Gollwitzer (2025): implementation-intention meta-analysis across 642 tests
+
+Paschal Sheeran, Olivia Listrom and Peter M. Gollwitzer, “The when and how of planning: Meta-analysis of the scope and components of implementation intentions in 642 tests,” *European Review of Social Psychology* 36(1), 162–194 (2025), DOI: [10.1080/10463283.2024.2334563](https://doi.org/10.1080/10463283.2024.2334563).
+
+**Evidence type and scope:** meta-analysis of 642 independent tests of implementation intentions across cognitive, affective and behavioural outcomes.
+
+**Relevant result:** reported effect sizes across outcomes in the range .27 ≤ d ≤ .66. Effects were larger when plans used a contingent if–then format, participants were strongly motivated to pursue the goal, and plans were rehearsed. The article also develops a taxonomy of situational cues and specified responses.
+
+**Supports:** cue-linked plans can facilitate goal-directed regulation across varied outcomes; plan format, goal motivation and rehearsal are relevant moderators.
+
+**Does not support:** a uniform pooled effect for every outcome, guaranteed initiation, a specific “first action” mechanism, or the treatise's cost/uncertainty explanation.
+
+**Pinpointing status:** publication metadata, abstract and dataset-availability statement verified; publisher full text was not accessible in this pass. The underlying dataset and supplement are stated to be available through OSF.
+
+**Status:** broad secondary evidence for implementation intentions; abstract-level, not a direct test of arbitrary task decomposition.
+
+#### R65 — Zhou et al. (2025): randomized MCII trial and academic task initiation
+
+Xiaoxue Zhou, Walton Wider, Hao Wu, Yong Xu, Manping Qin and Alex S. Borromeo, “Beyond positive thinking: A randomized trial of mental contrasting with implementation intentions to curb academic procrastination,” *Acta Psychologica* (2025), DOI: [10.1016/j.actpsy.2025.106168](https://doi.org/10.1016/j.actpsy.2025.106168).
+
+**Evidence type and design:** single-site randomized controlled study comparing mental contrasting with implementation intentions (MCII) against a positive-thinking control in undergraduates at one private university in China.
+
+**Sample and exposure:** 101 eligible first-year students were randomized; after exclusions for missing reports and intervention non-adherence, 81 remained in the final analysis (41 MCII; 40 control). The seven-day intervention used twice-daily self-reports and a one-week follow-up. Participants were screened for moderate-to-high procrastination.
+
+**Relevant result:** self-reported task initiation occurred on 58.8% of daily assessments in MCII and 47.3% in the positive-thinking condition. A mixed-effects logistic model found lower initiation odds in the control condition (OR = 0.63, 95% CI [0.45, 0.88], p = .007), with MCII as reference.
+
+**Supports:** a structured MCII package can improve short-term self-reported academic task initiation relative to a positive-thinking comparison in the selected sample.
+
+**Does not establish:** that task decomposition alone caused the effect, that a first-action prompt reduced measured subjective cost or uncertainty, or that effects generalize to all students/tasks. The study is single-site, selected moderate-to-high procrastinators, has 19.8% attrition, a one-week follow-up and no formal preregistration. The outcome is self-reported task initiation, not independently logged initiation latency.
+
+**Pinpointing status:** article abstract, methods, sample flow, outcome definitions and reported model results inspected in the indexed full-text record. Full publisher PDF/table supplement not independently downloaded.
+
+**Status:** direct but bounded RCT evidence for a bundled MCII initiation intervention; not a component test of the treatise's first-action mechanism.
+
+#### R66 — Garg & Schooler (2026): subtasking, immediate engagement and persistence
+
+Anusha Garg and Jonathan W. Schooler, “Breaking Procrastination Down: Differential Effects of Subtasking and Reinforcement on Engagement and Persistence,” *Behavioral Sciences* 16(10), 1832 (7 October 2026), DOI: [10.3390/bs16101832](https://doi.org/10.3390/bs16101832).
+
+**Evidence type and design:** recent three-condition online study comparing control, subtask-only and subtask-plus-reward conditions. Participants selected a real task they were delaying and worked on it for a 15-minute period.
+
+**Sample and procedure:** final analytic sample N = 238 (79 control, 82 subtask-only, 77 subtask-plus-reward). The active conditions asked participants to divide the task into three to five subtasks of approximately three to five minutes and included a learned-industriousness prompt. Conditions were fielded as separate concurrently available online studies; participants entered the condition they accessed, rather than being individually randomized. The final sample was recruited through Prolific in the United States; only 6.5% identified as students.
+
+**Relevant result:** both structured conditions reported greater mid-task activity than control. Subtasking alone did not significantly improve final 15-minute completion relative to control (completion rates 95.1% vs 91.1%; overall condition comparison p = .60). Adding reward did not significantly increase activity beyond subtasking, but it increased willingness to continue and effort valuation relative to subtasking alone. Task aversiveness and mood did not show corresponding between-condition improvements.
+
+**Supports:** task structuring may increase immediate engagement during a short, supervised work interval; persistence and initiation/engagement are separable outcomes.
+
+**Does not establish:** reduced initiation latency, reduced subjective initiation cost or uncertainty, durable academic performance, or a randomized causal effect of subtasking in ordinary study conditions. Self-selection into concurrently fielded conditions, a bundled prompt, short exposure, self-reported engagement, a high completion ceiling, non-preregistration and a budget-determined sample size limit causal and external-validity claims.
+
+**Pinpointing status:** indexed full-text content inspected for methods, sample, task procedure, results and limitations; direct publisher page retrieval was rate-limited during this pass. The article is marked open access and dated 7 October 2026.
+
+**Status:** relevant, recent but non-randomized component-neighbour evidence for immediate engagement; it does not validate the proposed initiation-cost mechanism.
+
+#### R67 — Gustavson & Miyake (2017): null academic-procrastination intervention result
+
+“Academic Procrastination and Goal Accomplishment: A Combined Experimental and Individual Differences Investigation,” *Learning and Individual Differences* 54, 160–172 (2017), DOI: [10.1016/j.lindif.2017.01.010](https://doi.org/10.1016/j.lindif.2017.01.010). PubMed: [PMID 28943742](https://pubmed.ncbi.nlm.nih.gov/28943742/).
+
+**Evidence type and design:** primary undergraduate study (N = 177) combining experimental goal-related interventions (SMART goals and implementation intentions) with individual-difference analyses.
+
+**Relevant result:** neither the SMART-goal intervention nor the implementation-intention intervention significantly reduced academic procrastination over the three-week interval. Baseline procrastination predicted later goal accomplishment after adjustment for several correlated traits and situational variables.
+
+**Supports:** a material null result that limits claims of universal or automatic effectiveness for planning/implementation-intention interventions.
+
+**Does not support:** the claim that all planning interventions fail; the tested intervention, duration, task and outcome are specific.
+
+**Pinpointing status:** bibliographic metadata, abstract and indexed discussion text verified; direct full-text inspection was blocked in this pass. Treat as abstract/indexed-text evidence, not full-text verified.
+
+**Status:** contrary/limiting evidence retained alongside positive planning studies.
+
+#### R68 — Felker & Chen (2023): planning prompt in an introductory physics course
+
+Zachary Felker and Zhongzhou Chen, “Reducing procrastination on introductory physics online homework for college students using a planning prompt intervention,” *Physical Review Physics Education Research* 19, 010123 (2023), DOI: [10.1103/PhysRevPhysEducRes.19.010123](https://doi.org/10.1103/PhysRevPhysEducRes.19.010123).
+
+**Evidence type and design:** full-text primary quasi-experimental study using difference-in-differences modelling and learning-platform/gradebook records from four sections of the same calculus-based introductory physics course. The planning prompt was assigned at section/sequence level, not by individual randomization.
+
+**Intervention:** students indicated intentions to earn early-completion extra credit and wrote a plan specifying when/where to work and steps to complete the module sequence. The prompt was bundled with the extra-credit schedule and a small completion credit.
+
+**Relevant result:** the intervention was associated with 5% more extra credit earned, earlier homework completion and more spread-out work. It did not significantly change engagement measures or the work distribution on the next assignment.
+
+**Supports:** structured planning prompts, when coupled with incentives and a defined course schedule, can improve selected timing/spacing measures in a real introductory physics course.
+
+**Does not establish:** that writing a first action alone reduces initiation cost/uncertainty, that planning alone caused the effect, or that the effect transfers to all study tasks. The design depends on a parallel-trends assumption; there are four sections, one pre-intervention comparison section and potential section/semester/instructor differences. The incentive and planning components are not isolated.
+
+**Pinpoints verified:** full nine-page APS PDF. Abstract (PDF pp. 1); intervention assignment and difference-in-differences assumptions (PDF pp. 2–3); section/sample and course context (PDF pp. 3–4); intervention content (PDF p. 4); outcome definitions (PDF pp. 4–5); results and discussion (PDF pp. 6–8).
+
+**Status:** full-text evidence for a bundled planning-prompt/incentive intervention and selected work-spacing outcomes; not a direct test of a first-action cost mechanism.
+
 ## 26. Exhaustive stable-ID/source traceability matrix — structural audit and crosswalk correction
 
 **Baseline and scope.** This matrix is compiled against the current edition branch baseline: treatise blob 123abdbe9ad3e6c24d150e7db2f38e9562d520d5, register blob 56859854fde83111edabd8e84b07038add291150, and governing-plan blob 261648d107549951a2632676a259dbd6b53d18d1. The branch compares as 99 commits ahead of main and 0 behind; this work does not merge or modify main. The 204-ID inventory was independently regenerated and reconciled against every stable ID in the first column of the claim tables: **204/204 stable IDs are represented**. There are 153 table rows because some rows deliberately group multiple stable IDs. This is a structural coverage check, not proof that every claim has a complete source trail.
@@ -1644,7 +1734,7 @@ These are label normalizations only. They do not add claims, alter the treatise 
 | S12-C01 | Information-theoretic identities, semantic results, epistemic claims | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S12-C02 | Six modes: combinatorial novelty, structural inference, model-based prediction, abduction, mathematical discovery,  | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S13-C01 | Architecture and memory are shaped by evolution, development, design, training and interaction (L448–454) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
-| S13-C02 | Internal information may support prediction (L464–473) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
+| S13-C02 | Internal information may support prediction (L464–473) | — | R01, R21–R22 | Formal/theoretical sources support distinctions in inference and prediction; no empirical predictive performance for this framework is established. | R01/R21–R22; §35. A predictive claim requires an operational target, baseline, calibration and held-out test. |
 | S13-EQ01 | \(I(W;Z)>0\), where Z=(A,M), may hold (L456–462) | E10 | R01–R05, R21–R22, R52 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
 | S14-C01 | Predictions depend on prior structure, evidence and a model linking hypotheses to outcomes (L494–500) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S14-EQ01 | Information-theoretic identities, semantic results, epistemic claims | E10 | R01–R05, R21–R22, R52 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
@@ -1753,7 +1843,7 @@ These are label normalizations only. They do not add claims, alter the treatise 
 | S56-M01 | Two different habit-strength recurrences | E04 | R16, R18–R19, R26, R28–R30, R53 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
 | S57-C01 | Signed error e=y*−y and correction based on outcome deviation (L1782–1802) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S57-EQ01 | Reuse of \(e_t\) for accessibility and signed outcome error | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
-| S58-C01 | Optimisation across sleep, activity, nutrition, workload, environment, task difficulty and recovery (L1803–1819) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
+| S58-C01 | Optimisation across sleep, activity, nutrition, workload, environment, task difficulty and recovery (L1803–1819) | — | R25, R30, R43–R44 | Direct evidence is domain-specific: sleep restriction affects selected cognitive outcomes; planning/context interventions address separate behaviours. No integrated optimization function is tested. | R43–R44 PubMed abstracts; R30 abstract-level; §35. |
 | S59-C01 | ROOT feedback cycle; cycle output becomes context for the next cycle (L1820–1852) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S59-M01 | ROOT feedback cycle; cycle output becomes context for the next cycle (L1820–1852) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
 | S60-C01 | Closed-loop behavioural model \(x_{t+1}=(A-BK)x_t+w_t\); stability when eigenvalues lie inside unit circle (L1853–1 | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
@@ -1768,7 +1858,7 @@ These are label normalizations only. They do not add claims, alter the treatise 
 | S65-C01 | Separate phone, gaming, television, sleep, sexual distraction and study-avoidance behaviours rather than assume one | E09 | R27, R38, R41–R42, R47, R50 | Cluster association + selected pinpoint; not full source closure | R27 full PDF; §§23,25. |
 | S66-C01 | Sexual attraction/urges and masturbation are not inherently pathological; CSBD requires persistent impaired control | E14 | R45–R46, R57 | Cluster association + selected pinpoint; not full source closure | R45 manual page remains open; R46 Table 1 and R57 full text checked; §23. |
 | S67-C01 | Sleep timing/quality affects the operating conditions for attention and executive control; two-week log and referra | E03, E09, E15 | R13–R15, R24–R25, R43–R44; R27, R38, R41–R42, R47, R50; R27, R42–R44 | Cluster association + selected pinpoint; not full source closure | R25, R43–R44 abstract-level; §24. |
-| S68-C01 | Breaking an ambiguous study task into a concrete first action reduces initiation cost and uncertainty (L2021–2038) | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
+| S68-C01 | Breaking an ambiguous study task into a concrete first action reduces initiation cost and uncertainty (L2021–2038) | — | R31–R32, R64–R68 | Planning and subtasking have positive, null and bounded findings; no study directly establishes reduced subjective initiation cost or uncertainty from the exact first-action procedure. | R64/R67 abstract/indexed text; R65/R66 indexed full text; R68 full PDF. §35. |
 | S69-C01 | Intervention architecture and personal protocol | E09 | R27, R38, R41–R42, R47, R50 | Cluster association + selected pinpoint; not full source closure | R41 and R47 methodological sources; checklist application remains open; §24. |
 | S69-PROT01 | Personal protocol: 7-day baseline, 7-day environmental change, 14-day alternative-response training, then weekly re | E09 | R27, R38, R41–R42, R47, R50 | Cluster-level association only; exact claim fit remains to be checked | No exact locator attached to this ID in §§23–25. |
 | S70-C01 | Organizing architecture / synthesis | — | — | No E01–E15 stable-ID assignment recorded; decide source need by claim kind. | No exact locator attached to this ID in §§23–25. |
@@ -2351,4 +2441,50 @@ R60–R63 add direct human evidence to the earlier model/review-heavy neural-ene
 **Evidence-access ledger:** R60 and R62 were inspected at full-text level; R61 and R63 remain abstract-level. No source is described as fully verified beyond the access level actually obtained. The historical E16 partial provenance is not upgraded into a complete cluster definition. E17/E18 remain unresolved.
 
 **Disposition.** Direct primary-source coverage for the neural-energetics/effort claims is materially improved, but the treatise's integrated energy-allocation model and action-score coefficients remain unvalidated. No treatise or tracker edits; no experiments executed or authorized. This closes only the present source-coverage unit, not the 204-ID audit or final edition.
+
+## 35. Direct claim-source coverage — prediction, contextual optimization and study-task initiation
+
+### 35.1 S13-C02 — internal information and prediction
+
+The statement “internal information may support prediction” is too broad to receive a blanket empirical evidence grade. Its defensible form is conditional: an internal representation can be used by a specified inference procedure to generate predictions about a defined target, provided the target, feature representation, sampling process, information available at prediction time and evaluation protocol are stated.
+
+R01 and R21–R22 provide formal/theoretical context for information and inference, but they do not demonstrate that the treatise's architecture predicts any external variable. Positive mutual information or successful inference from premises is not equivalent to calibrated prediction of an unobserved outcome, causal explanation or out-of-distribution generalization.
+
+**Disposition:** retain only as a conditional methodological possibility. Any claim of predictive utility requires a pre-specified target and prediction horizon, a reproducible feature/inference pipeline, leakage controls, calibration assessment, baseline comparators and held-out or prospective evaluation. Do not infer predictive validity from the information-theoretic equation in §13.
+
+### 35.2 S58-C01 — multi-domain optimization
+
+S58-C01 groups sleep, activity, nutrition, workload, environment, task difficulty and recovery into one optimization statement. The evidence does not justify treating these as a single validated intervention package or a common scalar objective.
+
+- **Sleep:** R43's 61-study/71-population meta-analysis reports a mean negative effect of short-term restriction on cognition (g = −0.383), with domain-specific effects and moderators; sustained attention is affected on average, but the review did not find sufficient evidence for every cognitive domain. R44's 44-study meta-analysis of one night with 2–6 hours of sleep opportunity found higher subjective sleepiness and worse sustained-attention reaction time/lapses, but no significant pooled effects for choice reaction time, cognitive throughput, working memory or inhibitory control. These are exposure- and outcome-bounded results, not proof that sleep explains an individual's difficulty.
+- **Activity/context planning:** R30 is a separate randomized context-planning study. It does not establish that sleep, nutrition, workload and environmental changes combine additively or optimally.
+- **Integrated package:** no source in this register validates a universal weighting, optimum or combined prescription across all listed domains.
+
+**Disposition:** retain the domains as candidate moderators and planning considerations, not a single algorithm. Define outcome-specific objectives, constraints, time horizon, burden, adverse effects and individual context before claiming optimization. Monitoring is descriptive and is not diagnosis.
+
+### 35.3 S68-C01 — first-action/task-initiation heuristic
+
+The evidence is stronger for the narrower proposition that structured plans or task decomposition can sometimes improve initiation/early engagement than for the treatise's proposed mechanism that a concrete first action reduces an internal initiation-cost or uncertainty variable.
+
+| Source | Design/result relevant to S68-C01 | Limitation for the exact claim |
+|---|---|---|
+| R31–R32 | Earlier meta-analysis and mechanism work support cue-linked implementation intentions in goal pursuit; cue accessibility and cue–response association are relevant mechanisms | Do not test arbitrary first-action decomposition or quantify subjective initiation cost/uncertainty |
+| R64 | 642-test implementation-intention meta-analysis reports effects across cognitive, affective and behavioural outcomes; if–then format, goal motivation and rehearsal moderate effects | Abstract-level; broad outcome set and no isolated first-action mechanism |
+| R65 | Randomized seven-day MCII study (final N=81) found higher self-reported academic task initiation than a positive-thinking control | Bundle of mental contrasting and implementation intentions; single-site, selected sample, attrition, short follow-up and no independently logged initiation latency |
+| R66 | Three-condition online study (N=238) found greater mid-task activity under subtask structuring; no significant difference in 15-minute completion rates | Conditions were self-selected rather than individually randomized; task structuring was bundled with a prompt; short supervised interval, self-report and high completion ceiling; no initiation-latency or uncertainty measure |
+| R67 | Undergraduate experiment (N=177) found no significant reduction in academic procrastination from SMART-goal or implementation-intention interventions over three weeks | A null result for the tested interventions and interval, not evidence that all planning fails; abstract/indexed-text access only |
+| R68 | Full-text physics-course study found planning prompts plus extra-credit incentives associated with earlier and more distributed homework completion | Section-level quasi-experiment, parallel-trends assumption and bundled incentive; engagement and next-assignment work distribution did not improve significantly |
+
+The positive R65 result and the more limited R66/R68 findings do not erase the R67 null result. They address different intervention packages, outcomes, populations, durations and designs. In particular, early completion/spacing, self-reported initiation, mid-task engagement and task completion are not interchangeable outcomes.
+
+**Disposition:** retain S68-C01 as a low-risk, testable design heuristic, but narrow its causal wording. Current evidence supports neighbouring strategies (if–then planning, structured task decomposition and planning prompts) in some contexts; it does not yet establish that the specific “first action” step works by reducing subjective cost or uncertainty. Future evaluation should measure initiation latency from an eligible opportunity, task ambiguity, subjective effort/uncertainty, adherence and functional output separately, with a comparator that isolates the first-action component.
+
+### 35.4 Integrated claim-level status
+
+- S13-C02 remains a conditional methodological proposition; predictive performance of the treatise is untested.
+- S58-C01 remains a multi-domain planning framework, not a validated optimization function.
+- S68-C01 remains a heuristic supported by adjacent but heterogeneous intervention evidence; its proposed mediator is unmeasured.
+- The new records do not upgrade the ROOT package's efficacy, the integrated action-score model or any of Experiments A–F.
+
+**Disposition.** Direct claim-source coverage has advanced for three additional high-priority empirical/methodological rows. Positive, null and design-limiting evidence is preserved. No treatise or tracker edits; no experiments executed or authorized. This is not completion of the remaining 204-ID disposition or independent review.
 
