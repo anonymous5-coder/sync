@@ -4,7 +4,7 @@
 
 **Audit baseline:** `document_master_visual.md` on branch `edition`, blob `123abdbe9ad3e6c24d150e7db2f38e9562d520d5` (2,618 lines; 95 numbered sections). Section line locations below refer to this exact baseline and must be refreshed if the source changes.
 
-**Scope of this revision:** Sections 1–15 (first claim-inventory batch). This is a claim-level source/disposition pass, not completion of the full 95-section audit.
+**Cumulative claim-level scope at this revision:** Sections 1–40, preserved as three separately auditable batches: §§1–15, §§16–27 and §§28–40. Each batch retains its own section boundaries, source assessments, findings and historical status. This is a first-pass claim-level source/disposition record, not completion of the full 95-section audit.
 
 ## 1. Adjudication conventions
 
@@ -233,7 +233,11 @@ Ghislaine Dehaene-Lambertz and Elizabeth S. Spelke, “The Infancy of the Human 
 6. **Developmental example:** §8's “not a blank machine” analogy is supportable only in a narrow developmental sense; prenatal learning and early neural organization do not establish adult-like reasoning.
 7. **Originality:** no claim in this batch has yet demonstrated incremental predictive advantage over ordinary stateful computation, formal logic, information theory or Bayesian inference. This is a provisional comparative disposition, not a final rejection of the overall synthesis.
 
-## 7. Open dependencies and next audit actions
+## 7. Historical first-batch dependency snapshot — §§1–15
+
+This section preserves the dependencies recorded when the §§1–15 register was first completed. It is a historical status snapshot, not the current execution queue. Later work is reconciled below without erasing the original batch boundary or its audit history.
+
+**Original first-batch dependencies (preserved):**
 
 - Complete the source-to-claim map for §§16–27, then §§28–40, and continue in baseline section order.
 - Add primary-source locations where reviews currently provide only contextual support.
@@ -243,7 +247,19 @@ Ghislaine Dehaene-Lambertz and Elizabeth S. Spelke, “The Infancy of the Human 
 - Reopen S08 if new developmental evidence changes the scope of the newborn example.
 - Do not mark Section 12.2, 12.5, 12.6 or Section 13.1 complete on the basis of this first batch alone.
 
-**Status:** §§1–15 have a first claim-level source/disposition register. This batch is not the complete audit of the treatise, and no claim is promoted to empirical validation by inclusion here.
+### Reconciliation against subsequent work through §§28–40
+
+| Original dependency | Current assessment | Later work / remaining boundary |
+|---|---|---|
+| Source-to-claim mapping for §§16–40 | **Partially addressed** | Claim-level entries and evidence assessments now cover §§16–40 in Sections 8, 11 and their associated source registers. The three batch histories remain distinct. This does not complete exact source-side pinpointing, full primary-source verification or all claim-to-source links. See the batch records and commits `78038513a90cd763b8b65784730ca1894cf8f6a8` and `9c19a49eb1e18bcac37247d0f8a8a44bdd115837`. |
+| Primary-source locations where reviews provide contextual support | **Partially addressed; still open** | Primary and authoritative sources have been added for selected consequential claims, including physical/neural energetics, learning, habit, interventions and control. Exact pages, sections, equations, tables, figures or result locations remain to be verified claim by claim; contextual reviews must not be presented as direct experimental support. |
+| Epistemic taxonomy crosswalk | **Open** | The mismatch among §1, §2 and §15 remains unresolved. Preserve the independent dimensions of claim kind, formal validity, empirical/evidential support, disposition and unresolved dependency. No taxonomy has been silently replaced. |
+| Full formal premise map and M1–M18 cross-reference | **Partially addressed; still open** | A first-pass theorem/proposition premise map and M1–M18 audits exist in the governing-plan history. Their assumptions, proof corrections, cross-section dependencies and final claim dispositions still require integrated verification. |
+| Distinguish stored, entailed, predictable and corroborated information | **Partially addressed** | The §§1–15 findings and §§28–40 information/inference assessments distinguish logical entailment, statistical dependence/prediction and empirical corroboration. The distinction must still be applied consistently across the remaining claims and final synthesis. |
+| Reopen S08 if developmental evidence changes its scope | **No reopening trigger established in the subsequent pass** | The narrow prenatal auditory-learning qualification remains; no adult-like neonatal reasoning claim is supported. Retain the conditional reopening rule rather than treating it as a resolved universal question. |
+| Sections 12.2, 12.5, 12.6 and 13.1 | **Open** | Section coverage and first-pass claim batches do not satisfy exhaustive claim coverage, source pinpointing, final knowledge-status adjudication or completion review. These gates remain active. |
+
+**Historical first-batch status:** §§1–15 received a first claim-level source/disposition pass. Subsequent work through §§16–40 improves cumulative coverage but does not complete the 95-section audit, validate the framework, or promote any provisional claim to empirical establishment.
 
 
 ## 8. Claim-level register: Sections 16–27
