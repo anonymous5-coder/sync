@@ -844,9 +844,9 @@ The two concepts are related historically and mathematically in some formulation
 
 For this treatise, the term **resource-constrained predictive control** will be used when the argument concerns action selection, uncertainty, and biological cost. This avoids turning a useful mathematical analogy into an unsupported identity.
 
-## 26. The physical–cognitive bridge: Formal synthesis
+## 26. The physical–cognitive bridge: Proposed multilevel hypothesis
 
-The derived bridge can be stated as a chain:
+The proposed bridge hypothesis can be represented as a chain of candidate links:
 
 $$
 \begin{aligned}
@@ -866,22 +866,19 @@ $$
 
 This is not a deterministic law that every low-energy action is selected. The system also considers reward, risk, uncertainty, social demands, bodily needs, and learned goals.
 
-### Theorem 3 — A cost-sensitive controller can rationally select a maladaptive habit relative to a higher-order goal
+### Conditional model result 3 — Local-score selection can conflict with a reflective goal
 
-**Statement:** A controller optimizing its current local action score can select a habitual response that conflicts with a reflective long-term objective.
+**Statement:** In a specified action-selection model, a habitual policy can be selected more often than a deliberative policy even when the latter has greater reflective long-term value, if the model's local score favours the habitual policy.
 
-**Proof:**
+**Derivation:**
 
-1. Let $G$ be a reflective long-term goal.
-2. Let $\Pi_h$ be a cached habitual policy and $\Pi_m$ a more deliberative policy.
-3. Suppose $\Pi_m$ has higher long-term value under $G$, but requires greater control cost.
-4. Suppose current cue strength and immediate relief increase the short-term score of $\Pi_h$.
-5. If the total local score satisfies $Q(\Pi_h)>Q(\Pi_m)$, the local selector chooses $\Pi_h$ more often.
-6. Repeated selection can further strengthen the cue-policy association.
+1. Let $G$ be a reflective long-term goal, and let $\Pi_h$ and $\Pi_m$ be feasible habitual and deliberative policies.
+2. Suppose $\Pi_m$ has greater value under the reflective long-term objective, while the local action score includes immediate value and control costs defined on a commensurable scale.
+3. Suppose the resulting local scores satisfy $Q(\Pi_h)>Q(\Pi_m)$.
+4. Under a finite-action softmax selector with fixed inverse-temperature $\beta>0$, this inequality makes $\Pi_h$ more probable than $\Pi_m$. A greedy selector chooses $\Pi_h$ only if it is a maximizer over the full feasible action set.
+5. Therefore, the specified model can favour a locally higher-scoring policy that conflicts with the reflective long-term objective.
 
-Thus, local optimization can produce behaviour that is globally misaligned with the reflective goal.
-
-The term "rationally" here refers only to the specified local objective function. It does not mean the behaviour is wise, healthy, or endorsed by the person.
+This is a conditional result about the model's score and selector, not a derivation of the physical-to-behavioural bridge or an explanation of any individual's parameters. Repeated selection strengthens a cue-policy association only if a separate learning/update rule entails that change; no such rule is specified here.
 
 ## 27. What the physical bridge predicts
 
@@ -1906,29 +1903,21 @@ The intervention should reduce expected $V$ over repeated cycles.
 
 This gives a rigorous way to define improvement: not "I felt perfectly motivated," but "the measured deviation from the intended behavioural state declined."
 
-## 62. Conditional stability proposition
+## 62. Behavioural improvement under feedback — testable hypothesis, not a stability theorem
 
-**Proposition 5 — Behavioural improvement under effective feedback**
+**Hypothesis:** Within a defined operating domain, reliable trigger detection, an available alternative response, an intervention that changes action selection in the intended direction, reinforcement of successful responses, and bounded/manageable disturbances may be associated with a reduction in the expected frequency or duration of the unwanted response.
 
-Suppose:
+**Rationale (not a proof):** These conditions identify plausible components of a feedback intervention. They do not, by themselves, establish that the expected behavioural state has negative drift. Changes in opportunity, substitution, measurement, competing goals or later disturbances may offset local improvements.
 
-1. the relevant triggers are detected with sufficient reliability;
-2. the alternative action is available;
-3. the intervention changes the probability of action selection in the intended direction;
-4. the learning process reinforces successful alternative responses;
-5. physiological and environmental disturbances remain within manageable bounds.
+A mathematical stability result would require a defined state and target set, an explicit transition/update law, a positive-definite candidate measure where a Lyapunov argument is used, and a quantified deterministic decrease or stochastic conditional-drift inequality with appropriate disturbance and invariance assumptions. Those requirements are not supplied by the present protocol description.
 
-Then repeated feedback can reduce the expected frequency or duration of the unwanted response over the domain in which these assumptions hold.
-
-**Argument:** Each successful cycle changes either the state, action accessibility, or learned policy in a direction that reduces the unwanted transition. If the expected effect exceeds the destabilizing influence of disturbances, the measured deviation declines.
-
-This is conditional. If the assumptions fail—for example, because of severe sleep disorder, a neurological condition, major stress, or a compulsive disorder—the protocol may be insufficient.
+This is therefore a behavioural hypothesis, not a formal guarantee. If the operating conditions are exceeded or the behaviour is persistently distressing or impairing, the protocol may be insufficient and professional assessment may be appropriate.
 
 ## 63. Why no universal guarantee is mathematically justified
 
 A guaranteed cure would require a controller that can overcome every possible disturbance, every biological condition, every environmental change, and every competing objective.
 
-No finite controller can guarantee that under unrestricted conditions.
+A bounded-actuation controller cannot guarantee target-state maintenance for every possible disturbance in a specified plant if the disturbance set is unrestricted. For example, in $x_{t+1}=x_t+u_t+w_t$ with $|u_t|\leq U$ and no bound on $w_t$, a disturbance can always be chosen large enough to drive the next state outside any fixed bounded target region. This counterexample establishes a limitation for that plant/controller/disturbance class; it does not show that every finite controller fails under bounded disturbances or within a defined operating domain.
 
 A system can encounter:
 
@@ -2162,7 +2151,7 @@ The composition notation indicates an ordered or coupled set of transformations.
 
 This is the central architecture of the treatise.
 
-## 73. Unified theorem — Contextual and generative intelligence are complementary
+## 73. Compatibility result — Contextual processing and internal inference
 
 **Statement:** Space or Null Theory and Out of Box Theory are compatible if context is defined to include both external observations and internal structural information.
 
@@ -2177,22 +2166,19 @@ This is the central architecture of the treatise.
 
 Therefore, the two theories describe complementary operations: context acquisition and internal consequence generation.
 
-## 74. Unified theorem — Self-mastery is recursive policy modification under constraints
+## 74. Conditional proposition — Feedback can alter goal-action selection under specified assumptions
 
-**Statement:** A system can improve its probability of executing a chosen goal by using feedback to alter the policy, environment, or action costs that govern future selection.
+**Statement:** In a specified finite-action model with fixed inverse-temperature $\beta>0$, increasing the goal action's score while holding competing scores and the feasible action set fixed increases its softmax selection probability. This is a conditional property of the selector, not proof that ROOT causes the score change.
 
 **Derivation:**
 
-1. Let $P_t(a_g\mid s)$ be the probability of the goal action in state $s$.
-2. Let $P_t(a_h\mid s)$ be the probability of the competing habitual action.
-3. The controller observes outcomes and estimates the state.
-4. ROOT interventions change cue accessibility, response delay, alternative-action availability, and learned values.
-5. If those changes increase the goal action's relative selection score, then under the specified action-selection model its probability increases.
-6. Repeated successful execution can strengthen the alternative policy.
+1. Let $P_t(a_g\mid s)$ be the probability of the goal action in state $s$, and let the feasible action set be fixed for the comparison.
+2. Let $Q_t(a)$ be the defined local score for each feasible action, with all terms on a commensurable scale.
+3. Under softmax selection, $P_t(a_g\mid s)=\exp(\beta Q_t(a_g))/\sum_{a\in\mathcal{A}}\exp(\beta Q_t(a))$.
+4. If $Q_t(a_g)$ increases while all competing scores, $\mathcal{A}$ and $\beta$ remain fixed, the goal action's probability increases. A greedy selector requires the goal action to become a maximizer over the full feasible set.
+5. Whether a ROOT intervention actually changes the score in this direction is an empirical causal question. Repeated successful execution strengthens a policy only under a separately specified learning/update rule.
 
-Thus, self-mastery can be modelled as recursive policy modification.
-
-This theorem is conditional on the action-selection and learning assumptions. It does not prove that any particular intervention will work for every person.
+The result supports a conditional action-selection model. It does not establish a universal self-mastery law, a distinct Recursive Intelligence mechanism, or the efficacy of a particular intervention.
 
 ---
 
