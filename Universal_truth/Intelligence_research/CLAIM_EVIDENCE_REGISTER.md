@@ -3526,4 +3526,42 @@ A fresh current-branch Git tree inspection was performed at HEAD `0433ecc923f555
 - E17/E18 provenance remains open. The negative search result is recorded with its scope; it is not evidence of nonexistence.
 
 No experiments executed or authorized; no claim is upgraded to ROOT efficacy or a general obstruction law.
+## 62. Final architecture/equation dependency and edition-language pass
+
+### 62.1 §70–72: proposed architecture, not a unified mechanism
+
+Treatise commit `7e4fa6e85f0cb9b67633dbb40154ad7205a66278` and follow-up `96375b3ede633e2ee7d0e9083a67c42aafa91d23` revise the integration language:
+
+- §70 now assigns four proposed foundations candidate roles; it no longer states that they occupy one established architecture.
+- §71's former serial composition \(\mathcal F_{context}\circ\mathcal F_{inference}\circ\mathcal F_{control}\circ\mathcal F_{learning}\) is replaced by a set of candidate operation families. This removes the contradiction between composition order and claimed concurrency.
+- The boxed §71 mapping is explicitly a schematic placeholder. Typed domains/codomains, order or concurrency semantics, clocks, feedback interfaces, resource accounting and coupling rules remain unspecified.
+- §71 now calls \(\mathcal S_t\) a system-level descriptor, not a proven Markov-sufficient state.
+- §72 is a proposed conceptual cycle, not a validated necessary/sufficient sequence; stage order, interfaces, termination and incremental contribution remain open.
+
+### 62.2 §90–95: final status language
+
+The final synthesis headings now say “Current status” rather than “What ... establishes” for Space or Null Theory, Out of Box Theory, the physical–cognitive bridge, Recursive Intelligence and ROOT.
+
+The content now distinguishes:
+- contextual/internal computation from information from nothing;
+- conditional derivability from actual-world truth and validated prediction;
+- physical implementation constraints from the unvalidated action-score and behavioural bridge;
+- the proposed Recursive Intelligence construct from established metacognition/meta-control/adaptive-control alternatives;
+- ROOT component evidence from untested package efficacy, sustained-attention improvement, maintenance and controller guarantees.
+
+The former “final unified equation” is now a schematic architecture summary. Its single display relation is a candidate-update arrow over the system descriptor and proposed inputs, not a derived equality, executable transition function or law. The redundant symbolic equation was removed. The closing statement also qualifies the behavioural-learning relation as unvalidated.
+
+### 62.3 Verification
+
+The latest treatise was fetched after the two commits. Automated text checks confirmed:
+
+- §71 contains the operator set and no composition operator;
+- the §71 display blocks have balanced delimiters;
+- §95 contains exactly one display block with balanced delimiters and the candidate-update arrow;
+- all five final status headings are present;
+- the final synthesis contains no remaining unqualified “establishes” heading/claim.
+
+The changes are confined to §§70–72 and §§90–95. No experiment was executed, preregistered or authorized.
+
+**Disposition:** the final architecture is now accurately labelled as a proposed, under-specified integration. The remaining work is not a cosmetic equation rewrite: it requires a typed executable model, identified update semantics, operational variables, parameter identification and comparative empirical validation. No treatise claim of a unified law, distinct intelligence mechanism or ROOT efficacy is made.
 
