@@ -1745,7 +1745,7 @@ S01-C01, S03-M01, S19-M02, S26-M01, S49-C01, S52-C01, S57-C01, S59-C01, S06-C01,
 
 These items make or summarize claims about development, neural/behavioural mechanisms, learning, effort, prediction, intervention effects, or other phenomena. They require a source that matches the population, task, outcome and causal strength of the wording; review-level citations may orient the search but cannot substitute for primary evidence where a specific mechanism or causal effect is claimed.
 
-S13-C02, S16-C02, S17-C02, S18-C02, S18-C03, S20-C01, S21-C02, S22-C01, S23-C01, S23-C02, S27-H01, S27-H08, S33-C01, S34-C01, S35-C02, S40-C01, S41-C02, S42-C01, S58-C01, S68-C01
+S13-C02, S16-C02, S17-C02, S18-C02, S18-C03, S20-C01, S21-C02, S22-C01, S23-C01, S23-C02, S27-H01, S27-H08, S34-C01, S35-C02, S40-C01, S41-C02, S42-C01, S58-C01, S68-C01
 
 ### 27.4 Definition, taxonomy, methodological or normative clarification required
 
