@@ -2086,7 +2086,7 @@ The objective is measured progress, not perfect compliance.
 
 # PART XIII — THE UNIFIED MASTER FRAMEWORK
 
-## 70. Four foundations, one system
+## 70. Four proposed foundations and their candidate roles
 
 The four named foundations are assigned distinct proposed roles in a candidate architecture; their interfaces and joint operation have not been validated.
 
@@ -2097,7 +2097,7 @@ The four named foundations are assigned distinct proposed roles in a candidate a
 | Recursive Intelligence | Proposed self-modeling and policy modification | Candidate update $\Theta_{t+1}=U(\Theta_t,\text{feedback})$ |
 | ROOT Control Protocol | Proposed behavioural intervention protocol | Candidate closed-loop controller |
 
-## 71. Unified state equation
+## 71. Schematic joint-state mapping (not an executable transition law)
 
 The entire system can be represented as:
 
@@ -2501,7 +2501,7 @@ Out of Box Theory proposes how internal inference can derive consequences not ex
 
 Physical constraints bound implementation, while Recursive Intelligence and ROOT remain proposed models for self-directed adaptation and behavioural intervention. None of these summaries implies that the integrated architecture has been empirically validated.
 
-Behavioural learning shapes which actions become readily available.
+Behavioural learning may change which actions become readily available, but the treatise has not specified or validated a general update law for this process.
 
 Recursive Intelligence uses feedback to modify the system's future operation.
 
