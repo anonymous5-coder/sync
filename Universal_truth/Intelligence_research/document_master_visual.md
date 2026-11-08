@@ -1995,19 +1995,21 @@ Compulsive Sexual Behaviour Disorder is a clinical category involving persistent
 
 The ROOT protocol can be used for ordinary unwanted patterns, but persistent, distressing, or impairing behaviour merits professional assessment. The goal is not to wage war against biology; it is to establish a workable relationship between impulses, values, and chosen action.
 
-## 67. Sleep is a control-system variable
+## 67. Sleep is a control-system context variable
 
-If sleep timing or sleep quality is poor, the controller may be operating under degraded conditions.
+Sleep is a relevant biological context for attention and task performance, but the evidence must be stated by exposure and cognitive domain. R43 is a meta-analysis of experimentally manipulated short-term sleep restriction (61 studies, 71 populations): it reports negative average effects on overall cognitive processing, executive function, sustained attention and long-term memory, while finding insufficient evidence for several broader domains. R44 is a separate one-night meta-analysis in healthy adults (44 studies, 1,087 participants; 2–6 h sleep opportunity): it reports increased subjective sleepiness and impaired sustained attention, but no significant pooled effects for choice reaction time, cognitive throughput, working memory or inhibitory control. R44 also reports heterogeneity and a publication-bias signal for sustained-attention reaction time. Neither review establishes the effects of every sleep-timing or sleep-quality pattern, nor explains an individual's performance.
 
-A focus plan should not treat sleep as optional recovery after productivity. Sleep is part of the biological substrate that makes learning, attention, and executive control possible.
+A focus plan should not treat sleep as optional recovery after productivity. Sleep is part of the biological context in which learning and attention operate. The two-week log below is descriptive self-monitoring, not a diagnostic instrument or causal test.
 
 A practical initial procedure:
 
 1. Record sleep and wake times for two weeks.
-2. Record daytime sleepiness and naps.
-3. Observe whether the schedule varies substantially.
+2. Record daytime sleepiness and naps separately from sleep duration.
+3. Observe whether the schedule varies substantially; do not infer a sleep disorder from variation alone.
 4. Avoid interpreting persistent excessive sleepiness as laziness.
 5. Seek medical evaluation if sleep problems are persistent, severe, or functionally impairing.
+
+**Evidence boundary:** R43 concerns experimentally manipulated short-term restriction; R44 concerns one-night restriction under specified laboratory conditions. Their pooled effects do not provide a personal prediction or a known coefficient for the ROOT fatigue rating. Circadian timing and subjective sleep quality require separate evidence.
 
 ## 68. Study initiation as a designed transition
 
