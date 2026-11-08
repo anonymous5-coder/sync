@@ -3565,3 +3565,34 @@ The changes are confined to §§70–72 and §§90–95. No experiment was execu
 
 **Disposition:** the final architecture is now accurately labelled as a proposed, under-specified integration. The remaining work is not a cosmetic equation rewrite: it requires a typed executable model, identified update semantics, operational variables, parameter identification and comparative empirical validation. No treatise claim of a unified law, distinct intelligence mechanism or ROOT efficacy is made.
 
+## 63. Final architecture/equation and edition-language verification
+
+### 63.1 §70–72: architecture-level dependencies
+
+The current treatise now labels the four foundations as proposed roles with candidate representations. Section 71 uses a candidate-update arrow rather than an equality that could be mistaken for a specified transition law. It lists context, inference, control and learning as candidate operation families without asserting an unsupported serial composition.
+
+The operator set and the architecture-level input/output map remain schematic. The following are still missing before the mapping can become an executable model: typed domains and codomains; an explicit state/observation distinction; update order or joint concurrency semantics; sampling clocks; feedback and reward definitions; action/policy and environment interfaces; resource units/accounting; and coupling rules. No Markov sufficiency or closed-loop stability follows from the diagram.
+
+### 63.2 §90–95 and concluding status
+
+The five theory-specific status sections distinguish conceptual proposals, conditional formal results, bounded evidence and unvalidated bridges. The final synthesis now identifies the cross-domain claim as an integrative hypothesis rather than a universal law. Section 95 qualifies Recursive Intelligence as a proposed feedback/self-representation construct and ROOT as a proposed operational method; neither is presented as an established mechanism or effective package.
+
+A stale end-of-document STATUS OF THE FRAMEWORK block was found to contradict the revised status sections and Section 62. It had described the framework as complete, claimed a validated-sounding physical–cognitive bridge, formal cue-response model, mathematical ROOT protocol and full mathematical investigations, and implied a completed experimental programme. That block has been replaced with a precise inventory of current draft work products and explicit non-findings. It now states that A–F are protocol templates, not executed/preregistered/approved experiments; internal adversarial review is not independent external review; E17/E18 provenance remains unresolved; and the manuscript is not yet review-ready under the governing plan.
+
+### 63.3 Diff and consistency verification
+
+Treatise commits:
+- ae232ad086c7ddc9d7ee018f4e141f3834964701: qualified §95, reframed the conclusion as a proposed synthesis, and replaced the stale framework-completion checklist.
+- 4d936063708d41cbab2cd38659d4e235935152ec: changed the §70 table heading to candidate representations and replaced the §71 equality with a candidate-update arrow.
+
+The latest treatise was fetched again. Verification confirmed:
+- §71 and §95 use candidate-update arrows rather than claiming a derived equality.
+- §71 retains the four operation families as a set, with no serial composition.
+- The final status block no longer calls the manuscript a complete theoretical research framework.
+- The status block explicitly records that A–F remain unexecuted, E17/E18 remain unresolved, and independent external review remains outstanding.
+- The concluding synthesis is explicitly identified as a hypothesis requiring comparison with established alternatives.
+
+### 63.4 Disposition
+
+The edition-language and architecture-level dependency pass is complete for §§70–72 and §§90–95. This is a wording/consistency correction, not completion of the underlying science. The typed integrated model, source/provenance gaps, remaining claim-specific evidence closure, experiment readiness, and qualified independent review remain open. The plan's review-ready and retirement gates are not satisfied. No tracker changes, experiments, preregistration, merge or plan retirement are authorized or claimed.
+
