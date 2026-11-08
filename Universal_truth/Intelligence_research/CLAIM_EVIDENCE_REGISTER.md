@@ -3240,4 +3240,39 @@ The following minimal corrections are justified by the existing definitions and 
 - Preserve the tracker as a practical operational artifact; no new composite score, coefficient estimate or latent-state claim is introduced by these notation fixes.
 
 **Disposition:** the macro, reduced behavioural and ROOT operational representations are now crosswalked conceptually, but not unified into one validated state-space model. The symbol and sequencing corrections above are ready for controlled implementation; measurement validity, Markov sufficiency, causal identification and parameter estimation remain open. No tracker edits in this audit entry; no experiments executed or authorized.
+## 53. Controlled glossary/state-dictionary correction — treatise and tracker alignment
+
+### 53.1 Treatise changes
+
+The controlled edits in treatise commits `0d31e1b1ba44a80b5aed5d58e7ed965c42c31a74`, `965542c976b79320c7c2f2f46bd98287576110ef` and `570a923a50d345775c06cdbac36522e9cc08acfe` implement the audited glossary corrections:
+
+- §3 now presents observation, policy-based action selection and state transition in a sequential order. The policy is conditioned on the observation. The broad \(\mathcal S_t\) tuple is explicitly a system-level descriptor, not a proven minimal or Markov-sufficient state.
+- §37 reserves \(\phi_t\) for physiological context and leaves \(z_t\) for task demand/uncertainty in §39.
+- §52 states the approximate crosswalk between the six-variable behavioural model and seven-variable ROOT state. It clarifies that \(f_t\) is a subjective ordinal fatigue rating, not objective physiology, and that the seven ratings are not assumed equally spaced or additive.
+- §53 separates the cue identifier from cue intensity and aligns the episode tuple with the operational fields: cue identifier, state, action, immediate consequence, duration, return-to-task latency and intervention.
+- §57 renames the outcome error to \(\varepsilon_t^{\mathrm{out}}\), preserving \(e_t\) for competing-action accessibility.
+- §60 reserves \(A_{\mathrm{plant}},B_{\mathrm{plant}},K_{\mathrm{fb}}\) for plant and feedback matrices, avoiding collisions with architecture A and knowledge base K.
+
+### 53.2 Tracker alignment
+
+Tracker commit `aaeaa5cec53eecf07f1e751f7986f843cd2d5dfb` aligns §2 with the treatise:
+
+- \(f_t\) is explicitly perceived fatigue, not an objective physiological measurement.
+- The approximate \(z_t\leftrightarrow d_t\) task-demand mapping is stated without asserting equivalence.
+- The episode tuple includes cue identity, state, action, consequence, duration, return latency and intervention.
+- The control-model matrix notation matches the treatise's plant/gain symbols.
+
+### 53.3 Verification
+
+The current treatise and tracker were fetched from the edition branch. All six changed treatise display equations were checked for opening and closing display delimiters; the episode tuple is identical in both documents; the old \(z_t\)-physiology and \(e_t\)-error collisions are absent; and the old unqualified \(A-BK\) control notation is absent from the revised sections.
+
+### 53.4 Residual semantic limits
+
+- The six-variable and seven-variable vectors remain different abstractions, not a single unified latent state.
+- The ratings are ordinal and unvalidated. No arithmetic, coefficient or causal interpretation is licensed by the crosswalk.
+- \(d_t\) still combines difficulty, ambiguity and uncertainty; separate measurement may be required for specific studies.
+- The broad descriptor \(\mathcal S_t\) is not demonstrated to be Markov-sufficient; observation history and sampling clocks remain application-specific.
+- Reward, consequence, outcome, prediction error, self-report and intervention fidelity still require typed definitions before any integrated model is estimated.
+
+**Disposition:** the symbol/sequence and operational episode-record defects identified in §52 are corrected in the treatise and tracker. The state-space model, measurement validity, Markov sufficiency and causal parameters remain open. No experiments executed or authorized.
 
