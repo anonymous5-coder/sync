@@ -380,23 +380,23 @@ where $\Omega(K)$ is the subset of possible worlds satisfying $K$.
 
 The system does not need to observe the particular event described by $p$ if the proposition is already entailed by the constraints in $K$.
 
-### Theorem 1 — Unobserved truth can be derived before direct observation
+### Theorem 1 — An entailed proposition can be derived before direct observation
 
-**Statement:** If a proposition $p$ is entailed by a system's valid background constraints $K$, then a sound inference procedure can derive $p$ without a new direct observation of the event described by $p$.
+**Statement:** Let $K$ be a knowledge base with at least one model under a specified semantics. If $K\models p$ and the chosen proof calculus is complete for that semantics, then $K\vdash p$. The derivation can be obtained without a new direct observation of the event described by $p$, provided the system can execute the required proof search with sufficient computational resources.
 
 **Proof:**
 
-1. By assumption, $K\models p$.
-2. A sound inference procedure preserves truth: if its premises are true and it derives $p$, then $p$ is true in every model of those premises.
-3. The derivation operates on $K$, not on a new observation of the target event.
-4. Therefore, the system can derive $p$ before directly observing the event.
+1. By assumption, every model of $K$ satisfies $p$: $K\models p$.
+2. By completeness of the chosen proof calculus, semantic consequence implies derivability: $K\vdash p$.
+3. Soundness gives the converse validity safeguard: any proposition derived in that calculus from $K$ is a semantic consequence of $K$.
+4. The derivation uses the premises and inference rules in $K$; it does not require a new direct observation of the target event.
+5. The nonempty model-class condition prevents the entailment from being vacuous because $K$ has no models. The result establishes derivability from $K$, not actual-world truth. For that further claim, the actual world $W$ must satisfy the premises: $W\models K$.
 
-$$
-K\models p\quad\Rightarrow\quad
-\text{sound derivation of }p
-$$
+$
+K\models p\quad\xRightarrow[\text{completeness}]{}\quad K\vdash p
+$
 
-The proposition can be new to the system while being logically constrained by information it already possesses. This is a genuine form of discovery relative to the system.
+The proposition can be new to the system while being logically constrained by information it already possesses. This is discovery relative to the system's prior representation, not acquisition of an unconstrained fact from nothing.
 
 ### Corollary 1 — Discovery need not require direct sensory access
 
@@ -2172,7 +2172,7 @@ This is the central architecture of the treatise.
 2. Out of Box Theory states that a system can generate conclusions not explicitly supplied by its observations.
 3. Let context include $C=(O,M,A,K)$, where $O$ is external observation, $M$ memory, $A$ architecture, and $K$ formal constraints.
 4. A system can perform inference $Y=\mathcal{I}(M,A,K)$ even when new external observation $O=0$.
-5. If $K\models p$, the system can derive $p$ without directly observing the event described by $p$.
+5. If $K\models p$ and the chosen proof calculus is complete for the specified semantics, the system can derive $p$ without directly observing the event described by $p$; non-vacuity requires that $K$ have at least one model.
 6. The derivation depends on internal context, so it does not violate the contextual dependence described by Space or Null Theory.
 
 Therefore, the two theories describe complementary operations: context acquisition and internal consequence generation.
