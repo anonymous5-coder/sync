@@ -2247,17 +2247,21 @@ The experiments below are designed to separate the framework's components rather
 
 ## 79. Experiment D — Environmental obstruction
 
-**Question:** Does reducing cue accessibility change unwanted action frequency?
+**Question:** In a defined target loop, does a specific accessibility manipulation reduce the target action per eligible opportunity, without unacceptable substitution or burden, relative to a credible comparator?
+
+**Evidence boundary:** R33 found that grayscale reduced objectively measured smartphone screen time by about 50 minutes/day relative to a self-monitoring control in a student sample, but found no immediate causal improvement in academic performance or subjective well-being. R34 found that objective use declined in intervention and control groups alike, while self-reported problematic use increased; heightened usage awareness was a possible explanation. These are local and mixed findings, not a universal obstruction law or evidence of sustained-attention improvement.
 
 **Design:**
 
-1. Record baseline phone-checking frequency.
-2. Introduce a physical or software barrier.
-3. Keep the task and schedule as stable as practical.
-4. Measure changes in checks, focused time, and return-to-task latency.
-5. Reverse or vary the intervention where appropriate.
+1. Define one target action, one cue/accessibility manipulation and an eligible opportunity for the target action. Do not use total screen time as a proxy for every form of distraction.
+2. Record baseline opportunities, target actions, device-recorded use and return-to-task latency. Keep subjective reports separate from objective device measures.
+3. Compare a specific barrier with a credible matched monitoring/sham or randomized/counterbalanced control. If the design is within-person, predefine phase order, carryover and reversal conditions.
+4. Keep task, schedule and monitoring intensity as stable as practical. Record awareness/reactivity so that monitoring effects are not mistaken for barrier effects.
+5. Measure target actions per eligible opportunity, total device time, substitutions across apps/devices, functional task output, return-to-task latency, adherence, burden and adverse effects.
+6. Include a follow-up after barrier removal where maintenance is part of the claim.
+7. Predefine the primary estimand, meaningful-effect threshold, missing-data handling and analysis. Preserve null and adverse findings.
 
-**Prediction:** Reducing cue accessibility should reduce some cue-triggered actions, especially when those actions depend on immediate access.
+**Prediction:** A barrier may reduce a particular access-dependent action in some contexts. It need not improve sustained attention or task performance, and apparent reduction may be offset by substitution, awareness effects or burden. A screen-time change alone is not a functional benefit.
 
 ## 80. Experiment E — Alternative-response training
 
