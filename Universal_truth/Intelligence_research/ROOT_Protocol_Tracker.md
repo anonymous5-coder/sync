@@ -57,23 +57,23 @@ $$
 |---|---|---|
 | $c_t$ | Cue intensity / salience | 0 absent; 5 extremely salient |
 | $u_t$ | Urge / motivational activation | 0 none; 5 very strong |
-| $f_t$ | Fatigue / physiological load | 0 fresh; 5 severely depleted |
+| $f_t$ | Perceived fatigue (ordinal self-rating; not objective physiology) | 0 fresh; 5 severely depleted |
 | $d_t$ | Task difficulty, ambiguity, uncertainty | 0 clear/easy; 5 highly difficult/unclear |
 | $g_t$ | Goal activation / readiness | 0 inactive; 5 clear and active |
 | $h_t$ | Competing habit strength in this context | 0 negligible; 5 strongly established |
 | $e_t$ | Accessibility of competing action | 0 effectively inaccessible; 5 immediate access |
 
-These are ordinal self-ratings, not laboratory measurements. Keep their meaning stable across the experiment.
+These are ordinal self-ratings, not laboratory measurements. Keep their meaning stable across the experiment. In particular, $f_t$ is perceived fatigue; it does not measure neural metabolism or objective physiological load. In the treatise's reduced six-variable model, $z_t$ denotes task demand and corresponds only approximately to this tracker's $d_t$. The seven ratings are not assumed equally spaced or directly additive.
 
 ## 2.1 Episode representation
 
 The source treatise defines:
 
 $$
-\mathcal{E}_t=(c_t,s_t,a_t,r_t,\tau_t)
+\mathcal{E}_t=(\text{cueID}_t,s_t,a_t,r_t,\tau_t,\mathrm{RTL}_t,\iota_t)
 $$
 
-Operationally, each episode records: trigger, state, action, immediate consequence, duration, return latency, and intervention used.
+Operationally, $\text{cueID}_t$ identifies the trigger/context, while $c_t$ inside $s_t$ is its cue-intensity rating. Each episode records the trigger identifier, state, action, immediate consequence, duration, return-to-task latency, and intervention used.
 
 ## 2.2 Action-cost arbitration
 
@@ -116,7 +116,7 @@ $$
 The source's feedback model is:
 
 $$
-x_{t+1}=(A-BK)x_t+w_t
+x_{t+1}=(A_{\mathrm{plant}}-B_{\mathrm{plant}}K_{\mathrm{fb}})x_t+w_t
 $$
 
 with a Lyapunov-style target:
