@@ -4025,3 +4025,54 @@ The PubMed and PMC bibliographic records confirm *Proceedings of the National Ac
 
 **Disposition:** source descriptions and access labels are now more explicit for R06–R12. R06, R07, R09, R10 and R12 remain abstract/metadata-level for this audit; R11 has accessible publisher full-text material. The evidence supports only the narrow developmental, thermodynamic and neural-energy claims stated above. No treatise/tracker edits; no experiments executed or authorized.
 
+## 76. Source-to-claim audit — reinforcement learning, habit arbitration and control allocation (R16–R19, R23–R24)
+
+### 76.1 R16 — Sutton & Barto, *Reinforcement Learning: An Introduction*, second edition
+
+The openly accessible Stanford-hosted PDF was inspected. Its own front matter labels it “Second edition, in progress” and carries 2014–2015 copyright text; it is therefore a prepublication manuscript copy, not proof that the exact text/edition pagination matches the final 2018 MIT Press edition. The table of contents identifies Chapter 6: TD prediction §6.1, Sarsa §6.4 and Q-learning §6.5. The relevant text distinguishes state-value TD prediction from action-value control, defines Sarsa using the five-event transition \((S_t,A_t,R_{t+1},S_{t+1},A_{t+1})\), and defines Q-learning using a max over next-state actions. Its Q-learning convergence discussion is conditional on continued updates of all state–action pairs and stochastic-approximation conditions.
+
+**Access and pinpoint status:** full accessible prepublication manuscript inspected; chapter/section and printed-page locations are identifiable (Chapter 6, printed pp. 143–159; Sarsa pp. 154–156; Q-learning pp. 157–159). Final 2018 MIT Press text was not independently compared in this pass.
+
+**Claim disposition:** use the source for canonical algorithm distinctions and event timing only. The treatise's §22 hybrid update is not automatically TD(0), Sarsa or Q-learning; it must specify whether it updates state values or action values, which policy supplies the next action, and whether the target uses the sampled next action or a maximum over next actions.
+
+### 76.2 R17 — APA Dictionary, negative reinforcement
+
+The APA Dictionary entry was inspected. It defines negative reinforcement as removal, prevention or postponement of an aversive stimulus contingent on a response, which in turn increases the probability of that response. The entry is updated 19 April 2018.
+
+**Access and pinpoint status:** official dictionary definition inspected; no page number applies.
+
+**Claim disposition:** retain the contingency and subsequent response-increase requirements. Immediate relief alone is insufficient evidence of negative reinforcement unless it is contingent on the response and increases its future probability. Avoid conflating negative reinforcement with punishment, mere discomfort reduction or an individual's unverified subjective interpretation.
+
+### 76.3 R18 — O'Doherty, Cockburn & Pauli (2017), learning, reward and decision making
+
+The Annual Review publisher record confirms *Annual Review of Psychology* 68, 73–100 (2017), DOI 10.1146/annurev-psych-010416-044216. The openly accessible author manuscript was inspected. Its abstract reviews multiple strategies for reward-related behaviour, including goal-directed/model-based and habitual/model-free control, partly distinct neural substrates, interactions and an emerging arbitration mechanism. The arbitration discussion (printed p. 89) describes prediction reliability as one proposed factor; cognitive effort and potential benefits of model-based control are also relevant. The authors explicitly note that the computations mediating some forms of arbitration remain incompletely understood.
+
+**Access and pinpoint status:** full author manuscript inspected; arbitration discussion at printed p. 89; publisher metadata/abstract checked. The source is a review, not a single experiment establishing a universal two-system architecture.
+
+**Claim disposition:** supports established neighbouring alternatives and the need to model interaction/arbitration. It does not license a strict one-to-one mapping of every habit to model-free control, a universal anatomical binary, or a distinct Recursive Intelligence mechanism.
+
+### 76.4 R23 — Berridge & Robinson (2016), incentive salience and addiction
+
+The authors' openly accessible PDF was inspected. The review distinguishes mesolimbic incentive-salience “wanting” from hedonic “liking” and explicitly warns that their technical use of “wanting” (often placed in quotation marks) is not identical to ordinary cognitive desire with a declarative goal (printed p. 671). It discusses cue-triggered incentive salience and sensitization in susceptible individuals and in the theory's addiction-related domain.
+
+**Access and pinpoint status:** full article PDF inspected, *American Psychologist* 71(8), 670–679; the technical/ordinary “wanting” distinction is at printed p. 671. PubMed metadata and DOI 10.1037/amp0000059 independently checked.
+
+**Claim disposition:** supports a distinction between incentive salience and hedonic pleasure in the relevant theoretical/clinical domains. It does not justify classifying ordinary urges, distraction, phone checking or everyday habits as addiction or neural sensitization.
+
+### 76.5 R24 — Shenhav, Botvinick & Cohen (2013), expected value of control
+
+The authors' openly accessible Princeton-hosted PDF and PubMed metadata were inspected. The paper is a theoretical/normative review in *Neuron* 79(2), 217–240, DOI 10.1016/j.neuron.2013.07.007. Its EVC model integrates expected payoff, amount of control investment and cognitive-effort cost to propose how dACC allocates control. The authors frame it as a proposed integrative account, not an established complete neural mechanism.
+
+**Access and pinpoint status:** full PDF inspected; abstract/introductory model statement at printed p. 217; model discussion and figures inspected. PubMed confirms the bibliographic record and PMCID PMC3767969.
+
+**Claim disposition:** EVC is a strong neighbouring alternative for control allocation and should be compared against the treatise's local action-cost score. The existence of this alternative reduces any novelty claim based merely on combining payoff, control investment and effort cost. It does not establish the treatise's exact variables, weights, behavioural state vector or causal model.
+
+### 76.6 Integrated consequence for the treatise
+
+1. **§22:** the update must remain explicitly unclassified until state-value versus action-value targets, sampled-next-action versus maximization, reward timing, policy and Markov assumptions are all specified. R16 provides a precise algorithmic comparison, not a blanket validation.
+2. **§§26–27, 34 and 39:** habit, cue association, relief and state dependence should be compared with model-based/model-free, Pavlovian/instrumental, incentive-salience and reinforcement contingencies rather than collapsed into one “habit” mechanism.
+3. **§§19–20 and 74:** the proposed action score must be compared with EVC and other control-allocation accounts. Shared ingredients do not establish novelty or identity; a distinct construct requires a discriminating prediction and measurable incremental value.
+4. **Everyday self-management:** the technical construct “incentive salience” must not be inferred from an ordinary urge rating or treated as a diagnosis.
+
+**Disposition:** source coverage now includes precise algorithmic distinctions, negative-reinforcement contingency, model-based/model-free arbitration, technical wanting/liking boundaries and EVC as a major alternative. R16's accessible text is a prepublication manuscript rather than a verified final 2018 edition; R18 and R23–R24 have full accessible text; R17 is an official dictionary definition. No source validates the proposed unified theory or ROOT package. No treatise/tracker edits; no experiments executed or authorized.
+
