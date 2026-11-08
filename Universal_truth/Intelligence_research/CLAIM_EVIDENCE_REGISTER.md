@@ -4216,3 +4216,34 @@ Treatise commit `0dad0802a79b427653391f5b72de7f4cde3e9196` changes only the inte
 
 **Disposition:** the proposed intelligence functional remains unvalidated and is not a substitute for established psychometric measures. Investigation A is no longer described as resolved. No experiments executed or authorized.
 
+## 81. Current line-map and verification — intelligence, self-model and final status revisions
+
+### 81.1 Current treatise snapshot
+
+The current treatise was fetched at blob `4f72ad4b9a34cb6046d831014aec7207fb10a6d7`: 2,802 lines and 95 numbered sections. The edition branch remains isolated from main; current branch comparison is recorded in the continuation report/plan.
+
+| Section | Current lines | Current audited state |
+|---|---:|---|
+| §22 | 801–838 | Q-learning remains a conditional computational abstraction; reward encoding, positive TD-error condition, negative-reinforcement contingency and policy dependence are explicit. |
+| §32 | 1139–1189 | Five-component intelligence functional is a candidate, unvalidated measure; psychometric, criterion, discriminant and out-of-sample requirements are stated. |
+| §33 | 1190–1205 | Investigation A is a provisional conceptual synthesis, not “resolved.” |
+| §§46–50 | 1618–1777 | Self-estimation uses observation/action/outcome history; parameter update is unspecified; ordinary adaptive feedback is distinguished from a distinct recursive mechanism; objective/gradient assumptions and partial-goal ordering are explicit. |
+| §73 | 2331–2347 | Compatibility result retains completeness and non-vacuity conditions; duplicate R03 pointer removed. |
+| §74 | 2348–2367 | Conditional softmax proposition retains fixed-action-set and fixed-temperature requirements. |
+| §§90–95 | 2639–2802 | Current status and conclusion language remain provisional; companion register range is R01–R70; §95 remains a schematic dependency map, not a unified transition law. |
+
+### 81.2 Structural verification
+
+- 95/95 numbered sections remain present.
+- The treatise contains 69 section-level evidence-pointer blocks, using 65 distinct canonical R identifiers after excluding historical aliases R52, R56 and R64.
+- R01–R70 remain the current companion source-register range.
+- The tracker blob remains `dff7d43545ce5f28d19b65e31600407ac5810062`; no tracker changes were required in the latest self-model/intelligence revisions.
+- The current intelligence functional and Investigation A status statements were re-fetched and verified after their focused commit.
+- The self-model display equations in §§46 and 49 were re-fetched after the delimiter repair and verified as display math.
+
+### 81.3 Remaining gates
+
+This line-map is not a full 95-section sentence-level audit. It does not close exact source pinpoints for every empirical claim, the complete R01–R70 author/title/year/volume/page audit, E17/E18 provenance, final render quality, independent external review or the integrated architecture. The 204-ID ledger and internal adversarial coverage do not imply that all source, formal or validation dependencies are closed.
+
+**Disposition:** current line references for the most recently revised high-impact clusters are reconciled. The manuscript remains NOT REVIEW-READY. Continue with claim-level source and formal dependency audits; do not authorize or imply execution of Experiments A–F, merge or plan retirement.
+
