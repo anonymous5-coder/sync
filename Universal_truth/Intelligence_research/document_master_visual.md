@@ -323,7 +323,7 @@ This can include memory replay, simulation, deduction, planning, and spontaneous
 
 **Conclusion:** A system can continue to think in the absence of new sensory input because it is not operating in the absence of all context.
 
-**Claim-linked evidence register records:** R01, R05, R21, R22, R52. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R01, R05, R21, R22, R03. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 8. The newborn and the empty-system thought experiment
@@ -348,7 +348,7 @@ This clarification strengthens rather than weakens Space or Null Theory: the the
 
 ---
 
-**Claim-linked evidence register records:** R06, R07, R08, R56. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R06, R07, R08, R06. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 # PART IV — OUT OF BOX THEORY: EPISTEMIC LIMIT AND EXPANSION
 
@@ -446,7 +446,7 @@ Hence, no sound deduction from $K$ alone can uniquely establish $p$.
 
 This is not a weakness of intelligence. It is a limit imposed by information and logic.
 
-**Claim-linked evidence register records:** R03, R05, R52. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R03, R05, R03. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 12. The upgraded meaning of Out of Box Theory
@@ -1084,7 +1084,7 @@ $$
 \boxed{\text{Implicit consequence}\not\Rightarrow\text{explicit prior representation}}
 $$
 
-**Claim-linked evidence register records:** R01, R05, R21, R22, R52. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R01, R05, R21, R22, R03. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 31. Research question A4: What are the physical limits of information processing?
@@ -2337,7 +2337,7 @@ This is an organizing diagram for the proposed architecture, not a validated nec
 
 Therefore, the two theories describe complementary operations: context acquisition and internal consequence generation.
 
-**Claim-linked evidence register records:** R01, R02, R03, R05, R21, R22, R52. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R01, R02, R03, R05, R21, R22, R03. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 74. Conditional proposition — Feedback can alter goal-action selection under specified assumptions
 
