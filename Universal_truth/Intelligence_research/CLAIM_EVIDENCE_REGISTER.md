@@ -2739,16 +2739,13 @@ This ledger applies the five independent fields defined in §22.1 to the first s
 | S45-EQ01 | Feedback-loop equation | Schematic; no estimator/update semantics | Not validated | Specify state estimator, intervention policy, update cadence and stability/safety constraints. |
 | S45-C02 | Personalization hypothesis | No formal result; adaptive superiority is empirical | No evidence that individualized adaptation outperforms fixed rules | Retain as hypothesis; require within-person validation and comparator. |
 | S46-M01 | Self-model architecture | Schematic; estimator receives latent true S as if observed | Metacognition/meta-control are neighbours, not distinct-mechanism evidence | Retain as candidate architecture; define represented object and observation history. |
-| S46-EQ01 | Self-model equation | Observation model/history and latent-state estimator missing | No distinct Recursive Intelligence validation | Replace true-state input with observable/history-based estimator and define uncertainty. |
-| S46-EQ02 | Parameter-update equation | Update target, objective, constraints and error undefined | No empirical parameter-update evidence | Specify parameter domain, objective, update rule and meta-level target. |
-| S46-EQ03 | State-transition equation | Transition law and input/state interfaces unspecified | No validated transition model | Define typed transition, input channels, time index and comparator to ordinary adaptive control. |
+| S46-EQ01–EQ03 | Self-model, parameter-update and state-transition equations | Schematic; latent true S is treated as observed, update target/objective/constraints are undefined, and transition law/interfaces are unspecified | No distinct Recursive Intelligence or parameter-update validation | Retain as candidate architecture only; define observation/history-based estimation, parameter domain, meta-level target, typed transition and comparator to ordinary adaptive control. |
 | S47-M01 | Recursive feedback model | Standard adaptive feedback form; no distinct recursion criterion | R35–R39 establish neighbouring metacognition/meta-control/adaptive control | Merge with §§45–46/59 unless a distinct meta-level object/update is specified. |
 | S47-C01 | Explanatory claim | Diagram does not prove a novel formal mechanism | No incremental contribution demonstrated | Retain only as generic feedback description; test against adaptive-control baselines. |
 | S48-C01 | Self-model fallibility principle | Methodological safeguard | Metacognitive confidence is fallible; no particular self-model accuracy established | Retain; require calibration and independent measures. |
 | S48-C02 | Prospective explanation-testing principle | Methodological, not empirical law | Supports controlled comparison as a test method, not a specific explanation | Retain; preregister predictions and use time-ordered holdouts/alternative models. |
 | S49-M01 | Policy objective/update model | Expected discounted return standard under defined process; update remains schematic | RL mathematics does not validate human policy-update mechanism | Retain as schematic objective; distinguish RL formalism from human-cognition hypothesis. |
-| S49-EQ01 | Discounted-return equation | Standard if trajectory distribution, reward, discount and horizon are specified | No empirical human validation | Define MDP/POMDP, state/action, reward/harm, risk and horizon. |
-| S49-EQ02 | Policy-update equation | Not an algorithm without parameterization/gradient/update semantics | No empirical validation | Specify estimator, parameterization, update algorithm and comparator. |
+| S49-EQ01–EQ02 | Discounted-return objective and policy-update equations | Expected discounted return is standard under a specified process; policy update is not an algorithm without parameterization/gradient/update semantics | No empirical human validation | Specify MDP/POMDP, state/action, reward/harm, risk/horizon, estimator, parameterization and update algorithm. |
 | S49-C01 | Human policy-learning claim | Not established by the generic update equation | No evidence that people literally perform gradient updates | Retain as hypothesis only; test against simpler policy-learning baselines. |
 | S50-M01 | Goal hierarchy model | Ordering relation ambiguous; total order not justified | No validation of this hierarchy | Retain as organizing model; define priority, abstraction, horizon and partial/incomparable goals. |
 | S50-C01 | Normative goal-revision claim | Normative proposal; no universal hierarchy theorem | Goal conflict research is adjacent, not direct validation | Retain as proposal; define legitimate revision and safeguards against metric/goal gaming. |
@@ -2758,8 +2755,7 @@ This ledger applies the five independent fields defined in §22.1 to the first s
 | S53-M01 | Event-schema model | Tuple incomplete; cue duplicated within state; duration type unclear | No direct validation | Retain provisionally; define event boundaries, cue/state distinction and duration semantics. |
 | S53-C01 | Trigger/action distinction | Conceptually useful but not validated by current schema | No direct evidence | Retain after defining event start/end, consequence timing and eligible opportunity. |
 | S54-C01 | Environmental-obstruction hypothesis | Accessibility inequality does not entail probability inequality without monotonic model | R33–R34 support some context-specific screen-use changes | Retain as falsifiable local hypothesis; remove unconditional causal wording. |
-| S54-EQ01 | Accessibility inequality | Operational inequality if accessibility measure defined | No universal intervention effect | Define accessibility scale and intervention manipulation. |
-| S54-EQ02 | Action-probability inequality | Requires monotonic response and substitution/context assumptions; not algebraic | Partial local friction evidence only | Measure opportunities, target action, substitution and functional output under comparator. |
+| S54-EQ01–EQ02 | Accessibility and action-probability inequalities | Accessibility change can be defined; lower accessibility does not algebraically entail lower action probability without monotonic response/substitution assumptions | Partial local friction evidence only | Define accessibility scale; measure eligible opportunities, target action, substitution and functional output under a suitable comparator. |
 | S55-C01 | Implementation-intention component | Cue–response definition is clear; execution not logically guaranteed | R31/R32 and R64/R65 support selected outcomes; not ROOT package | Retain with scope qualification; define cue specificity, response feasibility, rehearsal, opportunity and adherence. |
 | S56-M01 | Alternative-response learning model | Unbounded without parameter domains/projection; failure term may reverse small values | R28–R30 do not validate recurrence | Retain as conceptual heuristic only; define S/F, bounds, projection, decay and context. |
 | S57-EQ01 | Signed-error identity | Valid when target/observation share units, scale and time window | Not an empirical claim | Retain conditionally; rename colliding e symbol and define outcome vector. |
@@ -2770,7 +2766,7 @@ This ledger applies the five independent fields defined in §22.1 to the first s
 
 ### 40.2 Batch D verification
 
-- **Inventory:** 41 unique stable IDs across §§41–59 after expanding grouped ranges S46-EQ01–EQ03, S49-EQ01–EQ02 and S54-EQ01–EQ02.
+- **Inventory:** 37 canonical stable-ID entries across §§41–59, preserving the grouped equation identifiers S46-EQ01–EQ03, S49-EQ01–EQ02 and S54-EQ01–EQ02 as single inventory entries, consistent with §26.3.
 - **ROOT package:** component-level support does not validate ROOT. S41-C01 has no direct sustained-attention outcome evidence; S51-C01 and S59-M01 remain operational proposals; S52/S53 are unvalidated measurement/event schemas.
 - **Habit/learning:** S42's no-universal-duration statement is supported in a bounded sense, but neither S42-M01 nor S56-M01 is a validated habit law. The two recurrences remain distinct and unreconciled.
 - **Intervention metrics:** S43/S44 are local conventions, not standardized effect sizes or validated composites. Preserve raw opportunities, rates, burden, accuracy and functional output.
@@ -2779,7 +2775,7 @@ This ledger applies the five independent fields defined in §22.1 to the first s
 - **Obstruction and feedback:** S54 probability change does not follow from lower accessibility alone; S57/S59 lack a specified controller/update/stability model.
 - **Sleep/context:** S58 is a multi-domain planning safeguard; R43/R44 support selected sleep-related outcomes only, not an integrated optimizer.
 
-**Batch D disposition:** 41/41 unique IDs reconciled to canonical fields at first-pass integrated level. This does not validate ROOT, the self-model, any controller guarantee or the integrated theory. No treatise/tracker edits; no experiments executed or authorized.
+**Batch D disposition:** 37/37 canonical inventory entries reconciled to canonical fields at first-pass integrated level. This does not validate ROOT, the self-model, any controller guarantee or the integrated theory. No treatise/tracker edits; no experiments executed or authorized.
 
 ## 41. Canonical 204-ID disposition ledger — Batch E: Sections 60–74
 
