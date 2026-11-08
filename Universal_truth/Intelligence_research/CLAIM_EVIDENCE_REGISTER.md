@@ -4076,3 +4076,25 @@ The authors' openly accessible Princeton-hosted PDF and PubMed metadata were ins
 
 **Disposition:** source coverage now includes precise algorithmic distinctions, negative-reinforcement contingency, model-based/model-free arbitration, technical wanting/liking boundaries and EVC as a major alternative. R16's accessible text is a prepublication manuscript rather than a verified final 2018 edition; R18 and R23–R24 have full accessible text; R17 is an official dictionary definition. No source validates the proposed unified theory or ROOT package. No treatise/tracker edits; no experiments executed or authorized.
 
+## 77. Controlled §22 Q-learning interpretation correction
+
+### 77.1 Defect identified
+
+The prior prose stated that repeated cue–action outcomes involving “reward, relief, novelty, or reduced discomfort” could increase a learned cue-action value, and that a later cue could bias action selection. That wording was too permissive for the displayed Q-learning update: it did not state that the outcome must be encoded in the reward function, that the temporal-difference target must exceed the current estimate, or that the operative policy must actually use the learned action values. It also risked treating relief as negative reinforcement without the required response contingency and subsequent increase in response probability.
+
+### 77.2 Correction applied
+
+Treatise commit `7cc88b50f6c9d029984acb15cc594d0aa673e2ce` changes only the two explanatory paragraphs after the Q-learning assumptions in §22:
+
+- An action-value estimate can increase when the observed TD target exceeds its current estimate, with cue/state and action represented in the model.
+- Relief and novelty are not automatically positive rewards; their sign and magnitude must be specified by the task reward function.
+- Relief is negative reinforcement only if it is response-contingent and increases the future probability of that response.
+- A later cue biases selection only if the operative policy uses the learned action values.
+- The Q-learning update alone does not establish habit formation, policy change or persistence.
+
+### 77.3 Verification and scope
+
+The focused commit diff was inspected and contains only this §22 prose correction. The Q-learning equation and its existing assumptions were not changed. R16 remains the algorithmic source, with the access limitation recorded in §76: the accessible manuscript is a prepublication second-edition draft, not a verified copy of the final 2018 text. R17 supplies the negative-reinforcement definition; R18/R19 and R23 provide neighbouring behavioural alternatives and construct limits.
+
+**Disposition:** the §22 interpretation is now consistent with its stated TD update and the behavioural definition of negative reinforcement. It remains a computational model abstraction, not an identified human habit-learning mechanism. No tracker edits; no experiments executed or authorized.
+
