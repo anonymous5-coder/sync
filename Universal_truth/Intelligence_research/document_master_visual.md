@@ -2088,14 +2088,14 @@ The objective is measured progress, not perfect compliance.
 
 ## 70. Four foundations, one system
 
-The four named foundations now occupy distinct positions in a single architecture.
+The four named foundations are assigned distinct proposed roles in a candidate architecture; their interfaces and joint operation have not been validated.
 
 | Foundation | Function | Mathematical object |
 |---|---|---|
-| Space or Null Theory | Context acquisition and constraints | $O_t, C_t, M_t$ |
-| Out of Box Theory | Inference and generation beyond explicit observations | $\mathcal{I}(A,M,K)$ |
-| Recursive Intelligence | Self-modeling and policy modification | $\Theta_{t+1}=U(\Theta_t,\text{feedback})$ |
-| ROOT Control Protocol | Operational behavioural redesign | Closed-loop controller |
+| Space or Null Theory | Proposed context acquisition and constraints | $O_t, C_t, M_t$ |
+| Out of Box Theory | Proposed inference/generation beyond explicit observations | $\mathcal{I}(A,M,K)$ |
+| Recursive Intelligence | Proposed self-modeling and policy modification | Candidate update $\Theta_{t+1}=U(\Theta_t,\text{feedback})$ |
+| ROOT Control Protocol | Proposed behavioural intervention protocol | Candidate closed-loop controller |
 
 ## 71. Unified state equation
 
@@ -2119,29 +2119,28 @@ $$
 
 where:
 
-- $\mathcal{S}_t$: current system state;
+- $\mathcal{S}_t$: current system-level descriptor; not established as a minimal or Markov-sufficient state;
 - $O_t$: external observation;
 - $\mathcal{I}_t$: internal inference;
 - $G_t$: goals and constraints;
 - $R_t$: feedback or outcome;
 - $\mathcal{R}_t$: available physical and computational resources.
 
-The update function contains four interacting operations:
+The candidate update is intended to involve four operation families, but their interfaces and coupling rules are unspecified:
 
 $$
-\mathcal{F}=
-\mathcal{F}_{\mathrm{context}}
-\circ
-\mathcal{F}_{\mathrm{inference}}
-\circ
-\mathcal{F}_{\mathrm{control}}
-\circ
+\mathcal{O}=
+\left\{
+\mathcal{F}_{\mathrm{context}},
+\mathcal{F}_{\mathrm{inference}},
+\mathcal{F}_{\mathrm{control}},
 \mathcal{F}_{\mathrm{learning}}
+\right\}
 $$
 
-The composition notation indicates an ordered or coupled set of transformations. In a real system these processes may operate concurrently rather than in a strict sequence.
+The set notation lists candidate operation families without asserting a serial order. The boxed state mapping is therefore a schematic placeholder, not an executable or validated transition law. No domains/codomains, update order, concurrency semantics, clocks, feedback interfaces, resource accounting or coupling rule are yet specified.
 
-## 72. The Unified Context–Inference–Control Cycle
+## 72. Proposed Context–Inference–Control Cycle (conceptual sequence)
 
 1. **Context enters:** Space or Null Theory.
 2. **Representations update:** the system changes its internal model.
@@ -2153,7 +2152,7 @@ The composition notation indicates an ordered or coupled set of transformations.
 8. **The policy is modified:** ROOT Control Protocol.
 9. **The next cycle begins:** the updated system encounters new context.
 
-This is the central architecture of the treatise.
+This is an organizing diagram for the proposed architecture, not a validated necessary/sufficient sequence. The order, concurrency, stage interfaces, termination conditions and incremental contribution of each stage remain to be specified and tested.
 
 ## 73. Compatibility result — Contextual processing and internal inference
 
@@ -2435,41 +2434,35 @@ Generated hypotheses and predictions must remain revisable in response to eviden
 
 # PART XVII — FINAL SYNTHESIS
 
-## 90. What Space or Null Theory establishes
+## 90. Current status of Space or Null Theory
 
-Space or Null Theory identifies the dependence of meaningful processing on context and structure. The key upgrade is that context must include internal memory, architecture, goals, and constraints—not only newly arriving external stimuli.
+Space or Null Theory proposes that meaningful processing depends on context and system structure. Under the treatise's broad definition, context includes internal memory, architecture, goals and constraints as well as newly arriving external stimuli.
 
-A system can therefore process internally in the absence of fresh sensory input without processing from literal nothingness.
+A system may therefore perform internal processing in the absence of fresh sensory input. This is a bounded conceptual/computational possibility, not processing from literal nothingness and not, by itself, evidence of semantic truth, external discovery or predictive accuracy. The theory's definitions and distinctive empirical contribution remain to be tested against established context, memory and computation frameworks.
 
-## 91. What Out of Box Theory establishes
+## 91. Current status of Out of Box Theory
 
-Out of Box Theory identifies the ability to derive conclusions that are not explicitly supplied as observations.
+Out of Box Theory proposes that a system can derive conclusions that are not explicitly supplied as observations. Its defensible formal core is conditional: if $K\models p$ under specified semantics and a sound, complete proof calculus is available, then $K\vdash p$ (see the corrected Theorem 1). This is derivability from premises, not acquisition of arbitrary facts without information.
 
-Its strongest form is not the claim that intelligence can know arbitrary facts without information. Its strongest defensible form is that an intelligence can exploit structural information encoded in its architecture and representations to infer unobserved consequences of reality.
+A model may in principle anticipate an unobserved consequence when the phenomenon is constrained by premises that adequately represent the target world. Actual-world truth requires that the actual world satisfy those premises; predictive performance requires prospective, calibrated evaluation against competitive baselines. No such predictive performance has yet been empirically validated for this treatise's framework.
 
-This includes genuine empirical anticipation: a model can predict a phenomenon before direct observation when the phenomenon is constrained by the model's premises.
+## 92. Current status of the physical–cognitive bridge
 
-## 92. What the physical–cognitive bridge establishes
+A brain is a physical system, and its computation is constrained by energy, time, noise and finite resources. Human neural and physiological studies support task- and region-specific energetic responses, but regional, whole-brain, whole-body and subjective-effort measures are not interchangeable.
 
-A brain is a physical system. Its computation and control are constrained by energy, time, noise, and finite resources.
+The proposed link from physical resource constraints to subjective effort, action-score weights, habitual selection and repeated behaviour remains a multilevel hypothesis. The treatise's score coefficients and causal chain have not been identified or validated. This offers a candidate explanation for some cases in which a person repeatedly performs a behaviour they reflectively reject; it is not an established personal explanation or universal law.
 
-Those constraints influence the cost of deliberation and the allocation of attention. Habitual policies can be computationally efficient and can dominate action selection when cues are strong, immediate rewards or relief are available, and the competing goal requires greater control.
+Thermodynamic entropy is not psychological distraction. Physical implementation constrains behavioural control, but intermediate mechanisms and task-specific evidence are required for any causal claim.
 
-This explains why an intelligent person can repeatedly execute a behaviour they reflectively reject.
+## 93. Current status of Recursive Intelligence
 
-It does not mean thermodynamic entropy is the same thing as distraction. It means that behavioural control is physically implemented and therefore operates under physical constraints.
+Recursive Intelligence is proposed as a functional construct in which a system uses representations of its own operation to modify future operation. This is a candidate synthesis of self-monitoring, metacognition, meta-control and adaptive policy update.
 
-## 93. What Recursive Intelligence establishes
+The treatise has not yet demonstrated a distinct mechanism, a validated measurement model, or incremental predictive advantage over those established constructs. The self-model and update equations remain schematic. The construct should not be presented as a newly established intelligence type until it has operational discriminators and comparative tests.
 
-Recursive Intelligence is the capacity to use representations of one's own operation to change future operation.
+## 94. Current status of ROOT Control Protocol
 
-It converts self-reflection from passive observation into an adaptive feedback process.
-
-The system learns not only about the world but also about the conditions under which it itself succeeds or fails.
-
-## 94. What ROOT Control Protocol establishes
-
-ROOT is the operational implementation:
+ROOT is the proposed operational intervention architecture:
 
 - Recognise the trigger.
 - Obstruct the automatic pathway.
@@ -2479,50 +2472,34 @@ ROOT is the operational implementation:
 - Optimise biological and environmental conditions.
 - Learn and consolidate.
 
-Its aim is not the elimination of all impulses. Its aim is to increase the probability that chosen objectives govern behaviour despite competing signals.
+Its intended aim is not the elimination of all impulses, but to increase the probability that chosen objectives govern behaviour despite competing signals. Component-level evidence exists for selected planning and environmental-friction techniques. The integrated ROOT package, its seven-stage sequence, sustained-attention effect, long-term maintenance and controller guarantees have not been validated. The protocol remains a proposal, not an established intervention.
 
-## 95. The final unified equation
+## 95. Schematic architecture summary — not a unified state-transition law
 
-The whole treatise can be compressed into one state-transition architecture:
-
-$$
-\boxed{
-\begin{aligned}
-\text{Next System State}
-=
-\mathcal{F}\big(
-&\text{External Context},\\
-&\text{Internal Structure},\\
-&\text{Inference},\\
-&\text{Physical Resources},\\
-&\text{Action Selection},\\
-&\text{Environmental Feedback},\\
-&\text{Recursive Policy Update}
-\big)
-\end{aligned}
-}
-$$
-
-Or, symbolically:
+The proposed components can be summarized as an architecture-level dependency map. No complete joint state-transition law has been derived:
 
 $$
 \boxed{
-S_{t+1}
-=
-F\left(
-A,M_t,O_t,G_t,\mathcal{R}_t,
-\mathcal{I}(A,M_t),
+\left(
+\mathcal{S}_t,
+O_t,
+\mathcal{I}_t,
+G_t,
 \Pi_t,
-R_t
+R_t,
+\mathcal{R}_t
 \right)
+\xrightarrow{\text{candidate update}}
+\mathcal{S}_{t+1}
 }
 $$
 
-Space or Null Theory describes how context and structure condition the system.
 
-Out of Box Theory describes how the system derives consequences beyond explicit observations.
+Space or Null Theory proposes how context and structure condition the system.
 
-Physical constraints determine what computations and actions can be implemented and at what cost.
+Out of Box Theory proposes how internal inference can derive consequences not explicitly observed, subject to the validity of its premises and proof system.
+
+Physical constraints bound implementation, while Recursive Intelligence and ROOT remain proposed models for self-directed adaptation and behavioural intervention. None of these summaries implies that the integrated architecture has been empirically validated.
 
 Behavioural learning shapes which actions become readily available.
 
