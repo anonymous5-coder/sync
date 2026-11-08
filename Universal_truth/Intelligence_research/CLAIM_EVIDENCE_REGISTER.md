@@ -2824,3 +2824,40 @@ This ledger applies the five independent fields defined in §22.1 to the first s
 
 **Batch E disposition:** 24/24 IDs reconciled to canonical fields at first-pass integrated level. No human stability theorem, Lyapunov certificate, ROOT efficacy or four-foundation integration is validated. No treatise/tracker edits; no experiments executed or authorized.
 
+## 42. Canonical 204-ID disposition ledger — Batch F: Sections 75–89
+
+### 42.1 Batch F ledger
+
+| Stable ID | Claim kind | Formal status | Evidence status | Integrated disposition / open dependency |
+|---|---|---|---|---|
+| S75-C01 | Experimental-design principle | Methodological intention, not a demonstrated design property | A–F are component-level tests with established alternatives; no theory-level discrimination yet | Retain intent but qualify designs; define risky predictions that differ from credible alternatives. |
+| S76-EXP-A | Formal-inference experiment | Proof certificate can establish derivability from supplied premises; no arbitrary-fact or information-from-nothing inference | No execution or result | Retain as formal benchmark; close language, generator, complexity, countermodel, contamination and resource gates before any separate approval. |
+| S77-EXP-B | Prospective-prediction experiment | Prospective prediction is a valid design class; one success is insufficient | No domain lock or empirical result | Retain as protocol architecture; require domain lock, risky quantitative registered prediction, calibrated uncertainty and competitive baseline. |
+| S78-EXP-C | Observational/experimental behavioural hypothesis | Observational association cannot identify causal fatigue/uncertainty effects without design assumptions | No execution or empirical result | Retain as resource-sensitive hypothesis; separate observational from randomized manipulation and use eligible-opportunity denominators. |
+| S79-EXP-D | Environmental intervention experiment | Local barrier hypothesis; causal inference needs replication/randomization/counterbalance and substitution checks | R33–R34 support selected friction effects; no experiment executed | Retain as context-specific test; keep target-loop, fidelity, burden and design gates open. |
+| S80-EXP-E | Implementation-intention experiment | Known intervention family; positive result cannot establish ROOT novelty | R31/R32/R48/R64/R65 support selected implementation-intention outcomes; no ROOT efficacy | Retain as test of known technique; active comparator, isolate obstruction, measure cue detection/opportunity/adherence. |
+| S81-EXP-F | Adaptive-controller experiment | Adaptive-vs-fixed comparison tests control utility only with matched policies/objectives/resources; not a distinct meta-level test by itself | No execution or result | Retain conditionally; operationalize meta-level representation/update and compare against ordinary adaptive control. |
+| S82-M01 | Measurement/statistical safeguard | Summary list is incomplete for an executable protocol | Governing plan supplies common contract; no experiment data | Retain as summary; follow detailed estimands, sampling, comparator, fidelity, dependence, missingness, analysis, stopping and ethics requirements. |
+| S83-L01 | Scope limitation | Appropriate distinction between absence of proof and impossibility | Not an empirical validation | Retain; do not infer correctness/exhaustiveness from disclaimers. |
+| S84-FM01 | Philosophy-of-science safeguard | Sound methodological principle | No evidence that A–F are sufficiently discriminating | Retain; specify falsifiers and competing models for each empirical claim. |
+| S85-FM01 | Epistemic distinction | Novelty, discovery and support are distinct dimensions | Not an empirical claim | Retain; apply multidimensional taxonomy consistently. |
+| S86-FM01 | Anti-reductionist boundary | Correct scope caution; no derivation of behavioural mechanism | Neural/energy evidence does not validate bridge | Retain; require evidence for each physical-to-behavioural link. |
+| S87-FM01 | Intervention-design heuristic | Normative heuristic, not universal empirical law | No universal minimum-intervention result | Retain; define functional benefit, burden, adverse effects and stopping criteria. |
+| S88-FM01 | Clinical safety boundary | Appropriate non-clinical scope statement | Consistent with diagnostic caution; not a differential diagnosis | Retain; no diagnosis from ROOT data; recommend professional assessment where distress/impairment warrants. |
+| S89-FM01 | Goal-governance requirement | Normative/controller-design requirement; authority and conflict rules unspecified | No operational mechanism validated | Retain as requirement; specify goal provenance, user authority, conflicts, review triggers and anti-gaming safeguards. |
+
+### 42.2 Batch F verification and experiment boundary
+
+- **Inventory:** 15 unique stable IDs across §§75–89, including all six experiment IDs S76-EXP-A through S81-EXP-F.
+- **Discriminating power:** S75-C01 correctly states the intended role of A–F, but the current protocols mostly test component mechanisms already studied in established literatures. Framework-level discrimination requires predictions that differ from credible alternatives.
+- **Experiment A:** a proof certificate tests derivability from supplied premises; it does not demonstrate arbitrary new facts or information from nothing.
+- **Experiment B:** no domain has been locked; a generic prediction is not executable or discriminating.
+- **Experiments C–E:** observational and intervention designs must distinguish association from causal effects, use eligible-opportunity denominators, account for substitution/reactivity/carryover and retain functional output and burden.
+- **Experiment F:** adaptive policy improvement is not evidence of distinct Recursive Intelligence unless a measurable meta-level representation/update is distinguished from ordinary adaptive control.
+- **Common safeguards:** S82-M01 is a summary only; the governing plan's common contract and protocol-specific gates remain authoritative.
+- **Normative/safety boundaries:** S83–S89 remain scope and governance requirements; they do not establish efficacy or a solved mechanism.
+
+**Experiment status:** A–F remain unapproved and unexecuted. No experiment was run, no data were collected, no readiness gate was passed by this ledger, and no empirical validation is claimed. This batch is an audit/disposition record only.
+
+**Batch F disposition:** 15/15 IDs reconciled to canonical fields at first-pass integrated level. No treatise/tracker edits; no experiments executed or authorized.
+
