@@ -2613,3 +2613,55 @@ This ledger applies the five independent fields defined in §22.1 to the first s
 
 **Batch A disposition:** 53/53 IDs reconciled to canonical fields at first-pass integrated level. This is not independent review, source-pinpoint closure or completion of the full 204-ID ledger. No treatise/tracker edits; no experiments executed or authorized.
 
+## 38. Canonical 204-ID disposition ledger — Batch B: Sections 16–27
+
+### 38.1 Batch B ledger
+
+| Stable ID | Claim kind | Formal status | Evidence status | Integrated disposition / open dependency |
+|---|---|---|---|---|
+| S16-C01 | Physical–cognitive bridge hypothesis | Not derived from physical embodiment or Landauer alone | No direct evidence for the complete causal chain | Retain as multilevel hypothesis; identify and test each bridge premise separately. |
+| S16-C02 | Construct distinction | Conceptual distinction; requires precise definitions | Not an empirical claim as stated | Retain; distinguish thermodynamic entropy, Shannon entropy, variational free energy and psychological effort. |
+| S16-EQ01 | Conceptual/equation boundary | Not a literal physical identity | No empirical status | Retain as a warning against category error; define each quantity. |
+| S16-EQ02 | Multilevel causal model | Schematic chain; not a derivation | Integrated bridge unvalidated | Retain as a proposed chain; require separate evidence for each transition. |
+| S17-C01 | Physical premise/resource model | Physical implementation established; resource accounting schematic | No per-inference or per-action cost follows | Retain physical premise; separate energy, time, memory, bandwidth and error constraints. |
+| S17-C02 | Neural/physical energetic claim | Physical cost premise valid within defined substrate/operation | R60–R62 direct but task-bounded human evidence; no universal or per-thought coefficient | Retain with scale/time/task qualification; distinguish local oxCCO, regional CMRO2, global CMRO2 and subjective effort. |
+| S17-EQ01 | Thermodynamic identity | First-law accounting; sign convention must define Q and W | Not an empirical behavioural claim | Retain with explicit system boundary and work-sign convention. |
+| S17-EQ02 | Physical lower bound | Landauer bound applies to logically irreversible erasure under specified thermodynamic conditions | Established physical result within assumptions | Retain; specify unbiased bit, temperature, erasure operation and avoid applying it as energy-per-thought. |
+| S18-C01 | Physical/resource premise | Broad premise; exact brain budget remains model-dependent | Neural signalling and baseline costs have supporting literature | Retain; do not conflate with a measured task-allocation rule. |
+| S18-C02 | Neural resource-allocation model | Budget decomposition is schematic, not derived | R60 local redistribution; R61 global CMRO2; R62 regional CMRO2; full listed process budget unestablished | Narrow to distributed neural/metabolic demand; retain the proposed whole-process budget as a hypothesis. |
+| S18-C03 | Task-control hypothesis | Not a formal consequence of difficulty | Task-specific evidence; effort and metabolism are not monotonically linked | Retain as hypothesis; measure difficulty, effort, fatigue, performance and physiology separately. |
+| S18-EQ01 | Brain-power decomposition | Schematic decomposition; terms not independently operationalized | No direct empirical validation of this additive budget | Retain as proposed accounting model; define each term and avoid double counting. |
+| S19-C01 | Methodological boundary | Correct distinction between model and literal neural computation | No empirical status | Retain; do not claim a central brain literally computes the displayed score. |
+| S19-M01 | Action-score/causal model | Algebraic model only; coefficients and causal bridge unspecified | Cost-sensitive control neighbours do not validate the proposed score | Retain as provisional model; define scales, units, selector, identification and out-of-sample comparison. |
+| S19-M02 | Choice-probability model | Standard softmax form if action set, values and temperature are defined | No parameter or behavioural validation for this framework | Retain as candidate selector; specify feasible actions, value scale and inverse-temperature interpretation. |
+| S20-C01 | Cost-sensitive action-selection claim | Conditional on score definitions and selection rule | Task-specific arbitration evidence (R15/R24); no universal or person-specific explanation | Retain conditionally; specify context, comparator, opportunity and boundary conditions. |
+| S20-P03 | Algebraic preference proposition | Inequality follows under definitions; preference requires a specified selector | No empirical status by algebra alone | Retain as conditional result; define greedy/softmax choice and feasible action set. |
+| S21-C01 | Learning/habit taxonomy | Mechanisms must be kept distinct; no single update law | R19 and related sources show paradigm-specific effects and weak construct convergence | Split cue–outcome, action–outcome and stimulus–response processes; no universal habit equation. |
+| S21-C02 | Context-dependent habit hypothesis | Conditional; cached responses can conflict with changed goals/context | Task-specific habit and model-free evidence; not universal | Retain as bounded hypothesis; measure goal change, context change and response persistence. |
+| S21-EQ01 | Cost comparison | Algebraic inequality only if costs are commensurable | No empirical cost estimates supplied | Retain as schematic comparison; define cost units and time horizon. |
+| S22-C01 | Associative-learning claim | Mechanism depends on cue, action, outcome and task structure | Learning evidence supports selected cue/action/outcome effects; not all mechanisms generalize | Retain with paradigm scope; separate Pavlovian, instrumental and stimulus–response learning. |
+| S22-EQ01 | Learning/update model | Generic recurrence; not a specified canonical algorithm | No validation of the treatise's update equation | Defer until state/action indexing, reward timing and update semantics are specified. |
+| S23-C01 | Habit/learning mechanism claim | Distinct learning processes; not reducible to one recurrence | Evidence is task-specific; model-free learning is not identical to habit | Retain only after splitting mechanisms and operational definitions. |
+| S23-C02 | Negative-reinforcement hypothesis | Requires response-contingent removal/prevention of aversive stimulus and later response increase | Relief alone is insufficient; direct contingency evidence absent | Retain as candidate; require contingency and subsequent response-probability measurement. |
+| S23-EQ01 | Utility/relief relation | Algebraic relation conditional on defined utilities and time index | No empirical validation of this specific inequality | Retain as notation only; define utility, time step and behavioural consequence. |
+| S24-C01 | Entropy/behaviour boundary | Correct: second law does not entail local behavioural entropy maximization | No empirical behavioural claim follows from thermodynamic law | Retain. |
+| S24-C02 | Non-equilibrium thermodynamic premise | Broadly established physical description under system/environment boundary | Physical background only; no particular behaviour explained | Retain as physical background; require intermediate mechanism for behavioural claims. |
+| S25-C01 | Conceptual distinction | Thermodynamic Helmholtz free energy and variational free energy are different constructs | Established conceptual distinction; no brain literally minimizing Helmholtz F follows | Retain; label the quantity at every use. |
+| S25-EQ01 | Thermodynamic identity | Standard potential F=U−TS under applicable thermodynamic conditions | Not a behavioural/psychological measurement | Retain with system, temperature and equilibrium/thermodynamic assumptions. |
+| S26-M01 | Physical–cognitive bridge model | Not derived from Axioms 1–5 alone; bridge premises missing | No complete causal validation | Merge with S16-EQ02 conceptually; specify and test each link. |
+| S26-TH03 | Conditional action-selection theorem | Steps 1–5 conditional on score inequality/selector; learning persistence in step 6 not proved | No empirical validation of complete theorem | Split selection conflict from habit strengthening; add a learning update rule before claiming persistence. |
+| S27-H01 | Multi-factor behavioural hypothesis | Candidate predictors, not a formal theorem | Selected task-specific neighbours; no causal ranking or joint coefficient estimates | Retain as hypotheses; define each predictor, outcome, time window, confound and falsifier. |
+| S27-H08 | Environmental-intervention hypothesis | Testable causal prediction, not established law | Local context/friction evidence (R30, R33–R34); urge persistence not directly established universally | Retain as falsifiable hypothesis; measure urge, opportunity, action, substitution and functional outcome separately. |
+
+### 38.2 Batch B verification
+
+- **Inventory:** 33 unique stable IDs across §§16–27; duplicate appearances in the source-routing table were not counted as new claims.
+- **Thermodynamic/information boundary:** S16-C02, S16-EQ01 and S25-C01 preserve distinctions among physical entropy, Shannon entropy, variational free energy and psychological effort. No cross-domain substitution is allowed.
+- **Physical/neural bridge:** S17-EQ02 is a physical erasure bound, not an energy-per-thought equation. R60–R62 improve the human neural-energy evidence but do not establish global invariance or a universal coefficient. S18-EQ01 remains a proposed decomposition.
+- **Action selection:** S19-M01/M02 and S20-P03 remain candidate score/selector forms. The algebraic inequality does not establish actual choice without a selector, commensurable scales and identified parameters.
+- **Learning/habit:** S21–S23 require separate cue–outcome, action–outcome and stimulus–response constructs. Relief alone does not establish negative reinforcement; the recurrence is not a validated universal habit law.
+- **Thermodynamic background:** S24-C02 and S25-EQ01 are physical background results and do not independently explain behaviour.
+- **Multi-factor hypotheses:** S27-H01 and S27-H08 remain falsifiable candidates, not established causal rankings or universal environmental effects.
+
+**Batch B disposition:** 33/33 unique IDs reconciled to canonical fields at first-pass integrated level. Several source mappings remain abstract-level or cluster-level, and the model/causal claims remain unvalidated. This is not independent review or final source closure. No treatise/tracker edits; no experiments executed or authorized.
+
