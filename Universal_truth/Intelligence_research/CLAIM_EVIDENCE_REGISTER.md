@@ -3146,3 +3146,25 @@ A quadratic candidate \(V(x)=x^TPx\) is positive definite when P is positive def
 
 **Audit status:** formal review completed for the high-priority theorem/proposition chain. Theorem 1 contains a verified proof-direction defect; Proposition 5 is not proved by its current assumptions; other results are retainable only within the stated conditional scopes. No treatise/tracker edits in this audit entry; no experiments executed or authorized.
 
+## 50. Controlled treatise correction — Theorem 1 completeness premise
+
+### 50.1 Change applied
+
+The treatise's §10 Theorem 1 was revised in a focused commit after the formal audit in §49:
+
+- The title now states the actual formal result: an entailed proposition can be derived before direct observation.
+- The invalid soundness-based inference was replaced by the completeness direction \(K\models p\Rightarrow K\vdash p\), for a specified semantics and complete proof calculus.
+- A nonempty model-class condition is stated to exclude vacuous entailment from an inconsistent knowledge base.
+- The proof distinguishes derivability from actual-world truth; the latter requires \(W\models K\).
+- Sufficient computational resources for proof search are explicit.
+- The corresponding step in §73 is aligned with the same completeness and non-vacuity conditions.
+- The display equation is now verified with proper display-math delimiters. The initial formatting defect was corrected in a separate focused commit.
+
+### 50.2 Verification and scope
+
+The theorem wording and §73 alignment were introduced in commit `b46ff4d776f2afd5ba5e9458f35fefe0d1c76e36`; the display-math delimiter repair is commit `6bbbae74ea99a25e18af2e778d9a7f0c55ba74aa`. The latest treatise file was fetched again and the equation's opening and closing display delimiters were verified.
+
+No claim is made that this correction validates Out of Box Theory as an empirical theory, establishes predictive accuracy, or shows that a bounded real-world system will find every derivation. Theorem 2 remains a separate countermodel result. The remaining theorem/proposition corrections identified in §49 are not silently treated as completed.
+
+**Disposition:** Theorem 1's verified proof-direction defect is corrected in the treatise. §73 is aligned at the cited inference step, but its broader compatibility result remains conditional and largely definitional. Proposition 5, Theorems 3 and 5, the stability model and the final unified equation remain open for controlled revision. No tracker edits; no experiments executed or authorized.
+
