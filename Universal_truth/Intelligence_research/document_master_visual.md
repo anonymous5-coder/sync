@@ -1693,7 +1693,7 @@ The recognition stage detects the earliest reliable signal of the unwanted seque
 A trigger record can be represented as:
 
 $$
-\mathcal{E}_t=(\text{cueID}_t,s_t,a_t,r_t,\tau_t)
+\mathcal{E}_t=(\text{cueID}_t,s_t,a_t,r_t,\tau_t,\mathrm{RTL}_t,\iota_t)
 $$
 
 where:
@@ -1703,6 +1703,8 @@ where:
 - $a_t$: action taken;
 - $r_t$: immediate consequence;
 - $\tau_t$: duration.
+- $\mathrm{RTL}_t$: return-to-task latency, measured from noticing the diversion to resuming the intended task.
+- $\iota_t$: intervention applied during the episode (including no intervention).
 
 Recognition must distinguish the trigger from the behaviour. "I used my phone" is a behaviour description. "I reached for my phone immediately after encountering an ambiguous problem and feeling frustrated" is a potentially useful trigger description.
 
