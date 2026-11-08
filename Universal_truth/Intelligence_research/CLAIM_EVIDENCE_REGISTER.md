@@ -2538,3 +2538,78 @@ This is **first-pass coverage**, not full closure. The remaining limits include 
 
 **Disposition.** The source updates strengthen and narrow selected claims, while the integrated architecture, ROOT package, action-score model and distinct Recursive Intelligence mechanism remain proposed/unvalidated. The 19-ID empirical-source queue has first-pass adjudication coverage; the full 204-ID integrated disposition and independent review remain open. No treatise or tracker edits; no experiments executed or authorized.
 
+## 37. Canonical 204-ID disposition ledger — Batch A: Sections 1–15
+
+### 37.1 Reconciliation rule
+
+This ledger applies the five independent fields defined in §22.1 to the first stable-ID batch. The claim descriptions and original source locations remain in §§2–4; this table is the integrated disposition layer, not a replacement for those records. “Established” is always scoped to the stated formal system or empirical domain. A definition is not empirically validated by being coherent, and a model is not validated by being mathematically writable.
+
+### 37.2 Batch A ledger
+
+| Stable ID | Claim kind | Formal status | Evidence status | Integrated disposition / open dependency |
+|---|---|---|---|---|
+| S01-Q01 | Question | Not applicable | Not an empirical claim | Retain as questions; split into separate workstreams. |
+| S01-C01 | Organizing hypothesis | Not formally derived | Integrated architecture unvalidated | Retain as proposed architecture; no demonstrated unified mechanism. |
+| S01-C02 | Methodological principle | Not applicable | Methodological, not empirical | Retain as a cross-document constraint. |
+| S02-D01 | Naming convention | Not applicable | Not an empirical claim | Retain exact component names; names confer no scientific status. |
+| S02-C01 | Epistemic taxonomy | Not applicable | Conceptual scheme; categories mix logical and evidential status | Revise through the §22.1 multidimensional taxonomy. |
+| S02-C02 | Methodological claim | Not applicable | Methodological, not empirical | Retain. |
+| S02-C03 | Causal-boundary claim | Conceptually sound | No standalone empirical claim | Retain; require intermediate bridge premises. |
+| S03-M01 | State/model specification | Schematic; not a demonstrated Markov state | Untested | Retain as inventory only; defer until typed state schema, units, transitions and timing are defined. |
+| S03-EQ01 | Observation model | Schematic/underspecified | Not independently testable | Specify observation space, dependencies, noise and sensor model. |
+| S03-EQ02 | Transition equation | Generic form; not a validated transition law | Untested | Retain as schematic; define disturbance, transition and time step. |
+| S03-EQ03 | Policy equation | Standard notation; action model incomplete | Untested | Retain as notation; define action space, feasible set and policy class. |
+| S03-EQ04 | Update operator | Placeholder; semantics unspecified | Untested | Define memory representation, update semantics and timing. |
+| S03-EQ05 | Adaptive update operator | Placeholder; objective/feedback unspecified | Untested | Define feedback, objective, constraints and update order. |
+| S04-A01 | Physical premise | Established within physical-implementation scope | Physical premise; no particular inference/action cost follows | Retain; connect to Landauer only within its erasure conditions, not behavioural coefficients. |
+| S04-A02 | Modelling principle | Nearly definitional under a chosen system description | No independent empirical claim | Retain; operationalize architecture, state, input and output mapping. |
+| S04-A03 | Learning premise | Conditional/general, not universal | Supported in specified learning systems; not every system/observation | Retain with domain qualification. |
+| S04-A04 | Computational operations | Established operations; scope-limited | Not evidence for arbitrary inference or discovery | Retain; distinguish composition, abstraction, simulation and deduction. |
+| S04-A05 | Physical/resource constraint | Established in principle; quantities need boundaries | General physical constraint; task/substrate-specific magnitudes | Retain; define domains, intervals, units and accounting boundary. |
+| S04-A06 | Adaptive-agent premise | Conditional on multiple actions and a selection mechanism | Not universal to all information-processing systems | Narrow to adaptive agents/controllers; do not present as universal axiom. |
+| S04-A07 | Recursive capability hypothesis | Not formally specified | Distinct mechanism/threshold unestablished | Retain as capability hypothesis; defer distinctiveness claim. |
+| S04-A08 | Epistemic safeguard | Not applicable | Methodological, not a mechanistic/empirical claim | Retain; classify separately from physical/model axioms. |
+| S05-D01 | Definition | Stipulative; overly broad | Not an empirical finding | Retain only after splitting context into typed subcategories; avoid breadth-based novelty. |
+| S05-D02 | Definition | Coherent if input channel is specified | Not an empirical finding | Retain; specify absent input class and interval. |
+| S05-D03 | Operational definition | Provisional; discriminant criterion absent | Construct validity unestablished | Retain provisionally; require independent tasks and discriminant criteria. |
+| S05-D04 | Definition | Relational; accessibility rule incomplete | Not an empirical finding | Retain; define reference set and access/retrieval test. |
+| S05-D05 | Epistemic definition | Conflates distinct justification routes | Not a single empirical construct | Split deductive, predictive, abductive and empirically corroborated discovery. |
+| S05-D06 | Construct definition | Potentially conflates automaticity, goal direction and cached value | Construct validity unestablished | Retain provisionally; map to distinct habit constructs and validated measures. |
+| S05-D07 | Operational definition | Requires opportunity/time-window specification | Not an empirical finding | Retain; operationalize displacement, duration and recovery. |
+| S05-D08 | Normative/functional construct | Not independently operationalized | No independent validity evidence | Retain provisionally; use independent functional outcomes and non-circular criteria. |
+| S06-C01 | General organizing principle | Near-definitional under broad context definition | No distinct mechanism or prediction established | Downgrade to general principle; originality unestablished. |
+| S06-C02 | Conditional computational claim | Valid only with retained state and active transition rules | Established as a general computational possibility, not for every system | Retain conditionally; specify system, input channel and interval. |
+| S07-EQ01 | Mathematical identity | Standard conditional mutual-information identity under a specified distribution | Not an empirical claim | Retain; define variables, joint distribution and continuous/discrete conditions. |
+| S07-C01 | Interpretation of identity | Correct only as expected conditional information gain | No empirical performance claim follows | Revise to expected conditional reduction; no guarantee for every realized observation. |
+| S07-P01 | Formal consequence | Follows from mutual-information definition | Not an empirical claim | Retain; avoid implying complete identification. |
+| S07-P02 | Conditional dynamical proposition | Conditional on active internal state/transition rules | General computational possibility; no specific system evidence | Retain conditionally; specify system, interval and transition mechanism. |
+| S08-C01 | Developmental/empirical claim | Not a formal result | Direct but bounded support for prenatal exposure and early neonatal capacities | Retain narrowly; distinguish prenatal learning from innate predisposition; no adult-like reasoning inference. |
+| S08-C02 | Technical analogy | Broadly accurate for trained networks; representation language imprecise | General technical support, not explicit proposition storage | Retain as limited analogy; do not equate parameters with explicit propositions. |
+| S08-C03 | Conceptual specification argument | Valid conditional argument about removing substrate/state/rules | Not an empirical test | Retain; say absence of external input, not absolute nullity. |
+| S09-C01 | Logical consequence claim | Standard conditional deductive consequence | Not an empirical claim | Retain within model-theoretic scope; does not imply new arbitrary facts. |
+| S09-C02 | Model-theoretic underdetermination | Valid countermodel result when compatible models disagree | Not an empirical claim | Retain; distinguish logical underdetermination from probability, abduction and later evidence. |
+| S10-M01 | Semantic model | Standard setup with language/model-class conditions | Not an empirical claim | Retain; fix language, interpretation and model class. |
+| S10-EQ01 | Formal definition/result | Standard model-theoretic consequence under fixed semantics | Established formal result within scope | Retain; state satisfaction relation and model class. |
+| S10-TH01 | Formal theorem | Invalid as stated: soundness does not give entailment-to-derivability | No empirical status; proof gap | Revise using completeness for the chosen semantics; require satisfiable K and separate actual-world truth. |
+| S11-TH01 | Formal theorem | Valid countermodel argument under fixed semantics and nonempty model class | Established formal result within scope | Retain; do not generalize to all scientific underdetermination or rational indifference. |
+| S12-C01 | Synthesis claim | Broadly consistent with standard inference/modelling operations | No distinct mechanism or empirical validation | Retain as synthesis proposal; distinguish implicit storage from entailment/statistical encoding. |
+| S12-C02 | Epistemic taxonomy | Heterogeneous processes; not one formal or cognitive mechanism | Different standards/evidence needed by mode | Split six modes and assign separate validation standards. |
+| S13-C01 | Cross-domain developmental/design hypothesis | Not a single formal result | Plausible but broad and system-dependent; accuracy/accessibility unproven | Retain only as a general hypothesis with system-specific scope. |
+| S13-EQ01 | Information-theoretic model hypothesis | Conditional on a specified joint distribution/ensemble | Positive dependence does not establish semantics or predictive utility | Retain conditionally; define W, Z, sampling process and distribution. |
+| S13-C02 | Predictive hypothesis | No predictive-performance theorem follows from mutual information alone | No empirical predictive validation for this framework | Downgrade to conditional possibility; require target, baseline, calibration and held-out/prospective evaluation. |
+| S14-EQ01 | Probability identity | Standard Bayes identity when P(D)>0 | Not an empirical claim | Retain; state denominator condition and model assumptions. |
+| S14-EQ02 | Posterior predictive identity | Correct for discrete model partition; integrate continuous parameters | Not an empirical claim | Retain with discrete/continuous qualification and specified predictive model. |
+| S14-C01 | Bayesian modelling claim | Correct conditional description under specified model | Established as a methodological description, not a literal neural account | Retain with prior sensitivity, model adequacy and misspecification caveats. |
+| S15-F01 | Epistemic heuristic | Not a validated ordinal scale | No psychometric/empirical validation | Retain provisionally as communication aid; redesign as multidimensional status fields. |
+
+### 37.3 Batch A verification
+
+- **Inventory:** 53 unique stable IDs across §§1–15, matching the original claim-level entries; no duplicate or missing ID in this batch.
+- **Formal correction priority:** S10-TH01 is the material proof correction. Soundness and completeness must not be interchanged; the theorem also needs a nonempty model class and an actual-world premise if actual truth is claimed.
+- **Model-specification priority:** S03-M01 and S03-EQ01–EQ05 remain schematic until state/observation/action spaces, units, update ordering, disturbance, noise and time step are specified.
+- **Information-theory priority:** S07-EQ01 is a standard identity; S07-C01 must say expected conditional information gain; S13-EQ01 requires a declared joint distribution; S13-C02 remains an unvalidated predictive hypothesis.
+- **Evidence priority:** S08-C01 has bounded developmental support only. No evidence in this batch establishes the integrated architecture or the proposed intelligence construct.
+- **Taxonomy priority:** S02-C01 and S15-F01 must be aligned with the multidimensional taxonomy in §22.1; neither should be used as a single ordinal evidence scale.
+
+**Batch A disposition:** 53/53 IDs reconciled to canonical fields at first-pass integrated level. This is not independent review, source-pinpoint closure or completion of the full 204-ID ledger. No treatise/tracker edits; no experiments executed or authorized.
+
