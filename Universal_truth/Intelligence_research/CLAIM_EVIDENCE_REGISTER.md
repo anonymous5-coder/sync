@@ -1722,3 +1722,49 @@ These are label normalizations only. They do not add claims, alter the treatise 
 - **Novelty/alternatives priority:** compare exact proposed mechanisms and measurable outputs—not labels—with EVC, model-based/model-free control, metacognition/meta-control, adaptive control, habit learning and established behavioural interventions. A neighbouring theory is neither automatic refutation nor evidence of distinctiveness.
 
 **Disposition.** The structural stable-ID inventory is complete and the legacy alias errors are normalized here. The source map is **partially reconciled, not exhaustive at the level of direct source-to-claim support**. No claim is upgraded by cluster association; E16–E18 remain unresolved; contrary/negative findings remain attached to their limited scopes. This is a traceability audit, not the final claim-level source disposition or independent review. No treatise or tracker edits; no experiments executed or authorized.
+
+## 27. First-pass source-requirement triage for claims without an E-cluster assignment
+
+**Purpose.** Section 26 identified stable IDs without a direct E01–E15 cluster assignment. This section does not add speculative citations. It classifies what kind of verification each unmapped item needs before it can receive a final disposition. Classification is based on the registered claim label and stable-ID type, and is therefore a triage result—not a completed source audit.
+
+**Coverage.** 145 stable IDs have no E01–E15 assignment in Section 26. The remaining IDs already have one or more cluster-level associations. A source requirement is determined by the claim's actual content, not by the suffix alone.
+
+### 27.1 Formal and semantic verification required
+
+These items primarily require a fixed formal language, definitions, valid derivation, model assumptions or a suitable formal reference. Empirical sources are not a substitute for proof validity.
+
+S02-C01, S03-EQ01, S03-EQ02, S03-EQ03, S03-EQ04, S03-EQ05, S07-C01, S07-P01, S07-P02, S09-C01, S09-C02, S12-C01, S16-EQ01, S16-EQ02, S17-EQ01, S18-EQ01, S19-M02, S20-P03, S21-EQ01, S23-EQ01, S24-C01, S25-C01, S25-EQ01, S26-M01, S26-TH03, S28-EQ01, S28-EQ02, S29-EQ01, S29-P04, S30-EQ01, S30-EQ02, S31-EQ02, S32-EQ01, S32-EQ02, S36-EQ01, S36-P01, S37-EQ01, S43-EQ01, S45-EQ01, S46-EQ01, S49-EQ01, S54-EQ01, S57-EQ01, S60-M01, S61-EQ01, S61-M01, S62-C01, S62-P05, S63-C01, S64-C01, S64-EQ01, S71-EQ01, S71-EQ02, S74-C01, S74-TH05, S90-C01, S91-C01, S95-EQ01
+
+### 27.2 Model specification, identification or validation required
+
+These items require typed variables, state/action spaces, units, transition or update rules, identifiability/observability analysis, parameter estimation where applicable, and comparison against simpler or established models. A citation to general control or learning theory does not validate the proposed instance.
+
+S01-C01, S03-M01, S06-C01, S06-C02, S12-C02, S13-C01, S14-C01, S17-C01, S19-C01, S28-C01, S29-C01, S31-M01, S32-C01, S38-C01, S39-M01, S41-M01, S44-C01, S45-C02, S47-C01, S48-C01, S52-M01, S59-M01, S60-C01, S70-C01, S71-C01, S72-C01, S93-C01, S94-C01
+
+### 27.3 Empirical evidence or primary-source mapping required
+
+These items make or summarize claims about development, neural/behavioural mechanisms, learning, effort, prediction, intervention effects, or other phenomena. They require a source that matches the population, task, outcome and causal strength of the wording; review-level citations may orient the search but cannot substitute for primary evidence where a specific mechanism or causal effect is claimed.
+
+S02-C02, S02-C03, S13-C02, S15-F01, S16-C02, S17-C02, S18-C02, S18-C03, S20-C01, S21-C02, S22-C01, S23-C01, S23-C02, S27-H01, S27-H08, S33-C01, S34-C01, S35-C02, S40-C01, S41-C02, S42-C01, S49-C01, S50-C01, S51-C01, S52-C01, S53-C01, S57-C01, S58-C01, S59-C01, S68-C01, S73-C01
+
+### 27.4 Definition, taxonomy, methodological or normative clarification required
+
+These items are principally definitions, classifications, research questions, scope boundaries or methodological rules. They do not all require an empirical citation. They do require internal consistency, non-circular operational definitions, explicit scope, and—where a standard or normative recommendation is invoked—a traceable rationale or authoritative methodological source.
+
+S01-C02, S01-Q01, S02-D01, S05-D01, S05-D02, S05-D03, S05-D04, S05-D05, S05-D06, S05-D07, S05-D08, S08-C03, S39-C01, S75-C01, S83-L01, S84-FM01, S85-FM01, S86-FM01, S87-FM01, S88-FM01, S89-FM01
+
+### 27.5 Mixed-status axioms and foundational premises
+
+S04-A02, S04-A03, S04-A04, S04-A05, S04-A06, S04-A07, S04-A08
+
+The axioms must not be treated as a homogeneous formal axiom set. Their verification requirements differ: physical embodiment is a well-established physical premise; structural/contextual dependence and contextual acquisition contain broad conceptual and empirical generalizations; internal transformation and adaptive selection need formal operational definitions plus domain evidence; bounded resources need construct/measurement scope; recursive accessibility and fallible model–world correspondence require narrower definitions and appropriate cognitive/epistemic support. The existing Section 22 premise map remains controlling.
+
+### 27.6 Triage limits and next checks
+
+1. The categories above are **source-requirement classes**, not support ratings. An item in the empirical group is not thereby unsupported in the wider literature; it is simply not linked to a cluster in the current map.
+2. Some labels are grouped summaries or repeat a construct across sections. Before source assignment, compare the full claim text and exact treatise line range; do not cite a whole cluster to a repeated summary without checking what it adds.
+3. A model may need both formal and empirical verification. For example, a softmax equation can be mathematically valid while its use as a behavioural choice model remains empirically unvalidated.
+4. The next claim-level pass should process empirical claims first where a factual/causal assertion is made, then model-bearing claims, then formal results, and finally definitions/normative rules. This ordering prioritizes the largest risk of overstated real-world conclusions while preserving proof validity as a separate audit.
+5. The E16–E18 provenance issue remains open. No recovered source-map artifact has yet supplied an auditable definition for those clusters. No new cluster should be fabricated to make the numbering continuous.
+
+**Disposition.** The 145 unmapped IDs have been triaged by verification requirement; none is promoted to supported, contradicted or rejected by this classification. Direct source-to-claim matching and final dispositions remain open. No treatise/tracker edits; no experiments executed or authorized.
