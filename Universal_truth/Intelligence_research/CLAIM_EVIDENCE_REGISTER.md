@@ -955,7 +955,7 @@ The five dimensions remain separate: claim kind, formal validity, empirical/evid
 
 ### R40 — Megretski, 2004: discrete-time linear stability and Lyapunov certificate
 
-Alexandre Megretski, “Model Reduction by Projection: General Properties,” MIT 6.242 lecture notes, Fall 2004, version 19 September 2004.
+Alexandre Megretski, “Model Reduction by Projection: General Properties,” MIT 6.242 lecture notes, Fall 2004, version 19 September 2004. Official MIT PDF: [lecture 4, Model Reduction by Projection](https://web.mit.edu/6.242/www/images/lec4_6242_2004.pdf).
 
 **Evidence type:** authoritative mathematical lecture notes, not an empirical study.
 
@@ -1031,7 +1031,7 @@ Larissa N. Wüst, Noëmi C. Capdevila, Lina T. Lane, Carolin F. Reichert and Rut
 
 ### R45 — World Health Organization, 2024: ICD-11 clinical descriptions and diagnostic requirements
 
-World Health Organization, *Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural and Neurodevelopmental Disorders* (CDDR), published 8 March 2024.
+World Health Organization, *Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural and Neurodevelopmental Disorders* (CDDR), published 8 March 2024. Official publication page: [WHO CDDR](https://www.who.int/publications/i/item/9789240077263). ISBN 978-92-4-007726-3.
 
 **Evidence type:** authoritative diagnostic manual.
 
@@ -1155,7 +1155,7 @@ Paschal Sheeran, Olivia Listrom and Peter M. Gollwitzer, “The when and how of 
 
 ### R50 — Reporting quality in SMART studies, 2022
 
-Bigirumurame et al., “Sequential multiple assignment randomized trial studies should report all key components: a systematic review,” 2022, PMCID: PMC7613855, PMID: 34763037.
+Theophile Bigirumurame, Germaine Uwimpuhwe and James Wason, “Sequential multiple assignment randomized trial studies should report all key components: a systematic review,” *Journal of Clinical Epidemiology* 142, 152–160 (2022; published online 8 November 2021), DOI: [10.1016/j.jclinepi.2021.11.007](https://doi.org/10.1016/j.jclinepi.2021.11.007), PMCID: [PMC7613855](https://pmc.ncbi.nlm.nih.gov/articles/PMC7613855/), PMID 34763037.
 
 **Evidence type and scope:** systematic review of 157 records concerning SMART designs, including 12 trial reports, 24 protocols, 91 methodological papers and 30 reviews.
 
@@ -1225,7 +1225,7 @@ Damien S. Fleur, Bert Bredeweg and Wouter van den Bos, “Metacognition: ideas a
 
 ### R52 — Stanford Encyclopedia of Philosophy: scientific underdetermination
 
-Kyle Stanford, “Underdetermination of Scientific Theory,” *The Stanford Encyclopedia of Philosophy*, first published 12 August 2009; substantive revision 4 April 2023.
+Kyle Stanford, “Underdetermination of Scientific Theory,” *The Stanford Encyclopedia of Philosophy*, first published 12 August 2009; substantive revision 4 April 2023. [Current SEP entry](https://plato.stanford.edu/entries/scientific-underdetermination/).
 
 **Evidence type:** scholarly philosophy-of-science reference entry.
 
@@ -1387,8 +1387,8 @@ No necessary ordering, sufficiency relation, emergent capability or incremental 
 | R45 — WHO ICD-11 CDDR (2024) | S66-C01, S88-FM01 | WHO official publication page identifies the CDDR, publication date 8 March 2024, intended clinical audience and ICD-11 status. WHO-hosted manual PDF was identified but access returned 403. | Authoritative diagnostic manual publication; category 6C72 identified in the source register. | **Publication-level verified; category page not directly inspected.** The diagnostic text is independently cross-checked against R46 Table 1 and R53 below. |
 | R46 — Turner et al. / WFSBP guideline (2022) | S66-C01, S88-FM01 | Publisher-hosted full-text PDF inspected: Table 1, “Diagnostic criteria for Compulsive Sexual Behaviour Disorder for ICD-11” (PDF lines 67–75); Introduction lines 41–53 and definition discussion lines 81–89. | Clinical guideline/review reproducing ICD-11 essential features: persistent impaired control, one or more behavioural manifestations, extended duration (e.g. six months or more), and marked distress/significant impairment; distress entirely due to moral disapproval is insufficient. | **Full table/section pinpoint verified.** This is a guideline reproducing ICD-11 criteria, not the WHO manual itself. The earlier R46 bibliographic metadata was incorrect and has been corrected above: *Dialogues in Clinical Neuroscience* 24(1), 10–69 (2022), DOI 10.1080/19585969.2022.2134739. |
 | R51 — Fleur et al. (2021) | S46-M01, S47-M01, S48-C02, S49-M01, S50-M01, S93-C01, LAW07 | Publisher full text: Abstract, Introduction and Fig. 1 discussion; object-level/meta-level distinction and upward monitoring/downward control flow. | Interdisciplinary review. Supports overlap between the treatise's Recursive Intelligence definition and established metacognition/meta-control. | **Section/figure-level verified** in the prior source audit; no claim that Recursive Intelligence is identical to metacognition follows. |
-| R53 — Sjoerds et al. (2016) | S21-C01, S34-C01, S35-C01, S42-M01, S56-M01, LAW06 | Full Frontiers article inspected: Abstract; Introduction; Participants and Methods; Results; Discussion/Conclusion. Particularly: abstract lines 297–303; N=28 sample and eligibility lines 335–355; Discussion/Conclusion lines 497–532. | Primary cross-validation study. Two task measures showed only moderate/low shared variance for goal-directed/model-based behaviour; model-free and habit-like measures did not show the expected association. The authors caution that tasks capture distinct aspects and call for further validation. | **Full section-level pinpoint verified.** Strongly qualifies any assumption that one model-free score, one habit task or a generic recurrence captures a single universal habit construct. |
-| R54 — Janssen & Lazonder (2024) | S46-M01, S48-C02, S93-C01, LAW07 | Full Springer article inspected: Abstract and Introduction, especially the meta-level/object-level model discussion (article lines 43–48 and 79–83); Results report 35 studies and overall g=0.25. | Meta-analysis of monitoring-accuracy interventions in problem-solving tasks. The pooled effect is small; intervention type and setting moderate results. This is not equivalent to the broader learning-outcome effect in R55. | **Abstract/intro/results pinpoint verified.** Supports measurable metacognitive monitoring effects with bounded magnitude and domain. |
+| R53 — Sjoerds et al. (2016), DOI [10.3389/fnbeh.2016.00234](https://doi.org/10.3389/fnbeh.2016.00234), PMCID [PMC5167743](https://pmc.ncbi.nlm.nih.gov/articles/PMC5167743/) | S21-C01, S34-C01, S35-C01, S42-M01, S56-M01, LAW06 | Full Frontiers article inspected: Abstract; Introduction; Participants and Methods; Results; Discussion/Conclusion. Particularly: abstract lines 297–303; N=28 sample and eligibility lines 335–355; Discussion/Conclusion lines 497–532. | Primary cross-validation study. Two task measures showed only moderate/low shared variance for goal-directed/model-based behaviour; model-free and habit-like measures did not show the expected association. The authors caution that tasks capture distinct aspects and call for further validation. | **Full section-level pinpoint verified.** Strongly qualifies any assumption that one model-free score, one habit task or a generic recurrence captures a single universal habit construct. |
+| R54 — Janssen & Lazonder (2024), DOI [10.1007/s10648-024-09936-4](https://doi.org/10.1007/s10648-024-09936-4) | S46-M01, S48-C02, S93-C01, LAW07 | Full Springer article inspected: Abstract and Introduction, especially the meta-level/object-level model discussion (article lines 43–48 and 79–83); Results report 35 studies and overall g=0.25. | Meta-analysis of monitoring-accuracy interventions in problem-solving tasks. The pooled effect is small; intervention type and setting moderate results. This is not equivalent to the broader learning-outcome effect in R55. | **Abstract/intro/results pinpoint verified.** Supports measurable metacognitive monitoring effects with bounded magnitude and domain. |
 | R55 — Guo (2022) | S46-M01, S48-C02, S49-M01, S81-EXP-F, S93-C01, LAW07 | Publisher abstract and bibliographic record, *Journal of Computer Assisted Learning* 38(3), 811–832; DOI 10.1111/jcal.12650. Abstract reports random-effects meta-analysis in computer-based learning environments and effects g=0.50 for SRL activities and g=0.40 for learning outcomes. | Meta-analysis, not a primary experiment. Supports effects of metacognitive prompts in computer-based learning environments; feedback, specificity and adaptability moderate results. These outcomes do not establish accurate self-monitoring in all contexts or a distinct Recursive Intelligence mechanism. | **Abstract-level verified.** Publisher full text was access-blocked; exact study count, page/table and detailed heterogeneity/bias analysis remain open. |
 | R56 — DeCasper & Spence (1986) | S08-C01, S08-C02 | Publisher abstract and article metadata, *Infant Behavior and Development* 9(2), 133–150; DOI 10.1016/0163-6383(86)90025-1. Abstract specifies repeated maternal recitation during the final six weeks of pregnancy and newborn operant-choice preference for the familiar passage. | Primary controlled developmental experiment. Supports a narrow prenatal auditory-exposure effect on newborn auditory preference. | **Abstract-level verified.** Full procedure, sample characteristics and exact tables/results pages remain open; do not generalize to adult-like cognition or broad prenatal knowledge. |
 
@@ -3811,4 +3811,27 @@ Treatise commit `ec271995f24f16b1648e1d1bca18c3beae0a5276` added section-level R
 The manuscript now provides a usable section-level route from 67 evidence-bearing sections to the claim/source register, and the ten-item bibliography is explicitly labelled selected. The citation apparatus is more transparent but remains an intermediate audit layer, not a publication-ready citation system.
 
 **Remaining work:** full claim-by-claim citation placement; audit of all 95 sections against the current stable-ID inventory and latest treatise text; complete bibliographic metadata/DOI verification; final Markdown/render check; unresolved E17/E18 provenance and access-limited source pinpoints; independent review. No experiments, preregistration, merge or plan retirement are authorized.
+
+## 69. Bibliographic metadata closure — R40, R45, R50, R52–R54
+
+### 69.1 Corrections and verified identifiers
+
+| Source ID | Verified bibliographic identifier / canonical route | Disposition |
+|---|---|---|
+| R40 | Megretski, “Model Reduction by Projection: General Properties,” MIT 6.242 Fall 2004 lecture 4, version 19 September 2004. Official MIT PDF: `https://web.mit.edu/6.242/www/images/lec4_6242_2004.pdf`. The existing source pinpoint remains §4.2.2, Theorem 4.6, pp. 12–13. | Added the direct institutional PDF route. This remains a teaching-note source for standard control mathematics; a canonical control textbook may be preferable for a publication-grade theoretical citation. |
+| R45 | WHO, *Clinical Descriptions and Diagnostic Requirements for ICD-11 Mental, Behavioural and Neurodevelopmental Disorders* (CDDR), 8 March 2024, ISBN 978-92-4-007726-3. Official publication page: `https://www.who.int/publications/i/item/9789240077263`. | Added the official WHO publication record. The full category 6C72 text is still not page-pinned in this audit; R46 remains the independently inspected guideline reproduction. |
+| R50 | Bigirumurame, Uwimpuhwe & Wason, “Sequential multiple assignment randomized trial studies should report all key components: a systematic review,” *Journal of Clinical Epidemiology* 142, 152–160 (2022; online 8 November 2021), DOI 10.1016/j.jclinepi.2021.11.007, PMCID PMC7613855, PMID 34763037. | Expanded author, journal, issue and DOI metadata; clarified online-first versus issue year. |
+| R52 | Kyle Stanford, “Underdetermination of Scientific Theory,” *Stanford Encyclopedia of Philosophy*, first published 12 August 2009; substantive revision 4 April 2023. Canonical URL: `https://plato.stanford.edu/entries/scientific-underdetermination/`. | Added canonical entry URL; no DOI is expected for this reference work. |
+| R53 | Sjoerds et al. (2016), “Slips of Action and Sequential Decisions: A Cross-Validation Study of Tasks Assessing Habitual and Goal-Directed Action Control,” *Frontiers in Behavioral Neuroscience* 10, 234, DOI 10.3389/fnbeh.2016.00234, PMCID PMC5167743. | Added DOI and open full-text route to the existing source table entry. This is distinct from R19 (Nebe et al., 2024); the two records must not be conflated. |
+| R54 | Janssen & Lazonder (2024), “Meta-analysis of Interventions for Monitoring Accuracy in Problem Solving,” *Educational Psychology Review* 36, Article 96, DOI 10.1007/s10648-024-09936-4. | Added DOI to the existing source table entry. The open-access full article and the 35-study pooled estimate (g = 0.25) are recorded in the source assessment. |
+
+### 69.2 Verification boundaries
+
+The identifiers and publication routes above were checked against institutional, publisher, PubMed/PMC or canonical reference-work records on 8 November 2026. The added routes improve retrieval and metadata traceability; they do not upgrade any source beyond the actual text inspected. R45's diagnostic category remains not directly page-pinned, and R40 remains a lecture-note rather than a canonical textbook source.
+
+### 69.3 Remaining bibliography work
+
+The remaining R01–R69 inventory should be checked for complete author lists, titles, publication years, journal/book details, volume/pages or article numbers, DOI/ISBN and canonical access route. No DOI should be invented for books, reference works or institutional materials that do not assign one. Duplicate R64 remains an alias of R48, not an independent evidence source.
+
+**Disposition:** R40, R45, R50, R52, R53 and R54 now have improved bibliographic metadata or canonical routes. The complete 69-record metadata audit remains open; no source-access level is upgraded merely by adding a DOI or URL.
 
