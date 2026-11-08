@@ -1240,6 +1240,9 @@ Kyle Stanford, “Underdetermination of Scientific Theory,” *The Stanford Ency
 
 ## 22. Cross-batch reconciliation and integrated claim-status adjudication
 
+**Historical snapshot notice:** The status statements in this section describe the integrated adjudication at the time it was written against the earlier treatise baseline. Subsequent controlled treatise corrections and current dispositions are recorded in §§49–68. Where this section says a correction is still required or has not yet been applied, consult the later dated record before treating that statement as current. The current manuscript snapshot and its section-level evidence pointers are recorded in §68.
+
+
 **Purpose and status.** This section consolidates the seven existing first-pass batches (§§1–95), the stable-ID inventory, source clusters E01–E18, the formal-result premise map, the alternatives audit and the provisional cross-component interface map. It is an integrated documentary adjudication, not independent peer review, completed source pinpointing, empirical validation or authorization to execute Experiments A–F. Existing batch histories and claim IDs are preserved.
 
 **Inventory check.** The unchanged treatise baseline contains 95 numbered sections. The register contains 204 distinct section-scoped stable IDs: 198 conventional typed IDs plus six experiment IDs S76-EXP-A through S81-EXP-F. The final-synthesis IDs run from S90-C01 through S95-EQ01. The seven batch boundaries remain §§1–15, 16–27, 28–40, 41–59, 60–74, 75–89 and 90–95. Stable-ID coverage is an inventory result; it does not mean that all claims have final source pinpoints, validated measures, complete proofs or closed dependencies.
@@ -3765,4 +3768,47 @@ The latest treatise was fetched after the commit. The prior overclaim phrases ar
 The abstract/front-matter overclaim has been corrected and verified. The principal operational interfaces between the current treatise and tracker are aligned at the level of definitions and notation. This is a limited cross-document consistency pass, not a complete validation of the tracker, its measurement properties, the 95-section claim inventory, all bibliography entries, rendering, or the integrated architecture.
 
 **Remaining status:** front matter and the audited tracker interfaces are consistent with the current evidence-limited conclusions. Full 95-section claim-by-claim cross-document verification, all-source bibliographic verification, Markdown/render inspection, independent review and review-ready gates remain open. No experiment, preregistration, merge or plan retirement is authorized by this audit.
+
+## 68. Current claim-to-source pointer integration and bibliography audit
+
+### 68.1 Current snapshot
+
+The treatise was fetched after commit `8b536c51719a979abfa0b3e1d817705309e801f4` and has blob `d094145ae3ce297b8603311491094167534838bd`: 2,792 lines and 95 numbered sections. This snapshot supersedes earlier line counts for current navigation; the original 2,618-line baseline remains preserved for historical batch line references.
+
+### 68.2 Section-level evidence pointers added
+
+A controlled treatise edit added a “Claim-linked evidence register records” line to 67 numbered sections. Each line identifies the R-records mapped to claims in that section and directs the reader to the companion register for full bibliographic metadata, source-access status, claim-specific mappings and pinpoints.
+
+Verification against the current file confirms:
+
+- 95 numbered sections remain present, with no numbering gap.
+- 67 sections contain an explicit section-level evidence-register pointer.
+- 67 distinct R identifiers appear in those pointers.
+- Every cited R identifier resolves to a source identifier recorded in this register; no dangling R-code pointer was detected.
+- The duplicate alias R64 is not presented as an independent source.
+- The 28 sections without a section-level pointer are not thereby certified as evidence-free or complete; they include definitions, formal arguments, conceptual summaries, normative safeguards and synthesis sections. Their claims remain subject to the existing claim-level register and acceptance criteria.
+
+The pointers are section-level navigation aids, not a substitute for author–date or numbered citations immediately attached to each individual empirical assertion. The source register remains the detailed claim-to-source authority.
+
+### 68.3 Bibliography scope corrected
+
+The treatise's former heading “REFERENCES AND SCIENTIFIC FOUNDATIONS” implied that its ten listed entries were a complete bibliography. It is now titled “SELECTED REFERENCES AND SCIENTIFIC FOUNDATIONS” and explicitly states that the ten entries are selected foundational sources, while the full R01–R69 source inventory, source-access qualifications and claim mappings are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
+This correction prevents the selected ten-item list from being mistaken for the complete evidence base. It does not yet complete a conventional manuscript citation pass. In particular:
+
+1. The R-code pointers must eventually be converted or supplemented with a consistent scholarly citation style if the manuscript is prepared for external publication.
+2. Every empirical paragraph must be checked against the exact stable claim ID and source record; a section-level pointer can cover multiple claims and does not prove that each sentence is supported.
+3. The selected ten bibliography entries require a separate metadata and DOI check before publication.
+4. Access-limited and abstract-only sources must remain labelled at their actual inspection level; no citation formatting may imply full-text verification where it did not occur.
+5. Contrary findings, null results and source-quality limitations must remain visible next to the claims they qualify.
+
+### 68.4 Controlled treatise edit and verification
+
+Treatise commit `ec271995f24f16b1648e1d1bca18c3beae0a5276` added section-level R-code trails and clarified the selected bibliography. A follow-up placement correction, commit `8b536c51719a979abfa0b3e1d817705309e801f4`, moved each trail to the end of its own numbered section rather than allowing it to appear after a subsequent Part heading. The latest treatise was fetched again; the placement check found 67 correctly section-associated evidence lines and no evidence line displaced beyond a Part heading.
+
+### 68.5 Disposition
+
+The manuscript now provides a usable section-level route from 67 evidence-bearing sections to the claim/source register, and the ten-item bibliography is explicitly labelled selected. The citation apparatus is more transparent but remains an intermediate audit layer, not a publication-ready citation system.
+
+**Remaining work:** full claim-by-claim citation placement; audit of all 95 sections against the current stable-ID inventory and latest treatise text; complete bibliographic metadata/DOI verification; final Markdown/render check; unresolved E17/E18 provenance and access-limited source pinpoints; independent review. No experiments, preregistration, merge or plan retirement are authorized.
 
