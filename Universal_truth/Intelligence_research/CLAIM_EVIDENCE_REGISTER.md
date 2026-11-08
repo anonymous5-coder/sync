@@ -3596,3 +3596,27 @@ The latest treatise was fetched again. Verification confirmed:
 
 The edition-language and architecture-level dependency pass is complete for §§70–72 and §§90–95. This is a wording/consistency correction, not completion of the underlying science. The typed integrated model, source/provenance gaps, remaining claim-specific evidence closure, experiment readiness, and qualified independent review remain open. The plan's review-ready and retirement gates are not satisfied. No tracker changes, experiments, preregistration, merge or plan retirement are authorized or claimed.
 
+## 64. Repeated source-access closure attempt — R32, R43, R61 and R63
+
+### 64.1 Access checks performed
+
+| Record | Additional route checked | Result | Evidence status |
+|---|---|---|---|
+| R32 — Webb & Sheeran (2008) | Wiley full-text and PDF routes; University of Sheffield White Rose repository | Wiley's retrieved full-text/PDF route redirects to an abstract page with a “Read the full text” access control; White Rose explicitly states that a full-text copy is not available for download. Search-indexed material reproduces the abstract, not the article body. | Remains abstract-level. Study 2 sample, full method, exact mediation statistics and detailed page pinpoints remain unverified. |
+| R43 — Lowe et al. (2017) | ScienceDirect publisher article and PubMed record | Publisher page is access-controlled/purchase-only in the available route; PubMed provides abstract and bibliographic metadata. | Remains abstract/publisher-preview level; no full-text table or forest-plot audit. |
+| R61 — Madsen et al. (1992) | American Physiological Society/Atypon article and PDF routes; PubMed; regional publication record | Publisher metadata labels the article subscriber-only; the PDF endpoint was not accessible through the available retrieval route. PubMed and the regional record expose the abstract, not the complete methods/results/tables. | Remains abstract-level primary evidence. Do not infer sample size, protocol detail or unreported uncertainty. |
+| R63 — Backs & Seljos (1994) | ScienceDirect article/PDF route; PubMed; indexed scholarly records | ScienceDirect indicates institutional/purchase access; PubMed and indexed records reproduce the abstract. No accessible full article was obtained. | Remains abstract-level primary evidence. Do not treat abstract findings as a full table-level review. |
+
+### 64.2 Interpretation
+
+These are access checks, not evidence that the full texts do not exist. No paywall circumvention, unauthorized copy or unverified PDF was used. The prior source descriptions remain appropriately bounded. In particular:
+
+- R61's reported non-significant global CMRO2 change is not proof of exact metabolic invariance; the large reported lactate-output changes and measurement scope remain relevant.
+- R63's metabolic, respiratory, cardiovascular and subjective/performance dimensions must remain distinct; peripheral measures are not cerebral CMRO2.
+- R32 supports the abstract-level cue-accessibility and cue–response mediation claim only; its detailed sample/statistical audit remains open.
+- R43 remains a meta-analytic abstract/publisher-preview source; its corrected bibliographic metadata does not imply full-text verification.
+
+### 64.3 Disposition
+
+No source record is upgraded. R32, R43, R61 and R63 remain explicitly access-limited. Existing claim mappings must retain those limitations, and no result may be described as independently verified from full text where it was not. The remaining source-access gap can be closed only if a lawful full-text copy or authorized institutional access becomes available. No treatise/tracker edits; no experiments executed or authorized.
+
