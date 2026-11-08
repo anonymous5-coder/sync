@@ -2259,17 +2259,21 @@ The experiments below are designed to separate the framework's components rather
 
 ## 80. Experiment E — Alternative-response training
 
-**Question:** Does a trigger-specific if–then response improve behavioural recovery?
+**Question:** Does a trigger-specific if–then response improve behavioural recovery beyond a credible active planning comparator?
+
+**Evidence boundary:** If–then implementation intentions are an established intervention family, not a ROOT invention. The meta-analytic evidence is positive but heterogeneous; R48 reports substantial publication bias and a small robust-Bayesian model-averaged estimate (d = .15). Effects are larger for contingent if–then plans, stronger goal motivation and at least one rehearsal. Recording the plan itself was associated with a smaller effect; this is distinct from recording outcome data in the ROOT tracker (R31–R32, R48).
 
 **Design:**
 
-1. Identify one recurrent cue.
-2. Specify one observable alternative response.
-3. Rehearse the plan.
-4. Measure successful alternative responses and return-to-task latency.
-5. Compare with a baseline or suitable control condition.
+1. Define one target loop, a specific cue, and an eligible opportunity for the cue to occur. Distinguish cue detection from execution of the alternative response.
+2. Confirm that the target goal is active, personally endorsed and feasible in the relevant context. Record goal motivation rather than assuming it.
+3. Form a genuinely contingent plan in the form “If [specified cue/opportunity] occurs, then I will [one observable, feasible alternative response].” A schedule that merely lists when and what to do is not equivalent to a cue-contingent if–then plan.
+4. Rehearse the plan at least once. Record whether the plan itself is written or otherwise recorded, because plan recording may moderate the effect; do not confuse this with outcome logging.
+5. Use a credible active comparator matched for attention, time and task exposure (for example, goal intention or schedule-format planning). Hold environmental obstruction constant or factorialize it so that the effect of planning can be distinguished from Experiment D.
+6. Measure cue opportunities, cue detection, alternative-response execution per eligible opportunity, return-to-task latency, functional task output, adherence, substitution, intervention fidelity, burden and adverse effects.
+7. Predefine the primary estimand, meaningful-effect threshold, missing-data rule and analysis. Preserve null and adverse findings.
 
-**Prediction:** Rehearsed trigger-specific responses should improve the probability of executing the alternative in at least some conditions.
+**Prediction:** A contingent, rehearsed plan may improve alternative-response execution in some contexts, particularly when goal motivation is sufficient. The expected effect should not be assumed large or universal; the protocol tests a known component, not the ROOT package or a distinct Recursive Intelligence mechanism.
 
 ## 81. Experiment F — Recursive adaptation
 
