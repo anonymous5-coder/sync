@@ -1021,3 +1021,93 @@ Tate et al., “The Single-Case Reporting Guideline In BEhavioural Interventions
 
 **Pinpointing status:** statement and design definition verified; item-level checklist is available in the full SCRIBE materials and should be applied if a study protocol is later authorized.
 
+
+
+## 18. Claim-level register: Sections 75–89
+
+**Baseline:** document_master_visual.md, blob 123abdbe9ad3e6c24d150e7db2f38e9562d520d5; numbered-section locations below refer to that unchanged baseline.
+
+| ID | Claim / source location | Formal status and evidence assessment | Disposition and open dependency |
+|---|---|---|---|
+| S75-C01 | A–F are designed to separate framework components rather than merely show that a productivity routine helps (L2201–2207) | This is a methodological intention, not a demonstrated property of the designs. A tests formal derivation; B tests prospective model prediction; C–E test behavioural/resource mechanisms; F tests adaptive control. These are not, as currently specified, discriminating tests of the four named theories or their integration. Several outcomes are already expected under established inference, implementation-intention and adaptive-control accounts. | Retain the intention, but qualify the current designs as component-level tests. Before claiming framework-level discrimination, state a theory-specific prediction that differs from credible alternatives and a result that would favour one account over another. |
+| S76-EXP-A | Experiment A: derive withheld conclusions from supplied rules and facts without new external observation (L2209–2224) | A valid proof certificate establishes derivability from supplied premises and rules. It does not establish information from nothing, an arbitrary unobserved contingent fact, or the truth of the premises. A benchmark can be trivial or contaminated unless derivation depth, complexity, negative/underdetermined cases, resource budgets and held-out generation are controlled. The governing plan's proof checker, countermodel, baseline, contamination and sampling provisions materially strengthen it. | Retain as a formal-inference benchmark, not a test of the full Out of Box Theory. Complete system/language/generator/resource/sample gates; report proof validity, coverage and false positives separately. Do not execute before the plan's gate is met. |
+| S77-EXP-B | Experiment B: predict a physical outcome before direct observation (L2226–2240) | Prospective, timestamped prediction against suitable baselines and alternatives is a valid general test of predictive performance. The treatise specifies no physical domain, outcome, apparatus, model or scoring rule. One successful prediction is weak evidence without calibration, uncertainty, held-out data and comparison. A generic successful prediction would not establish a unique contribution of Out of Box Theory. | Retain as a protocol architecture only. It is not executable until the domain-lock gate is met. Require a risky, quantitative, registered prediction and a comparator capable of distinguishing the proposed model from established alternatives. |
+| S78-EXP-C | Experiment C: effort, fatigue and task uncertainty may change habitual-distraction selection (L2242–2256) | The prediction is plausible and appropriately qualified as individual/context dependent. Naturally varying fatigue, task difficulty and cue exposure are confounded; observational repeated measures can estimate within-person association but do not identify fatigue's causal effect. The treatise correctly disclaims a direct entropy-to-distraction inference. The plan improves the design with eligible-opportunity denominators and separates observational from randomized task manipulations. | Retain as a resource-sensitive action-selection hypothesis. Define the target action, opportunity, instruments and repeated-measures model. Do not claim causal fatigue effects or thermodynamic mechanisms from observational logs. |
+| S79-EXP-D | Experiment D: obstruction of cue accessibility may reduce unwanted actions (L2258–2270) | A plausible local intervention hypothesis. A single baseline/intervention comparison is vulnerable to time trend, regression to the mean, concurrent changes, substitution and reactivity. Raw frequency without eligible cue/opportunity exposure can mislead. The governing plan's randomized/counterbalanced blocks, replicated phases or staggered multiple baseline, fidelity and burden measures are more defensible. | Retain as a context-specific accessibility test. The plan's target-loop, barrier, denominator, design and threshold gates remain open. A successful local barrier does not establish universal behavioural control or ROOT package efficacy. |
+| S80-EXP-E | Experiment E: trigger-specific alternative-response training may improve recovery (L2272–2284) | If–then implementation intentions are an established intervention family; a 2024 meta-analysis of 642 independent tests reports effects across cognitive, affective and behavioural outcomes, with stronger effects for contingent plans, goal commitment and rehearsal (R48). Therefore, a positive result would support the particular plan in its context, not novelty or unique validation of ROOT. Cue detection, opportunity denominator, rehearsal fidelity, comparator and obstruction co-intervention must be separated. | Retain as a test of a known behavioural technique within the proposed protocol. Use an active comparator and hold obstruction constant or factorialize it; do not infer that the named ROOT architecture is uniquely responsible. |
+| S81-EXP-F | Experiment F: weekly model revision may outperform a fixed routine (L2286–2298) | A comparison of adaptive and fixed policies tests adaptive-control utility only if both policies, objectives, resources, constraints and decision opportunities are specified and fairly matched. Ordinary feedback-based adaptation is not by itself evidence of a distinct meta-cognitive or Recursive Intelligence mechanism. The governing plan correctly requires a meta-level representation and update criterion, frozen policies, held-out evaluation, functional outcomes and safety overrides. | Retain as a conditional adaptive-controller hypothesis. Do not label it a Recursive Intelligence test until the meta-level operation is operationally distinguished from ordinary state estimation/policy adaptation. Select design by adaptation timescale; SMART and micro-randomized designs answer different questions (R49). |
+| S82-M01 | General measurement and statistical safeguards for A–F (L2300–2318) | The treatise's short list is sound but incomplete as an executable protocol: it does not itself specify estimands, sampling, comparator, fidelity, dependence, missingness, analysis, uncertainty, stopping, preregistration or ethics. These are supplied in the governing plan's common contract and protocol-specific sections. The plan, not §82 alone, is the current operational standard. | Retain as a summary. Keep the detailed common contract authoritative; ensure every later protocol satisfies it and records deviations, adverse outcomes and all registered tests. |
+| S83-L01 | Explicit limits: no proof of universal intelligence, entropy identity, arbitrary deduction, universal willpower or guaranteed ROOT cure (L2320–2333) | Appropriate scope disclaimers. They prevent several category errors but do not establish that the remaining framework is correct, exhaustive or empirically supported. Some statements are absence-of-proof boundaries rather than proofs of impossibility. | Retain. Preserve the distinction between “not established by this treatise” and “shown to be impossible.” |
+| S84-FM01 | Coherence can coexist with empirical falsity; independent risky predictions are a safeguard (L2335–2339) | Sound general philosophy-of-science principle. It is not a new result or evidence that the proposed experiments are sufficiently discriminating. | Retain as a methodological safeguard; connect each empirical claim to an actual falsifier and suitable competing model. |
+| S85-FM01 | Novelty is not equivalent to discovery or evidential support (L2341–2345) | Conceptually correct distinction. Novelty is relative to a knowledge state or representation; discovery additionally requires a defensible relation to a target and evidence/derivation. The listed epistemic labels need consistent application across the treatise. | Retain; cross-reference the governing epistemic taxonomy and require claim-level classification rather than treating novelty as confirmation. |
+| S86-FM01 | Energy cost alone is not a complete explanation of behaviour (L2347–2351) | Correctly rejects reduction of behaviour to a single resource variable. The statement is consistent with the treatise's own acknowledgement that learning, task structure, goals, physiology and environment matter. It does not validate the proposed physical–cognitive bridge. | Retain; require independent evidence for each proposed bridge from physical constraints to a specific behavioural prediction. |
+| S87-FM01 | Overengineering self-control can create unsustainable burden; prefer the smallest useful intervention (L2353–2357) | Reasonable design heuristic, not a universal empirical law. “Measurable benefit” needs a functional endpoint and a burden/harms measure; intervention simplicity alone is not sufficient. | Retain as a heuristic; operationalize benefit, burden, adverse effects and stopping/reassessment criteria in ROOT materials. |
+| S88-FM01 | Clinical problems should not be treated solely as failures of discipline (L2359–2363) | Appropriate safety boundary and consistent with the earlier non-diagnostic framing. The list of conditions is illustrative, not a differential diagnosis or claim that any listed condition is present. | Retain. Keep ROOT explicitly non-clinical and avoid diagnostic inference; professional assessment remains appropriate where impairment/distress warrants it. |
+| S89-FM01 | Recursive Intelligence should periodically review the goal hierarchy, not merely optimize a possibly harmful or obsolete goal (L2365–2369) | Important normative/controller-design principle. The treatise does not define who has authority to set or revise goals, how conflicts among goals are resolved, or what criteria distinguish harmful, outdated, externally imposed and merely difficult goals. Optimization metrics can also become targets that are gamed or detached from the underlying objective. | Retain as a requirement, not a solved mechanism. Specify goal provenance, user authority, constraints, conflict resolution, review triggers and safeguards before presenting it as an operational property of Recursive Intelligence. |
+
+### Cross-section dependencies and integration findings — §§75–89
+
+1. **Experiment-to-theory coverage (§§75–82):** A–F form a sensible portfolio of formal-inference, prospective-prediction, resource-sensitive behaviour, environmental intervention, alternative-response training and adaptive-control questions. They do not yet test the four-foundation synthesis as a whole. No single experiment operationalizes all four components, and the current set does not contain a registered prediction unique to the integrated architecture.
+2. **A versus B:** A tests derivability from supplied formal constraints; B tests whether a frozen model predicts a physical outcome before measurement. These are distinct epistemic achievements. A valid derivation does not establish the premises' truth; a successful prediction does not show that the prediction was generated without encoded structural information.
+3. **C–E versus established mechanisms:** Resource-sensitive action selection, cue accessibility and if–then response training have close analogues in established behavioural and cognitive-control research. A positive result would support a local mechanism or intervention, not establish theoretical originality. E especially needs a comparison with implementation-intention evidence (R48).
+4. **F versus Recursive Intelligence:** Adaptive control and meta-cognitive self-modification are not synonymous. The plan's meta-level distinction is essential. A fair fixed-policy comparator, a frozen update algorithm and held-out evaluation are necessary to avoid testing a deliberately weak baseline or rewarding retrospective manual tuning. The choice between slower sequential randomization (SMART) and faster micro-randomization (MRT) depends on the decision timescale and estimand (R49).
+5. **Protocol hierarchy:** §82 is a high-level safeguard summary. The more complete Section 9.1 common contract and 9.2–9.8 protocol/readiness gates in EDITION_PLAN.md are the operational specification. Neither a written protocol nor preregistration is execution or empirical validation.
+6. **Limits and failure modes (§§83–89):** the disclaimers are generally directionally sound. §89 identifies a genuine governance problem, but a review of goals requires explicit normative authority, provenance, conflict resolution and safety constraints; these cannot be inferred from predictive accuracy or control efficiency.
+7. **No experiment executed:** this audit is documentary and analytical. It neither authorizes nor reports execution of A–F.
+
+### Consolidated findings for §§75–89
+
+- The batch is primarily a set of research proposals and methodological safeguards, not a body of empirical results.
+- A is a formal reasoning benchmark, not evidence of information creation from nothing. B remains domain-agnostic and non-executable.
+- C is observational unless a safe, controlled manipulation is specified; it cannot establish a thermodynamic cause of distraction.
+- D and E can test local behavioural interventions, but do not validate the whole ROOT package. If–then plans already have a substantial evidence base.
+- F tests adaptive-control performance unless its proposed meta-level operation is separately defined and measured.
+- The governing plan contains substantially stronger protocol specifications than the treatise's short summaries. Those gates remain open.
+- §§83–88 contain useful limitations and safeguards; §89 requires a normative governance model before goal review can be treated as an implemented capability.
+- No experiments were run, no treatise/tracker edits were warranted by this batch, and no execution authorization is inferred.
+
+**Status:** §§75–89 have a first-pass claim-level methodological, evidential and disposition audit. This does not complete the full 95-section audit, make A–F executable, or validate the four-theory integration. Protocol readiness gates, full source verification, cross-component discrimination, final dispositions and the remaining §§90–95 audit remain open.
+
+## 19. Additional source register: Sections 75–89
+
+### R48 — Meta-analysis of implementation intentions, 2024
+
+“The when and how of planning: Meta-analysis of the scope and components of implementation intentions in 642 tests,” *European Review of Social Psychology* (2024), pp. 162–194, DOI: [10.1080/10463283.2024.2334563](https://doi.org/10.1080/10463283.2024.2334563).
+
+**Evidence type and scope:** meta-analysis of 642 independent tests of implementation intentions across cognitive, affective and behavioural outcomes.
+
+**Relevant result:** reported effects ranged from d = 0.27 to d = 0.66 across outcome groupings. Effects were larger when plans used a contingent if–then format, participants were highly motivated to pursue the goal, and plans were rehearsed.
+
+**Supports:** the existence of a substantial prior evidence base for trigger-linked if–then planning and rehearsal, relevant to §80.
+
+**Does not support:** the efficacy of the complete ROOT protocol, the specific intervention selected for an individual, or a unique theoretical mechanism underlying ROOT.
+
+**Pinpointing status:** publisher abstract and bibliographic record verified; exact outcome-specific forest plots and subgroup tables not independently inspected.
+
+### R49 — Sequential randomization designs for adaptive interventions, 2026
+
+“Experimental designs with repeated randomizations for optimizing adaptive interventions: guidelines and practical considerations,” *Annals of Behavioral Medicine* 60(1) (2026), article kaag006, DOI: [10.1093/abm/kaag006](https://doi.org/10.1093/abm/kaag006), published 13 March 2026.
+
+**Evidence type:** methodological/conceptual guidance on sequentially randomized designs for adaptive interventions.
+
+**Relevant distinction:** sequential multiple assignment randomized trials (SMARTs) address adaptive interventions with relatively slow decision timescales; micro-randomized trials (MRTs) address just-in-time interventions with faster, repeated decision points. Design choice depends on the scientific question, timing of adaptation and outcome measurement, randomization restrictions and sample-size planning.
+
+**Supports:** the need to select an evaluation design for §81/F based on the controller's actual adaptation cadence and estimand; it does not make any particular F design executable.
+
+**Does not support:** that the proposed ROOT controller is effective, that it is uniquely recursive, or that adaptive policies necessarily outperform fixed policies.
+
+**Pinpointing status:** full publisher abstract and article text inspected; publication date, volume/issue, article identifier and SMART/MRT distinction verified.
+
+### R50 — Reporting quality in SMART studies, 2022
+
+Bigirumurame et al., “Sequential multiple assignment randomized trial studies should report all key components: a systematic review,” 2022, PMCID: PMC7613855, PMID: 34763037.
+
+**Evidence type and scope:** systematic review of 157 records concerning SMART designs, including 12 trial reports, 24 protocols, 91 methodological papers and 30 reviews.
+
+**Relevant result:** only four of the 12 trial reports (33.33%) reported parameters needed for sample-size calculations; multiple-testing adjustment was often unreported.
+
+**Supports:** the need for explicit sample-size parameters and multiplicity handling if a sequentially randomized adaptive-controller study is later designed.
+
+**Does not support:** that SMART is the correct design for every adaptive controller, or that a SMART/MRT label guarantees adequate design quality.
+
+**Pinpointing status:** PubMed/PMC abstract and study counts verified; detailed study-level table not independently inspected.
