@@ -3451,4 +3451,18 @@ The full text adds important qualifications omitted by the abstract-only record:
 - **Personal monitoring:** the two-week tracker remains descriptive. It must not diagnose sleep disorders or infer individual cognitive causation from temporal correlation.
 
 **Disposition:** R43's bibliographic error is corrected; R44 is upgraded to full-text access with outcome, heterogeneity, publication-bias and dose-response limitations recorded. Sleep evidence remains domain-specific and does not validate the ROOT model or any individual's causal explanation. No experiments executed or authorized.
+## 59. Controlled sleep-evidence correction — R43 bibliography and R44 full-text limitations
+
+### 59.1 Source corrections
+
+- R43's bibliographic metadata was wrong in the previous register. The correct journal is *Neuroscience & Biobehavioral Reviews* 80, 586–604 (2017), DOI 10.1016/j.neubiorev.2017.07.010, PMID 28757454. Its full publisher article remains access-controlled; the abstract and publisher preview were inspected.
+- R44 (Wüst et al., 2024) is open access under CC BY 4.0. The full published article was inspected and the source record now includes its design, sample, effect estimates, heterogeneity, publication-bias and dose-response limitations.
+
+### 59.2 Treatise revision
+
+Treatise commit `9563e36686a00812d665a6b4b1f5b3435b39c376` revises §67 only. It distinguishes the multi-night/short-term restriction evidence in R43 from the one-night, healthy-adult evidence in R44; records their outcome-specific results and limitations; and explicitly labels the two-week log as descriptive rather than diagnostic or causal. It states that circadian timing and subjective sleep quality require separate evidence and that neither meta-analysis supplies a personal prediction or a ROOT fatigue coefficient.
+
+The commit diff was inspected; it is confined to §67. The latest treatise was fetched and the key evidence and non-diagnostic boundaries were verified.
+
+**Disposition:** sleep evidence is more accurately bounded in the source register and treatise. R43 remains abstract/publisher-preview access; R44 is full-text access. No personal diagnosis or causal explanation is claimed. No experiments executed or authorized.
 
