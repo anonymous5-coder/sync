@@ -1182,7 +1182,7 @@ where:
 - $R_c$: recovery and correction after error;
 - $w_i$: task-dependent weights.
 
-This is a measurement proposal, not a universal natural constant. It would require validated tasks and careful separation from memory, processing speed, and prior training.
+This is a candidate measurement proposal, not a validated intelligence scale or a universal natural constant. The components may overlap and may not share a common measurement scale. Before aggregation, each component requires defined observable indicators, task sampling, scoring direction, normalization, reliability, construct and criterion validity, and tests of discriminant validity against established cognitive-ability measures. The weights $w_i$ cannot be selected solely by intuition: they require a prespecified rationale and out-of-sample validation. A compensatory weighted sum may also conceal a serious weakness in one component behind high scores in another, so component profiles and uncertainty should be reported alongside any composite. Memory, processing speed, prior training, domain knowledge and opportunity to learn must be measured or controlled where relevant.
 
 **Claim-linked evidence register records:** R27, R58, R59. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
@@ -1197,7 +1197,7 @@ The five questions yield the following conclusions:
 4. Physical information processing is bounded by energy, time, memory, bandwidth, noise, and causality.
 5. Intelligence is not merely computation; it is adaptive, model-based use of computation under changing conditions.
 
-**Investigation A is therefore resolved at the level of a formal framework.** Its empirical adequacy depends on operationalization and testing.
+**Investigation A yields a provisional conceptual synthesis, not a resolved or validated theory.** Its formal claims remain conditional, its proposed intelligence measure is unvalidated, and its empirical adequacy depends on operationalization, comparison with established alternatives, and prospective testing.
 
 ---
 
