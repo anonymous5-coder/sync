@@ -1181,3 +1181,128 @@ Kyle Stanford, “Underdetermination of Scientific Theory,” *The Stanford Ency
 **Does not support:** a universal impossibility of discriminating theories or a claim that all scientific evidence is permanently underdetermining.
 
 **Pinpointing status:** current SEP entry inspected; title, author, publication/revision dates and relevant sections verified.
+
+
+## 22. Cross-batch reconciliation and integrated claim-status adjudication
+
+**Purpose and status.** This section consolidates the seven existing first-pass batches (§§1–95), the stable-ID inventory, source clusters E01–E18, the formal-result premise map, the alternatives audit and the provisional cross-component interface map. It is an integrated documentary adjudication, not independent peer review, completed source pinpointing, empirical validation or authorization to execute Experiments A–F. Existing batch histories and claim IDs are preserved.
+
+**Inventory check.** The unchanged treatise baseline contains 95 numbered sections. The register contains 198 distinct section-scoped stable IDs, including the six experiment IDs S76-EXP-A through S81-EXP-F and the final-synthesis IDs S90-C01 through S95-EQ01. The seven batch boundaries remain §§1–15, 16–27, 28–40, 41–59, 60–74, 75–89 and 90–95. Stable-ID coverage is an inventory result; it does not mean that all claims have final source pinpoints, validated measures, complete proofs or closed dependencies.
+
+### 22.1 Integrated epistemic taxonomy crosswalk
+
+The three schemes in the treatise must not be collapsed into one ordinal scale.
+
+| Treatise scheme | What it actually classifies | Reconciled interpretation | Required treatment |
+|---|---|---|---|
+| Part I, four levels (physical, informational, cognitive, recursive-control) | Explanatory domain / level of analysis | These are domains or levels, not epistemic statuses. A claim at any level may be definitional, formal, empirical, model-based or normative. | Retain as a domain map; do not treat the four levels as a seven-category claim taxonomy. |
+| §2, three labels (established constraint, derived proposition, research hypothesis) | A compressed summary mixing evidential and logical status | “Established constraint” can be empirical or formal; “derived proposition” is conditional on premises and proof system; “research hypothesis” concerns unresolved empirical or mechanistic support. These labels are not mutually exclusive across the independent dimensions. | Retain only as shorthand after adding the independent fields below. Never infer that a derived proposition has true premises or that an established constraint validates a whole theory. |
+| §15, levels 0–5 (imagined possibility, internally consistent hypothesis, deductive consequence, probabilistic prediction, independently corroborated discovery, robust explanatory structure) | A suggested development path for generated claims | The stages are heterogeneous: logical derivation, probabilistic prediction, empirical corroboration and explanatory robustness are different achievements and need not form one linear sequence. A deductive consequence can be conditional on false premises; prediction and corroboration are not the same dimension. | Retain as a non-universal heuristic only. Record the actual achievement and its support independently; do not promote a claim automatically by moving up the ladder. |
+| §85 labels (possibility, hypothesis, deduction, prediction, corroborated result) | Short-form epistemic reminders | These overlap the §15 ladder but still mix claim type, formal status and evidence status. | Use only as prose reminders, not as the canonical register schema. |
+
+**Correction to a prior ledger description:** an earlier progress entry described “§1's seven categories.” Reinspection of the exact treatise baseline shows that Part I presents four explanatory levels (physical, informational, cognitive and recursive-control), not seven epistemic categories. The earlier wording is inaccurate and is corrected here. The four levels are retained as domains; the crosswalk is based on the actual §2 and §15 schemes and the independent dimensions below.
+
+**Canonical claim record for subsequent adjudication:**
+
+1. **Claim kind:** question; definition; physical premise/constraint; mathematical identity; formal theorem/proposition; model/equation; empirical or developmental claim; causal/mechanistic hypothesis; prediction; methodological or normative principle; intervention/protocol.
+2. **Formal validity:** not applicable; standard identity/result under stated conditions; follows from explicit premises; conditionally follows with missing/unstated premises; schematic/undefined; invalid as stated. Formal validity is not empirical truth.
+3. **Evidence status:** established within a specified domain; directly supported but bounded; indirectly supported or supported by neighbouring evidence; mixed/contested; untested/unverified; not an empirical claim. State population, task, measurement and source quality where relevant.
+4. **Disposition:** retain; retain with qualification; split; merge/cross-reference; revise; downgrade; defer pending dependency; reject only when evidence or proof warrants rejection. “Not established” is not synonymous with “false.”
+5. **Open dependency:** exact source pinpoint; proof correction; operational definition; parameter identification; measurement validation; comparator/falsifier; protocol gate; typed interface; independent review; or none.
+
+These dimensions are deliberately non-ordinal. A claim can be a valid formal result, have no empirical status, and still require revision because its premises are not established. A model can be empirically useful in one domain while remaining only a schematic representation elsewhere.
+
+### 22.2 Integrated status matrix by claim family
+
+| Claim family / representative stable IDs | Claim kind | Formal status | Evidence status | Integrated disposition and remaining dependency |
+|---|---|---|---|---|
+| Four-part programme and integration: S01-C01, S02-D01, S70-C01, S72-C01, S73-TH04 | Organizing architecture / synthesis | Compatibility is conditional; no theorem establishes the necessity or unique order of all four components | No integrated-system validation or incremental predictive advantage demonstrated | **Retain as proposed architecture.** Do not call the four foundations independently validated mechanisms or a demonstrated unified causal system. Require typed interfaces, competing integrated baselines, ablations and held-out incremental prediction. |
+| Context and internal processing: S03-M01, S05-D01–D08, S06-C01–02, S28-C01, S29-C01/P04, S90-C01, LAW01 | Definitions, general computational principle, conceptual model | Broad dependence follows largely from the expansive context definition; internal computation without fresh external input is standard for systems retaining state and active transition rules | General computational fact; no distinct mechanism or novel prediction established | **Retain with narrowed scope.** Specify the absent input channel and interval; distinguish no new sensory input from no information/state. Identify a narrower transition-relevant context and a discriminator from ordinary stateful computation. |
+| Information, deduction and underdetermination: S07-M01/P01/P02, S10-M01/EQ01/TH01, S11-TH01, S12-C01–02, S14-EQ01–02, S30-C01–02, S91-C01, LAW02–03 | Information-theoretic identities, semantic results, epistemic claims | CMI and Bayesian identities are standard under specified distributions; Theorem 2 is a valid countermodel result; Theorem 1's entailment-to-derivability direction requires completeness, not soundness alone | Supports logical possibility of deriving consequences from supplied structure; does not show arbitrary facts can be inferred or premises are true | **Retain standard results with explicit conditions; revise Theorem 1.** Specify a sound and complete proof system for the chosen language, satisfiable K/nonempty model class and, for actual-world truth, that the actual world satisfies K. Keep derivability, prediction, truth and corroboration separate. |
+| Physical embodiment and resource limits: S04-A01/A05, S17-C01/EQ01–02, S18-C01/EQ01, S31-C01/EQ01–02, LAW04 | Physical premise and resource model | Physical implementation and Landauer's bound are established within their respective physical conditions; resource vector and performance function are schematic | Neural signalling is metabolically costly; task-level whole-body energy changes and subjective effort mechanisms are not reducible to that fact | **Retain physical constraints; split resource dimensions.** Landauer applies to specified logically irreversible erasure, not energy per thought. Define accounting boundary, time, bandwidth, memory, noise/error and task-specific capacity separately. |
+| Physical–cognitive bridge and action arbitration: S16-C01/EQ02, S19-M01–02/C01, S20-P03, S26-M01/TH03, S92-C01, LAW05 | Multilevel causal hypothesis, score model, conditional proposition | The score inequality is algebraic under definitions; preference needs a specified greedy/softmax selector; the bridge chain is not derivable from physical embodiment alone; the final repetition/learning step in Theorem 3 needs an update rule | Cost-benefit arbitration has task-specific experimental support; it does not validate the treatise's coefficients or causal story from neural energetics to an individual's unwanted behaviour | **Retain as a testable hypothesis and schematic model.** Operationalize score terms on compatible scales, identify coefficients, specify choice and learning rules, measure subjective effort separately from neural/global energy and test alternatives. |
+| Learning, habit and reward: S21-C01/EQ01, S22-EQ01, S23-C01/EQ01, S34-EQ01/C01, S35-EQ01–03, S42-C01/M01, S56-M01, LAW06 | Distinct learning mechanisms and candidate recurrences | TD-style updates are standard only after state/action/reward indexing is specified; §42 and §56 recurrences are not equivalent and neither is validated as a universal law | Habit, reinforcement and cue learning have evidence, but paradigms and constructs do not automatically converge; fixed habit-formation time is unsupported | **Split the constructs and defer canonical equations.** Distinguish Pavlovian cue–outcome, instrumental action–outcome and stimulus–response habit processes. Reconcile update equations, bound states/parameters, define opportunity and reinforcement, and validate measures. |
+| Intelligence and recursive control: S05-D03, S32-C01/EQ01–02/M01, S46-M01/EQ01, S47-M01, S48-C02, S49-M01/EQ01, S50-M01, S93-C01, LAW07 | Proposed construct, model and capability hypothesis | Functional and update equations are schematic; no distinct formal criterion for Recursive Intelligence supplied | Metacognition/meta-control and adaptive-control research support neighbouring processes; no unique Recursive Intelligence mechanism or incremental advantage shown | **Retain as proposed umbrella/synthesis, not established distinct theory.** Validate intelligence independently; define a discriminating meta-level representation/update criterion against metacognition, meta-control and adaptive control. |
+| ROOT and behavioural intervention: S41–S59, S69-C01/PROT01, S94-C01, LAW08 | Intervention architecture and personal protocol | Component operations can be specified; the integrated package and its controller guarantees are not proved | If–then plans and selected environmental interventions have component-level evidence; package efficacy is untested | **Retain as proposed intervention architecture.** Clarify ROOT acronym versus seven operations; reconcile 14-day tracker and 28-day treatise schedule; define fidelity, opportunity, outcomes, burden, safety and comparator. No efficacy claim. |
+| Stability and controller guarantees: S60-M01/C01, S61-M01/EQ01, S62-P05/C01, S63-C01, S71-EQ01–02, S74-TH05, LAW09 | Control-theoretic result, candidate Lyapunov function, conditional theorem | Schur stability is valid for the specified homogeneous discrete-time LTI model; disturbance changes the conclusion. The proposed V is not a verified Lyapunov certificate; Proposition 5 lacks a quantified drift condition; universal guarantee is under-specified | No human controller state, A/B/K or V is identified and validated | **Retain the standard control mathematics; defer human stability claims.** Define state, domain, equilibrium, positive definiteness, update, disturbances, actuator bounds and a quantified drift condition. |
+| Experiments and safeguards: S75-C01, S76-EXP-A through S81-EXP-F, S82-M01, S83-L01–S89-FM01 | Research protocols, falsifiability and normative safeguards | Protocol sketches are not results; designs test component mechanisms, not the full four-part theory | No experiment executed; A–F have open readiness gates | **Retain as proposals only.** A is formal inference from supplied premises; B awaits domain lock; C cannot establish thermodynamic causation from observation; D/E test local known interventions; F tests adaptive control unless meta-level change is measured. Keep all execution gates closed. |
+| Final synthesis and status language: S90-C01–S95-EQ01 | Interpretive synthesis and conceptual equation | §95 is not a fully specified state-transition model and is not shown equivalent to §3 or §71 | No integrated validation | **Downgrade “establishes” language to “proposes,” “describes” or “is consistent with evidence for” as appropriate.** Treat “completed in this treatise” as manuscript-content inventory, not completed empirical research. |
+
+### 22.3 Formal-result reconciliation
+
+The formal-result map is now consolidated as follows:
+
+- **Theorem 1 / S10-TH01:** the current proof invokes soundness for the converse direction. Soundness guarantees that derivable conclusions are entailed; completeness is needed to infer derivability from semantic entailment for the chosen formal system. Require a specified sound-and-complete calculus, fixed semantics, satisfiable K and an explicit distinction between truth in all K-models and truth in the actual world. If K has no models, entailment is vacuous.
+- **Theorem 2 / S11-TH01:** valid when two models satisfy the same K under fixed semantics and disagree on p. It establishes neither p nor ¬p as entailed. It does not establish equal probabilities, rational indifference, permanent scientific underdetermination or the impossibility of abductive/evidential ranking.
+- **S07-P01 and Bayesian identities S14-EQ01–02:** standard mathematical identities under specified distributions and conditioning. Mutual information is an expectation, not a guarantee of positive information gain on every individual observation.
+- **S20-P03:** the algebraic decomposition can establish a score inequality. A behavioural preference follows only after specifying the selector (for example, greedy choice or softmax with positive inverse temperature), feasible actions and score scales.
+- **Theorem 3 / S26-TH03:** the local-score conflict is conditional on the score definitions and selector. Repetition strengthening does not follow without a separate learning rule. Split the selection result from the habit-persistence hypothesis.
+- **Proposition 5 / S62-P05:** expected improvement language is not a Lyapunov proof. A formal drift inequality, state domain, disturbance assumptions and admissible controller class are required.
+- **Theorem 4 / S73-TH04:** compatibility follows under the stipulated broad definition of context. It is not evidence of novelty, necessity or empirical integration.
+- **Theorem 5 / S74-TH05:** score changes imply a probability change only under a specified choice rule; repeated strengthening additionally requires a learning update.
+- **Schur stability / S60:** the eigenvalue condition applies to the identified homogeneous discrete-time LTI system. Persistent disturbances require a separate bounded-input/bounded-state or input-to-state analysis; they do not imply convergence to zero.
+
+No proof correction is silently applied to the treatise in this register. These are required controlled-edition changes, not claims that the baseline text has already been repaired.
+
+### 22.4 State, equation and notation reconciliation
+
+The treatise contains several different abstraction levels that must not be treated as equivalent:
+
+| Location | Representation | Current status |
+|---|---|---|
+| §3 / S03-M01 | \(\mathcal S_t=(A,M_t,X_t,E_t,\Pi_t,G_t,\Theta_t)\) | Conceptual full-system inventory; component spaces, units, observability and transition semantics are not defined. |
+| §46 | Self-estimate \(\widehat S_t\), parameter update \(\Theta_{t+1}\), and \(S_{t+1}=F_{\Theta_{t+1}}(S_t,I_t)\) | Recursive-control sketch; estimator and update law are unspecified. |
+| §71 / S71-EQ01–02 | \(\mathcal S_{t+1}=\mathcal F(\mathcal S_t,O_t,\mathcal I_t,G_t,R_t,\mathcal R_t)\), plus operator composition | High-level system update; operator domains/codomains and composition order are unspecified. Under standard right-to-left composition, the written order may not match the prose sequence. |
+| §95 / S95-EQ01 | \(S_{t+1}=F(A,M_t,O_t,G_t,\mathcal R_t,\mathcal I(A,M_t),\Pi_t,R_t)\) | Conceptual summary, not a fully typed transition equation. It omits explicit \(X_t,E_t,\Theta_t\), selected action and update semantics, and is not shown equivalent to §3 or §71. |
+| §31 / S31-M01 | Resource vector \(\mathcal R=(E,T_m,B,M_c,\varepsilon)\) | Candidate constraints vector; \(\varepsilon\) is an error tolerance, not the same type as resource capacities. Separate capacities, consumed quantities and quality constraints. |
+| §§42 and 56 / S42-M01, S56-M01 | Two different habit-strength recurrences | Not algebraically reconciled or empirically validated; neither is a canonical update law. |
+| §§52 and 57 / S52-M01, S57-EQ01 | Reuse of \(e_t\) for accessibility and signed outcome error | Notational collision; assign distinct typed symbols. |
+| §§42 and 71 | Rehearsal/reinforcement variable and feedback/outcome variable use related R notation | Define distinct variables and event windows; do not assume they are identical. |
+| §§19–20, 41 and tracker | Six-term action score versus reduced reward-minus-cost and tracker metrics | No validated one-to-one mapping. Retain as distinct candidate models until units, scales and estimands are reconciled. |
+
+The full-system tuple, behavioural state and ROOT bookkeeping vector are different abstraction levels. The prior interface map's candidate state crosswalk is not a bijection and must not be presented as one. A future canonical schema needs typed state variables, observation versus inference, reward versus outcome feedback, feasible action sets, units, missingness, provenance, versioning and explicit clocks for neural/cue events, action episodes, daily summaries and weekly policy updates.
+
+### 22.5 Proposed Laws 1–10: integrated status
+
+| Law | Integrated status | Disposition |
+|---|---|---|
+| LAW01 — Contextual Dependence | Broad state/context dependence; close to a modelling truism under the treatise's expansive context definition | Retain as a scoped principle; no novelty claim. |
+| LAW02 — Internal Consequence | Standard semantic consequence/derivability claim; inherits Theorem 1's proof-system correction | Retain conditionally; correct soundness/completeness and satisfiability premises. |
+| LAW03 — Epistemic Underdetermination | Standard countermodel result under fixed semantics | Retain within model-theoretic scope; do not generalize to all scientific theory choice. |
+| LAW04 — Physical Embodiment | General physical premise for physically realized computation | Retain; do not infer a particular behavioural coefficient or per-thought energy. |
+| LAW05 — Cost-Sensitive Selection | Conditional action-selection model with empirical neighbours | Retain as a principle/hypothesis; specify score, scales, selector and falsifiable domain. |
+| LAW06 — Cached-Policy | Candidate account of learned repetition and persistence | Retain with qualified scope; distinguish habit constructs and validate the update rule. |
+| LAW07 — Recursive Modification | General self-monitoring/feedback capability with established neighbours | Retain as a capability hypothesis; specify the distinct meta-level mechanism if claimed. |
+| LAW08 — ROOT | Intervention architecture, not a validated law or package | Retain as a protocol proposal; no efficacy claim before controlled evaluation. |
+| LAW09 — Conditional Stability | Correct only under explicit controller, state, disturbance and stability assumptions | Retain conditionally; current human stability application remains unproved. |
+| LAW10 — Reality-Correction | Normative/methodological requirement | Retain as a methodological principle, not an empirical or physical law. |
+
+**Overall law-set disposition:** preserve the treatise's explicit label “proposed laws or principles.” The ten items are heterogeneous and must not be counted as ten newly established universal laws.
+
+### 22.6 Cross-component integration verdict
+
+The architecture is coherent as a proposed workflow, but its links have different evidential types:
+
+1. **Space or Null → Out of Box:** primarily definitional/functional; standard inference can operate on retained structure. No distinct mechanism is established by the compatibility argument.
+2. **Out of Box → Recursive Intelligence:** a proposed computational link; no specified map from inference/prediction error to a self-model estimator and parameter update.
+3. **Recursive Intelligence → ROOT:** an architectural/operational link; current overlap with metacognition, meta-control and adaptive control remains unresolved.
+4. **ROOT → future context/self-model:** a proposed feedback/causal link; selected intervention components have evidence, but the integrated package and update cycle have not been validated.
+5. **Physical constraints → action selection:** a multilevel mechanistic hypothesis; there is no direct derivation from Landauer or neural energy budgets to subjective effort, action-score coefficients or a specific person's behaviour.
+
+No necessary ordering, sufficiency relation, emergent capability or incremental predictive advantage for the complete four-part architecture has been demonstrated. Preserve each component as a research proposal even if a bridge is later narrowed or rejected.
+
+### 22.7 Consolidated dispositions and remaining gates
+
+**Retain as established within explicit scope:** selected mathematical identities and semantic results; physical embodiment and Landauer constraints under their physical assumptions; standard LTI Schur-stability criterion; selected empirical findings such as prenatal auditory familiarity, neural signalling costs, task-specific sleep effects, implementation-intention effects and metacognitive monitoring/control findings. None validates the whole framework.
+
+**Retain with qualification:** broad context dependence; inference from retained internal structure; model-based action arbitration; habit/cue learning; clinical boundary statements; goal review as a normative safeguard; local environmental and alternative-response interventions.
+
+**Retain as proposed / unvalidated:** the physical–cognitive bridge; action-score coefficients; intelligence functional; logistic behavioural model; habit-strength recurrences; distinct Recursive Intelligence mechanism; ROOT as an integrated package; human Lyapunov/stability application; unified state equation; four-component causal integration.
+
+**Revise before controlled treatise edition:** Theorem 1's soundness/completeness direction; theorem/proposition premise statements; taxonomy wording; equation and symbol collisions; §3/§46/§71/§95 state mapping; §§42/56 habit update reconciliation; action-score/tracker mapping; final-synthesis headings and “completed” language.
+
+**Keep deferred:** exact source-side page/table/figure pinpointing for all claims; primary-source verification of remaining gaps; operational definitions and psychometric validation; full M1–M18 closure including absent M18; proof corrections in the treatise; protocol preregistration/readiness; independent review.
+
+**Experiments A–F:** no execution occurred. All protocol gates and checkboxes remain open. No result, readiness or empirical validation is inferred from this reconciliation.
+
+**Artifact boundary:** this section updates the claim register only. It does not alter the treatise, ROOT tracker, experimental protocols or governing safeguards. The next phase is controlled source-pinpoint closure and independent claim-by-claim review, followed by a separately authorized, evidence-led treatise revision if warranted.
