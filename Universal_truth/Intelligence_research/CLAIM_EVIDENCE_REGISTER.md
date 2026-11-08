@@ -1197,8 +1197,7 @@ Theophile Bigirumurame, Germaine Uwimpuhwe and James Wason, “Sequential multip
 
 - The final synthesis is more confident than the evidence and formal audits warrant. The recurring verb “establishes” should be downgraded to “proposes,” “describes,” or “is supported in the following limited respect,” according to each claim.
 - Space or Null Theory is currently a broad context/structure principle; its distinctive contribution remains unestablished.
-- Out of Box Theory's defensible core is bounded inference from supplied premises. Theorem 1 requires a completeness correction and actual-world correspondence must be distinguished from formal entailment.- The physical–cognitive bridge is a plausible multi-level hypothesis, not a completed causal explanation of unwanted behaviour.- Recursive Intelligence overlaps established metacognition/meta-control; distinctiveness remains unresolved.
-- ROOT is an unvalidated intervention architecture. Its component strategies do not establish package-level efficacy.
+- Out of Box Theory's defensible core is bounded inference from supplied premises. Theorem 1 requires a completeness correction and actual-world correspondence must be distinguished from formal entailment.- The physical–cognitive bridge is a plausible multi-level hypothesis, not a completed causal explanation of unwanted behaviour.- Recursive Intelligence overlaps established metacognition/meta-control; distinctiveness remains unresolved.- ROOT is an unvalidated intervention architecture. Its component strategies do not establish package-level efficacy.
 - The final unified equation is presently conceptual and inconsistent with the earlier state representation. It must not be described as a derived mathematical law.
 - The final “completed” list records manuscript contents, not validated research outcomes. Empirical studies remain unexecuted.
 - No treatise or tracker edits were made; no experiment was executed or authorized.
@@ -2397,7 +2396,6 @@ A minimal sequential skeleton could then be written as:
  (\theta_{t+1},\pi_{t+1})=
  U(\theta_t,\pi_t,b_t,g_t,y_t,\rho_t).\]
 This skeleton is intentionally incomplete: it shows the type boundaries and update ordering that must be specified, but it does not establish that the selected variables form a sufficient state, that the operators are identifiable, or that the model predicts human behaviour. A final specification must decide whether environment updates are endogenous, how goals can be revised, how outcomes are observed, and whether policy learning and self-model learning are separate operators.
-
 ### 33.4 Integration tests required before calling the model unified
 
 - **Type check:** every operator declares input/output spaces, units, permissible values, missingness and error behaviour.
@@ -3597,8 +3595,7 @@ The edition-language and architecture-level dependency pass is complete for §§
 ## 64. Repeated source-access closure attempt — R32, R43, R61 and R63
 ### 64.1 Access checks performed
 
-| Record | Additional route checked | Result | Evidence status |
-|---|---|---|---|
+| Record | Additional route checked | Result | Evidence status ||---|---|---|---|
 | R32 — Webb & Sheeran (2008) | Wiley full-text and PDF routes; University of Sheffield White Rose repository | Wiley's retrieved full-text/PDF route redirects to an abstract page with a “Read the full text” access control; White Rose explicitly states that a full-text copy is not available for download. Search-indexed material reproduces the abstract, not the article body. | Remains abstract-level. Study 2 sample, full method, exact mediation statistics and detailed page pinpoints remain unverified. |
 | R43 — Lowe et al. (2017) | ScienceDirect publisher article and PubMed record | Publisher page is access-controlled/purchase-only in the available route; PubMed provides abstract and bibliographic metadata. | Remains abstract/publisher-preview level; no full-text table or forest-plot audit. |
 | R61 — Madsen et al. (1992) | American Physiological Society/Atypon article and PDF routes; PubMed; regional publication record | Publisher metadata labels the article subscriber-only; the PDF endpoint was not accessible through the available retrieval route. PubMed and the regional record expose the abstract, not the complete methods/results/tables. | Remains abstract-level primary evidence. Do not infer sample size, protocol detail or unreported uncertainty. |
@@ -4478,3 +4475,46 @@ Theophile Bigirumurame, Germaine Uwimpuhwe and James Wason, “Sequential multip
 6. Keep measurement validation, causal identification, prospective predictive validation and adaptive-policy optimization as separate gates.
 
 **Safeguard:** no experiment was executed, approved for execution, preregistered or shown ready by this audit. Experiments A–F remain behind their existing gates. No change to the treatise or tracker is authorized or required by this source audit.
+
+## 85. Treatise-wide evidence-pointer coverage and integrity audit
+
+**Snapshot and method.** Audited the complete current treatise on branch `edition` before the pointer-only correction in this section: blob `4f72ad4b9a34cb6046d831014aec7207fb10a6d7`, 2,800 lines, 95 consecutive numbered sections. Counted exact `Claim-linked evidence register records:` blocks, mapped each block to its containing numbered section, extracted its R identifiers and checked those identifiers against the full companion register. This is a pointer-inventory and integrity audit; it is not a sentence-level evidence adjudication or a claim that every factual sentence is cited.
+
+### 85.1 Coverage result
+
+- The treatise contains **95 numbered sections**, consecutively numbered 1–95.
+- There are **69 claim-linked evidence-pointer blocks**, in **69 distinct sections**.
+- **26 sections have no explicit pointer block**: §§1–3, 5–6, 9, 12, 15, 33, 38, 59, 63–64, 70–72, 75, 83–87, 89–91 and 95.
+- The pointer blocks contain **66 distinct source identifiers**: R01–R51, R53–R55, R57–R63, R65–R66 and R68–R70.
+- Every source identifier appearing in a treatise pointer block is present somewhere in the companion register. No pointer refers to an identifier absent from the register.
+- R52, R56 and R64 are documented aliases; R67 is an additional source record. Their absence from the treatise pointer blocks is not, by itself, an orphaned citation or a missing source record.
+
+### 85.2 Pointer defects corrected
+
+Two exact duplicate identifiers were present in pointer lists:
+
+| Treatise section | Before | Corrected list | Reason |
+|---|---|---|---|
+| §8 | R06, R07, R08, R06 | R06, R07, R08 | R06 was listed twice in the same pointer block. |
+| §11 | R03, R05, R03 | R03, R05 | R03 was listed twice in the same pointer block. |
+
+These were pointer-list deduplications only. No prose, claim wording, evidence assessment, source identity or section structure was changed. The treatise pointer correction is committed separately; the current blob is recorded in the governing plan row.
+
+### 85.3 Sections without explicit pointer blocks — triage, not automatic defects
+
+The 26 no-pointer sections fall into different classes:
+
+1. **Foundational definitions and formal setup:** §§1–3, 5–6, 9, 12 and 15. These contain research questions, definitions, schematic objects, formal statements and an epistemic heuristic. Some statements are conceptual or formally derived; others may still need cross-reference to established sources. No blanket citation insertion is justified.
+2. **Synthesis and behavioural-model sections:** §§33, 38 and 59. These summarize Investigation A, propose a multi-timescale behavioural model and describe the Learn stage. They merit sentence-level checking because they combine claims already supported elsewhere with new synthesis or process language. In particular, §38's timescale examples should not be mistaken for a validated universal developmental sequence.
+3. **Mathematical, operational and architecture sections:** §§63–64 and §§70–72. Section 63 contains a conditional mathematical counterexample; §64 defines a normative/operational self-mastery criterion; §§70–72 explicitly label the four-foundation integration and cycle as proposed and unvalidated. These may be supported by internal derivation or cross-references rather than new empirical citations.
+4. **Methodological and limitation sections:** §§75 and 83–87, 89. These contain falsifiability rationale, scope limits and design principles. The sentence-level audit must distinguish general methodological norms from empirical claims about the efficacy or burden of interventions.
+5. **Final status and schematic summary:** §§90–91 and 95. These are bounded synthesis statements. Their logic and empirical boundaries should be checked against the corrected formal sections and the source-pointer sections they summarize; they should not be treated as independent evidence.
+
+**Priority for the remaining sentence-level audit:** first inspect §§33 and 38 for any empirical or generalizing sentence that lacks a traceable source or explicit “proposed model” label; then §§75 and 89 for methodological/behavioural generalizations; finally reconcile §§90–91 and 95 against their earlier claim records. The other no-pointer sections should remain uncited where they are definitions, derivations or explicitly normative statements.
+
+### 85.4 Current disposition and limits
+
+The pointer inventory is internally consistent at the identifier level after deduplication. The existence of 69 blocks does not show that all factual claims within those sections are supported, and the 26 no-pointer sections are not automatically citation defects. The source-pointer map is a navigation aid; the full 95-section sentence-level audit, exact pinpoint verification, bibliography metadata audit, and final render/citation review remain open.
+
+**Safeguard:** no empirical claim was upgraded by this inventory check. No experiment was executed, approved, preregistered or shown ready. Experiments A–F remain behind their existing gates. No merge or plan retirement is authorized.
+
