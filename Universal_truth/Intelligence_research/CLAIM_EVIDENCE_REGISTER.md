@@ -1197,8 +1197,7 @@ Theophile Bigirumurame, Germaine Uwimpuhwe and James Wason, “Sequential multip
 
 - The final synthesis is more confident than the evidence and formal audits warrant. The recurring verb “establishes” should be downgraded to “proposes,” “describes,” or “is supported in the following limited respect,” according to each claim.
 - Space or Null Theory is currently a broad context/structure principle; its distinctive contribution remains unestablished.
-- Out of Box Theory's defensible core is bounded inference from supplied premises. Theorem 1 requires a completeness correction and actual-world correspondence must be distinguished from formal entailment.- The physical–cognitive bridge is a plausible multi-level hypothesis, not a completed causal explanation of unwanted behaviour.
-- Recursive Intelligence overlaps established metacognition/meta-control; distinctiveness remains unresolved.
+- Out of Box Theory's defensible core is bounded inference from supplied premises. Theorem 1 requires a completeness correction and actual-world correspondence must be distinguished from formal entailment.- The physical–cognitive bridge is a plausible multi-level hypothesis, not a completed causal explanation of unwanted behaviour.- Recursive Intelligence overlaps established metacognition/meta-control; distinctiveness remains unresolved.
 - ROOT is an unvalidated intervention architecture. Its component strategies do not establish package-level efficacy.
 - The final unified equation is presently conceptual and inconsistent with the earlier state representation. It must not be described as a derived mathematical law.
 - The final “completed” list records manuscript contents, not validated research outcomes. Empirical studies remain unexecuted.
@@ -2397,7 +2396,6 @@ A minimal sequential skeleton could then be written as:
 \[
  (\theta_{t+1},\pi_{t+1})=
  U(\theta_t,\pi_t,b_t,g_t,y_t,\rho_t).\]
-
 This skeleton is intentionally incomplete: it shows the type boundaries and update ordering that must be specified, but it does not establish that the selected variables form a sufficient state, that the operators are identifiable, or that the model predicts human behaviour. A final specification must decide whether environment updates are endogenous, how goals can be revised, how outcomes are observed, and whether policy learning and self-model learning are separate operators.
 
 ### 33.4 Integration tests required before calling the model unified
@@ -3597,7 +3595,6 @@ The latest treatise was fetched again. Verification confirmed:
 
 The edition-language and architecture-level dependency pass is complete for §§70–72 and §§90–95. This is a wording/consistency correction, not completion of the underlying science. The typed integrated model, source/provenance gaps, remaining claim-specific evidence closure, experiment readiness, and qualified independent review remain open. The plan's review-ready and retirement gates are not satisfied. No tracker changes, experiments, preregistration, merge or plan retirement are authorized or claimed.
 ## 64. Repeated source-access closure attempt — R32, R43, R61 and R63
-
 ### 64.1 Access checks performed
 
 | Record | Additional route checked | Result | Evidence status |
@@ -4401,7 +4398,7 @@ The newer R48 meta-analysis (2025) remains an important counterweight to reading
 
 Jonathan A. Shaffer, Ian M. Kronish, Louise Falzon, Ying Kuen Cheung and Karina W. Davidson, “N-of-1 Randomized Intervention Trials in Health Psychology: A Systematic Review and Methodology Critique,” *Annals of Behavioral Medicine* 52(9), 731–742 (2018), DOI 10.1093/abm/kax026, PMID 30124759, PMCID PMC6128372.
 
-**Evidence type and scope:** systematic review of 54 N-of-1 randomized-trial publications involving 1,193 participants. Only 36% reported sufficient information to calculate heterogeneity of treatment effect; 90% reported some quantitative information for determining a superior treatment. The authors found common omissions in washout/run-in periods, concurrent conditions/interventions, power analysis and methods accounting for carryover, within-person dependence and period effects.
+**Evidence type and scope:** systematic review of 54 N-of-1 randomized-trial publications involving 1,193 participants. The abstract reports that 36% provided adequate information to calculate heterogeneity of treatment effect; the full-text Results later reports 40% for item 12b. This apparent source-internal discrepancy is retained rather than silently harmonized. The abstract reports that 90% provided some quantitative information for determining a superior treatment. The authors found common omissions in washout/run-in periods, concurrent conditions/interventions, power analysis and methods accounting for carryover, within-person dependence and period effects.
 
 **Methodological boundary:** an N-of-1 randomized trial is not simply a study of one person. The idealized design randomizes the order of repeated intervention/control periods for a measurable, sufficiently stable or recurring target, with interventions that can be withdrawn and whose effects are reversible. Washout/carryover, repeated exposure, credible comparison, pre-specified measurement and analysis, and sufficient within-person observations matter. Randomization or counterbalancing is recommended where feasible to reduce secular-trend and time-by-treatment threats.
 
@@ -4423,7 +4420,7 @@ Lesleigh Stinson, Yunchao Liu and Jesse Dallery, “Ecological Momentary Assessm
 
 ### 84.3 R47 — Tate et al. (2016), SCRIBE single-case reporting guideline
 
-“ The Single-Case Reporting Guideline In BEhavioural Interventions (SCRIBE) 2016 Statement,” *Archives of Scientific Psychology* 4 (2016), DOI 10.1037/arc0000026.
+Robyn L. Tate et al., “The Single-Case Reporting Guideline In BEhavioural Interventions (SCRIBE) 2016 Statement,” *Archives of Scientific Psychology* 4 (2016), 1–9, DOI 10.1037/arc0000026.
 
 **Evidence type:** expert-consensus reporting guideline developed through two online surveys and a two-day expert meeting; it contains a 26-item reporting checklist and a companion Explanation and Elaboration article.
 
@@ -4481,4 +4478,3 @@ Theophile Bigirumurame, Germaine Uwimpuhwe and James Wason, “Sequential multip
 6. Keep measurement validation, causal identification, prospective predictive validation and adaptive-policy optimization as separate gates.
 
 **Safeguard:** no experiment was executed, approved for execution, preregistered or shown ready by this audit. Experiments A–F remain behind their existing gates. No change to the treatise or tracker is authorized or required by this source audit.
-
