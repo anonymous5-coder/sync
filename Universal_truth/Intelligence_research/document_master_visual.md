@@ -2503,27 +2503,27 @@ Physical constraints bound implementation, while Recursive Intelligence and ROOT
 
 Behavioural learning may change which actions become readily available, but the treatise has not specified or validated a general update law for this process.
 
-Recursive Intelligence uses feedback to modify the system's future operation.
+Recursive Intelligence is proposed to use feedback and self-representation to modify a system's future operation; the mechanism and its distinct contribution remain unspecified and unvalidated.
 
-ROOT Control Protocol translates that recursive capacity into a practical method of behavioural redesign.
+ROOT Control Protocol is proposed as an operational method for behavioural redesign. Its relationship to any distinct recursive-intelligence mechanism, and the efficacy of the integrated protocol, remain to be tested.
 
 ---
 
 # CONCLUDING STATEMENT
 
-The deepest unifying idea is this:
+The proposed unifying idea is that an intelligent system can be studied as a physically implemented process in which context, internal representation, inference, action selection and feedback interact. Where a system can modify its own policies or operating conditions, those changes may in turn alter how it responds to later contexts.
 
-**An intelligent system is not merely a receiver of context. It is a physically embodied structure that transforms context into models, transforms models into predictions and actions, and—when recursive control is available—uses the consequences of those actions to modify how it will respond to future context.**
+**This is the treatise's integrative hypothesis, not an established universal law:**
 
-This statement connects the origin of knowledge, the possibility of discovery, the physical limits of cognition, the persistence of habits, and the engineering of self-mastery.
+**An intelligent system is not merely a receiver of context. It is a physically embodied structure that can transform context into models, use models to generate predictions and actions, and—when suitable recursive control is available—use action consequences to modify future responses.**
 
-For the human mind, the practical implication is precise:
+This proposed synthesis connects questions about knowledge and discovery with physical implementation, behavioural persistence and self-directed adaptation. The links among these domains require further formal specification and empirical discrimination from established alternatives.
 
-An unwanted impulse does not have to disappear before a chosen action can occur. The task is to change the conditions, learned responses, and control mechanisms that determine what happens after the impulse appears.
+For behavioural self-management, one practical hypothesis is that an unwanted impulse need not disappear before a chosen action can occur. Changing cues, access conditions, alternative responses and feedback may alter what follows the impulse. Whether a particular intervention helps must be assessed in its context, with outcomes and adverse effects measured.
 
-The objective is not a mind without competing signals. It is a mind whose actions are increasingly governed by considered objectives, accurate models, and adaptive control.
+The intended objective is not a mind without competing signals, but improved alignment between considered objectives and actual behaviour. The extent to which the four named components provide a coherent and useful framework remains an open research question.
 
-That is the integrated purpose of **Space or Null Theory**, **Out of Box Theory**, **Recursive Intelligence**, and the **ROOT Control Protocol**.
+That is the proposed research purpose of **Space or Null Theory**, **Out of Box Theory**, **Recursive Intelligence**, and the **ROOT Control Protocol**.
 
 ---
 
@@ -2565,28 +2565,26 @@ The following sources support established scientific constraints and provide res
 
 ## STATUS OF THE FRAMEWORK
 
-**Completed in this treatise:**
+**Work products currently present in the draft (not equivalent to validation or completion):**
 
-- Axiomatic definitions of context, null conditions, intelligence, novelty, discovery, habit, distraction, and self-mastery.
-- Formal reconciliation of Space or Null Theory and Out of Box Theory.
-- A theorem establishing the possibility of deriving unobserved truths from internal constraints.
-- An underdetermination theorem establishing the boundary of such inference.
-- A physical–cognitive bridge based on embodied computation, finite resources, cost-sensitive control, and cached policies.
-- A formal model of cue-response learning and behavioural arbitration.
-- Full conceptual and mathematical chapters for Investigations A, B, and C.
-- A recursive self-modification architecture.
-- A mathematical ROOT Control Protocol.
-- Conditional stability arguments and failure conditions.
-- An experimental programme with measurable predictions.
-- A consolidated set of proposed laws and principles.
+- Working definitions and conceptual distinctions for context, null conditions, intelligence, novelty, discovery, habit, distraction and self-mastery. Their operational adequacy and distinct contribution remain under review.
+- Two bounded formal results: derivability from premises under specified soundness/completeness conditions, and model-theoretic underdetermination where admissible models disagree. Neither establishes arbitrary fact acquisition or predictive performance.
+- Candidate action-selection, habit, behavioural-state, feedback and control models. Several remain under-specified; their parameters and causal relations have not been identified in human systems.
+- A literature synthesis and source-to-claim register. Source access varies by record; review-level, abstract-only and primary full-text evidence are distinguished, and unresolved provenance gaps remain documented.
+- A proposed integration of Space or Null Theory, Out of Box Theory, Recursive Intelligence and ROOT. The joint interfaces, typed state, update semantics and incremental explanatory value have not been established.
+- A ROOT process description and operational tracker. These are planning and measurement artifacts, not a validated clinical or behavioural intervention.
+- Protocol templates for experiments A–F, including design requirements and disconfirmation conditions. None is represented as executed, preregistered, approved or empirically completed.
+- Internal adversarial review across the canonical claim inventory. This is not independent external review.
 
-**Still requiring empirical work:**
+**Not established; further work remains necessary:**
 
-- Estimation of model parameters in human participants.
-- Neural and metabolic measurements linking control demand to action selection.
-- Longitudinal evaluation of ROOT interventions.
-- Cross-population replication.
-- Tests of the proposed framework against competing computational models.
-- Formal refinement of the proposed intelligence and self-mastery metrics.
+- A unified, executable state-transition model or validated general law connecting all four components.
+- A distinct empirical contribution or incremental predictive advantage over established theories of context processing, inference, metacognition, meta-control, adaptive control and behavioural intervention.
+- A causal physical-to-cognitive bridge, individual action-score coefficients, or a validated human behavioural stability model.
+- A validated intelligence composite, recursive-intelligence mechanism, or Lyapunov certificate for the human/ROOT system. The Schur-stability result applies only to its specified homogeneous linear time-invariant model.
+- Efficacy, durability, generalizability or safety of the integrated ROOT package.
+- Execution or empirical results for experiments A–F.
+- Resolution of the E17/E18 source-provenance gaps and all remaining source-access limitations.
+- Qualified independent review.
 
-The treatise is therefore a complete theoretical research framework and a foundation for empirical investigation—not a claim that every proposed equation has already been experimentally validated.
+**Current editorial status:** this is a substantial conceptual research manuscript with conditional formal results, bounded evidence synthesis, candidate models and an experimental-design programme. It is not a complete or empirically validated unified theory, and it should not be described as review-ready until the governing plan's remaining acceptance and review gates are satisfied.
