@@ -447,3 +447,176 @@ Karl Friston, “The free-energy principle: a rough guide to the brain?” *Tren
 9. **Predictions:** §27 contains testable hypotheses, not established universal predictors. They require opportunity-based measures, confound control and disconfirmation criteria.
 
 **Status:** §§16–27 now have a first claim-level source/disposition register. The action-score, habit-learning and bridge claims remain provisional; the full 95-section audit is not complete.
+
+
+## 11. Claim-level register: Sections 28–40
+
+### §28 — Context as a transition-relevant condition (treatise lines 906–948)
+
+| ID | Claim / source location | Assessment and evidence relation | Disposition |
+|---|---|---|---|
+| S28-C01 | Context is any information- or constraint-bearing condition that changes interpretations or transitions (L908–930) | Useful operational proposal, but “changes the distribution” must distinguish causal intervention from observational association. A conditional distribution \(P(X_{t+1}\mid X_t,A,M_t,C_t)\) alone does not prove that manipulating C changes outcomes. A causal claim requires a defined intervention/structural causal model or suitable design. | Retain as a candidate definition; specify whether relevance is causal, predictive or computational in each application. |
+| S28-EQ01 | Conditional transition distribution (L910–916) | Standard probabilistic notation, but state, action, memory and context variables, temporal index and transition assumptions remain unspecified. | Retain as schematic; define variables and causal assumptions before empirical use. |
+| S28-EQ02 | Four-part context decomposition (L932–948) | Useful categories, but they are not mutually exclusive: an internal representation may encode external information; goals can be architecturally represented; social context may be both external and remembered. | Retain as a taxonomy, not a partition; define overlap and provenance rules. |
+
+### §29 — Inference without new external input (L949–976)
+
+| ID | Claim / source location | Assessment and evidence relation | Disposition |
+|---|---|---|---|
+| S29-C01 | Inference can occur without a new external observation when internal state and rules remain available (L951–966) | Correct for ordinary computation and formal inference. It establishes neither semantic meaningfulness nor external truth. “Zero input” must be defined relative to a channel and interval; retained internal state is itself information-bearing input to the operation. | Retain with this scope; do not describe as inference from literal nothing. |
+| S29-EQ01 | \(Y=\mathcal I(Z)\) (L958–962) | Generic function application, not a substantive theorem or evidence of intelligence. | Retain as notation only. |
+| S29-P04 | Internal inference requires structure, not fresh sensory input (L968–976) | Follows from the specified definition of computation; it is close to definitional and does not establish that the output is valid, true, useful or novel to an external community. | Retain as a bounded proposition; remove any implication of empirical discovery. |
+
+### §30 — Prior information and inferential novelty (L977–1010)
+
+| ID | Claim / source location | Assessment and evidence relation | Disposition |
+|---|---|---|---|
+| S30-C01 | Newly represented, deducible, probabilistically supported, empirically new and information-independent are distinct notions (L979–990) | Correct and important taxonomy. “Empirically new” needs a reference population/community and date; “information-independent” needs a defined information model. | Retain; align with §5 D04–D05 and §15's multidimensional epistemic status. |
+| S30-C02 | Deterministic computation can expose implicit consequences without generating information about arbitrary unconstrained facts (L992–1006) | The data-processing inequality gives a precise Shannon-information boundary: if \(W\to Z\to Y\) is a Markov chain and Y is computed from Z, then \(I(W;Y)\le I(W;Z)\). This does not prevent a computation from making an implicit consequence explicit, changing representation, or improving practical access. The short-program/long-output example belongs to algorithmic information theory; output complexity is bounded relative to the program, input and reference machine, not necessarily “zero information.” | Retain with the Shannon data-processing condition and a separate algorithmic-information explanation. |
+| S30-EQ01 | “Novel output” does not imply information from nothing (L1002–1008) | Sound as a caution, but “information” must name its measure: Shannon mutual information, algorithmic description length, semantic content or an agent's accessible knowledge are not interchangeable. | Retain; state the information notion in every formal use. |
+| S30-EQ02 | “Implicit consequence” does not imply explicit prior representation (L1008–1010) | Correct distinction between explicit storage and logical entailment. | Retain. |
+
+### §31 — Physical limits and resource vector (L1011–1056)
+
+| ID | Claim / source location | Assessment and evidence relation | Disposition |
+|---|---|---|---|
+| S31-C01 | Energy, time, memory, noise, communication, error correction and causal access constrain physical information processing (L1013–1033) | Broad engineering/physics categories are legitimate, but each has different formal bounds and operating assumptions. Landauer applies to specified logically irreversible erasure; Shannon capacity applies to a defined channel; memory capacity depends on distinguishable states, noise and error tolerance; causal access depends on the physical spacetime and sensor system. They are not one scalar limit. | Retain as a list of distinct constraints; attach the appropriate theorem/measurement to each. |
+| S31-EQ01 | Landauer erasure inequality (L1035–1041) | Repeats S17-EQ02; no need for a second derivation. | Cross-reference S17-EQ02 and R09–R10. |
+| S31-M01 | Resource vector \(\mathcal R=(E,T_m,B,M_c,\varepsilon)\) (L1043–1051) | Candidate engineering abstraction. E, time, bandwidth and memory are capacities/budgets; ε is a tolerated error constraint, not a resource of the same type. Units, available/consumed distinction and coupling among dimensions are unspecified. | Retain as a vector of constraints after separating capacities from quality constraints. |
+| S31-EQ02 | \(\mathcal P_{max}=\Phi(\mathcal R,A,task)\) (L1053–1056) | Generic function declaration, not a derived quantitative law. Φ is unspecified and must depend on algorithm, noise, operating domain and performance metric. | Retain as schematic; do not present as a quantified result. |
+
+### §32 — Intelligence versus computation and proposed functional (L1057–1104)
+
+| ID | Claim / source location | Assessment and evidence relation | Disposition |
+|---|---|---|---|
+| S32-C01 | Adaptive intelligence requires additional functional properties beyond fixed state transformation (L1059–1080) | A defensible operational distinction chosen by the framework, not a universally accepted necessary-and-sufficient definition. Different theories weight generalization, learning, goal pursuit, transfer and self-monitoring differently. | Retain explicitly as the framework's chosen definition; compare with established operational constructs before claiming novelty. |
+| S32-EQ01 | Computation as state transformation (L1082–1086) | Broad abstraction; not a complete definition of every computational theory or physical computation. | Retain as shorthand with scope. |
+| S32-EQ02 | Intelligence as adaptive use of state transformation (L1088–1092) | Stipulative functional definition. It overlaps adaptive control, learning systems and existing intelligence frameworks. | Retain as provisional definition; add discriminant criteria. |
+| S32-M01 | Weighted intelligence functional \(\mathcal I=w_1G+w_2A_d+w_3P+w_4T_r+w_5R_c\) (L1094–1104) | Candidate composite index, not a validated measure. The components need operational tasks, reliability, population norms, weighting rationale, measurement invariance, convergent/discriminant validity and criterion/predictive validity. Weights must not be selected to maximize the same outcome used to validate the index. The AERA/APA/NCME Standards (2014) require validity evidence for the intended interpretation and use of test scores. | Retain as a research proposal; do not report it as an intelligence metric until independently validated. |
+
+### §33 — Investigation A summary (L1105–1120)
+
+| ID | Claim / source location | Assessment and evidence relation | Disposition |
+|---|---|---|---|
+| S33-C01 | Investigation A is “resolved at the level of a formal framework” (L1107–1120) | The section summarizes definitions and conceptual answers, but the context criterion, resource function, intelligence functional and empirical predictions remain operationally unresolved. “Resolved” can be read as stronger than the work supports. | Downgrade to “a provisional formal outline has been stated”; retain empirical and operational questions as open. |
+
+### §34 — Cue-response learning (L1121–1158)
+
+| ID | Claim / source location | Assessment and evidence relation | Disposition |
+|---|---|---|---|
+| S34-EQ01 | \(\Delta V_t=\alpha[r_t+\gamma V_{t+1}-V_t]\), followed by \(V_{t+1}=V_t+\Delta V_t\) (L1127–1142) | Generic TD-like update, but V is not indexed by state or action, and V_{t+1} is not defined as a next-state estimate. It cannot be independently classified as TD(0), SARSA or Q-learning. If V is a state-value function, use a state-indexed update; if Q is an action-value function, specify the next action or maximization target. Reconcile with S22-EQ01 and the separate §56 habit-strength recurrence. | Defer equation approval until one canonical algorithm, state/action indexing, reward timing and update semantics are selected. |
+| S34-C01 | Cue–action–outcome learning can increase later response readiness (L1123–1158) | Broadly supported by associative and reinforcement-learning research, but cue–outcome Pavlovian learning, action–outcome instrumental learning and stimulus–response habit formation are distinct processes. The displayed TD-like update covers only a subset of these. | Split into distinct learning mechanisms; do not label them all cue-response association. |
+
+### §35 — Reward anticipation and model-based/model-free control (L1159–1208)
+
+| ID | Claim / source location | Assessment and evidence relation | Disposition |
+|---|---|---|---|
+| S35-C01 | Anticipatory motivation and learned policy can persist despite modest experienced pleasure (L1161–1175) | The wanting/liking distinction has substantial support in incentive-salience research, particularly in addiction-related mechanisms; it should not be generalized into a universal explanation of ordinary habits. Berridge & Robinson (2016) support a dissociation between incentive “wanting” and hedonic “liking.” | Retain with domain qualification; do not equate all urges with sensitized incentive salience. |
+| S35-EQ01 | Model-based value \(Q_{MB}(s,a)\) (L1177–1183) | Standard planning/RL abstraction if the transition model \(\widehat T\), reward distribution, horizon and expectation over next states are specified. | Retain as a standard model-based value form; define its model and horizon. |
+| S35-EQ02 | Model-free value \(Q_{MF}(s,a)\) (L1185–1187) | Standard action-value notation, but no update rule or training assumptions are supplied. | Retain as a placeholder; do not equate it automatically with a psychological habit. |
+| S35-EQ03 | Weighted arbitration \(Q_{combined}=\omega(s)Q_{MB}+[1-\omega(s)]Q_{MF}\) (L1189–1197) | Candidate mixture model. Requires \(0\le\omega(s)\le1\), comparable value scales, a defined estimator and a task-specific arbitration mechanism. Evidence supports multiple strategies and arbitration in some tasks, not a universal single-switch architecture. | Retain as one candidate model; compare with alternative arbitration formulations and task-specific evidence. |
+| S35-C02 | Arbitration weight may depend on uncertainty, effort, fatigue, reliability and task demand (L1199–1208) | Plausible covariates, but their direction and relative contributions are context-dependent and need separate measurement. | Retain as hypotheses, not established determinants. |
+
+### §36 — Cognitive-control arbitration (L1209–1250)
+
+| ID | Claim / source location | Assessment and evidence relation | Disposition |
+|---|---|---|---|
+| S36-C01 | Deliberative and automatic control can be compared by benefits and costs (L1211–1227) | This is a general normative decision rule. Shenhav, Botvinick & Cohen's Expected Value of Control framework is a close neighbour: it proposes allocating control based on expected payoff, amount of control and effort cost. Kool et al. (2017) provide task-specific experimental support for arbitration between model-based and model-free control. Neither validates the treatise's exact U/C variables or a universal neural mechanism. | Retain as a synthesis of established neighbouring models; make the relation to EVC explicit and do not claim a distinct mechanism yet. |
+| S36-EQ01 | Net-utility inequality for choosing model-based versus cached control (L1229–1239) | Algebraically straightforward once U and C are defined on common scales. It does not establish that biological controllers compute this inequality literally. | Retain as a conditional decision rule. |
+| S36-P01 | Allocate more deliberative control when uncertainty, changed environment, high consequences or expected error costs justify it (L1241–1250) | Normative control-design principle consistent with EVC, but requires expected-benefit and burden estimates; “more control” can itself increase cost or reduce flexibility. | Retain as design guidance with empirical qualification. |
+
+### §37 — Sleep, stress and environment (L1251–1277)
+
+| ID | Claim / source location | Assessment and evidence relation | Disposition |
+|---|---|---|---|
+| S37-C01 | Physiological state and environment can alter action selection and control demands (L1253–1277) | Supported in selected domains, but the listed effects are not uniform. Lim & Dinges (2010) meta-analyzed 70 articles/147 tests of short-term total sleep deprivation and found domain-varying effects, including large effects on simple-attention lapses; this does not establish all effects of chronic sleep restriction or sleep disorders. Schwabe & Wolf (2009) found stress promoted habitual responding in a specific human instrumental-learning paradigm; a later study also tested stress effects in a specific task. These do not establish that all stress shifts every person toward habits. | Retain as state-variable hypotheses; specify exposure, task, population, dose and outcome. |
+| S37-EQ01 | State-dependent score \(Q(a\mid s,z_t)=R(a\mid s,z_t)-C(a\mid s,z_t)\) (L1265–1273) | Generic state-conditioned decision score; z_t is not yet operationally defined and the R/C terms inherit the scaling/identification problems in S19-M01. | Retain as schematic; align z_t with canonical state schema. |
+
+### §38 — Multi-timescale model (L1278–1293)
+
+| ID | Claim / source location | Assessment and evidence relation | Disposition |
+|---|---|---|---|
+| S38-C01 | Behavioural loops span milliseconds-to-years timescales (L1280–1293) | Useful heuristic decomposition, but the listed boundaries are illustrative rather than empirically established thresholds. Processes overlap and can operate concurrently; a cue event, learning update, habit trajectory and identity-level goal do not share one time index. | Retain as conceptual guide; label bands illustrative and define time aggregation for any study. |
+
+### §39 — Logistic behavioural-loop model (L1294–1326)
+
+| ID | Claim / source location | Assessment and evidence relation | Disposition |
+|---|---|---|---|
+| S39-M01 | Six-variable state \(s_t=(g_t,c_t,u_t,f_t,z_t,h_t)\) (L1296–1307) | Candidate behavioural state, not shown sufficient for a Markov process or complete causal model. z_t combines task difficulty and uncertainty; f_t is fatigue/physiological state. The same symbols and constructs need alignment with §37 and the seven-variable ROOT state in §52. | Retain as a reduced behavioural state; create an explicit crosswalk and preserve abstraction-level differences. |
+| S39-EQ01 | Logistic probability of competing action (L1309–1324) | Standard logistic regression form, but it assumes a linear predictor on log-odds unless nonlinear terms/interactions are added. Coefficients b_i are not estimated, predictor signs are not established, and predictors may interact or be collinear. Repeated episodes are nested within people/days and may be serially dependent; ordinary independent-observation logistic regression would be inadequate for many proposed datasets. | Retain as a candidate statistical model; define opportunity-level outcome, sampling unit, random effects/time dependence, interactions and validation procedure. |
+| S39-C01 | Unwanted action is a state-dependent outcome, not a character judgement (L1324–1326) | Appropriate interpretive framing, but the proposed state model does not exhaust all biological, social, clinical or situational explanations. | Retain as a non-moralizing modelling principle, not a complete causal account. |
+
+### §40 — Investigation B summary (L1327–1340)
+
+| ID | Claim / source location | Assessment and evidence relation | Disposition |
+|---|---|---|---|
+| S40-C01 | Five-point summary of cue learning, wanting/liking, habits, arbitration and state effects (L1329–1340) | Summary of preceding sections, not independent evidence. Several points remain provisional: model-free control is not identical to habit; the arbitration model is task-specific; sleep/stress effects are not universal. | Retain as summary after qualifying these boundaries; do not mark Investigation B empirically resolved. |
+
+## 12. Additional source register: Sections 28–40
+
+### R21 — Cover & Thomas, 2006: data-processing inequality
+
+Thomas M. Cover and Joy A. Thomas, *Elements of Information Theory*, 2nd ed. (Wiley, 2006), Chapter 2, especially §2.8, “Data-Processing Inequality.” Chapter DOI: [10.1002/047174882X.ch2](https://doi.org/10.1002/047174882X.ch2).
+
+**Supports:** if \(W\to Z\to Y\) forms a Markov chain, then \(I(W;Y)\le I(W;Z)\); deterministic functions of Z cannot increase Shannon mutual information about W.  
+**Does not support:** the claim that useful computation is impossible, or that deriving an explicit consequence is not a discovery relative to an observer.
+
+### R22 — Cover & Thomas, 2001: Kolmogorov complexity
+
+Thomas M. Cover and Joy A. Thomas, *Elements of Information Theory*, Chapter 7, “Kolmogorov Complexity,” DOI: [10.1002/0471200611.ch7](https://doi.org/10.1002/0471200611.ch7).
+
+**Supports:** algorithmic/descriptive complexity as the length of a shortest program describing an object, relative to a reference universal machine.  
+**Does not support:** equating algorithmic complexity with Shannon mutual information or semantic knowledge.
+
+### R23 — Berridge & Robinson, 2016: wanting and liking
+
+Kent C. Berridge and Terry E. Robinson, “Liking, wanting, and the incentive-sensitization theory of addiction,” *American Psychologist* 71(8), 670–679 (2016), DOI: [10.1037/amp0000059](https://doi.org/10.1037/amp0000059).
+
+**Supports:** incentive “wanting” and hedonic “liking” can dissociate; cue-triggered incentive salience can be amplified without a matching increase in pleasure in the theory's relevant domains.  
+**Does not support:** treating every ordinary urge, habit or phone check as addiction or incentive sensitization.
+
+### R24 — Shenhav, Botvinick & Cohen, 2013: expected value of control
+
+Amitai Shenhav, Matthew M. Botvinick and Jonathan D. Cohen, “The expected value of control: An integrative theory of anterior cingulate cortex function,” *Neuron* 79(2), 217–240 (2013), DOI: [10.1016/j.neuron.2013.07.007](https://doi.org/10.1016/j.neuron.2013.07.007).
+
+**Source type:** theoretical review/model.  
+**Supports:** a normative account in which control allocation considers expected payoff, required control investment and cognitive-effort cost.  
+**Does not support:** a fully settled neural mechanism or the treatise's exact model-based/model-free mixture.
+
+### R25 — Lim & Dinges, 2010: short-term sleep deprivation
+
+Julian Lim and David F. Dinges, “A meta-analysis of the impact of short-term sleep deprivation on cognitive variables,” *Psychological Bulletin* 136(3), 375–389 (2010), DOI: [10.1037/a0018883](https://doi.org/10.1037/a0018883).
+
+**Scope:** meta-analysis of 70 articles and 147 cognitive tests of short-term total sleep deprivation (less than 48 hours).  
+**Supports:** sleep loss can impair cognitive performance, with effect sizes differing substantially by domain; lapses in simple attention showed a large effect in the analyzed studies.  
+**Does not support:** all effects of chronic partial sleep restriction, every clinical sleep disorder, or a universal mechanism for distraction.
+
+### R26 — Schwabe & Wolf, 2009: stress and habitual responding
+
+Lars Schwabe and Oliver T. Wolf, “Stress prompts habit behavior in humans,” *Journal of Neuroscience* 29(22), 7191–7198 (2009), DOI: [10.1523/JNEUROSCI.0979-09.2009](https://doi.org/10.1523/JNEUROSCI.0979-09.2009).
+
+**Study scope:** human instrumental-learning experiment testing the effect of stress on goal-directed versus habitual responding.  
+**Supports:** stress can shift responding toward habit-like control in the tested paradigm.  
+**Does not support:** a universal effect across stressors, tasks, populations or chronic stress exposure.
+
+### R27 — AERA, APA & NCME, 2014: testing standards
+
+American Educational Research Association, American Psychological Association and National Council on Measurement in Education, *Standards for Educational and Psychological Testing* (2014). Publisher/standards information: https://www.apa.org/science/programs/testing/standards and https://ncme.org/resources/books/testing-standards/.
+
+**Supports:** validity, reliability and fairness standards for interpretations and uses of test scores; validation must match the intended population, construct and use.  
+**Does not support:** the validity of the proposed \(\mathcal I\) score without actual validation evidence.
+
+## 13. Consolidated findings for §§28–40
+
+1. **Context:** the four-part decomposition is useful but overlapping; a transition-distribution association is not automatically a causal effect.
+2. **Inference:** internal computation without fresh sensory input is ordinary conditional computation, not knowledge from nothing.
+3. **Information:** the data-processing inequality gives a precise Shannon-information boundary; explicit derivation can expose implicit consequences without increasing mutual information about an external target.
+4. **Intelligence:** the functional definition and weighted score are proposals. Construct validity, reliability, task sampling and independent criterion validity are still absent.
+5. **Cue learning:** §34 repeats and does not resolve the state/action-value ambiguity in §22; Pavlovian, instrumental and habit-learning processes must be distinguished.
+6. **Reward and habit:** wanting/liking dissociation is supported in defined domains; model-free RL is not interchangeable with the full habit construct.
+7. **Control allocation:** EVC and model-based/model-free arbitration are established neighbouring theories with task-specific evidence, not validation of the treatise's exact equations.
+8. **Sleep and stress:** selected experimental and meta-analytic evidence supports effects on attention/control, but does not establish universal effects or the full state-conditioned Q model.
+9. **Behavioural model:** the logistic equation is a candidate statistical model; it needs opportunity-level outcomes, repeated-measures structure, parameter estimation and out-of-sample validation.
+10. **Summary status:** Investigation A's “resolved” wording and Investigation B's summary must not imply empirical resolution.
+
+**Status:** §§28–40 now have a first claim-level source/disposition register. The context definition, intelligence measure, TD update, habit/arbitration models and behavioural state remain provisional.
