@@ -3862,3 +3862,31 @@ The 69/69 locator result is a metadata-navigation check, not a full bibliographi
 
 **Disposition:** no source record is currently missing a DOI or canonical route. Complete bibliographic field-by-field verification and claim-level source adequacy remain open.
 
+## 71. Source record R70 — first-law thermodynamic sign convention
+
+### R70 — OpenStax, *University Physics Volume 2*, §3.3 “First Law of Thermodynamics”
+
+OpenStax, *University Physics Volume 2*, §3.3, “First Law of Thermodynamics.” Official open textbook section: [OpenStax §3.3](https://openstax.org/books/university-physics-volume-2/pages/3-3-first-law-of-thermodynamics).
+
+**Evidence type:** university-level open textbook treatment of the first law and thermodynamic sign conventions.
+
+**Relevant location:** §3.3. It defines heat as positive when added to the system and presents the convention in which work done by the system is positive, giving \(\Delta U=Q-W_{\mathrm{by}}\). Work done on the system is negative under that convention. Reversing the work sign to define \(W_{\mathrm{on}}=-W_{\mathrm{by}}\) yields the treatise's \(\Delta U=Q+W_{\mathrm{on}}\).
+
+**Supports:** S17-EQ01's first-law accounting and the explicit sign convention introduced in the current §17.
+
+**Does not support:** any brain-specific energy model, per-thought energy cost, or the proposed action-score coefficients.
+
+**Pinpointing status:** official OpenStax section and displayed equation/sign-convention explanation inspected 8 November 2026. No DOI is assigned to this textbook section.
+
+### 71.1 Claim-level correction — S17-EQ01 and Landauer notation
+
+The current treatise §17 now distinguishes two quantities that were previously at risk of sharing an ambiguous (Q) symbol:
+
+- In the first-law equation, (Q) is heat transferred **into** the system and (W) is work done **on** the system, so \(\Delta U=Q+W\).
+- The equivalent convention with work done **by** the system is \(\Delta U=Q-W_{\mathrm{by}}\).
+- Landauer's bound is now written (Q_{\mathrm{diss,min}}=k_BT\ln2), explicitly identifying the positive heat dissipated to the environment during logically irreversible erasure. It is not the same signed heat-input variable (Q) in the first-law equation.
+
+The corrected prose also states the system boundary and sign convention. The treatise change is commit `a022e83708e754a302b769b71277a120020d17b1`; the updated section was fetched in the following verification pass.
+
+**Disposition:** the first-law sign convention and Landauer heat direction are now notationally distinct. The result remains a standard thermodynamic identity; no neural or behavioural energy coefficient follows.
+
