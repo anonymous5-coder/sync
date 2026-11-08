@@ -2861,3 +2861,28 @@ This ledger applies the five independent fields defined in §22.1 to the first s
 
 **Batch F disposition:** 15/15 IDs reconciled to canonical fields at first-pass integrated level. No treatise/tracker edits; no experiments executed or authorized.
 
+## 43. Canonical 204-ID disposition ledger — Batch G: Sections 90–95
+
+### 43.1 Batch G ledger
+
+| Stable ID | Claim kind | Formal status | Evidence status | Integrated disposition / open dependency |
+|---|---|---|---|---|
+| S90-C01 | Context-conditioned processing synthesis | Follows substantially from broad definitions; near-modelling truism unless narrowed | No distinctive mechanism or novel prediction | Retain as conceptual statement; replace “establishes” with “proposes/describes”; specify input channel and operating conditions. |
+| S91-C01 | Inference/discovery synthesis | Standard model-theoretic consequence under explicit assumptions; S10-TH01 completeness correction required | No empirical discovery or predictive validity follows from entailment alone | Retain bounded inference; separate derivation, prediction and empirical discovery; correct proof system assumptions. |
+| S92-C01 | Physical–behavioural causal hypothesis | No derivation from embodiment/resource constraints to personal behaviour | Cost-sensitive choice/habit have task-specific support; full causal chain and coefficients unvalidated | Retain as testable multi-level hypothesis; define intermediate mechanisms, measures and alternatives; no entropy explanation. |
+| S93-C01 | Recursive Intelligence construct | Functional definition overlaps metacognition/meta-control/adaptive control | No distinct mechanism or incremental predictive advantage | Retain as proposed umbrella/synthesis; define meta-representation, update operation and discriminating measures. |
+| S94-C01 | ROOT intervention architecture | Protocol definition, not an efficacy result | Component evidence only; integrated package untested | Retain as proposed protocol; reconcile acronym/step taxonomy and 28-day vs 14-day designs; no execution or efficacy claim. |
+| S95-EQ01 | Unified state-transition architecture | Opaque function with undefined typed domains, update semantics, units and equivalence to §3/§71 | No integrated model validation | Downgrade to conceptual diagram; reconcile state tuple, §71 equation, actions, feedback/resource symbols and time scales. |
+
+### 43.2 Batch G verification
+
+- **Inventory:** all six stable IDs in §§90–95 reconciled.
+- **Context synthesis:** S90-C01 remains broad and close to definitional under the current context definition; no novelty claim follows.
+- **Inference synthesis:** S91-C01 depends on the corrected soundness/completeness distinction, nonempty model class and truth of premises for actual-world claims.
+- **Physical–behavioural explanation:** S92-C01 remains a plausible multilevel hypothesis, not an established causal chain or personal explanation.
+- **Recursive Intelligence:** S93-C01 remains a proposed umbrella construct until a measurable discriminator from metacognition, meta-control and adaptive control is demonstrated.
+- **ROOT:** S94-C01 remains a proposed protocol; no package efficacy or execution is claimed.
+- **Final equation:** S95-EQ01 remains a conceptual architecture placeholder, not a derived unified state-transition law.
+
+**Batch G disposition:** 6/6 IDs reconciled to canonical fields at first-pass integrated level. No integrated architecture, distinct Recursive Intelligence mechanism or ROOT efficacy is validated. No treatise/tracker edits; no experiments executed or authorized.
+
