@@ -3786,7 +3786,7 @@ Verification against the current file confirms:
 - 65 canonical R identifiers appear in those pointers; duplicate aliases R52 and R56 have been replaced with canonical R03 and R06.
 - Every cited R identifier resolves to a source identifier recorded in this register; no dangling R-code pointer was detected.
 - The duplicate alias R64 is not presented as an independent source.
-- The 28 sections without a section-level pointer are not thereby certified as evidence-free or complete; they include definitions, formal arguments, conceptual summaries, normative safeguards and synthesis sections. Their claims remain subject to the existing claim-level register and acceptance criteria.
+- The 26 sections without a section-level pointer are not thereby certified as evidence-free or complete; they include definitions, formal arguments, conceptual summaries, normative safeguards and synthesis sections. Their claims remain subject to the existing claim-level register and acceptance criteria.
 
 The pointers are section-level navigation aids, not a substitute for author–date or numbered citations immediately attached to each individual empirical assertion. The source register remains the detailed claim-to-source authority.
 
