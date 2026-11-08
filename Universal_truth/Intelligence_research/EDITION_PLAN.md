@@ -369,6 +369,142 @@ Turn the treatise's experiments A–F into executable protocols:
 
 For each: predefine primary outcome, secondary outcomes, sampling, comparison condition, intervention fidelity, confounds, analysis, uncertainty and a possible disconfirming result. Personal N-of-1 usefulness must not be presented as universal scientific validation.
 
+
+### 9.1 Protocol specification — common execution and reporting contract
+
+The following specifications operationalize A–F without treating a protocol template as an executed study. Each protocol must be completed with a dated version, named investigator, system/participant eligibility, materials, sampling frame, fixed outcome definitions, analysis code or reproducible calculation steps, and a preregistered decision rule before confirmatory data are collected.
+
+**Common minimum record**
+
+1. **Question and estimand:** identify the target population/system, unit of analysis, intervention or predictor, comparator, outcome, time horizon, and the precise quantity being estimated.
+2. **Primary outcome:** one prespecified primary endpoint with numerator, denominator, unit, direction, and aggregation rule. Secondary and exploratory outcomes remain separately labelled.
+3. **Sampling and exclusions:** state recruitment or task-generation method, sample size or number of repeated opportunities, inclusion/exclusion rules, stopping rule, missing-data handling, and reasons for exclusions. Do not choose sample size after inspecting the result.
+4. **Comparator:** define a credible baseline, fixed-policy, alternative-model, or control condition. State what is held constant and what differs.
+5. **Fidelity and exposure:** record whether the assigned task/intervention was actually delivered, the number of eligible opportunities, adherence, deviations, and contamination/carryover.
+6. **Confounds and dependence:** identify time trends, learning, fatigue, sleep, task difficulty, order effects, concurrent interventions, autocorrelation, and selection effects as applicable. Repeated observations from one person or one system are not independent participants.
+7. **Analysis:** prespecify descriptive summaries, effect estimate, uncertainty interval or other uncertainty representation, model assumptions, sensitivity analyses, multiplicity handling, and any stopping/decision threshold. Show raw time-series or trial-level results where feasible.
+8. **Disconfirmation:** state a result that would count against the proposed mechanism, not merely a result that is inconvenient or inconclusive.
+9. **Reproducibility:** preserve protocol version, task/item-generation seeds where relevant, data dictionary, exclusions, code, model versions/configuration, and deviations. Independent checking must not rely solely on the system or investigator that produced the result.
+10. **Ethics and safety:** use proportionate review/consent and privacy safeguards where people or sensitive data are involved. Do not induce sleep deprivation, clinically significant distress, unsafe workload, or withdrawal of necessary care.
+
+For single-person behavioural work, use an appropriate single-case design and report it transparently. CENT 2015 is specifically for prospectively planned multiple-crossover N-of-1 trials; it is not a blanket label for every diary or A/B sequence. SCRIBE 2016 is relevant to behavioural single-case experimental reporting. SPENT 2019 informs protocol planning. These standards are methodological guides, not evidence that a particular design is valid merely because its checklist is followed. Sources: Vohra et al., BMJ 2015, DOI 10.1136/bmj.h1738; Tate et al., SCRIBE 2016, *Archives of Scientific Psychology* 4:1–9, DOI 10.1037/arc0000026; SPENT 2019, DOI 10.1136/bmj.l1223.
+
+### 9.2 A — Inference without new external observation
+
+**Status:** A generic formal benchmark can be specified now; execution requires selecting and documenting the system under test and a formal task language.
+
+- **Estimand / unit:** proportion of generated, independently verified, nontrivial target conclusions correctly derived by each system on held-out formal instances; the unit is an instance, with system runs nested within instance and configuration.
+- **Task construction:** generate finite rule systems and initial fact sets from a documented grammar. Include (i) derivable target conclusions not explicitly supplied as facts, (ii) non-derivable targets, and (iii) deliberately underdetermined cases. Keep generator seeds and target proofs/countermodels sealed from the tested system. Ensure the target is logically entailed by the supplied premises in the positive set.
+- **Input and isolation:** provide only the formal rules, initial facts, syntax/semantics and task instructions. Disable browsing, retrieval, tools, memory and network access during the inference window; log all available channels. Use fresh generated instances after the system/version is frozen. For API systems, record provider, exact model identifier, date, parameters and any server-side tool access that cannot be independently excluded.
+- **Comparators:** include a reference solver/proof checker appropriate to the formal language, a simple baseline (e.g. bounded forward chaining where applicable), and a no-inference or premise-repetition baseline. Do not compare unlike systems without matching the task interface and resource budget.
+- **Primary endpoint:** proof-validity rate among attempted positive instances, with coverage (fraction attempted) reported separately. Also report false-positive rate on non-derivable/underdetermined instances. A conclusion counts only if an independent checker validates a proof certificate or an independently generated countermodel establishes failure.
+- **Secondary endpoints:** solved-instance rate by preregistered complexity tier; runtime and resource use; proof length; calibration/abstention where the system can express uncertainty. Separate syntactic answer accuracy from proof validity.
+- **Sampling / analysis:** use a held-out generator seed set and stratify by rule count, derivation depth, branching and distractor facts. Report exact binomial or suitable hierarchical uncertainty intervals; account for repeated runs/configurations. Determine the number of instances by a prospective precision or power calculation, not by stopping when results look favourable.
+- **Contamination safeguards:** do not publish test instances before evaluation; use generated, non-public instances; rotate seeds; inspect suspicious verbatim outputs; do not use the same items for prompt development and confirmatory evaluation. Benchmark contamination is a documented risk in model evaluation (Balloccu et al., EACL 2024, DOI 10.18653/v1/2024.eacl-long.5).
+- **Disconfirmation:** frequent invalid proofs, failure to outperform the simple baseline on held-out derivations, or high false-positive rates would weaken the tested system's claimed inference capability. Failure does not refute every possible form of Out of Box Theory.
+- **Interpretation boundary:** a valid derivation is new as an explicit output relative to the supplied input, but it is not new external information; it follows from premises and rules already supplied. This experiment tests formal inference under controlled information access, not creation of information from nothing, consciousness, or truth of the premises.
+
+**Still required before execution:** select system(s), formal language, resource budget, task generator, prospective sample/precision target and evaluation environment. These are protocol completion fields, not permission to relax the proof checker.
+
+### 9.3 B — Structural prediction of unobserved physical outcomes
+
+**Status:** domain-agnostic protocol architecture only. No physical domain, outcome variable, measurement apparatus or competing model is selected by the baseline treatise; therefore no numerical threshold or executable confirmatory protocol can honestly be fixed yet.
+
+- **Estimand:** predictive performance of a frozen structural model on prospectively collected outcomes in a specified target domain, compared with prespecified alternative models and a simple reference forecast.
+- **Required domain lock:** name the physical system, population/operating range, measurable outcome, prediction horizon, measurement resolution, sampling schedule, exclusion criteria and independent measurement team. Define whether the target is a point, interval, distribution or qualitative event before collecting target data.
+- **Model lock:** publish equations, parameter-estimation data, fitted parameters, uncertainty propagation, boundary conditions and code/version. Distinguish parameter fitting from the held-out prediction. No post-outcome parameter tuning may be counted as prediction.
+- **Registration:** timestamp the prediction, uncertainty interval/distribution, direction and magnitude, model alternatives, primary scoring rule, and failure threshold before the target measurement. Preserve the registration and data timestamp.
+- **Comparators:** include a domain-appropriate established model, a simple baseline (e.g. persistence or climatology where applicable), and at least one plausible competing explanation. Justify comparator suitability rather than selecting a weak straw model.
+- **Primary endpoint:** select a proper scoring rule appropriate to the forecast type (e.g. log score or Brier score for probabilistic events; a prespecified scale-sensitive error for continuous outcomes), alongside calibration and interval coverage. Do not score only whether a prediction was directionally correct.
+- **Measurement and independence:** calibrate instruments; blind outcome assessors to the model prediction where feasible; document measurement uncertainty, missingness, protocol deviations and environmental conditions. The model developer should not control the sole outcome measurement.
+- **Analysis:** report all registered predictions, including failures; compare predictive scores with uncertainty; handle multiple predictions and model selection prospectively; evaluate performance across the full registered operating range. No selective reporting of confirmed cases.
+- **Disconfirmation:** systematic miscalibration, failure outside fitted conditions, or performance no better than the prespecified baseline/alternatives weakens the claimed predictive advantage. One successful prediction is not proof of a universal framework.
+- **Interpretation boundary:** a model may derive a prediction before observing its target event; this does not show that the model acquired information from nothing. Predictive success supports the model only within the tested domain and assumptions.
+
+**Domain-selection gate:** do not mark B executable until a concrete physical domain, primary outcome, instrument, sample/measurement plan, comparator set, uncertainty model and preregistration venue are named.
+
+### 9.4 C — Resource-sensitive action selection
+
+**Status:** observational/within-person association protocol can be specified; a causal claim about fatigue or uncertainty requires controlled manipulation or stronger identification. The proposed action score is not a direct measurement of thermodynamic energy.
+
+- **Question:** do task difficulty/uncertainty and naturally varying fatigue predict selection of a predefined competing action at eligible task opportunities?
+- **Target and unit:** specify whether this is a single-person repeated-measures study or a multi-participant study. The unit is an eligible task opportunity, nested within focus block, day and (if applicable) participant. Do not treat every timestamp as independent.
+- **Operational variables:** define task difficulty before the outcome (e.g. preregistered task tier or independent rating); define uncertainty as a measurable property (e.g. unresolved next step or forecast uncertainty); measure fatigue using a fixed brief scale and sleep diary/validated instrument if selected; log cue exposure, accessibility, task type, time, breaks and competing action. Keep subjective ordinal ratings separate from objective measures.
+- **Opportunity denominator:** define an eligible opportunity as a prespecified interval/block in which the person is engaged or scheduled to engage in the target task and the competing action is available. Count both action and non-action opportunities. Primary outcome: competing-action selection per eligible opportunity, not raw distraction count alone. Secondary outcomes: latency, duration, focused output and return-to-task latency.
+- **Design:** begin with a prospective repeated-measures observational phase under ordinary safe conditions. If causal effects are to be tested, randomize manageable task-difficulty/ambiguity conditions within matched blocks where ethically and practically feasible; do not induce fatigue or restrict sleep. Fatigue remains observational unless a defensible intervention is separately approved.
+- **Comparators and covariates:** compare within-person high/low task difficulty and uncertainty strata; include time-of-day, task type, cue exposure, accessibility, sleep/fatigue, day trend and concurrent workload. A multi-person study should model participant-level heterogeneity rather than pool ordinal ratings as cardinal quantities.
+- **Analysis:** use a prespecified logistic or other suitable repeated-measures model with participant/day/block clustering or time-series methods. Report marginal effects and uncertainty, check autocorrelation and model fit, test interactions only if preregistered, and conduct sensitivity analyses for missing logs and unmeasured confounding.
+- **Disconfirmation:** no association in adequately sampled, reliable data; direction opposite to prediction; or disappearance of the association after controlling cue exposure, task type and time trend weakens the proposed resource-sensitive relation.
+- **Interpretation boundary:** even a robust association does not establish that thermodynamic entropy or brain energy expenditure causes distraction. Direct energetic claims require a separate measurement design and appropriate physiological instrumentation.
+
+**Still required:** select target action/task, participant scope, observation schedule, measurement instruments, minimum opportunity count/precision target and analysis specification.
+
+### 9.5 D — Environmental obstruction
+
+**Status:** feasible as a behavioural single-case or replicated single-case protocol after target-loop and barrier selection. A simple before/after comparison is not sufficient for a strong causal claim.
+
+- **Estimand / unit:** change in target-action rate per eligible cue/opportunity or per fixed exposure hour under obstruction versus comparison condition. Define one target action and one primary denominator in advance.
+- **Baseline:** collect repeated observations across representative days and contexts; record target behaviour, eligible opportunities, task/output, cue exposure, time, sleep/fatigue and concurrent interventions. Do not begin the intervention only after an unusually bad baseline period.
+- **Intervention:** specify one principal barrier (e.g. remove visible cue, add access friction, block a specific app during defined windows) with installation time, coverage, exceptions, burden and fidelity check. Do not combine multiple barriers initially unless the bundle itself is the intervention being tested.
+- **Design:** prefer randomized or counterbalanced short blocks when the barrier can be safely and cleanly switched and carryover is limited. If reversal is plausible, use replicated ABAB/alternating phases with a prespecified washout/transition rule. If removal is unsafe, impractical or likely to create carryover, use a multiple-baseline-across-contexts or staggered introduction design; do not force withdrawal merely to satisfy an ABAB template.
+- **Primary outcome:** target-action rate per eligible opportunity. Secondary outcomes: total duration, focused output, task initiation and return latency. Count opportunities even when no action occurs.
+- **Fidelity / confounds:** log barrier availability, bypasses, device exceptions, task/schedule changes, social interruptions, and simultaneous use of alternative devices. Measure intervention burden and possible displacement to another unwanted action.
+- **Analysis:** graph all repeated observations; compare phase-level rates and level/trend/variability; use randomization-based analysis if assignment was randomized; report uncertainty and sensitivity to baseline trend, missingness and carryover. Do not infer causality from a single uncontrolled seven-day vs seven-day comparison.
+- **Disconfirmation:** barrier installed with high fidelity but no meaningful reduction in target-action rate, or reduction offset by substitution, increased task failure or unacceptable burden, weakens the proposed accessibility mechanism.
+- **Interpretation boundary:** a successful obstruction supports a local cue/accessibility intervention for that target and context; it does not prove that reduced accessibility universally reduces unwanted behaviour.
+
+**Still required:** select one target loop, barrier, eligible-opportunity definition, schedule/design, minimum observation length and success/burden thresholds.
+
+### 9.6 E — Alternative-response training
+
+**Status:** feasible as a behavioural protocol after a cue and observable response are selected. A rehearsed plan's efficacy must be separated from cue removal and general motivation changes.
+
+- **Estimand / unit:** probability of executing the prespecified alternative response at an eligible trigger opportunity, comparing trained-plan and baseline/comparator conditions.
+- **Cue and response lock:** define one observable cue, context, exact if–then statement, alternative action, initiation deadline and completion criterion. Avoid vague responses such as “focus” or “be disciplined.” Include a minimum viable response that remains safe and feasible under ordinary fatigue.
+- **Baseline and comparator:** record trigger opportunities and responses before training. Prefer randomized or counterbalanced cue episodes/blocks with a credible active comparator (e.g. neutral reminder or task-planning instruction) where feasible; otherwise use a staggered multiple-baseline design across cues or contexts. Do not introduce several plans simultaneously.
+- **Intervention dose:** prespecify rehearsal method, number/frequency of rehearsals, delivery channel, cue recognition training and maintenance schedule. Record adherence and whether the cue was noticed.
+- **Primary outcome:** successful alternative responses divided by eligible trigger opportunities. Secondary outcomes: time to initiate alternative, return-to-task latency, competing-action duration, task output and burden. If cue detection cannot be observed reliably, label the denominator as estimated and conduct sensitivity analysis.
+- **Fidelity / confounds:** record rehearsal completion, cue exposure, obstruction/barrier status, task difficulty, fatigue, plan reminders and concurrent changes. Keep obstruction constant across comparison conditions or explicitly factorialize it.
+- **Analysis:** show episode-level data and phase/time trends; account for repeated episodes and serial dependence; report absolute rates and uncertainty, not only percentage improvement. Prespecify handling of missed/ambiguous cues.
+- **Disconfirmation:** no improvement over baseline/comparator despite adequate cue exposure and verified rehearsal, or improvement only when the cue is removed rather than the alternative response executed, weakens the training-specific claim.
+- **Interpretation boundary:** successful implementation supports a context-specific if–then strategy; it does not establish that the ROOT package as a whole is effective or that the proposed underlying theory is uniquely correct.
+
+**Still required:** select cue, response, rehearsal dose, comparator, observation window, cue-detection method and fidelity threshold.
+
+### 9.7 F — Recursive adaptation
+
+**Status:** not executable until the adaptive controller is specified. A weekly review that changes a routine is ordinary adaptive practice unless a distinct meta-level state/model and update operation are defined and tested.
+
+- **Estimand / unit:** difference in prespecified functional outcome and intervention burden between a frozen adaptive-policy algorithm and a fixed-policy comparator across eligible decision opportunities or matched blocks.
+- **Controller specification required:** define the state variables available at decision time; their measurement and missingness rules; the policy/action set; objective function and constraints; update cadence; update equation/algorithm; exploration limits; safety overrides; and a reproducible rule for when the controller may or may not change policy.
+- **Meta-level distinction:** if the claim is specifically Recursive Intelligence, specify what the system models about its own policy/model, how that meta-representation differs from ordinary state estimation, and what measurable update constitutes a meta-level change. Without this, the experiment tests adaptive control, not a distinct recursive-intelligence mechanism.
+- **Comparator:** define a fixed policy with the same action set, measurement burden and safety constraints. Avoid a deliberately poor fixed routine. Freeze both policies before confirmatory evaluation; do not manually improve the adaptive arm during the test.
+- **Design:** develop/tune the update rule on a training period or dataset, then evaluate on held-out periods. For human N-of-1 work, use randomized/counterbalanced blocks or replicated phases where carryover permits; otherwise use staggered introduction and state the weaker causal inference. Prevent information from the evaluation outcome leaking into the policy's training history.
+- **Primary outcome:** one functional measure defined independently of the controller's internal score (e.g. completed target-task output per planned opportunity). Secondary outcomes: target-action rate, return latency, adherence, intervention burden, safety and stability across contexts.
+- **Analysis:** compare adaptive and fixed policies on matched opportunities; account for temporal dependence, unequal exposure, carryover and policy switching. Report all policy updates, reasons, inputs and resulting actions. Evaluate out-of-sample performance and calibration where predictions are made.
+- **Disconfirmation:** adaptive policy fails to outperform the fair fixed comparator, increases burden or instability, or gains disappear on held-out evaluation; this weakens the claimed adaptive advantage. A successful adaptive controller alone does not prove a unique meta-cognitive mechanism.
+- **Safety:** constrain exploration to low-risk options; allow immediate user override; never adapt by reducing sleep, withholding necessary care or increasing harmful exposure.
+
+**Still required:** formal state estimator, update rule, fixed comparator, objective/constraints, decision cadence, held-out evaluation design and meta-level operational criterion.
+
+### 9.8 Design-duration and readiness boundaries
+
+Do not conflate the treatise's proposed 28-day staged personal protocol (7-day baseline, 7-day obstruction, 14-day consolidation) with the tracker's separate 14-day pilot (7-day baseline plus 7-day combined obstruction/override). They answer different questions and the shorter pilot does not independently isolate obstruction from alternative-response training. Preserve both as distinct proposals until the source documents are deliberately reconciled.
+
+**Readiness disposition at this revision**
+
+| Experiment | Protocol maturity | Execution gate still open |
+|---|---|---|
+| A | Generic formal benchmark specified | System, formal language, generator, resources and prospective sample target |
+| B | Domain-agnostic confirmatory template | Physical domain, outcome, apparatus, comparator and preregistration |
+| C | Repeated-measures observational protocol specified | Participant scope, target action, measures, opportunity count and analysis |
+| D | Behavioural single-case design options specified | Target loop, barrier, design and success/burden thresholds |
+| E | Trigger-specific training design options specified | Cue, response, dose, comparator and fidelity threshold |
+| F | Controller requirements and evaluation architecture specified | Explicit algorithm, fair comparator and meta-level criterion |
+
+No experiment is marked complete or executable solely by adding this specification. Section 9 checkboxes remain open until the named gates are met, the protocol is frozen before data collection, and the planned verification is performed. Protocol quality is not empirical confirmation.
+
+
 ## 10. Execution order
 
 1. **Baseline and inventory:** confirm branch, file identities and starting SHAs; preserve originals; record the exact numbered-section count and baseline version of the master treatise.
