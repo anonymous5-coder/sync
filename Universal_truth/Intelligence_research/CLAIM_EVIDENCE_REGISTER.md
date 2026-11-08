@@ -1550,7 +1550,7 @@ Richard W. Backs and Kimberle A. Seljos, “Metabolic and cardiorespiratory meas
 
 ### 25.5 New source records — planning, task initiation and task structuring
 
-#### R48 — Duplicate alias of R48 (not an independent source)
+#### R64 — Duplicate alias of R48 (not an independent source)
 
 The record previously entered here duplicates **R48** exactly: the same Sheeran, Listrom & Gollwitzer article, title and DOI 10.1080/10463283.2024.2334563. The DOI reflects online publication on 27 March 2024; the article appears in *European Review of Social Psychology* 36(1) (2025), pp. 162–194. This is one 642-test meta-analysis, not two independent sources. **R48 is the canonical source identifier.** R48 is retained only as a redirect for historical traceability; do not count it as a separate study or evidence source.
 
