@@ -741,19 +741,23 @@ Phillippa Lally, Cornelia H. M. van Jaarsveld, Henry W. W. Potts and Jane Wardle
 
 **Pinpointing status:** publisher abstract and bibliographic pages verified; exact page-level location of the detailed methods/results and any table/figure not independently verified in the accessible text. Do not invent a more precise locator.
 
-### R29 — Singh et al., 2024: systematic review and meta-analysis of habit formation
+### R29 — Singh et al. (2024): systematic review/meta-analysis of health-habit formation
 
-Ben Singh, Andrew Murphy, Carol Maher and Ashleigh E. Smith, “Time to Form a Habit: A Systematic Review and Meta-Analysis of Health Behaviour Habit Formation and Its Determinants,” *Healthcare* 12(23), 2488 (9 December 2024), DOI: [10.3390/healthcare12232488](https://doi.org/10.3390/healthcare12232488).
+Ben Singh, Andrew Murphy, Carol Maher and Ashleigh E. Smith, “Time to Form a Habit: A Systematic Review and Meta-Analysis of Health Behaviour Habit Formation and Its Determinants,” *Healthcare* 12(23), 2488 (9 December 2024), DOI: [10.3390/healthcare12232488](https://doi.org/10.3390/healthcare12232488), PMID 39685110, PMCID PMC11641623. The full published CC BY 4.0 article was inspected through PubMed Central.
 
-**Evidence type and scope:** systematic review/meta-analysis of 20 studies involving 2,601 participants and health behaviours including physical activity, diet, water consumption, flossing and sedentary-behaviour reduction. Eleven studies were rated at high risk of bias. Four studies reported time-to-formation estimates.
+**Evidence type and scope:** systematic review of 20 studies (2,601 participants) covering positive health behaviours: physical activity, diet, water/vitamin consumption, flossing, food-safety behaviours and sedentary-behaviour reduction. Eleven studies were rated high risk of bias, five low risk, and the remainder moderate. Approximately one-third lacked control groups; many studies had fewer than 100 participants.
 
-**Relevant result:** reported habit-formation times varied widely (approximately 4–335 days); reported median estimates in the included studies were 59–66 days and means 106–154 days. Habit-strength scores improved on average, but measurement, behaviour and study quality varied.
+**Crucial distinction between outcomes:** only four studies directly reported time to reach an automaticity threshold. They reported median estimates of 59–66 days and means of 106–154 days, with individual estimates ranging from 4 to 335 days. In one study only 23% of participants reached the predefined threshold. The pooled SMD = .69 (95% CI [.49, .88]) is a pre–post change in self-reported habit/automaticity scores across 12 studies and 19 intervention conditions; it is not a controlled treatment-versus-control causal effect. Heterogeneity was high (I² = 87%).
 
-**Supports:** substantial between-person and between-behaviour variability; frequency, timing, context and individual factors matter.
+**Publication-bias limitation:** publication bias was not assessed because the authors considered the number of unique studies insufficient for that analysis. It must not be described as absent.
 
-**Does not support:** a universal 66-day rule, the treatise's exact recurrence, or extrapolation from health habits to every cognitive/attention behaviour.
+**Generality limitation:** the eligibility criteria excluded studies focused on stopping non-virtuous behaviours, including reducing social-media use. The review is therefore not direct evidence for breaking a distraction habit or reducing problematic smartphone use. It focuses on positive health-behaviour formation, and most included evidence concerns flossing and diet.
 
-**Pinpointing status:** abstract and review scope/results verified; individual-study tables and exact page/table references not independently checked in the accessible full text.
+**Supports:** habit/automaticity scores can improve during selected health-behaviour interventions; repetition, stable context, frequency, timing, individual choice and behavioural regulation are relevant factors; time-to-automaticity varies widely.
+
+**Does not support:** a universal 66-day rule, a controlled causal effect of d=.69, a general habit-breaking intervention, the treatise's recurrences, or extrapolation to cognitive/attention habits.
+
+**Pinpoints inspected:** full text §§2.1–2.7 (protocol, eligibility, risk of bias and synthesis); §§3.1–3.4 and Table 1 (selection, 20-study sample and quality); §3.3 (only four time-to-formation studies and 23% threshold attainment); §3.4/Figure 2 (12-study, 19-condition pre–post SMD and I²=87%); Discussion §§4.1–4.3 (limitations, generality and future research).
 
 ### R30 — Ebert & Lin, 2024: randomized test of consistent context
 
@@ -803,33 +807,33 @@ Thomas L. Webb and Paschal Sheeran, “Mechanisms of implementation intention ef
 
 **Pinpoints inspected:** publisher bibliographic metadata (issue/pages and online-first date, lines 23–24 and 60–62) and abstract (lines 88–91). Full Study 2 methods, sample and mediation statistics remain unverified because the full article text was not accessible.
 
-### R33 — Zimmermann & Sobolev, 2023: randomized field experiment on digital friction
+### R33 — Zimmermann & Sobolev (2023): randomized field experiment on digital friction
 
 Laura Zimmermann and Michael Sobolev, “Digital Strategies for Screen Time Reduction: A Randomized Field Experiment,” *Cyberpsychology, Behavior, and Social Networking* 26(1), 42–49 (2023), DOI: [10.1089/cyber.2022.0027](https://doi.org/10.1089/cyber.2022.0027).
 
-**Evidence type and design:** preregistered field experiment (N = 112) comparing grayscale design friction (n = 40), self-commitment to time limits (n = 33) and self-monitoring control (n = 39) over several weeks; screen time was measured from device records/screenshots (full PDF: lines 11–20, 96–103, 131–164).
+**Evidence type and access:** preregistered randomized field experiment; full PDF inspected. N = 112 students allocated to grayscale friction (n = 40), self-commitment to time limits (n = 33) or self-monitoring control (n = 39), over several weeks. Screen time was measured from device records/screenshots.
 
-**Relevant result:** grayscale reduced average screen time relative to control (233.19 vs 283.20 minutes/day; t(77) = 2.39, p = .019), approximately 50 minutes/day; the goal-setting group did not differ significantly from control (lines 191–201). The study found no immediate causal effect of reduced use on subjective well-being or academic performance (abstract, lines 11–20).
+**Relevant result:** grayscale reduced average screen time relative to control (233.19 vs 283.20 minutes/day; t(77) = 2.39, p = .019), approximately 50 minutes/day; the goal-setting group did not differ significantly from control. The study found no immediate causal effect of reduced use on subjective well-being or academic performance.
 
-**Supports:** a particular design-friction intervention can reduce objectively measured smartphone screen time in the tested student setting over the observed period.
+**Supports:** a specific grayscale intervention can reduce objectively measured smartphone screen time in the tested student setting over the observed period.
 
-**Does not support:** general sustained-attention improvement, improved academic performance, lasting behaviour change, or a universal effect of obstruction. The trial's outcome was screen time, not a general attention or distraction measure.
+**Does not support:** general sustained-attention improvement, improved academic performance, long-term maintenance, an effect of app relocation (not tested in this paper), or a universal effect of obstruction. The outcome was screen time, not a general attention or distraction measure.
 
-**Pinpointing status:** full PDF inspected; design, sample, measurement and group contrasts located above.
+**Pinpoints inspected:** full PDF lines 11–20 (abstract and results summary); 96–103 (sample/assignment); 131–164 (device measurement and procedure); 191–201 (group contrasts).
 
-### R34 — Ochs & Sauer, 2022: smartphone obstruction field experiment
+### R34 — Ochs & Sauer (2022): smartphone obstruction field experiment
 
 Carli Ochs and Juergen Sauer, “Curtailing smartphone use: a field experiment evaluating two interventions,” *Behaviour & Information Technology* 41(16), 3598–3616 (2022), DOI: [10.1080/0144929X.2021.2007284](https://doi.org/10.1080/0144929X.2021.2007284).
 
-**Evidence type and design:** one-week field experiment with 97 student participants in app-relocation, grayscale and control conditions.
+**Evidence type and access:** one-week field experiment with 97 student participants assigned to app relocation, grayscale or control. The publisher page and full abstract were inspected; full article text was not accessible in this pass.
 
-**Relevant result:** objective smartphone usage declined relative to the prior week, but the change also appeared in the control group; self-reported problematic smartphone use increased. The authors discuss heightened usage awareness as a possible explanation.
+**Relevant result:** objective smartphone usage declined relative to the prior week, but the reduction also appeared in the control group; self-reported problematic smartphone use increased. The authors discuss heightened usage awareness as a possible explanation. The abstract does not establish a clean between-group intervention effect.
 
-**Supports:** the need to distinguish objective behaviour from self-report and to account for measurement/awareness effects in obstruction studies.
+**Supports:** the need to distinguish objective behaviour from self-report and to account for awareness/reactivity in obstruction studies.
 
-**Does not support:** a clean causal effect of either intervention from the reported pre/post pattern, or general reduction in distraction.
+**Does not support:** a clean causal effect of either intervention from the reported pre/post pattern, general reduction in distraction, sustained-attention improvement or a long-term effect.
 
-**Pinpointing status:** publisher abstract and article pages verified; exact table/figure for condition contrasts not independently checked in the accessible text.
+**Pinpointing status:** publisher bibliographic page and abstract inspected; full methods, condition-level tables and figures remain unverified.
 
 ### R35 — Eppinger, Goschke & Musslick, 2021: meta-control
 
@@ -3465,4 +3469,36 @@ Treatise commit `9563e36686a00812d665a6b4b1f5b3435b39c376` revises §67 only. It
 The commit diff was inspected; it is confined to §67. The latest treatise was fetched and the key evidence and non-diagnostic boundaries were verified.
 
 **Disposition:** sleep evidence is more accurately bounded in the source register and treatise. R43 remains abstract/publisher-preview access; R44 is full-text access. No personal diagnosis or causal explanation is claimed. No experiments executed or authorized.
+## 60. Full-text habit and digital-friction source audit — R29/R33, with R28/R30/R34 access limits
+
+### 60.1 R29 full-text review
+
+R29's full CC BY article was inspected. The prior abstract-only record omitted three material qualifications:
+
+1. Only four studies directly reported time to reach automaticity thresholds. The often-repeated 59–66-day median and 106–154-day mean are drawn from those four studies, with individual estimates ranging from 4 to 335 days; one study reported only 23% reaching its predefined threshold.
+2. The pooled SMD = .69 (95% CI [.49, .88]) is a pre–post change in self-reported habit/automaticity scores across 12 studies and 19 intervention conditions, with I² = 87%. It is not a controlled treatment-versus-control causal effect.
+3. Publication bias was not assessed. Eleven of 20 studies were high risk of bias, approximately one-third lacked controls, and the review excluded attempts to stop non-virtuous behaviours such as reducing social-media use.
+
+R29 therefore supports variability and selected positive health-habit formation, not a universal timeline, a general habit-breaking intervention, or a ROOT recurrence.
+
+### 60.2 Digital-friction evidence
+
+R33 full text confirms a specific grayscale intervention reduced objective screen time by approximately 50 minutes/day relative to self-monitoring control in a student sample; self-commitment to time limits did not significantly differ from control. No immediate causal improvement in well-being or academic performance was found. This is a local screen-time effect, not a sustained-attention result or proof of long-term habit change.
+
+R34 remains publisher-abstract level. Its pre/post screen-time decline also occurred in the control group, while self-reported problematic use increased. This is a design/measurement warning, not clean evidence that app relocation or grayscale caused the reduction.
+
+### 60.3 Other habit-source access
+
+- R28 remains publisher-abstract level: 96 volunteers, 82 analyzable, 62 fitted asymptotic curves and only 39 good fits. The 18–254-day result is modelled automaticity time in selected everyday eating/drinking/activity behaviours, not a universal habit-formation duration.
+- R30 remains publisher-abstract level: the randomized walking study supports a causal effect of consistent context on automaticity in that setting, but the consistent-context group did not show the expected walking maintenance. Automaticity and behaviour maintenance must remain separate outcomes.
+- R29 is now full-text access; R33 remains full-PDF access; R34 remains publisher-abstract access.
+
+### 60.4 Claim consequences
+
+- **S42-C01/M01 and S56-M01:** no universal duration or validated recurrence follows. The R29 pooled score change is highly heterogeneous and pre–post; it does not validate the treatise's recurrences.
+- **S43-C01, S54-C01 and S78-EXP-D:** obstruction can alter a local usage metric, but this does not entail a general action-probability change, sustained-attention improvement or lasting behavioural change. Use a comparator and measure substitution/reactivity.
+- **S41-C01:** R33/R34 do not measure sustained attention; the sustained-attention claim remains unsupported by these digital-friction studies.
+- **S80-EXP-D:** keep the target loop, eligible opportunities, objective device measure, active comparator, substitution, burden and maintenance follow-up explicit. A screen-time effect alone is not a functional benefit.
+
+**Disposition:** R29 and R33 now have full-text review; R28/R30/R34 remain limited-access. Habit-formation duration, automaticity, maintenance, screen time and sustained attention remain distinct outcomes. No ROOT efficacy or general obstruction law is inferred. No experiments executed or authorized.
 
