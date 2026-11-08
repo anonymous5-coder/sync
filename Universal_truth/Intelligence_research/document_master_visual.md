@@ -2337,7 +2337,7 @@ This is an organizing diagram for the proposed architecture, not a validated nec
 
 Therefore, the two theories describe complementary operations: context acquisition and internal consequence generation.
 
-**Claim-linked evidence register records:** R01, R02, R03, R05, R21, R22, R03. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R01, R02, R03, R05, R21, R22. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 74. Conditional proposition — Feedback can alter goal-action selection under specified assumptions
 
@@ -2734,7 +2734,7 @@ That is the proposed research purpose of **Space or Null Theory**, **Out of Box 
 
 # SELECTED REFERENCES AND SCIENTIFIC FOUNDATIONS
 
-The following ten entries are selected foundational references, not the complete bibliography for every empirical claim. Claim-linked evidence records R01–R69, including full bibliographic metadata where available, source-access status, claim mappings and source pinpoints, are maintained in the companion `CLAIM_EVIDENCE_REGISTER.md`. The register is the controlling source-level audit; its access limitations and qualifications must be preserved. These references do not establish the named theories in this treatise as validated scientific laws.
+The following ten entries are selected foundational references, not the complete bibliography for every empirical claim. Claim-linked evidence records R01–R70, including full bibliographic metadata where available, source-access status, claim mappings and source pinpoints, are maintained in the companion `CLAIM_EVIDENCE_REGISTER.md`. The register is the controlling source-level audit; its access limitations and qualifications must be preserved. These references do not establish the named theories in this treatise as validated scientific laws.
 
 1. Chattopadhyay, P., Misra, A., Pandit, T., & Paul, G. (2025). **Landauer principle and thermodynamics of computation.** *Reports on Progress in Physics, 88*(8), 086001. https://doi.org/10.1088/1361-6633/add6b3  
    Review of Landauer's principle, thermodynamic costs of computation, error correction, and finite-time considerations.
