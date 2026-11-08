@@ -2781,3 +2781,46 @@ This ledger applies the five independent fields defined in §22.1 to the first s
 
 **Batch D disposition:** 41/41 unique IDs reconciled to canonical fields at first-pass integrated level. This does not validate ROOT, the self-model, any controller guarantee or the integrated theory. No treatise/tracker edits; no experiments executed or authorized.
 
+## 41. Canonical 204-ID disposition ledger — Batch E: Sections 60–74
+
+### 41.1 Batch E ledger
+
+| Stable ID | Claim kind | Formal status | Evidence status | Integrated disposition / open dependency |
+|---|---|---|---|---|
+| S60-M01 | Linear dynamical model | Candidate closed-loop LTI form; A/B/K/state not identified | No human behavioural model estimated | Retain as pedagogical approximation; identify state, sampling, A/B/K and disturbance before human application. |
+| S60-C01 | Stability theorem/application | Schur condition is necessary/sufficient for homogeneous discrete-time LTI asymptotic stability | R40 establishes mathematical criterion; no human system validation | Retain only for disturbance-free homogeneous model; persistent disturbances require boundedness/robustness analysis. |
+| S61-M01 | Candidate Lyapunov model | Positive definiteness/radial unboundedness not shown; state/equilibrium and weights undefined | No validation of V or components | Retain as proxy only; define state, domain, normalization, disturbance and criterion. |
+| S61-EQ01 | Candidate Lyapunov function | Weighted sum of squares is a certificate only under positive-definiteness and decrease/invariance conditions | No empirical or mathematical certificate established for this V | Specify P≻0/equivalent, domain, zero state, units and deterministic vs expected decrease. |
+| S62-P05 | Conditional stability proposition | Current verbal assumptions do not prove negative drift; require quantified Lyapunov/drift inequality | No ROOT/human experiment supports premises | Keep conditional; state precise deterministic/stochastic theorem and test empirical premises separately. |
+| S62-C01 | Behavioural feedback hypothesis | Favourable state change does not entail reduced expected frequency/duration without drift assumptions | No empirical validation | Retain as hypothesis; define state process, update law, disturbance and outcome. |
+| S63-C01 | Impossibility/scope argument | Conditional counterexample possible under bounded control and unrestricted disturbance; current blanket wording under-specified | Mathematical illustration only; not universal human-controller theorem | Retain practical caution; define controller class, actuation and disturbance bounds. |
+| S64-C01 | Normative/operational self-mastery definition | Urge presence and action selection are distinct; probability criterion needs opportunity/context | No validated self-mastery measure | Retain as conceptual distinction; avoid pathologizing urges and define appropriate goal actions/opportunities. |
+| S64-EQ01 | Conditional probability measure | P(A=a_g|U>0) is valid notation but insufficient without context/feasibility/threshold | No empirical validation of metric | Define urge scale, eligible opportunities, context, goal appropriateness and meaningful threshold. |
+| S65-C01 | Behavioural taxonomy/methodological safeguard | Categories overlap; list is not a complete partition or diagnosis | EMA/self-report agreement varies; no validation of this taxonomy | Retain as non-diagnostic hypothesis map; define each target and separate observed, self-reported and inferred motives. |
+| S66-C01 | Clinical boundary statement | ICD-11 criteria require persistent impaired control and distress/impairment; frequency/moral disapproval alone insufficient | WHO CDDR and WFSBP support the boundary; not individual diagnosis | Retain non-diagnostic framing; distinguish normal desire, moral incongruence, screening and clinical assessment. |
+| S67-C01 | Sleep/attention empirical claim | Not a formal causal claim for an individual | R43/R44 meta-analyses support selected sustained-attention/sleepiness effects under specified restriction; individual causation/diagnosis not established | Retain sleep as possible moderator; keep logs descriptive and specify exposure/confounds. |
+| S68-C01 | Task-initiation heuristic | Initiation-cost/uncertainty mediator is a hypothesis | R64–R68 show bounded positive, null and design-limited planning/subtasking outcomes; exact mediator unmeasured | Retain as testable heuristic; measure initiation latency and mediator, isolate first-action component. |
+| S69-C01 | Personal protocol proposal | Fixed phase sequence is not randomized N-of-1 design | No efficacy validation | Retain as planning template only; distinguish descriptive utility from causal evidence. |
+| S69-PROT01 | Protocol schedule | 28-day sequence is specified but does not itself establish dose or causal identification | R41/R47 provide design standards; protocol has no controlled effect estimate | Reconcile with 14-day tracker; define outcome, opportunities, baseline trend, comparator, carryover and safety. |
+| S70-C01 | Four-foundation architecture | Role assignment does not establish typed interfaces, necessity or sufficiency | No integrated architecture validation | Retain as proposed map; specify inputs/outputs, dependencies, timescales and incremental contribution. |
+| S71-EQ01 | Unified state-transition equation | Schematic until state/input spaces and operator signatures are typed | No empirical/model validation | Define state/input/output spaces, observation, reward/feedback and resource types. |
+| S71-EQ02 | Operator-composition equation | Function composition is order-sensitive; right-to-left order may conflict with prose; concurrent operations need another semantics | No source validates this decomposition | Specify serial order or coupled/concurrent update semantics and operator domains/codomains. |
+| S71-C01 | Unified transition-model claim | No defined executable state-transition system yet | No integrated-system evidence | Retain as architectural placeholder; define clocks, uncertainty, missingness, observability and validation. |
+| S72-C01 | Nine-stage process model | Conceptual sequence; no transition relation, concurrency or termination rule | No comparative evidence for sequence or superiority | Retain as proposed overview; map to typed interfaces and test incremental predictions. |
+| S73-TH04 | Conditional compatibility theorem | Compatibility follows under stipulated broad context and sound inference; not actual-world truth without true premises | Logical result only; no empirical evidence | Retain conditionally; state language, semantics, proof relation, soundness and distinction from prediction/truth. |
+| S73-C01 | Conceptual integration claim | Conditional on broad context definition; near-definitional if context includes all internal structure | No evidence for novelty or distinct mechanism | Retain as conditional compatibility, not an empirical or novel inference mechanism. |
+| S74-TH05 | Conditional probability-choice proposition | Softmax monotonicity follows for two actions and fixed β>0; learning persistence needs explicit update rule | No evidence ROOT causes the score change | Retain only with selector/learning premises; separate mathematical result from human mechanism. |
+| S74-C01 | Self-mastery synthesis | Depends on specified choice rule, feasible actions and update dynamics | No empirical validation of unified architecture or personal behavioural claim | Retain as conditional synthesis; define scores, constraints, timescales and test outcomes. |
+
+### 41.2 Batch E verification
+
+- **Inventory:** 24 unique stable IDs across §§60–74, matching the first-pass claim table.
+- **Control theory:** Schur stability is a standard result for the homogeneous discrete-time LTI model only. No human behavioural A/B/K or disturbance model has been identified. S61's V is not a verified Lyapunov certificate; S62's proposition lacks a quantified drift condition.
+- **Impossibility scope:** S63's practical caution is defensible, but its mathematical counterexample must state actuator and disturbance bounds; it is not a universal theorem about all finite/human controllers.
+- **Clinical boundary:** S66-C01 is supported by WHO ICD-11 CDDR and WFSBP guidance as a non-diagnostic boundary; normal desire, frequency or moral disapproval alone must not be equated with disorder.
+- **Sleep and initiation:** S67-C01 is bounded by exposure and outcome; a log is not diagnosis. S68-C01 remains a heuristic with adjacent positive, null and design-limited planning evidence, not a validated initiation-cost mechanism.
+- **Protocol:** S69-C01/PROT01 is a 28-day planning template, not an efficacy trial; its fixed sequential phases and 14-day tracker mismatch remain open.
+- **Integration:** S70–S74 remain proposed architecture/conditional formal results. The unified operator composition needs explicit ordering/typing; the compatibility and self-mastery theorems require their stated proof/choice/learning premises.
+
+**Batch E disposition:** 24/24 IDs reconciled to canonical fields at first-pass integrated level. No human stability theorem, Lyapunov certificate, ROOT efficacy or four-foundation integration is validated. No treatise/tracker edits; no experiments executed or authorized.
+
