@@ -190,6 +190,8 @@ An internal model is not identical to the external world. It can be incomplete, 
 
 A system must therefore distinguish a model-derived conclusion from a verified fact.
 
+**Claim-linked evidence register records:** R09, R10, R60, R61, R62. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 5. Definitions
 
 ### Definition 1 — Context
@@ -320,6 +322,8 @@ This can include memory replay, simulation, deduction, planning, and spontaneous
 
 **Conclusion:** A system can continue to think in the absence of new sensory input because it is not operating in the absence of all context.
 
+**Claim-linked evidence register records:** R01, R05, R21, R22, R52. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 8. The newborn and the empty-system thought experiment
 
 A newborn is not a blank machine. Its nervous system has inherited structure, developmental programs, sensory transducers, regulatory mechanisms, and learning capacities. Its early experience changes the system, but the capacity to learn is itself part of the system's initial organization.
@@ -343,6 +347,8 @@ This clarification strengthens rather than weakens Space or Null Theory: the the
 ---
 
 # PART IV — OUT OF BOX THEORY: EPISTEMIC LIMIT AND EXPANSION
+
+**Claim-linked evidence register records:** R06, R07, R08, R56. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 9. The central question
 
@@ -414,6 +420,8 @@ If an internal model captures reliable structural regularities of the world, ded
 
 The reliability of the prediction depends on the reliability and scope of the model.
 
+**Claim-linked evidence register records:** R02, R05. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 11. The underdetermination boundary
 
 The preceding theorem does not imply that every unknown fact can be inferred.
@@ -433,6 +441,8 @@ The preceding theorem does not imply that every unknown fact can be inferred.
 Hence, no sound deduction from $K$ alone can uniquely establish $p$.
 
 This is not a weakness of intelligence. It is a limit imposed by information and logic.
+
+**Claim-linked evidence register records:** R03, R05, R52. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 12. The upgraded meaning of Out of Box Theory
 
@@ -477,6 +487,8 @@ The discovery is not magic. The model encoded constraints that the world also ob
 
 The prediction is powerful precisely because it risks failure: the world could have contradicted the model.
 
+**Claim-linked evidence register records:** R01, R05, R21, R22. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 14. Bayesian form of Out of Box Theory
 
 Let $H$ be a hypothesis and $D$ the available evidence. A system forms:
@@ -503,6 +515,8 @@ A strong prediction can be made without directly observing $Y$. But the predicti
 - Prediction: a model assigns an expected outcome to an unobserved condition.
 
 Out of Box Theory includes all four, but their certainty levels differ.
+
+**Claim-linked evidence register records:** R04, R05. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 15. A disciplined epistemic ladder
 
@@ -562,6 +576,8 @@ $$
 
 This is the central derivation of the treatise.
 
+**Claim-linked evidence register records:** R09, R11, R13, R14, R60, R63. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 17. Physical computation and energy
 
 A computation is a physical process implemented by a substrate. The system must move between physical states that encode logical states.
@@ -591,6 +607,8 @@ $$
 This is a lower bound under specified assumptions, not the actual energy cost of a human thought. Real biological computation is far from an idealized one-bit erasure operation.
 
 The principle relevant to this treatise is broader: information processing is physically implemented, and its implementation has energetic and temporal costs.
+
+**Claim-linked evidence register records:** R09, R10, R11, R12, R13, R60, R61, R62, R63, R69. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 18. The brain as an open non-equilibrium system
 
@@ -626,6 +644,8 @@ The brain must allocate limited metabolic resources among:
 A task that requires sustained working memory, inhibition, conflict resolution, and active updating may impose a different control demand from a familiar routine.
 
 The brain does not simply choose the task with the greatest abstract long-term value. It must implement that choice through a biological system with finite capacities and competing needs.
+
+**Claim-linked evidence register records:** R11, R12, R13, R14, R60, R61, R62, R63, R69. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 19. From energy constraints to computational cost
 
@@ -668,6 +688,8 @@ where $s$ is the current state, $\mathcal{A}(s)$ is the feasible action set, and
 As $\beta$ increases, higher-scoring actions dominate more strongly. As $\beta$ decreases, selection becomes more stochastic.
 
 This is a useful formal model of action selection. It is not a claim that the brain literally computes a single scalar $Q$ in a central location.
+
+**Claim-linked evidence register records:** R13, R14, R15, R24. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 20. Why a familiar distraction can defeat an important task
 
@@ -729,6 +751,8 @@ Therefore, a system can select the action it reflectively regards as inferior.
 
 The solution must change the action-selection conditions, not merely repeat the long-term preference.
 
+**Claim-linked evidence register records:** R15, R24, R26. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 21. Why habits are efficient—and why efficiency can become a trap
 
 A habit is a cached policy. It stores a response that was previously useful or rewarding and reduces the need to recompute the decision every time.
@@ -758,6 +782,8 @@ $$
 $$
 
 A habit is not inherently bad. Its value depends on whether the cue-response mapping remains aligned with current goals and conditions.
+
+**Claim-linked evidence register records:** R16, R18, R19, R23, R26, R28, R29, R30, R53. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 22. Cue learning as a dynamical system
 
@@ -794,6 +820,8 @@ If a cue repeatedly precedes an action that yields reward, relief, novelty, or r
 
 A later encounter with the cue can then bias action selection before deliberate evaluation is complete.
 
+**Claim-linked evidence register records:** R16, R18, R19, R26, R28, R30, R53. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 23. Why relief can reinforce behaviour
 
 Not all reinforcement is pleasure-seeking.
@@ -824,6 +852,8 @@ The implication is important for studying. A person may not be pursuing entertai
 
 If the true reinforcing consequence is relief from task discomfort, merely blocking entertainment may expose the discomfort without teaching a replacement response.
 
+**Claim-linked evidence register records:** R16, R17, R18, R19, R28, R30, R53. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 24. Thermodynamic entropy is not psychological disorder
 
 A common but invalid shortcut is to say that the brain chooses distraction because it follows the second law of thermodynamics or seeks maximum entropy.
@@ -844,6 +874,8 @@ A more defensible statement is:
 
 This is a physical–computational bridge. It does not equate entropy with distraction.
 
+**Claim-linked evidence register records:** R11, R14. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 25. A free-energy distinction
 
 In thermodynamics, Helmholtz free energy is:
@@ -859,6 +891,8 @@ In statistical inference and theoretical neuroscience, "variational free energy"
 The two concepts are related historically and mathematically in some formulations, but they are not interchangeable. A cognitive model minimizing variational free energy is not automatically minimizing the brain's physical Helmholtz free energy in a simple literal sense.
 
 For this treatise, the term **resource-constrained predictive control** will be used when the argument concerns action selection, uncertainty, and biological cost. This avoids turning a useful mathematical analogy into an unsupported identity.
+
+**Claim-linked evidence register records:** R20. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 26. The physical–cognitive bridge: Proposed multilevel hypothesis
 
@@ -896,6 +930,8 @@ This is not a deterministic law that every low-energy action is selected. The sy
 
 This is a conditional result about the model's score and selector, not a derivation of the physical-to-behavioural bridge or an explanation of any individual's parameters. Repeated selection strengthens a cue-policy association only if a separate learning/update rule entails that change; no such rule is specified here.
 
+**Claim-linked evidence register records:** R13, R14, R15, R60, R63. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 27. What the physical bridge predicts
 
 The model predicts that unwanted habitual behaviour should become more likely when:
@@ -915,6 +951,8 @@ This is a major practical consequence: self-control can be improved by changing 
 ---
 
 # PART VI — INVESTIGATION A: FOUNDATIONS OF INTELLIGENCE
+
+**Claim-linked evidence register records:** R13, R15, R23, R26, R29, R30, R33, R34. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 28. Research question A1: What constitutes context?
 
@@ -959,6 +997,8 @@ where:
 
 This decomposition resolves the ambiguity in the phrase "no context." A system can have no new external context while retaining internal, structural, and goal context.
 
+**Claim-linked evidence register records:** R30. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 29. Research question A2: Can meaningful inference occur with zero external input?
 
 Yes, if "zero external input" means no new external observation during the inference interval, while internal state and rules remain available.
@@ -986,6 +1026,8 @@ If the phrase means no information, no structure, no state, and no rules whatsoe
 A nontrivial inference can occur without new sensory input if the system has an internal state and a transformation rule capable of producing a distinct output.
 
 This proposition follows directly from the definition of computation. It does not imply that the result is true about the external world.
+
+**Claim-linked evidence register records:** R02, R05, R21, R22. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 30. Research question A3: What is the relationship between prior information and genuinely novel knowledge?
 
@@ -1020,6 +1062,8 @@ and:
 $$
 \boxed{\text{Implicit consequence}\not\Rightarrow\text{explicit prior representation}}
 $$
+
+**Claim-linked evidence register records:** R01, R05, R21, R22, R52. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 31. Research question A4: What are the physical limits of information processing?
 
@@ -1066,6 +1110,8 @@ $$
 $$
 
 This is a general engineering relation. It says that intelligence as implemented by a physical system is constrained by its substrate and task.
+
+**Claim-linked evidence register records:** R09, R10, R11, R13, R14, R60, R61, R62. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 32. Research question A5: Can intelligence be mathematically distinguished from computation?
 
@@ -1115,6 +1161,8 @@ where:
 
 This is a measurement proposal, not a universal natural constant. It would require validated tasks and careful separation from memory, processing speed, and prior training.
 
+**Claim-linked evidence register records:** R27, R58, R59. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 33. The unified result of Investigation A
 
 The five questions yield the following conclusions:
@@ -1155,6 +1203,8 @@ A more complete model must include:
 - whether the outcome is valued or merely relieving.
 
 The simple update equation is a useful starting abstraction, not a complete neuronal mechanism.
+
+**Claim-linked evidence register records:** R16, R18, R19, R23, R26, R28, R30, R53. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 35. Research question B2: How do reward anticipation and habit formation interact?
 
@@ -1206,6 +1256,8 @@ where $\omega(s)$ represents the degree to which model-based control is used in 
 
 The weight can depend on uncertainty, effort, fatigue, reliability, and task demand. The model is a useful computational abstraction; it should not be interpreted as a literal single switch in the brain.
 
+**Claim-linked evidence register records:** R13, R14, R15, R16, R18, R19, R23, R24, R25, R26, R28, R30, R43, R44, R53, R62, R63. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 36. Research question B3: How does cognitive control compete with automatic behaviour?
 
 Cognitive control supports the maintenance of goals, inhibition of competing responses, task switching, and correction of errors.
@@ -1248,6 +1300,8 @@ A system should allocate more control to deliberative evaluation when:
 
 This yields a design principle: do not demand maximum deliberation for every action. Demand it where the expected value of correction justifies its cost.
 
+**Claim-linked evidence register records:** R13, R15, R24, R25, R43, R44, R62, R63. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 37. Research question B4: How do sleep, stress, and environmental conditions alter action selection?
 
 The action-selection equation already contains state-dependent terms. Sleep, stress, and environment can change:
@@ -1274,6 +1328,8 @@ The same action can have different effective values under different physiologica
 A difficult task may be manageable after adequate sleep but disproportionately costly under fatigue. A familiar distraction may then win more often.
 
 This does not establish that every focus problem is caused by sleep or stress. It establishes that they are plausible state variables that should be measured rather than ignored.
+
+**Claim-linked evidence register records:** R25, R43, R44. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 38. A multi-timescale model of unwanted loops
 
@@ -1324,6 +1380,8 @@ This is a proposed statistical model, not a fitted or validated model. Its linea
 
 The key point is that an unwanted action is a function of a state, not a mysterious failure of character.
 
+**Claim-linked evidence register records:** R27, R42, R44. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 40. The unified result of Investigation B
 
 1. Cue-response associations are learned through predictive and reinforcing interactions.
@@ -1337,6 +1395,8 @@ This provides a mechanistic account of why a person may know what to do yet repe
 ---
 
 # PART VIII — INVESTIGATION C: RECURSIVE INTELLIGENCE AND SELF-MASTERY
+
+**Claim-linked evidence register records:** R16, R19, R23, R26. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 41. Research question C1: Can trigger-specific interventions improve sustained attention?
 
@@ -1384,6 +1444,8 @@ in the relevant states often enough for the desired policy to become practised a
 
 Trigger-specific plans are particularly useful because they connect a known state to a preselected response.
 
+**Claim-linked evidence register records:** R31, R32, R33, R34, R48. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 42. Research question C2: How quickly do alternative responses become established?
 
 There is no universal number of days. Learning rate depends on:
@@ -1418,6 +1480,8 @@ It predicts diminishing increments as $H_t$ approaches an upper bound, provided 
 
 A new response becomes more reliable through repeated execution in the relevant context, not merely through repeated verbal intention.
 
+**Claim-linked evidence register records:** R16, R18, R19, R26, R28, R29, R30, R53. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 43. Research question C3: Which environmental changes produce the largest improvements?
 
 The model predicts the greatest benefit from interventions that change high-leverage variables:
@@ -1445,6 +1509,8 @@ $$
 $$
 
 A high-$\Lambda$ intervention is intended to represent a large reduction in unwanted-action probability relative to its implementation burden. To estimate it, define the baseline/comparator, eligible-opportunity denominator, observation window and burden scale in advance. If implementation cost is zero, the ratio is undefined; if the probability reduction is negative, the result indicates worsening rather than benefit. Comparisons across interventions require a common cost scale. This is an exploratory heuristic, not a validated universal or clinical score.
+
+**Claim-linked evidence register records:** R33, R34. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 44. Research question C4: How can behavioural recovery be measured?
 
@@ -1479,6 +1545,8 @@ where:
 
 The weights must be selected for the task, and the component measures require prespecified direction, time window and scaling before they can be combined. Without commensurable scales, the weighted sum is not interpretable as a coherent quantity. The composite is exploratory, not validated; a composite score should never conceal the underlying measurements.
 
+**Claim-linked evidence register records:** R27, R38, R41, R42, R44, R47, R50. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 45. Research question C5: How can the protocol adapt to individual differences?
 
 The controller must estimate the person's own state rather than assume every distraction has the same cause.
@@ -1509,6 +1577,8 @@ The protocol must be adaptive, not dogmatic.
 ---
 
 # PART IX — RECURSIVE INTELLIGENCE: FORMAL SELF-MODIFICATION
+
+**Claim-linked evidence register records:** R27, R29, R30, R38, R41, R42, R47, R50. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 46. From ordinary intelligence to recursive intelligence
 
@@ -1543,6 +1613,8 @@ $$
 
 The system is not merely processing the world. It is processing information about its own processing.
 
+**Claim-linked evidence register records:** R24, R35, R36, R37, R39, R51, R54, R55. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 47. The recursive loop
 
 $$
@@ -1567,6 +1639,8 @@ $$
 
 The loop becomes recursive because the output of one control cycle modifies the parameters of subsequent control cycles.
 
+**Claim-linked evidence register records:** R35, R37, R39, R51, R54, R55. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 48. The self-model must be fallible
 
 A recursive system can misestimate itself.
@@ -1585,6 +1659,8 @@ Therefore, self-monitoring must be checked against observable outcomes.
 The system should not merely ask, "Why did I fail?" It should ask, "Which explanation best predicts what will happen under a controlled change?"
 
 This turns self-reflection into model testing.
+
+**Claim-linked evidence register records:** R35, R36, R37, R51, R54, R55. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 49. A formal objective for recursive control
 
@@ -1621,6 +1697,8 @@ The gradient notation is conceptual. Human self-regulation is not necessarily gr
 
 A critical safeguard is that the goal function itself must be reviewable. An intelligent system can optimize the wrong objective with great efficiency.
 
+**Claim-linked evidence register records:** R35, R37, R51, R54, R55. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 50. Goal hierarchy and the reflective controller
 
 A person may have several levels of goals:
@@ -1649,6 +1727,8 @@ Self-mastery is not blind obedience to an old plan. It is the capacity to mainta
 
 # PART X — ROOT CONTROL PROTOCOL: MATHEMATICAL ARCHITECTURE
 
+**Claim-linked evidence register records:** R35, R37, R51, R54, R55. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 51. The protocol's role
 
 The ROOT Control Protocol is the operational layer of the unified framework.
@@ -1666,6 +1746,8 @@ The seven components are:
 - **L — Learn**
 
 The protocol is a behavioural engineering architecture, not a claim that all unwanted behaviour can be eliminated by one universal routine.
+
+**Claim-linked evidence register records:** R28, R34. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 52. State estimation
 
@@ -1686,6 +1768,8 @@ where:
 - $e_t$: environmental accessibility of the competing action.
 
 The system estimates $s_t$ using observation and reflection. The estimate need not be perfect; it must be good enough to select a useful intervention. Here $f_t$ is an ordinal self-rating of perceived fatigue, not an objective physiological measurement. In the reduced six-variable model in §39, $z_t$ denotes task demand/difficulty and uncertainty and corresponds only approximately to $d_t$ here; the ROOT vector additionally records competing-action accessibility as $e_t$. The seven ratings remain ordinal and are not assumed to be equally spaced or directly additive.
+
+**Claim-linked evidence register records:** R27. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 53. R — Recognise
 
@@ -1708,6 +1792,8 @@ where:
 - $\iota_t$: intervention applied during the episode (including no intervention).
 
 Recognition must distinguish the trigger from the behaviour. "I used my phone" is a behaviour description. "I reached for my phone immediately after encountering an ambiguous problem and feeling frustrated" is a potentially useful trigger description.
+
+**Claim-linked evidence register records:** R27, R38, R41, R42, R47, R50, R53. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 54. O — Obstruct
 
@@ -1737,6 +1823,8 @@ Examples:
 
 Obstruction is not punishment. It is system design.
 
+**Claim-linked evidence register records:** R33, R34. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 55. O — Override
 
 Override inserts a preselected response between the cue and the habitual action.
@@ -1752,6 +1840,8 @@ For example:
 > If I notice that I am about to open a distracting application during a study block, I will leave the device untouched, identify the next physical step in the study task, and perform that step for two minutes.
 
 The alternative must be concrete and executable. "Be disciplined" is not an action specification.
+
+**Claim-linked evidence register records:** R31, R32, R48, R65. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 56. T — Train
 
@@ -1779,6 +1869,8 @@ where:
 
 The equation is a conceptual learning model. It has no specified state bounds, context-transfer rule or empirically identified parameters, and it does not imply that one failure erases progress.
 
+**Claim-linked evidence register records:** R16, R18, R19, R26, R28, R29, R30, R53. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 57. C — Correct
 
 Correction uses outcome data to identify whether the intervention worked.
@@ -1800,6 +1892,8 @@ Examples:
 - If the urge is strong but brief, use a delay and return-to-task routine.
 - If the behaviour is compulsive and impairing, seek appropriate clinical assessment rather than escalating self-punishment.
 
+**Claim-linked evidence register records:** R40. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 58. O — Optimise
 
 Optimisation addresses the biological and environmental conditions that influence the controller.
@@ -1816,6 +1910,8 @@ Relevant variables include:
 - social and emotional stress.
 
 The objective is not to maximize productivity at all times. It is to maintain a state in which chosen goals can be pursued without chronic depletion.
+
+**Claim-linked evidence register records:** R25, R30, R43, R44. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 59. L — Learn
 
@@ -1883,6 +1979,8 @@ In a linear model without disturbances, stability requires the eigenvalues of $A
 
 Human behaviour is nonlinear, partially observed, and state-dependent. The linear model is an approximation useful for understanding feedback, not a literal complete brain model.
 
+**Claim-linked evidence register records:** R40. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 61. Lyapunov-style formulation
 
 Let $V(x)$ measure deviation from the desired behavioural state. A stable controller aims for:
@@ -1906,6 +2004,8 @@ The intervention should reduce expected $V$ over repeated cycles.
 
 This gives a possible way to operationalize improvement, not yet a rigorous stability certificate. The displayed $V(x)$ is a candidate monitoring functional over selected proxies; the treatise has not shown that those proxies form a complete state, that the weights make $V$ positive definite, or that the actual transition law decreases it. It must not be called a verified Lyapunov function. Improvement can be reported descriptively without claiming stability.
 
+**Claim-linked evidence register records:** R40. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 62. Behavioural improvement under feedback — testable hypothesis, not a stability theorem
 
 **Hypothesis:** Within a defined operating domain, reliable trigger detection, an available alternative response, an intervention that changes action selection in the intended direction, reinforcement of successful responses, and bounded/manageable disturbances may be associated with a reduction in the expected frequency or duration of the unwanted response.
@@ -1915,6 +2015,8 @@ This gives a possible way to operationalize improvement, not yet a rigorous stab
 A mathematical stability result would require a defined state and target set, an explicit transition/update law, a positive-definite candidate measure where a Lyapunov argument is used, and a quantified deterministic decrease or stochastic conditional-drift inequality with appropriate disturbance and invariance assumptions. Those requirements are not supplied by the present protocol description.
 
 This is therefore a behavioural hypothesis, not a formal guarantee. If the operating conditions are exceeded or the behaviour is persistently distressing or impairing, the protocol may be insufficient and professional assessment may be appropriate.
+
+**Claim-linked evidence register records:** R40. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 63. Why no universal guarantee is mathematically justified
 
@@ -1980,6 +2082,8 @@ They may involve different triggers and reinforcers.
 
 The table contains hypotheses, not diagnoses.
 
+**Claim-linked evidence register records:** R27. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 66. Sexual attraction and masturbation
 
 Sexual attraction and sexual urges are normal aspects of human biology. Masturbation is not inherently an addiction or evidence of weak intelligence.
@@ -1996,6 +2100,8 @@ Compulsive Sexual Behaviour Disorder is a clinical category involving persistent
 
 The ROOT protocol can be used for ordinary unwanted patterns, but persistent, distressing, or impairing behaviour merits professional assessment. The goal is not to wage war against biology; it is to establish a workable relationship between impulses, values, and chosen action.
 
+**Claim-linked evidence register records:** R45, R46, R53, R57. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 67. Sleep is a control-system context variable
 
 Sleep is a relevant biological context for attention and task performance, but the evidence must be stated by exposure and cognitive domain. R43 is a meta-analysis of experimentally manipulated short-term sleep restriction (61 studies, 71 populations): it reports negative average effects on overall cognitive processing, executive function, sustained attention and long-term memory, while finding insufficient evidence for several broader domains. R44 is a separate one-night meta-analysis in healthy adults (44 studies, 1,087 participants; 2–6 h sleep opportunity): it reports increased subjective sleepiness and impaired sustained attention, but no significant pooled effects for choice reaction time, cognitive throughput, working memory or inhibitory control. R44 also reports heterogeneity and a publication-bias signal for sustained-attention reaction time. Neither review establishes the effects of every sleep-timing or sleep-quality pattern, nor explains an individual's performance.
@@ -2011,6 +2117,8 @@ A practical initial procedure:
 5. Seek medical evaluation if sleep problems are persistent, severe, or functionally impairing.
 
 **Evidence boundary:** R43 concerns experimentally manipulated short-term restriction; R44 concerns one-night restriction under specified laboratory conditions. Their pooled effects do not provide a personal prediction or a known coefficient for the ROOT fatigue rating. Circadian timing and subjective sleep quality require separate evidence.
+
+**Claim-linked evidence register records:** R25, R43, R44. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 68. Study initiation as a designed transition
 
@@ -2029,6 +2137,8 @@ Replace it with a concrete transition:
 The objective is to reduce initiation cost $K(a)$ and uncertainty $D(a)$ in the action-selection model.
 
 This is an engineering intervention: make the desired transition easier to execute.
+
+**Claim-linked evidence register records:** R15, R24, R31, R32, R48, R65, R66, R68. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 69. A personal experimental protocol
 
@@ -2086,6 +2196,8 @@ The objective is measured progress, not perfect compliance.
 ---
 
 # PART XIII — THE UNIFIED MASTER FRAMEWORK
+
+**Claim-linked evidence register records:** R27, R31, R34, R38, R41, R42, R47, R48, R50, R65, R68. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 70. Four proposed foundations and their candidate roles
 
@@ -2212,6 +2324,8 @@ The experiments below are designed to separate the framework's components rather
 
 **Failure condition:** If a system consistently fails despite adequate representation and computational capacity, the particular inference model may be insufficient. This does not refute all forms of Out of Box Theory.
 
+**Claim-linked evidence register records:** R27, R38, R41, R42, R47, R50. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 77. Experiment B — Structural prediction of unobserved outcomes
 
 **Question:** Can a model predict a physical outcome before direct observation?
@@ -2228,6 +2342,8 @@ The experiments below are designed to separate the framework's components rather
 
 **Failure condition:** Repeated predictive failure under controlled conditions weakens the model's claimed correspondence with reality.
 
+**Claim-linked evidence register records:** R27, R38, R41, R42, R47, R50. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 78. Experiment C — Energy, task difficulty, and action selection
 
 **Question:** Do effort, fatigue, and task uncertainty change the probability of selecting a habitual distraction?
@@ -2243,6 +2359,8 @@ The experiments below are designed to separate the framework's components rather
 **Prediction:** The probability of selecting a familiar low-initiation-cost action may rise when task effort, fatigue, or uncertainty increases, subject to individual differences and task context.
 
 **Important limitation:** This experiment does not directly prove that thermodynamic entropy causes distraction. It tests a resource-sensitive action-selection model.
+
+**Claim-linked evidence register records:** R13, R14, R15, R24, R25, R27, R38, R41, R42, R43, R44, R47, R50, R62, R63. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 79. Experiment D — Environmental obstruction
 
@@ -2262,6 +2380,8 @@ The experiments below are designed to separate the framework's components rather
 
 **Prediction:** A barrier may reduce a particular access-dependent action in some contexts. It need not improve sustained attention or task performance, and apparent reduction may be offset by substitution, awareness effects or burden. A screen-time change alone is not a functional benefit.
 
+**Claim-linked evidence register records:** R27, R33, R34, R38, R41, R42, R47, R50. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 80. Experiment E — Alternative-response training
 
 **Question:** Does a trigger-specific if–then response improve behavioural recovery beyond a credible active planning comparator?
@@ -2280,6 +2400,8 @@ The experiments below are designed to separate the framework's components rather
 
 **Prediction:** A contingent, rehearsed plan may improve alternative-response execution in some contexts, particularly when goal motivation is sufficient. The expected effect should not be assumed large or universal; the protocol tests a known component, not the ROOT package or a distinct Recursive Intelligence mechanism.
 
+**Claim-linked evidence register records:** R27, R31, R32, R38, R41, R42, R47, R48, R50, R65. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 81. Experiment F — Recursive adaptation
 
 **Question:** Does weekly model revision improve intervention selection compared with a fixed routine?
@@ -2293,6 +2415,8 @@ The experiments below are designed to separate the framework's components rather
 5. Measure functional outcomes and intervention burden.
 
 **Prediction:** An adaptive controller should outperform a poorly matched fixed routine when triggers and physiological states vary meaningfully.
+
+**Claim-linked evidence register records:** R27, R35, R37, R38, R41, R42, R47, R49, R50, R51, R54, R55. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 82. Measurement and statistical safeguards
 
@@ -2313,6 +2437,8 @@ Personal experiments can be useful, but they are not equivalent to controlled cl
 ---
 
 # PART XV — LIMITS, FAILURE MODES, AND SAFEGUARDS
+
+**Claim-linked evidence register records:** R27, R38, R41, R42, R47, R50. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 83. The framework's limits
 
@@ -2358,6 +2484,8 @@ A rigid routine can become unsustainable or create unnecessary stress.
 Persistent sleepiness, attention impairment, compulsive behaviour, depression, anxiety, or other conditions may require professional assessment.
 
 **Safeguard:** do not use ROOT as a substitute for appropriate medical or psychological care.
+
+**Claim-linked evidence register records:** R45, R46, R53. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 89. Failure mode: Optimizing the wrong goal
 
@@ -2454,11 +2582,15 @@ The proposed link from physical resource constraints to subjective effort, actio
 
 Thermodynamic entropy is not psychological distraction. Physical implementation constrains behavioural control, but intermediate mechanisms and task-specific evidence are required for any causal claim.
 
+**Claim-linked evidence register records:** R11, R12, R13, R14, R24, R60, R61, R62, R63, R69. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+
 ## 93. Current status of Recursive Intelligence
 
 Recursive Intelligence is proposed as a functional construct in which a system uses representations of its own operation to modify future operation. This is a candidate synthesis of self-monitoring, metacognition, meta-control and adaptive policy update.
 
 The treatise has not yet demonstrated a distinct mechanism, a validated measurement model, or incremental predictive advantage over those established constructs. The self-model and update equations remain schematic. The construct should not be presented as a newly established intelligence type until it has operational discriminators and comparative tests.
+
+**Claim-linked evidence register records:** R35, R37, R51, R54, R55. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 94. Current status of ROOT Control Protocol
 
@@ -2473,6 +2605,8 @@ ROOT is the proposed operational intervention architecture:
 - Learn and consolidate.
 
 Its intended aim is not the elimination of all impulses, but to increase the probability that chosen objectives govern behaviour despite competing signals. Component-level evidence exists for selected planning and environmental-friction techniques. The integrated ROOT package, its seven-stage sequence, sustained-attention effect, long-term maintenance and controller guarantees have not been validated. The protocol remains a proposal, not an established intervention.
+
+**Claim-linked evidence register records:** R31, R34, R41, R47, R48, R65, R68. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 95. Schematic architecture summary — not a unified state-transition law
 
@@ -2527,9 +2661,9 @@ That is the proposed research purpose of **Space or Null Theory**, **Out of Box 
 
 ---
 
-# REFERENCES AND SCIENTIFIC FOUNDATIONS
+# SELECTED REFERENCES AND SCIENTIFIC FOUNDATIONS
 
-The following sources support established scientific constraints and provide research foundations for the proposed synthesis. They do not establish the named theories in this treatise as already validated scientific laws.
+The following ten entries are selected foundational references, not the complete bibliography for every empirical claim. Claim-linked evidence records R01–R69, including full bibliographic metadata where available, source-access status, claim mappings and source pinpoints, are maintained in the companion `CLAIM_EVIDENCE_REGISTER.md`. The register is the controlling source-level audit; its access limitations and qualifications must be preserved. These references do not establish the named theories in this treatise as validated scientific laws.
 
 1. Chattopadhyay, P., Misra, A., Pandit, T., & Paul, G. (2025). **Landauer principle and thermodynamics of computation.** *Reports on Progress in Physics, 88*(8), 086001. https://doi.org/10.1088/1361-6633/add6b3  
    Review of Landauer's principle, thermodynamic costs of computation, error correction, and finite-time considerations.
