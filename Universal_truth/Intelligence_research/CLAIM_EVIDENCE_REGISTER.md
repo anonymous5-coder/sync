@@ -3398,4 +3398,30 @@ The effect varies by outcome: behaviour d = .27, cognitive performance d = .47, 
 - **A–F boundary:** the review strengthens the case for established implementation-intention comparators; it does not reduce the need for framework-level discrimination.
 
 **Disposition:** R48 is upgraded from publisher-abstract access to accepted-manuscript full-text review, with final copy-of-record comparison still open. The 642-test headline must not be reported without the publication-bias-adjusted and heterogeneity results. No ROOT efficacy or unique mechanism is inferred; no experiment executed or authorized.
+## 57. Controlled Experiment E revision — R48 full-text evidence incorporated
+
+### 57.1 Evidence update
+
+R48's accepted full-text manuscript changes the evidential interpretation of the 642-test headline: the publication-bias-adjusted robust Bayesian model-averaged effect is d = .15 (95% CI [.08, .22]), with substantial heterogeneity. The review identifies contingent if–then format, strong goal motivation and at least one rehearsal as useful moderators; recording the plan itself was associated with smaller effects. Some cue/outcome subgroups relevant to distraction/concentration have fewer than five tests.
+
+### 57.2 Treatise change
+
+Treatise commit `df17a1f39d6856cfe9470d61078a1746db5c9e17` revises §80 only. It now:
+
+- distinguishes cue detection from alternative-response execution;
+- requires an eligible-opportunity denominator and a feasible, goal-endorsed target;
+- specifies a genuinely contingent if–then plan rather than a schedule-only plan;
+- includes at least one rehearsal and records whether the plan itself is written/recorded;
+- requires a credible active comparator and holds obstruction constant or factorializes it;
+- measures execution, return latency, functional output, adherence, substitution, fidelity, burden and adverse effects;
+- requires a preregistered estimand, meaningful-effect threshold, missing-data rule and analysis;
+- states that the expected effect is not assumed large or universal and that a positive result cannot establish ROOT efficacy or a distinct Recursive Intelligence mechanism.
+
+The commit diff was inspected and is confined to §80. A–F remain unapproved and unexecuted.
+
+### 57.3 Verification and limits
+
+The latest treatise file was fetched and the revised §80 was checked for the publication-bias-adjusted estimate, active comparator and opportunity-based outcome. R31 and R48 have full-text manuscript/chapter access; R32 remains publisher-abstract level. R48's manuscript is not the final copy of record, and final-version comparison remains open.
+
+**Disposition:** Experiment E's protocol description is more closely aligned with established implementation-intention evidence and its known limitations. This is a design correction, not preregistration, readiness approval, experiment execution or ROOT validation.
 
