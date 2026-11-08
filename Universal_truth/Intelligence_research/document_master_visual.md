@@ -598,13 +598,13 @@ Let:
 - $W$ be work supplied to a computation;
 - $Q$ be heat transferred to the environment.
 
-The first law of thermodynamics gives, under a chosen sign convention:
+Using the convention that $Q$ is heat added to the system and $W$ is work done on the system, the first law gives:
 
 $$
 \Delta U=Q+W
 $$
 
-The exact sign convention is less important than the accounting: physical state changes require energy exchange or redistribution.
+If $W$ instead denotes work done by the system, the equivalent form is $\Delta U=Q-W$. Physical state changes require energy exchange or redistribution; sign conventions must be used consistently.
 
 For logically irreversible erasure of one unbiased bit, Landauer's principle gives the ideal lower bound:
 
@@ -639,7 +639,7 @@ $$
 
 The terms are conceptual categories, not a claim that they can be cleanly separated in every measurement.
 
-The brain must allocate limited metabolic resources among:
+Brain function involves distributed metabolic demand across processes such as:
 
 - sensory processing;
 - internal prediction;
@@ -662,7 +662,7 @@ The brain does not simply choose the task with the greatest abstract long-term v
 Let $a$ denote an available action. Define:
 
 - $R(a)$: expected task or reward value;
-- $E(a)$: expected metabolic or energetic expenditure;
+- $E(a)$: expected physical/physiological energy expenditure, distinct from subjective effort;
 - $C_{\mathrm{ctrl}}(a)$: control and deliberation cost;
 - $D(a)$: delay cost;
 - $K(a)$: switching or initiation cost;
@@ -683,7 +683,7 @@ R(a)+L(a)
 -\kappa K(a)
 $$
 
-This equation is a candidate model specification. Its terms must be converted to commensurable utility units or explicitly normalized before they can be added; raw energetic, temporal, delay and control-cost measurements do not automatically share units. Its coefficients must be estimated for a particular system; they are not universal constants of the brain, and no such coefficients have been identified here.
+This equation is a candidate model specification. Its terms must be converted to commensurable utility units or explicitly normalized before they can be added; raw energetic, temporal, delay and control-cost measurements do not automatically share units. In particular, physical energy expenditure $E(a)$ must not be inferred from subjective effort or treated as interchangeable with $C_{\mathrm{ctrl}}(a)$. Define $R(a)$ and $L(a)$ on compatible decision horizons and check for overlap to avoid double counting. Its coefficients must be estimated for a particular system; they are not universal constants of the brain, and no such coefficients have been identified here.
 
 The action-selection mechanism can be represented by a softmax distribution:
 
@@ -732,13 +732,13 @@ $$
 
 under the current state $s$, even though the person explicitly endorses the long-term value of $a_f$.
 
-This is the formal expression of the intention–execution gap.
+This is one possible formalization of an intention–execution gap under the specified score model.
 
 The gap does not require the person to be unintelligent. It requires only that the mechanisms governing immediate action selection differ from the person's reflective evaluation of long-term goals.
 
-### Proposition 3 — Local action advantage can defeat global objective value
+### Proposition 3 — Local action advantage can favour a globally inferior action
 
-**Statement:** A system can repeatedly choose a locally favoured action even when another action has greater long-term value.
+**Statement:** In a specified decision state, a selector can favour a locally higher-scoring action even when another action has greater long-term objective value.
 
 **Derivation:**
 
@@ -756,9 +756,9 @@ V_L(a_f)-V_L(a_h)
 $$
 
 5. Then $Q(a_h)>Q(a_f)$.
-6. Under a softmax or greedy selector, $a_h$ is more likely or certain to be selected.
+6. Under softmax selection with $\beta>0$, $a_h$ is more probable than $a_f$. A greedy selector chooses $a_h$ only if it is a maximizer over the full feasible action set.
 
-Therefore, a system can select the action it reflectively regards as inferior.
+Therefore, under the stated score definitions and selector conditions, the model can favour an action that conflicts with the reflective long-term objective.
 
 The solution must change the action-selection conditions, not merely repeat the long-term preference.
 
