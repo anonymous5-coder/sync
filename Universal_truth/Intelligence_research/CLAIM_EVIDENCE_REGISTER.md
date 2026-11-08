@@ -2665,3 +2665,58 @@ This ledger applies the five independent fields defined in §22.1 to the first s
 
 **Batch B disposition:** 33/33 unique IDs reconciled to canonical fields at first-pass integrated level. Several source mappings remain abstract-level or cluster-level, and the model/causal claims remain unvalidated. This is not independent review or final source closure. No treatise/tracker edits; no experiments executed or authorized.
 
+## 39. Canonical 204-ID disposition ledger — Batch C: Sections 28–40
+
+### 39.1 Batch C ledger
+
+| Stable ID | Claim kind | Formal status | Evidence status | Integrated disposition / open dependency |
+|---|---|---|---|---|
+| S28-C01 | Context definition/causal relevance | Candidate definition; causal relevance requires intervention or structural causal model | No causal evidence from conditional distribution notation alone | Retain as candidate definition; specify whether relevance is causal, predictive or computational. |
+| S28-EQ01 | Conditional transition model | Standard probabilistic notation; variables/time assumptions unspecified | Not empirically tested | Retain as schematic; define state, action, memory, context and transition assumptions. |
+| S28-EQ02 | Context taxonomy | Useful but overlapping categories, not a disjoint partition | Not an empirical claim | Retain as taxonomy; specify overlap and provenance rules. |
+| S29-C01 | Internal-computation claim | Correct for systems retaining state and active rules | General computational fact; no semantic truth or external discovery follows | Retain with input-channel/time-window scope; do not describe as inference from literal nothing. |
+| S29-EQ01 | Function notation | Generic mathematical mapping only | No evidence of intelligence or discovery | Retain as notation only. |
+| S29-P04 | Conditional computational proposition | Follows from the stated computation definition | Not an empirical discovery claim | Retain as bounded proposition; remove implication of truth, usefulness or external novelty. |
+| S30-C01 | Epistemic taxonomy | Conceptual distinctions are valid; empirical novelty/reference population needs definition | Not a single empirical claim | Retain; define reference community/date and information model. |
+| S30-C02 | Information-processing claim | Data-processing inequality holds under W→Z→Y Markov chain; algorithmic information requires separate treatment | Standard information-theoretic result; does not forbid making implicit consequences explicit | Retain with Markov condition and separate Shannon, algorithmic and semantic notions. |
+| S30-EQ01 | Information claim boundary | Caution is sound but 'information' measure must be named | No single empirical status | Retain; identify Shannon, algorithmic, semantic or agent-accessible information. |
+| S30-EQ02 | Representation/entailment distinction | Correct conceptual distinction | Not an empirical claim | Retain; explicit storage is not required for logical entailment. |
+| S31-C01 | Physical/engineering constraint synthesis | Valid categories but distinct bounds and assumptions | Established constraints within their separate physical/engineering domains | Retain as separate constraints; attach the appropriate theorem/measurement to each. |
+| S31-EQ01 | Landauer inequality | Same result as S17-EQ02; no independent derivation needed | Established under Landauer conditions | Cross-reference S17-EQ02 and R09–R10. |
+| S31-M01 | Resource vector model | Candidate abstraction; ε is a quality/error constraint, not a resource | Not empirically parameterized | Retain after separating capacities, consumed quantities and quality constraints. |
+| S31-EQ02 | Performance function | Generic function declaration; Φ unspecified | No quantitative validation | Retain as schematic; define algorithm, noise, domain and performance metric before quantification. |
+| S32-C01 | Operational intelligence definition | Framework stipulation, not universal necessary/sufficient definition | Construct validity and distinctiveness unestablished | Retain explicitly as chosen definition; compare with established operational constructs. |
+| S32-EQ01 | Computation abstraction | Broad state-transformation shorthand, not complete computational theory | Not an empirical claim | Retain with scope; avoid treating it as exhaustive. |
+| S32-EQ02 | Intelligence definition | Stipulative adaptive-use definition; overlaps adaptive control/learning | No discriminant validation | Retain provisionally; add independent tasks and discriminant criteria. |
+| S32-M01 | Composite intelligence index | Candidate weighted functional; no validated measurement model | Unvalidated; reliability, invariance and criterion/predictive validity absent | Retain as research proposal only; validate components/weights independently. |
+| S33-C01 | Investigation-status claim | “Resolved” overstates operational closure | Empirical and operational questions remain open | Downgrade to “provisional formal outline”; keep unresolved questions explicit. |
+| S34-EQ01 | TD-like learning equation | Not classifiable as TD(0), SARSA or Q-learning without indexing and target semantics | No equation validation | Defer approval; define state/action indexing, reward timing and update rule; reconcile §56. |
+| S34-C01 | Associative/learning mechanism | Cue–outcome, action–outcome and stimulus–response are distinct | Broad neighbouring evidence; not one universal cue-response mechanism | Split mechanisms; specify the learning process each claim invokes. |
+| S35-C01 | Incentive-salience claim | Wanting/liking distinction is a theoretical construct with domain limits | Substantial evidence in selected domains, especially addiction-related mechanisms | Retain with domain qualification; do not generalize to every urge or habit. |
+| S35-EQ01 | Model-based value function | Standard RL abstraction if transition/reward model and horizon are specified | No specific parameter validation | Retain; define transition model, reward distribution, horizon and expectation. |
+| S35-EQ02 | Model-free action-value function | Standard notation but no update/training assumptions supplied | Not evidence of psychological habit by itself | Retain as placeholder; specify algorithm and do not equate with habit. |
+| S35-EQ03 | Arbitration mixture model | Candidate convex mixture; requires bounded weight and comparable value scales | Task-specific arbitration evidence, not universal architecture | Retain as candidate; compare alternative arbitration models and estimate task-specific weights. |
+| S35-C02 | Arbitration-weight hypothesis | No unique weighting law follows from the cited models | Task-specific neighbouring evidence; listed factors not jointly validated | Retain as candidate predictors; measure separately and estimate prospectively. |
+| S36-C01 | Normative control-allocation principle | Consistent with Expected Value of Control; not a unique neural law | Established neighbouring frameworks and task-specific experiments; exact U/C terms unvalidated | Retain as synthesis; make EVC relation explicit and avoid novelty claims. |
+| S36-EQ01 | Net-utility inequality | Algebraic if U/C share defined scales and units | No evidence that a biological controller literally computes it | Retain as conditional decision rule; specify units and selector. |
+| S36-P01 | Control-allocation principle | Normative and conditional on expected benefits/burdens | No universal empirical law | Retain as design guidance; measure costs, flexibility and performance. |
+| S37-C01 | State/environment behavioural hypothesis | Not a universal theorem; depends on exposure/task/population | Selected sleep/stress studies support domain-specific effects; no universal habit shift | Retain as state-variable hypothesis; specify dose, task, population and outcome. |
+| S37-EQ01 | State-dependent action score | Generic form; z_t and R/C terms remain undefined | No parameter validation | Retain as schematic; align z_t with canonical state schema and S19-M01. |
+| S38-C01 | Timescale taxonomy | Illustrative, overlapping heuristic; not empirical thresholds | No fixed universal boundaries | Retain as conceptual guide; label bands illustrative and define aggregation windows. |
+| S39-M01 | Behavioural state model | Candidate state; not shown Markov-sufficient or causally complete | No validation of state sufficiency | Retain as reduced model; crosswalk with §37 and ROOT state while preserving abstraction levels. |
+| S39-EQ01 | Logistic statistical model | Standard logistic form with linear log-odds predictor; coefficients/signs unspecified | No fitted/validated coefficients; repeated observations require dependence modelling | Retain as candidate; define opportunity-level outcome, clustering, random effects, interactions and validation. |
+| S39-C01 | Non-moralizing interpretation | Appropriate framing principle, not complete causal account | No independent empirical status | Retain as interpretive safeguard; do not imply state model exhausts biological/social/clinical causes. |
+| S40-C01 | Cross-section synthesis | Summary only; not independent evidence | Component evidence remains mixed and bounded | Retain after qualifying model-free/habit distinction, task-specific arbitration and non-universal state effects. |
+
+### 39.2 Batch C verification
+
+- **Inventory:** 36 unique stable IDs across §§28–40, matching the first-pass claim inventory.
+- **Context and internal computation:** S28–S30 retain context as a candidate definition and computation without new external input as a bounded computational result. Neither conditional notation nor information processing alone establishes causal relevance, semantic truth or external discovery.
+- **Information/physical constraints:** S30-C02 is valid only under its Markov-chain condition; S31's constraints remain distinct rather than one scalar resource. S31-EQ01 cross-references the Landauer result already audited in Batch B.
+- **Intelligence construct:** S32-C01/EQ02 are framework definitions; S32-M01 remains an unvalidated composite index and cannot be reported as a psychometric intelligence measure.
+- **Learning and control:** S34-EQ01 is not a canonical TD algorithm as written; S34-C01 must split learning mechanisms. S35's model-based/model-free equations are candidate RL abstractions, not proof of a psychological habit mechanism. S36 is a normative control-allocation synthesis with established neighbours, not a distinct law.
+- **Behavioural state:** S37-C01 is supported only in selected domains; S37-EQ01 and S39-M01/EQ01 remain candidate models requiring typed variables, dependence-aware estimation and validation. S38's timescale bands are illustrative.
+- **Status language:** S33-C01 must be downgraded from “resolved” to “provisional formal outline”; S40-C01 remains a summary, not independent evidence.
+
+**Batch C disposition:** 36/36 unique IDs reconciled to canonical fields at first-pass integrated level. Definitions, models and equations remain subject to their stated scope and dependencies. This is not independent review or final source closure. No treatise/tracker edits; no experiments executed or authorized.
+
