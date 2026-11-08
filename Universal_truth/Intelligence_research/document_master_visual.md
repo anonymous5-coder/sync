@@ -1195,7 +1195,7 @@ The five questions yield the following conclusions:
 2. Inference can continue without new external input when internal state and rules remain.
 3. Novel conclusions can be derived from implicit structure, but arbitrary unconstrained facts cannot be uniquely inferred.
 4. Physical information processing is bounded by energy, time, memory, bandwidth, noise, and causality.
-5. Intelligence is not merely computation; it is adaptive, model-based use of computation under changing conditions.
+5. The framework provisionally defines intelligence as adaptive, model-based use of computation under changing conditions.
 
 **Investigation A yields a provisional conceptual synthesis, not a resolved or validated theory.** Its formal claims remain conditional, its proposed intelligence measure is unvalidated, and its empirical adequacy depends on operationalization, comparison with established alternatives, and prospective testing.
 
@@ -1371,9 +1371,11 @@ Behavioural control operates across several timescales:
 | Weeks–months | Habit consolidation and environmental adaptation | Automatic phone checking |
 | Months–years | Identity, goals, health, and life structure | Persistent avoidance of academic work |
 
-An intervention must match the timescale of the mechanism.
+These bands are illustrative, not empirically fixed boundaries or a universal sequence. Processes can overlap and operate concurrently; the relevant time horizon depends on the target behaviour and decision being studied.
 
-A brief inhibition technique can interrupt an immediate response. It cannot alone redesign a long-standing environment or resolve a sleep disorder. No multistable attractor landscape, basin geometry or transition-barrier model is specified in this treatise; those analyses are deferred until a concrete state space and transition law exist.
+An intervention should be designed with the relevant mechanism's timescale in view. This is a design heuristic, not a validated universal rule. A brief inhibition technique may interrupt an immediate response, but it does not by itself establish lasting environmental change or resolve an underlying sleep disorder. No multistable attractor landscape, basin geometry or transition-barrier model is specified in this treatise; those analyses are deferred until a concrete state space and transition law exist.
+
+**Claim-linked evidence register records:** R28, R30, R38, R49. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 39. The full behavioural-loop model
 
@@ -1497,8 +1499,7 @@ $$
 H_{t+1}=H_t+\alpha(1-H_t)R_t-\beta H_tN_t
 $$
 
-where:
-- $H_t$ is the strength of the new habit;
+where:- $H_t$ is the strength of the new habit;
 - $\alpha$ is a learning parameter;
 - $R_t$ represents successful rehearsal;
 - $\beta$ is a weakening parameter;
