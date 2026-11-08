@@ -1197,8 +1197,7 @@ Theophile Bigirumurame, Germaine Uwimpuhwe and James Wason, “Sequential multip
 
 - The final synthesis is more confident than the evidence and formal audits warrant. The recurring verb “establishes” should be downgraded to “proposes,” “describes,” or “is supported in the following limited respect,” according to each claim.
 - Space or Null Theory is currently a broad context/structure principle; its distinctive contribution remains unestablished.
-- Out of Box Theory's defensible core is bounded inference from supplied premises. Theorem 1 requires a completeness correction and actual-world correspondence must be distinguished from formal entailment.- The physical–cognitive bridge is a plausible multi-level hypothesis, not a completed causal explanation of unwanted behaviour.- Recursive Intelligence overlaps established metacognition/meta-control; distinctiveness remains unresolved.- ROOT is an unvalidated intervention architecture. Its component strategies do not establish package-level efficacy.
-- The final unified equation is presently conceptual and inconsistent with the earlier state representation. It must not be described as a derived mathematical law.
+- Out of Box Theory's defensible core is bounded inference from supplied premises. Theorem 1 requires a completeness correction and actual-world correspondence must be distinguished from formal entailment.- The physical–cognitive bridge is a plausible multi-level hypothesis, not a completed causal explanation of unwanted behaviour.- Recursive Intelligence overlaps established metacognition/meta-control; distinctiveness remains unresolved.- ROOT is an unvalidated intervention architecture. Its component strategies do not establish package-level efficacy.- The final unified equation is presently conceptual and inconsistent with the earlier state representation. It must not be described as a derived mathematical law.
 - The final “completed” list records manuscript contents, not validated research outcomes. Empirical studies remain unexecuted.
 - No treatise or tracker edits were made; no experiment was executed or authorized.
 
@@ -2397,7 +2396,6 @@ A minimal sequential skeleton could then be written as:
  U(\theta_t,\pi_t,b_t,g_t,y_t,\rho_t).\]
 This skeleton is intentionally incomplete: it shows the type boundaries and update ordering that must be specified, but it does not establish that the selected variables form a sufficient state, that the operators are identifiable, or that the model predicts human behaviour. A final specification must decide whether environment updates are endogenous, how goals can be revised, how outcomes are observed, and whether policy learning and self-model learning are separate operators.
 ### 33.4 Integration tests required before calling the model unified
-
 - **Type check:** every operator declares input/output spaces, units, permissible values, missingness and error behaviour.
 - **State sufficiency:** demonstrate or explicitly disclaim Markov sufficiency; compare a reduced state with relevant history-augmented alternatives.
 - **Causal ordering:** identify whether observation precedes action, action precedes outcome, and feedback updates memory, model, policy or goals; separate simultaneous from serial operations.
@@ -3597,8 +3595,7 @@ The edition-language and architecture-level dependency pass is complete for §§
 
 | Record | Additional route checked | Result | Evidence status ||---|---|---|---|
 | R32 — Webb & Sheeran (2008) | Wiley full-text and PDF routes; University of Sheffield White Rose repository | Wiley's retrieved full-text/PDF route redirects to an abstract page with a “Read the full text” access control; White Rose explicitly states that a full-text copy is not available for download. Search-indexed material reproduces the abstract, not the article body. | Remains abstract-level. Study 2 sample, full method, exact mediation statistics and detailed page pinpoints remain unverified. |
-| R43 — Lowe et al. (2017) | ScienceDirect publisher article and PubMed record | Publisher page is access-controlled/purchase-only in the available route; PubMed provides abstract and bibliographic metadata. | Remains abstract/publisher-preview level; no full-text table or forest-plot audit. |
-| R61 — Madsen et al. (1992) | American Physiological Society/Atypon article and PDF routes; PubMed; regional publication record | Publisher metadata labels the article subscriber-only; the PDF endpoint was not accessible through the available retrieval route. PubMed and the regional record expose the abstract, not the complete methods/results/tables. | Remains abstract-level primary evidence. Do not infer sample size, protocol detail or unreported uncertainty. |
+| R43 — Lowe et al. (2017) | ScienceDirect publisher article and PubMed record | Publisher page is access-controlled/purchase-only in the available route; PubMed provides abstract and bibliographic metadata. | Remains abstract/publisher-preview level; no full-text table or forest-plot audit. || R61 — Madsen et al. (1992) | American Physiological Society/Atypon article and PDF routes; PubMed; regional publication record | Publisher metadata labels the article subscriber-only; the PDF endpoint was not accessible through the available retrieval route. PubMed and the regional record expose the abstract, not the complete methods/results/tables. | Remains abstract-level primary evidence. Do not infer sample size, protocol detail or unreported uncertainty. |
 | R63 — Backs & Seljos (1994) | ScienceDirect article/PDF route; PubMed; indexed scholarly records | ScienceDirect indicates institutional/purchase access; PubMed and indexed records reproduce the abstract. No accessible full article was obtained. | Remains abstract-level primary evidence. Do not treat abstract findings as a full table-level review. |
 
 ### 64.2 Interpretation
@@ -4517,4 +4514,40 @@ The 26 no-pointer sections fall into different classes:
 The pointer inventory is internally consistent at the identifier level after deduplication. The existence of 69 blocks does not show that all factual claims within those sections are supported, and the 26 no-pointer sections are not automatically citation defects. The source-pointer map is a navigation aid; the full 95-section sentence-level audit, exact pinpoint verification, bibliography metadata audit, and final render/citation review remain open.
 
 **Safeguard:** no empirical claim was upgraded by this inventory check. No experiment was executed, approved, preregistered or shown ready. Experiments A–F remain behind their existing gates. No merge or plan retirement is authorized.
+
+## 86. Targeted sentence-level reconciliation — §§33 and 38
+
+**Scope.** Rechecked the current treatise wording in §§33 and 38 against the stable-ID dispositions in the existing claim register, the source-pointer map and the sources already audited in §§75, 78, 83 and 84. This is a targeted consistency pass, not completion of the remaining 95-section sentence-level audit.
+
+### 86.1 §33 — Investigation A summary
+
+The current five-point summary is a synthesis of definitions, conditional formal results, physical constraints and a proposed intelligence definition. Its concluding paragraph already states that Investigation A is a provisional conceptual synthesis, not a resolved or validated theory.
+
+**Disposition:** the earlier S33-C01 downgrade remains correct. The phrase “Intelligence is not merely computation” could be read as a universal settled definition, whereas S32-C01/S32-EQ02 classify the distinction as the framework's provisional operational definition, not an accepted necessary-and-sufficient definition of intelligence. The treatise was therefore revised to say: “The framework provisionally defines intelligence as adaptive, model-based use of computation under changing conditions.” No claim of novelty, construct validity or empirical superiority is added.
+
+The five-point summary does not need a new independent source list merely because it synthesizes earlier sections. Its support and limits remain in the underlying claim records: the information/logic sections, the physical-resource sections, and the intelligence-measurement review in §82. The §33 summary should continue to be read with those source and formal qualifications, not as a new evidential result.
+
+### 86.2 §38 — Multi-timescale model
+
+The register's existing S38-C01 assessment classifies the table as a useful heuristic, with illustrative rather than empirically established boundaries. The prior treatise wording did not make that status explicit and used the absolute sentence “An intervention must match the timescale of the mechanism.”
+
+The treatise was revised to state that:
+- the bands are illustrative, not empirically fixed boundaries or a universal sequence;
+- processes can overlap and operate concurrently;
+- the relevant horizon depends on the target behaviour and decision;
+- timescale matching is a design heuristic, not a validated universal rule; and
+- brief inhibition may interrupt an immediate response but does not itself establish lasting environmental change or resolve an underlying sleep disorder.
+
+A source-pointer block was added for R28, R30, R38 and R49. Their evidential roles are deliberately bounded:
+- R38 is a specific interruption/resumption study showing a speed–accuracy trade-off in a routine data-entry task; it does not validate a universal short-timescale behavioural process.
+- R28 and R30 concern automaticity development in repeated everyday/walking behaviours; they do not establish a universal habit-consolidation timetable or a months-to-years identity mechanism.
+- R49 is methodological guidance for choosing sequential-randomization designs according to decision cadence; it does not empirically validate the table's behavioural timescale bands.
+
+**Disposition:** the revised §38 now matches S38-C01's provisional status. The timescale table remains a conceptual decomposition, not a validated multiscale behavioural law or identified dynamical system.
+
+### 86.3 Remaining boundary
+
+No additional claim was upgraded. The source-pointer addition in §38 increases the treatise pointer count by one section; §33 remains a synthesis whose evidence is traceable through its underlying sections and register records. Further work remains on sentence-level support, exact pinpoints, and consistency across the full 95-section document.
+
+**Safeguard:** no experiment was executed, approved, preregistered or shown ready by this pass. Experiments A–F remain behind their existing gates. No tracker edit, merge or plan retirement is authorized.
 
