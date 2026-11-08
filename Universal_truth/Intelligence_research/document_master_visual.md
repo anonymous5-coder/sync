@@ -616,7 +616,7 @@ This is heat dumped to the environment under specified assumptions, not the heat
 
 The principle relevant to this treatise is broader: information processing is physically implemented, and its implementation has energetic and temporal costs.
 
-**Claim-linked evidence register records:** R09, R10, R11, R12, R13, R60, R61, R62, R63, R69. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R09, R10, R11, R12, R13, R60, R61, R62, R63, R69, R70. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 18. The brain as an open non-equilibrium system
