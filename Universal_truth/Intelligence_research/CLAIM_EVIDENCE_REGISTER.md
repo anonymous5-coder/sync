@@ -4311,3 +4311,87 @@ The source pointers in §§46–50 identify close established neighbours, not pr
 5. Continue the full 95-section sentence-level claim/source audit, theorem dependency closure, E17/E18 provenance recovery, render/citation review and independent external review.
 
 **Safeguard:** no experiment has been run, approved for execution, preregistered or shown ready by this reconciliation. Experiments A–F remain behind their existing gates. No merge or plan retirement is authorized.
+
+
+## 83. Source-to-claim audit — habit formation, implementation intentions and digital friction (R28–R34)
+
+**Scope.** This pass rechecks the high-impact behavioural source cluster attached to §§34–45, §55, §56 and Experiments D/E. It distinguishes automaticity, goal attainment, objectively logged screen time and subjective problematic-use ratings. These are different outcomes and cannot be treated as interchangeable measures of “habit strength” or sustained attention.
+
+### 83.1 R28 — Lally et al. (2010), habit formation in everyday life
+
+The Wiley publisher article/abstract and bibliographic record were rechecked. The study followed 96 volunteers who selected an eating, drinking or activity behaviour to repeat daily in a consistent context for 12 weeks; 82 provided sufficient data. Automaticity trajectories were modelled for 62 participants, with good fit for 39. The modelled time to 95% of each participant's automaticity asymptote ranged from 18 to 254 days; missing one opportunity did not materially alter the fitted process.
+
+**Locator and access:** publisher abstract and article metadata inspected; the full PDF endpoint returned access denied in this pass. Exact methods/results table and figure page locations therefore remain unverified.
+
+**Claim fit:** supports highly variable, context-associated increases in self-reported automaticity in selected everyday behaviours. It does not establish a universal acquisition time, an objective neural habit-strength variable, negative-habit extinction, the §42/§56 recurrences or a general sustained-attention intervention.
+
+### 83.2 R29 — Singh et al. (2024), health-habit systematic review/meta-analysis
+
+The current published record and PubMed Central abstract/search-exposed article text were rechecked. The review includes 20 studies and 2,601 participants across selected positive health behaviours. Eleven studies were rated high risk of bias. Only four studies directly reported time to an automaticity threshold: median estimates were 59–66 days, means 106–154 days, with individual estimates spanning 4–335 days. The pooled SMD of 0.69 (95% CI 0.49–0.88) is a pre–post change in self-reported habit/automaticity scores, not a randomized pooled treatment-versus-control causal effect; heterogeneity was high (I²=87%). Publication bias was not assessed. The review excluded studies focused on stopping non-virtuous behaviours, including social-media reduction.
+
+**Locator and access:** publisher/PubMed metadata and abstract, plus the indexed full-text discussion/conclusion, were inspected. A direct PMC open attempt encountered an access challenge in this pass; the existing register's prior full-text review remains the basis for detailed methodological notes. No new table-level reanalysis was performed.
+
+**Claim fit:** supports improvement in self-reported automaticity in selected positive health-behaviour interventions and large variability in time-to-threshold. It is not direct evidence for breaking smartphone habits, the §42/§56 recurrence, or the effectiveness of ROOT.
+
+### 83.3 R30 — Ebert & Lin (2024), randomized consistent-context walking intervention
+
+PubMed's version-linked record and abstract were inspected. The randomized planning intervention included 127 insufficiently active working midlife adults and compared consistent-context planning, varied-context planning and a no-plan control. Accelerometer-measured steps and habit automaticity were followed over four weeks and a further four-week follow-up. Both planning groups increased walking during intervention; only consistent-context planners developed and maintained greater automaticity. Contrary to expectation, consistent-context planners did not show walking maintenance. Across conditions, greater intervention-period automaticity was associated with less decline in later walking. Routine daily schedules moderated some effects; no-plan participants with more routine also developed automaticity through more consistent walking contexts.
+
+**Locator and access:** PubMed abstract, methods/result/conclusion text and publication metadata inspected (2024; 58(11), 741–751; DOI 10.1093/abm/kaae045). Full publisher article tables/supplementary analyses were not independently inspected in this pass.
+
+**Claim fit:** this randomized study supports a causal effect of consistent-context planning on walking automaticity in this sample and setting. It explicitly cautions against equating automaticity with maintained behaviour. It does not validate a universal habit law, the treatise's recurrence or sustained attention gains.
+
+### 83.4 R31 — Gollwitzer & Sheeran (2006), implementation-intention meta-analysis
+
+The existing full-chapter inspection was rechecked against the registered summary. The chapter reports 94 independent tests from 63 reports and 8,461 participants, with an average goal-attainment effect d=0.65 (95% CI 0.60–0.70); heterogeneity was significant. Most tests used university-student samples. The cue-accessibility/response-automaticity component-process synthesis is based on substantially fewer tests than the overall goal-attainment estimate.
+
+**Locator and access:** full chapter PDF inspected in the earlier source pass; overall estimates pp. 92–94 and component-process discussion pp. 97–101. This is a meta-analysis, not a new primary trial.
+
+**Claim fit:** supports if–then implementation intentions as a goal-attainment intervention on average in the studied contexts. It does not establish a context-free stimulus–response habit, guaranteed compliance, a complete ROOT mechanism or individual-level expected effects.
+
+### 83.5 R32 — Webb & Sheeran (2008), accessibility of plan components
+
+PubMed and the Wiley publisher record/full-text landing page were inspected. Study 1's meta-analysis of 66 tests found negligible effects of implementation intentions on goal intentions and self-efficacy. Study 2's abstract reports simultaneous mediation by accessibility of specified situational cues and strength of the cue–intended-response association.
+
+**Locator and access:** PubMed abstract and publisher abstract/metadata inspected. The publisher full-text/PDF route was not accessible as article body in this pass; sample details, measures, model coefficients and exact result tables remain unverified.
+
+**Claim fit:** supports a cue-accessibility and opportunity–response-link account within implementation-intention research, but the full mediation evidence cannot be independently appraised from the accessible abstract alone. It does not establish universal cue-triggered action or equivalence to goal-independent habit learning.
+
+### 83.6 R33 — Zimmermann & Sobolev (2023), randomized digital-friction field experiment
+
+The SAGE article page, abstract, notes and linked preregistration/OSF references were inspected; the existing full-PDF inspection is retained. The preregistered field experiment included 112 participants over several weeks, comparing grayscale design friction, self-commitment to time limits and self-monitoring. Grayscale produced an immediate reduction in objectively measured screen time relative to control; goal-setting produced a smaller, more gradual reduction. No immediate causal effect of reduced usage on subjective well-being or academic performance was found. The publisher notes that allocation was initially uneven due to a coding error and was corrected; results were directionally similar but not statistically significant when excluded participants were included.
+
+**Locator and access:** full PDF inspected in the earlier source pass; current publisher page/abstract and notes rechecked. The accessible publisher abstract confirms the preregistered N=112 design and principal outcomes; full article contains the procedure and group comparisons.
+
+**Claim fit:** supports a local screen-time effect for grayscale in this study. It does not measure sustained attention, establish academic benefit, validate app relocation (not tested in this study) or establish ROOT efficacy. The allocation note and sensitivity statement must remain visible when summarizing the trial.
+
+### 83.7 R34 — Ochs & Sauer (2022), smartphone obstruction field experiment
+
+The Taylor & Francis publisher record and abstract were rechecked. The one-week field experiment included 97 students assigned to app relocation, grayscale or control. Objective smartphone use declined relative to the preceding week, but the decline also appeared in the control group; self-reported problematic smartphone use increased. The authors discuss heightened awareness of use as a possible explanation.
+
+**Locator and access:** publisher abstract and bibliographic record inspected; full article body and condition-level tables/figures were not accessible in this pass.
+
+**Claim fit:** supports the need to separate logged behaviour from self-report and to account for measurement/awareness reactivity. The abstract does not establish a clean between-group causal effect, sustained-attention improvement or long-term maintenance.
+
+### 83.8 Cross-source synthesis and current claim dispositions
+
+| Claim family | Evidence-supported boundary | What remains unsupported |
+|---|---|---|
+| S34-C01 / §§34–36 | Cue–outcome, action–outcome, model-based/model-free strategy and stimulus–response automaticity are distinct processes; implementation intentions link a specified cue to a goal-directed response. | A single generic cue-response update that explains all associative, instrumental and habit learning. |
+| S42-C01 / S42-M01 / S56-M01 | Automaticity can increase with repetition and stable context; formation times vary substantially; consistent-context planning can causally change automaticity in a bounded walking setting. | A universal habit-acquisition duration, a validated saturating/additive recurrence, or a general law of habit persistence/extinction. |
+| S41-C01 / S43-C01 / S79-EXP-D | Grayscale can reduce objectively logged screen time in one randomized field experiment; a second field study's abstract shows pre/post declines also in control and increased self-reported problematic use. | A general obstruction effect, sustained-attention improvement, app-relocation efficacy, a standardized environmental-leverage ratio or durable behavioural change. |
+| S55-C01 / S80-EXP-E | If–then planning can improve goal attainment on average; specified cue accessibility and cue–response association are plausible mechanisms. | A guaranteed response, context-free habit formation, or ROOT package efficacy. |
+
+The newer R48 meta-analysis (2025) remains an important counterweight to reading R31 alone: its accepted manuscript reports substantial publication bias and a small RoBMA model-averaged effect (d=0.15), alongside high heterogeneity. The estimates differ in inclusion period, outcome scope and model; they should not be averaged or treated as a direct contradiction without a harmonized reanalysis.
+
+**Disposition:** the existing claim rows S34, S41–S43, S45, S55–S56 and S79–S80 already contain appropriate provisional downgrades. This audit strengthens their source boundaries but does not upgrade the recurrence equations, intervention metrics or ROOT efficacy. No treatise or tracker edit is warranted by this source pass.
+
+### 83.9 Remaining source and method dependencies
+
+1. Obtain and inspect full text/tables for R28, R30, R32 and R34 where access permits; do not fabricate exact page/table pinpoints from abstracts.
+2. Preserve R29's distinction between pre–post automaticity change and controlled causal effects, its high heterogeneity and exclusion of negative-habit cessation.
+3. Preserve R33's preregistration, allocation-correction note and sensitivity analysis; screen time is not sustained attention.
+4. Keep opportunity-level denominators, objective and subjective outcomes, substitution, reactivity, fidelity, maintenance and burden distinct in any future D/E design.
+5. Reconcile the §42 and §56 equations only after a single operational habit construct and identifiable update process are specified.
+
+**Safeguard:** no experiments were executed, approved for execution, preregistered or shown ready by this audit. No result is attributed to the user's personal behaviour. Experiments A–F remain behind their existing gates.
