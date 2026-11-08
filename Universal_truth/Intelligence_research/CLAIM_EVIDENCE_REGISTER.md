@@ -4247,3 +4247,67 @@ This line-map is not a full 95-section sentence-level audit. It does not close e
 
 **Disposition:** current line references for the most recently revised high-impact clusters are reconciled. The manuscript remains NOT REVIEW-READY. Continue with claim-level source and formal dependency audits; do not authorize or imply execution of Experiments A–F, merge or plan retirement.
 
+
+
+## 82. Post-revision claim-record reconciliation — §§32–33 and §§46–50
+
+**Purpose and record-keeping rule.** The claim tables earlier in this register preserve the original baseline wording and baseline line references. They are historical audit records, not a live mirror of the revised treatise. This section supplies the current-edition disposition after the controlled revisions recorded in §§79–80. It does not erase the original defects or imply that the models are validated.
+
+### 82.1 Current-edition line and source-pointer check
+
+The current treatise snapshot remains blob `4f72ad4b9a34cb6046d831014aec7207fb10a6d7` (2,802 lines; 95 numbered sections).
+
+| Current section | Current lines | Treatise source pointers | Current-edition claim boundary |
+|---|---:|---|---|
+| §32 | 1139–1189 | R27, R58, R59 | A stipulated functional definition and a candidate five-component measurement proposal; not a validated intelligence construct or score. |
+| §33 | 1190–1205 | No separate pointer block; follows the §32 synthesis | Provisional conceptual synthesis; not a resolved or empirically validated theory. |
+| §46 | 1618–1652 | R24, R35–R37, R39, R51, R54, R55 | Latent-state estimator from observation/action/outcome history and an unspecified typed parameter-update operator; not an identified algorithm. |
+| §47 | 1653–1684 | R35, R37, R39, R51, R54, R55 | Generic feedback/update loop; no distinct recursive mechanism follows from the diagram alone. |
+| §48 | 1685–1714 | R35–R37, R51, R54, R55 | Fallible self-model and prospective model-testing safeguard; not evidence of self-model accuracy. |
+| §49 | 1715–1754 | R35, R37, R51, R54, R55 | Finite-horizon expected-return objective under a specified policy/transition distribution; update expression remains a placeholder absent parameterization and gradient specification. |
+| §50 | 1755–1777 | R35, R37, R51, R54, R55 | Illustrative goal ordering; a general account needs partial-order semantics or an explicit conflict-resolution rule. |
+
+### 82.2 Intelligence functional — current disposition of S32-EQ02 and S32-M01
+
+The §32 definition of intelligence as adaptive use of computation is explicitly a definition selected for this framework, not a universally accepted necessary-and-sufficient definition. It overlaps adaptive intelligence accounts and established cognitive-ability models; the wording must not imply that the five listed properties are universally required of every intelligent system.
+
+The weighted expression
+`\mathcal I=w_1G+w_2A_d+w_3P+w_4T_r+w_5R_c`
+is a candidate composite, not an operationally complete scale. The current treatise correctly requires indicators, task sampling, scoring direction, normalization, reliability, construct/criterion/discriminant validity, prespecified weight rationale and out-of-sample validation. Component profiles and uncertainty must accompany any composite because a compensatory sum can conceal a weak component.
+
+**Source fit and access boundary:**
+- **R27 — AERA/APA/NCME (2014):** the official Standards were inspected in full. Chapter 1, “Validity,” printed pp. 11–30 (especially pp. 11–13), supports validity evidence tied to the intended score interpretation and use. Chapter 2, “Reliability/Precision,” pp. 33–47, supports reliability/precision as population- and replication-domain-sensitive. Chapter 3, “Fairness in Testing,” pp. 49–70, supplies a fairness requirement. This is standards guidance, not validation evidence for this proposed index.
+- **R58 — Sternberg (2019):** theoretical article/review; publisher metadata and abstract verified, but full-text page/section pinpoint remains open. It establishes adaptive intelligence as a developed theoretical comparator to psychometric general intelligence; it does not validate this functional.
+- **R59 — McGrew (2023):** theoretical/historical review plus secondary analyses of an archived 46-test Woodcock–Johnson III dataset. Bibliographic metadata, abstract and selected indexed full-text material were checked; complete table/supplementary reanalysis was not performed. It is a CHC/three-stratum psychometric comparator, not a new independent sample and not a validation of the proposed five-component score. The archived dataset, alternative model fit and declared financial conflict remain relevant limitations.
+
+**Current disposition:** retain the functional as a framework-specific candidate measurement proposal. Do not call it an intelligence test, validated metric, replacement for g/CHC measures, or evidence of a new intelligence construct. Its incremental contribution is unestablished. Before any cross-population or subgroup comparison, add an explicit fairness/measurement-invariance plan appropriate to the intended use; do not assume score comparability from a common formula. The existing treatise paragraph does not yet fully specify that subgroup-comparability gate.
+
+### 82.3 Investigation A — current disposition of S33-C01
+
+The current §33 no longer says that Investigation A is “resolved.” It calls the result a provisional conceptual synthesis and expressly preserves conditional formal claims, an unvalidated intelligence measure, alternative-theory comparison and prospective testing as open dependencies.
+
+**Disposition:** the previous baseline-row instruction to downgrade the phrase has been implemented. Retain the five conclusions only as a synthesis of definitions and bounded results; they do not establish empirical adequacy, a validated intelligence construct or a unified theory. The current text is verified at lines 1190–1205. Do not treat the historical S33-C01 row as evidence that the old wording remains in the manuscript.
+
+### 82.4 Recursive self-model and controller — current disposition of S46–S50
+
+| Stable claim family | Current disposition after the controlled edit | Remaining formal/empirical dependency |
+|---|---|---|
+| S46-M01 / S46-EQ01–EQ03 | Estimator now consumes observation, action and outcome histories; latent state is not supplied directly. The update is an unspecified typed operator. | Define observation model, state/parameter spaces, estimator, constraints, objective, uncertainty, update cadence and identifiable algorithm. |
+| S47-M01 / S47-C01 | Feedback modifying later parameters is ordinary adaptive control/RL and metacognitive control as well as a broad recursive-feedback description. | Identify an additional represented object or meta-level operation and a prediction not made by strong metacognition/meta-control/adaptive-control baselines. |
+| S48-C01 / S48-C02 | Retain fallibility and prospective prediction under controlled change as methodological safeguards. | Specify competing models, independent outcomes, calibration, time-ordered holdouts and a valid intervention/comparison design. |
+| S49-M01 / S49-EQ01–EQ02 / S49-C01 | Expected return is a standard objective only relative to a specified policy and transition distribution; the policy update is not a defined gradient algorithm. | Specify state/action spaces, reward and cost scales, harm/risk constraints, finite horizon, policy parameterization, differentiability and gradient estimator—or replace the gradient notation with a general typed update. |
+| S50-M01 / S50-C01 | Four-level goal chain is illustrative, not a universal total order. | Define priority semantics, incomparable goals, conflict resolution, legitimate goal revision and safeguards against objective/metric gaming. |
+
+The source pointers in §§46–50 identify close established neighbours, not proof of identity or novelty. R35–R37 and R51 cover metacognition/meta-control; R39 is a primary human task study of strategy adaptation; R54–R55 cover bounded metacognitive interventions; R24 supplies an expected-value-of-control comparator. Their designs and outcomes are not interchangeable. In particular, meta-control in a sequential decision task, monitoring-accuracy interventions and computer-based learning prompts do not validate the treatise's self-model estimator or typed update operator.
+
+**Current disposition:** §§46–50 are clearer conceptual architecture, but not an executable controller, a demonstrated new mechanism, or evidence of incremental predictive benefit. The construct-distinctness gate in §78 remains open and governs any future novelty claim.
+
+### 82.5 Dependency closure and next audit
+
+1. Keep baseline claim-table rows as historical records; use this section for current-edition dispositions until a full claim-ledger normalization is authorized.
+2. Complete the source pinpoint and bibliographic audit for R58–R59 and all remaining intelligence claims; record exact source locations and access limitations rather than upgrading abstract-level records.
+3. Specify the candidate intelligence measure's target population, task universe, indicators, scoring model, reliability design, fairness/invariance checks, criterion outcomes, comparator battery and held-out validation before proposing data collection.
+4. For Recursive Intelligence, complete the typed estimator/controller specification and compare it with metacognitive monitoring/control, meta-control, adaptive control and RL using matched-information baselines and discriminating predictions.
+5. Continue the full 95-section sentence-level claim/source audit, theorem dependency closure, E17/E18 provenance recovery, render/citation review and independent external review.
+
+**Safeguard:** no experiment has been run, approved for execution, preregistered or shown ready by this reconciliation. Experiments A–F remain behind their existing gates. No merge or plan retirement is authorized.
