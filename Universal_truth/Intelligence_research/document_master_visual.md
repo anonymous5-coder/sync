@@ -392,9 +392,9 @@ The system does not need to observe the particular event described by $p$ if the
 4. The derivation uses the premises and inference rules in $K$; it does not require a new direct observation of the target event.
 5. The nonempty model-class condition prevents the entailment from being vacuous because $K$ has no models. The result establishes derivability from $K$, not actual-world truth. For that further claim, the actual world $W$ must satisfy the premises: $W\models K$.
 
-$
+$$
 K\models p\quad\xRightarrow[\text{completeness}]{}\quad K\vdash p
-$
+$$
 
 The proposition can be new to the system while being logically constrained by information it already possesses. This is discovery relative to the system's prior representation, not acquisition of an unconstrained fact from nothing.
 
