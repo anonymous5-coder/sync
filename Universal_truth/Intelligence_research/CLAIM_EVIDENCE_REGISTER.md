@@ -4,7 +4,7 @@
 
 **Audit baseline:** `document_master_visual.md` on branch `edition`, blob `123abdbe9ad3e6c24d150e7db2f38e9562d520d5` (2,618 lines; 95 numbered sections). Section line locations below refer to this exact baseline and must be refreshed if the source changes.
 
-**Cumulative claim-level scope at this revision:** Sections 1–74, preserved as five separately auditable batches: §§1–15, §§16–27, §§28–40, §§41–59 and §§60–74. Each batch retains its own section boundaries, source assessments, findings and historical status. This is a first-pass claim-level source/disposition record, not completion of the full 95-section audit.
+**Cumulative claim-level scope at this revision:** Sections 1–89, preserved as six separately auditable batches: §§1–15, §§16–27, §§28–40, §§41–59, §§60–74 and §§75–89. Each batch retains its own section boundaries, source assessments, findings and historical status. This is a first-pass claim-level source/disposition record, not completion of the full 95-section audit.
 
 ## 1. Adjudication conventions
 
