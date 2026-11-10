@@ -1436,7 +1436,7 @@ This provides a mechanistic account of why a person may know what to do yet repe
 
 ## 41. Research question C1: Can trigger-specific interventions improve sustained attention?
 
-Yes, in principle, because the model identifies state variables that can be changed before or during action selection.
+The framework hypothesizes that trigger-specific interventions can improve sustained attention by changing state variables before or during action selection. This is a testable intervention hypothesis, not an empirical answer about the efficacy of ROOT or any particular package.
 
 A trigger-specific intervention changes one or more of:
 
@@ -1520,7 +1520,7 @@ A new response becomes more reliable through repeated execution in the relevant 
 
 ## 43. Research question C3: Which environmental changes produce the largest improvements?
 
-The model predicts the greatest benefit from interventions that change high-leverage variables:
+The model hypothesizes that benefit may be greatest for interventions that change high-leverage variables:
 
 - remove or reduce cues with strong learned associations;
 - increase friction for unwanted actions;
@@ -1546,7 +1546,7 @@ $$
 
 A high-$\Lambda$ intervention is intended to represent a large reduction in unwanted-action probability relative to its implementation burden. To estimate it, define the baseline/comparator, eligible-opportunity denominator, observation window and burden scale in advance. If implementation cost is zero, the ratio is undefined; if the probability reduction is negative, the result indicates worsening rather than benefit. Comparisons across interventions require a common cost scale. This is an exploratory heuristic, not a validated universal or clinical score.
 
-**Claim-linked evidence register records:** R33, R34. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R33, R34. These studies provide limited evidence for specific digital-friction/screen-time interventions; they do not validate the leverage ratio, cross-intervention ranking or the full list of environmental recommendations. The remaining items are candidate intervention hypotheses. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 44. Research question C4: How can behavioural recovery be measured?
@@ -1580,7 +1580,7 @@ where:
 - $L_r$: return-to-task latency;
 - $S_c$: successful cue-response substitutions.
 
-The weights must be selected for the task, and the component measures require prespecified direction, time window and scaling before they can be combined. Without commensurable scales, the weighted sum is not interpretable as a coherent quantity. The composite is exploratory, not validated; a composite score should never conceal the underlying measurements.
+The weights must be selected for the task, and the component measures require prespecified direction, time window and scaling before they can be combined. Without commensurable scales, the weighted sum is not interpretable as a coherent quantity. Sleep regularity is a separate monitoring metric and is not included in the displayed composite. Return-to-task latency should be paired with resumed-task accuracy; a faster return is not necessarily better if accuracy deteriorates. The composite is exploratory, not validated; a composite score should never conceal the underlying measurements.
 
 **Claim-linked evidence register records:** R27, R38, R41, R42, R44, R47, R50. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
@@ -1745,7 +1745,7 @@ The gradient notation is conceptual. Human self-regulation is not necessarily gr
 
 A critical safeguard is that the goal function itself must be reviewable. An intelligent system can optimize the wrong objective with great efficiency.
 
-**Claim-linked evidence register records:** R35, R37, R51, R54, R55. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R16, R24, R35, R37, R51, R54, R55. R16/R24 provide reinforcement-learning and control-allocation context for the generic objective; R35/R37/R51/R54/R55 concern metacognition, meta-control and self-regulation. None validates the selected human reward/cost/harm terms, weights or gradient-like update. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 50. Goal hierarchy and the reflective controller
@@ -1781,7 +1781,7 @@ Self-mastery is not blind obedience to an old plan. It is the capacity to mainta
 
 ## 51. The protocol's role
 
-The ROOT Control Protocol is the operational layer of the unified framework.
+The ROOT Control Protocol is proposed as the operational layer of the unified framework.
 
 It is designed to alter the conditions that generate unwanted action, rather than relying solely on a last-second act of resistance.
 
@@ -1797,7 +1797,7 @@ The seven components are:
 
 The protocol is a behavioural engineering architecture, not a claim that all unwanted behaviour can be eliminated by one universal routine.
 
-**Claim-linked evidence register records:** R28, R34. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R28, R34. These sources inform selected habit/context and digital-obstruction components; they do not demonstrate efficacy of the seven-stage ROOT package or validate its sequence. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 52. State estimation
@@ -1820,7 +1820,7 @@ where:
 
 The system estimates $s_t$ using observation and reflection. The estimate need not be perfect; it must be good enough to select a useful intervention. Here $f_t$ is an ordinal self-rating of perceived fatigue, not an objective physiological measurement. In the reduced six-variable model in §39, $z_t$ denotes task demand/difficulty and uncertainty and corresponds only approximately to $d_t$ here; the ROOT vector additionally records competing-action accessibility as $e_t$. The seven ratings remain ordinal and are not assumed to be equally spaced or directly additive.
 
-**Claim-linked evidence register records:** R27. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R27. This is measurement/testing-standards context; it does not validate the seven-variable ROOT state, its sufficiency or the reliability of its ratings. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 53. R — Recognise
@@ -1845,7 +1845,7 @@ where:
 
 Recognition must distinguish the trigger from the behaviour. "I used my phone" is a behaviour description. "I reached for my phone immediately after encountering an ambiguous problem and feeling frustrated" is a potentially useful trigger description.
 
-**Claim-linked evidence register records:** R27, R38, R41, R42, R47, R50, R53. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R27, R38, R41, R42, R47, R50, R53. These sources inform measurement/reporting standards, EMA validity, interruption-recovery outcomes and habit/context research; they do not validate this event schema. The cue identifier and cue-intensity rating are deliberately separate fields. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 54. O — Obstruct
@@ -1858,11 +1858,13 @@ $$
 e'_t<e_t
 $$
 
-and ideally:
+and, as a testable hypothesis rather than an algebraic consequence:
 
-$$
+$
 p_h(s\mid e'_t)<p_h(s\mid e_t)
-$$
+$
+
+This probability inequality requires a monotonic response model and assumptions about substitution, competing actions and context; lowering accessibility alone does not prove it.
 
 Examples:
 
@@ -1948,7 +1950,7 @@ Examples:
 - If the urge is strong but brief, use a delay and return-to-task routine.
 - If the behaviour is compulsive and impairing, seek appropriate clinical assessment rather than escalating self-punishment.
 
-**Claim-linked evidence register records:** R40. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R40. R40 is general discrete-time linear stability material; it supplies control-theory context only and does not validate this behavioural correction rule or identify a ROOT controller. The signed error is a definition conditional on common units and time windows. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 58. O — Optimise
@@ -1968,7 +1970,7 @@ Relevant variables include:
 
 The objective is not to maximize productivity at all times. It is to maintain a state in which chosen goals can be pursued without chronic depletion.
 
-**Claim-linked evidence register records:** R25, R30, R43, R44. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R25, R30, R43, R44. R25/R43/R44 provide sleep-related evidence and R30 provides a specific context-planning result. The other listed domains (activity, nutrition, hydration, workload and social/emotional stress) remain candidate factors here; this source set does not establish their effects or an integrated optimization rule. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 59. L — Learn
