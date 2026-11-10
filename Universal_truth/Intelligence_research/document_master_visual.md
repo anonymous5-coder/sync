@@ -197,6 +197,8 @@ A system must therefore distinguish a model-derived conclusion from a verified f
 
 ## 5. Definitions
 
+The following are working stipulations for this framework, not empirical findings or validated measurement procedures merely by being defined. Each definition requires domain-specific operationalization before it can support a quantitative or causal claim.
+
 ### Definition 1 — Context
 
 A context is any structured condition that changes the interpretation, probability, cost, or consequence of a system's state transition.
@@ -212,7 +214,7 @@ Context is broader than a sensory stimulus. It includes:
 - mathematical or logical premises;
 - the system's architecture.
 
-Thus, an absence of new external input does not imply an absence of context.
+Thus, an absence of new external input does not imply an absence of context. The definition is deliberately broad; each model must specify which context components are included and how they enter its observation, transition, or decision rules.
 
 ### Definition 2 — Null condition
 
@@ -236,7 +238,7 @@ A literal absence of every physical state and every computational rule is not a 
 
 For this framework, intelligence is the capacity of a system to construct and use internal representations to predict, infer, select, or adapt actions in relation to structured objectives and environmental constraints.
 
-This is an operational definition, not a claim that all intelligent systems are conscious.
+This is an operational definition, not a claim that all intelligent systems are conscious or that the definition already supplies a validated intelligence measure.
 
 ### Definition 4 — Novelty
 
@@ -254,19 +256,19 @@ A generated possibility is not automatically a discovery. A discovery requires a
 
 A habit is a learned policy that can be selected or executed with reduced dependence on deliberative evaluation of the current consequences.
 
-A habit may be beneficial, neutral, or harmful. Automaticity alone does not imply pathology.
+A habit may be beneficial, neutral, or harmful. Automaticity alone does not imply pathology. Empirical use requires a specified behavioural assay and outcome-sensitivity criterion; repetition or automaticity alone is not sufficient to identify a single habit mechanism.
 
 ### Definition 7 — Distraction
 
 A distraction is a shift of limited processing or action resources away from a currently selected objective toward a competing representation or action.
 
-Distraction is defined functionally by displacement, not morally by whether the competing activity is good or bad.
+Distraction is defined functionally by displacement, not morally by whether the competing activity is good or bad. Empirical use requires a defined target objective, eligible opportunity, competing response, displacement measure, and time window.
 
 ### Definition 8 — Self-mastery
 
 Self-mastery is the sustained capacity to preserve, revise, and execute chosen objectives while regulating competing impulses and adapting to feedback.
 
-It does not mean eliminating biological drives, suppressing every thought, or maintaining uninterrupted concentration indefinitely.
+It does not mean eliminating biological drives, suppressing every thought, or maintaining uninterrupted concentration indefinitely. This is a normative/functional construct; its measurement requires explicit chosen objectives, trade-offs, and outcome criteria.
 
 ---
 
