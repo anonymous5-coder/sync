@@ -4769,3 +4769,74 @@ Kenneth E. Train, *Discrete Choice Methods with Simulation*, 2nd ed. (Cambridge 
 ### 90.1 Inventory update
 
 The canonical source inventory now contains R01–R73: 73 identifiers and 70 distinct source works after the three existing aliases R52/R03, R56/R06 and R64/R48. The historical R01–R70 inventory and its prior counts remain preserved in §§70 and 88. No source-access or claim-evidence status is upgraded merely by adding these records.
+
+
+## 91. Citation-to-register reconciliation — treatise §§16–27, current edition
+
+**Current treatise snapshot:** `document_master_visual.md`, blob `6c1760cf8f15ea43742a446771f7a357a2577225`, 2,808 lines, 95 numbered sections. This entry reconciles the current wording and pointer scope against the existing stable claims S16–S27 and source records R09–R73. It is a targeted sentence-level pass over §§16–27, not completion of the remaining 95-section audit.
+
+### 91.1 §16 — Physical–cognitive bridge (S16-C01/C02, S16-EQ01/EQ02)
+
+The original sentence “This is the central derivation of the treatise” contradicted the register's disposition of S16-EQ02 as a proposed causal/mechanistic chain rather than a mathematical derivation. It implied that physical embodiment alone establishes the transitions from resource constraints to bounded computation, cost-sensitive control, action selection and learned persistence.
+
+**Correction:** the treatise now calls this the central *proposed mechanistic bridge hypothesis* and explicitly states that it is not derived from physical embodiment alone; every arrow requires independent evidence, operationalization and a possible falsifier. The pointer note now clarifies that R09, R11, R13, R14, R60 and R63 inform selected physical-computation, neural-energy, effort and workload components only. They do not validate the full causal chain. This aligns with the existing S16-C01/S16-EQ02 downgrades; no claim was upgraded.
+
+### 91.2 §§17–18 — Physical computation and brain energetics (S17-C01/EQ01/EQ02/C02; S18-C01/EQ01/C02/C03)
+
+The current R09/R10 Landauer scope, R11/R12 brain-energy budget, R13 whole-body/cognition review, R14 effort review, R60–R63 human/brain workload studies, R69 walking/cognitive-load study and R70 first-law source are broadly aligned with the claims to which they are attached. The manuscript already distinguishes:
+- first-law heat/work sign convention from Landauer heat dissipated to the environment;
+- ideal logically irreversible bit erasure from arbitrary computation or a human thought;
+- baseline brain metabolism from task-related/local changes;
+- conceptual energy-budget categories from independently identified additive measurements.
+
+No additional wording correction was warranted in this pass. R71 is a second-law source and is not retroactively represented as support for the first-law identity in §17.
+
+### 91.3 §19 — Candidate action score and softmax (S19-M01/M02/C01)
+
+The additive score remains a candidate model, not a neural law. The existing qualification about commensurable units, common decision horizons, double counting, parameter identification and absence of universal coefficients is adequate.
+
+The previous source list R13/R14/R15/R24 covered energetic/effort and cost-sensitive control context but did not identify a discrete-choice/logit reference for the softmax form. **R73** (Train, *Discrete Choice Methods with Simulation*, 2nd ed., 2009, Chapter 3 “Logit,” pp. 34–75) has therefore been added. The treatise now states that the displayed expression is a softmax/logit specification and that a random-utility derivation would require explicit utility-error distribution and independence assumptions not supplied in the current model.
+
+**Access limitation:** Cambridge publisher metadata and contents establish the chapter identity and page range; the full chapter text was not independently inspected in this pass. R73 supports the standard logit model family, not the treatise's action-score coefficients or a biological implementation. The added qualification prevents the softmax equation from being mistaken for a complete random-utility derivation.
+
+### 91.4 §§20–22 — Local action advantage, habit and Q-learning (S20-C01/P03; S21-C01/EQ01/C02; S22-EQ01/C01)
+
+The current Proposition 3 is a conditional algebraic result: given the score inequality, softmax with $\beta>0$ makes the higher-scoring option more probable; a greedy selector chooses it only if it maximizes over the full feasible set. R15/R24 support neighbouring arbitration/control-allocation accounts and R26 provides a stress–habit comparator; none establishes the specific human scores or coefficients. The treatise now states this source limitation explicitly.
+
+Sections 21–22 preserve the required distinction between a cached-policy analogy and validated habit mechanisms, and between standard Q-learning and a biological habit-formation process. R16 is the algorithmic source; R18/R19/R26/R28–R30/R53 are contextual reinforcement-learning, habit, stress and context sources. No evidence establishes that the human behavioural state in this treatise is Markov-sufficient or that the displayed one-step update is a validated biological learning rule.
+
+### 91.5 §23 — Relief and negative reinforcement (S23-C01/EQ01/C02)
+
+The APA Dictionary record R17 is the direct source for the technical definition: a response must be followed contingently by removal/reduction/prevention of an aversive stimulus and an increase in future response probability. The other listed R16/R18/R19/R28/R30/R53 sources provide reinforcement-learning/habit/context background, not direct evidence that a particular person's avoidance response is maintained by relief.
+
+**Correction:** the pointer note now separates R17's definitional role from the contextual sources and explicitly states that individual response–consequence assessment is required. The displayed $u_t>u_{t+1}$ remains only a discomfort-reduction descriptor, not proof of reinforcement.
+
+### 91.6 §24 — Entropy and psychological disorder (S24-C01/C02)
+
+The previous R11/R14 pointer block did not contain a direct thermodynamics source for the second-law/entropy statement. Added **R71**, OpenStax *University Physics Volume 2*, Chapter 4 §§4.4 and 4.6. The official text was inspected. It supports the Kelvin/Clausius statements and the entropy formulation of the second law for closed systems/universe. The treatise pointer now includes R71 alongside R11/R14, whose roles remain neural-energy and cognitive-effort context.
+
+No source is presented as supporting the rejected psychological entropy-maximization shortcut. The claim remains that the second law constrains physical processes but does not, by itself, explain an individual's action choice.
+
+### 91.7 §25 — Helmholtz and variational free energy (S25-EQ01/C01)
+
+R20 is a theoretical neuroscience review relevant to variational free energy; it was not an appropriate sole citation for the physical Helmholtz definition. Added **R72**, Alexander Schekochihin's University of Oxford *Basic Thermodynamics*, Handout 5, “Thermodynamic Potentials” (Michaelmas 2013). The official PDF was inspected: it explicitly defines $F=U-TS$, gives $dF=-S\,dT-p\,dV$ and identifies $T,V$ as natural variables.
+
+The treatise pointer now lists R20 and R72 with their separate roles. R72 is university lecture material, not a peer-reviewed research article. Neither reference supports identifying the two free-energy quantities.
+
+### 91.8 §§26–27 — Bridge synthesis and predictions (S26-M01/TH03; S27-H01–H08)
+
+The conditional score-selection result in §26 is algebraically valid under its stated score and selector assumptions. It does not derive the physical-to-behavioural bridge or prove that repetition strengthens a cue-policy association. The text already states that a separate learning/update rule would be required.
+
+The source-pointer notes for §§26–27 now explicitly distinguish component evidence from validation of the integrated bridge. R13/R14/R15/R60/R63 inform selected resource, effort, arbitration and workload components; R13/R15/R23/R26/R29/R30/R33/R34 inform selected energy/effort, incentive-salience, stress/habit, habit-formation, context and smartphone-intervention comparators. These sources do not establish every listed predictor, the full causal chain or universal intervention effects. The predictions remain hypotheses.
+
+### 91.9 Result and remaining dependencies
+
+- Corrected the overstatement in §16 that called the bridge a derivation.
+- Added R71 for the second-law/entropy claims in §24, R72 for the Helmholtz definition in §25, and R73 for the discrete-choice/logit specification in §19.
+- Clarified pointer scope in §§16, 19, 20, 23, 24, 25, 26 and 27.
+- Preserved the existing stable claim IDs and their dispositions; no empirical, causal, neural or integrated-theory claim was upgraded.
+- Source access was upgraded only where a source was actually inspected: R71 official sections and R72 official one-page handout. R73 remains publisher-metadata/contents verified; full chapter text not inspected.
+- Current inventory is R01–R73 (73 IDs, 70 distinct source works after the three established aliases). E17/E18 remain unresolved.
+- Experiments A–F remain unexecuted and unauthorized; no preregistration, recruitment, data collection or intervention occurred. The ROOT tracker was not changed.
+
+**Next:** continue citation-to-register reconciliation through §§28–40, then remaining section batches. Keep the physical–cognitive bridge, ROOT efficacy, Recursive Intelligence distinctiveness and the intelligence functional at their existing provisional status. Continue mathematical dependency closure and final rendering/review gates separately.
