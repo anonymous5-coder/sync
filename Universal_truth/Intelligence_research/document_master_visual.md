@@ -40,7 +40,7 @@ The original document identified three linked questions:
 - How can intelligence derive something that has not been explicitly presented to it?
 - Why can a system that understands its own objective repeatedly execute a different, unwanted behaviour?
 
-These questions appear to belong to separate disciplines: epistemology, physics, information theory, neuroscience, reinforcement learning, and control engineering. The apparent separation is partly an artefact of disciplinary boundaries. Each concerns a system that has an internal state, receives or generates information, acts under constraints, and changes as a consequence of its interaction with the world.
+These questions appear to belong to separate disciplines: epistemology, physics, information theory, neuroscience, reinforcement learning, and control engineering. Some of the apparent separation may reflect disciplinary boundaries. Each concerns a system that has an internal state, receives or generates information, acts under constraints, and changes as a consequence of its interaction with the world.
 
 The unified problem is:
 
@@ -100,7 +100,7 @@ where:
 - $G_t$: objective structure, including goals, constraints, needs, and priorities.
 - $\Theta_t$: parameters that can change through learning, development, or deliberate modification.
 
-At each decision step, the system receives an observation, selects an action, and then transitions to its next internal state:
+For an agent/controller instantiation, at each decision step the system receives an observation, selects an action, and then transitions to its next internal state:
 
 $$
 O_t \sim P(O_t\mid E_t,X_t)
@@ -130,6 +130,8 @@ The formulation is intentionally general. A human brain, an artificial agent, an
 
 ## 4. Axioms
 
+The eight items below are working foundational premises, not a homogeneous formal axiom system. They mix physical constraints, system-model assumptions, capability hypotheses and epistemic safeguards; no common formal language, consistency proof or derivation from a minimal axiom set is claimed.
+
 ### Axiom 1 — Physical embodiment
 
 Every real information-processing operation is implemented by a physical system. Its state transitions are constrained by the laws governing its physical substrate.
@@ -158,7 +160,7 @@ This is the formal core of **Space or Null Theory**.
 
 ### Axiom 4 — Internal transformation
 
-A system can transform stored representations through operations that are not equivalent to copying its observations. It can compose, abstract, simulate, deduce, compress, and generate candidate models.
+A system with appropriate representational and computational capacities can transform stored representations through operations that are not equivalent to copying its observations. Such operations may include composition, abstraction, simulation, deduction, compression, and candidate-model generation.
 
 This is the formal core of **Out of Box Theory**.
 
@@ -172,23 +174,23 @@ $$
 \int_0^T P(t)\,dt \leq E_{\mathrm{available}}(T)
 $$
 
-where $P(t)$ is power and $E_{\mathrm{available}}$ is the available energy budget.
+where $P(t)\geq0$ is nonnegative power draw over the stated interval and $E_{\mathrm{available}}$ is the available energy budget for the defined system boundary.
 
 ### Axiom 6 — Adaptive selection
 
-When multiple actions are available, the system's action-selection mechanism assigns them different probabilities or priorities according to its state, learned values, goals, and constraints.
+For an adaptive agent or controller with multiple feasible actions, the action-selection mechanism assigns them different probabilities or priorities according to its state, learned values, goals, and constraints.
 
 ### Axiom 7 — Recursive accessibility
 
 Some systems can construct representations of aspects of their own state or behaviour and use those representations to modify later processing.
 
-This is the formal core of **Recursive Intelligence**.
+This is the proposed functional core of **Recursive Intelligence**. It is a capability hypothesis, not evidence of a distinct or universal mechanism.
 
 ### Axiom 8 — Fallible model–world correspondence
 
 An internal model is not identical to the external world. It can be incomplete, inaccurate, overconfident, or underdetermined by available evidence.
 
-A system must therefore distinguish a model-derived conclusion from a verified fact.
+A system must therefore distinguish a model-derived conclusion from a verified fact. This is an epistemic safeguard, not a physical or cognitive mechanism.
 
 **Physical-implementation references (limited scope):** R09, R10, R60, R61, R62. These sources inform the physical-computation and neural-energy constraints relevant to Axioms 1 and 5; they do not establish the entire eight-item list, particularly the adaptive-selection or recursive-accessibility capability claims. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
