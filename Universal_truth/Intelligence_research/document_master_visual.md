@@ -957,23 +957,23 @@ This is a conditional result about the model's score and selector, not a derivat
 
 ## 27. What the physical bridge predicts
 
-The model predicts that unwanted habitual behaviour should become more likely when:
+The model predicts that habit-like control may become more dominant relative to goal-directed control under some conditions. It does not predict that every listed condition necessarily increases the absolute frequency of an unwanted action:
 
-- the habitual cue is highly accessible;
-- the habitual action has low initiation cost;
-- the competing task has high uncertainty or effort;
-- the person is fatigued or under stress;
-- the task's reward is delayed;
-- the habitual action reliably provides immediate relief or stimulation;
-- the environment makes the alternative action difficult to initiate.
+- cues associated with previously reinforced actions are highly accessible; cue-triggered incentive salience is especially documented in addiction-related domains and must not be generalized to ordinary habits without evidence;
+- the habitual response has lower initiation or control cost than available alternatives;
+- the competing task imposes high uncertainty or control effort;
+- the person is acutely stressed or sleep-deprived; these are distinct moderators, and evidence for stress-induced habit-like responding is not equivalent to evidence that sleep loss causes habit selection;
+- action–outcome feedback is delayed relative to the action, which may weaken goal-directed action–outcome learning and sensitivity to outcome revaluation, without necessarily increasing the absolute response rate;
+- the response reliably produces immediate relief or incentive reward; relief qualifies as negative reinforcement only when it is response-contingent and the response subsequently becomes more probable or frequent;
+- the environment imposes greater friction on the alternative action than on the habitual response.
 
-It also predicts that changing the environment can improve behaviour even before the underlying urge disappears.
+The model further predicts that environmental changes may alter observable action rates even if subjective urge intensity changes little. This remains a hypothesis: the cited screen-time intervention studies did not directly measure urge intensity. Tests should measure urge intensity, eligible opportunities, action rates, substitution to other behaviours and functional outcomes separately.
 
-This is a major practical consequence: self-control can be improved by changing the transition structure of the environment, not only by strengthening conscious resistance.
+A candidate practical implication is that environmental design may change opportunity structure and action rates without relying solely on conscious resistance. Whether this improves goal-concordant behaviour depends on the intervention, context, substitution and burden; it is not established as a universal effect.
 
 ---
 
-**Claim-linked evidence register records:** R13, R15, R23, R26, R29, R30, R33, R34. These sources provide evidence for selected neighbouring mechanisms—effort/arbitration, incentive salience, stress/habit, habit formation, context consistency and smartphone-use interventions. They do not establish every listed predictor, the complete physical bridge, or a universal intervention effect. The predictions remain hypotheses requiring direct tests. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R13, R15, R17, R23, R25, R26, R29, R30, R33, R34, R76, R79. These sources support selected neighbouring mechanisms with domain-specific and access limitations; they do not establish every listed predictor, the complete physical bridge, or a universal intervention effect. The predictions remain hypotheses requiring direct tests. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 # PART VI — INVESTIGATION A: FOUNDATIONS OF INTELLIGENCE
 
