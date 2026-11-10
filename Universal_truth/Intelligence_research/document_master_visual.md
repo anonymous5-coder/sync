@@ -2065,7 +2065,7 @@ The intervention should reduce expected $V$ over repeated cycles.
 
 This gives a possible way to operationalize improvement, not yet a rigorous stability certificate. The displayed $V(x)$ is a candidate monitoring functional over selected proxies; the treatise has not shown that those proxies form a complete state, that the weights make $V$ positive definite, or that the actual transition law decreases it. It must not be called a verified Lyapunov function. Improvement can be reported descriptively without claiming stability.
 
-**Claim-linked evidence register records:** R40. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R40. This source supplies general control-theory background only; it does not provide empirical evidence for a ROOT or human behavioural stability claim. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 62. Behavioural improvement under feedback — testable hypothesis, not a stability theorem
@@ -2078,7 +2078,7 @@ A mathematical stability result would require a defined state and target set, an
 
 This is therefore a behavioural hypothesis, not a formal guarantee. If the operating conditions are exceeded or the behaviour is persistently distressing or impairing, the protocol may be insufficient and professional assessment may be appropriate.
 
-**Claim-linked evidence register records:** R40. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R40. This source supplies general control-theory background only; it does not provide empirical evidence for a ROOT or human behavioural stability claim. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 63. Why no universal guarantee is mathematically justified
