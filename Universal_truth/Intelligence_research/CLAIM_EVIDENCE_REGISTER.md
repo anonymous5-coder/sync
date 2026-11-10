@@ -4551,3 +4551,56 @@ No additional claim was upgraded. The source-pointer addition in §38 increases 
 
 **Safeguard:** no experiment was executed, approved, preregistered or shown ready by this pass. Experiments A–F remain behind their existing gates. No tracker edit, merge or plan retirement is authorized.
 
+
+
+## 87. Targeted sentence-level audit — §§75, 89–91 and 95 (current edition, 10 November 2026)
+
+**Current treatise snapshot:** `document_master_visual.md`, blob `6bb0892fad15540060ed94437c962a3631b551be`, 2,802 lines, 95 numbered sections. This entry supplements rather than overwrites the historical baseline records in §§18 and 20 and the pointer audit in §85. Current section locations below refer to this snapshot.
+
+### 87.1 §75 — rationale and scope of the experimental programme (L2368–2374)
+
+**Stable claim:** S75-C01. The opening statements are methodological: internal coherence does not establish empirical adequacy, and risky/falsifiable predictions are needed to evaluate empirical claims. The final sentence originally described A–F as designed to separate the framework's components. That phrasing overstated what the current designs establish: A–F probe different component-level questions, but they do not yet discriminate the four-component integration from established alternatives or test a prediction unique to the integrated architecture.
+
+**Disposition and controlled correction:** retained the methodological rationale; changed the final sentence to describe A–F as *intended* component-level probes and explicitly state that they do not yet discriminate the integrated framework from established alternatives. This matches S75-C01's prior disposition. No empirical result or experimental readiness is inferred.
+
+**Source boundary:** the claim is methodological and does not require an empirical citation in this short rationale. Existing methods records remain relevant to the designs, not proof of theoretical discrimination: R27 (testing/measurement standards); R41 (N-of-1 design review; pp. 731–742 and Table 1, with exact recommendation-page pinpoints not fully verified); R47 (SCRIBE design definition; item-level checklist still to be applied if a protocol is later authorized); R49 (SMART/MRT decision-timescale guidance; publisher article text recorded as inspected); and R50 (SMART reporting review; abstract-level/table-level access limitation retained). These sources do not establish that A–F test the integrated theory.
+
+### 87.2 §89 — goal-governance safeguard (L2564–2570)
+
+**Stable claim:** S89-FM01. This is a normative controller-design requirement, not an empirical finding that Recursive Intelligence already possesses goal-review capability. The risk is genuine: optimization can efficiently pursue a harmful, obsolete or externally imposed objective. The current treatise does not define goal provenance, legitimate authority to revise goals, conflict resolution, constraints, review triggers or safeguards against metric gaming.
+
+**Disposition and controlled correction:** retained the principle but recast it as a design requirement for a *proposed recursive-control architecture*, explicitly stating that it is not an implemented or validated capability of Recursive Intelligence. No source is claimed to prove the normative rule; governance specification remains open.
+
+### 87.3 §90 — Space or Null Theory status (L2639–2643)
+
+**Stable claim:** S90-C01. Current wording consistently says “proposes,” defines context broadly to include internal memory, architecture, goals and constraints, and bounds processing without fresh sensory input. It explicitly excludes literal nothingness and does not infer semantic truth, external discovery or predictive accuracy. This is a conceptual/computational possibility largely entailed by the framework's definitions and retained internal state, not a distinctive empirical result.
+
+**Disposition:** retain current wording. The distinct contribution remains unestablished and requires comparison with established context, memory and computation frameworks. No additional source-pointer block is necessary for this synthesis sentence because its conceptual dependencies and limitations are already represented by S90-C01 and the underlying records; adding a pointer would not create independent evidence.
+
+### 87.4 §91 — Out of Box Theory status and Theorem 1 (L2645–2649; Theorem 1 at L398–416)
+
+**Stable claims:** S91-C01 and S10-TH01. The current statement has the correct direction: semantic entailment implies derivability when the proof calculus is complete for the specified semantics. Soundness supplies the converse validity guarantee (derivability implies entailment); soundness alone does not establish the direction used by Theorem 1. The theorem also requires sufficient computational resources for proof search. Its nonempty-model condition prevents vacuous entailment from an inconsistent/unsatisfiable knowledge base. Actual-world truth additionally requires that the actual world satisfy K. These are conditional formal claims, not evidence of arbitrary fact acquisition.
+
+**Formal disposition:** the current Theorem 1 statement and proof preserve the correct completeness direction and the soundness safeguard. The proof is valid under its stated semantics/calculus assumptions. The nonempty-model condition is a non-vacuity condition, not a premise needed for the completeness theorem in its purely formal form. Section 91 correctly separates derivability from actual-world truth and prospective predictive performance. Retain without weakening the valid deduction.
+
+**Source and pinpoint:** R02, *Logical Consequence*, Stanford Encyclopedia of Philosophy, §§1–3, is the registered scholarly reference for semantic consequence, soundness and completeness. The current proof itself is checked as a formal derivation; R02 does not validate K's premises, computational feasibility or empirical prediction accuracy. No new external source access is claimed in this pass.
+
+### 87.5 §95 — final architecture-level dependency map (L2688–2730)
+
+**Historical stable claim:** S95-EQ01 records the earlier baseline expression and its mismatch with §§3 and 71. It is retained as a historical disposition, not silently rewritten to describe the current formula.
+
+**Current stable claim:** S95-EQ02. The current boxed tuple is explicitly labelled an architecture-level dependency map and “candidate update”; the section expressly says no complete joint state-transition law has been derived. It is therefore not a theorem, executable transition equation or empirical model. The new explanatory sentence makes the unresolved interface visible: the separate $\Pi_t$ term in §95 is not reconciled with the input list in §71, and equivalence between the schematics is not asserted.
+
+**Disposition:** retain the architecture diagram as a schematic summary. The typed state, policy variable, update semantics, time index, domains/codomains and mapping to §71 remain unresolved. Do not upgrade the unified architecture or imply that its components have a validated joint mechanism. No external source can establish this internal mathematical consistency; the dependency is to be closed by formal specification and cross-section reconciliation.
+
+### 87.6 Cross-section result and remaining dependencies
+
+- The five targeted sections have been read in full in the current snapshot; the formal theorem was also inspected in its complete current proof.
+- §75 and §89 required narrow wording corrections to align prose with existing stable dispositions.
+- §§90 and 91 already preserve their conceptual and formal limits; no rewrite was warranted.
+- §95 required an explicit note that its schematic tuple is not reconciled with §71; the diagram remains non-executable.
+- No empirical claims were upgraded. No experiment was run, preregistered, recruited for or authorized. The ROOT tracker was not changed.
+- Existing source-access limitations remain exactly as recorded in the relevant R entries. In particular, a registered pinpoint is not evidence that inaccessible full text was inspected; unresolved page-level pinpoints remain unresolved.
+- Next dependencies: continue the complete bibliography metadata/reference consistency audit; complete sentence-level claim-to-register reconciliation; close the typed state/policy interface and remaining formal dependencies; investigate E17/E18 only from recoverable auditable provenance; then complete render/notation checks and qualified independent/adversarial review.
+
+**Status:** targeted current-edition audit complete for §§75, 89–91 and 95. Two wording corrections and one explicit interface qualification were made in the treatise. No claim of manuscript completion or review readiness follows from this targeted pass.
