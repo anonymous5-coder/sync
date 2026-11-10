@@ -810,23 +810,23 @@ A habit is not inherently bad. Its value depends on whether the cue-response map
 
 ## 22. Cue learning as a dynamical system
 
-Let $s_t^{\mathrm{RL}}$ denote the state representation available before action $a_t$; it includes cue $c_t$ and any other variables used by the policy. This RL state is distinct from the behavioural predictor vector in §39 and the ROOT operational rating vector in §52. After action $a_t$, the system receives outcome/reward $r_{t+1}$ and enters state $s_{t+1}^{\mathrm{RL}}$.
+Let $s_t^{\mathrm{RL}}$ denote the state representation available before action $a_t$; it includes cue $c_t$ and any other variables used by the policy. This RL state is distinct from the behavioural predictor vector in §39 and the ROOT operational rating vector in §52. After action $a_t$, the system receives outcome/reward $r_{t+1}$ and enters state $s_{t+1}^{\mathrm{RL}}^{\mathrm{RL}}$.
 
 One standard off-policy candidate is the Q-learning update:
 
 $$
-Q_{\mathrm{RL},t+1}(s_t,a_t)
+Q_{\mathrm{RL},t+1}(s_t^{\mathrm{RL}},a_t)
 =
-Q_{\mathrm{RL},t}(s_t,a_t)
+Q_{\mathrm{RL},t}(s_t^{\mathrm{RL}},a_t)
 +
 \alpha
 \left[
 r_{t+1}
 +
-\gamma \max_{a'\in\mathcal{A}(s_{t+1})}
-Q_{\mathrm{RL},t}(s_{t+1},a')
+\gamma \max_{a'\in\mathcal{A}(s_{t+1}^{\mathrm{RL}})}
+Q_{\mathrm{RL},t}(s_{t+1}^{\mathrm{RL}},a')
 -
-Q_{\mathrm{RL},t}(s_t,a_t)
+Q_{\mathrm{RL},t}(s_t^{\mathrm{RL}},a_t)
 \right]
 $$
 
@@ -834,7 +834,7 @@ where:
 
 - $\alpha$ is a learning rate;
 - $\gamma$ is a future-value discount factor;
-- $\mathcal{A}(s_{t+1})$ is the feasible action set in the next state;
+- $\mathcal{A}(s_{t+1}^{\mathrm{RL}})$ is the feasible action set in the next state;
 - $Q_{\mathrm{RL},t}(s,a)$ is an action-value estimate, distinguished from the generic action score $Q(a)$ in §19.
 
 The update assumes that the state representation is adequate for a Markov-style transition model and that reward timing and the feasible action set are defined. Those assumptions have not been validated for the human behavioural model in this treatise. This is a standard computational learning abstraction, not a complete biological habit-formation mechanism. The displayed one-step update assumes a Markov-style state representation, a defined finite feasible action set, $0\leq\gamma<1$ and a learning rate $0<\alpha\leq1$. No convergence guarantee is claimed; convergence would require additional conditions on stationarity, exploration and the learning-rate schedule. For a terminal successor state, define the bootstrap term as zero (equivalently, assign zero terminal-state action values); the maximum over successor actions is taken only for nonterminal successor states.
@@ -1393,7 +1393,7 @@ An intervention should be designed with the relevant mechanism's timescale in vi
 Let the reduced behavioural predictor vector be:
 
 $$
-s_t=(g_t,c_t,u_t,f_t,z_t,h_t)
+b_t=(g_t,c_t,u_t,f_t,z_t,h_t)
 $$
 
 where:
@@ -1408,7 +1408,7 @@ where:
 The probability of executing a competing action can be modelled as:
 
 $$
-P(a_h\mid s_t)
+P(a_h\mid b_t)
 =
 \sigma\left(
 b_0+b_1c_t+b_2u_t+b_3f_t+b_4z_t+b_5h_t-b_6g_t
@@ -1812,7 +1812,7 @@ The protocol is a behavioural engineering architecture, not a claim that all unw
 Let the ROOT operational rating vector be:
 
 $$
-s_t=(c_t,u_t,f_t,d_t,g_t,h_t,e_t)
+s_t^{\mathrm{ROOT}}=(c_t,u_t,f_t,d_t,g_t,h_t,e_t)
 $$
 
 where:
@@ -2020,7 +2020,7 @@ A stable behavioural system does not require constant high motivation. It has en
 Let $x_t$ represent deviation from the intended behavioural state. A simple discrete-time control model is:
 
 $$
-x_{t+1}=A_{\mathrm{plant}}x_t+B_{\mathrm{plant}}u_t+w_t
+x_{t+1}=A_{\mathrm{plant}}x_t+B_{\mathrm{plant}}v_t+w_t
 $$
 
 where:
@@ -2033,7 +2033,7 @@ where:
 A feedback controller may choose:
 
 $$
-u_t=-K_{\mathrm{fb}}x_t
+v_t=-K_{\mathrm{fb}}x_t
 $$
 
 giving:
@@ -2758,7 +2758,7 @@ That is the proposed research purpose of **Space or Null Theory**, **Out of Box 
 
 # SELECTED REFERENCES AND SCIENTIFIC FOUNDATIONS
 
-The following ten entries are selected foundational and contextual references, not the complete bibliography for every empirical claim. They are not a substitute for claim-level source mapping. Claim-linked evidence records R01–R75, including bibliographic metadata, source-access status, claim mappings and source pinpoints, are maintained in the companion `CLAIM_EVIDENCE_REGISTER.md`. The register is the controlling source-level audit; its access limitations and qualifications must be preserved. Where a selected entry is used to support a specific treatise claim, that use must be traceable to a stable register record; otherwise it should be treated as contextual reading rather than independent evidence for that claim. These references do not establish the named theories in this treatise as validated scientific laws.
+The following ten entries are selected foundational and contextual references, not the complete bibliography for every empirical claim. They are not a substitute for claim-level source mapping. Claim-linked evidence records R01–R80, including bibliographic metadata, source-access status, claim mappings and source pinpoints, are maintained in the companion `CLAIM_EVIDENCE_REGISTER.md`. The register is the controlling source-level audit; its access limitations and qualifications must be preserved. Where a selected entry is used to support a specific treatise claim, that use must be traceable to a stable register record; otherwise it should be treated as contextual reading rather than independent evidence for that claim. These references do not establish the named theories in this treatise as validated scientific laws.
 
 1. Chattopadhyay, P., Misra, A., Pandit, T., & Paul, G. (2025). **Landauer principle and thermodynamics of computation.** *Reports on Progress in Physics, 88*(8), Article 086001. https://doi.org/10.1088/1361-6633/add6b3.  
    Peer-reviewed review of Landauer's principle, thermodynamic costs of computation, error correction and finite-time considerations.
