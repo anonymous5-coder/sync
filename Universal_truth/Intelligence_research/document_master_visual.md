@@ -2705,7 +2705,7 @@ R_t,
 }
 $
 
-This tuple is a schematic dependency inventory, not a defined transition equation. Its separate $\\Pi_t$ term is not yet reconciled with the input list in §71; no equivalence between the two schematics is asserted.
+This tuple is a schematic dependency inventory, not a defined transition equation. Its separate $\Pi_t$ term is not yet reconciled with the input list in §71; no equivalence between the two schematics is asserted.
 
 Space or Null Theory proposes how context and structure condition the system.
 
