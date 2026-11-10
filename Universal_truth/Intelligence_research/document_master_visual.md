@@ -2398,7 +2398,7 @@ The experiments below are intended to probe different components rather than mer
 
 **Failure condition:** If a system consistently fails despite adequate representation and computational capacity, the particular inference model may be insufficient. This does not refute all forms of Out of Box Theory.
 
-**Claim-linked evidence register records:** R27, R38, R41, R42, R47, R50. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R02, R21, R22, R27. R02/R21/R22 provide logical, information-theoretic and algorithmic-complexity context for derivation from retained premises; R27 provides testing/assessment standards context. Human interruption, EMA, N-of-1, single-case and SMART references are not evidence for this computational inference task. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 77. Experiment B — Structural prediction of unobserved outcomes
@@ -2417,7 +2417,7 @@ The experiments below are intended to probe different components rather than mer
 
 **Failure condition:** Repeated predictive failure under controlled conditions weakens the model's claimed correspondence with reality.
 
-**Claim-linked evidence register records:** R27, R38, R41, R42, R47, R50. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R03, R05, R27. R03 provides underdetermination/theory-choice context; R05 addresses statistical inference and model evaluation; R27 supplies general testing/assessment standards. The prediction design must still specify its target, uncertainty, competing models and prospective evaluation. Human single-case/EMA references are not direct evidence for this physical-model prediction task. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 78. Experiment C — Energy, task difficulty, and action selection
@@ -2566,7 +2566,7 @@ Persistent sleepiness, attention impairment, compulsive behaviour, depression, a
 
 **Safeguard:** do not use ROOT as a substitute for appropriate medical or psychological care.
 
-**Claim-linked evidence register records:** R45, R46, R53. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R45, R46. These support the clinical boundary for Compulsive Sexual Behaviour Disorder; the general recommendation to seek assessment for persistent impairment is a safety safeguard, not a diagnosis. R53 is not a direct source for this clinical claim. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 89. Failure mode: Optimizing the wrong goal
@@ -2664,7 +2664,7 @@ The proposed link from physical resource constraints to subjective effort, actio
 
 Thermodynamic entropy is not psychological distraction. Physical implementation constrains behavioural control, but intermediate mechanisms and task-specific evidence are required for any causal claim.
 
-**Claim-linked evidence register records:** R11, R12, R13, R14, R24, R60, R61, R62, R63, R69. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R01, R09, R11, R12, R13, R14, R24, R60, R61, R62, R63, R69, R74. R01/R74 inform channel and physical-computation constraints; R09 concerns logically irreversible erasure; R11–R14/R60–R63/R69 provide neural-energy, effort and task-context evidence. These sources support component constraints, not the complete physical–cognitive causal bridge. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 93. Current status of Recursive Intelligence
@@ -2673,7 +2673,7 @@ Recursive Intelligence is proposed as a functional construct in which a system u
 
 The treatise has not yet demonstrated a distinct mechanism, a validated measurement model, or incremental predictive advantage over those established constructs. The self-model and update equations remain schematic. The construct should not be presented as a newly established intelligence type until it has operational discriminators and comparative tests.
 
-**Claim-linked evidence register records:** R35, R37, R51, R54, R55. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R35, R36, R37, R39, R51, R54, R55. These provide metacognition, meta-control and self-regulated-learning comparators, including a human meta-control experiment; they do not establish a distinct Recursive Intelligence mechanism. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 94. Current status of ROOT Control Protocol
@@ -2690,7 +2690,7 @@ ROOT is the proposed operational intervention architecture:
 
 Its intended aim is not the elimination of all impulses, but to increase the probability that chosen objectives govern behaviour despite competing signals. Component-level evidence exists for selected planning and environmental-friction techniques. The integrated ROOT package, its seven-stage sequence, sustained-attention effect, long-term maintenance and controller guarantees have not been validated. The protocol remains a proposal, not an established intervention.
 
-**Claim-linked evidence register records:** R31, R34, R41, R47, R48, R65, R68. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R31, R32, R33, R34, R41, R47, R48, R65, R68. R31/R32/R48 support if–then planning; R33/R34 support selected digital-friction examples; R65/R68 provide task-planning/learning comparators; R41/R47 inform design requirements. These sources support components and methods, not the integrated ROOT package, its seven-stage sequence or sustained-attention efficacy. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 95. Schematic architecture summary — not a unified state-transition law
@@ -2749,7 +2749,7 @@ That is the proposed research purpose of **Space or Null Theory**, **Out of Box 
 
 # SELECTED REFERENCES AND SCIENTIFIC FOUNDATIONS
 
-The following ten entries are selected foundational and contextual references, not the complete bibliography for every empirical claim. They are not a substitute for claim-level source mapping. Claim-linked evidence records R01–R70, including bibliographic metadata, source-access status, claim mappings and source pinpoints, are maintained in the companion `CLAIM_EVIDENCE_REGISTER.md`. The register is the controlling source-level audit; its access limitations and qualifications must be preserved. Where a selected entry is used to support a specific treatise claim, that use must be traceable to a stable register record; otherwise it should be treated as contextual reading rather than independent evidence for that claim. These references do not establish the named theories in this treatise as validated scientific laws.
+The following ten entries are selected foundational and contextual references, not the complete bibliography for every empirical claim. They are not a substitute for claim-level source mapping. Claim-linked evidence records R01–R75, including bibliographic metadata, source-access status, claim mappings and source pinpoints, are maintained in the companion `CLAIM_EVIDENCE_REGISTER.md`. The register is the controlling source-level audit; its access limitations and qualifications must be preserved. Where a selected entry is used to support a specific treatise claim, that use must be traceable to a stable register record; otherwise it should be treated as contextual reading rather than independent evidence for that claim. These references do not establish the named theories in this treatise as validated scientific laws.
 
 1. Chattopadhyay, P., Misra, A., Pandit, T., & Paul, G. (2025). **Landauer principle and thermodynamics of computation.** *Reports on Progress in Physics, 88*(8), Article 086001. https://doi.org/10.1088/1361-6633/add6b3.  
    Peer-reviewed review of Landauer's principle, thermodynamic costs of computation, error correction and finite-time considerations.
