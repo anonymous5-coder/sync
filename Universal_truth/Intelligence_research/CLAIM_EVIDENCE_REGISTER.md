@@ -5093,3 +5093,76 @@ The algebraic monotonicity result is valid only for the stated fixed feasible se
 - No tracker edit, experiment, preregistration, recruitment or data collection occurred. Experiments A–F remain unexecuted and unauthorized.
 
 **Next:** reconcile §§75–95 against the current register, with special attention to the final synthesis and the distinction between schematic compatibility, component evidence and integrated-theory validation. Then complete full document-wide pointer/rendering/notation checks and remaining mathematical dependencies.
+
+
+## 96. Citation-to-register reconciliation — treatise §§75–95, current edition
+
+**Current treatise snapshot:** `document_master_visual.md`, blob `072ca14721b7b28e228212907c5431d915950ec6`, 2,813 lines, 95 numbered sections. This entry reconciles the experiment/design sections, safeguards and final synthesis against the stable claims S75–S95 and source records R01–R75. It completes the targeted section-batch reconciliation of §§1–95, but it does not complete the separate full sentence-level claim audit, formal dependency closure or independent review.
+
+### 96.1 §75 — Experimental rationale (S75-C01)
+
+The current wording correctly describes A–F as component-level probes that do not yet discriminate the four-component integration from established alternatives. No source pointer is needed for the methodological distinction. The statement is not an assertion that the experiments are authorized, preregistered, executed or ready.
+
+### 96.2 §§76–77 — Inference and prospective physical prediction designs (S76-C01; S77-C01)
+
+The prior pointer sets included interruption-recovery, EMA, N-of-1, SCRIBE and SMART sources, which are not direct support for the computational inference test or the physical-model prediction design.
+
+**Correction:** §76 now points to R02/R21/R22 for logical consequence, information theory and algorithmic complexity, plus R27 for general testing/assessment standards. §77 now points to R03/R05/R27 for underdetermination, statistical model evaluation and general testing standards. Human single-case/EMA references have been removed from these computational/physical prediction sections. The designs still require operational targets, prospective evaluation, competing models and independent verification.
+
+### 96.3 §§78–82 — Component experiments and measurement safeguards (S78–S82)
+
+The existing source sets remain broadly aligned with the component questions:
+- **§78 / Experiment C:** R13/R14/R15/R24/R25/R43/R44 and R60–R63 support neighbouring resource, effort, control, sleep and task-performance domains; R27/R38/R41/R42/R47/R50 provide measurement and design context. They do not establish a thermodynamic cause of distraction or validate the proposed action-score coefficients.
+- **§79 / Experiment D:** R33/R34 support bounded digital-friction examples; R27/R38/R41/R42/R47/R50 provide outcome and design-method context. The current design appropriately requires eligible-opportunity denominators, credible comparators, substitution, burden, follow-up and functional outcomes.
+- **§80 / Experiment E:** R31/R32/R48 support if–then planning and mental-contrasting components; R27/R38/R41/R42/R47/R50/R65 provide measurement/design context. The current wording retains the heterogeneous, modest evidence boundary and does not imply ROOT novelty or package efficacy.
+- **§81 / Experiment F:** R35/R37/R39/R51/R54/R55 are comparator literature for metacognition/meta-control; R49 provides SMART/MRT design guidance; R27/R38/R41/R42/R47/R50 provide measurement and design standards. These sources do not validate an executable adaptive ROOT controller or establish that adaptive policy selection outperforms a fixed policy.
+- **§82:** R27/R38/R41/R42/R47/R50 remain appropriate for measurement, interruption recovery, single-case/EMA and adaptive-design safeguards. The section explicitly distinguishes personal experiments from controlled clinical trials.
+
+No experiment A–F has been run, preregistered, approved, recruited for or otherwise executed. The designs remain proposals behind their existing authorization gates.
+
+### 96.4 §§83–87 — Limits and failure modes
+
+These sections contain methodological safeguards and limitations, not new empirical findings. No source-pointer insertion was warranted. The statements correctly reject unsupported inferences from coherence, novelty, energy cost or overengineered self-control. Their safeguards do not themselves validate the named theories.
+
+### 96.5 §88 — Clinical-boundary safeguard (S88-C01)
+
+R45/R46 are the direct sources for the Compulsive Sexual Behaviour Disorder diagnostic boundary. **Correction:** removed R53, which is not a direct source for this clinical claim. The pointer note now specifies that R45/R46 support the CSBD boundary only; the broader recommendation to seek professional assessment for persistent impairment is a safety safeguard, not a diagnosis. No individual is diagnosed by the treatise.
+
+### 96.6 §89 — Goal-governance requirement (S89-FM01)
+
+The current wording already labels periodic goal-hierarchy review as a normative design requirement for a proposed recursive-control architecture, not an implemented or validated Recursive Intelligence capability. No citation is claimed to prove this normative requirement.
+
+### 96.7 §§90–91 — Space or Null Theory and Out of Box Theory status (S90-C01; S91-C01)
+
+The final status paragraphs preserve the conceptual boundary for internal processing without fresh sensory input and the conditional formal boundary for derivability from premises. They do not infer processing from literal nothing, arbitrary fact acquisition, actual-world truth without true premises, or validated predictive performance. The final synthesis is not independent evidence for these claims.
+
+### 96.8 §92 — Physical–cognitive bridge status (S92-C01)
+
+The previous source list did not explicitly include the information-theoretic, Landauer and physical-computation-limit sources relevant to the broad physical constraint statement.
+
+**Correction:** added R01, R09 and R74 to the pointer list. R01 informs channel/noise concepts, R09 logically irreversible erasure, R74 theoretical rate/memory constraints; R11–R14/R60–R63/R69 provide neural-energy, effort and task-context evidence. The pointer note explicitly states that these are component constraints, not evidence for the complete physical–cognitive causal bridge. The action-score coefficients and person-level mechanism remain unvalidated.
+
+### 96.9 §93 — Recursive Intelligence status (S93-C01)
+
+The pointer set now includes R36 and R39 in addition to R35/R37/R51/R54/R55. These records provide metacognition, meta-control, self-regulated-learning and a primary human meta-control comparator. They reinforce the current conclusion that the proposed construct overlaps established neighbours; they do not establish a distinct mechanism or incremental predictive advantage.
+
+### 96.10 §94 — ROOT status (S94-C01)
+
+The source list now includes R31/R32/R48 for if–then planning, R33/R34 for digital-friction examples, R65/R68 for task-planning/learning comparators, and R41/R47 for design-method requirements. The note explicitly limits these sources to component and methodological support; they do not establish the seven-stage sequence, sustained-attention efficacy or integrated ROOT package effectiveness.
+
+### 96.11 §95 — Final architecture and concluding synthesis (S95-EQ01)
+
+The final architecture is a schematic dependency inventory, not an executable or validated transition law. The current separate $\Pi_t$ input remains unreconciled with §71's input list; the two diagrams are not asserted equivalent. The concluding statement is explicitly called an integrative hypothesis and preserves the need for further formal specification and empirical discrimination.
+
+The selected bibliography is contextual, not a claim-level evidence substitute. Its introductory note now points to R01–R75 and requires any selected reference used for a specific claim to be traceable to a stable register record. The selected list is not counted as a second independent bibliography of claim-mapped sources.
+
+### 96.12 Result and remaining dependencies
+
+- Completed targeted citation-to-register reconciliation of §§75–95; corrected pointer scope in §§76–77, 88, 92–94 and updated the selected-bibliography inventory range to R01–R75.
+- The full 95-section citation-batch sequence is now recorded in §§87 and 89–96, but the separate sentence-by-sentence claim audit remains incomplete; a section-batch reconciliation is not equivalent to checking every material sentence and exact pinpoint.
+- No stable claim disposition was upgraded. No experiment A–F was executed or authorized; no preregistration, recruitment, data collection, intervention or tracker edit occurred.
+- E17/E18 provenance remains unresolved unless original auditable sources or mappings are recovered.
+- The final synthesis remains a summary, not independent evidence. The joint architecture, typed state, policy variable, update semantics and $Pi_t$ interface remain unresolved.
+- The manuscript is not review-ready. Full bibliography source-by-source validation, complete sentence-level citation/pinpoint review, mathematical dependency closure, final Markdown/render/notation checks and qualified independent/adversarial review remain outstanding.
+
+**Next:** run a document-wide pointer/claim-ID integrity check against the updated R01–R75 register, then continue sentence-level pinpoint verification for all material claims. Close the outstanding formal dependencies and final rendering checks before any review-readiness decision.
