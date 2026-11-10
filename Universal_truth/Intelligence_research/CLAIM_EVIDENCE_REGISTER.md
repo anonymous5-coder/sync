@@ -5210,3 +5210,66 @@ No claim disposition was upgraded. No experiments A–F were executed or authori
 The R55 metadata completion in §88 contained an author-name inversion. The DOI record and bibliographic exports identify the sole author as **Lin Guo**, cited in surname–initial form as **Guo, L. (2022)**, not “Lin, H.” The R55 source table and the current §88 audit summary have been corrected. Full citation: “Using metacognitive prompts to enhance self-regulated learning and learning outcomes: A meta-analysis of experimental studies in computer-based learning environments,” *Journal of Computer Assisted Learning* 38(3), 811–832, DOI https://doi.org/10.1111/jcal.12650.
 
 The stable source ID R55 and all claim mappings/access limitations remain unchanged. This is a bibliographic identity correction only; it does not alter the evidence assessment or validate any Recursive Intelligence/ROOT claim.
+
+
+
+## 99. Exact source-pinpoint and sentence-level audit — §31 physical limits and resource vector (10 November 2026)
+
+**Audit scope.** Current treatise §31 was re-read sentence by sentence against stable records S31-C01, S31-EQ01, S31-M01 and S31-EQ02. This is one bounded section-level batch, not completion of the treatise-wide audit. Primary-source passages were inspected where accessible; source version and access limitations are kept separate from bibliographic verification.
+
+### 99.1 S31-C01 — seven distinct physical/computational constraints
+
+| Treatise sentence or proposition | Source inspection and exact locator | Evidential assessment |
+|---|---|---|
+| Computation has physical energy and time/rate constraints | R74, Lloyd (2000) author preprint v3, *Ultimate physical limits to computation*, PDF pp. 1–4, §§1 and 1.3; the energy-limited operation-rate derivation is on PDF pp. 2–4. Publisher metadata/abstract for the final *Nature* article, 406(6799), 1047–1054, was separately checked. | Direct theoretical support for energy-limited operation rate in specified physical-computation models. The inspected full text is the arXiv preprint, not the final journal version; the final publisher page was metadata/abstract-level. It is not a measurement of biological computation or a universal engineering formula for every device. |
+| A finite substrate has a finite information/memory capacity | R74, PDF pp. 5–8, §2, “Entropy limits memory space,” especially the relation between accessible physical states and information capacity (PDF pp. 5–6). | Direct theoretical support for finite information capacity under specified physical conditions. The source speaks in terms of accessible physical states and entropy. It does not justify an unqualified claim about the number of states that are dynamically stable under every implementation. |
+| Physical systems encounter noise and error constraints | R09, Landauer (1961), original paper pp. 183–185 on thermal fluctuations and switching/error considerations, and pp. 186–187 on logical erasure and dissipation; R74, PDF pp. 8–9 and 15, on reversible computation, error correction and the rate at which errors must be rejected. | Direct theoretical/model support for thermal switching fluctuations and error-correction constraints in the studied computing contexts. These passages do not constitute an exhaustive source for every quantum-noise or implementation-noise regime. R01 is a general communication-theory source, not a substitute for a source on every physical noise mechanism. |
+| Communication is constrained by bandwidth, distance and signal propagation | R01, Shannon (1948), publisher record/abstract for *Bell System Technical Journal* 27(3), 379–423 (July 1948), including the bandwidth–signal-to-noise trade-off in the abstract; R74, PDF pp. 12–13 and figure caption PDF p. 21, on communication time and the speed-of-light limit across a physical computer. | Bounded support: Shannon's abstract establishes the channel bandwidth/noise trade-off at metadata/abstract level; Lloyd's full preprint gives the physical signal-propagation limit. Neither alone supplies a universal bandwidth-distance law for arbitrary systems. No exact Shannon theorem pinpoint is claimed in this batch. |
+| Error correction consumes resources and imposes reliability constraints | R74, PDF pp. 8–9, especially the discussion of reversible computation, redundant encoding, error rejection and the tolerated error rate; R09, pp. 183–185, for thermal switching fluctuations. | Direct theoretical support in the physical-computer model. It does not imply one universal error-correction overhead for all architectures. |
+| Causal access limits usable information | The sentence is a general causal-boundary statement, not a quantified empirical result. R74's communication-time discussion is relevant context, but is not treated as a complete derivation of relativistic causal structure. | Retain as a boundary condition/physical premise. No unsupported exact source pinpoint is asserted. |
+| These constraints are distinct rather than one scalar limit | R74's separate energy-rate, entropy-memory and signal-propagation analyses, PDF pp. 2–8 and 12–13; R01's channel-theoretic scope. | Directly consistent with the sources' separate formulations. The treatise's list is a synthesis, not a single theorem or one-dimensional resource law. |
+
+**Disposition:** S31-C01 is examined and supported with qualifications. Its seven bullets should remain distinct. The current citations do not establish one universal scalar limit, nor do they validate the proposed intelligence functional or any cognitive/behavioural consequence.
+
+### 99.2 S31-EQ01 — Landauer erasure inequality
+
+The original Landauer paper was inspected directly, not inferred from its DOI or abstract. Landauer (1961), “Irreversibility and Heat Generation in the Computing Process,” *IBM Journal of Research and Development* 5(3), 183–191, DOI 10.1147/rd.53.0183, distinguishes reversible one-to-one operations from logically irreversible many-to-one operations (pp. 185–186) and derives the minimum heating associated with resetting a bit (p. 187; 0.6931 kT per restored bit under the paper's stated ensemble assumptions). The paper explicitly describes this as a minimum heating effect and does not guarantee that the minimum is achievable (p. 187).
+
+Bérut et al. (2012), R10, was checked at publisher abstract level: the experiment used a one-bit colloidal memory in a modulated double-well potential and found mean dissipated heat approaching the Landauer bound in the long-erasure-cycle limit. The full Nature article was not accessible in this pass; no figure-level or page-level pinpoint is claimed for R10.
+
+**Disposition:** S31-EQ01 is directly supported as a conditional physical lower bound for logically irreversible erasure under the principle's assumptions. It is not a lower bound on every logical operation, a per-thought neural-energy conversion, or an estimate of human cognitive effort. The treatise's explicit reversible-computation and brain-energy qualifications are appropriate.
+
+### 99.3 Neural-energy comparison in §31
+
+Attwell & Laughlin (2001), R11, was inspected through the accessible publisher full-text record. Its energy budget is derived from anatomical and physiological data, primarily for rodent grey matter; the article's abstract and full text identify action potentials and postsynaptic glutamatergic effects as major modelled components and make the estimates dependent on firing rate and simplifying assumptions. It is a model-based neural-signalling budget, not a direct measurement of the energy cost of a useful human inference or thought.
+
+Kondrakiewicz & Nawrocka (2025), R13, remains a review-level comparator whose accessible preprint and final PubMed abstract were inspected in the earlier source audit; it does not yield a universal per-inference energy coefficient. R14 provides competing mental-effort accounts rather than a settled physical conversion.
+
+**Disposition:** the sentence that brain energy expenditure per useful inference is more complex than the idealized one-bit erasure bound is appropriately cautious. R11 supports the complexity and scale-specific nature of neural signalling costs, not a numerical per-inference conversion. R13/R14 are review/context evidence, not direct measurement of a universal cognitive-energy unit.
+
+### 99.4 S31-M01 — resource vector
+
+The vector \(\mathcal R=(E,T_m,B,M_c,\varepsilon)\) is a stipulated engineering abstraction, not a source-derived physical state vector. The current register correctly identifies \(\varepsilon\) as a tolerated error constraint rather than a capacity/budget commensurate with energy, time, bandwidth or memory. Units, available-versus-consumed quantities, time horizon and coupling among coordinates remain unspecified.
+
+**Disposition:** examined and supported only as a proposed bookkeeping convention. Do not treat the five coordinates as homogeneous resources or claim that the vector is complete or minimal.
+
+### 99.5 S31-EQ02 — performance function
+
+\(\mathcal P_{\max}=\Phi(\mathcal R,A,\mathrm{task})\) is an unspecified function declaration. No source inspected here derives this function, supplies its domain/codomain, identifies its parameters or establishes a numerical maximum. Its validity is not an empirical question until the performance metric, algorithm, operating domain, uncertainty and constraints are operationally specified.
+
+**Disposition:** examined; retain as schematic notation only. No theorem, measured law or predictive result is claimed.
+
+### 99.6 Coverage and remaining work
+
+| Stable claim | Audit status | Reason |
+|---|---|---|
+| S31-C01 | Examined; supported with qualifications | Lloyd full preprint inspected; Shannon publisher abstract inspected; physical constraints are distinct and source-specific. |
+| S31-EQ01 | Examined; directly supported with assumptions | Landauer original paper pp. 183–187 inspected; Bérut publisher abstract only. |
+| S31-M01 | Examined; definition/model convention | Proposed resource vector; \(\varepsilon\) is a constraint, and units/coupling remain unspecified. |
+| S31-EQ02 | Examined; unresolved as a quantitative model | \(\Phi\) is unspecified; no quantitative source or model validation exists. |
+
+**Source-access ledger for this batch:** R09 primary full text inspected; R10 publisher abstract/metadata inspected, full article inaccessible; R74 full 22-page arXiv v3 preprint inspected and final Nature metadata/abstract checked, with the preprint/final-version distinction retained; R11 accessible publisher full-text inspected; R13 accessible preprint full text and final PubMed abstract were inspected in the earlier audit; R14 review-level source and access limitations remain as previously recorded; R01 publisher abstract/metadata checked for the specific bandwidth/noise scope. No source is described as fully inspected beyond the level actually obtained.
+
+**Batch accounting:** one treatise section examined; four stable claims examined; one equation directly supported within stated assumptions; one broad empirical/engineering claim supported with qualifications; one stipulated vector examined as a convention; one performance function remains unresolved as a quantitative model. No claim was upgraded to an established cognitive or behavioural result. No experiments A–F were executed; no preregistration, recruitment, intervention or tracker edit occurred.
+
+**Next:** continue the sentence-level audit with the next high-impact untreated claim cluster, retaining exact access and pinpoint boundaries. Mathematical dependency closure, E17/E18 provenance, rendered inspection and qualified independent review remain separate open gates.
