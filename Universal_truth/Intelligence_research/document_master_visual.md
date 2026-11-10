@@ -279,7 +279,7 @@ The theory therefore contains two different cases:
 1. **External-context acquisition:** the system receives new observations.
 2. **Internal-context operation:** the system continues processing using stored representations and architecture without receiving new observations.
 
-These cases must not be conflated.
+These cases must not be conflated. This is a framework definition and a general systems-level observation, not a distinct empirical law; stronger claims about cognition require operational tests.
 
 ## 7. Information-theoretic formulation
 
@@ -328,9 +328,9 @@ This can include memory replay, simulation, deduction, planning, and spontaneous
 
 ## 8. The newborn and the empty-system thought experiment
 
-A newborn is not a blank machine. Its nervous system has inherited structure, developmental programs, sensory transducers, regulatory mechanisms, and learning capacities. Its early experience changes the system, but the capacity to learn is itself part of the system's initial organization.
+A newborn is not a blank machine. Its nervous system has inherited structure, developmental programs, sensory transducers, regulatory mechanisms, and learning capacities. Prenatal learning and early developmental organization both contribute; prenatal learning must not be relabelled as innate knowledge. The cited evidence does not establish adult-like reasoning or a comprehensive innate representation of the world.
 
-Likewise, an artificial neural network is not a blank entity at inference time. Its architecture and parameters embody a large amount of structure produced by training and design.
+Likewise, an artificial neural network is not a blank entity at inference time. Its architecture and parameters carry structure established through design and prior training.
 
 The hypothetical intelligence placed in an empty region of space must also be specified carefully:
 
@@ -371,7 +371,7 @@ The important distinction is between:
 
 These are three different conditions.
 
-A proposition may be unobserved and not explicitly stored, yet logically implied by the model. Such a proposition can be discovered by inference.
+A proposition may be unobserved and not explicitly stored, yet logically implied by the model. Such a proposition can be derived by inference; it describes the actual world only if the premises used by the model are true of that world.
 
 A proposition that is independent of every constraint available to the system cannot be uniquely inferred merely by thinking harder.
 
@@ -455,7 +455,7 @@ This is not a weakness of intelligence. It is a limit imposed by information and
 
 **Out of Box Theory:** An intelligence can generate and derive conclusions that are not explicitly contained in its observations, by exploiting structural information encoded in its architecture, representations, mathematical constraints, learned regularities, and inferential operations. It can thereby predict or discover unverified realities before direct sensory confirmation, provided those realities are sufficiently constrained by the information it possesses.
 
-The theory is stronger than mere recombination. It includes:
+The framework is broader than mere recombination. The six modes below are established inferential or epistemic operations; listing them together does not establish a single new mechanism. They include:
 
 1. **Combinatorial novelty:** constructing new arrangements of known elements.
 2. **Structural inference:** deriving consequences of relationships not explicitly stated.
@@ -464,7 +464,7 @@ The theory is stronger than mere recombination. It includes:
 5. **Mathematical discovery:** deriving necessary consequences of axioms and definitions.
 6. **Empirical anticipation:** predicting a physical phenomenon before directly observing it.
 
-The theory does not license arbitrary certainty. It distinguishes derivation, prediction, and speculation.
+The framework does not license arbitrary certainty. It distinguishes derivation, prediction, and speculation, while recognizing that the six listed modes can overlap and are not mutually exclusive mechanisms.
 
 **Claim-linked evidence register records:** R02, R04, R05. These references distinguish deductive consequence from probabilistic updating and ampliative statistical inference; they do not establish a single mechanism unifying the six listed modes.
 
@@ -533,7 +533,7 @@ Out of Box Theory includes all four, but their certainty levels differ.
 
 ## 15. A disciplined epistemic ladder
 
-Every generated result should be assigned to one of these levels:
+For editorial tracking, a result may be given a primary label from this ladder, but its logical status, empirical support, source independence, and generalization should be recorded separately. The labels are not mutually exclusive and do not form a single ordinal measure of truth:
 
 | Level | Status | Required support |
 |---|---|---|
@@ -544,7 +544,7 @@ Every generated result should be assigned to one of these levels:
 | 4 | Independently corroborated discovery | Successful tests or independent observations |
 | 5 | Robust explanatory structure | Repeated prediction, replication, and resistance to alternatives |
 
-This ladder prevents a common error: moving from "I can conceive it" to "it is true."
+Used with those separate status dimensions, this classification helps prevent a common error: moving from "I can conceive it" to "it is true."
 
 It also prevents the opposite error: assuming that an unobserved proposition cannot be known. A proposition can be logically entailed before the event is observed.
 
