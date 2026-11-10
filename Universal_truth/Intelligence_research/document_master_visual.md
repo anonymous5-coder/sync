@@ -156,13 +156,13 @@ $$
 M_{t+1}=U_M(M_t,O_t,\ldots)
 $$
 
-This is the formal core of **Space or Null Theory**.
+This is one component of the formal framing of **Space or Null Theory**; it is a generic memory-update placeholder, not a distinct mechanism.
 
 ### Axiom 4 — Internal transformation
 
 A system with appropriate representational and computational capacities can transform stored representations through operations that are not equivalent to copying its observations. Such operations may include composition, abstraction, simulation, deduction, compression, and candidate-model generation.
 
-This is the formal core of **Out of Box Theory**.
+This is a candidate formal component of **Out of Box Theory**, not a complete or distinctive mechanism.
 
 ### Axiom 5 — Bounded resources
 
