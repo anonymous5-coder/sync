@@ -5771,3 +5771,60 @@ Diane L. Putnick and Marc H. Bornstein, “Measurement Invariance Conventions an
 **Does not support:** the validity of the treatise's \(\mathcal I\) score, the five selected components, or the proposed weights.
 
 **Pinpointing status:** abstract and PMC indexed full-text passages checked; complete PDF/page-level inspection not completed in this audit.
+
+
+## 106. Exact source-pinpoint and learning-process audit — §34 cue-response learning (10 November 2026)
+
+**Audit scope.** Re-read current §34 against the historical stable IDs S34-EQ01 and S34-C01, the current §22 Q-learning equation, and source records R16, R18, R19, R23, R26, R28, R30 and R53. The principal issue is a stale register row: the earlier generic scalar TD-like equation is no longer present in the current treatise. This entry supersedes that row for current-state assessment while preserving its historical finding.
+
+### 106.1 S34-EQ01 — historical generic TD expression versus current text
+
+The earlier register row described a generic update \(\Delta V_t=\alpha[r_t+\gamma V_{t+1}-V_t]\) followed by \(V_{t+1}=V_t+\Delta V_t\), and correctly noted that the state/action index and meaning of \(V_{t+1}\) were unspecified. That expression is not in the current §34. The current section instead references the Q-learning update in §22, where the state, action, realized reward, next-state bootstrap target and terminal-state convention have been specified at the computational-algorithm level.
+
+**Current assessment:** no separate §34 TD equation remains to validate. The current section's Q-learning reference is an instrumental action-value model only. It must not be treated as a general equation for every cue-response, Pavlovian or habit-learning process.
+
+### 106.2 S34-C01 — distinguish three learning processes
+
+The current §34 now distinguishes:
+
+1. **Pavlovian cue–outcome learning:** a cue predicts an outcome without requiring the subject to perform an action.
+2. **Instrumental action–outcome learning:** an action produces a consequential outcome; an action-value update such as Q-learning can model one computational version of this process.
+3. **Stimulus–response habit learning:** a cue/state comes to elicit a response with reduced sensitivity to current outcome value.
+
+These processes can interact but are not interchangeable. A cue predicting an outcome does not by itself establish that the cue controls an action, and an action-value update does not by itself establish stimulus–response habit formation.
+
+**Evidence assessment:**
+
+- **R16, Sutton & Barto:** the accessible second-edition-in-progress draft §6.5, Eq. (6.8), supports the Q-learning algorithm as off-policy temporal-difference control. The full-text version inspected is a draft, not the final published 2018 edition; final publisher metadata was checked separately. This source supports the computational update, not a human neuronal mechanism.
+- **R18, O'Doherty et al. (2017):** review-level source supporting multiple reward-related learning/decision strategies and interactions. It does not justify a universal anatomically isolated model-based/model-free binary.
+- **R19, Nebe et al. (2024):** full registered-report article inspected. In N=220 recruited participants (N=213 for two frequency tasks; N=208 for cross-paradigm validity), choice frequency during training increased later frequency-based choice measures in two tasks. However, the six habit paradigms showed near-zero or negative correlations, poor one-dimensional model fit and no criterion validity against real-life habit questionnaires (full article Results/Table 2 and criterion-validity analyses, lines 958–960, 1047–1053, 1063–1106, 1195–1230). This directly cautions against treating laboratory habit tasks as interchangeable measures of one universal habit construct.
+- **R23, Berridge & Robinson (2016):** full 10-page review PDF inspected. It supports cue-triggered incentive salience and a possible dissociation between “wanting” and “liking” in addiction-related domains (pp. 671–674). It does not establish that every ordinary cue-triggered action is addiction-like or a stimulus–response habit.
+- **R26, Schwabe & Wolf (2009):** full PMC article inspected. It supports an acute-stress effect on outcome-devaluation-insensitive responding in one specific human instrumental-learning paradigm; it does not establish a universal habit-learning rule.
+- **R28 and R30:** publisher/PubMed abstract-level evidence for selected context and automaticity effects; neither validates a universal cue-response or habit-strength equation.
+- **R53, Sjoerds et al. (2016):** full Frontiers article inspected. In N=28, two task measures of model-based/goal-directed behaviour showed only moderate/low shared variance; model-free and habit-like measures did not show the expected association (abstract lines 297–303; participants/methods lines 335–355; discussion/conclusion lines 497–532). This supports caution about treating distinct task measures as interchangeable indices of one latent control/habit construct.
+
+**Disposition:** S34-C01 is examined and supported only at a broad, process-specific level. The current distinction among Pavlovian, instrumental and stimulus–response learning is appropriate. The Q-learning update is a computational candidate for instrumental action-value learning, not a complete model of cue learning or habit formation.
+
+### 106.3 Controlled wording clarification and verification
+
+The current treatise now:
+
+- explicitly distinguishes Pavlovian cue–outcome, instrumental action–outcome and stimulus–response habit learning;
+- states that the §22 Q-learning update models instrumental action-value learning only;
+- avoids inferring habit formation from cue prediction or action-value updating alone;
+- retains the need for a separate behavioural and neural model of habit formation and its interaction with goal-directed control.
+
+The live treatise was fetched after commit `b94cd23b7b2e6f9a0322088b4211859bae10bdbe`, blob `0f2df1063138b486b8994d10e70dfae2095d20ac`.
+
+### 106.4 Coverage accounting
+
+| Stable claim | Status | Evidence and limitation |
+|---|---|---|
+| S34-EQ01 | Historical equation superseded; current section contains no separate generic TD update | Old generic \(V_t\) equation remains documented as a historical finding. Current §34 references §22's Q-learning update instead. |
+| S34-C01 | Examined; process distinction supported with qualifications | R16 supports the algorithm; R19/R53 show task/construct heterogeneity; R23/R26 support domain-specific neighbouring mechanisms. No universal habit mechanism established. |
+
+**Source-access ledger:** R16 accessible second-edition draft full text at §6.5 Eq. (6.8), final publisher metadata checked separately; R18 review-level source retained within its existing scope; R19 full open-access registered-report article inspected; R23 full author-hosted review PDF inspected; R26 full PMC article inspected; R28/R30 publisher/PubMed abstract-level access only for exact result locators; R53 full Frontiers article inspected. No source is represented as validating a single general cue-response/habit equation.
+
+**Batch accounting:** one treatise section examined; two historical/current stable claims reconciled; one stale equation row superseded without deleting its history; three learning processes distinguished; no neuronal or universal habit mechanism established. No experiments A–F, preregistration, recruitment, intervention or tracker edit occurred.
+
+**Next:** proceed to the next high-impact Space or Null Theory / Out of Box Theory section batch. The complete sentence-level audit, habit-state mathematical closure, typed architecture, rendered inspection and qualified independent external review remain open.
