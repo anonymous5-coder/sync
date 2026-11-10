@@ -4946,3 +4946,83 @@ The source pointer now lists representative records across the component summari
 - No experiments A–F were executed or authorized; no tracker edit, preregistration, recruitment or data collection occurred.
 
 **Next:** continue citation-to-register reconciliation through §§41–59. Preserve the current provisional status of the intelligence functional, physical–cognitive bridge, habit/learning model, Recursive Intelligence and ROOT efficacy.
+
+
+## 94. Citation-to-register reconciliation — treatise §§41–59, current edition
+
+**Current treatise snapshot:** `document_master_visual.md`, blob `5be822a7450bb03e1f9c7375cb24e589021d23ed`, 2,809 lines, 95 numbered sections. This entry reconciles the current wording and source-pointer scope against stable claims S41–S59 and records the disposition of previously identified inconsistencies. It is a targeted sentence-level pass over §§41–59, not completion of the remaining 95-section audit.
+
+### 94.1 §41 — Trigger-specific intervention and sustained attention (S41-C01/C02)
+
+The previous opening “Yes, in principle” could be read as an empirical answer despite the register's disposition that the claim is a testable intervention hypothesis and that component studies do not demonstrate sustained-attention improvement or ROOT-package efficacy.
+
+**Correction:** the opening now says the framework *hypothesizes* that trigger-specific interventions can improve sustained attention, explicitly distinguishing a testable hypothesis from an empirical answer about ROOT efficacy. The existing R31/R32/R48 if–then-planning sources and R33/R34 digital-friction sources remain component evidence only.
+
+### 94.2 §§42–43 — Habit learning and environmental leverage (S42-C01/M01; S43-C01/EQ01)
+
+Section 42 retains its no-universal-duration qualification and labels the saturating recurrence a candidate model with unestimated parameters and unresolved boundedness semantics. The conflict with the distinct additive recurrence in §56 remains open.
+
+Section 43's R33/R34 sources support only specific digital-friction/screen-time examples; they do not validate the environmental leverage ratio, rank interventions or support every proposed environmental lever. **Correction:** the pointer note now states this limitation, and “the model predicts” was changed to “the model hypothesizes” for the proposed high-leverage intervention list. The ratio remains a personal heuristic requiring a comparator, eligible-opportunity denominator, time window and common burden scale; it is not a causal effect estimate.
+
+### 94.3 §44 — Recovery metrics and composite (S44-C01/M01)
+
+The existing R27/R38/R41/R42/R44/R47/R50 source set remains aligned with measurement standards, interruption recovery, single-case/EMA methods and reporting. Two internal measurement issues were made explicit:
+- Sleep regularity is a listed monitoring metric but is not part of the displayed composite.
+- Return-to-task latency must be interpreted with resumed-task accuracy; a faster return can coexist with worse performance.
+
+The weighted composite remains exploratory and unvalidated. Raw component outcomes remain primary.
+
+### 94.4 §45 — Individualized observe–estimate–intervene loop (S45-C01/EQ01/C02)
+
+R27/R29/R30/R38/R41/R42/R47/R50 provide measurement, context/habit and design-method context, not evidence that this particular loop is a validated adaptive controller or that individualized adaptation outperforms fixed/simple rules.
+
+**Correction:** the pointer note now makes that limitation explicit. The loop remains a workflow proposal; its estimator, policy class, update cadence, assignment method, safety limits and comparison baseline are unspecified.
+
+### 94.5 §§46–48 — Recursive Intelligence comparators (S46-M01, S47-M01/C01, S48-C01/C02)
+
+The current wording correctly states that self-modeling and policy/parameter updates overlap with metacognition, meta-control, reinforcement learning and adaptive control. R24/R35–R39/R51/R54/R55 provide neighbouring construct and experimental comparators, not evidence for a distinct Recursive Intelligence mechanism. No pointer change or claim upgrade was warranted.
+
+### 94.6 §49 — Formal objective for recursive control (S49-M01/EQ01/EQ02/C01)
+
+The discounted-return objective is standard only under a specified trajectory distribution and decision process; the policy update is not an algorithm without a parameterization, differentiability and estimator. The former R35/R37/R51/R54/R55 pointer set did not identify the reinforcement-learning basis of the generic objective.
+
+**Correction:** added R16 (standard reinforcement-learning algorithms) and R24 (expected-value-of-control comparator) to the pointer set, with a scope note distinguishing generic RL/control mathematics from the unvalidated human reward/cost/harm terms, weights and gradient-like update. No literal neural gradient descent is claimed.
+
+### 94.7 §§50–53 — Goal hierarchy, ROOT definition, state and event schema (S50-M01/C01; S51-C01; S52-M01/C01; S53-M01/C01)
+
+- **§50:** the four-level goal chain remains an illustrative ordering, not a universal or validated human goal hierarchy.
+- **§51:** changed “is the operational layer” to “is proposed as the operational layer.” R28/R34 inform selected habit/context and digital-obstruction components, not the seven-stage package's efficacy or sequence.
+- **§52:** R27 is measurement/testing-standards context only; it does not validate the seven-variable state or its sufficiency.
+- **§53:** the current event schema explicitly distinguishes `cueID` (cue/trigger identity or description) from $c_t$ (cue-intensity rating inside the state vector). The former register concern that the tuple duplicated cue information is therefore partly resolved by the current wording. R27/R38/R41/R42/R47/R50/R53 inform measurement, reporting and comparator practices; they do not validate this event schema.
+
+The seven-variable ROOT vector remains a provisional bookkeeping construct with ordinal ratings, not a validated Markov-sufficient state. The event schema still requires explicit event boundaries, duration semantics and opportunity denominators.
+
+### 94.8 §§54–56 — Obstruction, override and training (S54-C01/EQ01/EQ02; S55-C01; S56-M01)
+
+Section 54's probability inequality did not follow algebraically from lower accessibility. **Correction:** the treatise now labels it a testable hypothesis and states the need for a monotonic response model and assumptions about substitution, competing actions and context. R33/R34 provide only limited digital-friction evidence and do not establish universal monotonicity.
+
+Section 55's R31/R32/R48/R65 pointer set remains aligned with if–then planning and mental contrasting/implementation-intention components. Section 56 retains an unbounded additive learning heuristic with explicit limits; R16/R18/R19/R26/R28/R29/R30/R53 do not validate that recurrence. The §42/§56 recurrence conflict remains unresolved.
+
+### 94.9 §57 — Correction and notation (S57-EQ01/C01)
+
+The register's earlier symbol-collision warning is stale against the current treatise: §52 uses $e_t$ for environmental accessibility, while §57 now uses $\varepsilon_t^{\mathrm{out}}$ for signed outcome error. The current symbols are distinct; the historical concern is recorded as resolved by the current notation. R40 provides general discrete-time linear-stability context only and does not validate a ROOT behavioural correction rule. The error definition remains conditional on common units, scales and time windows; no controller gain, update map or stability condition is specified.
+
+### 94.10 §58 — Optimisation domains (S58-C01)
+
+R25/R43/R44 provide sleep-related evidence and R30 provides a specific context-planning result. They do not establish the effects of every listed domain (activity, nutrition, hydration, workload, task difficulty or social/emotional stress) and do not define an integrated optimization algorithm.
+
+**Correction:** the pointer note now separates the sleep/context evidence from the remaining candidate factors. The section remains a list of possible moderators and a safeguard against maximizing productivity at all times, not a validated intervention prescription.
+
+### 94.11 §59 — Integrated ROOT cycle (S59-M01/C01)
+
+No pointer block was added. The section is a synthesis of §§45, 47 and 51. It is not independent evidence for the integrated seven-stage cycle. Typed stage interfaces, state/policy updates, concurrency/order, feedback timing, fidelity and incremental benefit over simpler baselines remain unspecified. Component evidence does not validate package composition.
+
+### 94.12 Result and remaining dependencies
+
+- Corrected §41's empirical-sounding opening; clarified source scope in §§43, 45, 49, 51–54 and 58; added R16/R24 to §49; clarified the separate monitoring/composite role of sleep regularity and the speed–accuracy trade-off in §44.
+- Confirmed the current §53 cue identifier/intensity distinction and resolved the historical §57 $e$ notation collision by using $\varepsilon_t^{\mathrm{out}}$.
+- No ROOT efficacy, adaptive-controller validity, causal intervention effect or Recursive Intelligence distinctiveness was upgraded.
+- The §42/§56 habit recurrence conflict, §51 ROOTCOL acronym boundary, §53 event semantics, §57 controller specification and §59 integrated-cycle interface remain open.
+- No tracker edit or experiment occurred. A–F remain unexecuted and unauthorized.
+
+**Next:** continue the citation-to-register reconciliation through §§60–74 and then §§75–95. Preserve the distinction between component evidence and integrated ROOT/Recursive Intelligence claims.
