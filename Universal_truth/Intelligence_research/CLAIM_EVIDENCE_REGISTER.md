@@ -4840,3 +4840,34 @@ The source-pointer notes for §§26–27 now explicitly distinguish component ev
 - Experiments A–F remain unexecuted and unauthorized; no preregistration, recruitment, data collection or intervention occurred. The ROOT tracker was not changed.
 
 **Next:** continue citation-to-register reconciliation through §§28–40, then remaining section batches. Keep the physical–cognitive bridge, ROOT efficacy, Recursive Intelligence distinctiveness and the intelligence functional at their existing provisional status. Continue mathematical dependency closure and final rendering/review gates separately.
+
+
+## 92. New canonical source records R74–R75 — physical computation limits and logistic regression
+
+These sources were added to close specific support gaps identified during the §§28–40 citation-to-register reconciliation.
+
+### R74 — Lloyd (2000): physical limits on computation rate and memory
+
+Seth Lloyd, “Ultimate physical limits to computation,” *Nature* 406(6799), 1047–1054 (31 August 2000), DOI: [10.1038/35023282](https://doi.org/10.1038/35023282), PMID [10984064](https://pubmed.ncbi.nlm.nih.gov/10984064/). Publisher record: https://www.nature.com/articles/35023282. Accessible author preprint: arXiv:quant-ph/9908043v3 (14 February 2000), https://arxiv.org/abs/quant-ph/9908043; PDF: https://arxiv.org/pdf/quant-ph/9908043.
+
+**Evidence type and access:** Nature review article; publisher metadata/abstract inspected. The 22-page arXiv v3 preprint was inspected in full. The preprint is an earlier manuscript version; it is not represented as text-identical to the final Nature publication.
+
+**Supports:** theoretical physical limits on computation rate as a function of energy, information storage as constrained by accessible physical degrees of freedom/entropy, and the role of finite signal speed and physical constants in limiting computation. The preprint also discusses the cost of error correction and communication. These are theoretical bounds, not measurements of biological computation.
+
+**Relevant claim:** S31-C01 and the resource-vector discussion in S31-M01. It supports including distinct physical rate/memory constraints; it does not validate the treatise's general performance function $\Phi$ or establish a single scalar resource limit.
+
+**Pinpoints in accessible preprint:** abstract (PDF p. 1); §1 and §1.3 on energy-limited operation rate (PDF pp. 1–5); §2 on entropy-limited memory (PDF pp. 5–8); error-correction discussion (PDF pp. 8–9). The final journal pagination remains 1047–1054.
+
+### R75 — Hosmer, Lemeshow & Sturdivant (2013): logistic regression
+
+David W. Hosmer Jr., Stanley Lemeshow and Rodney X. Sturdivant, *Applied Logistic Regression*, 3rd ed. (Wiley, 2013), DOI: [10.1002/9781118548387](https://doi.org/10.1002/9781118548387), print ISBN 978-0-470-58247-3. Publisher record: https://onlinelibrary.wiley.com/doi/book/10.1002/9781118548387.
+
+**Evidence type and access:** specialist statistical textbook. Wiley bibliographic metadata and table of contents inspected; Chapter 1 (“Introduction to the Logistic Regression Model,” pp. 1–33) is identified by the publisher, but the chapter's full text was not inspected in this pass.
+
+**Supports:** the standard logistic-regression model class for a dichotomous outcome and its relationship to covariates; model-building, interpretation and assessment are covered in the text.
+
+**Relevant claim:** S39-EQ01. It supports identifying the displayed sigmoid/linear-predictor form as a candidate logistic-regression specification. It does not validate the treatise's selected predictors, coefficient signs, ordinal-rating treatment, temporal structure or individual-level causal interpretation.
+
+### 92.1 Inventory update
+
+The current canonical source inventory contains R01–R75: 75 identifiers and 72 distinct source works after the three established aliases R52/R03, R56/R06 and R64/R48. Earlier inventory counts in §§70, 88 and 90 are historical snapshots and remain unchanged. Neither new record upgrades a claim's evidence disposition or establishes the proposed behavioural model.
