@@ -810,7 +810,7 @@ A habit is not inherently bad. Its value depends on whether the cue-response map
 
 ## 22. Cue learning as a dynamical system
 
-Let $s_t$ denote the state available before action $a_t$; it includes cue $c_t$ and any other variables used by the policy. After action $a_t$, the system receives outcome/reward $r_{t+1}$ and enters state $s_{t+1}$.
+Let $s_t^{\mathrm{RL}}$ denote the state representation available before action $a_t$; it includes cue $c_t$ and any other variables used by the policy. This RL state is distinct from the behavioural predictor vector in §39 and the ROOT operational rating vector in §52. After action $a_t$, the system receives outcome/reward $r_{t+1}$ and enters state $s_{t+1}^{\mathrm{RL}}$.
 
 One standard off-policy candidate is the Q-learning update:
 
@@ -1390,7 +1390,7 @@ An intervention should be designed with the relevant mechanism's timescale in vi
 
 ## 39. The full behavioural-loop model
 
-Let the state vector be:
+Let the reduced behavioural predictor vector be:
 
 $$
 s_t=(g_t,c_t,u_t,f_t,z_t,h_t)
@@ -1809,7 +1809,7 @@ The protocol is a behavioural engineering architecture, not a claim that all unw
 
 ## 52. State estimation
 
-Let the measured state be:
+Let the ROOT operational rating vector be:
 
 $$
 s_t=(c_t,u_t,f_t,d_t,g_t,h_t,e_t)
@@ -1825,7 +1825,7 @@ where:
 - $h_t$: habit strength;
 - $e_t$: environmental accessibility of the competing action.
 
-The system estimates $s_t$ using observation and reflection. The estimate need not be perfect; it must be good enough to select a useful intervention. Here $f_t$ is an ordinal self-rating of perceived fatigue, not an objective physiological measurement. In the reduced six-variable model in §39, $z_t$ denotes task demand/difficulty and uncertainty and corresponds only approximately to $d_t$ here; the ROOT vector additionally records competing-action accessibility as $e_t$. The seven ratings remain ordinal and are not assumed to be equally spaced or directly additive.
+The system estimates $s_t^{\mathrm{ROOT}}$ using observation and reflection. This ordinal rating vector is not the macro system state $\mathcal{S}_t$ or the reduced behavioural predictor vector $b_t$ in §39. The estimate need not be perfect; it must be good enough to select a useful intervention. Here $f_t$ is an ordinal self-rating of perceived fatigue, not an objective physiological measurement. In the reduced six-variable model in §39, $z_t$ denotes task demand/difficulty and uncertainty and corresponds only approximately to $d_t$ here; the ROOT vector additionally records competing-action accessibility as $e_t$. The seven ratings remain ordinal and are not assumed to be equally spaced or directly additive.
 
 **Claim-linked evidence register records:** R27. This is measurement/testing-standards context; it does not validate the seven-variable ROOT state, its sufficiency or the reliability of its ratings. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
@@ -2027,7 +2027,7 @@ where:
 
 - $A_{\mathrm{plant}}$: uncontrolled plant dynamics;
 - $B_{\mathrm{plant}}$: effect of the control intervention;
-- $u_t$: intervention;
+- $v_t$: control intervention;
 - $w_t$: disturbances.
 
 A feedback controller may choose:
@@ -2327,7 +2327,7 @@ $$
 \right\}
 $$
 
-The set notation lists candidate operation families without asserting a serial order. The boxed state mapping is therefore a schematic placeholder, not an executable or validated transition law. No domains/codomains, update order, concurrency semantics, clocks, feedback interfaces, resource accounting or coupling rule are yet specified.
+The set notation lists candidate operation families without asserting a serial order. Under §3, $\mathcal{S}_t$ already includes $G_t$ and $\Pi_t$; the separate $G_t$ argument here is not yet typed as an exogenous goal signal or a duplicated state component. $\Pi_t$ remains inside $\mathcal{S}_t$ and is not separately listed in this schematic. The boxed state mapping is therefore a schematic placeholder, not an executable or validated transition law. No domains/codomains, update order, concurrency semantics, clocks, feedback interfaces, resource accounting or coupling rule are yet specified.
 
 ## 72. Proposed Context–Inference–Control Cycle (conceptual sequence)
 
@@ -2720,7 +2720,9 @@ R_t,
 }
 $$
 
-This tuple is a schematic dependency inventory, not a defined transition equation. Its separate $\Pi_t$ term is not yet reconciled with the input list in §71; no equivalence between the two schematics is asserted.
+This tuple is a schematic dependency inventory, not a defined transition equation. Under §3, $\mathcal{S}_t$ already includes $G_t$ and $\Pi_t$; their separate appearance here may represent duplicated state components or exogenous goal/policy signals. Section 71 lists $G_t$ separately but not $\Pi_t$, whereas this section lists both. No choice between these interpretations is justified, and no equivalence between the two schematics is asserted.
+
+The macro state $\mathcal{S}_t$, RL state $s_t^{\mathrm{RL}}$, reduced behavioural predictor vector $b_t$, ROOT operational rating vector $s_t^{\mathrm{ROOT}}$, and controller deviation state $x_t$ are distinct representations. No projection or observation map among them is defined. The ROOT vector contains seven ordinal self-ratings; the §39 predictor vector contains six features and omits competing-action accessibility $e_t$, while its task-demand variable $z_t$ corresponds only approximately to ROOT's $d_t$. ROOT's $h_t$ is a personal rating, not an identified measurement of latent $H_t$ or $H_{\mathrm{alt},t}$; its $g_t$ is goal activation, not the full goal structure $G_t$; and its $e_t$ is accessibility, not the environment $E_t$. The controller state $x_t$ is deviation from a target and requires a separate target/error map. The time index $t$ is local to each model; no synchronization among decision steps, daily/focus-block/episode measurements, and controller updates has been specified. Action score $Q(a)$, RL action value $Q_{\mathrm{RL}}(s,a)$, policy-level score $S_{\mathrm{loc}}(\Pi)$, and trajectory objective $J(\pi)$ are also distinct; no mapping among them is defined.
 
 Space or Null Theory proposes how context and structure condition the system.
 
