@@ -4604,3 +4604,71 @@ No additional claim was upgraded. The source-pointer addition in §38 increases 
 - Next dependencies: continue the complete bibliography metadata/reference consistency audit; complete sentence-level claim-to-register reconciliation; close the typed state/policy interface and remaining formal dependencies; investigate E17/E18 only from recoverable auditable provenance; then complete render/notation checks and qualified independent/adversarial review.
 
 **Status:** targeted current-edition audit complete for §§75, 89–91 and 95. Two wording corrections and one explicit interface qualification were made in the treatise. No claim of manuscript completion or review readiness follows from this targeted pass.
+
+
+## 88. Bibliographic metadata and reference-consistency audit — selected bibliography and R01–R70 (10 November 2026)
+
+**Audit scope.** Re-fetched the current treatise and source register. Checked the ten selected references against publisher, PubMed/PMC and Stanford Encyclopedia of Philosophy author/citation records; scanned the full R01–R70 identifier inventory and bibliographic record locations; corrected incomplete or inaccurate metadata where a primary bibliographic record was available. This is a metadata and identity audit, not a fresh content-level re-review of every source or a closure of all source-to-claim pinpoints.
+
+### 88.1 Selected treatise bibliography — ten entries
+
+The ten selected entries in the treatise have been revised against publisher or official bibliographic records:
+
+1. **Chattopadhyay et al. (2025):** verified four authors, *Reports on Progress in Physics* 88(8), article 086001, DOI 10.1088/1361-6633/add6b3.
+2. **Karbowski (2024):** completed the author and journal metadata: *Entropy* 26(9), article 779, DOI 10.3390/e26090779. This is a perspective on applying information thermodynamics to theoretical neuroscience, not an empirical validation of the treatise's physical–cognitive bridge.
+3. **Street (2016):** verified Sterling Street, *Frontiers in Systems Neuroscience* 10, article 90, DOI 10.3389/fnsys.2016.00090.
+4. **Kringelbach, Sanz Perl & Deco (2024):** supplied all authors and full journal metadata: *Trends in Cognitive Sciences* 28(6), 568–581, DOI 10.1016/j.tics.2024.03.009.
+5. **Shenhav et al. (2017):** supplied the complete seven-author list and verified *Annual Review of Neuroscience* 40, 99–124, DOI 10.1146/annurev-neuro-072116-031526.
+6. **Malvaez (2020):** supplied the author and corrected the final issue year to *Journal of Neuroscience Research* 98(6), 986–997, DOI 10.1002/jnr.24552. The online-first date is 6 November 2019; the final issue is 2020. These dates are now explicitly distinguished.
+7. **Averbeck & O'Doherty (2022):** verified both authors, *Neuropsychopharmacology* 47, 147–162, DOI 10.1038/s41386-021-01108-0. Online publication was 5 August 2021; the issue date is January 2022.
+8. **Schulkin & Sterling (2019):** supplied both authors and full journal metadata: *Trends in Neurosciences* 42(10), 740–752, DOI 10.1016/j.tins.2019.07.010.
+9. **Stanford (2023):** supplied the author and fixed archive citation: *The Stanford Encyclopedia of Philosophy* (Summer 2023 Edition), stable URL https://plato.stanford.edu/archives/sum2023/entries/scientific-underdetermination/. The dynamic SEP URL is not used as the scholarly citation.
+10. **Maroney (2009):** supplied the author and fixed archive citation: *The Stanford Encyclopedia of Philosophy* (Fall 2009 Edition), stable URL https://plato.stanford.edu/archives/fall2009/entries/information-entropy/.
+
+The treatise bibliography was revised to sentence-case titles, consistent article-number notation, full author lists where available, DOIs and fixed SEP archive URLs. The note above the list now explicitly distinguishes selected/contextual references from claim-linked evidence records. A selected item is not independent evidence for a specific treatise claim unless that use is mapped to a stable register record.
+
+### 88.2 Canonical reference-work records R02–R05
+
+The live SEP pages and their official “Author and Citation Information” records were checked. R02–R05 now use the fixed archived editions recommended by SEP and include the identified authors:
+
+- **R02:** Jc Beall, Greg Restall and Gil Sagi, “Logical Consequence,” Spring 2026 Edition; archive https://plato.stanford.edu/archives/spr2026/entries/logical-consequence/. The Spring 2026 archive contains a minor correction; the last-modified date is 1 March 2026. This supersedes the earlier 2024 dynamic-page citation.
+- **R03:** Kyle Stanford, “Underdetermination of Scientific Theory,” Summer 2023 Edition; archive https://plato.stanford.edu/archives/sum2023/entries/scientific-underdetermination/.
+- **R04:** Hanti Lin, “Bayesian Epistemology,” Summer 2024 Edition; archive https://plato.stanford.edu/archives/sum2024/entries/epistemology-bayesian/.
+- **R05:** Jan-Willem Romeijn, “Philosophy of Statistics,” Winter 2025 Edition; archive https://plato.stanford.edu/archives/win2025/entries/statistics/.
+
+No DOI is expected for these SEP reference-work entries. The archived version, author, editor and publisher fields provide the stable citation identity.
+
+### 88.3 Corrections and completion of source-register metadata
+
+- **R21:** added complete second-edition book metadata, book DOI and ISBN for Cover & Thomas. The chapter-level locator is retained, but an unverified print-page range was deliberately removed; the exact page pinpoint is not claimed closed.
+- **R22:** identified the cited chapter as “Kolmogorov Complexity,” Chapter 7, pp. 144–182, in Cover & Thomas, *Elements of Information Theory* (Wiley, copyright 1991; online book record first published 5 October 2001). Chapter DOI 10.1002/0471200611.ch7 and book DOI/ISBN were added. The 2001 online-record date is not represented as the book's original copyright year.
+- **R41:** added Shaffer, Kronish, Falzon, Cheung and Davidson; complete journal/volume/issue/pages; DOI, PMID and PMCID. Online publication (3 February 2018) and issue year (2018) are distinguished.
+- **R42:** corrected a material journal-title error. The article is by Stinson, Liu and Dallery in *Perspectives on Behavior Science* 45(2), 469–493 (2022), not *Behavior Analysis in Practice*. DOI 10.1007/s40614-022-00339-w, PMID and PMCID are recorded. The current access classification remains abstract/review-metadata level; no full-text table audit is claimed.
+- **R47:** completed the 26-author list and the *Archives of Scientific Psychology* 4(1), 1–9 (2016) metadata for the APA version of the SCRIBE 2016 Statement, DOI 10.1037/arc0000026. SCRIBE was simultaneously published in multiple journals; this register uses the APA version as its single canonical R47 identity and does not count parallel publications as independent guidelines.
+- **R49:** added Zhang, Dziak, Tomlinson and Nahum-Shani; volume/issue/article identifier; DOI, PMID and PMCID. Publisher and PubMed records distinguish online/issue metadata; the source's existing inspection and pinpoint limitations remain unchanged.
+- **R52:** retained as a historical alias of R03 but changed its citation route to the same fixed Summer 2023 archive.
+- **R55:** completed the table-level record as Lin (2022), “Using metacognitive prompts to enhance self-regulated learning and learning outcomes: A meta-analysis of experimental studies in computer-based learning environments,” *Journal of Computer Assisted Learning* 38(3), 811–832, DOI 10.1111/jcal.12650. The existing abstract-level access status remains; publisher full text and detailed study-level analysis are not marked inspected.
+- **R67:** supplied Daniel E. Gustavson and Akira Miyake as authors and added PMCID PMC5608091 to the existing DOI/PMID record. The study's null intervention result remains a design- and interval-specific limitation, not evidence that all planning interventions fail.
+
+### 88.4 Identifier, alias and locator reconciliation
+
+The current register contains stable identifiers R01–R70. The three duplicate aliases remain:
+
+- R52 aliases R03 (same SEP underdetermination entry);
+- R56 aliases R06 (same DeCasper & Spence 1986 article);
+- R64 aliases R48 (same Sheeran, Listrom & Gollwitzer 2025/2024-online meta-analysis).
+
+Accordingly, the 70 identifiers represent **67 distinct source works**, not 70 independent studies. R70 is the later-added OpenStax first-law sign-convention source; §70's earlier 69-record inventory is a historical snapshot and is not silently rewritten. The selected ten-item treatise list is a separate contextual list: only its underdetermination entry duplicates a canonical R record (R03); the remaining entries are not counted as additional claim-mapped R sources by virtue of appearing in the selected list.
+
+The current manuscript's R-code pointers were previously audited for identifier resolution in §85. This pass did not change those pointers. The three aliases are not to be treated as independent support or as separate bibliography entries.
+
+### 88.5 Limits, unresolved checks and disposition
+
+1. Metadata verification does not establish that a source's content supports a particular sentence. Claim-level fit, contrary evidence and source-access status remain controlled by the individual source and stable-claim records.
+2. R41's exact page for each individual methodological recommendation remains unverified; R42 remains at the previously recorded abstract/review-metadata inspection level; R47's item-level checklist application remains a future protocol-design dependency; R49's full-text status is not upgraded by this metadata pass; R55 remains abstract-level.
+3. The exact R21 page pinpoint is intentionally not asserted. R22's chapter pages are publisher-recorded, but this metadata correction does not claim a new full-chapter content review.
+4. No DOI has been invented for reference works, standards or institutional materials. Stable URLs/ISBNs are used where appropriate.
+5. The E17/E18 provenance gap is unchanged. No missing source cluster has been reconstructed from numbering.
+6. The selected bibliography is now more complete, but the register still requires a final source-by-source DOI resolution and bibliographic consistency pass, followed by the separate citation-to-register and sentence-level support audit across all 95 sections.
+
+**Disposition:** selected bibliography metadata corrected; SEP archive citations stabilized; material R41/R42/R47/R49/R55/R67 metadata gaps corrected; R21/R22 book/chapter identities clarified; R01–R70 identifier/alias inventory reconciled. No empirical claim was upgraded, no source-access level was upgraded by metadata alone, and no experiment or intervention was executed or authorized. The full manuscript is not thereby complete or review-ready.
