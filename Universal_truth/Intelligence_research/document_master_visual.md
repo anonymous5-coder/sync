@@ -2703,7 +2703,7 @@ R_t,
 \xrightarrow{\text{candidate update}}
 \mathcal{S}_{t+1}
 }
-$
+$$
 
 This tuple is a schematic dependency inventory, not a defined transition equation. Its separate $\Pi_t$ term is not yet reconciled with the input list in §71; no equivalence between the two schematics is asserted.
 
