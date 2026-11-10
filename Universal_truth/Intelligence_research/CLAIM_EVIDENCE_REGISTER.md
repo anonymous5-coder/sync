@@ -5463,3 +5463,82 @@ Rose M. Spielman, Kathryn Dumper, William Jenkins, Arlene Lacombe, Marilyn Lovet
 **Supports:** negative reinforcement as removal of an undesirable/aversive stimulus that increases behaviour; reinforcement must increase the likelihood of a response; distinction from punishment.
 
 **Does not support:** the claim that a particular person's avoidance behaviour is maintained by relief, the specific causal chain in §23, or any ROOT intervention efficacy.
+
+
+## 102. Exact source-pinpoint and sentence-level audit — §§24–25 thermodynamic entropy and variational free energy (10 November 2026)
+
+**Audit scope.** Re-read current treatise §§24–25 sentence by sentence against S24-C01, S24-C02, S25-EQ01 and S25-C01. Inspected the full cited OpenStax thermodynamics sections, the full Oxford thermodynamic-potentials handout, the full Friston (2010) review text, and the full Zhang & Ouyang (2021) open-access review. This is a bounded two-section audit, not closure of the remaining treatise.
+
+### 102.1 §24 — scope of the second law (S24-C01)
+
+R71, Ling, Moebs & Sanny, *University Physics Volume 2*, OpenStax, §§4.4 and 4.6, was re-inspected in its official online edition. Section 4.4 gives the Kelvin and Clausius formulations and explains their equivalence (§4.4, lines 29–43). Section 4.6 states that the entropy statement applies to a closed system or the entire universe, and that the total entropy does not decrease (§4.6, lines 103–114). It also gives an example in which an individual object loses entropy while the larger process still has positive total entropy change (§4.6, lines 120–139).
+
+**Disposition:** the treatise's rejection of a local “brain seeks disorder” inference is correct. The second law constrains the isolated/combined system, not every subsystem's entropy separately. It does not provide a behavioural preference rule or explain why a person chooses distraction. The corrected wording makes the system boundary explicit.
+
+### 102.2 §24 — biological organization and entropy exchange (S24-C02)
+
+R77, Zhang & Ouyang (2021), “Nonequilibrium Thermodynamics in Biochemical Systems and Its Application,” *Entropy* 23(3), 271, DOI 10.3390/e23030271, was inspected as a full 18-page open-access review. The introduction explains that living cells exchange energy and materials with their environment, absorb energy/nutrients for biochemical activity, and expel waste and heat (PDF p. 1, Introduction, lines 30–35); the discussion continues with metabolism and open nonequilibrium systems (PDF p. 2, lines 39–45).
+
+**Disposition:** the general open-system account is supported at review level. This source supports a thermodynamic background statement about biological organization; it does not identify a neural mechanism for distraction, quantify the energetic cost of a cognitive action, or establish a causal bridge to habit selection. The treatise wording was narrowed to describe energy/material exchange and release of waste/heat without treating “free energy” as a single unambiguous neural resource.
+
+The five-item list that follows in §24 combines physical embodiment, metabolic cost, control opportunity cost, cached-policy efficiency and cue-triggered selection. That list is a conceptual synthesis across different evidence domains, not a single result of thermodynamics. Its final link remains a proposed bridge hypothesis; it must not be presented as a derived causal chain.
+
+### 102.3 §25 — Helmholtz free energy (S25-EQ01)
+
+R72, Schekochihin, “Basic Thermodynamics,” University of Oxford, Handout 5, was inspected directly as a one-page PDF. The first page defines the Helmholtz function as \(F=U-TS\), gives \(dF=-S\,dT-p\,dV\) for the stated simple-system convention, and identifies the natural variables \(T,V\) (Handout 5, lines 3–12). It also states the fixed-temperature/fixed-volume equilibrium minimization case (lines 38–46).
+
+**Disposition:** the treatise equation \(F=U-TS\) is directly supported as the standard thermodynamic potential. Its physical meaning and natural variables must remain tied to the thermodynamic system and conditions. It is not a generic measure of cognitive effort, neural energy use or behavioural “free energy.”
+
+### 102.4 §25 — variational free energy and the Helmholtz distinction (S25-C01)
+
+R78, Friston (2010), “The free-energy principle: a unified brain theory?”, *Nature Reviews Neuroscience* 11, 127–138, DOI 10.1038/nrn2787, was inspected in full from an author-hosted PDF. The review defines free energy as an information-theoretic measure that bounds surprise given a generative model (printed p. 127, glossary; PDF lines 7–13). It states that variational free energy is an information-theoretic, not thermodynamic, quantity (printed p. 127–128, PDF lines 48–50), and derives the upper-bound relationship using a non-negative divergence term (printed p. 128, PDF lines 94–102). The review itself cautions that its capacity to unify different brain theories had yet to be established (printed p. 127, PDF lines 19–23).
+
+R20, Friston (2009), remains verified only at PubMed/publisher abstract level in this audit; it is retained as a review-level contextual source, not used as the exact derivation locator. R78 provides the full-text pinpoint needed for the current definition.
+
+**Disposition:** the distinction in §25 is scientifically appropriate. Variational free energy is defined relative to a probabilistic generative model and an approximate recognition/posterior density; its information-theoretic formulation may be expressed as an energy-minus-entropy functional. That does not make it identical to the physical Helmholtz potential of neural tissue. Friston's review is a theoretical synthesis, not empirical confirmation that every brain or cognitive process literally minimizes a physical thermodynamic free energy.
+
+### 102.5 Controlled wording corrections and verification
+
+The following narrow corrections were made in the current treatise and fetched from the live branch:
+
+1. **§24 system boundary:** replaced the vague “total entropy balance” sentence with a statement explicitly distinguishing an isolated/combined system from an open subsystem. The text no longer implies that every subsystem's entropy must increase.
+2. **§24 biological systems:** replaced “consuming free energy and exporting entropy” with the more operationally grounded description of energy/material exchange, energy dissipation and release of waste and heat.
+3. **§24 bridge status:** changed “This is a physical–computational bridge” to “This is a proposed physical–computational framing, not a derived causal bridge.”
+4. **§25 terminology:** replaced the loose “historically and mathematically related” sentence with an explicit statement that variational free energy can take an energy-minus-entropy form over a probabilistic model and approximate posterior, without becoming identical to the physical Helmholtz potential.
+
+The updated treatise was fetched and checked after commit `8a72202daef0c3de7a2c6d8443246ca24acb923f`, blob `d856dcb6f1312f3a504b4576e9ec9d81a19c79e9`.
+
+### 102.6 Coverage accounting
+
+| Stable claim | Status | Evidence and limitation |
+|---|---|---|
+| S24-C01 | Examined; directly supported as a thermodynamic boundary distinction | R71 official OpenStax §§4.4 and 4.6 inspected in full; the law applies to the isolated/combined system, not every subsystem. |
+| S24-C02 | Examined; supported with qualifications | R77 full open-access review inspected, Introduction pp. 1–2; general open-system biology only, not a neural or behavioural mechanism. |
+| S25-EQ01 | Examined; directly supported as a thermodynamic definition | R72 Oxford Handout 5, full one-page PDF; definition, differential and natural variables checked. |
+| S25-C01 | Examined; directly supported as a conceptual/mathematical distinction | R78 full review pp. 127–128 inspected; R20 abstract-level context only. Not evidence of literal neural Helmholtz minimization. |
+
+**Source-access ledger:** R71 official OpenStax *University Physics Volume 2*, §§4.4 and 4.6, full text inspected; R72 Oxford Handout 5, full PDF inspected; R20 PubMed/publisher abstract and metadata inspected, full text not accessible in this pass; R77 Zhang & Ouyang (2021), full 18-page open-access review inspected; R78 Friston (2010), full author-hosted review PDF inspected, including its variational free-energy explanation. No exact pinpoint is claimed beyond these inspected passages.
+
+**Batch accounting:** two treatise sections examined; four stable claims examined; second-law boundary supported; biological open-system background supported with review-level qualification; Helmholtz equation supported; variational/thermodynamic distinction supported by full theoretical review. Four narrow wording corrections made. No claim upgraded to a validated physical–cognitive mechanism. No experiments A–F, preregistration, recruitment, intervention or tracker edit occurred.
+
+**Next:** continue the sentence-level audit of the remaining high-impact physical–cognitive bridge claims, especially §26's conditional result and the unproved learning-persistence link. The full 95-section audit, mathematical dependency closure, typed architecture, rendered inspection and qualified independent external review remain open.
+
+### R77 — Zhang & Ouyang (2021): nonequilibrium thermodynamics in biochemical systems
+
+Dongliang Zhang and Qi Ouyang, “Nonequilibrium Thermodynamics in Biochemical Systems and Its Application,” *Entropy* 23(3), 271 (25 February 2021), DOI: [10.3390/e23030271](https://doi.org/10.3390/e23030271).
+
+**Evidence type and access:** peer-reviewed open-access review; full 18-page article inspected. Relevant locator: Introduction, PDF p. 1, lines 30–35; continuation on PDF p. 2, lines 39–45.
+
+**Supports:** living cells as open nonequilibrium systems that exchange energy/materials, take in nutrients/energy for biochemical activity, and release waste/heat while maintaining organized states.
+
+**Does not support:** a cognitive-energy conversion, a neural distraction mechanism, or a causal explanation of human habit selection.
+
+### R78 — Friston (2010): variational free energy and the brain
+
+Karl Friston, “The free-energy principle: a unified brain theory?”, *Nature Reviews Neuroscience* 11, 127–138 (2010), DOI: [10.1038/nrn2787](https://doi.org/10.1038/nrn2787).
+
+**Evidence type and access:** theoretical neuroscience review; full author-hosted PDF inspected. Relevant locators: printed pp. 127–128, glossary and “Free energy” discussion (PDF lines 7–13, 48–50); mathematical divergence/bound formulation (PDF lines 94–102).
+
+**Supports:** variational free energy as an information-theoretic quantity bounding surprise under a generative model; its formulation through a non-negative divergence term; distinction from a thermodynamic quantity.
+
+**Does not support:** identifying variational free energy with physical Helmholtz free energy in neural tissue, a validated universal brain theory, or a direct cognitive-effort/thermodynamic-energy conversion.
