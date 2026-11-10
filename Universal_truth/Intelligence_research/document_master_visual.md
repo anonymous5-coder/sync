@@ -190,7 +190,7 @@ An internal model is not identical to the external world. It can be incomplete, 
 
 A system must therefore distinguish a model-derived conclusion from a verified fact.
 
-**Claim-linked evidence register records:** R09, R10, R60, R61, R62. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Physical-implementation references (limited scope):** R09, R10, R60, R61, R62. These sources inform the physical-computation and neural-energy constraints relevant to Axioms 1 and 5; they do not establish the entire eight-item list, particularly the adaptive-selection or recursive-accessibility capability claims. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 5. Definitions
@@ -323,7 +323,7 @@ This can include memory replay, simulation, deduction, planning, and spontaneous
 
 **Conclusion:** A system can continue to think in the absence of new sensory input because it is not operating in the absence of all context.
 
-**Claim-linked evidence register records:** R01, R05, R21, R22, R03. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R01, R05, R21. R01 and R21 provide information-theoretic foundations; R05 addresses statistical inference and model dependence. R03 is mapped to the separate underdetermination discussion in §11, and R22 to algorithmic complexity in §13, rather than to the conditional-mutual-information identity here. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 8. The newborn and the empty-system thought experiment
@@ -374,6 +374,8 @@ These are three different conditions.
 A proposition may be unobserved and not explicitly stored, yet logically implied by the model. Such a proposition can be discovered by inference.
 
 A proposition that is independent of every constraint available to the system cannot be uniquely inferred merely by thinking harder.
+
+**Claim-linked evidence register records:** R02, R05. These sources support the distinction between deductive consequence, inductive support and model-dependent statistical inference; the formal countermodel argument is stated directly above.
 
 ## 10. Formal epistemic model
 
@@ -463,6 +465,8 @@ The theory is stronger than mere recombination. It includes:
 6. **Empirical anticipation:** predicting a physical phenomenon before directly observing it.
 
 The theory does not license arbitrary certainty. It distinguishes derivation, prediction, and speculation.
+
+**Claim-linked evidence register records:** R02, R04, R05. These references distinguish deductive consequence from probabilistic updating and ampliative statistical inference; they do not establish a single mechanism unifying the six listed modes.
 
 ## 13. How can internal architecture contain information about reality?
 
