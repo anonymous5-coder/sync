@@ -2371,7 +2371,7 @@ A formal framework can be internally consistent and still fail to describe the w
 
 The next step is to derive predictions that could be falsified.
 
-The experiments below are designed to separate the framework's components rather than merely demonstrate that a productivity routine can help someone.
+The experiments below are intended to probe different components rather than merely demonstrate that a productivity routine can help someone. As currently specified, they are component-level tests; they do not yet discriminate the four-component integration from established alternatives.
 
 ## 76. Experiment A — Inference without new external observation
 
@@ -2565,7 +2565,7 @@ Persistent sleepiness, attention impairment, compulsive behaviour, depression, a
 
 A system can become highly efficient at pursuing an objective that is outdated, harmful, or externally imposed.
 
-**Safeguard:** Recursive Intelligence must include periodic review of the goal hierarchy itself.
+**Design requirement:** Any proposed recursive-control architecture should include periodic review of the goal hierarchy itself. This is a normative safeguard, not an implemented or validated capability of Recursive Intelligence.
 
 ---
 
@@ -2703,8 +2703,9 @@ R_t,
 \xrightarrow{\text{candidate update}}
 \mathcal{S}_{t+1}
 }
-$$
+$
 
+This tuple is a schematic dependency inventory, not a defined transition equation. Its separate $\\Pi_t$ term is not yet reconciled with the input list in §71; no equivalence between the two schematics is asserted.
 
 Space or Null Theory proposes how context and structure condition the system.
 
