@@ -5828,3 +5828,95 @@ The live treatise was fetched after commit `b94cd23b7b2e6f9a0322088b4211859bae10
 **Batch accounting:** one treatise section examined; two historical/current stable claims reconciled; one stale equation row superseded without deleting its history; three learning processes distinguished; no neuronal or universal habit mechanism established. No experiments A–F, preregistration, recruitment, intervention or tracker edit occurred.
 
 **Next:** proceed to the next high-impact Space or Null Theory / Out of Box Theory section batch. The complete sentence-level audit, habit-state mathematical closure, typed architecture, rendered inspection and qualified independent external review remain open.
+
+
+## 107. Formal source-pinpoint and proof audit — §§7, 10–11, 13–14 (10 November 2026)
+
+**Audit scope.** Re-read current §7's conditional-mutual-information identity and interpretation; Theorems 1 and 2 in §§10–11; §13's architecture/world mutual-information claim; and §14's Bayesian and posterior-predictive formulas. Re-inspected R02–R05 and R21 at source level. This is a bounded formal/information-theoretic audit, not completion of all Out of Box Theory claims.
+
+### 107.1 §7 — conditional mutual information (S07-EQ01, S07-C01)
+
+R21, Cover & Thomas, *Elements of Information Theory*, 2nd edition (2006), was inspected in full from the accessible book PDF. Chapter 2, §2.5 defines conditional mutual information as:
+
+\[
+I(X;Y\mid Z)=H(X\mid Z)-H(X\mid Y,Z)
+\]
+
+and gives the equivalent expected log-ratio expression in Eq. (2.61) (printed pp. 23–24, Eqs. 2.60–2.61). The chapter uses discrete probability mass functions. Chapter 8, §§8.5–8.6, gives the continuous-variable mutual-information formulation using densities and relative entropy (printed pp. 252–253, Eqs. 8.47–8.61).
+
+**Disposition:** S07-EQ01 is a standard identity under the specified joint-distribution and regularity assumptions. The current treatise now states the distribution explicitly, distinguishes the discrete entropy-difference identity from continuous differential-entropy regularity, and gives the general expected-KL interpretation.
+
+The previous S07-C01 wording implied that a positive conditional mutual information means each realized observation reduces posterior uncertainty. That is too strong. Positive conditional mutual information is an **expected** conditional reduction over the joint distribution. A particular realized observation can be uninformative, misleading, or increase posterior entropy. The treatise has been corrected to state the expected-information interpretation.
+
+**Disposition:** S07-C01 is examined and corrected. The formula is not an empirical claim that every sensory input improves a system's model.
+
+### 107.2 §10 — Theorem 1: semantic entailment and derivability (S10-TH01)
+
+The previous register row correctly identified that completeness—not soundness alone—is required to infer derivability from semantic entailment. The current theorem now explicitly assumes:
+
+- a nonempty model class for \(K\) under the specified semantics;
+- a proof calculus sound and complete for that semantics;
+- effective enumerability if an algorithmic proof-search procedure is claimed.
+
+Under these assumptions, \(K\models p\) implies \(K\vdash p\) by completeness. Soundness supplies the reverse validity safeguard for any derived proposition. The nonempty-model assumption prevents vacuous entailment from an inconsistent knowledge base. The actual-world claim still requires \(W\models K\). A fair enumerating proof search will eventually find an existing derivation in an effectively enumerable calculus, but no practical runtime or resource bound follows.
+
+R02, Beall, Restall & Sagi, “Logical Consequence,” *Stanford Encyclopedia of Philosophy* (Spring 2026 archive), was inspected in full. Section 3.2 defines soundness as proof implying model-theoretic validity and completeness as model-theoretic validity implying proof; it notes that completeness is not available for every consequence relation (current archived page, §3.2, lines 158–164). This supports the theorem's explicit distinction, not the claim that every semantics has a sound and complete calculus.
+
+**Disposition:** S10-TH01 is examined; the current theorem is formally correct under its stated assumptions. The old register assessment is superseded for the current treatise while its historical diagnosis is preserved.
+
+### 107.3 §11 — Theorem 2: model-theoretic underdetermination (S11-TH01)
+
+The countermodel proof is correct. If two models satisfy \(K\), one satisfies \(p\), and the other satisfies \(\neg p\), then neither \(K\models p\) nor \(K\models\neg p\). This establishes non-entailment from the specified information, not equal posterior probabilities, rational indifference, or inability to rank hypotheses abductively.
+
+R03, Stanford Encyclopedia of Philosophy, “Underdetermination of Scientific Theory” (Summer 2023 archive), was inspected in full. Section 1 distinguishes cases where evidence fails to determine a causal relation from broader holist and contrastive underdetermination; it also stresses that the forms and strengths of underdetermination vary (§1, lines 13–16 and 36–40). This is contextual support for the philosophical boundary, not a proof of the treatise's theorem.
+
+**Disposition:** S11-TH01 is examined and retained as a correct formal countermodel result under fixed semantics. Do not generalize it to all scientific theory choice or to equal evidential support.
+
+### 107.4 §13 — mutual information between world and internal structure (S13-C01, S13-EQ01, S13-C02)
+
+The current statement \(I(W;Z)>0\), with \(Z=(A,M)\), is not established by Shannon's definition. It is a conditional modelling hypothesis about a specified joint distribution.
+
+The treatise now requires the distribution to identify the population of environments and systems, or the relevant training/development histories, over which \(W\) and \(Z\) vary. If architecture \(A\) is fixed for the system under study, it must be conditioned upon; a constant architecture alone does not carry mutual information. Any remaining dependence must arise through varying memory/parameters or a defined ensemble of architectures.
+
+**Disposition:** S13-EQ01 is examined and retained only as a conditional statistical hypothesis. Positive mutual information does not establish semantic representation, accessibility, causal relevance, robustness, predictive utility or out-of-distribution generalization. S13-C01 remains a broad system-specific hypothesis; evolution, development, design and training are distinct mechanisms. S13-C02 remains a testable prediction hypothesis requiring an operational target and held-out predictive-gain evaluation.
+
+R22 is retained as an algorithmic-complexity comparator for the “compressed structural information” discussion, not as a source for Shannon mutual information. The current §13 pointer block now makes this scope distinction explicit.
+
+### 107.5 §14 — Bayes' rule and posterior prediction (S14-EQ01, S14-EQ02, S14-C01)
+
+R04, “Bayesian Epistemology,” *Stanford Encyclopedia of Philosophy* (Summer 2024 archive), was inspected in full. Section 2 gives the ratio formula and both the simplest and finite-partition forms of Bayes' theorem (§2, lines 237–251). R05, “Philosophy of Statistics,” *Stanford Encyclopedia of Philosophy* (Winter 2025 archive), was inspected in full. Section 4.1.1 gives the finite-model posterior and marginal likelihood (lines 384–415); §4.1.2 explains that continuous models require densities and replace sums with integrals (lines 416–430). It also distinguishes Bayes' theorem as a probability identity from Bayes' rule as an epistemic update norm (lines 512–523).
+
+**Disposition:** S14-EQ01 is a standard probability identity provided \(P(D)>0\). S14-EQ02 is correct for a discrete, mutually exclusive and exhaustive hypothesis/model partition; continuous parameter spaces require integration. The treatise now states both qualifications. S14-C01 remains a correct conditional description: predictive conclusions depend on priors, likelihoods and the model connecting hypotheses to outcomes. None of these equations establishes a literal neural implementation or guarantees that the model is well specified.
+
+### 107.6 Controlled corrections and verification
+
+The current treatise was fetched and verified after the following changes:
+
+1. §7 now states the joint-distribution requirement, expected-information interpretation, continuous-variable regularity caveat and expected-KL representation.
+2. §10 now assumes a sound and complete proof calculus and adds effective enumerability for algorithmic proof search; it retains the nonempty-model and actual-world truth distinctions.
+3. §13 now specifies the sampling ensemble and conditions on a fixed architecture; it distinguishes R22 algorithmic complexity from Shannon mutual information.
+4. §14 now states \(P(D)>0\) and distinguishes discrete hypothesis sums from continuous posterior integration.
+
+Treatise commit `1ab2008bdf391abc347f7e5ba65ef3cd28f25e80` introduced these changes; commit `7c24825c208500bd9888c99bb1e7173c5c2e290c` added the explicit KL expression. Current treatise blob: `03b982ba235f02a3ae776b6000a756ed430e6b6a`.
+
+### 107.7 Coverage accounting
+
+| Stable claim | Status | Evidence and limitation |
+|---|---|---|
+| S07-EQ01 | Examined; directly supported with distribution/regularity conditions | R21 full PDF, Chapter 2 §2.5 Eqs. 2.60–2.61, pp. 23–24; continuous MI via Chapter 8 §§8.5–8.6. |
+| S07-C01 | Examined; corrected to expected reduction | Positive CMI does not guarantee that each realized observation reduces posterior entropy. |
+| S10-TH01 | Examined; current proof valid under explicit assumptions | R02 full SEP archive §3.2; soundness, completeness, satisfiability and effective search distinguished. |
+| S11-TH01 | Examined; correct formal countermodel proof | R03 full SEP archive §1 contextualizes underdetermination; formal proof stands independently. |
+| S13-C01 | Examined; broad system-specific hypothesis | Architecture/development/training mechanisms remain distinct; no source establishes a universal system–world dependence. |
+| S13-EQ01 | Examined; conditional modelling hypothesis | Ensemble and fixed-architecture conditions now explicit; Shannon identity does not establish the actual dependence. |
+| S13-C02 | Examined; testable prediction hypothesis | Mutual information alone does not establish accessible or out-of-sample predictive utility. |
+| S14-EQ01 | Examined; standard identity | R04 full SEP archive §2; denominator condition stated. |
+| S14-EQ02 | Examined; standard discrete posterior-predictive identity | R05 full SEP archive §4.1.1–4.1.2; sum/integral distinction stated. |
+| S14-C01 | Examined; conditional model description | Prior, likelihood, model adequacy and sensitivity remain substantive dependencies. |
+
+**Source-access ledger:** R02/R03/R04/R05 full SEP archived entries inspected at the stated sections; R21 full 2006 second-edition PDF inspected at the stated chapter/section/equation locations; R01 publisher metadata/abstract only as previously recorded; R22 retained only as algorithmic-complexity comparator. No source establishes the empirical system–world dependence in §13.
+
+**Batch accounting:** five treatise sections examined; ten stable claims examined; one conditional-information interpretation corrected; one theorem statement strengthened to sound-and-complete assumptions with effective proof-search conditions; one world/internal-state mutual-information ensemble specified; one Bayesian formula scope qualified. No new empirical or physical claim was validated. No experiments A–F, preregistration, recruitment, intervention or tracker edit occurred.
+
+**Next:** continue the Space or Null Theory / Out of Box Theory audit with §§6, 8, 9, 12 and 15, including the taxonomy crosswalk and source alignment. The full 95-section sentence-level audit, mathematical dependency closure, typed architecture, rendered inspection and qualified independent external review remain open.
+
