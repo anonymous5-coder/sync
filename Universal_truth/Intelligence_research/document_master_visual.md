@@ -831,7 +831,7 @@ where:
 - $\mathcal{A}(s_{t+1})$ is the feasible action set in the next state;
 - $Q_{\mathrm{RL},t}(s,a)$ is an action-value estimate, distinguished from the generic action score $Q(a)$ in §19.
 
-The update assumes that the state representation is adequate for a Markov-style transition model and that reward timing and the feasible action set are defined. Those assumptions have not been validated for the human behavioural model in this treatise. This is a standard computational learning abstraction, not a complete biological habit-formation mechanism. The displayed one-step update assumes a Markov-style state representation, a defined finite feasible action set, $0\leq\gamma<1$ and a learning rate $0<\alpha\leq1$. No convergence guarantee is claimed; convergence would require additional conditions on stationarity, exploration and the learning-rate schedule.
+The update assumes that the state representation is adequate for a Markov-style transition model and that reward timing and the feasible action set are defined. Those assumptions have not been validated for the human behavioural model in this treatise. This is a standard computational learning abstraction, not a complete biological habit-formation mechanism. The displayed one-step update assumes a Markov-style state representation, a defined finite feasible action set, $0\leq\gamma<1$ and a learning rate $0<\alpha\leq1$. No convergence guarantee is claimed; convergence would require additional conditions on stationarity, exploration and the learning-rate schedule. For a terminal successor state, define the bootstrap term as zero (equivalently, assign zero terminal-state action values); the maximum over successor actions is taken only for nonterminal successor states.
 
 If the cue is represented in the state, the action is included in the feasible action set, and the outcome is encoded as reward, the action-value estimate can increase when the observed TD target exceeds its current estimate. Relief or novelty is not automatically a reward: its sign and magnitude must be specified by the task's reward function. Relief counts as negative reinforcement only when it is contingent on the response and increases the future probability of that response.
 
@@ -850,7 +850,7 @@ $$
 u_t>u_{t+1}
 $$
 
-The reduction itself can reinforce $a_e$, even if the action produces no lasting satisfaction.
+A reduction in discomfort is only a candidate consequence; by itself it does not establish reinforcement. It counts as negative reinforcement only if the reduction is contingent on the avoidance response and that response subsequently becomes more probable or frequent under relevant conditions, even if the action produces no lasting satisfaction.
 
 The sequence is:
 
@@ -864,7 +864,7 @@ $$
 \text{Increased probability of avoidance next time}
 $$
 
-This is negative reinforcement in the technical behavioural sense: a response is strengthened because it removes or reduces an aversive condition.
+Under those contingency and future-response conditions, the process is negative reinforcement in the technical behavioural sense: the response is strengthened because it removes or reduces an aversive condition.
 
 The implication is important for studying. A person may not be pursuing entertainment alone; they may be escaping uncertainty, effort, fear of failure, boredom, or fatigue.
 
