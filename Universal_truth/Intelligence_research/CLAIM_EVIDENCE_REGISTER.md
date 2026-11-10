@@ -4724,3 +4724,48 @@ The claim register identifies R02, R04 and R05 as relevant to the distinction am
 The current opening-section pointer changes are deliberately narrow: one source-scope clarification in §4, removal of two irrelevant identifiers from §7, and new explicit pointer blocks in §§9 and 12. The pointer count therefore increases by two; no blanket citation insertion was applied to definitions, research questions or purely schematic models.
 
 No claim disposition was upgraded. R03 and R22 remain in their relevant later sections; the changes do not alter the canonical source inventory or historical claim IDs. The remaining opening-batch dependencies are the epistemic-taxonomy crosswalk (§§1, 2 and 15), exact source pinpoint closure where previously open, and full sentence-level source adequacy review. Continue with §§16–27 next, then reconcile all subsequent section batches against the current register and preserve the A–F authorization boundary.
+
+
+## 90. New canonical source records R71–R73 — thermodynamic and discrete-choice foundations
+
+These sources were added to close specific citation gaps found during the current §§16–27 reconciliation. They supplement, rather than overwrite, prior source dispositions.
+
+### R71 — OpenStax, *University Physics Volume 2*, Chapter 4: second law and entropy
+
+Samuel J. Ling, William Moebs and Jeff Sanny, *University Physics Volume 2* (OpenStax, Rice University, 2016), Chapter 4, especially §4.4, “Statements of the Second Law of Thermodynamics,” and §4.6, “Entropy.” Official section locators: https://openstax.org/books/university-physics-volume-2/pages/4-4-statements-of-the-second-law-of-thermodynamics and https://openstax.org/books/university-physics-volume-2/pages/4-6-entropy. Digital ISBN 978-1-947172-21-0.
+
+**Evidence type:** university-level open textbook; full official section text inspected.
+
+**Supports:** the Kelvin/Clausius statements of the second law and the entropy statement for closed systems/universe; the distinction between first-law energy conservation and the additional process constraints imposed by the second law.
+
+**Relevant claims:** S24-C01. It supports the thermodynamic boundary statement in §24; it does not support a psychological entropy-maximization account or any behavioural prediction.
+
+**Pinpoint:** §§4.4 and 4.6. No page numbers are supplied because the cited online edition is section-based.
+
+### R72 — Schekochihin, *Basic Thermodynamics*, Handout 5: thermodynamic potentials
+
+Alexander Schekochihin, “Basic Thermodynamics,” Handout 5, “Thermodynamic Potentials,” University of Oxford, Michaelmas 2013. Official University of Oxford lecture-note PDF: https://www-thphys.physics.ox.ac.uk/people/AlexanderSchekochihin/A1/2013/handout5_2013.pdf.
+
+**Evidence type:** university physics lecture notes.
+
+**Supports:** the thermodynamic definition of the Helmholtz function/free energy, $F=U-TS$, its differential $dF=-S\,dT-p\,dV$ for the stated simple-system convention, and its natural variables $T,V$.
+
+**Relevant claim:** S25-EQ01. It supports the standard thermodynamic definition only; it does not establish a neural or cognitive free-energy principle.
+
+**Pinpoint:** Handout 5, “Thermodynamic Potentials,” first page. The source is a teaching handout, not a peer-reviewed research article.
+
+### R73 — Train, *Discrete Choice Methods with Simulation*, 2nd edition: logit choice model
+
+Kenneth E. Train, *Discrete Choice Methods with Simulation*, 2nd ed. (Cambridge University Press, 2009), Chapter 3, “Logit,” pp. 34–75. DOI: [10.1017/CBO9780511805271](https://doi.org/10.1017/CBO9780511805271). Publisher record: https://www.cambridge.org/core/books/discrete-choice-methods-with-simulation/5F5A1F926D5043F84A1CE1CFA8B93A73.
+
+**Evidence type:** specialist econometrics/discrete-choice textbook.
+
+**Supports:** the logit family of discrete-choice models and the use of logit choice probabilities under specified model assumptions.
+
+**Relevant claim:** S19-M02. It supports the mathematical/statistical status of a logit/softmax choice specification; it does not establish that a human brain literally implements the formula or that the treatise's action-score terms/coefficients are empirically identified.
+
+**Pinpoint and access:** Cambridge publisher metadata and contents identify Chapter 3 and its page range; the full chapter text was not independently inspected in this pass. A random-utility derivation requires explicit assumptions about utility-error distributions and independence. The treatise now states that these assumptions are not specified.
+
+### 90.1 Inventory update
+
+The canonical source inventory now contains R01–R73: 73 identifiers and 70 distinct source works after the three existing aliases R52/R03, R56/R06 and R64/R48. The historical R01–R70 inventory and its prior counts remain preserved in §§70 and 88. No source-access or claim-evidence status is upgraded merely by adding these records.
