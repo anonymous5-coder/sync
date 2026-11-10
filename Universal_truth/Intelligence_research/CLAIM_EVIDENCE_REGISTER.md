@@ -391,7 +391,7 @@ Marcus E. Raichle and Debra A. Gusnard, “Appraising the brain's energy budget,
 
 ### R13 — Kondrakiewicz & Nawrocka (2025): brain and whole-body energetic cost of cognition
 
-Kacper Kondrakiewicz and Jagoda Nawrocka, “Brains are expensive, but cognition is often cheap,” *Neuroscience & Biobehavioral Reviews* 179, 106450 (2025), DOI: [10.1016/j.neubiorev.2025.106450], PMID 41173349. The peer-reviewed review was published in December 2025. An openly accessible 12-page preprint version (posted 29 October 2025; DOI 10.20944/preprints202510.2202.v1) was inspected in full; the final journal abstract and metadata were independently verified, but the final publisher version was not directly compared against the preprint.
+Kacper Kondrakiewicz and Jagoda Nawrocka, “Brains are expensive, but cognition is often cheap,” *Neuroscience & Biobehavioral Reviews* 179, 106450 (2025), DOI: [10.1016/j.neubiorev.2025.106450](https://doi.org/10.1016/j.neubiorev.2025.106450), PMID [41173349](https://pubmed.ncbi.nlm.nih.gov/41173349/). The peer-reviewed review was published in December 2025. An openly accessible 12-page preprint version (posted 29 October 2025; DOI 10.20944/preprints202510.2202.v1) was inspected in full; the final journal abstract and metadata were independently verified, but the final publisher version was not directly compared against the preprint.
 
 **Evidence type:** secondary review of brain-imaging, whole-body energy and comparative mammalian evidence; not a new primary experiment.
 
@@ -1505,7 +1505,7 @@ Robert J. Sternberg, “A Theory of Adaptive Intelligence and Its Relation to Ge
 
 ### R59 — McGrew (2023): Carroll's three-stratum theory, CHC structure and psychometric network analysis
 
-Kevin S. McGrew, “Carroll’s Three-Stratum (3S) Cognitive Ability Theory at 30 Years: Impact, 3S-CHC Theory Clarification, Structural Replication, and Cognitive–Achievement Psychometric Network Analysis Extension,” *Journal of Intelligence* 11(2), Article 32 (2023), DOI: 10.3390/jintelligence11020032. PMID: 36826930; PMCID: PMC9959556.
+Kevin S. McGrew, “Carroll’s Three-Stratum (3S) Cognitive Ability Theory at 30 Years: Impact, 3S-CHC Theory Clarification, Structural Replication, and Cognitive–Achievement Psychometric Network Analysis Extension,” *Journal of Intelligence* 11(2), Article 32 (2023), DOI: [10.3390/jintelligence11020032](https://doi.org/10.3390/jintelligence11020032). PMID: [36826930](https://pubmed.ncbi.nlm.nih.gov/36826930/); PMCID: [PMC9959556](https://pmc.ncbi.nlm.nih.gov/articles/PMC9959556/).
 
 **Evidence type:** theoretical/historical review plus secondary psychometric analyses of an archived 46-test Woodcock–Johnson III dataset, including exploratory factor analysis, bifactor confirmatory factor analysis and psychometric network analyses.
 
