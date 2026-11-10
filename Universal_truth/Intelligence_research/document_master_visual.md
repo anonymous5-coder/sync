@@ -2743,35 +2743,35 @@ That is the proposed research purpose of **Space or Null Theory**, **Out of Box 
 
 The following ten entries are selected foundational references, not the complete bibliography for every empirical claim. Claim-linked evidence records R01–R70, including full bibliographic metadata where available, source-access status, claim mappings and source pinpoints, are maintained in the companion `CLAIM_EVIDENCE_REGISTER.md`. The register is the controlling source-level audit; its access limitations and qualifications must be preserved. These references do not establish the named theories in this treatise as validated scientific laws.
 
-1. Chattopadhyay, P., Misra, A., Pandit, T., & Paul, G. (2025). **Landauer principle and thermodynamics of computation.** *Reports on Progress in Physics, 88*(8), 086001. https://doi.org/10.1088/1361-6633/add6b3  
-   Review of Landauer's principle, thermodynamic costs of computation, error correction, and finite-time considerations.
+1. Chattopadhyay, P., Misra, A., Pandit, T., & Paul, G. (2025). **Landauer principle and thermodynamics of computation.** *Reports on Progress in Physics, 88*(8), Article 086001. https://doi.org/10.1088/1361-6633/add6b3.  
+   Peer-reviewed review of Landauer's principle, thermodynamic costs of computation, error correction and finite-time considerations.
 
-2. **Information Thermodynamics: From Physics to Neuroscience.** (2024). *PMC open-access review.* https://pmc.ncbi.nlm.nih.gov/articles/PMC11431499/  
-   Discusses the physical nature of information processing and energetic constraints in the brain.
+2. Karbowski, J. (2024). **Information thermodynamics: From physics to neuroscience.** *Entropy, 26*(9), Article 779. https://doi.org/10.3390/e26090779.  
+   Open-access perspective/review on applying information thermodynamics to neural inference, learning and information storage.
 
-3. Street, S. (2016). **Neurobiology as Information Physics.** *Frontiers in Systems Neuroscience, 10*, 90. https://doi.org/10.3389/fnsys.2016.00090  
-   Reviews relationships among information, thermodynamics, and neural organization.
+3. Street, S. (2016). **Neurobiology as information physics.** *Frontiers in Systems Neuroscience, 10*, Article 90. https://doi.org/10.3389/fnsys.2016.00090.  
+   Review of relationships among information, thermodynamics and neural organization.
 
-4. **The Thermodynamics of Mind.** (2024). *Trends in Cognitive Sciences, 28*(6), 568–581. https://doi.org/10.1016/j.tics.2024.03.009  
-   Discusses brain hierarchy, information flow, energy constraints, and thermodynamic approaches to brain dynamics.
+4. Kringelbach, M. L., Sanz Perl, Y., & Deco, G. (2024). **The thermodynamics of mind.** *Trends in Cognitive Sciences, 28*(6), 568–581. https://doi.org/10.1016/j.tics.2024.03.009.  
+   Review proposing thermodynamic measures for studying brain hierarchy, information flow and brain-state organization.
 
-5. Shenhav, A., Musslick, S., Lieder, F., Kool, W., Griffiths, T. L., et al. (2017). **Toward a Rational and Mechanistic Account of Mental Effort.** *Annual Review of Neuroscience, 40*, 99–124. https://doi.org/10.1146/annurev-neuro-072116-031526  
-   Reviews computational and mechanistic accounts of cognitive-control costs and mental effort.
+5. Shenhav, A., Musslick, S., Lieder, F., Kool, W., Griffiths, T. L., Cohen, J. D., & Botvinick, M. M. (2017). **Toward a rational and mechanistic account of mental effort.** *Annual Review of Neuroscience, 40*, 99–124. https://doi.org/10.1146/annurev-neuro-072116-031526.  
+   Review of computational and mechanistic accounts of cognitive-control costs and mental effort.
 
-6. **Neural substrates of habit.** (2019; PMC manuscript 2020). *Journal of Neuroscience Research, 98*(6), 986–997. https://pmc.ncbi.nlm.nih.gov/articles/PMC7183880/  
-   Reviews goal-directed and habitual control and their neural substrates.
+6. Malvaez, M. (2020). **Neural substrates of habit.** *Journal of Neuroscience Research, 98*(6), 986–997. https://doi.org/10.1002/jnr.24552. Published online 6 November 2019.  
+   Review of neural substrates of goal-directed and habitual behavioural control. The final journal issue is 2020; 2019 is the online-first date.
 
-7. Averbeck, B., & O'Doherty, J. P. (2022). **Reinforcement-learning in fronto-striatal circuits.** *Neuropsychopharmacology, 47*, 147–162. https://doi.org/10.1038/s41386-021-01108-0  
-   Reviews reinforcement learning, state representations, action values, and arbitration among control systems.
+7. Averbeck, B., & O'Doherty, J. P. (2022). **Reinforcement-learning in fronto-striatal circuits.** *Neuropsychopharmacology, 47*, 147–162. https://doi.org/10.1038/s41386-021-01108-0.  
+   Review of reinforcement learning, state representations, action values and arbitration in fronto-striatal circuits. Published online 5 August 2021; issue date January 2022.
 
-8. **Allostasis: A Brain-Centered, Predictive Mode of Physiological Regulation.** (2019). PubMed record: https://pubmed.ncbi.nlm.nih.gov/31488322/  
-   Discusses predictive physiological regulation and the brain's allocation of energy and resources.
+8. Schulkin, J., & Sterling, P. (2019). **Allostasis: A brain-centered, predictive mode of physiological regulation.** *Trends in Neurosciences, 42*(10), 740–752. https://doi.org/10.1016/j.tins.2019.07.010.  
+   Review of predictive physiological regulation and the brain's allocation of energy and resources.
 
-9. **Underdetermination of Scientific Theory.** Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/scientific-underdetermination/  
-   Explains why available evidence may fail to uniquely determine a theory or proposition.
+9. Stanford, K. (2023). **Underdetermination of scientific theory.** In E. N. Zalta & U. Nodelman (Eds.), *The Stanford Encyclopedia of Philosophy* (Summer 2023 Edition). Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/sum2023/entries/scientific-underdetermination/. First published 12 August 2009; substantive revision 4 April 2023.  
+   Explains distinct forms of underdetermination and why available evidence may fail to determine a unique theory or proposition.
 
-10. **Information Processing and Thermodynamic Entropy.** Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/information-entropy/  
-    Provides conceptual and historical foundations for information, physical computation, and Landauer's principle.
+10. Maroney, O. (2009). **Information processing and thermodynamic entropy.** In E. N. Zalta (Ed.), *The Stanford Encyclopedia of Philosophy* (Fall 2009 Edition). Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/fall2009/entries/information-entropy/. First published 15 September 2009.  
+    Discusses Maxwell's demon, Szilard's engine, Landauer's principle and the relationship between information processing and thermodynamics.
 
 ---
 
