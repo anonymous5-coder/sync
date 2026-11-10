@@ -5683,3 +5683,91 @@ Omar David Perez and Gonzalo P. Urcelay, “Delayed rewards weaken human goal di
 **Does not support:** higher absolute habitual response rates under delay, a universal delay effect, ordinary long-horizon temporal discounting as the same mechanism, or generalization to all primary/social rewards or real-world distraction. The authors note the fictitious task, single delay duration and uncertainty of transfer to food/social rewards (PDF pp. 5–6, lines 173–183).
 
 **Pinpointing status:** full article inspected; abstract, introduction, results/Table 1, revaluation analyses/Table 2, discussion and methods/sample details verified.
+
+
+## 105. Exact source-pinpoint and measurement audit — §32 intelligence definition and proposed functional (10 November 2026)
+
+**Audit scope.** Re-read §32 against S32-C01, S32-EQ01, S32-EQ02 and S32-M01. Inspected the full 2014 *Standards for Educational and Psychological Testing* PDF, relevant sections of Sternberg (2019) and McGrew (2023), and the abstract/PMC indexed text of Putnick & Bornstein (2016). The purpose is to assess conceptual novelty and measurement adequacy, not to validate a new intelligence scale.
+
+### 105.1 S32-C01 / S32-EQ02 — adaptive intelligence definition
+
+The treatise's definition—adaptive use of state transformation to model, predict or control under changing conditions—is a stipulated functional definition. It is not a universally accepted necessary-and-sufficient definition.
+
+R58, Sternberg (2019), “A Theory of Adaptive Intelligence and Its Relation to General Intelligence,” *Journal of Intelligence* 7(4), Article 23, DOI 10.3390/jintelligence7040023, was inspected in full from the ERIC-hosted 17-page PDF. The article explicitly distinguishes psychometric general intelligence from adaptive intelligence and argues that adaptation is central to intelligence while also requiring attention to biological and cultural context (pp. 1–3, especially PDF lines 15–19, 24–43, 49–53). It further argues that test validation criteria can be culturally bounded and potentially circular when tests are validated only against other tests built on the same construct assumptions (pp. 6–8, PDF lines 106–125).
+
+**Assessment:** the treatise's definition is adjacent to an existing adaptive-intelligence tradition. It overlaps with Sternberg's adaptation framework, adaptive control, learning theory and goal-directed decision-making. The treatise's emphasis on state transformation, modelling, prediction and control may be a useful synthesis, but the inspected literature does not establish that this combination is novel or uniquely defines intelligence. The definition should remain explicitly framework-specific and should not be presented as a consensus definition.
+
+R59, McGrew (2023), “Carroll’s Three-Stratum (3S) Cognitive Ability Theory at 30 Years,” *Journal of Intelligence* 11(2), Article 32, DOI 10.3390/jintelligence11020032, was inspected in full from the author's 30-page PDF. It describes the CHC family of psychometric cognitive-ability models and the historical distinctions among Carroll, Cattell and Horn (pp. 1–7, PDF lines 86–124, 243–278, 298–318). This provides an established comparator for cognitive-ability structure, but it is not a test of the treatise's adaptive functional definition.
+
+**Disposition:** S32-C01 and S32-EQ02 are examined and retained as provisional stipulative definitions. The treatise must compare its construct against adaptive-intelligence and psychometric cognitive-ability frameworks before claiming distinctiveness.
+
+### 105.2 S32-EQ01 — computation as state transformation
+
+The expression \(\text{Computation}=\text{state transformation}\) is a broad abstraction, not a complete definition of all computation or physical computation. It is useful as shorthand for the framework's contrast, but does not establish a necessary/sufficient taxonomy of computation.
+
+**Disposition:** examined; retain as a stipulated shorthand with its scope explicit. No empirical or theorem status is claimed.
+
+### 105.3 S32-M01 — proposed weighted intelligence functional
+
+The candidate score is:
+
+\[
+\mathcal I=w_1G+w_2A_d+w_3P+w_4T_r+w_5R_c.
+\]
+
+No inspected source validates these five components as a single latent construct, establishes their independence, provides the weights, or demonstrates predictive increment over established measures. The components may overlap: generalization and transfer are related; adaptation and recovery/correction may overlap; predictive accuracy depends on task and target definition. A compensatory sum can conceal a severe weakness in one component behind a high value in another.
+
+R27, AERA/APA/NCME (2014), *Standards for Educational and Psychological Testing*, was inspected directly in the full 240-page open-access PDF. Relevant passages:
+
+- Validity is the degree to which evidence and theory support interpretations of test scores for proposed uses (printed p. 11, PDF lines 951–955).
+- Validity is a unitary judgement based on accumulated evidence for the intended score interpretation, not a checklist of independent “types” (printed pp. 13–14, PDF lines 1185–1194).
+- Standard 1.0 requires clear articulation of each intended score interpretation/use and appropriate supporting validity evidence (printed p. 23, PDF lines 1900–1902).
+- Standard 2.0 requires appropriate evidence of reliability/precision for each intended score use (printed p. 42, PDF lines 3194–3200); the surrounding discussion states that reliability claims require methods, sample and testing-condition detail (printed pp. 40–41, PDF lines 3138–3157).
+- Fairness standards require minimizing construct-irrelevant variance and supporting valid score interpretations for the intended population (printed p. 63, PDF lines 4703–4716; Standard 3.1, printed p. 64, PDF lines 4724–4745).
+
+R80, Putnick & Bornstein (2016), “Measurement Invariance Conventions and Reporting,” *Developmental Review* 41, 71–90, DOI 10.1016/j.dr.2016.06.004, was checked at PubMed/PMC indexed-text level. Its abstract states that measurement invariance assesses psychometric equivalence across groups or measurement occasions and is necessary before interpreting group mean differences or longitudinal changes as differences in the same construct. The abstract and indexed text were accessible; a complete PDF page-level inspection was not completed in this pass.
+
+**Disposition:** the standards directly support the need for intended-use validity evidence, reliability/precision, fairness and relevant population coverage. R80 supports measurement-invariance testing where cross-group or longitudinal comparisons are intended. None validates \(\mathcal I\), its components or its weights. The treatise's measurement requirements are appropriate as a research checklist, not evidence that the index is already measurable or valid.
+
+### 105.4 R59 comparator limitations
+
+McGrew (2023) analyses a 46-test Woodcock–Johnson III dataset for ages 14–19 (n=1,618) using an exploratory analysis originally completed in 2003 and a later bifactor CFA on the same archived dataset (PDF pp. 8–12, especially lines 412–433, 688–698). The paper reports that the compared bifactor, hierarchical-g and Horn no-g models did not differ substantially in fit (PDF p. 25, lines 1482–1489). The data are proprietary and cannot be shared by the authors (PDF p. 25, lines 1436–1439), and the author declares a financial conflict of interest involving the WJ III/WJ IV batteries (PDF p. 25, lines 1446–1447).
+
+**Implication:** R59 is a useful comparator for psychometric structure and test-development practice, but it is not an independent new-sample validation of a general intelligence model, and it provides no validation for the treatise's adaptive composite. Its model-fit results should not be simplified into an uncontested proof of one universal intelligence structure.
+
+### 105.5 Controlled wording corrections and verification
+
+The current treatise was narrowed in three places:
+
+1. The opening definition now states that the distinction between computation and intelligence is **within this framework**, rather than a universal requirement.
+2. The list of adaptive properties is now introduced as what the framework treats as constitutive, not as an uncontested universal definition.
+3. The measurement checklist now requires measurement invariance only where group, context or longitudinal comparisons are intended; population norms are required when norm-referenced interpretations are intended. It also records that nonnegative/normalized weights would be an additional design convention, not a consequence of the current equation.
+
+The updated treatise was fetched after commit `e4637198b92de2db5532725249e87bb7ac91a6fd`, blob `5f24d591e102a8006b15b8986d827fcd189853f8`.
+
+### 105.6 Coverage accounting
+
+| Stable claim | Status | Evidence and limitation |
+|---|---|---|
+| S32-C01 | Examined; framework-specific definition | R58 full article pp. 1–8; adaptive-intelligence concept already exists in the literature. |
+| S32-EQ01 | Examined; broad abstraction | State-transformation shorthand; not a complete definition of computation. |
+| S32-EQ02 | Examined; stipulated functional definition | Overlaps adaptive intelligence, adaptive control and learning frameworks; novelty not established. |
+| S32-M01 | Examined; unvalidated measurement proposal | R27 full Standards PDF; R80 indexed abstract; R59 full article comparator. No scale, weights, reliability or validity evidence for \(\mathcal I\). |
+
+**Source-access ledger:** R27 full 2014 Standards PDF inspected; R58 full ERIC-hosted 17-page article inspected; R59 full author-hosted 30-page article inspected, with relevant tables, model-fit discussion, data-access and conflict disclosures checked; R80 PubMed/PMC abstract and indexed text checked, full PDF/page-level inspection not completed. No source is described as validating the proposed functional.
+
+**Batch accounting:** one treatise section examined; four stable claims examined; the definition remains provisional; the computation shorthand remains broad; the proposed index remains unvalidated; three wording clarifications made. No intelligence construct or metric was validated. No experiments A–F, preregistration, recruitment, intervention or tracker edit occurred.
+
+**Next:** continue the sentence-level audit of the next high-impact theory section, prioritizing Space or Null Theory and Out of Box Theory. The full 95-section audit, mathematical dependency closure, typed architecture, rendered inspection and qualified independent external review remain open.
+
+### R80 — Putnick & Bornstein (2016): measurement invariance conventions and reporting
+
+Diane L. Putnick and Marc H. Bornstein, “Measurement Invariance Conventions and Reporting: The State of the Art and Future Directions for Psychological Research,” *Developmental Review* 41, 71–90 (September 2016), DOI: [10.1016/j.dr.2016.06.004](https://doi.org/10.1016/j.dr.2016.06.004), PMID 27942093, PMCID PMC5145197.
+
+**Evidence type:** methodological review of measurement-invariance practices, including a review of 126 articles and 269 invariance tests.
+
+**Supports:** measurement invariance as a check of psychometric equivalence across groups or time; the need to establish appropriate invariance before comparing group means or longitudinal change.
+
+**Does not support:** the validity of the treatise's \(\mathcal I\) score, the five selected components, or the proposed weights.
+
+**Pinpointing status:** abstract and PMC indexed full-text passages checked; complete PDF/page-level inspection not completed in this audit.
