@@ -6333,3 +6333,91 @@ R79, Perez & Urcelay (2025), full 8-page open-access article inspected. Three hu
 **Batch accounting:** two sections examined; one technical reinforcement claim and six proposed predictor mechanisms reviewed; one symbol collision removed; stress and delayed-feedback claims narrowed to tested paradigms; no individual relief mechanism or universal habit predictor validated. No experiments A–F, preregistration, recruitment, intervention or tracker-scale changes occurred.
 
 **Next:** continue the exact source-pinpoint audit for the remaining high-impact Recursive Intelligence and ROOT claims. Complete sentence-level coverage, typed mathematical dependency closure, rendered inspection and qualified independent external review remain outstanding.
+
+
+## 113. Epistemic-architecture reconciliation and formal proof-search audit — §§2, 9–15 (10 November 2026)
+
+**Audit scope.** Re-read the live treatise §§2 and 9–15 against the earlier first-pass register, focusing on epistemic status classification, semantic entailment, proof-system assumptions, countermodel underdetermination, Bayesian model dependence and the editorial epistemic ladder. Rechecked R02, R03, R04 and R05; added current authoritative comparators R81 and R82.
+
+### 113.1 §2 — epistemic labels and status dimensions (S02-C01)
+
+The earlier register correctly identified that “established constraint,” “derived proposition” and “research hypothesis” mix evidential and logical status. The live text had retained the three labels without explicitly stating their non-exclusivity.
+
+**Correction:** §2 now says the labels are editorial shorthand, not mutually exclusive or a single rank of truth. It requires formal status and evidential status to be recorded separately, with source quality/access, system/population scope, uncertainty and generalization limits. It explicitly notes that a mathematically derived proposition can depend on empirically unverified premises, and that an empirically supported regularity need not be a deductive theorem.
+
+**Disposition:** S02-C01 is reconciled and clarified. The three familiar labels are retained for continuity, but claim-level assessment must use separate formal and evidential fields.
+
+### 113.2 §§9–11 — deduction, completeness and underdetermination (S09-C01/C02; S10-TH01; S11-TH01)
+
+The current §10 theorem is correctly distinguished from the earlier flawed soundness-only inference. It assumes a nonempty model class for K and a proof calculus sound and complete for the specified semantics. Completeness gives semantic entailment to derivability; soundness provides the converse safeguard. The text correctly separates derivability from actual-world truth, which additionally requires the actual world to satisfy K.
+
+**Additional formal gap found:** the practical proof-search sentence previously inferred eventual discovery from effective enumerability of the proof calculus alone. That is insufficient if the premises in K cannot be effectively supplied to the search.
+
+**Correction:** the search claim now requires K to be finite or effectively enumerable and the proof calculus to be effective. Under a fair search, a finite derivation will eventually be found; no practical time or resource bound follows. The theorem's semantic entailment-to-derivability implication remains independent of this computational search condition.
+
+R81, the current SEP entry “Classical Logic” (substantive revision 17 June 2026), was inspected. Its opening and metatheory summary distinguish semantic validity, derivability, soundness and completeness. R02, SEP “Logical Consequence” (substantive revision 17 May 2024), was rechecked: its opening distinguishes valid consequence from truth of premises, §1 separates deductive necessity from inductive support, and §3 distinguishes model-theoretic and proof-theoretic accounts. These sources support the formal distinction, not the truth of K's premises.
+
+The current §11 countermodel theorem remains correct: if two K-models disagree on p, then neither p nor its negation is entailed. Its scope is logical non-entailment relative to the specified model class; it does not imply equal probabilities, rational indifference or impossibility of abductive ranking. R03 remains the broader scientific-underdetermination comparator and is not treated as proof that all scientific theory choice is logically underdetermined.
+
+**Disposition:** S09-C01/C02, S10-TH01 and S11-TH01 are examined. The formal results are retained with the existing semantic scope. One proof-search effectiveness condition was strengthened. No computational complexity bound or real-world truth claim is inferred.
+
+### 113.3 §14 — Bayesian inference and epistemic limits (S14-EQ01/EQ02/C01)
+
+The current Bayes formula is standard when P(D)>0. The posterior-predictive sum is correctly limited to a discrete, mutually exclusive and exhaustive hypothesis/model partition; continuous parameter/model spaces require integration. The text also distinguishes deductive, inductive, abductive and predictive reasoning.
+
+R82, SEP “Bayesian Epistemology” (Spring 2026 archive), was inspected. Its tutorial distinguishes probabilistic coherence and conditionalization, and its discussion of the problem of priors explains that Bayesian updates can depend materially on prior assignments. The entry also describes idealization limits, including logical omniscience and the difficulty of treating ideal Bayesian norms as a literal description of ordinary human reasoning.
+
+**Disposition:** S14-EQ01/EQ02/C01 are examined and retained. Posterior conclusions remain conditional on the model, likelihood, prior and evidence; the equations do not establish a literal neural implementation. The existing treatise states model-dependence and denominator/partition conditions. No additional formula change was needed.
+
+### 113.4 §15 — epistemic ladder (S15-F01)
+
+The live treatise has already improved the earlier ladder: it is expressly an editorial aid, not a psychometric or universal epistemic scale; its labels are not mutually exclusive and do not form a single ordinal truth measure; logical status, empirical support, source independence and generalization are recorded separately.
+
+**Disposition:** the live text supersedes the older register criticism that treated the ladder as one mixed monotonic scale. Retain provisionally as a communication aid only. The separate status dimensions govern adjudication; no numeric level should be interpreted as a probability or global degree of truth.
+
+### 113.5 Controlled edits and verification
+
+The following changes were made to the live treatise:
+
+1. **§2:** clarified that the three editorial labels are non-exclusive shorthand; required formal and evidential status to be recorded separately and added source/scope/uncertainty dimensions.
+2. **§10:** strengthened the effective proof-search condition to require K to be finite or effectively enumerable as well as an effective calculus; preserved the distinction between semantic completeness and practical proof search.
+3. **§14:** a display-math delimiter correction was attempted but is not confirmed in the fetched file; it remains an open formatting check and is not counted as completed.
+
+The live treatise was fetched after commit `fa8cfbd181615e31a5d263db68fc4514b4b3ab27`, blob `cbd99c58eb1de77cd956a896cdd396a3392a6fbf`.
+
+### 113.6 Coverage accounting
+
+| Stable claim | Status | Evidence and limitation |
+|---|---|---|
+| S02-C01 | Examined; taxonomy clarified | Formal and evidential status are separate; editorial labels are non-exclusive. |
+| S09-C01/C02 | Examined; bounded deductive statements | R02/R03; deduction is not unconstrained fact acquisition or all-purpose scientific underdetermination. |
+| S10-TH01 | Examined; conditional formal theorem retained | R81/R02 support soundness/completeness distinctions. Search effectiveness also requires effective access to K. |
+| S11-TH01 | Examined; countermodel proof retained | Two compatible models disagreeing on p establish non-entailment of p and ¬p. |
+| S14-EQ01/EQ02/C01 | Examined; standard Bayesian identities with model conditions | R82/R04/R05; priors, likelihoods, model adequacy and idealization remain material. |
+| S15-F01 | Examined; editorial heuristic retained | The live ladder is explicitly non-ordinal and supplemented by separate status dimensions. |
+
+**Source-access ledger:** R02 SEP “Logical Consequence,” full current entry inspected, substantive revision 17 May 2024; R03 SEP scientific underdetermination source retained within its stated scope; R04 SEP Bayesian epistemology, Spring 2024 archived entry retained as earlier version; R05 SEP philosophy of statistics retained within its prior audited scope; R81 SEP “Classical Logic,” full current entry inspected, substantive revision 17 June 2026; R82 SEP “Bayesian Epistemology,” Spring 2026 archived entry inspected. No source is claimed to establish the actual-world truth of the treatise's premises.
+
+**Batch accounting:** five sections reconciled (§§2, 10, 11, 14, 15) and the deductive boundary in §9 checked; six stable claim groups reviewed; one proof-search computability gap corrected; the §14 display-math issue remains open; no empirical or philosophical theory-level validation claimed. No experiments A–F, preregistration, recruitment, intervention or tracker edit occurred.
+
+**Next bounded stop:** audit §§3–8 as one systems/context/information-theory batch, especially the typed state tuple, observation kernel, transition model, broad context definition, null-input conditions and conditional mutual-information identity. Stop after that batch, record the exact next section range and unresolved dependencies in EDITION_PLAN.md, and wait for the user's next “go ahead” before opening another batch.
+
+### R81 — Stanford Encyclopedia of Philosophy: classical logic
+
+“Classical Logic,” *The Stanford Encyclopedia of Philosophy*, first published 16 September 2000; substantive revision 17 June 2026. https://plato.stanford.edu/entries/logic-classical/.
+
+**Relevant locations:** §§1, 3–5; the entry distinguishes formal language, derivation, model-theoretic validity, soundness and completeness.
+
+**Supports:** standard metatheoretic relationships between semantic validity and derivability for the presented classical first-order system.
+
+**Does not support:** the truth of the treatise's empirical premises, effectiveness of an arbitrary proof-search implementation, or practical resource bounds for deriving a particular proposition.
+
+### R82 — Stanford Encyclopedia of Philosophy: Bayesian epistemology
+
+“Bayesian Epistemology,” *The Stanford Encyclopedia of Philosophy*, Spring 2026 Edition. https://plato.stanford.edu/archives/spr2026/entries/epistemology-bayesian/.
+
+**Relevant locations:** §1 tutorial, including Probabilism, Conditionalization and the problem of priors; §1.9 on idealization.
+
+**Supports:** the normative/probabilistic framework of credences and conditionalization, the dependence of inductive updating on priors, and known idealization challenges.
+
+**Does not support:** a literal Bayesian algorithm in every human brain, a guaranteed true posterior under model misspecification, or the validity of the treatise's particular hypotheses.
