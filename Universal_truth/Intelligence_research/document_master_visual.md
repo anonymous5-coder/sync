@@ -585,7 +585,7 @@ $$
 \text{learned behavioural persistence}
 $$
 
-This is the central derivation of the treatise.
+This is the central proposed mechanistic bridge hypothesis of the treatise. It is not a derivation from physical embodiment alone: each arrow is a separate causal hypothesis requiring its own evidence, operationalization, and possible falsifier.
 
 **Claim-linked evidence register records:** R09, R11, R13, R14, R60, R63. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
@@ -703,7 +703,7 @@ As $\beta$ increases, higher-scoring actions dominate more strongly. As $\beta$ 
 
 This is a useful formal model of action selection. It is not a claim that the brain literally computes a single scalar $Q$ in a central location.
 
-**Claim-linked evidence register records:** R13, R14, R15, R24. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R13, R14, R15, R24, R73. R13/R14 inform physical-resource and effort discussions; R15/R24 inform cost-sensitive control and arbitration; R73 is the discrete-choice/logit source for the softmax form. These references support neighbouring model components, not the treatise's specific coefficients or a validated human neural mechanism. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 20. Why a familiar distraction can defeat an important task
@@ -870,7 +870,7 @@ The implication is important for studying. A person may not be pursuing entertai
 
 If the true reinforcing consequence is relief from task discomfort, merely blocking entertainment may expose the discomfort without teaching a replacement response.
 
-**Claim-linked evidence register records:** R16, R17, R18, R19, R28, R30, R53. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R16, R17, R18, R19, R28, R30, R53. R17 is the direct source for the technical definition of negative reinforcement. The other records provide reinforcement-learning, habit and context background; they do not establish that any particular avoidance response is maintained by relief. That requires an individual response–consequence assessment and evidence of increased future response probability. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 24. Thermodynamic entropy is not psychological disorder
@@ -893,7 +893,7 @@ A more defensible statement is:
 
 This is a physical–computational bridge. It does not equate entropy with distraction.
 
-**Claim-linked evidence register records:** R11, R14. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R11, R14, R71. R71 is the thermodynamics source for the second-law and entropy statements; R11 and R14 provide neural-energy and cognitive-effort context. These sources do not imply that a person chooses distraction to maximize entropy. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 25. A free-energy distinction
@@ -912,7 +912,7 @@ The two concepts are related historically and mathematically in some formulation
 
 For this treatise, the term **resource-constrained predictive control** will be used when the argument concerns action selection, uncertainty, and biological cost. This avoids turning a useful mathematical analogy into an unsupported identity.
 
-**Claim-linked evidence register records:** R20. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R20, R72. R72 supports the thermodynamic definition of Helmholtz free energy; R20 concerns variational free energy in theoretical neuroscience. Their separate roles are intentional: neither source establishes that the two quantities are interchangeable. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 26. The physical–cognitive bridge: Proposed multilevel hypothesis
@@ -951,7 +951,7 @@ This is not a deterministic law that every low-energy action is selected. The sy
 
 This is a conditional result about the model's score and selector, not a derivation of the physical-to-behavioural bridge or an explanation of any individual's parameters. Repeated selection strengthens a cue-policy association only if a separate learning/update rule entails that change; no such rule is specified here.
 
-**Claim-linked evidence register records:** R13, R14, R15, R60, R63. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R13, R14, R15, R60, R63. These sources inform selected physical-resource, effort, arbitration and task-metabolism components; they do not validate the complete causal chain or establish its joint mechanism. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 27. What the physical bridge predicts
@@ -972,7 +972,7 @@ This is a major practical consequence: self-control can be improved by changing 
 
 ---
 
-**Claim-linked evidence register records:** R13, R15, R23, R26, R29, R30, R33, R34. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R13, R15, R23, R26, R29, R30, R33, R34. These sources provide evidence for selected neighbouring mechanisms—effort/arbitration, incentive salience, stress/habit, habit formation, context consistency and smartphone-use interventions. They do not establish every listed predictor, the complete physical bridge, or a universal intervention effect. The predictions remain hypotheses requiring direct tests. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 # PART VI — INVESTIGATION A: FOUNDATIONS OF INTELLIGENCE
 
