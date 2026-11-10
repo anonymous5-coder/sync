@@ -5282,3 +5282,100 @@ The exact source comparison identified one wording mismatch in §31's memory bul
 > “a finite physical substrate has a finite information capacity under specified physical conditions, determined by its accessible distinguishable states and the reliability required to distinguish them.”
 
 This is a terminology/scope correction, not a new empirical claim. It preserves the original finite-capacity point while aligning the wording with the inspected theoretical treatment. The revised sentence was fetched from the live edition branch after commit 186039dc4e2671b440662606ceabca35e1e42623; treatise blob: c5a1180b10a2e4ffeb3295581fa28d81c638e95f. The surrounding §31 text and source-pointer block were unchanged.
+
+
+## 100. Habit-strength recurrence conflict — §§42 and 56 (10 November 2026)
+
+**Audit scope.** Re-examined the current equations and prose in §§42 and 56 against stable IDs S42-C01/S42-M01 and S56-M01, the M12 dependency, and the existing R16/R18/R19/R26/R28–R30/R53 evidence map. This entry records a formal dependency disposition; it does not select an unsupported empirical habit law.
+
+### 100.1 Current equations and construct overlap
+
+**§42 (S42-C01/S42-M01):**
+
+\[
+H_{t+1}=H_t+\alpha(1-H_t)R_t-\beta H_tN_t
+\]
+
+The prose defines \(H_t\) as strength of the new habit, \(R_t\) as successful rehearsal and \(N_t\) as non-reinforcement or competing learning. The equation has a saturating positive increment and state-proportional weakening.
+
+**§56 (S56-M01):**
+
+\[
+H_{\mathrm{alt},t+1}
+=H_{\mathrm{alt},t}+\alpha S_t-\beta F_t
+\]
+
+The prose defines \(H_{\mathrm{alt}}\) as strength of the alternative response, \(S_t\) as successful practice and \(F_t\) as failure or competing reinforcement. The equation is additive and has no state-dependent saturation or stated projection.
+
+The surrounding prose gives no operational distinction between “strength of the new habit” and “strength of the alternative response” when the new habit is precisely the alternative response being trained. Both equations therefore appear to describe the same candidate construct, but the manuscript does not formally declare them identical or provide a mapping.
+
+### 100.2 Mathematical properties
+
+For the §42 recurrence, a **sufficient** condition for invariance of \(H_t\in[0,1]\) is:
+
+\[
+H_t,R_t,N_t\in[0,1],\qquad
+0\leq\alpha\leq1,\quad 0\leq\beta\leq1.
+\]
+
+Under these assumptions,
+
+\[
+H_{t+1}=H_t(1-\beta N_t)+\alpha(1-H_t)R_t\geq0
+\]
+
+and
+
+\[
+H_{t+1}\leq H_t+\alpha(1-H_t)\leq1.
+\]
+
+This is a conditional algebraic property of the proposed recurrence, not evidence that the recurrence describes human habit formation. The manuscript does not currently define the time step, opportunity scale, input construction or fitted parameter values.
+
+The §56 additive recurrence has no corresponding invariance guarantee. Even with inputs and parameters individually restricted to [0,1], it can leave that interval. For example, \(H_{\mathrm{alt},t}=0.9\), \(\alpha=0.5\), \(S_t=1\), \(\beta=0\) yields 1.4; and \(H_{\mathrm{alt},t}=0.1\), \(\alpha=0\), \(\beta=0.5\), \(F_t=1\) yields −0.4. Thus the current §56 statement that one failure does not imply erased progress is not guaranteed for all parameter/input values by the displayed equation.
+
+An algebraic mapping could make the two recurrences coincide if the states are identical and:
+
+\[
+H_{\mathrm{alt},t}=H_t,\qquad
+S_t=(1-H_t)R_t,\qquad
+F_t=H_tN_t.
+\]
+
+But this mapping changes the apparent meaning of \(S_t\) and \(F_t\): they become state-weighted increments/decrements, not the raw “successful practice” and “failure or competing reinforcement” inputs currently described in §56. No evidence or model specification currently justifies adopting this mapping.
+
+### 100.3 Evidence fit and exact access limits
+
+- **R28 — Lally et al. (2010):** publisher abstract inspected. The study followed 96 volunteers over 12 weeks; 82 supplied sufficient data; individual asymptotic curves fitted for 62, with good fit for 39. The reported time to 95% of the fitted automaticity asymptote ranged from 18 to 254 days. This supports individual variability and an asymptotic pattern in the measured automaticity scores for selected eating, drinking or activity behaviours. The exact methods/results page and figure/table pinpoints were not independently inspected in this batch; the publisher abstract is the verified locator. It does not validate either treatise recurrence.
+- **R29 — Singh et al. (2024):** full open-access review text was available through the PMC indexed record and inspected in the earlier audit; current indexed text was rechecked. Section 3.3 reports that only four studies directly reported time to an automaticity threshold; reported medians were 59–66 days and means 106–154 days, with individual values 4–335 days. Section 4 discusses the 20-study/2,601-participant scope, heterogeneity and the small number of direct time-to-threshold studies. The pre–post habit-score synthesis is not a controlled causal effect, and the review excluded studies focused on stopping non-virtuous behaviours, including reducing social-media use. The review does not validate either equation or directly establish a law for cessation of unwanted habits.
+- **R30 — Ebert & Lin (2024):** PubMed/publisher abstract inspected. Randomized planning intervention in 127 insufficiently active, working, midlife adults; consistent-context, varied-context and no-planning conditions; accelerometer-measured steps and habit automaticity over a four-week intervention and four-week follow-up. The abstract reports increased walking during intervention in both planning groups, while only consistent-context planners developed/maintained greater automaticity; it does not establish walking maintenance. Exact result-table/figure pinpoints and full article text were not independently inspected in this batch.
+- **R16/R18/R19/R26/R53:** retain their previously recorded reinforcement-learning, behavioural-learning and habit-arbitration scope. They are comparator/theoretical or context-bounded sources, not direct validation of either recurrence.
+
+**Evidence disposition:** examined and qualified. Repetition, context consistency and automaticity trajectories have bounded empirical support in selected behaviours. No cited source establishes the §42 recurrence, the §56 additive recurrence, their parameter values, or a universal transition law for alternative-response strength. Evidence about positive health-habit formation must not be silently generalized to cessation of unwanted distraction behaviour.
+
+### 100.4 Competing interpretations and deferral
+
+| Interpretation | What it would mean | Missing obligation |
+|---|---|---|
+| A. Same latent state | \(H_t\) and \(H_{\mathrm{alt},t}\) are the same strength variable; §56 is a duplicate or informal restatement of §42. | Define the common construct, context/action indexing, time step and operational inputs. Decide whether §56 should reference §42 rather than display a second update. |
+| B. Distinct states | \(H_t\) is a broader new-habit state while \(H_{\mathrm{alt},t}\) is the strength of one specific alternative response. | Define each state, its measurement scale, action/context indexing, coupling and transition dependency; explain how one affects the other. |
+| C. Different levels of approximation | §42 is a saturating candidate model while §56 is a local/linear heuristic valid only over a restricted range. | State the approximation regime, error bound or range of validity, and derive the local relation rather than assuming equivalence. |
+
+**Deferral decision.** Do not select A, B or C as established. The text does not provide enough information to determine whether the states are identical, nested or merely related. The mapping that would make the equations algebraically equivalent would also change the stated semantics of the inputs. Adding a clipping function, new decay term or new parameter would be a modelling choice, not a source-derived correction.
+
+Before a canonical equation can be chosen, specify: (1) target behaviour and context; (2) whether the state measures automaticity, action probability, response strength or another construct; (3) time step and eligible-opportunity denominator; (4) operational definitions and ranges for successful rehearsal, non-reinforcement, failure and competing reinforcement; (5) missing-opportunity and context-transfer rules; (6) parameter constraints and estimation method; and (7) whether the model is conceptual, fitted or intended for prediction/control.
+
+**Consequences:** until these choices are made, the two equations cannot be combined into one controller, used to infer convergence, compared by their coefficients, or treated as executable update laws. The §42 boundedness result remains conditional mathematics; §56 remains an unbounded conceptual heuristic.
+
+### 100.5 Batch accounting and next action
+
+| Item | Status |
+|---|---|
+| §42 equation and prose | Examined; conditional invariance proof supplied; empirical law unvalidated |
+| §56 equation and prose | Examined; no interval invariance guarantee; conceptual heuristic only |
+| R28 | Publisher abstract inspected; detailed article pinpoints unavailable in this pass |
+| R29 | Full open-access review text inspected/indexed; Section 3.3 and Section 4 checked |
+| R30 | PubMed/publisher abstract inspected; detailed result-table pinpoints unavailable |
+| E17/E18 | Not recovered; their explicit unresolved provenance disposition already exists in §34.1. No definitions or mappings inferred. |
+
+**Next:** continue the complete sentence-level audit in another high-impact untreated section batch. Keep the habit-state identity/mapping as an explicit modelling decision for later controlled revision; do not silently choose an equation. Mathematical dependency closure, typed controller interfaces, full rendered inspection and qualified independent review remain open. No experiments A–F, preregistration, recruitment, intervention, tracker edit, merge or plan retirement.
