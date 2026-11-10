@@ -5379,3 +5379,87 @@ Before a canonical equation can be chosen, specify: (1) target behaviour and con
 | E17/E18 | Not recovered; their explicit unresolved provenance disposition already exists in §34.1. No definitions or mappings inferred. |
 
 **Next:** continue the complete sentence-level audit in another high-impact untreated section batch. Keep the habit-state identity/mapping as an explicit modelling decision for later controlled revision; do not silently choose an equation. Mathematical dependency closure, typed controller interfaces, full rendered inspection and qualified independent review remain open. No experiments A–F, preregistration, recruitment, intervention, tracker edit, merge or plan retirement.
+
+
+## 101. Exact source-pinpoint and sentence-level audit — §§22–23 reinforcement learning and negative reinforcement (10 November 2026)
+
+**Audit scope.** Re-read current treatise §§22–23 sentence by sentence against S22-EQ01, S22-C01, S23-C01, S23-EQ01 and S23-C02. Checked the current Q-learning equation against Sutton & Barto's accessible algorithm text; checked the negative-reinforcement definition against the APA dictionary record and an accessible OpenStax textbook section. This is a bounded two-section batch, not closure of the remaining treatise audit.
+
+### 101.1 §22 — current Q-learning update (S22-EQ01)
+
+The current treatise, §22, lines 805–840, now displays:
+
+\[
+Q_{\mathrm{RL},t+1}(s_t,a_t)
+=Q_{\mathrm{RL},t}(s_t,a_t)
++\alpha\left[
+r_{t+1}+\gamma\max_{a'\in\mathcal A(s_{t+1})}
+Q_{\mathrm{RL},t}(s_{t+1},a')
+-Q_{\mathrm{RL},t}(s_t,a_t)
+\right].
+\]
+
+This is the standard one-step Q-learning form, with lower-case notation for realized state, action and reward. Sutton & Barto, *Reinforcement Learning: An Introduction*, second-edition-in-progress draft, §6.5, Eq. (6.8), printed p. 140, gives the same update and identifies it as off-policy temporal-difference control. The procedural algorithm initializes terminal-state action values to zero (printed p. 140, algorithm box). The same section states that convergence to the optimal action-value function requires all state-action pairs to continue being updated and a suitable stochastic-approximation step-size condition. The accessible PDF is explicitly labelled “Second edition, in progress — Draft” and carries 2014–2016 copyright; it is not represented here as the final published 2018 edition. MIT Press's final-edition publisher record confirms the 2018 second edition and its bibliographic identity, but the final publisher page does not expose the equation's full text or a page-level pinpoint in this pass.
+
+**Important historical reconciliation:** an earlier claim-level row for S22-EQ01 described a different hybrid expression, \(V_{t+1}(c,a)=V_t(c,a)+\alpha[r_t+\gamma V_t(s_{t+1})-V_t(c,a)]\), and correctly identified its state-value/action-value index mismatch. That was a valid finding about the then-current treatise snapshot. It is not the equation in the current treatise. The current section has since been revised to the standard Q-learning form. This §101 entry supersedes that older row for current-state assessment while preserving the historical record and its original rationale.
+
+**Current equation assessment:** directly supported as a standard computational algorithm by Sutton & Barto §6.5, Eq. (6.8), in the accessible draft version. The terminal-state convention has now been made explicit in the treatise: the bootstrap term is zero for a terminal successor state, consistent with the algorithm box. The update also presupposes a Markov-sufficient state representation, specified reward timing and feasible actions. The treatise correctly states that these assumptions have not been validated for its human behavioural model and makes no convergence claim. Its \(0\leq\gamma<1\), \(0<\alpha\leq1\) constraints are stated model restrictions, not a complete convergence theorem.
+
+**Scope limitation:** the source verifies the algorithmic equation, not a neural implementation, a human habit mechanism, or the claim that a particular cue–action association is learned by Q-learning in an individual. Q-learning is an algorithmic comparator, not a mechanistic identification.
+
+### 101.2 §22 — cue–action–outcome learning claim (S22-C01)
+
+The claim that repeated cue–action–outcome pairings can bias later action selection is broader than the Q-learning equation alone. R16 establishes the computational algorithmic comparator. R18 is a review of learning, reward and decision-making strategies, not a direct test of this treatise's specific cue representation. R19's full open-access article was inspected in the earlier source audit: its frequency-based training tasks showed changes in later frequency-based choice measures, but the six laboratory habit paradigms did not converge as interchangeable indicators of a single latent habit construct, and the tasks did not show criterion validity against real-life habit questionnaires (R19, Results and Discussion; Table 2 and the criterion-validity analyses, as previously recorded in the source entry). R28 and R30 provide context-specific habit/automaticity evidence, not validation of a general cue–action–outcome update law.
+
+**Disposition:** examined and supported with qualifications. Computational reinforcement learning supplies a formal way in which state–action–outcome experience can update action values. Human studies support selected learning and context effects, but do not identify the proposed update as the general human mechanism or establish its neural implementation. Retain S22-C01 as a bounded learning hypothesis; do not infer that the human behaviour under discussion follows Q-learning.
+
+### 101.3 §23 — negative reinforcement definition (S23-C01)
+
+The APA Dictionary record R17 defines negative reinforcement in terms of an aversive stimulus being removed, prevented or postponed contingent on a response, followed by an increase in the probability of that response. The APA dictionary page was not directly readable in this browser pass; its indexed result exposed the definition, while direct opening returned only an iframe/reCAPTCHA shell. Therefore, the APA source is recorded as an official dictionary-entry locator with direct-page access limitation, not as a fully inspected primary text.
+
+A second accessible source was inspected: Spielman et al., *Psychology*, OpenStax, §6.3 “Operant Conditioning.” The section distinguishes addition/removal from increase/decrease, states that reinforcement increases response likelihood, and defines negative reinforcement as removing an undesirable stimulus to increase behaviour (table 6.2 and §6.3, lines 46–53 and 62–66 of the accessible page). The seatbelt alarm and horse-pressure examples illustrate the contingency. This is an educational textbook source, not a primary experimental study.
+
+**Disposition:** the definition is supported. The essential criteria are not merely “feeling better after an action”; the stimulus change must be response-contingent and the response must subsequently increase in probability or rate. The treatise wording has been narrowed accordingly. Neither the APA definition nor OpenStax establishes that any specific person's avoidance behaviour is maintained by relief.
+
+### 101.4 §23 — discomfort reduction and candidate functional explanation (S23-EQ01, S23-C02)
+
+The inequality \(u_t>u_{t+1}\) records only that the selected discomfort variable is lower at the later observation. It does not encode response contingency, identify the aversive stimulus, or establish a future increase in the avoidance response. It is therefore a descriptive relief relation, not a reinforcement equation.
+
+S23-C02 proposes that a person may avoid a task to escape uncertainty, effort, fear of failure, boredom or fatigue. These are plausible candidate antecedents/aversive conditions, but the listed possibilities are not evidence that any one of them maintains a particular person's avoidance. A functional account would need to identify the antecedent condition, the avoidance response, the immediate consequence, the response–consequence contingency and subsequent change in response rate/probability across relevant opportunities. Competing functions—including positive reinforcement, learned cue association, fatigue, task difficulty and social context—remain possible.
+
+**Disposition:** S23-EQ01 is examined and retained only as a discomfort-change descriptor. S23-C02 is examined and retained as a testable individual-level functional hypothesis, not an established explanation.
+
+### 101.5 Controlled treatise corrections and verification
+
+Two narrow changes were made and fetched from the live branch:
+
+1. **§22 terminal successor convention:** the text now specifies that the Q-learning bootstrap term is zero for a terminal successor state; the maximum over successor actions is used only for nonterminal successor states. This avoids taking a maximum over an empty terminal action set and matches the terminal-state convention in Sutton & Barto's algorithm box.
+2. **§23 contingency and behavioural criterion:** the text now explicitly says that a reduction in discomfort alone does not establish reinforcement. The reduction must be contingent on the avoidance response, and that response must subsequently become more probable or frequent under relevant conditions.
+
+The current treatise lines are §22, approximately 805–840, and §23, approximately 843–875. The treatise edit is commit `1cde694a901732ba3959a95fcd6503371784417f`, blob `789d45319918ef8132f0b27e1fb6c7d5b0690fdf`.
+
+### 101.6 Coverage accounting
+
+| Stable claim | Status | Evidence and limitation |
+|---|---|---|
+| S22-EQ01 | Examined; directly supported as a computational algorithm | Sutton & Barto accessible second-edition draft §6.5 Eq. (6.8), printed p. 140; terminal convention checked in algorithm box. Final 2018 publisher metadata verified, but final-edition full text/page pinpoint not directly inspected. |
+| S22-C01 | Examined; supported with qualifications | RL algorithm plus bounded human habit/learning comparators R18/R19/R28/R30; no human Q-learning mechanism established. |
+| S23-C01 | Examined; definition supported | R17 official APA dictionary indexed entry; direct page inaccessible. R76 OpenStax §6.3 full accessible text inspected. |
+| S23-EQ01 | Examined; descriptive relation only | Inequality shows discomfort reduction, not contingency or subsequent behavioural strengthening. |
+| S23-C02 | Examined; unresolved as an individual causal explanation | Candidate functional hypotheses; no person-specific response–consequence evidence supplied. |
+
+**Source-access ledger:** R16: accessible full-text second-edition-in-progress draft inspected at §6.5, Eq. (6.8), printed p. 140; final MIT Press 2018 bibliographic page checked for edition identity only. R17: APA Dictionary metadata/official entry and indexed definition checked; direct page inaccessible in this pass. R18: review-level source, used only within its previously recorded scope. R19: full open-access article and its previously recorded result/table locations inspected in the earlier audit; current assessment reuses that verified source record. R28/R30: publisher/PubMed abstract-level limits remain as previously recorded. R76: OpenStax *Psychology*, §6.3, lines 46–66, full accessible text inspected.
+
+**Batch accounting:** two treatise sections examined; five stable claims examined; one computational update directly supported; one human learning claim supported with qualifications; one behavioural definition supported; one discomfort inequality retained as a descriptor; one individual-level causal explanation remains unresolved. Two narrow wording/definition corrections made. No claim upgraded to a validated human mechanism. No experiments A–F, preregistration, recruitment, intervention or tracker edit occurred.
+
+**Next:** continue sentence-level verification of the next high-impact untreated claim cluster, while preserving the distinction between computational algorithms and biological mechanisms. The full 95-section sentence-level audit, mathematical dependency closure, typed architecture, rendered inspection and qualified independent external review remain open.
+
+### R76 — Spielman et al. (2014; current page © 2022): OpenStax operant-conditioning textbook
+
+Rose M. Spielman, Kathryn Dumper, William Jenkins, Arlene Lacombe, Marilyn Lovett and Marion Perlmutter, *Psychology*, OpenStax (publication date 8 December 2014), §6.3, “Operant Conditioning”; current section page copyright/update date 9 February 2022. Section URL: https://openstax.org/books/psychology/pages/6-3-operant-conditioning.
+
+**Evidence type and access:** educational textbook section; full accessible section inspected. Exact relevant locator: §6.3, lines 46–53 (positive/negative and reinforcement/punishment distinctions), lines 62–66 (negative reinforcement and contrast with punishment).
+
+**Supports:** negative reinforcement as removal of an undesirable/aversive stimulus that increases behaviour; reinforcement must increase the likelihood of a response; distinction from punishment.
+
+**Does not support:** the claim that a particular person's avoidance behaviour is maintained by relief, the specific causal chain in §23, or any ROOT intervention efficacy.
