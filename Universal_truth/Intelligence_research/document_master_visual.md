@@ -301,7 +301,7 @@ $$
 I(W;O\mid M)=H(W\mid M)-H(W\mid M,O)
 $$
 
-For discrete variables, this entropy-difference identity holds directly. For continuous variables, the differential-entropy terms must be well-defined; more generally, conditional mutual information is an expected Kullback–Leibler divergence between the conditional joint distribution and the product of its conditional marginals.
+For discrete variables, this entropy-difference identity holds directly. For continuous variables, the differential-entropy terms must be well-defined; more generally, conditional mutual information is $I(W;O\mid M)=\mathbb E_M[D_{\mathrm{KL}}(P_{W,O\mid M}\|P_{W\mid M}P_{O\mid M})]\geq0$, the expected Kullback–Leibler divergence between the conditional joint distribution and the product of its conditional marginals.
 
 A positive $I(W;O\mid M)$ represents an expected reduction in uncertainty about $W$, averaged over observations under the specified joint distribution. It does not guarantee that every realized observation reduces posterior entropy: a particular observation may be irrelevant, noisy, misleading, or may increase uncertainty.
 
