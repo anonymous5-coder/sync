@@ -5203,3 +5203,10 @@ This check establishes structural pointer/ID resolution only. It does not prove 
 No claim disposition was upgraded. No experiments A–F were executed or authorized; no preregistration, recruitment, data collection, intervention, tracker edit, branch merge or plan retirement occurred.
 
 **Next:** continue exact source-pinpoint and sentence-level adequacy review, prioritizing high-impact empirical and formal claims, then close remaining mathematical dependencies and inspect the rendered manuscript before any independent-review readiness assessment.
+
+
+## 98. Bibliographic correction addendum — R55 author identity
+
+The R55 metadata completion in §88 contained an author-name inversion. The DOI record and bibliographic exports identify the sole author as **Lin Guo**, cited in surname–initial form as **Guo, L. (2022)**, not “Lin, H.” The R55 source table and the current §88 audit summary have been corrected. Full citation: “Using metacognitive prompts to enhance self-regulated learning and learning outcomes: A meta-analysis of experimental studies in computer-based learning environments,” *Journal of Computer Assisted Learning* 38(3), 811–832, DOI https://doi.org/10.1111/jcal.12650.
+
+The stable source ID R55 and all claim mappings/access limitations remain unchanged. This is a bibliographic identity correction only; it does not alter the evidence assessment or validate any Recursive Intelligence/ROOT claim.
