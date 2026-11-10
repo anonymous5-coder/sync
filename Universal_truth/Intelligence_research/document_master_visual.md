@@ -587,7 +587,7 @@ $$
 
 This is the central proposed mechanistic bridge hypothesis of the treatise. It is not a derivation from physical embodiment alone: each arrow is a separate causal hypothesis requiring its own evidence, operationalization, and possible falsifier.
 
-**Claim-linked evidence register records:** R09, R11, R13, R14, R60, R63. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R09, R11, R13, R14, R60, R63. These sources inform selected physical-computation, neural-energy, effort and workload components; they do not independently establish every causal link in the proposed bridge. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 17. Physical computation and energy
@@ -766,7 +766,7 @@ Therefore, under the stated score definitions and selector conditions, the model
 
 The solution must change the action-selection conditions, not merely repeat the long-term preference.
 
-**Claim-linked evidence register records:** R15, R24, R26. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R15, R24, R26. R15 and R24 inform cost-sensitive arbitration/control-allocation accounts; R26 is a stress–habit comparator. These sources do not establish the specific scores or coefficients in the conditional algebraic proposition. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 21. Why habits are efficient—and why efficiency can become a trap
