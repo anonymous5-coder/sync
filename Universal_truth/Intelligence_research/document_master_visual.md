@@ -879,9 +879,9 @@ A common but invalid shortcut is to say that the brain chooses distraction becau
 
 That statement is too broad to be a scientific explanation.
 
-The second law constrains the total entropy balance of physical processes. It does not imply that every subsystem maximizes disorder locally, nor that a person chooses the easiest stimulus because the brain is "trying to increase entropy."
+The second law constrains the entropy change of an isolated system or of the combined system and surroundings; it does not require the entropy of every open subsystem to increase. It therefore does not imply that a person chooses the easiest stimulus because the brain is "trying to increase entropy."
 
-Biological systems maintain local organization by consuming free energy and exporting entropy to their surroundings.
+Biological systems maintain local organization through energy and material exchange with their surroundings, while dissipating energy and releasing waste and heat.
 
 A more defensible statement is:
 
@@ -891,9 +891,9 @@ A more defensible statement is:
 4. Learned policies can reduce the repeated cost of action selection.
 5. Cue-triggered habits can therefore dominate when deliberative control is costly, weakened, or poorly supported by the environment.
 
-This is a physical–computational bridge. It does not equate entropy with distraction.
+This is a proposed physical–computational framing, not a derived causal bridge. It does not equate entropy with distraction.
 
-**Claim-linked evidence register records:** R11, R14, R71. R71 is the thermodynamics source for the second-law and entropy statements; R11 and R14 provide neural-energy and cognitive-effort context. These sources do not imply that a person chooses distraction to maximize entropy. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R11, R14, R71, R77. R71 supports the second-law boundary; R77 provides a review-level account of open biological systems and energy/material exchange; R11 and R14 provide neural-energy and cognitive-effort context. These sources do not imply that a person chooses distraction to maximize entropy. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 25. A free-energy distinction
@@ -908,11 +908,11 @@ where $U$ is internal energy, $T$ temperature, and $S$ thermodynamic entropy.
 
 In statistical inference and theoretical neuroscience, "variational free energy" is a mathematical quantity used to bound surprise or model evidence under particular assumptions.
 
-The two concepts are related historically and mathematically in some formulations, but they are not interchangeable. A cognitive model minimizing variational free energy is not automatically minimizing the brain's physical Helmholtz free energy in a simple literal sense.
+Variational free energy can be expressed as an energy-minus-entropy functional over a probabilistic model and an approximate posterior; that mathematical form does not make it identical to the physical Helmholtz potential of neural tissue. A cognitive model minimizing variational free energy is not automatically minimizing the brain's physical Helmholtz free energy in a simple literal sense.
 
 For this treatise, the term **resource-constrained predictive control** will be used when the argument concerns action selection, uncertainty, and biological cost. This avoids turning a useful mathematical analogy into an unsupported identity.
 
-**Claim-linked evidence register records:** R20, R72. R72 supports the thermodynamic definition of Helmholtz free energy; R20 concerns variational free energy in theoretical neuroscience. Their separate roles are intentional: neither source establishes that the two quantities are interchangeable. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R20, R72, R78. R72 supports the thermodynamic Helmholtz definition; R20 is an abstract-level review record; R78 provides full-text support for variational free energy as an information-theoretic bound and explicitly distinguishes it from a thermodynamic quantity. Their separate roles are intentional: neither source establishes that the two quantities are interchangeable. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 26. The physical–cognitive bridge: Proposed multilevel hypothesis
