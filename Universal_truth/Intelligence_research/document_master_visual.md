@@ -852,13 +852,13 @@ A later encounter with the cue can bias action selection if the operative policy
 
 Not all reinforcement is pleasure-seeking.
 
-Suppose an uncomfortable state $u$ precedes an avoidance action $a_e$. The action temporarily reduces discomfort:
+Let $\xi_t^{\mathrm{av}}$ denote the intensity of an aversive state. Suppose it precedes an avoidance action $a_e$, which temporarily reduces that state:
 
 $$
 u_t>u_{t+1}
 $$
 
-A reduction in discomfort is only a candidate consequence; by itself it does not establish reinforcement. It counts as negative reinforcement only if the reduction is contingent on the avoidance response and that response subsequently becomes more probable or frequent under relevant conditions, even if the action produces no lasting satisfaction.
+This aversive-state variable is distinct from ROOT's urge rating $u_t$ and from the control input $v_t$ in §60. A reduction in discomfort is only a candidate consequence; by itself it does not establish reinforcement. It counts as negative reinforcement only if the reduction is contingent on the avoidance response and that response subsequently becomes more probable or frequent under relevant conditions, even if the action produces no lasting satisfaction.
 
 The sequence is:
 
@@ -970,9 +970,9 @@ The model predicts that habit-like control may become more dominant relative to 
 - cues associated with previously reinforced actions are highly accessible; cue-triggered incentive salience is especially documented in addiction-related domains and must not be generalized to ordinary habits without evidence;
 - the habitual response has lower initiation or control cost than available alternatives;
 - the competing task imposes high uncertainty or control effort;
-- the person is acutely stressed or sleep-deprived; these are distinct moderators, and evidence for stress-induced habit-like responding is not equivalent to evidence that sleep loss causes habit selection;
+- acute stress before instrumental learning may produce outcome-devaluation-insensitive responding in the specific paradigm studied; this may reflect reduced goal-directed control rather than a universal increase in habit strength. Sleep loss is a distinct moderator: meta-analytic evidence supports domain-dependent cognitive impairment, not the same habit-selection effect;
 - action–outcome feedback is delayed relative to the action, which may weaken goal-directed action–outcome learning and sensitivity to outcome revaluation, without necessarily increasing the absolute response rate;
-- the response reliably produces immediate relief or incentive reward; relief qualifies as negative reinforcement only when it is response-contingent and the response subsequently becomes more probable or frequent;
+- the response reliably produces immediate relief from an aversive condition (negative reinforcement, requiring response contingency and subsequent strengthening) or cue-triggered incentive salience (a distinct wanting mechanism documented particularly in addiction-related domains); neither mechanism should be inferred from a generic urge rating alone;
 - the environment imposes greater friction on the alternative action than on the habitual response.
 
 The model further predicts that environmental changes may alter observable action rates even if subjective urge intensity changes little. This remains a hypothesis: the cited screen-time intervention studies did not directly measure urge intensity. Tests should measure urge intensity, eligible opportunities, action rates, substitution to other behaviours and functional outcomes separately.
