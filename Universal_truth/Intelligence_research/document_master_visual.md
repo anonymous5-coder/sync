@@ -1097,7 +1097,7 @@ There is no single universal number that describes all computational limits. Sev
 
 1. **Energy cost:** computation requires physical state transitions and, for logically irreversible operations under standard assumptions, erasure has a Landauer lower bound.
 2. **Time cost:** a physical system has finite speed and must perform state transitions over time.
-3. **Memory capacity:** a finite substrate can maintain only a finite number of distinguishable stable states under specified physical conditions.
+3. **Memory capacity:** a finite physical substrate has a finite information capacity under specified physical conditions, determined by its accessible distinguishable states and the reliability required to distinguish them.
 4. **Noise:** physical systems are subject to thermal, quantum, and implementation noise.
 5. **Communication:** information transfer is constrained by bandwidth, distance, and signal propagation.
 6. **Error correction:** reliable computation requires redundancy or error management, which itself consumes resources.
