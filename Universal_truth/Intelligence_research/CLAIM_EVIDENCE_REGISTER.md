@@ -5542,3 +5542,83 @@ Karl Friston, “The free-energy principle: a unified brain theory?”, *Nature 
 **Supports:** variational free energy as an information-theoretic quantity bounding surprise under a generative model; its formulation through a non-negative divergence term; distinction from a thermodynamic quantity.
 
 **Does not support:** identifying variational free energy with physical Helmholtz free energy in neural tissue, a validated universal brain theory, or a direct cognitive-effort/thermodynamic-energy conversion.
+
+
+## 103. Mathematical and evidence audit — §26 physical–cognitive bridge and conditional policy-selection result (10 November 2026)
+
+**Audit scope.** Re-read current §26 against stable IDs S26-M01 and S26-TH03, the action-score definition in §19, and the current evidence records R13, R14, R15, R60 and R63. This batch separates the proposed multilevel bridge from the conditional algebraic result and checks the latter's score type, policy domain and selector.
+
+### 103.1 S26-M01 — proposed multilevel physical–cognitive chain
+
+The six links in §26 are explicitly labelled a proposed hypothesis: physical embodiment → finite energy/time/computational capacity → cost-sensitive allocation → cached low-cost policies under some conditions → cue-triggered repetition/habit persistence → possible displacement of reflective objectives.
+
+The cited evidence does not establish this entire chain:
+
+- **R13, Kondrakiewicz & Nawrocka (2025):** secondary review; full 12-page preprint inspected, final journal abstract/metadata verified. It separates baseline brain-maintenance cost from task-related increments, reports heterogeneous regional responses and cautions against universal cognition-energy claims. It does not establish a policy-selection mechanism or the proposed chain.
+- **R14, Otto, Westbrook & Daunizeau (2026):** critical theoretical review; accessible author manuscript inspected, final journal metadata/abstract verified. It distinguishes subjective effort perception from exertion and finds no consensus on a principled mechanism of subjective effort. Its candidate KL/energetic relationship is theoretical and implementation-dependent, not a universal conversion.
+- **R15, Kool, Gershman & Cushman (2017):** primary human study; full article PDF inspected. In Experiment 1, 98 analysed participants showed greater model-based control on high-stakes than low-stakes trials (mean model-based weight .76 vs .54; t(97)=4.67, p<.001, d=.47), in a task where model-based control could improve accuracy/reward (PDF lines 294–317, 337–345, 411–415). In Experiment 2, where model-based control did not confer a reward advantage, the stakes manipulation did not increase model-based control (t(99)=−0.72, p=.470, d=−0.07; PDF lines 438–455 and 952–960). The study supports task-specific arbitration between model-based and model-free control; it does not validate the treatise's full causal chain, exact score, universal cached-policy preference or an individual's distraction mechanism.
+- **R60, Bruckmaier et al. (2020):** primary human visual-cortex study; full text inspected. Its small two-experiment sample showed task-specific local metabolic redistribution with perceptual load (previously recorded exact methods/results locators in R60). It does not establish whole-brain energy invariance, per-inference energy or action-policy selection.
+- **R63, Backs & Seljos (1994):** primary human working-memory experiment, but only the PubMed abstract was accessible. Its reported separation among metabolic, cardiorespiratory, performance and subjective-workload dimensions is bounded peripheral physiological evidence; it is not a measurement of cerebral energy or a universal cognitive-effort law.
+
+**Disposition:** S26-M01 is examined and remains a proposed multilevel hypothesis. The source set supports selected neighbouring components, not a complete causal bridge. No link from physical energy to a particular individual's habitual choice has been established.
+
+### 103.2 S26-TH03 — formal conditional policy-selection result
+
+The original §26 derivation used \(Q(\Pi_h)\) and \(Q(\Pi_m)\), while §19 defines \(Q(a)\) as an action-level score. The treatise did not define how an action-level score is aggregated into a policy-level score. This was a type/interface ambiguity, not a refutation of the conditional ordering argument.
+
+The current §26 now stipulates a distinct policy-level scalar \(S_{\mathrm{loc}}(\Pi)\), a finite nonempty feasible policy set \(\Omega\), and a reflective value \(V_G(\Pi)\). It explicitly states that the aggregation rule from §19's action-level \(Q(a)\) to \(S_{\mathrm{loc}}(\Pi)\) remains unspecified. The policy selector is written as a finite-set softmax with \(\beta>0\); inverse-score units are required if the score is dimensional.
+
+Under the stipulated assumptions:
+
+\[
+V_G(\Pi_m)>V_G(\Pi_h),\qquad
+S_{\mathrm{loc}}(\Pi_h)>S_{\mathrm{loc}}(\Pi_m),
+\]
+
+and
+
+\[
+\pi(\Pi)=
+\frac{\exp(\beta S_{\mathrm{loc}}(\Pi))}
+{\sum_{\Pi'\in\Omega}\exp(\beta S_{\mathrm{loc}}(\Pi'))},
+\qquad \beta>0,
+\]
+
+monotonicity of the exponential and a common positive denominator imply:
+
+\[
+\pi(\Pi_h)>\pi(\Pi_m).
+\]
+
+A greedy selector selects \(\Pi_h\) only if it is a maximizer over the entire feasible set \(\Omega\). The result is therefore formally valid as a conditional statement about a stipulated score and selector.
+
+**Scope and unresolved dependency:** the proof does not derive the score inequality, explain why the local score should favour the habitual policy, or show that the human brain implements this selector. The mapping from §19's action-level score to the policy-level score remains unspecified. The result is not a physical–cognitive derivation and does not establish that a policy's repeated selection strengthens its cue association.
+
+### 103.3 Learning-persistence link
+
+The final paragraph of §26 correctly states that repeated selection strengthens a cue-policy association only if a separate learning/update rule entails that change. No such rule is specified in §26. The current §22 Q-learning update is a computational comparator whose state/reward assumptions have not been validated as a human habit mechanism. The §42 and §56 habit-strength recurrences remain unreconciled under register §100; neither can currently be assigned as the canonical update for this bridge.
+
+**Disposition:** learning persistence remains an unresolved model dependency. Do not infer habit strengthening, convergence, or long-term persistence from the softmax selection inequality alone.
+
+### 103.4 Controlled formal clarification and verification
+
+The treatise now:
+
+1. Distinguishes the policy-level scalar \(S_{\mathrm{loc}}(\Pi)\) from the action-level \(Q(a)\) defined in §19.
+2. Defines the finite, nonempty policy set \(\Omega\) and the reflective-value comparison \(V_G(\Pi_m)>V_G(\Pi_h)\).
+3. Writes the finite-policy softmax explicitly and states the inverse-score units of \(\beta\) when scores are dimensional.
+4. Leaves the aggregation rule from action-level scores to policy-level scores unresolved rather than inventing it.
+5. Preserves the separation between conditional policy selection and a missing learning/update law.
+
+The live treatise correction is commit `1ed597143c67dd9d79ff97ac5fd443ddfedb7ce3`, with ordered-list formatting correction in `215c7ed4700b176b16f25dc9ae42a57aacb4c98a`, and domain/unit refinement in `ac52e93b9220209a569f5bf8f5642da706f14190`. Current treatise blob: `3ea677ad6e2a96a1b4d3a94b7561d995a5421c53`.
+
+### 103.5 Coverage accounting
+
+| Stable claim | Status | Evidence and limitation |
+|---|---|---|
+| S26-M01 | Examined; proposed hypothesis only | R13/R14 review-level energy/effort accounts; R15 task-specific human arbitration experiment; R60 local visual-cortex metabolism; R63 abstract-level peripheral physiology. No full-chain validation. |
+| S26-TH03 | Examined; conditional formal result supported | Policy-level softmax ordering is mathematically valid under the stated finite-set, finite-score and positive-temperature assumptions. The score aggregation and empirical selector remain unspecified. |
+
+**Batch accounting:** one treatise section examined; two stable claims examined; one score-type/interface ambiguity corrected; one conditional probability-ordering result retained with explicit assumptions; one multilevel bridge remains unvalidated; the learning-persistence link remains unresolved. No empirical status upgraded. No experiments A–F, preregistration, recruitment, intervention or tracker edit occurred.
+
+**Next:** audit §27's individual predictions S27-H01–H08 against their exact source records, distinguishing directly tested predictors from adjacent mechanisms and unsupported causal generalizations. The full 95-section audit, habit-state dependency closure, typed architecture, rendered inspection and qualified independent external review remain open.
