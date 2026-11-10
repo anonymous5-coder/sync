@@ -6176,3 +6176,92 @@ Treatise current blob: `64d8938f992ece2627aef852544b7b30e98a1c23`. Tracker curre
 **Batch accounting:** nine treatise sections and the ROOT tracker interface examined; five state representations distinguished; four score/policy/objective quantities distinguished; two macro-transition schematics compared; one stale S22-EQ01 register diagnosis superseded for current state; one controller-input symbol collision removed; one ROOT vector notation collision removed. No unified state-transition model, causal controller or empirical validation was established.
 
 **Next:** resolve any independently definable sub-interface without assuming a global state mapping, then continue exact source-pinpoint audit of the remaining high-impact Space/Null and Out of Box claims. The complete 95-section audit, full taxonomy crosswalk, M1–M18 dependency closure, rendered inspection and qualified independent external review remain open.
+
+
+## 111. Exact source-pinpoint and sentence-level audit — §§16–21 physical/cognitive cost bridge (10 November 2026)
+
+**Audit scope.** Re-read the physical-to-cognitive bridge, first-law/Landauer statements, brain-energy decomposition, candidate action score, softmax choice rule, local action-advantage proposition and cached-habit model. Re-inspected R09, R11, R12, R24, R70 and R73 at source level, with the previously recorded access limits for R10, R13–R15 and R60–R69 preserved.
+
+### 111.1 §16 — proposed physical–cognitive bridge (S16-C01/C02)
+
+The proposed chain from physical energy/time constraints through neural implementation, control allocation, subjective effort and behavioural choice is a **research hypothesis/organizing model**, not a derivation from thermodynamics or neuroscience. The current section explicitly states that the links are not established by the physical laws alone.
+
+**Disposition:** retain as a proposed bridge. The physical facts at one end do not entail the psychological or behavioural relations at the other. No causal coefficient, universal mapping or validated energy-to-effort conversion is established.
+
+### 111.2 §17 — first law and Landauer bound (S17-EQ01/EQ02)
+
+**First law.** R70, OpenStax *University Physics Volume 2*, §3.3, was inspected directly. The source uses \(\Delta U=Q-W\) with heat added positive and work done **by** the system positive (lines 31–41); its sign table is at lines 42–52. The treatise uses the equivalent convention \(\Delta U=Q+W\) with \(W\) positive for work done **on** the system. This is a sign-convention change, not a physical disagreement.
+
+**Landauer.** R09, Landauer (1961), original paper full text inspected, pp. 185–187. The paper distinguishes reversible one-to-one operations from logically irreversible many-to-one operations (pp. 185–186) and derives the minimum heating for restoring a bit to a standard state (p. 187; 0.6931 kT per restored bit under the stated ensemble assumptions). R10, Bérut et al. (2012), was inspected at publisher abstract level: the one-bit colloidal-memory experiment approached the Landauer bound in the long-erasure-cycle limit; the full Nature article and figure-level pinpoints were not independently inspected in this batch.
+
+**Disposition:** S17-EQ01 is correct under the treatise's stated sign convention. S17-EQ02 is correctly restricted to isothermal erasure at temperature \(T\) of an initially unbiased bit into a standard final state. It is not a lower bound on every logical operation, a per-thought conversion, or a measurement of cognitive effort.
+
+### 111.3 §18 — brain-energy budget and subjective effort (S18-C01/S18-EQ01)
+
+R11, Attwell & Laughlin (2001), full publisher article inspected, *Journal of Cerebral Blood Flow & Metabolism* 21(10), 1133–1145. The analysis uses anatomical and physiological data primarily for **rodent grey matter**, with human-brain differences discussed separately. Its model estimates major contributions from action potentials and postsynaptic glutamatergic effects; the abstract reports predicted shares of 47% and 34%, respectively, and a smaller resting-potential component (13%). The paper explicitly lists uncertainties in synaptic conductance, mean firing rate, axonal branch-point failure and fine-axon scaling; it does not estimate the energy cost of a human thought or useful inference.
+
+R12, Raichle & Gusnard (2002), full PNAS commentary PDF inspected, pp. 10237–10239. The article reports the brain's high baseline metabolic demand and relative constancy across widely varying mental/motor activity (p. 10237); it notes that local task-related blood-flow changes are often 5% or less and that oxygen-consumption changes are smaller than blood-flow changes (pp. 10238–10239). It is a commentary on neuroenergetic findings, not a direct per-task energy meter.
+
+R24, Shenhav, Botvinick & Cohen (2013), full *Neuron* review PDF inspected, pp. 217–228. The abstract and opening pages define expected value of control as integrating expected payoff, required control investment and cognitive-effort cost (pp. 217–218, PDF lines 8–19). It is a normative computational theory of control allocation, not evidence that subjective effort equals physical energy or that the treatise's additive coefficients are biologically identified.
+
+R13 remains a review-level comparator (accessible preprint full text and final PubMed abstract inspected in the earlier audit); R14 remains a review of subjective effort/effort allocation, not a physical conversion law. R60 and R62 provide local/region-specific metabolic evidence; R61 and R63 are abstract-level physiological comparators; R69 is abstract-level. None validates the treatise's additive decomposition:
+
+\[
+P_{\mathrm{brain}}(t)=P_{\mathrm{neural}}(t)+P_{\mathrm{maintenance}}(t)+P_{\mathrm{autonomic}}(t)+P_{\mathrm{metabolic}}(t).
+\]
+
+**Disposition:** S18-EQ01 is a conceptual energy-budget decomposition only. Its components may overlap and are not independently measured or shown to be additive by the cited sources. S18-C01 is supported only at the broad level that brain function has substantial baseline and task-related metabolic demands. Subjective effort, cognitive-control demand, neural activity and physical energy expenditure remain distinct constructs.
+
+### 111.4 §19 — state-conditioned action score and softmax (S19-M01/M02)
+
+The score is now explicitly state-conditioned:
+
+\[
+Q(a\mid s)=R(a\mid s)+L(a\mid s)-\rho E(a\mid s)-\gamma C_{\mathrm{ctrl}}(a\mid s)-\delta D(a\mid s)-\kappa K(a\mid s).
+\]
+
+This is a candidate utility model. Its components require compatible units/normalization and a common decision horizon; coefficients are system-specific and have not been estimated. Physical energy expenditure must not be inferred from subjective effort or substituted for cognitive-control cost.
+
+R24 supports the neighbouring idea that control allocation can be evaluated using expected payoff, control investment and cognitive-effort cost; it does not validate the exact six-term score or its coefficients. R15 supports model-based/model-free cost-sensitive arbitration in a specific two-step task; it does not establish a universal action-cost function.
+
+R73, Train (2009), *Discrete Choice Methods with Simulation*, Chapter 3 “Logit,” was inspected in full from the author's chapter PDF. The multinomial-logit probability is derived in §3.1, Eq. (3.6), printed pp. 36–37 (PDF lines 91–120). The iid type-I extreme-value error assumption is specified at printed pp. 34–35 (PDF lines 14–23). The scale parameter is explained in §3.2, printed pp. 40–41 (PDF lines 249–293). The limitations, including substitution/IIA and repeated-choice assumptions, are discussed in §3.3, printed pp. 42–43 (PDF lines 334–346).
+
+**Disposition:** S19-M02 is a standard multinomial-logit/softmax specification under its assumptions. \(\beta\) is a choice-sensitivity/utility-scale parameter, not thermodynamic temperature. The iid extreme-value random-utility derivation entails IIA; correlated unobserved utilities may require nested, mixed, probit or other models. No source establishes that human brains universally implement softmax or that this score predicts any particular individual's choices.
+
+The ROOT tracker now writes its local score as \(Q(a\mid s_t)\), with the current ROOT rating vector as the context; it does not estimate coefficients. This is a notation alignment, not an operational validation.
+
+### 111.5 §20 — local action-advantage proposition (S20-P03)
+
+The proposition is an algebraic consequence of the local score definition. If, at a fixed state \(s\), the immediate-value advantage net of cost exceeds the long-term-value disadvantage, then \(Q(a_h\mid s)>Q(a_f\mid s)\). Under a softmax selector using that same score and \(\beta>0\), the higher-scoring action has higher probability; under greedy selection it is chosen only if it maximizes over the full feasible action set.
+
+The current text now states that the proposition's immediate-value/cost decomposition is local and must be mapped explicitly to §19's detailed terms in any application.
+
+**Disposition:** formally valid under the stated score and selector assumptions. It is not evidence that a particular distraction will defeat a particular task, nor a causal explanation of an individual's behaviour.
+
+### 111.6 §21 — cached-habit computational account (S21-C01/EQ01)
+
+The current text now presents cached-policy representation as **one computational account**, not a universal definition of habit. The inequality \(C_h<C_m\) is explicitly a task/context-specific modelling assumption. It is not established as a universal empirical law.
+
+R16 and R18 provide computational/review context for model-free and model-based learning; R19 and R53 show that habit-like, model-based and goal-directed laboratory measures do not necessarily converge on a single latent construct. R28–R30 support selected context/repetition/automaticity effects but do not validate a universal cached-policy mechanism.
+
+**Disposition:** retain as a conditional computational hypothesis. A cached response can be efficient while the context remains stable and can become maladaptive if the objective or context changes. No universal cost inequality or distinct human habit mechanism is established.
+
+### 111.7 Coverage accounting
+
+| Stable claim | Status | Evidence and limitation |
+|---|---|---|
+| S16-C01/C02 | Examined; proposed bridge only | No physical-to-cognitive derivation or universal mapping. |
+| S17-EQ01 | Examined; standard first-law identity | R70 §3.3; sign convention explicitly translated. |
+| S17-EQ02 | Examined; conditional Landauer bound | R09 original pp. 185–187; R10 abstract only. |
+| S18-C01 | Examined; broad neuroenergetic claim | R11 full article; R12 full commentary; no per-thought energy measure. |
+| S18-EQ01 | Examined; conceptual decomposition | Not validated as additive or independently measurable. |
+| S19-M01 | Examined; candidate state-conditioned utility score | No estimated coefficients or validation. |
+| S19-M02 | Examined; standard logit under assumptions | R73 Chapter 3 §§3.1–3.3; IIA and error-distribution assumptions explicit. |
+| S20-P03 | Examined; valid conditional algebra | No empirical/causal validation. |
+| S21-C01/EQ01 | Examined; conditional cached-policy hypothesis | No universal \(C_h<C_m\) result or single habit mechanism. |
+
+**Source-access ledger:** R09 original full text; R10 publisher abstract only; R11 full publisher article; R12 full PNAS PDF; R13 accessible preprint full text and final abstract; R14 accessible review manuscript; R15 full article; R24 full author-hosted *Neuron* review PDF; R60/R62 full primary articles; R61/R63/R69 abstract-level; R70 OpenStax §3.3; R73 full author-hosted Chapter 3 PDF. Exact access levels are preserved; no source is described as proving the complete physical–cognitive bridge.
+
+**Batch accounting:** six sections examined; nine stable claims examined; Landauer assumptions clarified; state-conditioning added to action score and local proposition; softmax assumptions and IIA made explicit; habit caching and cost inequality qualified. No physical-to-cognitive bridge, per-thought energy conversion, universal habit mechanism or human choice law was validated. No experiments A–F, preregistration, recruitment, intervention or tracker-scale change occurred.
+
+**Next:** continue sentence-level verification across the remaining physical–cognitive bridge and recursive-intelligence claims, then revisit the unresolved mathematical dependencies. Full 95-section coverage, rendered inspection and independent external review remain open.
