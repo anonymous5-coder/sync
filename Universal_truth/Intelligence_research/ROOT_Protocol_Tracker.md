@@ -11,6 +11,8 @@
 
 This tracker combines baseline diagnosis and the first obstruction/override experiment in one continuous workflow. The same logs and metrics are used in both periods so that the comparison is interpretable.
 
+Recognise, Obstruct, Override, Train, Correct, Optimise, and Learn are operational workflow stages. They are not components of the rating vector and do not define a mathematical state-transition law.
+
 ```text
 PLAN BLOCK
    |
@@ -117,7 +119,7 @@ $$
 
 The source's feedback model is a conceptual reference, not a fitted or computable update from the ordinal ROOT ratings. The tracker does not define a projection from $s_t$ to the controller deviation state $x_t$:
 
-The source's feedback model is:
+The candidate closed-loop model is:
 
 $$
 x_{t+1}=(A_{\mathrm{plant}}-B_{\mathrm{plant}}K_{\mathrm{fb}})x_t+w_t
