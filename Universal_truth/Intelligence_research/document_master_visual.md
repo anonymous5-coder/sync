@@ -697,7 +697,7 @@ P(a\mid s)=
 {\sum_{b\in\mathcal{A}(s)}\exp(\beta Q(b\mid s))}
 $$
 
-where $s$ is the current state, $\mathcal{A}(s)$ is the feasible action set, and $\beta>0$ controls the sharpness of selection. The parameter $\beta$ has inverse-score units if $Q$ is dimensional; a dimensionless implementation requires a normalized score. The distribution assumes a nonempty feasible action set.
+where $s$ is the current state, $\mathcal{A}(s)$ is the feasible action set, and $\beta>0$ controls the sharpness of selection. The parameter $\beta$ has inverse-score units if $Q$ is dimensional; a dimensionless implementation requires a normalized score. The distribution assumes a nonempty feasible action set. It is a softmax/logit specification; deriving it from a random-utility model would additionally require explicit assumptions about the distribution and independence of the utility-error terms, which are not specified here.
 
 As $\beta$ increases, higher-scoring actions dominate more strongly. As $\beta$ decreases, selection becomes more stochastic.
 
