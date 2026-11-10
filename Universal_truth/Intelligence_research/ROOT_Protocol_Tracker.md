@@ -83,24 +83,24 @@ The source action score is the same candidate state-conditioned score $Q(a\mid s
 
 
 
-$$
-Q(a)=R(a)+L(a)-\rho E(a)-\gamma C_{\mathrm{ctrl}}(a)
--\delta D(a)-\kappa K(a)
-$$
+$
+Q(a\mid s_t)=R(a\mid s_t)+L(a\mid s_t)-\rho E(a\mid s_t)-\gamma C_{\mathrm{ctrl}}(a\mid s_t)
+-\delta D(a\mid s_t)-\kappa K(a\mid s_t)
+$
 
 | Term | Practical diagnostic question |
 |---|---|
-| $R(a)$ | What immediate reward or relief did the competing action provide? |
-| $L(a)$ | What delayed value or consequence mattered? |
-| $E(a)$ | Was the intended action physically demanding? |
-| $C_{\mathrm{ctrl}}(a)$ | Did it require sustained deliberation or inhibition? |
-| $D(a)$ | Was the next step uncertain or the reward delayed? |
-| $K(a)$ | How much setup, initiation, or switching was required? |
+| $R(a\mid s_t)$ | What immediate reward or relief did the competing action provide? |
+| $L(a\mid s_t)$ | What delayed value or consequence mattered? |
+| $E(a\mid s_t)$ | Was the intended action physically demanding? |
+| $C_{\mathrm{ctrl}}(a\mid s_t)$ | Did it require sustained deliberation or inhibition? |
+| $D(a\mid s_t)$ | Was the next step uncertain or the reward delayed? |
+| $K(a\mid s_t)$ | How much setup, initiation, or switching was required? |
 
 Track the relative score conceptually:
 
 $$
-\Delta Q_t=Q(a_{\mathrm{goal}})-Q(a_{\mathrm{habit}})
+\Delta Q_t=Q(a_{\mathrm{goal}}\mid s_t)-Q(a_{\mathrm{habit}}\mid s_t)
 $$
 
 The intervention seeks to move the relevant situation toward:
