@@ -283,7 +283,7 @@ These cases must not be conflated.
 
 ## 7. Information-theoretic formulation
 
-Let $W$ denote a relevant world-state and $M$ the system's internal representation. The uncertainty about the world before receiving an observation is:
+Let $W$ denote a relevant world-state and $M$ the system's internal representation. All quantities below are defined under a specified joint distribution over $W$, $M$, and $O$. The uncertainty about the world before receiving an observation is:
 
 $$
 H(W\mid M)
@@ -295,21 +295,21 @@ $$
 H(W\mid M,O)
 $$
 
-The information gained from the observation, relative to the existing model, is:
+The expected information gain from observing $O$, conditional on the existing representation $M$, is:
 
 $$
 I(W;O\mid M)=H(W\mid M)-H(W\mid M,O)
 $$
 
-If this conditional mutual information is positive, the observation reduces uncertainty about the relevant world-state.
+For discrete variables, this entropy-difference identity holds directly. For continuous variables, the differential-entropy terms must be well-defined; more generally, conditional mutual information is an expected Kullback–Leibler divergence between the conditional joint distribution and the product of its conditional marginals.
 
-But an observation need not always reduce uncertainty. It can be irrelevant, noisy, misleading, or ambiguous. The formal expression does not guarantee that every incoming stimulus is useful.
+A positive $I(W;O\mid M)$ represents an expected reduction in uncertainty about $W$, averaged over observations under the specified joint distribution. It does not guarantee that every realized observation reduces posterior entropy: a particular observation may be irrelevant, noisy, misleading, or may increase uncertainty.
 
 ### Proposition 1 — Context can be informative without being sufficient
 
 An observation can reduce uncertainty about one variable while leaving other variables undetermined.
 
-**Derivation:** Mutual information is defined relative to the joint distribution of specified variables. A positive $I(W;O\mid M)$ establishes a reduction in conditional uncertainty about $W$, not complete knowledge of all properties of the world. Therefore, contextual acquisition can be partial.
+**Derivation:** Conditional mutual information is defined relative to the joint distribution of specified variables. A positive $I(W;O\mid M)$ establishes an expected reduction in conditional uncertainty about $W$, not complete knowledge of all properties of the world or a guarantee about each realized observation. Therefore, contextual acquisition can be partial.
 
 ### Proposition 2 — No new observation does not imply no computation
 
@@ -399,7 +399,7 @@ The system does not need to observe the particular event described by $p$ if the
 
 ### Theorem 1 — An entailed proposition can be derived before direct observation
 
-**Statement:** Let $K$ be a knowledge base with at least one model under a specified semantics. If $K\models p$ and the chosen proof calculus is complete for that semantics, then $K\vdash p$. The derivation can be obtained without a new direct observation of the event described by $p$, provided the system can execute the required proof search with sufficient computational resources.
+**Statement:** Let $K$ be a knowledge base with at least one model under a specified semantics. If $K\models p$ and the chosen proof calculus is sound and complete for that semantics, then $K\vdash p$. If the calculus is effectively enumerable, a fair proof-search procedure will eventually find a derivation, although no practical time or resource bound follows. The derivation does not require a new direct observation of the event described by $p$.
 
 **Proof:**
 
@@ -482,7 +482,7 @@ $$
 I(W;Z)>0
 $$
 
-may hold when the system's architecture or memory is statistically dependent on world structure.
+may hold when the system's architecture or memory is statistically dependent on world structure. The joint distribution must specify the population of environments and systems, or the relevant training/development histories, over which $W$ and $Z$ vary. If architecture $A$ is fixed for the system under study, condition on $A$; a constant architecture alone does not carry mutual information, and any remaining dependence must arise through varying memory/parameters or a defined ensemble of architectures.
 
 This does not mean the system contains a complete copy of reality. It means that its internal state may carry information correlated with features of the world. The statement $I(W;Z)>0$ is conditional on a specified joint distribution; it is not a universal fact about every architecture. Positive mutual information alone does not guarantee that the information is accessible, task-relevant, stable out of sample or sufficient for accurate prediction.
 
@@ -496,7 +496,7 @@ The discovery is not magic. The model encoded constraints that the world also ob
 
 The prediction is powerful precisely because it risks failure: the world could have contradicted the model.
 
-**Claim-linked evidence register records:** R01, R05, R21, R22. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R01, R05, R21, R22. R21 supports the Shannon conditional-mutual-information identity; R22 is an algorithmic-complexity comparator, not a source for Shannon mutual information. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 14. Bayesian form of Out of Box Theory
@@ -505,7 +505,9 @@ Let $H$ be a hypothesis and $D$ the available evidence. A system forms:
 
 $$
 P(H\mid D)=\frac{P(D\mid H)P(H)}{P(D)}
-$$
+$
+
+This update assumes $P(D)>0$. The predictive sum below is over a discrete, mutually exclusive and exhaustive hypothesis/model partition; for a continuous parameter or model space, replace the sum with an integral over the posterior distribution.
 
 A model can then predict a future or unobserved observation $Y$:
 
