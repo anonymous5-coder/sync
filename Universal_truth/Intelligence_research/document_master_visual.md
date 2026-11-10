@@ -2039,7 +2039,7 @@ In a linear model without disturbances, stability requires the eigenvalues of $A
 
 Human behaviour is nonlinear, partially observed, and state-dependent. The linear model is an approximation useful for understanding feedback, not a literal complete brain model.
 
-**Claim-linked evidence register records:** R40. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R40. This source supplies general control-theory background only; it does not provide empirical evidence for a ROOT or human behavioural stability claim. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 61. Lyapunov-style formulation
@@ -2145,7 +2145,7 @@ They may involve different triggers and reinforcers.
 
 The table contains hypotheses, not diagnoses.
 
-**Claim-linked evidence register records:** R27. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R27. This source provides measurement/assessment standards context; it does not validate this behaviour taxonomy or support any diagnosis. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 66. Sexual attraction and masturbation
@@ -2164,7 +2164,7 @@ Compulsive Sexual Behaviour Disorder is a clinical category involving persistent
 
 The ROOT protocol can be used for ordinary unwanted patterns, but persistent, distressing, or impairing behaviour merits professional assessment. The goal is not to wage war against biology; it is to establish a workable relationship between impulses, values, and chosen action.
 
-**Claim-linked evidence register records:** R45, R46, R53, R57. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R45, R46. WHO ICD-11 CDDR and WFSBP guidance support the clinical boundary and diagnostic criteria; they do not diagnose an individual or imply that ordinary sexual desire is pathological. R53 and R57 are not direct sources for this clinical claim and are not cited here. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 67. Sleep is a control-system context variable
@@ -2207,7 +2207,9 @@ This is an engineering intervention: make the desired transition easier to execu
 **Claim-linked evidence register records:** R15, R24, R31, R32, R48, R65, R66, R68. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
-## 69. A personal experimental protocol
+## 69. A personal self-monitoring and intervention-planning protocol
+
+This is a descriptive personal planning template, not a randomized N-of-1 trial or a causal experiment. The fixed phase order, sequential interventions and absence of withdrawal, randomization, counterbalancing or replication do not isolate causal effects. The suggested durations are practical placeholders, not validated doses.
 
 ### Phase 1 — Baseline (7 days)
 
@@ -2262,7 +2264,7 @@ The objective is measured progress, not perfect compliance.
 
 ---
 
-**Claim-linked evidence register records:** R27, R31, R34, R38, R41, R42, R47, R48, R50, R65, R68. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R27, R31, R34, R38, R41, R42, R47, R48, R50, R65, R68. These sources inform measurement, intervention-component and study-design considerations; they do not make this fixed-phase self-monitoring template a causal N-of-1 or validated single-case experiment. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 # PART XIII — THE UNIFIED MASTER FRAMEWORK
 
@@ -2349,7 +2351,7 @@ This is an organizing diagram for the proposed architecture, not a validated nec
 
 Therefore, the two theories describe complementary operations: context acquisition and internal consequence generation.
 
-**Claim-linked evidence register records:** R01, R02, R03, R05, R21, R22. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R01, R02, R03, R05, R21, R22. These sources provide information-theoretic, logical and underdetermination context; the compatibility result follows from the stipulated definitions and proof assumptions, not from empirical evidence in these references. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 ## 74. Conditional proposition — Feedback can alter goal-action selection under specified assumptions
 
@@ -2367,7 +2369,7 @@ The result supports a conditional action-selection model. It does not establish 
 
 ---
 
-**Claim-linked evidence register records:** R24. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R24, R73. R73 supplies the discrete-choice/logit model context and R24 the expected-value-of-control comparator. The monotonic probability result follows from the stated fixed-set softmax assumptions; neither source establishes that ROOT causes the required score change. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 # PART XIV — EXPERIMENTAL PROGRAMME AND FALSIFIABILITY
 
