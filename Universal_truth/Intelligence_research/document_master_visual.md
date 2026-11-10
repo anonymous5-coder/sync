@@ -1210,13 +1210,13 @@ The five questions yield the following conclusions:
 
 ## 34. Research question B1: How are cue-response associations learned?
 
-A cue-response association can be learned when a cue reliably predicts an outcome or when an action following the cue produces a consequential result.
+At least three processes should be distinguished: (1) Pavlovian cue–outcome learning, in which a cue predicts an outcome without requiring an action; (2) instrumental action–outcome learning, in which an action produces a consequential outcome; and (3) stimulus–response habit learning, in which a cue or state comes to elicit a response with reduced sensitivity to current outcome value. These processes can interact but are not interchangeable. A cue predicting an outcome is not, by itself, evidence that the cue has acquired control over an action.
 
 Let $s_t$ include the cue and other state variables, $a_t$ be the selected action, $r_{t+1}$ be the outcome received after that action, and $Q_{\mathrm{RL},t}(s_t,a_t)$ be the estimated action value.
 
-A candidate off-policy action-value update is the Q-learning rule specified in §22, with the cue included in the state representation. It uses the outcome received after the action and the estimated value of the best feasible next action. It is not interchangeable with a generic scalar prediction-error expression: the state, action, reward timing and bootstrap target must be defined consistently.
+A candidate off-policy action-value update is the Q-learning rule specified in §22, with the cue included in the state representation. It models instrumental action-value learning: it uses the outcome received after the action and the estimated value of the best feasible next action. It does not, by itself, model Pavlovian cue–outcome learning or establish stimulus–response habit formation. The state, action, reward timing and bootstrap target must be defined consistently.
 
-Repeated cue-action-outcome sequences may increase the estimated value or readiness of a policy under an appropriate learning rule. Whether this produces a human habit, and how it interacts with goal-directed control, requires a separate behavioural and neural model.
+Repeated instrumental action–outcome sequences may update action values under a specified learning rule. Whether this produces a human stimulus–response habit, and how it interacts with goal-directed control, requires a separate behavioural and neural model.
 
 A more complete model must include:
 
@@ -1231,7 +1231,7 @@ A more complete model must include:
 - the history of reinforcement;
 - whether the outcome is valued or merely relieving.
 
-The simple update equation is a useful starting abstraction, not a complete neuronal mechanism.
+The referenced Q-learning update is a useful computational abstraction for instrumental action-value learning, not a complete neuronal mechanism or a general model of all three processes.
 
 **Claim-linked evidence register records:** R16, R18, R19, R23, R26, R28, R30, R53. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
