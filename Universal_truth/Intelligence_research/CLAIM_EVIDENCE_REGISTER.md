@@ -4676,3 +4676,51 @@ The current manuscript's R-code pointers were previously audited for identifier 
 ### 88.6 DOI and identifier-link normalization
 
 A final locator scan found that R13 and R59 contained valid DOI/PMID/PMCID strings but lacked clickable canonical URLs in their bibliographic records. Added DOI resolver and PubMed/PMC links for R13 (Kondrakiewicz & Nawrocka, 2025) and R59 (McGrew, 2023). This is locator normalization only: it does not upgrade source access, evidence strength or claim disposition.
+
+
+## 89. Citation-to-register reconciliation — treatise §§1–15, current edition
+
+**Current treatise snapshot:** `document_master_visual.md`, blob `126b046185f492f64d275539271bb9590336c1e6`, 2,806 lines, 95 numbered sections. This entry reconciles the opening 15 sections against the stable claim records in §§2–4 and the canonical source records R01–R22. It is a targeted first-batch reconciliation, not completion of the full 95-section audit.
+
+### 89.1 §4 — Axiom source scope (S04-A01–S04-A08)
+
+The former end-of-section pointer block listed R09, R10, R60, R61 and R62 without specifying which parts of the eight-item list those sources could support. This could be read as applying empirical/physical evidence to every axiom, including adaptive selection and recursive accessibility.
+
+**Correction:** the treatise now labels these as *physical-implementation references of limited scope* and maps them only to the physical-computation/neural-energy constraints relevant to Axioms 1 and 5. It explicitly states that they do not establish the entire axiom list, particularly Axioms 6 and 7. The register's prior dispositions remain unchanged: Axioms 1 and 5 are physical premises/constraints; Axiom 6 is conditional on an adaptive agent/controller; Axiom 7 remains a capability hypothesis whose distinct mechanism is unspecified. No source is claimed to validate the axiom set as a formal system.
+
+### 89.2 §7 — Remove unrelated source pointers (S07-EQ01, S07-C01, S07-P01, S07-P02)
+
+The previous block listed R01, R05, R21, R22 and R03. R03 concerns scientific underdetermination and is mapped to §11; R22 concerns Kolmogorov complexity and is mapped to §13. Neither is a direct source for the conditional-mutual-information identity or the two propositions in §7.
+
+**Correction:** the §7 block now lists R01, R05 and R21 only. R01 provides the foundational statistical-information framework; R21 is the information-theory text; R05 addresses statistical inference and model dependence. The equation remains a standard identity conditional on a specified joint distribution, not a claim that every realized observation reduces uncertainty or that mutual information equals truth. The source register does not claim an exact print-page pinpoint for the relevant R21 material; that limitation remains open.
+
+### 89.3 §9 — Add explicit mapping for the model-theoretic lead-in (S09-C01, S09-C02)
+
+The opening question and conditional answer in §9 introduce the possibility of deriving unobserved propositions and the limit imposed by incompatible models. The claim register already mapped the deductive boundary to R02 and R05, but the section had no explicit register pointer.
+
+**Correction:** added a bounded pointer to R02 and R05. R02 supports the semantic/proof-theoretic distinction; R05 supports the distinction between deductive consequence and ampliative statistical inference. The formal countermodel argument is presented in the text; neither reference is evidence that any particular real-world premise set is true.
+
+### 89.4 §12 — Add explicit mapping for the six heterogeneous inference modes (S12-C01, S12-C02)
+
+The claim register identifies R02, R04 and R05 as relevant to the distinction among deduction, Bayesian updating and statistical inference. The treatise's six listed modes were previously presented without a section-level source pointer.
+
+**Correction:** added a pointer to R02, R04 and R05, with an explicit scope statement: these references distinguish epistemic/inferential categories but do not establish one mechanism unifying all six modes. The list remains a heterogeneous taxonomy—combinatorial novelty, structural inference, model-based prediction, abduction, mathematical discovery and empirical anticipation—not a single validated cognitive process.
+
+### 89.5 Sections retained without additional source pointers
+
+- §§1–2: research questions, naming conventions and methodological boundaries; no external empirical result is asserted.
+- §3: generic state/context inventory and placeholder update operators; these are schematic definitions, not identified empirical dynamics.
+- §5: framework definitions; their adequacy and operationalization remain under review, but citations would not validate stipulative definitions.
+- §6: conceptual statement of Space or Null Theory; its distinct contribution remains unestablished, and no source is represented as validating it.
+- §8: R06–R08 pointers remain aligned with the bounded prenatal/developmental claims; the sources do not support adult-like neonatal reasoning or a blank-slate/fully specified innate-knowledge account.
+- §10: R02/R05 remain aligned with the formal epistemic model and theorem; the theorem's proof is checked formally, while sources do not validate its premises or computational feasibility.
+- §11: R03/R05 remain aligned with the logical/scientific underdetermination distinction.
+- §13: R01/R05/R21/R22 remain as the section's information-theory, statistical-model and algorithmic-complexity context; positive mutual information remains conditional and does not prove semantic knowledge or useful prediction.
+- §14: R04/R05 remain aligned with the conditional Bayesian/statistical formulation; no literal neural Bayesian computation is inferred.
+- §15: S15-F01 remains an editorial heuristic, not a validated universal epistemic scale. Its mixed dimensions are already recorded as a taxonomy-crosswalk dependency; no source pointer can make the ladder a single monotonic measure.
+
+### 89.6 Reconciliation result and next dependency
+
+The current opening-section pointer changes are deliberately narrow: one source-scope clarification in §4, removal of two irrelevant identifiers from §7, and new explicit pointer blocks in §§9 and 12. The pointer count therefore increases by two; no blanket citation insertion was applied to definitions, research questions or purely schematic models.
+
+No claim disposition was upgraded. R03 and R22 remain in their relevant later sections; the changes do not alter the canonical source inventory or historical claim IDs. The remaining opening-batch dependencies are the epistemic-taxonomy crosswalk (§§1, 2 and 15), exact source pinpoint closure where previously open, and full sentence-level source adequacy review. Continue with §§16–27 next, then reconcile all subsequent section batches against the current register and preserve the A–F authorization boundary.
