@@ -6068,3 +6068,111 @@ Changes include:
 **Batch accounting:** five opening sections examined; eight axioms and eight definitions classified; five source records' scope preserved; three groups of wording clarifications made. The macro state remains schematic and not executable. No experiments A–F, preregistration, recruitment, intervention or tracker edit occurred.
 
 **Next:** proceed with the typed architecture and dependency audit: reconcile \(\mathcal S_t\), behavioural state, policy parameters, controller state and ROOT operational state without assuming equivalence. The full 95-section sentence-level audit, taxonomy crosswalk, mathematical dependency closure, rendered inspection and qualified independent external review remain open.
+
+
+## 110. Typed architecture and cross-layer interface audit — §§3, 19, 22, 26, 39, 52, 60, 71, 95 and ROOT tracker (10 November 2026)
+
+**Audit scope.** Reconciled the macro system tuple, RL state, reduced behavioural predictor vector, ROOT operational ratings, controller deviation state, policy/action scores, resource/reward variables, and the §71/§95 architecture schematics. The purpose is to establish what can be typed from the current text and to document unresolved mappings without inventing a unified transition law.
+
+### 110.1 Distinct state representations
+
+| Representation | Current definition and role | Type/status | What is not established |
+|---|---|---|---|
+| Macro state \(\mathcal S_t\), §3 | \((A,M_t,X_t,E_t,\Pi_t,G_t,\Theta_t)\) | Conceptual system/context inventory | Component spaces, domains/codomains, observability, transition functions, clock and Markov sufficiency. |
+| RL state \(s_t^{\mathrm{RL}}\), §22 | State representation before action, used by \(Q_{\mathrm{RL}}(s,a)\) | Algorithmic state input | Whether it is Markov-sufficient for a human behavioural process; no map to other state representations. |
+| Behavioural predictor vector \(b_t\), §39 | \((g_t,c_t,u_t,f_t,z_t,h_t)\), six candidate predictors in a logistic model | Reduced statistical predictor vector | Measurement model, coefficient estimates, coding for ordinal inputs, omitted-variable adequacy and relation to ROOT ratings. |
+| ROOT operational vector \(s_t^{\mathrm{ROOT}}\), §52/tracker | \((c_t,u_t,f_t,d_t,g_t,h_t,e_t)\), seven ordinal 0–5 self-ratings | Personal operational measurement convention | Reliability, validity, equal spacing, latent-state status and Markov sufficiency. The tracker uses local shorthand \(s_t\). |
+| Controller deviation \(x_t\), §60/tracker | Deviation from an intended behavioural target in a candidate state-space model | Controller error state | Target vector, units, observation map from behavioural/ROOT measures, sampling clock and fitted plant matrices. It is not the macro internal state \(X_t\). |
+
+**Partial crosswalk only:** §39's task-demand variable \(z_t\) corresponds approximately to tracker \(d_t\); ROOT adds accessibility \(e_t\), absent from the six-variable predictor vector. The ROOT \(h_t\) rating is not identified with latent habit-strength \(H_t\) or \(H_{\mathrm{alt},t}\). ROOT \(g_t\) is goal activation, not the full goal/constraint structure \(G_t\); ROOT \(e_t\) is accessibility, not the environment \(E_t\). ROOT \(f_t\) is perceived fatigue, not objective physiological load. These are not interchangeable measures.
+
+The same symbol \(s_t\) previously denoted different vectors in §§22, 39 and 52/tracker. The treatise now uses \(s_t^{\mathrm{RL}}\), \(b_t\) and \(s_t^{\mathrm{ROOT}}\), respectively. The tracker keeps its local \(s_t\) shorthand but explicitly identifies it as the ROOT operational rating vector.
+
+### 110.2 Policy, score and parameter interfaces
+
+| Quantity | Current role | Required separation |
+|---|---|---|
+| \(Q(a)\), §19 and tracker | Candidate action score combining immediate/delayed value and weighted costs | Not the RL action-value function. Tracker formula matches §19; coefficients are not estimated. |
+| \(Q_{\mathrm{RL}}(s_t^{\mathrm{RL}},a_t)\), §22 | Q-learning action-value estimate | Algorithmic update, not a neural or behavioural law. The current §22 equation is the standard off-policy Q-learning form with explicit reward timing, feasible next-action set and terminal bootstrap convention. |
+| \(S_{\mathrm{loc}}(\Pi)\), §26 | Stipulated scalar policy-level local score for a conditional softmax result | Aggregation from action-level \(Q(a)\) to policy-level score remains unspecified. |
+| \(J(\pi)\), §49 | Trajectory/objective functional for a policy | No mapping to \(Q(a)\), \(Q_{\mathrm{RL}}\), or \(S_{\mathrm{loc}}\) is defined. |
+| \(\Pi_t\), §§3/71/95 | Policy distribution or policy object | Domain, codomain, feasible-policy set, parameterization and update rule remain unspecified at the macro level. |
+| \(\Theta_t\), §3 | Generic parameter vector | No mapping to logistic coefficients, action-score weights, RL learning parameters or controller gain is specified. |
+
+The tracker explicitly states that its \(Q(a)\) is the candidate score from §19 and not \(Q_{\mathrm{RL}}\) from §22. The controller input in §60 was renamed from \(u_t\) to \(v_t\) to avoid collision with ROOT's \(u_t\) urge rating.
+
+### 110.3 §71 versus §95 — unresolved state/policy interface
+
+The current macro tuple in §3 already contains both \(G_t\) and \(\Pi_t\).
+
+- **§71:** \(\mathcal S_{t+1}=\mathcal F(\mathcal S_t,O_t,\mathcal I_t,G_t,R_t,\mathcal R_t)\). It supplies \(G_t\) separately, but does not list \(\Pi_t\) separately.
+- **§95:** \(\mathcal S_{t+1}=F(\mathcal S_t,O_t,\mathcal I_t,G_t,\Pi_t,R_t,\mathcal R_t)\). It supplies both \(G_t\) and \(\Pi_t\) separately.
+
+There are at least three possible interpretations:
+
+1. **State-component interpretation:** \(G_t\) and \(\Pi_t\) are already contained in \(\mathcal S_t\); separate arguments are redundant and should eventually be removed.
+2. **Exogenous-input interpretation:** the state contains stored goal/policy information, while the separately supplied terms are current external goal/policy signals or snapshots.
+3. **Partially externalized architecture interpretation:** the macro tuple in §3 should not contain one or both variables, because they are supplied as separate inputs to the transition function.
+
+The text does not specify which interpretation is intended. No choice is made in this audit.
+
+Additional unresolved interfaces:
+
+- \(\mathcal I_t\) could denote an inference operation, its output, or an intermediate state; its domain/codomain and timing are unspecified.
+- \(R_t\) is called reward/feedback in §§71/95, while §42 uses \(R_t\) for successful rehearsal and the tracker uses \(r_t\) for immediate episode consequence. These must be separately typed; no equivalence is assumed.
+- \(\mathcal R_t\) is a resource input, but its relation to the §31 resource vector and to action-cost terms is not specified.
+- The operator composition in §71 has unresolved ordering/concurrency semantics. Under ordinary right-to-left composition, the written order applies learning first; this may not match the prose's intended sequence. If operations are concurrent/coupled, ordinary serial composition is not an adequate specification.
+- No shared clock is defined across macro transition steps, RL decision steps, behavioural observations, ROOT daily/focus-block/episode records and controller updates.
+
+**Disposition:** §§71 and 95 remain architectural dependency maps, not executable transition laws. The current notes in both sections now expose the duplicated/unreconciled \(G_t\) and \(\Pi_t\) inputs. No unified equation or state mapping is selected.
+
+### 110.4 Controller and ROOT operational-state boundary
+
+The ROOT tracker records seven ordinal self-ratings and seven workflow stages. These are different objects:
+
+- The seven ratings form a personal measurement vector, not a validated or Markov-sufficient state.
+- Recognise → Obstruct → Override → Train → Correct → Optimise → Learn are workflow stages, not state components or a mathematical transition law.
+- The tracker does not define a projection from its ordinal vector to the controller deviation \(x_t\).
+- The Lyapunov-style proxy remains a personal measurement convention, not a validated Lyapunov function or stability certificate.
+- The tracker has not been changed in its scales, daily/episode templates, experiment design or success criteria; only its notation and interface disclaimers were clarified.
+
+The six-variable logistic model in §39 treats its predictor values numerically. The ROOT ratings are ordinal and not assumed equally spaced; any fit must compare justified ordinal/categorical/monotone/nonlinear encodings and account for repeated observations and within-person dependence. No data or fitted coefficients are available, and no causal inference follows from the proposed regression.
+
+### 110.5 Current §22 algorithmic update — historical register row superseded
+
+The earlier S22-EQ01 register row described a hybrid TD-like expression mixing an action-value term indexed by cue/action with a state-value bootstrap term. That historical diagnosis is preserved, but it no longer describes the current treatise. Current §22 contains the standard off-policy Q-learning update using \(Q_{\mathrm{RL}}(s_t^{\mathrm{RL}},a_t)\), next-state maximum over feasible actions, explicit reward timing and a zero terminal bootstrap. It states the Markov-state, discount, learning-rate and convergence limitations.
+
+This is a computational algorithmic model. It does not validate human cue learning, habit formation or a neural implementation. §34's reference to Q-learning is now accurate as a reference to this current §22 equation, but it remains limited to instrumental action-value learning.
+
+### 110.6 Controlled notation/interface edits and verification
+
+The live treatise now:
+
+1. Uses \(s_t^{\mathrm{RL}}\) for the Q-learning state, \(b_t\) for the six-variable behavioural predictor vector and \(s_t^{\mathrm{ROOT}}\) for the seven-variable ROOT rating vector.
+2. Uses \(v_t\) for the §60 control intervention, avoiding collision with ROOT's \(u_t\) urge rating.
+3. States the §71/§95 duplication and input mismatch for \(G_t\) and \(\Pi_t\), without selecting a model.
+4. Distinguishes macro state, RL state, behavioural predictors, ROOT ratings and controller error.
+5. States that reward/feedback, rehearsal and episode-consequence symbols are not interchangeable without a mapping.
+
+The ROOT tracker now identifies its local \(s_t\) as the ROOT operational rating vector, states that it is ordinal and not Markov-sufficient, distinguishes its vector from macro/RL/behavioural states, clarifies the \(Q(a)\) versus \(Q_{\mathrm{RL}}\) distinction, and states that no projection to \(x_t\) is defined. Its workflow stages are explicitly distinguished from state transitions.
+
+Treatise current blob: `64d8938f992ece2627aef852544b7b30e98a1c23`. Tracker current blob: `a8f0a3ad0e3d76a44603b24a1304fdf8c3dc0f7d`.
+
+### 110.7 Coverage and deferral accounting
+
+| Interface/dependency | Status | Reason for deferral |
+|---|---|---|
+| Macro state \(\mathcal S_t\) | Examined; schematic only | No typed component spaces or complete transition law. |
+| RL state \(s_t^{\mathrm{RL}}\) | Examined; algorithmic input | Markov sufficiency for human behaviour not established. |
+| Behavioural vector \(b_t\) | Examined; candidate statistical predictors | No measurement model, coefficients or validation; six-feature scope differs from ROOT. |
+| ROOT vector \(s_t^{\mathrm{ROOT}}\) | Examined; personal ordinal convention | No reliability/validity or latent-state map; not full system state. |
+| Controller state \(x_t\) | Examined; conceptual deviation state | No target/error projection from observed behavioural/ROOT measures. |
+| \(Q(a),Q_{\mathrm{RL}},S_{\mathrm{loc}},J(\pi)\) | Distinguished; mappings unresolved | Different domains/roles; no justified aggregation/translation rule. |
+| §71/§95 \(G_t,\Pi_t\) | Mismatch explicitly documented | State-component versus exogenous-input interpretations remain competing. |
+| \(\mathcal I_t,R_t,\mathcal R_t\) | Unresolved types | Domains, codomains, semantics, clocks and update dependencies absent. |
+| Shared time/transition semantics | Unresolved | Macro, RL, behavioural, tracker and controller clocks not synchronized. |
+| ROOT workflow stages | Operational taxonomy only | No validated stage transition relation or executable controller. |
+
+**Batch accounting:** nine treatise sections and the ROOT tracker interface examined; five state representations distinguished; four score/policy/objective quantities distinguished; two macro-transition schematics compared; one stale S22-EQ01 register diagnosis superseded for current state; one controller-input symbol collision removed; one ROOT vector notation collision removed. No unified state-transition model, causal controller or empirical validation was established.
+
+**Next:** resolve any independently definable sub-interface without assuming a global state mapping, then continue exact source-pinpoint audit of the remaining high-impact Space/Null and Out of Box claims. The complete 95-section audit, full taxonomy crosswalk, M1–M18 dependency closure, rendered inspection and qualified independent external review remain open.
