@@ -5273,3 +5273,12 @@ The vector \(\mathcal R=(E,T_m,B,M_c,\varepsilon)\) is a stipulated engineering 
 **Batch accounting:** one treatise section examined; four stable claims examined; one equation directly supported within stated assumptions; one broad empirical/engineering claim supported with qualifications; one stipulated vector examined as a convention; one performance function remains unresolved as a quantitative model. No claim was upgraded to an established cognitive or behavioural result. No experiments A–F were executed; no preregistration, recruitment, intervention or tracker edit occurred.
 
 **Next:** continue the sentence-level audit with the next high-impact untreated claim cluster, retaining exact access and pinpoint boundaries. Mathematical dependency closure, E17/E18 provenance, rendered inspection and qualified independent review remain separate open gates.
+
+
+### 99.7 Controlled wording correction and verification
+
+The exact source comparison identified one wording mismatch in §31's memory bullet: “distinguishable stable states” could imply that the cited theoretical source had established a general count of dynamically stable states for every implementation. Lloyd's inspected preprint instead develops information capacity in terms of accessible physical states/entropy, with reliability and error correction treated as additional constraints. The smallest correction was therefore to replace that phrase with:
+
+> “a finite physical substrate has a finite information capacity under specified physical conditions, determined by its accessible distinguishable states and the reliability required to distinguish them.”
+
+This is a terminology/scope correction, not a new empirical claim. It preserves the original finite-capacity point while aligning the wording with the inspected theoretical treatment. The revised sentence was fetched from the live edition branch after commit 186039dc4e2671b440662606ceabca35e1e42623; treatise blob: c5a1180b10a2e4ffeb3295581fa28d81c638e95f. The surrounding §31 text and source-pointer block were unchanged.
