@@ -5026,3 +5026,70 @@ No pointer block was added. The section is a synthesis of §§45, 47 and 51. It 
 - No tracker edit or experiment occurred. A–F remain unexecuted and unauthorized.
 
 **Next:** continue the citation-to-register reconciliation through §§60–74 and then §§75–95. Preserve the distinction between component evidence and integrated ROOT/Recursive Intelligence claims.
+
+
+## 95. Citation-to-register reconciliation — treatise §§60–74, current edition
+
+**Current treatise snapshot:** `document_master_visual.md`, blob `6413cbe82f9946aa318ca84a2602110421068d3f`, 2,813 lines, 95 numbered sections. This entry reconciles the current wording and source-pointer scope against stable claims S60–S74 and records changes to the personal protocol and final propositions. It is a targeted sentence-level pass over §§60–74, not completion of the remaining 95-section audit.
+
+### 95.1 §§60–62 — Linear feedback, Lyapunov candidate and behavioural hypothesis (S60-M01/C01; S61-M01/EQ01; S62-P05/C01)
+
+R40 is a general discrete-time control/stability teaching source. It supports the mathematical background for the homogeneous LTI Schur condition and Lyapunov-style reasoning; it does not supply an identified human behavioural plant, controller, candidate $V$, disturbance model or empirical ROOT result.
+
+**Correction:** the R40 pointer notes in §§60–62 now explicitly limit its role to control-theory background and state that it is not empirical evidence for human or ROOT behavioural stability. Section 61's candidate weighted sum remains unverified as positive definite or decreasing; section 62 remains a behavioural hypothesis, not a stability theorem. The register's existing formal requirements—identified state/transition, invariant domain, positive-definite measure and quantified deterministic/stochastic drift—remain open.
+
+### 95.2 §§63–64 — Conditional impossibility and self-mastery definition (S63-C01; S64-C01/EQ01)
+
+No source pointers were added. Section 63's scalar counterexample is a mathematical illustration conditional on bounded actuation and unrestricted disturbances; it is not a universal theorem about all finite controllers or all human systems. Section 64's urge/action probability is a proposed operational definition, not a validated self-mastery measure. Both remain consistent with their existing claim dispositions.
+
+### 95.3 §65 — Separate behavioural targets (S65-C01)
+
+R27 provides measurement/assessment standards context, not validation of the behaviour taxonomy or any listed mechanism. The current pointer note now says so explicitly. The table remains a non-diagnostic hypothesis map; its mechanisms and single metrics are candidates to test, not inferred causes or diagnoses.
+
+### 95.4 §66 — Sexual attraction, masturbation and CSBD boundary (S66-C01)
+
+The current claim is supported by R45 (WHO ICD-11 Clinical Descriptions and Diagnostic Requirements) and R46 (WFSBP guidance). These sources support the diagnostic boundary—persistent impaired control and clinically significant distress/functional impairment, not mere frequency, libido or moral disapproval—and do not diagnose any individual.
+
+**Correction:** removed R53 and R57 from the pointer block because they are not direct sources for this clinical boundary. The section now points only to R45/R46 and explicitly states their limited role. The non-diagnostic/referral language remains proportionate; no inference about any individual is made.
+
+### 95.5 §67 — Sleep as context (S67-C01)
+
+R25/R43/R44 remain aligned with the bounded sleep claims. R43 concerns experimentally manipulated short-term sleep restriction across 61 studies/71 populations; R44 concerns one-night restriction in healthy adults, with domain-specific pooled effects and heterogeneity; R25 provides an earlier sleep-deprivation comparator. The current text already distinguishes exposure and cognitive domain, notes limitations, and describes the two-week log as self-monitoring rather than diagnosis or causal testing. No further edit was warranted.
+
+### 95.6 §68 — Study initiation (S68-C01)
+
+R15/R24 provide cost-sensitive control/EVC context; R31/R32/R48 provide implementation-intention and mental-contrasting evidence; R65/R66/R68 provide learning/procrastination/task-planning comparators. The evidence is mixed and does not directly validate the proposed initiation-cost/uncertainty mediator. The section remains an engineering design proposal, not a causal finding.
+
+### 95.7 §69 — Personal self-monitoring and intervention-planning protocol (S69-C01/PROT01)
+
+The previous title “A personal experimental protocol” risked implying a causal experiment, despite the register's standing disposition that the fixed 7-day/7-day/14-day sequence is not a randomized N-of-1 trial or replicated single-case experiment.
+
+**Correction:** renamed the section “A personal self-monitoring and intervention-planning protocol” and added an explicit statement that it is descriptive, not a randomized N-of-1 trial or causal experiment. The fixed phase order, sequential changes, lack of withdrawal/randomization/counterbalancing/replication and unvalidated durations are now explicit. The suggested durations are practical placeholders, not validated doses. This matches the earlier tracker audit and preserves the prohibition on treating the tracker as a validated causal design.
+
+### 95.8 §§70–72 — Four foundations and proposed architecture (S70-C01, S71-EQ01/EQ02/C01, S72-C01)
+
+These are role assignments, a schematic joint-state mapping and a conceptual cycle. They are definitions/architecture proposals, not empirical findings. The current text already states that interfaces, operator signatures, state/input/output types, composition order/concurrency, time scales and incremental contribution are unspecified. No evidence pointer was added because existing source records cannot validate an undefined integrated transition law.
+
+### 95.9 §73 — Contextual/inference compatibility result (S73-TH04/C01)
+
+The conditional proof is based on the stipulated broad definition of context and the formal entailment premises. R01/R02/R03/R05/R21/R22 provide information-theoretic, logical and underdetermination context, not empirical evidence that either named theory is validated.
+
+**Correction:** the pointer note now explicitly states that the compatibility result follows from the stipulated definitions and proof assumptions, not empirical evidence in those references. The result remains conditional and close to definitional; it does not establish novelty or actual-world truth.
+
+### 95.10 §74 — Conditional softmax proposition (S74-TH05/C01)
+
+The algebraic monotonicity result is valid only for the stated fixed feasible set, fixed competing scores and fixed $\beta>0$ softmax selector. R24 provides expected-value-of-control context; R73 provides the discrete-choice/logit model family.
+
+**Correction:** added R73 to the pointer block and clarified that the mathematical implication follows from the stated selector assumptions, while neither source establishes that ROOT causes the required score change. The learning step still requires a separately specified update rule and does not follow from repeated success alone.
+
+### 95.11 Result and remaining dependencies
+
+- R40's role is explicitly limited to control-theory background in §§60–62; no behavioural stability certificate or ROOT efficacy is claimed.
+- §66 now cites only R45/R46 for the clinical boundary.
+- §69 is explicitly a descriptive self-monitoring/intervention-planning template, not a randomized N-of-1 or causal experiment.
+- §73's references are contextual; the compatibility proof remains conditional.
+- §74 now includes R73 for the logit model family; the proposition remains a conditional algebraic result.
+- No stable claim disposition was upgraded. The current source inventory remains R01–R75 (75 identifiers; 72 distinct works after three aliases).
+- No tracker edit, experiment, preregistration, recruitment or data collection occurred. Experiments A–F remain unexecuted and unauthorized.
+
+**Next:** reconcile §§75–95 against the current register, with special attention to the final synthesis and the distinction between schematic compatibility, component evidence and integrated-theory validation. Then complete full document-wide pointer/rendering/notation checks and remaining mathematical dependencies.
