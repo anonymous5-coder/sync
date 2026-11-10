@@ -4672,3 +4672,7 @@ The current manuscript's R-code pointers were previously audited for identifier 
 6. The selected bibliography is now more complete, but the register still requires a final source-by-source DOI resolution and bibliographic consistency pass, followed by the separate citation-to-register and sentence-level support audit across all 95 sections.
 
 **Disposition:** selected bibliography metadata corrected; SEP archive citations stabilized; material R41/R42/R47/R49/R55/R67 metadata gaps corrected; R21/R22 book/chapter identities clarified; R01–R70 identifier/alias inventory reconciled. No empirical claim was upgraded, no source-access level was upgraded by metadata alone, and no experiment or intervention was executed or authorized. The full manuscript is not thereby complete or review-ready.
+
+### 88.6 DOI and identifier-link normalization
+
+A final locator scan found that R13 and R59 contained valid DOI/PMID/PMCID strings but lacked clickable canonical URLs in their bibliographic records. Added DOI resolver and PubMed/PMC links for R13 (Kondrakiewicz & Nawrocka, 2025) and R59 (McGrew, 2023). This is locator normalization only: it does not upgrade source access, evidence strength or claim disposition.
