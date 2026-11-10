@@ -169,7 +169,7 @@ Claude E. Shannon, “A Mathematical Theory of Communication,” *Bell System Te
 
 ### R02 — Stanford Encyclopedia of Philosophy: logical consequence
 
-“Logical Consequence,” *Stanford Encyclopedia of Philosophy*, first published 7 January 2005; substantive revision 17 May 2024. https://plato.stanford.edu/entries/logical-consequence/.
+Jc Beall, Greg Restall and Gil Sagi, “Logical Consequence,” *The Stanford Encyclopedia of Philosophy* (Spring 2026 Edition), Edward N. Zalta and Uri Nodelman (eds.), Metaphysics Research Lab, Stanford University. First published 7 January 2005; latest archived version is Spring 2026 (minor correction; last modified 1 March 2026). Stable archive: https://plato.stanford.edu/archives/spr2026/entries/logical-consequence/.
 
 **Relevant locations:** §§1–3, especially the distinction between deductive and inductive consequence, truth preservation over models, and soundness/completeness.  
 **Supports:** the semantic/proof-theoretic distinctions used in S09–S11.  
@@ -177,7 +177,7 @@ Claude E. Shannon, “A Mathematical Theory of Communication,” *Bell System Te
 
 ### R03 — Stanford Encyclopedia of Philosophy: scientific underdetermination
 
-“Underdetermination of Scientific Theory,” *Stanford Encyclopedia of Philosophy*, first published 12 August 2009; substantive revision 4 April 2023. https://plato.stanford.edu/entries/scientific-underdetermination/.
+Kyle Stanford, “Underdetermination of Scientific Theory,” *The Stanford Encyclopedia of Philosophy* (Summer 2023 Edition), Edward N. Zalta and Uri Nodelman (eds.), Metaphysics Research Lab, Stanford University. First published 12 August 2009; substantive revision 4 April 2023. Stable archive: https://plato.stanford.edu/archives/sum2023/entries/scientific-underdetermination/.
 
 **Relevant locations:** §§1–3; especially the distinction between holist and contrastive underdetermination and the warning that forms of underdetermination vary in strength.  
 **Supports:** careful use of the underdetermination concept and the distinction between logical countermodels and broader scientific theory choice.  
@@ -185,7 +185,7 @@ Claude E. Shannon, “A Mathematical Theory of Communication,” *Bell System Te
 
 ### R04 — Stanford Encyclopedia of Philosophy: Bayesian epistemology
 
-“Bayesian Epistemology,” *Stanford Encyclopedia of Philosophy*, first published 13 June 2022. https://plato.stanford.edu/entries/epistemology-bayesian/.
+Hanti Lin, “Bayesian Epistemology,” *The Stanford Encyclopedia of Philosophy* (Summer 2024 Edition), Edward N. Zalta and Uri Nodelman (eds.), Metaphysics Research Lab, Stanford University. Rewritten entry first published 13 June 2022; latest archived version is Summer 2024 (minor correction; last modified 27 March 2024). Stable archive: https://plato.stanford.edu/archives/sum2024/entries/epistemology-bayesian/.
 
 **Relevant locations:** §§1–2 for probabilism, conditionalization and formal Bayesian norms; later sections discuss priors and idealization.  
 **Supports:** the conditional probabilistic framework in S14.  
@@ -193,7 +193,7 @@ Claude E. Shannon, “A Mathematical Theory of Communication,” *Bell System Te
 
 ### R05 — Stanford Encyclopedia of Philosophy: philosophy of statistics
 
-“Philosophy of Statistics,” *Stanford Encyclopedia of Philosophy*, first published 19 August 2014; substantive revision 1 October 2025. https://plato.stanford.edu/entries/statistics/.
+Jan-Willem Romeijn, “Philosophy of Statistics,” *The Stanford Encyclopedia of Philosophy* (Winter 2025 Edition), Edward N. Zalta and Uri Nodelman (eds.), Metaphysics Research Lab, Stanford University. First published 19 August 2014; substantive revision 1 October 2025. Stable archive: https://plato.stanford.edu/archives/win2025/entries/statistics/.
 
 **Relevant locations:** §§1, 4 and 5, especially the relation between data, hypotheses, probability models, Bayesian inference and model evaluation.  
 **Supports:** the distinction between deductive consequence and ampliative statistical inference, and the dependence of statistical results on models.  
@@ -606,14 +606,14 @@ Karl Friston, “The free-energy principle: a rough guide to the brain?” *Tren
 
 ### R21 — Cover & Thomas, 2006: data-processing inequality
 
-Thomas M. Cover and Joy A. Thomas, *Elements of Information Theory*, 2nd ed. (Wiley, 2006), Chapter 2, especially §2.8, “Data-Processing Inequality.” Chapter DOI: [10.1002/047174882X.ch2](https://doi.org/10.1002/047174882X.ch2).
+Thomas M. Cover and Joy A. Thomas, *Elements of Information Theory*, 2nd ed. (Wiley-Interscience, 2006), Chapter 2, especially §2.8, “Data-Processing Inequality,” pp. 143–146. Chapter DOI: [10.1002/047174882X.ch2](https://doi.org/10.1002/047174882X.ch2); book DOI: [10.1002/047174882X](https://doi.org/10.1002/047174882X), ISBN 978-0-471-24195-9.
 
 **Supports:** if \(W\to Z\to Y\) forms a Markov chain, then \(I(W;Y)\le I(W;Z)\); deterministic functions of Z cannot increase Shannon mutual information about W.  
 **Does not support:** the claim that useful computation is impossible, or that deriving an explicit consequence is not a discovery relative to an observer.
 
 ### R22 — Cover & Thomas, 2001: Kolmogorov complexity
 
-Thomas M. Cover and Joy A. Thomas, *Elements of Information Theory*, Chapter 7, “Kolmogorov Complexity,” DOI: [10.1002/0471200611.ch7](https://doi.org/10.1002/0471200611.ch7).
+Thomas M. Cover and Joy A. Thomas, “Kolmogorov Complexity,” Chapter 7, pp. 144–182, in *Elements of Information Theory* (Wiley, copyright 1991; online book record first published 5 October 2001). Chapter DOI: [10.1002/0471200611.ch7](https://doi.org/10.1002/0471200611.ch7); book DOI: [10.1002/0471200611](https://doi.org/10.1002/0471200611), ISBN 978-0-471-06259-2.
 
 **Supports:** algorithmic/descriptive complexity as the length of a shortest program describing an object, relative to a reference universal machine.  
 **Does not support:** equating algorithmic complexity with Shannon mutual information or semantic knowledge.
@@ -969,7 +969,7 @@ Alexandre Megretski, “Model Reduction by Projection: General Properties,” MI
 
 ### R41 — “N-of-1 Randomized Intervention Trials in Health Psychology,” 2018
 
-“N-of-1 Randomized Intervention Trials in Health Psychology: A Systematic Review and Methodology Critique,” *Annals of Behavioral Medicine* 52(9), 731–742 (2018), DOI: [10.1093/abm/kax026](https://doi.org/10.1093/abm/kax026).
+Jonathan A. Shaffer, Ian M. Kronish, Louise Falzon, Ying Kuen Cheung and Karina W. Davidson, “N-of-1 Randomized Intervention Trials in Health Psychology: A Systematic Review and Methodology Critique,” *Annals of Behavioral Medicine* 52(9), 731–742 (2018; published online 3 February 2018), DOI: [10.1093/abm/kax026](https://doi.org/10.1093/abm/kax026), PMID 30124759, PMCID PMC6128372.
 
 **Evidence type and scope:** systematic review of 54 N-of-1 trial publications involving 1,193 participants. Only 36% reported enough information to calculate heterogeneity of treatment effect; 90% provided some quantitative information to compare treatments.
 
@@ -983,7 +983,7 @@ Alexandre Megretski, “Model Reduction by Projection: General Properties,” MI
 
 ### R42 — Ecological Momentary Assessment validity review, 2022
 
-“Ecological Momentary Assessment: A Systematic Review of Validity Research,” *Behavior Analysis in Practice* (2022), DOI: [10.1007/s40614-022-00339-w](https://doi.org/10.1007/s40614-022-00339-w).
+Lesleigh Stinson, Yunchao Liu and Jesse Dallery, “Ecological Momentary Assessment: A Systematic Review of Validity Research,” *Perspectives on Behavior Science* 45(2), 469–493 (2022; published online 6 May 2022), DOI: [10.1007/s40614-022-00339-w](https://doi.org/10.1007/s40614-022-00339-w), PMID 35719870, PMCID PMC9163273.
 
 **Evidence type and scope:** systematic review of 32 studies comparing mobile EMA reports with more objective measures of health behaviour or environmental events.
 
@@ -1059,7 +1059,7 @@ Daniel Turner, Peer Briken, Joshua Grubbs, Leo Malandain, Gemma Mestre-Bach, Mar
 
 ### R47 — Single-case experimental design and reporting standards
 
-Tate et al., “The Single-Case Reporting Guideline In BEhavioural Interventions (SCRIBE) 2016 Statement,” *Archives of Scientific Psychology* 4 (2016), DOI: [10.1037/arc0000026](https://doi.org/10.1037/arc0000026).
+Robyn L. Tate, Michael Perdices, Ulrike Rosenkoetter, William Shadish, Sunita Vohra, David H. Barlow, Robert Horner, Alan Kazdin, Thomas Kratochwill, Skye McDonald, Margaret Sampson, Larissa Shamseer, Leanne Togher, Richard Albin, Catherine Backman, Jacinta Douglas, Jonathan J. Evans, David Gast, Rumen Manolov, Geoffrey Mitchell, Lyndsey Nickels, Jane Nikles, Tamara Ownsworth, Miranda Rose, Christopher H. Schmid and Barbara Wilson, “The Single-Case Reporting Guideline In BEhavioural Interventions (SCRIBE) 2016 Statement,” *Archives of Scientific Psychology* 4(1), 1–9 (2016), DOI: [10.1037/arc0000026](https://doi.org/10.1037/arc0000026).
 
 **Evidence type:** methodological reporting guideline.
 
@@ -1141,7 +1141,7 @@ Paschal Sheeran, Olivia Listrom and Peter M. Gollwitzer, “The when and how of 
 **Pinpoints inspected:** manuscript pp. 1–2 (definition, scope, review method); pp. 3–4 (search, pooled effect, publication-bias corrections and RoBMA); pp. 4–6 (outcome types and moderators); pp. 6–8 (plan format, rehearsal, recording, cues and responses); pp. 10–11 (generality constraints and conclusion).
 ### R49 — Sequential randomization designs for adaptive interventions, 2026
 
-“Experimental designs with repeated randomizations for optimizing adaptive interventions: guidelines and practical considerations,” *Annals of Behavioral Medicine* 60(1) (2026), article kaag006, DOI: [10.1093/abm/kaag006](https://doi.org/10.1093/abm/kaag006), published 13 March 2026.
+Shiyu Zhang, John J. Dziak, Devin C. Tomlinson and Inbal Nahum-Shani, “Experimental designs with repeated randomizations for optimizing adaptive interventions: guidelines and practical considerations,” *Annals of Behavioral Medicine* 60(1) (2026), article kaag006, DOI: [10.1093/abm/kaag006](https://doi.org/10.1093/abm/kaag006), published 13 March 2026, PMID 42847358, PMCID PMC13016934.
 
 **Evidence type:** methodological/conceptual guidance on sequentially randomized designs for adaptive interventions.
 
