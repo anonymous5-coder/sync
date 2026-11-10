@@ -616,7 +616,7 @@ $$
 
 If $W$ instead denotes work done by the system, the equivalent form is $\Delta U=Q-W$. Physical state changes require energy exchange or redistribution; sign conventions must be used consistently.
 
-For logically irreversible erasure of one unbiased bit, Landauer's principle gives the ideal lower bound on heat dissipated to the environment:
+For isothermal erasure at temperature $T$ of one initially unbiased bit into a standard final state, Landauer's principle gives the ideal lower bound on heat dissipated to the environment:
 
 $$
 Q_{\mathrm{diss,min}}=k_B T\ln 2
@@ -685,15 +685,15 @@ Let $a$ denote an available action. Define:
 A simplified action score is:
 
 $$
-Q(a)=
-R(a)+L(a)
--\rho E(a)
--\gamma C_{\mathrm{ctrl}}(a)
--\delta D(a)
--\kappa K(a)
+Q(a\mid s)=
+R(a\mid s)+L(a\mid s)
+-\rho E(a\mid s)
+-\gamma C_{\mathrm{ctrl}}(a\mid s)
+-\delta D(a\mid s)
+-\kappa K(a\mid s)
 $$
 
-This equation is a candidate model specification. Its terms must be converted to commensurable utility units or explicitly normalized before they can be added; raw energetic, temporal, delay and control-cost measurements do not automatically share units. In particular, physical energy expenditure $E(a)$ must not be inferred from subjective effort or treated as interchangeable with $C_{\mathrm{ctrl}}(a)$. Define $R(a)$ and $L(a)$ on compatible decision horizons and check for overlap to avoid double counting. Its coefficients must be estimated for a particular system; they are not universal constants of the brain, and no such coefficients have been identified here.
+This equation is a candidate model specification. All components are evaluated conditional on the current decision state $s$, even when an application suppresses that argument. Its terms must be converted to commensurable utility units or explicitly normalized before they can be added; raw energetic, temporal, delay and control-cost measurements do not automatically share units. In particular, physical energy expenditure $E(a\mid s)$ must not be inferred from subjective effort or treated as interchangeable with $C_{\mathrm{ctrl}}(a\mid s)$. Define $R(a\mid s)$ and $L(a\mid s)$ on compatible decision horizons and check for overlap to avoid double counting. Its coefficients must be estimated for a particular system; they are not universal constants of the brain, and no such coefficients have been identified here.
 
 The action-selection mechanism can be represented by a softmax distribution:
 
@@ -703,7 +703,7 @@ P(a\mid s)=
 {\sum_{b\in\mathcal{A}(s)}\exp(\beta Q(b\mid s))}
 $$
 
-where $s$ is the current state, $\mathcal{A}(s)$ is the feasible action set, and $\beta>0$ controls the sharpness of selection. The parameter $\beta$ has inverse-score units if $Q$ is dimensional; a dimensionless implementation requires a normalized score. The distribution assumes a nonempty feasible action set. It is a softmax/logit specification; deriving it from a random-utility model would additionally require explicit assumptions about the distribution and independence of the utility-error terms, which are not specified here.
+where $s$ is the current state, $\mathcal{A}(s)$ is the feasible action set, and $\beta>0$ controls the sharpness of selection. The parameter $\beta$ is a choice-sensitivity/scale parameter (often called inverse temperature in decision and reinforcement-learning models), not thermodynamic temperature. It has inverse-score units if $Q$ is dimensional; a dimensionless implementation requires a normalized score. The distribution assumes a nonempty feasible action set. Under the usual random-utility derivation, multinomial logit follows from independent identically distributed type-I extreme-value utility errors and implies independence of irrelevant alternatives; correlated errors or substitution patterns may require another choice model. Those assumptions are not established for human behaviour here.
 
 As $\beta$ increases, higher-scoring actions dominate more strongly. As $\beta$ decreases, selection becomes more stochastic.
 
@@ -753,19 +753,19 @@ The gap does not require the person to be unintelligent. It requires only that t
 **Derivation:**
 
 1. Let the long-term objective value be $V_L(a)$.
-2. Let immediate selection value be $Q(a)=V_{\mathrm{immediate}}(a)+V_L(a)-C(a)$.
+2. Let immediate selection value be $Q(a\mid s)=V_{\mathrm{immediate}}(a\mid s)+V_L(a\mid s)-C(a\mid s)$.
 3. Suppose $V_L(a_f)>V_L(a_h)$.
 4. Suppose the cost and immediate-value difference satisfies:
 
 $$
-V_{\mathrm{immediate}}(a_h)-C(a_h)
+V_{\mathrm{immediate}}(a_h\mid s)-C(a_h\mid s)
 >
-V_{\mathrm{immediate}}(a_f)-C(a_f)
+V_{\mathrm{immediate}}(a_f\mid s)-C(a_f\mid s)
 +
-V_L(a_f)-V_L(a_h)
+V_L(a_f\mid s)-V_L(a_h\mid s)
 $$
 
-5. Then $Q(a_h)>Q(a_f)$.
+5. Then $Q(a_h\mid s)>Q(a_f\mid s)$.
 6. Under softmax selection with $\beta>0$, $a_h$ is more probable than $a_f$. A greedy selector chooses $a_h$ only if it is a maximizer over the full feasible action set.
 
 Therefore, under the stated score definitions and selector conditions, the model can favour an action that conflicts with the reflective long-term objective.
@@ -777,11 +777,11 @@ The solution must change the action-selection conditions, not merely repeat the 
 
 ## 21. Why habits are efficient—and why efficiency can become a trap
 
-A habit is a cached policy. It stores a response that was previously useful or rewarding and reduces the need to recompute the decision every time.
+In one computational account, a habit is represented as a cached policy. It stores a response that was previously useful or rewarding and can reduce the need to recompute the decision every time.
 
 This has an obvious computational advantage.
 
-Suppose a model-based controller evaluates future consequences at cost $C_m$ each time it acts. A cached controller has a smaller execution cost $C_h$, where:
+Suppose, in a specified task and context, a model-based controller evaluates future consequences at cost $C_m$ each time it acts. A cached controller is hypothesized to have a smaller execution cost $C_h$, where:
 
 $$
 C_h<C_m
@@ -791,7 +791,9 @@ If the environment is stable and the cached action remains suitable, the habit i
 
 But if the environment changes or the person's objective changes, the cached response may no longer be appropriate. The system can continue executing the old policy because the cue-response mapping is well learned and requires little deliberation.
 
-This is the central duality:
+The inequality $C_h<C_m$ is a modelling assumption, not a universal empirical law. Its validity depends on the task, context, architecture and cost terms included.
+
+This is the proposed duality:
 
 $$
 \boxed{\text{Habit = computational efficiency under repetition}}
