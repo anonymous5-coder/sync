@@ -810,7 +810,7 @@ A habit is not inherently bad. Its value depends on whether the cue-response map
 
 ## 22. Cue learning as a dynamical system
 
-Let $s_t^{\mathrm{RL}}$ denote the state representation available before action $a_t$; it includes cue $c_t$ and any other variables used by the policy. This RL state is distinct from the behavioural predictor vector in §39 and the ROOT operational rating vector in §52. After action $a_t$, the system receives outcome/reward $r_{t+1}$ and enters state $s_{t+1}^{\mathrm{RL}}^{\mathrm{RL}}$.
+Let $s_t^{\mathrm{RL}}$ denote the state representation available before action $a_t$; it includes cue $c_t$ and any other variables used by the policy. This RL state is distinct from the behavioural predictor vector in §39 and the ROOT operational rating vector in §52. After action $a_t$, the system receives outcome/reward $r_{t+1}$ and enters state $s_{t+1}^{\mathrm{RL}}$.
 
 One standard off-policy candidate is the Q-learning update:
 
@@ -1819,7 +1819,7 @@ where:
 
 - $c_t$: cue intensity;
 - $u_t$: urge intensity;
-- $f_t$: fatigue or physiological load;
+- $f_t$: perceived fatigue (ordinal self-rating; not an objective physiological-load measure);
 - $d_t$: task difficulty or ambiguity;
 - $g_t$: goal activation;
 - $h_t$: habit strength;
@@ -2722,7 +2722,7 @@ $$
 
 This tuple is a schematic dependency inventory, not a defined transition equation. Under §3, $\mathcal{S}_t$ already includes $G_t$ and $\Pi_t$; their separate appearance here may represent duplicated state components or exogenous goal/policy signals. Section 71 lists $G_t$ separately but not $\Pi_t$, whereas this section lists both. No choice between these interpretations is justified, and no equivalence between the two schematics is asserted.
 
-The macro state $\mathcal{S}_t$, RL state $s_t^{\mathrm{RL}}$, reduced behavioural predictor vector $b_t$, ROOT operational rating vector $s_t^{\mathrm{ROOT}}$, and controller deviation state $x_t$ are distinct representations. No projection or observation map among them is defined. The ROOT vector contains seven ordinal self-ratings; the §39 predictor vector contains six features and omits competing-action accessibility $e_t$, while its task-demand variable $z_t$ corresponds only approximately to ROOT's $d_t$. ROOT's $h_t$ is a personal rating, not an identified measurement of latent $H_t$ or $H_{\mathrm{alt},t}$; its $g_t$ is goal activation, not the full goal structure $G_t$; and its $e_t$ is accessibility, not the environment $E_t$. The controller state $x_t$ is deviation from a target and requires a separate target/error map. The time index $t$ is local to each model; no synchronization among decision steps, daily/focus-block/episode measurements, and controller updates has been specified. Action score $Q(a)$, RL action value $Q_{\mathrm{RL}}(s,a)$, policy-level score $S_{\mathrm{loc}}(\Pi)$, and trajectory objective $J(\pi)$ are also distinct; no mapping among them is defined.
+The macro state $\mathcal{S}_t$, RL state $s_t^{\mathrm{RL}}$, reduced behavioural predictor vector $b_t$, ROOT operational rating vector $s_t^{\mathrm{ROOT}}$, and controller deviation state $x_t$ are distinct representations. No projection or observation map among them is defined. The ROOT vector contains seven ordinal self-ratings; the §39 predictor vector contains six features and omits competing-action accessibility $e_t$, while its task-demand variable $z_t$ corresponds only approximately to ROOT's $d_t$. ROOT's $h_t$ is a personal rating, not an identified measurement of latent $H_t$ or $H_{\mathrm{alt},t}$; its $g_t$ is goal activation, not the full goal structure $G_t$; and its $e_t$ is accessibility, not the environment $E_t$. The controller state $x_t$ is deviation from a target and requires a separate target/error map. The $R_t$ feedback/outcome placeholder in §§71/95 is not automatically the successful-rehearsal input $R_t$ in §42 or the episode consequence $r_t$ in the tracker; those meanings require separate typed variables and a mapping. The inference placeholder $\mathcal I_t$ and resource input $\mathcal R_t$ also lack specified domains and update semantics. The time index $t$ is local to each model; no synchronization among RL decision steps, daily/focus-block/episode measurements, and controller updates has been specified. Action score $Q(a)$, RL action value $Q_{\mathrm{RL}}(s,a)$, policy-level score $S_{\mathrm{loc}}(\Pi)$, and trajectory objective $J(\pi)$ are also distinct; no mapping among them is defined.
 
 Space or Null Theory proposes how context and structure condition the system.
 
