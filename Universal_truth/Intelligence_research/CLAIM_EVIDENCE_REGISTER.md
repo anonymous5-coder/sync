@@ -4871,3 +4871,78 @@ David W. Hosmer Jr., Stanley Lemeshow and Rodney X. Sturdivant, *Applied Logisti
 ### 92.1 Inventory update
 
 The current canonical source inventory contains R01–R75: 75 identifiers and 72 distinct source works after the three established aliases R52/R03, R56/R06 and R64/R48. Earlier inventory counts in §§70, 88 and 90 are historical snapshots and remain unchanged. Neither new record upgrades a claim's evidence disposition or establishes the proposed behavioural model.
+
+
+## 93. Citation-to-register reconciliation — treatise §§28–40, current edition
+
+**Current treatise snapshot:** `document_master_visual.md`, blob `b5816df7cbf43443f72a20ff7ec58f7ff994dfe3`, 2,808 lines, 95 numbered sections. This entry reconciles the current section wording and pointer scope against stable claims S28–S40 and source records R01–R75. It is a targeted sentence-level pass over §§28–40, not completion of the remaining 95-section audit.
+
+### 93.1 §28 — Context definition and decomposition (S28-C01, S28-EQ01/EQ02)
+
+The four-part context decomposition is a framework taxonomy and conditional transition notation, not a validated causal partition. R30 is a randomized study of consistent versus varied context in walking-habit development; it is not evidence for every category in the broad context definition.
+
+**Correction:** the pointer note now states that R30 informs only the specific context-consistency example, not the full definition or all categories in the decomposition. The distinction between causal intervention and an observational conditional distribution remains open in S28-C01/EQ01. No causal interpretation is inferred from the displayed conditional distribution alone.
+
+### 93.2 §§29–30 — Inference without external input and inferential novelty (S29-C01/P04; S30-C01/C02/EQ01/EQ02)
+
+The current pointers remain aligned:
+- §29's R02/R05 support the distinction between logical inference and ampliative statistical inference; R21/R22 provide information-theoretic and algorithmic-complexity context. The proposition remains conditional on retained state and transformation rules, not inference from literal nothing.
+- §30's R01/R05/R21 support statistical-information and data-processing distinctions; R22 supports the algorithmic-complexity/short-program discussion; R03 supports the model-theoretic underdetermination boundary. The text correctly distinguishes explicit representation, logical entailment, probabilistic support and empirical novelty.
+
+No claim is upgraded to semantic truth, arbitrary fact acquisition or external discovery.
+
+### 93.3 §31 — Physical limits and resource vector (S31-C01, S31-EQ01, S31-M01/EQ02)
+
+The previous pointer block was dominated by Landauer and neural-energy sources, although the section also discusses computation rate, memory, noise, communication, error correction and causal access.
+
+**Correction:** added R01 for channel/noise/information concepts and **R74** (Seth Lloyd, 2000) for theoretical physical limits on computation rate and memory. The full arXiv v3 preprint was inspected; the publisher record/abstract was checked. The final Nature article is cited separately from the earlier preprint, and the register does not claim that the preprint is text-identical to the published version. R09/R10 remain relevant to logically irreversible erasure; R11/R13/R14/R60–R62 provide neural-energy/effort context.
+
+The resource vector remains a candidate engineering abstraction. Its components have different units and logical types; $\varepsilon$ is an error-tolerance constraint, not a resource commensurate with energy, time, bandwidth or memory. The generic $\Phi$ expression remains schematic, not a quantitative law.
+
+### 93.4 §32 — Intelligence versus computation (S32-C01/EQ01/EQ02/M01)
+
+R27 (testing standards), R58 (adaptive-intelligence comparator) and R59 (psychometric/CHC comparator) remain aligned with the functional definition and measurement proposal. The text correctly labels the five-component functional as unvalidated and requires operational indicators, reliability, construct/criterion/discriminant validity, weighting rationale and out-of-sample validation. No distinct intelligence construct or empirical superiority is established.
+
+### 93.5 §33 — Investigation A synthesis (S33-C01)
+
+No new pointer was inserted. Section 33 is a summary of the preceding claims, not independent evidence. Its current “provisional conceptual synthesis” language is consistent with the register disposition. Underlying support and limitations remain in §§28–32 and their claim records.
+
+### 93.6 §§34–36 — Cue learning, reward anticipation and control arbitration (S34-EQ01/C01; S35-C01/EQ01–EQ03/C02; S36-C01/EQ01/P01)
+
+The current source sets are broadly aligned:
+- R16 supports the standard TD/Q-learning algorithms; R18/R19/R23/R26/R28/R30/R53 provide distinct reward, habit, stress and context comparators.
+- R23 supports the bounded wanting/liking distinction; R15/R24 support neighbouring arbitration and expected-value-of-control accounts; R25/R43/R44 support task-specific sleep-related constraints.
+- The model-based/model-free mixture remains a candidate abstraction, not a literal single-switch neural architecture. The arbitration weight and the proposed benefit/cost terms are not empirically identified for the treatise's target system.
+
+The unresolved S34-EQ01 scalar TD recurrence remains explicitly deferred until a canonical state-/action-value update is selected and reconciled with §§22 and 56. No source pointer makes the current generic recurrence a validated learning algorithm.
+
+### 93.7 §37 — Sleep, stress and environmental conditions (S37-C01/EQ01)
+
+The former R25/R43/R44 pointer set primarily covered sleep restriction, while the section title and text also discuss stress and environmental context.
+
+**Correction:** added R26 for a specific human stress–habit paradigm and R30 for a specific context-consistency/walking-habit study. The pointer note now assigns distinct roles: R25/R43/R44 for bounded sleep effects, R26 for a stress–habit comparator, and R30 for a context-consistency result. These studies do not establish universal effects or the signs of the treatise's candidate state-dependent score.
+
+### 93.8 §38 — Multi-timescale heuristic (S38-C01)
+
+The §38 wording and pointer scope remain consistent with §86: time bands are illustrative and overlapping; R28/R30 concern habit/context development, R38 concerns interruption recovery in a specific task, and R49 concerns methodological design cadence rather than validating behavioural timescale bands. No fixed habit-consolidation timetable or multiscale dynamical law is claimed.
+
+### 93.9 §39 — Logistic behavioural-loop model (S39-M01/EQ01/C01)
+
+The state vector and logistic predictor remain candidate specifications, not fitted or validated models. The previous R27/R42/R44 pointers did not identify a statistical source for the logistic-regression model class.
+
+**Correction:** added **R75**, Hosmer, Lemeshow & Sturdivant, *Applied Logistic Regression*, 3rd ed. (2013), to support the standard binary-outcome logistic-regression form. Wiley metadata and contents were inspected; the full chapter text was not inspected. R75 does not validate the treatise's six predictors, linearity, coefficient signs, ordinal-rating treatment, clustering, temporal dependence or causal interpretation. R27 remains relevant to measurement/score interpretation, R42 to EMA validity limitations, and R44 to the sleep-restriction context.
+
+### 93.10 §40 — Investigation B summary (S40-C01)
+
+The source pointer now lists representative records across the component summaries: R15/R24 for arbitration, R16/R18 for learning, R19/R28/R30 for habit/context, R23 for wanting/liking, R25/R43/R44 for sleep and R26 for stress-related habit behaviour. The text explicitly states that §40 is a synthesis of §§34–39, not independent evidence or a declaration that Investigation B is empirically resolved.
+
+### 93.11 Result and remaining dependencies
+
+- Narrowed the scope of R30 in §28; added R01/R74 to §31; added R26/R30 to §37; added R75 to §39; expanded and qualified §40's representative source list.
+- Added R74 and R75 as new canonical records. Current inventory is R01–R75: 75 identifiers and 72 distinct works after the three established aliases.
+- No stable claim ID or disposition was overwritten or upgraded.
+- R74's full arXiv preprint was inspected; the final journal article is identified by publisher metadata, with version distinction preserved. R75 is publisher-metadata/contents verified; full chapter text not inspected.
+- S28's causal relevance test, S31's resource-vector typing, S34's canonical update equation, S35's arbitration specification, S39's repeated-measures/ordinal-predictor analysis and the crosswalk between reduced and ROOT states remain open.
+- No experiments A–F were executed or authorized; no tracker edit, preregistration, recruitment or data collection occurred.
+
+**Next:** continue citation-to-register reconciliation through §§41–59. Preserve the current provisional status of the intelligence functional, physical–cognitive bridge, habit/learning model, Recursive Intelligence and ROOT efficacy.
