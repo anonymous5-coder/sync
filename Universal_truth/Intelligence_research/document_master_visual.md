@@ -752,8 +752,8 @@ The gap does not require the person to be unintelligent. It requires only that t
 
 **Derivation:**
 
-1. Let the long-term objective value be $V_L(a\mid s)$. For this proposition, $Q(a\mid s)=V_{\mathrm{immediate}}(a\mid s)+V_L(a\mid s)-C(a\mid s)$ is a local decomposition of the candidate score in §19; an application must specify how its immediate-value and cost terms map to §19's detailed components.
-2. Let immediate selection value be $Q(a\mid s)=V_{\mathrm{immediate}}(a\mid s)+V_L(a\mid s)-C(a\mid s)$.
+1. Let the long-term objective value be $V_L(a\mid s)$.
+2. Let $V_{\mathrm{immediate}}(a\mid s)$ denote immediate selection value and $C(a\mid s)$ the relevant immediate/control cost. For this proposition, define $Q(a\mid s)=V_{\mathrm{immediate}}(a\mid s)+V_L(a\mid s)-C(a\mid s)$ as a local decomposition of the candidate score in §19; an application must specify how its immediate-value and cost terms map to §19's detailed components.
 3. Suppose $V_L(a_f\mid s)>V_L(a_h\mid s)$.
 4. Suppose the cost and immediate-value difference satisfies:
 
