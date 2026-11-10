@@ -70,11 +70,13 @@ This treatise retains the user's names exactly:
 
 The framework adds formal definitions and mathematical machinery around these names. The names identify the conceptual contributions; they do not imply that the corresponding formulations have already been accepted as established scientific laws.
 
-Three epistemic labels will be used:
+Three concise editorial labels will be used, but they are not mutually exclusive and do not collapse logical status into evidential status:
 
-- **Established constraint:** a result supported by mature scientific theory or substantial empirical evidence.
-- **Derived proposition:** a result that follows mathematically from stated assumptions.
-- **Research hypothesis:** a proposed claim whose empirical validity remains to be tested.
+- **Established constraint:** a claim supported within a specified domain by mature theory, authoritative evidence, or substantial empirical support.
+- **Derived proposition:** a result that follows from explicit premises under a specified formal system. Its derivation does not establish that the premises describe the actual world.
+- **Research hypothesis:** a proposed empirical or explanatory claim whose relevant predictions remain to be tested.
+
+For every substantive claim, record formal status and evidential status separately. A derived proposition may be conditional on premises whose empirical adequacy is unresolved; an empirically supported regularity need not be a deductive theorem. Also record source quality/access, population or system scope, uncertainty, and generalization limits. The labels are communication shorthand, not a single rank or scale of truth.
 
 The distinction matters particularly in the physical–cognitive bridge. Thermodynamics constrains all biological computation. It does not, by itself, tell us why a particular person checks a phone at 11:17 a.m. The latter requires a model of learned values, cues, physiology, task structure, and available actions.
 
@@ -403,7 +405,7 @@ The system does not need to observe the particular event described by $p$ if the
 
 ### Theorem 1 — An entailed proposition can be derived before direct observation
 
-**Statement:** Let $K$ be a knowledge base with at least one model under a specified semantics. If $K\models p$ and the chosen proof calculus is sound and complete for that semantics, then $K\vdash p$. If the calculus is effectively enumerable, a fair proof-search procedure will eventually find a derivation, although no practical time or resource bound follows. The derivation does not require a new direct observation of the event described by $p$.
+**Statement:** Let $K$ be a knowledge base with at least one model under a specified semantics. If $K\models p$ and the chosen proof calculus is sound and complete for that semantics, then $K\vdash p$. If $K$ is finite or effectively enumerable and the proof calculus is effective, a fair proof-search procedure will eventually find a finite derivation, although no practical time or resource bound follows. Effective enumerability of the proof calculus alone is insufficient if the premises of $K$ cannot themselves be effectively supplied to the search. The derivation does not require a new direct observation of the event described by $p$.
 
 **Proof:**
 
