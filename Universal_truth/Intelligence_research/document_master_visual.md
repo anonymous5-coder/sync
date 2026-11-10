@@ -935,7 +935,7 @@ $$
 \end{aligned}
 $$
 
-This is not a deterministic law that every low-energy action is selected. The system also considers reward, risk, uncertainty, social demands, bodily needs, and learned goals.
+This is not a deterministic law that every low-energy action is selected. Action selection may also depend on reward, risk, uncertainty, social demands, bodily needs, and learned goals.
 
 ### Conditional model result 3 — Local-score selection can conflict with a reflective goal
 
@@ -943,11 +943,16 @@ This is not a deterministic law that every low-energy action is selected. The sy
 
 **Derivation:**
 
-1. Let $G$ be a reflective long-term goal, and let $\Pi_h$ and $\Pi_m$ be feasible habitual and deliberative policies.
-2. Suppose $\Pi_m$ has greater value under the reflective long-term objective, while the local action score includes immediate value and control costs defined on a commensurable scale.
-3. Suppose the resulting local scores satisfy $Q(\Pi_h)>Q(\Pi_m)$.
-4. Under a finite-action softmax selector with fixed inverse-temperature $\beta>0$, this inequality makes $\Pi_h$ more probable than $\Pi_m$. A greedy selector chooses $\Pi_h$ only if it is a maximizer over the full feasible action set.
-5. Therefore, the specified model can favour a locally higher-scoring policy that conflicts with the reflective long-term objective.
+1. Let $G$ be a reflective long-term objective, let $\Omega$ be a finite nonempty feasible policy set, and let $\Pi_h,\Pi_m\in\Omega$ be habitual and deliberative policies.
+2. Let $V_G(\Pi)$ denote a policy's value under the reflective objective, and suppose $V_G(\Pi_m)>V_G(\Pi_h)$.
+3. For this proposition, let $S_{\mathrm{loc}}(\Pi)$ be a scalar local score assigned to each policy in $\Omega$. This policy-level score is distinct from the action-level $Q(a)$ defined in §19; the rule aggregating action-level scores into policy-level scores is not specified here. If $S_{\mathrm{loc}}$ combines immediate value and control costs, those terms must be defined on a commensurable scale.
+4. Suppose $S_{\mathrm{loc}}(\Pi_h)>S_{\mathrm{loc}}(\Pi_m)$.
+5. Under the finite-policy softmax selector
+$
+\pi(\Pi)=\frac{\exp(\beta S_{\mathrm{loc}}(\Pi))}{\sum_{\Pi'\in\Omega}\exp(\beta S_{\mathrm{loc}}(\Pi'))},\qquad \beta>0,
+$
+the inequality makes $\Pi_h$ more probable than $\Pi_m$. A greedy selector chooses $\Pi_h$ only if it is a maximizer over the full feasible policy set $\Omega$.
+6. Therefore, the specified selector can assign greater probability to a policy with lower reflective long-term value when its stipulated local score is higher. The result is conditional on the policy set, score assignment and selector; it does not derive those quantities from the physical–cognitive bridge.
 
 This is a conditional result about the model's score and selector, not a derivation of the physical-to-behavioural bridge or an explanation of any individual's parameters. Repeated selection strengthens a cue-policy association only if a separate learning/update rule entails that change; no such rule is specified here.
 
