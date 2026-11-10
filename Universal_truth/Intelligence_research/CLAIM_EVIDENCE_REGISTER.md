@@ -5166,3 +5166,40 @@ The selected bibliography is contextual, not a claim-level evidence substitute. 
 - The manuscript is not review-ready. Full bibliography source-by-source validation, complete sentence-level citation/pinpoint review, mathematical dependency closure, final Markdown/render/notation checks and qualified independent/adversarial review remain outstanding.
 
 **Next:** run a document-wide pointer/claim-ID integrity check against the updated R01–R75 register, then continue sentence-level pinpoint verification for all material claims. Close the outstanding formal dependencies and final rendering checks before any review-readiness decision.
+
+
+## 97. Document-wide pointer, claim-ID and Markdown delimiter integrity check — current edition
+
+**Current treatise snapshot:** `document_master_visual.md`, blob `072ca14721b7b28e228212907c5431d915950ec6`, 2,810 lines, 95 numbered sections. The current register snapshot is the basis for all source/claim-ID checks below.
+
+### 97.1 Section and claim-ID integrity
+
+- 95 numbered section headings are present, unique and consecutive (§§1–95).
+- 212 unique stable claim IDs are present in the register.
+- Every numbered treatise section has at least one stable claim ID in the register.
+- All 72 current evidence-pointer blocks occur in 72 distinct sections; every pointer-bearing section has a corresponding stable claim-ID record.
+
+### 97.2 Source-pointer integrity
+
+- The register contains 75 canonical/alias identifiers, R01–R75.
+- Every source ID used in a current treatise pointer block resolves to a source record; there are no dangling pointer identifiers.
+- 71 source IDs are used in current pointer blocks. R52/R56/R64 remain historical aliases of R03/R06/R48 and are not used as separate current sources. R67 remains a separately documented null-result comparator in the register and is not an orphaned pointer.
+- The three aliases are not counted as independent works. Current source inventory remains 75 identifiers and 72 distinct source works.
+
+### 97.3 Static Markdown/notation checks
+
+- Display-math delimiter lines: 184, balanced.
+- Inline-dollar delimiters after removing display-math pairs: 624, balanced.
+- Numbered-section cross-references above §95: zero.
+- No code fences occur in the treatise; no unmatched fence pair was found.
+- The previous targeted repair of §95's display-math closing delimiter remains verified.
+
+These are static source checks, not a substitute for a rendered-client inspection. Equation numbering, visual line wrapping, table layout, link resolution in the rendered artifact and platform-specific Markdown behaviour remain in the final rendering pass.
+
+### 97.4 Limits and disposition
+
+This check establishes structural pointer/ID resolution only. It does not prove that each cited source supports the precise sentence adjacent to its pointer, that every page/table/figure pinpoint is correct, or that all empirical and mathematical claims are valid. The complete sentence-level claim audit and exact-pinpoint/source-adequacy review remain open. The 72-block pointer map is a navigation/traceability structure, not a validation score.
+
+No claim disposition was upgraded. No experiments A–F were executed or authorized; no preregistration, recruitment, data collection, intervention, tracker edit, branch merge or plan retirement occurred.
+
+**Next:** continue exact source-pinpoint and sentence-level adequacy review, prioritizing high-impact empirical and formal claims, then close remaining mathematical dependencies and inspect the rendered manuscript before any independent-review readiness assessment.
