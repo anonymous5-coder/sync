@@ -1143,9 +1143,9 @@ This is a general engineering relation. It says that intelligence as implemented
 
 ## 32. Research question A5: Can intelligence be mathematically distinguished from computation?
 
-Not by the mere fact that a system computes. Intelligence requires additional functional properties.
+Within this framework, intelligence is distinguished from fixed computation by additional functional properties.
 
-A minimal computational system can execute a fixed mapping. An adaptive intelligent system must generally exhibit some combination of:
+A minimal computational system can execute a fixed mapping. The framework treats adaptive intelligence as involving some combination of:
 
 - internal state representation;
 - learning or model revision;
@@ -1187,7 +1187,7 @@ where:
 - $R_c$: recovery and correction after error;
 - $w_i$: task-dependent weights.
 
-This is a candidate measurement proposal, not a validated intelligence scale or a universal natural constant. The components may overlap and may not share a common measurement scale. Before aggregation, each component requires defined observable indicators, task sampling, scoring direction, normalization, reliability, construct and criterion validity, and tests of discriminant validity against established cognitive-ability measures. The weights $w_i$ cannot be selected solely by intuition: they require a prespecified rationale and out-of-sample validation. A compensatory weighted sum may also conceal a serious weakness in one component behind high scores in another, so component profiles and uncertainty should be reported alongside any composite. Memory, processing speed, prior training, domain knowledge and opportunity to learn must be measured or controlled where relevant.
+This is a candidate measurement proposal, not a validated intelligence scale or a universal natural constant. The components may overlap and may not share a common measurement scale. Before aggregation, each component requires defined observable indicators, task sampling, scoring direction, normalization, reliability, construct and criterion validity, and tests of discriminant validity against established cognitive-ability measures. Measurement invariance should be assessed when comparisons across groups, contexts, or time are intended; population norms are needed when norm-referenced interpretations are intended. The weights $w_i$ cannot be selected solely by intuition: they require a prespecified rationale and out-of-sample validation. The present notation does not specify whether weights are nonnegative or normalized; a convex-composite constraint would be an additional design choice, not a result established by the current evidence. A compensatory weighted sum may also conceal a serious weakness in one component behind high scores in another, so component profiles and uncertainty should be reported alongside any composite. Memory, processing speed, prior training, domain knowledge and opportunity to learn must be measured or controlled where relevant.
 
 **Claim-linked evidence register records:** R27, R58, R59. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
