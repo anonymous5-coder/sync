@@ -606,7 +606,7 @@ Karl Friston, “The free-energy principle: a rough guide to the brain?” *Tren
 
 ### R21 — Cover & Thomas, 2006: data-processing inequality
 
-Thomas M. Cover and Joy A. Thomas, *Elements of Information Theory*, 2nd ed. (Wiley-Interscience, 2006), Chapter 2, especially §2.8, “Data-Processing Inequality,” pp. 143–146. Chapter DOI: [10.1002/047174882X.ch2](https://doi.org/10.1002/047174882X.ch2); book DOI: [10.1002/047174882X](https://doi.org/10.1002/047174882X), ISBN 978-0-471-24195-9.
+Thomas M. Cover and Joy A. Thomas, *Elements of Information Theory*, 2nd ed. (Wiley-Interscience, 2006), Chapter 2, especially §2.8, “Data-Processing Inequality.” The exact print-page pinpoint is not asserted here. Chapter DOI: [10.1002/047174882X.ch2](https://doi.org/10.1002/047174882X.ch2); book DOI: [10.1002/047174882X](https://doi.org/10.1002/047174882X), ISBN 978-0-471-24195-9.
 
 **Supports:** if \(W\to Z\to Y\) forms a Markov chain, then \(I(W;Y)\le I(W;Z)\); deterministic functions of Z cannot increase Shannon mutual information about W.  
 **Does not support:** the claim that useful computation is impossible, or that deriving an explicit consequence is not a discovery relative to an observer.
