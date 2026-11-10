@@ -79,7 +79,7 @@ Operationally, $\text{cueID}_t$ identifies the trigger/context, while $c_t$ insi
 
 ## 2.2 Action-cost arbitration
 
-The source action score is the same candidate $Q(a)$ defined in §19; it is distinct from the RL action-value function $Q_{\mathrm{RL}}(s_t^{\mathrm{RL}},a_t)$ in §22. The tracker does not estimate its coefficients:
+The source action score is the same candidate state-conditioned score $Q(a\mid s)$ defined in §19. In this tracker, the current ROOT rating vector $s_t$ is the local conditioning context, so the score is written $Q(a\mid s_t)$. It is distinct from the RL action-value function $Q_{\mathrm{RL}}(s_t^{\mathrm{RL}},a_t)$ in §22. The tracker does not estimate its coefficients:
 
 
 
