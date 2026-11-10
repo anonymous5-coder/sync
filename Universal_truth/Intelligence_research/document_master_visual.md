@@ -511,7 +511,7 @@ Let $H$ be a hypothesis and $D$ the available evidence. A system forms:
 
 $$
 P(H\mid D)=\frac{P(D\mid H)P(H)}{P(D)}
-$
+$$
 
 This update assumes $P(D)>0$. The predictive sum below is over a discrete, mutually exclusive and exhaustive hypothesis/model partition; for a continuous parameter or model space, replace the sum with an integral over the posterior distribution.
 
