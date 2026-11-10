@@ -5991,3 +5991,80 @@ The live treatise was fetched after commit `a351f32a72be4bec3152fff1750fa1362a2c
 **Batch accounting:** five sections examined; one empirical newborn claim examined; framework definition, inference taxonomy and epistemic classification reviewed; five scope clarifications made. No new theory, cognitive mechanism or empirical result validated. No experiments A–F, preregistration, recruitment, intervention or tracker edit occurred.
 
 **Next:** continue the remaining high-impact Space or Null Theory and Out of Box Theory sentence-level audit, especially §§1–5 and the source-to-claim fit of the opening axioms and formal state description. The full 95-section audit, taxonomy crosswalk, mathematical dependency closure, typed architecture, rendered inspection and qualified independent external review remain open.
+
+
+## 109. Foundational scope and operational-definition audit — §§1–5 (10 November 2026)
+
+**Audit scope.** Re-read the current problem statement, epistemic labels, primitive system tuple, eight foundational axioms and eight definitions. Rechecked the limited physical-implementation source set R09, R10, R60, R61 and R62. This batch clarifies the epistemic status and operational boundaries of the opening framework; it does not complete the later state/controller architecture.
+
+### 109.1 §§1–2 — programme statement and status labels
+
+S01-C01's four-level integration (physical, informational, cognitive and recursive-control) remains an organizing hypothesis. The current wording correctly treats the levels as a research programme, not a demonstrated unified mechanism. The claim that disciplinary separation is partly artificial has been softened to “some of the apparent separation may reflect disciplinary boundaries.”
+
+S02-C01's three labels—established constraint, derived proposition and research hypothesis—remain a useful summary but mix evidential and logical status. A formally derived proposition may still depend on unverified premises. The taxonomy crosswalk remains outstanding; do not collapse these labels into the separate §15 editorial classification without a controlled mapping.
+
+### 109.2 §3 — primitive system tuple and transition placeholders (S03-M01, S03-EQ01–EQ05)
+
+The tuple \(\mathcal S_t=(A,M_t,X_t,E_t,\Pi_t,G_t,\Theta_t)\) remains a conceptual inventory, not a typed state-space model or demonstrated Markov-sufficient state. Component spaces, units, domains/codomains, observability, conditional dependencies, clocks, update ordering, noise semantics and transition laws remain unspecified.
+
+The observation kernel, action policy, internal transition, memory update and parameter update are generic placeholders. The current treatise correctly states that the variables are not yet operationally typed and that the tuple is not claimed to be minimal or Markov-sufficient. The action/observation sequence is now explicitly scoped to an agent/controller instantiation rather than every information-processing system.
+
+**Disposition:** retain as schematic architecture. Do not treat \(F_A\), \(U_M\) or \(U_\Theta\) as executable update laws. The architecture/policy/parameter separation and the macro-state-to-behavioural-state mapping remain open dependencies for the later typed-interface audit.
+
+### 109.3 §4 — eight foundational axioms
+
+The eight items are heterogeneous and should not be represented as a formally closed axiom system. They comprise:
+
+- **Physical premise:** Axiom 1, physical implementation.
+- **System-model principles/assumptions:** Axioms 2–4, structural dependence, contextual acquisition and internal transformation.
+- **Physical constraint:** Axiom 5, bounded resources.
+- **Agent/controller premise:** Axiom 6, adaptive action selection.
+- **Capability hypothesis:** Axiom 7, recursive accessibility.
+- **Epistemic safeguard:** Axiom 8, fallible model–world correspondence.
+
+The treatise now states that no common formal language, consistency proof or derivation from a minimal axiom set is claimed. Axiom 4 is conditional on appropriate representational/computational capacities; Axiom 6 is scoped to adaptive agents/controllers with multiple feasible actions; Axiom 7 is a capability hypothesis, not evidence of a distinct or universal mechanism; Axiom 8 is a methodological safeguard, not a physical/cognitive mechanism.
+
+Axiom 5's energy inequality now explicitly assumes nonnegative power draw over a defined interval and system boundary. The available-energy function and accounting boundary still require operational definition before quantitative use.
+
+**Source scope:** R09 Landauer (1961) original paper full text, pp. 183–187; R10 Bérut et al. (2012) publisher abstract only; R60 Bruckmaier et al. (2020) full primary article; R61 Madsen et al. (1992) PubMed abstract only; R62 Lin et al. (2011) full primary article. These sources support bounded aspects of physical computation and neural metabolism relevant to Axioms 1 and 5. They do not establish Axioms 2–4 or 6–8, and they do not validate the eight-item list as a unified formal axiom system.
+
+### 109.4 §5 — working definitions and operational boundaries
+
+All eight definitions are stipulations, not empirical results by virtue of being defined. The treatise now states this explicitly.
+
+- **Context (S05-D01):** deliberately broad; each model must specify which context components are included and how they enter observation, transition or decision rules. Otherwise “context” risks becoming a catch-all explanation.
+- **Null condition (S05-D02):** correctly requires the absent input class to be specified; absence of external input does not imply absence of internal state or rules.
+- **Intelligence (S05-D03):** framework-specific operational definition, not a validated intelligence measure or a claim about consciousness.
+- **Novelty (S05-D04):** relative to a specified system/reference set; not equivalent to information from nothing or scientific novelty.
+- **Discovery (S05-D05):** requires a justified relationship to the target through valid derivation, successful prediction or evidence; generated possibility alone is insufficient.
+- **Habit (S05-D06):** functional definition in terms of reduced dependence on deliberative evaluation; empirical use requires a specified behavioural assay and outcome-sensitivity criterion. Repetition or automaticity alone does not identify one universal habit mechanism, as the R19/R53 cross-paradigm evidence already shows.
+- **Distraction (S05-D07):** functional displacement definition; empirical use requires target objective, eligible opportunity, competing response, displacement measure and time window.
+- **Self-mastery (S05-D08):** normative/functional construct; measurement requires explicit chosen objectives, trade-offs and outcome criteria.
+
+**Disposition:** retain as working definitions. They are not validated instruments or universal natural kinds; each must be operationalized for the target population, domain and intended use.
+
+### 109.5 Controlled wording changes and verification
+
+The current treatise was fetched after commits `14e50448a67aaf28cfe23cb7a1097babd27bcc36`, `4dcfbc3b13434bbe0b74cd44147a632517458ff7` and `127d5e32d586f601df06a08f0add93ee8265f7f2`. Current treatise blob: `1c98a05223f4f3423ee5637c2752c72b9143c3a0`.
+
+Changes include:
+1. §1 now avoids treating disciplinary separation as universally artificial.
+2. §3 scopes the observation/action cycle to agent/controller instantiations.
+3. §4 identifies the eight items as heterogeneous working premises, qualifies Axioms 4 and 6, and distinguishes capability hypothesis from methodological safeguard.
+4. §5 labels the definitions as stipulations and adds operational boundaries for context, habit, distraction and self-mastery.
+
+### 109.6 Coverage accounting
+
+| Section/claim | Status | Remaining dependency |
+|---|---|---|
+| S01-C01 / S01-C02 | Examined; organizing hypothesis and methodological constraint | No integrated mechanism established. |
+| S02-C01 | Examined; taxonomy issue remains open | Complete controlled taxonomy crosswalk. |
+| S03-M01 / S03-EQ01–EQ05 | Examined; schematic only | Type domains/codomains, clocks, update ordering, observation model, policy/parameter semantics and Markov sufficiency. |
+| S04-A01–A08 | Examined; heterogeneous premises | No formal consistency proof or minimal axiom derivation; quantitative resource boundary remains unspecified. |
+| S05-D01–D08 | Examined; stipulative definitions | Domain-specific operational measures and validation remain necessary. |
+
+**Source-access ledger:** R09 full original paper; R10 abstract only; R60 full primary article; R61 PubMed abstract only; R62 full primary article. No source is represented as validating the whole axiomatic framework.
+
+**Batch accounting:** five opening sections examined; eight axioms and eight definitions classified; five source records' scope preserved; three groups of wording clarifications made. The macro state remains schematic and not executable. No experiments A–F, preregistration, recruitment, intervention or tracker edit occurred.
+
+**Next:** proceed with the typed architecture and dependency audit: reconcile \(\mathcal S_t\), behavioural state, policy parameters, controller state and ROOT operational state without assuming equivalence. The full 95-section sentence-level audit, taxonomy crosswalk, mathematical dependency closure, rendered inspection and qualified independent external review remain open.
