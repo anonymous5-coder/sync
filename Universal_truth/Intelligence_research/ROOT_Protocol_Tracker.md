@@ -47,7 +47,7 @@ RECOGNISE -> OBSTRUCT -> OVERRIDE -> RETURN TO TASK
 
 # 2. State estimation and variable dictionary
 
-The ROOT state vector from the treatise is:
+The ROOT operational rating vector is:
 
 $$
 s_t=(c_t,u_t,f_t,d_t,g_t,h_t,e_t)
@@ -63,7 +63,7 @@ $$
 | $h_t$ | Competing habit strength in this context | 0 negligible; 5 strongly established |
 | $e_t$ | Accessibility of competing action | 0 effectively inaccessible; 5 immediate access |
 
-These are ordinal self-ratings, not laboratory measurements. Keep their meaning stable across the experiment. In particular, $f_t$ is perceived fatigue; it does not measure neural metabolism or objective physiological load. In the treatise's reduced six-variable model, $z_t$ denotes task demand and corresponds only approximately to this tracker's $d_t$. The seven ratings are not assumed equally spaced or directly additive.
+These are ordinal self-ratings, not laboratory measurements or a Markov-sufficient system state. Within this tracker, $s_t$ is local shorthand for the ROOT operational rating vector $s_t^{\mathrm{ROOT}}$. It is distinct from the macro state $\mathcal{S}_t$, the reduced behavioural predictor vector $b_t$ in §39, and the RL state $s_t^{\mathrm{RL}}$ in §22. The six-variable vector $b_t=(g_t,c_t,u_t,f_t,z_t,h_t)$ corresponds only approximately to the ROOT ratings: $z_t$ is task demand/difficulty and maps approximately to $d_t$, while $e_t$ is an additional accessibility rating. Here $f_t$ is perceived fatigue, not neural metabolism or objective physiological load; $g_t$ is goal activation, not the full goal/constraint structure $G_t$; $h_t$ is a personal rating, not an identified measurement of latent $H_t$ or $H_{\mathrm{alt},t}$; and $e_t$ is accessibility, not the full environment $E_t$. The seven ratings are not assumed equally spaced or directly additive. The tracker's day, focus-block and episode time index is a measurement clock, not automatically the RL or controller update clock.
 
 ## 2.1 Episode representation
 
@@ -73,11 +73,13 @@ $$
 \mathcal{E}_t=(\text{cueID}_t,s_t,a_t,r_t,\tau_t,\mathrm{RTL}_t,\iota_t)
 $$
 
-Operationally, $\text{cueID}_t$ identifies the trigger/context, while $c_t$ inside $s_t$ is its cue-intensity rating. Each episode records the trigger identifier, state, action, immediate consequence, duration, return-to-task latency, and intervention used.
+Operationally, $\text{cueID}_t$ identifies the trigger/context, while $c_t$ inside $s_t$ is its cue-intensity rating. Each episode records the trigger identifier, ROOT rating vector, action, immediate consequence, duration, return-to-task latency, and intervention used. The episode consequence $r_t$ is a recorded outcome; it is not automatically the RL reward $r_{t+1}$ in §22 or the feedback/reward placeholder $R_t$ in §§71/95 without an explicit coding rule.
 
 ## 2.2 Action-cost arbitration
 
-The source action score is:
+The source action score is the same candidate $Q(a)$ defined in §19; it is distinct from the RL action-value function $Q_{\mathrm{RL}}(s_t^{\mathrm{RL}},a_t)$ in §22. The tracker does not estimate its coefficients:
+
+
 
 $$
 Q(a)=R(a)+L(a)-\rho E(a)-\gamma C_{\mathrm{ctrl}}(a)
@@ -112,6 +114,8 @@ Do not invent precise coefficient estimates. Record the dominant advantage that 
 $$
 RTL=t_{\mathrm{resume}}-t_{\mathrm{notice}}
 $$
+
+The source's feedback model is a conceptual reference, not a fitted or computable update from the ordinal ROOT ratings. The tracker does not define a projection from $s_t$ to the controller deviation state $x_t$:
 
 The source's feedback model is:
 
