@@ -6265,3 +6265,71 @@ R16 and R18 provide computational/review context for model-free and model-based 
 **Batch accounting:** six sections examined; nine stable claims examined; Landauer assumptions clarified; state-conditioning added to action score and local proposition; softmax assumptions and IIA made explicit; habit caching and cost inequality qualified. No physical-to-cognitive bridge, per-thought energy conversion, universal habit mechanism or human choice law was validated. No experiments A–F, preregistration, recruitment, intervention or tracker-scale change occurred.
 
 **Next:** continue sentence-level verification across the remaining physical–cognitive bridge and recursive-intelligence claims, then revisit the unresolved mathematical dependencies. Full 95-section coverage, rendered inspection and independent external review remain open.
+
+
+## 112. Exact source-pinpoint and sentence-level audit — §§23 and 27 reinforcement and habit-prediction claims (10 November 2026)
+
+**Audit scope.** Re-read §23's negative-reinforcement explanation and §27's proposed predictors of habit-like control. Inspected the official APA negative-reinforcement definition, OpenStax operant-conditioning text, Berridge & Robinson (2016), Schwabe & Wolf (2009), Lim & Dinges (2010), Perez & Urcelay (2025), and the existing screen-time/context source dispositions.
+
+### 112.1 §23 — negative reinforcement (S23-C01)
+
+R17, APA Dictionary of Psychology, entry “negative reinforcement,” updated 19 April 2018, was inspected. It defines the process as removal, prevention or postponement of an aversive stimulus contingent on a response, increasing the probability of that response. R76, OpenStax *Psychology*, §6.3 “Operant Conditioning,” full accessible section inspected, lines 46–53 and 62–66, independently distinguishes reinforcement from punishment and explains that negative reinforcement increases behaviour by removing an undesirable stimulus.
+
+**Assessment:** the technical definition requires both response contingency and a subsequent increase in response probability. A reduction in discomfort alone is not enough. The current §23 wording preserves this distinction and does not claim that any particular avoidance behaviour is maintained by relief.
+
+The discomfort variable previously denoted \(u_t\), colliding with ROOT's urge rating. It is now \(\xi_t^{\mathrm{av}}\), an aversive-state intensity. The text explicitly distinguishes it from ROOT urge \(u_t\) and the §60 controller input \(v_t\).
+
+**Disposition:** S23-C01 is examined and appropriately qualified. The inequality \(\xi_t^{\mathrm{av}}>\xi_{t+1}^{\mathrm{av}}\) represents a reduction in aversive-state intensity only; it is not by itself a reinforcement law or evidence that the avoidance response will strengthen.
+
+### 112.2 §27 — cue-triggered incentive salience (S27-C01)
+
+R23, Berridge & Robinson (2016), full author-hosted review PDF inspected in the earlier source audit; current bibliographic/abstract record rechecked. The review distinguishes cue-triggered incentive-salience “wanting” from hedonic “liking” (printed pp. 670–672) and explicitly distinguishes technical “wanting” from ordinary cognitive desire with a declarative goal (p. 671). Its main scope is addiction and related motivational processes, with later discussion of other behavioural addictions.
+
+**Disposition:** the treatise now describes incentive salience as a distinct technical wanting mechanism documented particularly in addiction-related domains, not a generic synonym for urge or ordinary desire. Do not generalize the addiction literature to all habits or distraction.
+
+### 112.3 §27 — acute stress and habit-like responding (S27-C01)
+
+R26, Schwabe & Wolf (2009), full *Journal of Neuroscience* article inspected through the PMC indexed record. Eighty participants were recruited; 13 were excluded for disliking the food outcomes and seven for insufficient instrumental learning, leaving 60 in the final analysis (30 stress, 30 control). The stress manipulation occurred before instrumental learning and used a socially evaluated cold-pressor procedure. The critical outcome-devaluation test showed more devaluation-insensitive responding in the stress group in the tested task.
+
+The effect is bounded to that stress timing, task, sample and outcome-devaluation assay. The authors discuss the possibility that stress reduced goal-directed control rather than demonstrating a strengthened habit system. The study does not establish a universal stress effect, chronic-stress effect, or increase in all habitual action rates.
+
+**Disposition:** the current §27 bullet correctly specifies acute stress before instrumental learning and states that the result may reflect reduced goal-directed control rather than universal habit strengthening.
+
+### 112.4 §27 — sleep deprivation as a separate moderator
+
+R25, Lim & Dinges (2010), “A meta-analysis of the impact of short-term sleep deprivation on cognitive variables,” *Psychological Bulletin* 136(3), 375–389, DOI 10.1037/a0018883. The publisher/abstract record and bibliographic metadata were inspected; full article PDF was not accessible in this pass. The meta-analysis covers 70 articles and 147 cognitive tests of short-term total sleep deprivation (under 48 hours). It reports domain-dependent effects, with large impairment for simple-attention lapses.
+
+**Disposition:** R25 supports cognitive-performance impairment under short-term total sleep deprivation, not a habit-selection or stress-like mechanism. The treatise correctly separates sleep loss from the stress-induced outcome-devaluation result.
+
+### 112.5 §27 — delayed action–outcome feedback (S27-C01)
+
+R79, Perez & Urcelay (2025), full 8-page open-access article inspected. Three human fictitious-investment experiments (N=53, 39 and 198; total N=290) compared immediate feedback with a five-second delay. Action rates were lower in delayed-feedback contexts in all three experiments (PDF pp. 1–3, Table 1, lines 44–60). The combined sample showed a significant Delay × Value interaction in outcome-revaluation sensitivity (F(1,289)=5.69, p=.018; PDF p. 3, lines 83–88). The individual preregistered ANOVAs did not each reach significance (p=.062, .151 and .098; lines 83–85). The authors note the fictitious task, single delay duration and uncertain transfer to primary/social rewards (PDF pp. 5–6, lines 173–183).
+
+**Disposition:** the current §27 wording accurately says delayed feedback can weaken goal-directed action–outcome sensitivity in the tested paradigm, while explicitly avoiding the claim that it increases absolute habitual response rates. It now records the actual finding that action rates fell under delay.
+
+### 112.6 §27 — environmental friction and other proposed predictors
+
+- **Control effort and uncertainty:** R15's model-based/model-free arbitration experiment and R24's expected-value-of-control theory support neighbouring mechanisms in specified tasks; neither validates a universal rule that higher effort always increases habitual responding.
+- **Context and automaticity:** R29's meta-analysis concerns positive health-habit formation and excludes studies focused on stopping non-virtuous behaviours; R30's randomized walking study found context effects on automaticity without corresponding walking maintenance. Neither validates a general distraction-habit law.
+- **Environmental friction:** R33's randomized grayscale field experiment and R34's one-week obstruction field experiment provide bounded evidence that interface/environmental changes can alter screen-use measures. They do not establish the full proposed friction mechanism or directly measure urge intensity. R34 also reports decline in control-group objective use, so a simple pre/post decrease is not a clean intervention effect.
+- **Relief versus incentive salience:** negative reinforcement (R17/R76) and cue-triggered incentive salience (R23) are distinct mechanisms; neither is established merely by an elevated self-rated urge.
+
+**Disposition:** S27-C01 remains a synthesis of testable, domain-specific predictions. No source establishes the complete physical–cognitive bridge or a universal predictor set for habit-like control.
+
+### 112.7 Coverage accounting
+
+| Claim/predictor | Status | Evidence and limitation |
+|---|---|---|
+| S23-C01 | Examined; definition supported | R17 official APA definition; R76 OpenStax §6.3; no individual causal attribution. |
+| Cue-triggered incentive salience | Examined; domain-qualified | R23 full review, pp. 670–672; technical wanting is not ordinary desire. |
+| Acute stress | Examined; bounded primary evidence | R26 full article; 80 recruited, final N=60; stress before learning; possible reduction in goal-directed control. |
+| Sleep deprivation | Examined; cognitive-performance evidence only | R25 publisher/abstract record; 70 articles/147 tests; no habit-selection claim. |
+| Delayed feedback | Examined; bounded primary evidence | R79 full article; 3 experiments, N=290; action rates fell and combined-sample revaluation sensitivity declined. |
+| Environmental friction | Examined; partial support | R33 full field experiment and R34 abstract/record; no direct urge measurement or universal friction mechanism. |
+| Unified habit-prediction model | Examined; remains hypothesis | Predictors are heterogeneous; no validated joint model or causal identification. |
+
+**Source-access ledger:** R17 official APA Dictionary entry inspected; R76 full OpenStax §6.3 inspected; R23 full review inspected in the earlier audit and abstract/metadata rechecked; R25 publisher/abstract record only in this pass; R26 full article inspected through PMC indexed text; R79 full open-access article inspected; R33 full article and R34 abstract-level access retained as previously recorded.
+
+**Batch accounting:** two sections examined; one technical reinforcement claim and six proposed predictor mechanisms reviewed; one symbol collision removed; stress and delayed-feedback claims narrowed to tested paradigms; no individual relief mechanism or universal habit predictor validated. No experiments A–F, preregistration, recruitment, intervention or tracker-scale changes occurred.
+
+**Next:** continue the exact source-pinpoint audit for the remaining high-impact Recursive Intelligence and ROOT claims. Complete sentence-level coverage, typed mathematical dependency closure, rendered inspection and qualified independent external review remain outstanding.
