@@ -1614,7 +1614,7 @@ The protocol must be adaptive, not dogmatic.
 
 ---
 
-**Claim-linked evidence register records:** R27, R29, R30, R38, R41, R42, R47, R50. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R27, R29, R30, R38, R41, R42, R47, R50. These sources inform measurement/reporting methods and selected context/habit comparators; they do not validate the proposed observe–estimate–intervene–measure–update loop or show that individualized adaptation outperforms a fixed rule. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 # PART IX — RECURSIVE INTELLIGENCE: FORMAL SELF-MODIFICATION
 
@@ -1860,9 +1860,9 @@ $$
 
 and, as a testable hypothesis rather than an algebraic consequence:
 
-$
+$$
 p_h(s\mid e'_t)<p_h(s\mid e_t)
-$
+$$
 
 This probability inequality requires a monotonic response model and assumptions about substitution, competing actions and context; lowering accessibility alone does not prove it.
 
@@ -1878,7 +1878,7 @@ Examples:
 
 Obstruction is not punishment. It is system design.
 
-**Claim-linked evidence register records:** R33, R34. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R33, R34. These studies provide limited evidence for specific digital-friction/screen-time effects; they do not establish that reducing accessibility necessarily reduces the probability of every competing action. The displayed probability inequality remains a context-specific hypothesis requiring the stated monotonicity and substitution assumptions. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 55. O — Override
