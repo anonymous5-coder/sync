@@ -5920,3 +5920,74 @@ Treatise commit `1ab2008bdf391abc347f7e5ba65ef3cd28f25e80` introduced these chan
 
 **Next:** continue the Space or Null Theory / Out of Box Theory audit with §§6, 8, 9, 12 and 15, including the taxonomy crosswalk and source alignment. The full 95-section sentence-level audit, mathematical dependency closure, typed architecture, rendered inspection and qualified independent external review remain open.
 
+
+
+## 108. Scope and evidence audit — §§6, 8, 9, 12 and 15 (10 November 2026)
+
+**Audit scope.** Re-read the current Space or Null Theory statement, newborn/empty-system thought experiment, central Out of Box question, six inference modes and epistemic classification. Rechecked R06–R08 source access and the logical/Bayesian references R02, R04 and R05. This batch addresses scope and epistemic status; it does not validate a new theory or mechanism.
+
+### 108.1 §6 — Space or Null Theory statement
+
+The two cases are: external-context acquisition through new observations, and internal-context operation using stored representations/architecture without new observations. This is a useful framework distinction, but “context” includes internal state as well as external observations; the claim therefore functions partly as a stipulated definition.
+
+**Disposition:** retain as a framework-level scope statement, not a distinct empirical law. Stronger cognitive claims require operational definitions of external input, internal state, processing and measurable outcomes. No source is required for the stipulated definition itself.
+
+### 108.2 §8 — newborn and empty-system thought experiment (S08-C01)
+
+- **R06, DeCasper & Spence (1986):** publisher abstract and bibliographic record inspected; full article text was not accessible. The study reports that pregnant women recited a passage daily during the final six weeks of pregnancy and that newborns preferred the familiar passage in an operant-choice test relative to a novel passage, while matched controls showed no corresponding difference. This supports a specific prenatal auditory-exposure effect on postnatal preference; it does not establish broad innate knowledge or general intelligence at birth.
+- **R07, Weiss et al. (2024):** PubMed/publisher abstract inspected; full Nature Human Behaviour article not accessible. The review frames birth as one transition within a developmental pathway beginning in the womb and summarizes prenatal sensory/physiological development and later infant brain/behaviour trajectories. It is review-level synthesis, not a single primary experiment.
+- **R08, Dehaene-Lambertz & Spelke (2015):** full author-hosted *Neuron* perspective PDF inspected, pp. 93–109. It reviews early language and approximate-number capacities (pp. 93–95), the limitations and developmental stages of infant cognition (pp. 95–97), and late-gestation cortical organization and connectivity (pp. 96–98). It also explicitly notes the limits of current knowledge and the difficulty of infant neuroimaging (pp. 96–97).
+
+**Disposition:** S08-C01 is supported with qualifications. Newborns have developed neural organization and some early perceptual/cognitive capacities; prenatal exposure can produce specific learned preferences. These findings do not imply adult-like reasoning, comprehensive innate representations, or a blank-free system containing detailed knowledge of the world. The treatise now explicitly distinguishes prenatal learning from inherited/developmental organization.
+
+The artificial-network comparison is a conceptual analogy: at inference time, architecture and parameters reflect design and prior training. It should not be treated as biologically equivalent to prenatal development.
+
+The empty-space checklist is a thought experiment about operating conditions. Sensors are not individually necessary for every offline computational process; the argument is that removing all substrate, state, memory, transition rules and energy leaves no operating system. The list should not be read as a theorem requiring every listed component in every form of intelligence.
+
+### 108.3 §9 — central Out of Box question
+
+The central answer is conditional: an unobserved proposition can be derived if it follows from the model's premises. The current text now states that such a derivation describes the actual world only if those premises are true of that world. This is consistent with Theorem 1 and prevents derivability from being conflated with empirical truth.
+
+**Disposition:** examined; logically correct as a conditional statement. No new empirical discovery is implied.
+
+### 108.4 §12 — six modes of Out of Box inference
+
+The six listed modes—combinatorial novelty, structural inference, model-based prediction, abductive construction, mathematical discovery and empirical anticipation—are broad categories drawn from established inferential activities. They are heterogeneous and can overlap. The current wording correctly describes them as established operations and says that listing them together does not establish a single new mechanism.
+
+R02 supports the distinction between semantic consequence and other consequence relations; R04/R05 support probabilistic updating and ampliative statistical inference. These sources do not establish that the six modes form a unified mechanism or that the framework is novel relative to existing accounts of deduction, abduction, model-based inference, Bayesian prediction and algorithmic reasoning.
+
+**Disposition:** retain as an organizing taxonomy or synthesis, not a validated theory of a single cognitive mechanism. Any novelty claim must be established by comparison with existing frameworks and explicit discriminating predictions.
+
+### 108.5 §15 — epistemic classification
+
+The current table labels imagined possibility, internally consistent hypothesis, deductive consequence, probabilistic prediction, independently corroborated discovery and robust explanatory structure. These are not mutually exclusive or strictly ordinal categories: a deductive consequence can also be empirically corroborated; a probabilistic prediction may be calibrated without being a theorem; robust explanatory status involves replication and alternatives rather than simply being “above” a logical derivation.
+
+The treatise now states that the ladder is an editorial classification aid and requires separate recording of logical status, empirical support, source independence and generalization.
+
+**Disposition:** the classification is suitable as an internal editorial heuristic, not a validated epistemic scale or a single ordering of truth. It must be kept distinct from the project's governing epistemic-status taxonomy (established result, definition, formal proposition, empirical hypothesis, modelling assumption, speculation and personal measurement convention). The taxonomy crosswalk remains a separate task; no categories have been silently collapsed.
+
+### 108.6 Controlled wording corrections and verification
+
+The live treatise was fetched after commit `a351f32a72be4bec3152fff1750fa1362a2c846c`, blob `05a0c06a6072738cd1085434239b180b5efa2b56`. The corrections:
+
+1. Label §6 as a framework definition/systems-level observation, not a distinct empirical law.
+2. Distinguish prenatal learning from inherited/developmental organization in §8 and limit what the evidence says about newborn cognition.
+3. State in §9 that derivability describes the actual world only if the premises are true of that world.
+4. Describe the six Out of Box modes as established inferential categories, not a newly validated mechanism.
+5. Reframe §15 as a non-ordinal editorial classification with separate logical, empirical, independence and generalization dimensions.
+
+### 108.7 Coverage accounting
+
+| Section/claim | Status | Evidence and limitation |
+|---|---|---|
+| §6 | Examined; stipulated framework statement | No independent empirical law or novel mechanism established. |
+| S08-C01 | Examined; supported with qualifications | R06 abstract only; R07 review abstract only; R08 full *Neuron* perspective inspected. Specific early capacities and prenatal learning, not adult-like reasoning or comprehensive innate knowledge. |
+| §9 | Examined; conditional logical statement | Correct if the premises entail the proposition; actual-world truth requires premises to hold. |
+| §12 | Examined; organizing taxonomy | Six modes are established and heterogeneous; no single mechanism or novelty claim established. |
+| §15 | Examined; editorial heuristic | Non-ordinal and overlapping categories; governing taxonomy crosswalk remains outstanding. |
+
+**Source-access ledger:** R06 publisher abstract/metadata only; R07 PubMed/publisher abstract only; R08 full author-hosted PDF pp. 93–109; R02/R04/R05 full SEP archived entries inspected in the preceding batch. No source is represented as proving the entire Space or Null Theory or Out of Box Theory.
+
+**Batch accounting:** five sections examined; one empirical newborn claim examined; framework definition, inference taxonomy and epistemic classification reviewed; five scope clarifications made. No new theory, cognitive mechanism or empirical result validated. No experiments A–F, preregistration, recruitment, intervention or tracker edit occurred.
+
+**Next:** continue the remaining high-impact Space or Null Theory and Out of Box Theory sentence-level audit, especially §§1–5 and the source-to-claim fit of the opening axioms and formal state description. The full 95-section audit, taxonomy crosswalk, mathematical dependency closure, typed architecture, rendered inspection and qualified independent external review remain open.
