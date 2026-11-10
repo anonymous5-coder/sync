@@ -671,12 +671,12 @@ The brain does not simply choose the task with the greatest abstract long-term v
 
 Let $a$ denote an available action. Define:
 
-- $R(a)$: expected task or reward value;
-- $E(a)$: expected physical/physiological energy expenditure, distinct from subjective effort;
-- $C_{\mathrm{ctrl}}(a)$: control and deliberation cost;
-- $D(a)$: delay cost;
-- $K(a)$: switching or initiation cost;
-- $L(a)$: expected long-term consequence;
+- $R(a\mid s)$: expected task or reward value;
+- $E(a\mid s)$: expected physical/physiological energy expenditure, distinct from subjective effort;
+- $C_{\mathrm{ctrl}}(a\mid s)$: control and deliberation cost;
+- $D(a\mid s)$: delay cost;
+- $K(a\mid s)$: switching or initiation cost;
+- $L(a\mid s)$: expected long-term consequence;
 - $\rho$: weighting of energetic cost;
 - $\gamma$: weighting of control cost;
 - $\delta$: weighting of delay;
@@ -722,7 +722,7 @@ Consider two actions:
 The long-term objective may favour $a_f$:
 
 $$
-L(a_f)>L(a_h)
+L(a_f\mid s)>L(a_h\mid s)
 $$
 
 But the habitual response may have:
@@ -752,9 +752,9 @@ The gap does not require the person to be unintelligent. It requires only that t
 
 **Derivation:**
 
-1. Let the long-term objective value be $V_L(a)$.
+1. Let the long-term objective value be $V_L(a\mid s)$. For this proposition, $Q(a\mid s)=V_{\mathrm{immediate}}(a\mid s)+V_L(a\mid s)-C(a\mid s)$ is a local decomposition of the candidate score in §19; an application must specify how its immediate-value and cost terms map to §19's detailed components.
 2. Let immediate selection value be $Q(a\mid s)=V_{\mathrm{immediate}}(a\mid s)+V_L(a\mid s)-C(a\mid s)$.
-3. Suppose $V_L(a_f)>V_L(a_h)$.
+3. Suppose $V_L(a_f\mid s)>V_L(a_h\mid s)$.
 4. Suppose the cost and immediate-value difference satisfies:
 
 $$
@@ -766,7 +766,7 @@ V_L(a_f\mid s)-V_L(a_h\mid s)
 $$
 
 5. Then $Q(a_h\mid s)>Q(a_f\mid s)$.
-6. Under softmax selection with $\beta>0$, $a_h$ is more probable than $a_f$. A greedy selector chooses $a_h$ only if it is a maximizer over the full feasible action set.
+6. If the softmax selector in §19 uses this same score and $\beta>0$, $a_h$ is more probable than $a_f$. A greedy selector chooses $a_h$ only if it is a maximizer over the full feasible action set.
 
 Therefore, under the stated score definitions and selector conditions, the model can favour an action that conflicts with the reflective long-term objective.
 
@@ -796,13 +796,13 @@ The inequality $C_h<C_m$ is a modelling assumption, not a universal empirical la
 This is the proposed duality:
 
 $$
-\boxed{\text{Habit = computational efficiency under repetition}}
+\boxed{\text{Habit can provide computational efficiency under repetition when the cached response remains suitable}}
 $$
 
 and
 
 $$
-\boxed{\text{Maladaptive habit = cached efficiency misapplied to a changed objective}}
+\boxed{\text{A maladaptive habit can occur when a cached response persists after the objective or context changes}}
 $$
 
 A habit is not inherently bad. Its value depends on whether the cue-response mapping remains aligned with current goals and conditions.
