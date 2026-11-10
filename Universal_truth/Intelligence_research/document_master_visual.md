@@ -1020,7 +1020,7 @@ where:
 
 This decomposition resolves the ambiguity in the phrase "no context." A system can have no new external context while retaining internal, structural, and goal context.
 
-**Claim-linked evidence register records:** R30. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R30. This is a specific randomized walking-habit/context study; it informs the example of context consistency, not the full broad context definition or every category in the decomposition. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 29. Research question A2: Can meaningful inference occur with zero external input?
@@ -1137,7 +1137,7 @@ $$
 
 This is a general engineering relation. It says that intelligence as implemented by a physical system is constrained by its substrate and task.
 
-**Claim-linked evidence register records:** R09, R10, R11, R13, R14, R60, R61, R62. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R01, R09, R10, R11, R13, R14, R60, R61, R62, R74. R01 supports channel information/noise concepts; R74 addresses physical computation-rate and memory limits; R09/R10 concern logically irreversible erasure; R11/R13/R14/R60–R62 provide neural-energy and effort context. These are distinct constraints, not one universal scalar limit. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 32. Research question A5: Can intelligence be mathematically distinguished from computation?
@@ -1360,7 +1360,7 @@ A difficult task may be manageable after adequate sleep but disproportionately c
 
 This does not establish that every focus problem is caused by sleep or stress. It establishes that they are plausible state variables that should be measured rather than ignored.
 
-**Claim-linked evidence register records:** R25, R43, R44. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R25, R26, R30, R43, R44. R25/R43/R44 support sleep-related effects in specific paradigms; R26 provides a stress–habit comparator; R30 provides a specific consistent-context/walking-habit result. These studies do not establish universal effects across people, tasks or chronic conditions. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 38. A multi-timescale model of unwanted loops
@@ -1414,7 +1414,7 @@ This is a proposed statistical model, not a fitted or validated model. Its linea
 
 The key point is that an unwanted action is a function of a state, not a mysterious failure of character.
 
-**Claim-linked evidence register records:** R27, R42, R44. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R27, R42, R44, R75. R75 is the statistical source for the logistic-regression model class; R27 concerns testing/measurement standards, R42 concerns EMA validity, and R44 is a sleep-restriction comparator. None validates the six-variable state, its coefficients, linear predictor, or repeated-observation specification. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 
 ## 40. The unified result of Investigation B
@@ -1429,7 +1429,7 @@ This provides a mechanistic account of why a person may know what to do yet repe
 
 ---
 
-**Claim-linked evidence register records:** R16, R19, R23, R26. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
+**Claim-linked evidence register records:** R15, R16, R18, R19, R23, R24, R25, R26, R28, R30, R43, R44. These are representative sources for the component summaries on learning, wanting/liking, habit, arbitration, sleep, stress and context. Section 40 is a synthesis of §§34–39, not independent evidence or a declaration that Investigation B is empirically resolved. Full bibliographic metadata, source-access status, claim-specific mappings and pinpoints are maintained in `CLAIM_EVIDENCE_REGISTER.md`.
 
 # PART VIII — INVESTIGATION C: RECURSIVE INTELLIGENCE AND SELF-MASTERY
 
