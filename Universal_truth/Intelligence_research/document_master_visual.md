@@ -854,9 +854,9 @@ Not all reinforcement is pleasure-seeking.
 
 Let $\xi_t^{\mathrm{av}}$ denote the intensity of an aversive state. Suppose it precedes an avoidance action $a_e$, which temporarily reduces that state:
 
-$$
-u_t>u_{t+1}
-$$
+$
+\xi_t^{\mathrm{av}}>\xi_{t+1}^{\mathrm{av}}
+$
 
 This aversive-state variable is distinct from ROOT's urge rating $u_t$ and from the control input $v_t$ in §60. A reduction in discomfort is only a candidate consequence; by itself it does not establish reinforcement. It counts as negative reinforcement only if the reduction is contingent on the avoidance response and that response subsequently becomes more probable or frequent under relevant conditions, even if the action produces no lasting satisfaction.
 
